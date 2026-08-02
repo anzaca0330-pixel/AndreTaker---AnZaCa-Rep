@@ -55,4 +55,5 @@ Con base en la evidencia informática y estadística expuesta, esta veeduría t�
 
 **Firma:**
 *Andrea Zabala Cárcamo*
-*Analista de Datos / Veeduría Técnica Independiente*
+*Investigadora Forense Digital Independiente*
+*Virginia, EE.UU.*
