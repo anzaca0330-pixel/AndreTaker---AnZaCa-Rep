@@ -56,7 +56,7 @@ timeline
 ---
 
 ### Fase 3: Radicación Administrativa y Blindaje Legal (2 – 5 de Junio de 2026)
-- **2 de Junio de 2026:** Radicación del instrumento de *Denuncia Final por Presunto Fraude Electoral y Anomalías Estadísticas* interpuesta ante el CNE, Procuraduría General de la Nación, URIEL y MOE (Pilas con el Voto). Solicitud formal de recuento voto a voto, suspensión de declaratoria y peritaje informático.
+- **2 de Junio de 2026:** Radicación del instrumento de *Denuncia Final por Presunto Inconsistencia técnica electoral y Anomalías Estadísticas* interpuesta ante el CNE, Procuraduría General de la Nación, URIEL y MOE (Pilas con el Voto). Solicitud formal de recuento voto a voto, suspensión de declaratoria y peritaje informático.
 - **4 – 5 de Junio de 2026:** Construcción del marco doctrinario y legal de respaldo:
   1. *Nota Jurídica sobre Precedente del Consejo de Estado:* Documentación del desacato institucional de 8 años al fallo judicial que ordena permitir la auditoría del software electoral de escrutinio.
   2. *Refutación de Excepciones por Secreto Comercial y Ciberataques:* Análisis jurídico para desestimar defensas contractuales de "caja negra" o excusas de ataques cibernéticos externos.

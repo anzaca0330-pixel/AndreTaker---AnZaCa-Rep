@@ -28,7 +28,7 @@ La investigación se basó en la correlación de 10 vectores forenses ineludible
 | # | Hallazgo Técnico | Afectación Geográfica/Muestral | Herramienta | Significancia Forense |
 | :--- | :--- | :--- | :--- | :--- |
 | **1** | Objetos fantasma y daño XREF (15 vs 13) | 100% de la muestra revisada | QPDF | Inyección estructural sistemática de capas vectoriales. |
-| **2** | Errores críticos de decodificación | 100% de la muestra revisada | peepdf | Corrupción deliberada de la arquitectura interna del PDF. |
+| **2** | Errores críticos de decodificación | 100% de la muestra revisada | peepdf | Alteración estructural deliberada de la arquitectura interna del PDF. |
 | **3** | Eliminación de Metadatos de Tiempo | 100% de la muestra revisada | ExifTool | Borrado sistemático de la trazabilidad cronológica (Evasión Forense). |
 | **4** | **Técnica de "BlindMasking" (Plantilla B)** | Específicas de Martes a Sábado | ImageMagick | Uso de máscaras `DeviceGray` (blanco digital puro de media 65535) para ofuscar el documento original y sobreescribir datos electorales. |
 | **5** | PDFs Híbridos (Clonación) | Archivos Claveros vs Delegados | ImageMagick / pdfinfo | Mezcla anómala de archivos en Color (USB) y Blanco/Negro (Web) que comparten el mismo daño de inyección. |
@@ -55,7 +55,7 @@ La Registraduría ha intentado argumentar que los archivos publicados en la Web 
 ## 4. ESTRATEGIA DE OFUSCACIÓN Y TÁCTICAS DE DESVÍO (Teoría del Cebo)
 Durante la auditoría departamental cruzada, se descubrió un patrón táctico para desviar la atención de los peritos. En departamentos específicos como el Amazonas (donde el 100% de las actas tienen inyección XREF), el ganador asignado algorítmicamente fue el candidato Iván Cepeda Castro. 
 
-Se documenta esto como un **"Honeypot" Estadístico o Cebo**. Al nivel nacional, el fraude generalizado infló los votos de Abelardo de la Espriella. La inyección anómala a favor de Cepeda en zonas periféricas operó como una maniobra de distracción para agotar los recursos de auditoría de los investigadores en zonas donde el resultado ya estaba comprometido, encubriendo el verdadero planchado matemático nacional.
+Se documenta esto como un **"Honeypot" Estadístico o Cebo**. Al nivel nacional, el anomalía estructural generalizado infló los votos de Abelardo de la Espriella. La inyección anómala a favor de Cepeda en zonas periféricas operó como una maniobra de distracción para agotar los recursos de auditoría de los investigadores en zonas donde el resultado ya estaba comprometido, encubriendo el verdadero planchado matemático nacional.
 
 ---
 
@@ -74,7 +74,7 @@ Es imperativo dejar constancia legal de que esta investigación se ha desarrolla
 La metodología forense aplicada en esta investigación está sustentada en los siguientes estándares internacionales y literatura académica:
 
 - **Estándar de Cadena de Custodia (RFC 3227 / ISO 27037):** Aplicación estricta del **Principio de Solo Lectura (Read-Only Principle)**. Toda la metrología, extracción binaria y análisis de ofuscación se ejecutó estrictamente sobre copias criptográficas (clones bit a bit) para garantizar la preservación inmaculada de la evidencia original descargada de los servidores.
-- **Estándar PDF / Corrupción XREF:** *ISO 32000-1:2008 (Document management — Portable document format)*. Define la estructura obligatoria de la tabla de referencias cruzadas (XREF) y el flujo de objetos (`/Contents`).
+- **Estándar PDF / Alteración estructural XREF:** *ISO 32000-1:2008 (Document management — Portable document format)*. Define la estructura obligatoria de la tabla de referencias cruzadas (XREF) y el flujo de objetos (`/Contents`).
 - **Análisis Criptográfico (Hashes):** *NIST Federal Information Processing Standards (FIPS 180-4)*. Estándar de Seguridad para Funciones Hash Seguras (SHA-256).
 - **Metrología Estadística (Planchado Matemático):** Nigrini, M. J. (2012). *Benford's Law: Applications for Forensic Accounting, Auditing, and Fraud Detection*. John Wiley & Sons.
 - **Herramientas de Validación Forense:** Documentación técnica de `qpdf` (manipulación estructural), `peepdf` (análisis de ofuscación de malware en PDF), e `ImageMagick` (metrología de píxeles y extracción de máscaras `DeviceGray` para la técnica de BlindMasking).

@@ -30,11 +30,11 @@ xychart-beta
     bar [42.9, 13.2, 5.3, 6.1, 6.6, 6.6, 6.7, 6.4, 6.2]
 ```
 
-## 2. TOP 15 MUNICIPIOS CON MAYOR NIVEL DE FRAUDE ESTADÍSTICO
+## 2. TOP 15 MUNICIPIOS CON MAYOR NIVEL DE ANOMALÍA ESTRUCTURAL ESTADÍSTICO
 
 Se enlistan los municipios que exhiben la menor varianza (comportamiento robótico) o la mayor desviación a la Ley de Benford.
 
-| Código Dpto-Mpio | Total Mesas | Media Cepeda | Var Cepeda | Media Espriella | Var Espriella | Desviación Benford | Alerta Falsificación |
+| Código Dpto-Mpio | Total Mesas | Media Cepeda | Var Cepeda | Media Espriella | Var Espriella | Desviación Benford | Alerta Alteración digital |
 |---|---|---|---|---|---|---|---|
 | 88770 | 14 | 10.9 | 75.1 | 6.3 | 39.9 | 6.6% | **Alta Anomalía** |
 | 88315 | 28 | 11.0 | 54.4 | 14.5 | 86.5 | 5.4% | **Alta Anomalía** |

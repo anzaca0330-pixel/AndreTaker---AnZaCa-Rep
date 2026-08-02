@@ -8,9 +8,9 @@
 
 Señoría, la defensa intenta presentar un escenario de 'errores de hardware' y 'optimización web' que, al ser sometido a un escrutinio forense riguroso, se desmorona por completo. Las explicaciones de la Registraduría no solo son incompatibles con los estándares de la industria, sino que ignoran la **correlación causal** entre los hallazgos. A continuación, desmontamos punto por punto sus argumentos:
 
-### 1. Falsedad del "Error de Serialización" y Corrupción XREF
+### 1. Falsedad del "Error de Serialización" y Alteración estructural XREF
 **Argumento de la Defensa:** Es un error de memoria del escáner físico.
-**Refutación Pericial:** Si fuera un error de firmware aleatorio, esperaríamos una distribución aleatoria. Sin embargo, el análisis masivo muestra una **tasa de inconsistencia del 100%**. Los escáneres industriales (Kodak Alaris) tienen tasas de error inferiores al 0.01%. Una tasa del 100% de archivos con la *misma* firma de corrupción (misma estructura de objetos fantasma) es matemáticamente imposible en un proceso orgánico. 
+**Refutación Pericial:** Si fuera un error de firmware aleatorio, esperaríamos una distribución aleatoria. Sin embargo, el análisis masivo muestra una **tasa de inconsistencia del 100%**. Los escáneres industriales (Kodak Alaris) tienen tasas de error inferiores al 0.01%. Una tasa del 100% de archivos con la *misma* firma de alteración estructural (misma estructura de objetos fantasma) es matemáticamente imposible en un proceso orgánico. 
 Los errores arrojados por `peepdf` no son alertas de sintaxis; son **estructuras vectoriales inyectadas** (XObjects). Si fuera un error de escaneo, veríamos páginas borrosas, no capas ocultas que alteran idénticamente la tabla XREF (13 a 15 objetos) en millones de archivos. **Es una inyección programática centralizada.**
 
 ### 2. Inconsistencia de la "Política de Seguridad" (DLP)
@@ -46,7 +46,7 @@ Esto prueba lógicamente que **ambos fueron generados a partir de una misma plan
 
 ### 🏁 CONCLUSIÓN FINAL Y PETICIÓN AL TRIBUNAL
 Señoría, la defensa de la Registraduría no ha logrado refutar empíricamente la evidencia técnica central:
-1. La **corrupción XREF** existe en el servidor de origen (hashes comprobados en descarga).
+1. La **alteración estructural XREF** existe en el servidor de origen (hashes comprobados en descarga).
 2. La **desviación de Benford** es sistémica, nacional y matemáticamente irrefutable.
 3. Los **incidentes de seguridad** sufridos por esta Veeduría fueron medidas activas (APTs) diseñadas para detener la auditoría ciudadana.
 

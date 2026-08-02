@@ -35,7 +35,7 @@ Se procesó un volumen masivo de **25.061 archivos PDF** provenientes de diversa
 
 > [!NOTE]
 > **Importancia de la Muestra de Control**
-> De los 25.061 archivos evaluados, el filtro automatizado confirmó que **más de 25.050 archivos (99.96%) eran estructuralmente limpios y conservaban sus metadatos de fábrica**, aislando únicamente 10 documentos (0.04%) con problemas mecánicos o de digitalización física (corrupción, páginas faltantes o ilegibilidad). 
+> De los 25.061 archivos evaluados, el filtro automatizado confirmó que **más de 25.050 archivos (99.96%) eran estructuralmente limpios y conservaban sus metadatos de fábrica**, aislando únicamente 10 documentos (0.04%) con problemas mecánicos o de digitalización física (alteración estructural, páginas faltantes o ilegibilidad). 
 > 
 > Este análisis evidencia que es plenamente viable que las actas se digitalicen y transmitan preservando la trazabilidad de metadatos y la integridad sintáctica de los archivos PDF.
 

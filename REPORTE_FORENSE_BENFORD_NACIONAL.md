@@ -36,13 +36,13 @@ La Ley de Benford establece que en sistemas no intervenidos, el dígito 1 debe a
 | **9** | 06.18% | 04.58% | **+1.61%** | 🔴 **Pico Artificial Secundario** |
 
 **Total de Mesas Aisladas como "Relleno Artificial Flagrante" (Dígitos 8 y 9):** 15,211 mesas.
-**Mecanismo de Fraude:** Elevación artificial de mesas de baja votación natural (rango 20-40) al umbral de los 100+ votos, causando la hiper-densidad del dígito 1 y la desaparición consecuente de los dígitos 2, 3 y 4.
+**Mecanismo de Anomalía estructural:** Elevación artificial de mesas de baja votación natural (rango 20-40) al umbral de los 100+ votos, causando la hiper-densidad del dígito 1 y la desaparición consecuente de los dígitos 2, 3 y 4.
 
 ## 4. CONCLUSIÓN JURÍDICO-FORENSE
 Se certifica la alteración sistémica de la integridad de los resultados, tipificando una intervención volumétrica en la matriz de preconteo ajena a la voluntad del sufragante natural.
 
 ## 5. BIBLIOGRAFÍA FORENSE APLICADA
-1. **Nigrini, M. J. (2012).** *Benford's Law: Applications for Forensic Accounting, Auditing, and Fraud Detection*. John Wiley & Sons. (Aplicación al fraude aritmético).
+1. **Nigrini, M. J. (2012).** *Benford's Law: Applications for Forensic Accounting, Auditing, and Fraud Detection*. John Wiley & Sons. (Aplicación al anomalía estructural aritmético).
 2. **Mebane, W. R. (2006).** *Election Forensics: The Second-digit Benford's Law Test and Recent American Presidential Elections*. En "Election Fraud: Detecting and Deterring Electoral Manipulation" (pp. 162-181).
 3. **Roukema, H. F. (2014).** *A first-digit anomaly in the 2009 Iranian presidential election*. Journal of Applied Statistics.
-4. **Código Penal Colombiano, Ley 599 de 2000.** *Artículo 286 (Falsedad ideológica en documento público)* y *Artículo 388 (Fraude Electoral)*.
+4. **Código Penal Colombiano, Ley 599 de 2000.** *Artículo 286 (Falsedad ideológica en documento público)* y *Artículo 388 (Inconsistencia técnica electoral)*.

@@ -11,7 +11,7 @@ Se diseñó un script de Python de auditoría informática (`muestreo_masivo_dee
 La metodología ejecutó los siguientes pasos:
 1. **Descompresión Criptográfica:** Se extrajo la capa de imagen rasterizada de cada archivo PDF oficial descargado de los repositorios de la Registraduría (Directorio Claveros).
 2. **Escrutinio RGB Matricial:** El algoritmo iteró sobre la matriz de la imagen, evaluando cada píxel individualmente, y contando la frecuencia estricta de aquellos cuyo valor colorimétrico fuera exactamente RGB(255, 255, 255).
-3. **Umbral Pericial de Falsificación:** Todo archivo con más del 1.0% de Blanco Puro en su lienzo general de fondo es matemáticamente incompatible con las leyes de la refracción óptica, clasificándose irrevocablemente como un Deepfake Sintético.
+3. **Umbral Pericial de Alteración digital:** Todo archivo con más del 1.0% de Blanco Puro en su lienzo general de fondo es matemáticamente incompatible con las leyes de la refracción óptica, clasificándose irrevocablemente como un Deepfake Sintético.
 
 ## 3. Ficha Técnica y Muestreo Nacional
 *   **Población Objetivo:** Archivos PDF (Formulario E-14) publicados como resultados oficiales por la Registraduría Nacional del Estado Civil.
@@ -26,7 +26,7 @@ La metodología ejecutó los siguientes pasos:
 
 ### Desglose Estadístico Territorial
 
-| Departamento | Actas Analizadas | Deepfakes Detectados | Porcentaje de Falsificación | Veredicto Forense |
+| Departamento | Actas Analizadas | Deepfakes Detectados | Porcentaje de Alteración digital | Veredicto Forense |
 |---|---|---|---|---|
 | AMAZONAS | 100 | 0 | **0.00%** | 🟢 COMPORTAMIENTO ESPERADO |
 | ANTIOQUIA | 100 | 4 | **4.00%** | 🔴 ANOMALÍA SINTÉTICA |

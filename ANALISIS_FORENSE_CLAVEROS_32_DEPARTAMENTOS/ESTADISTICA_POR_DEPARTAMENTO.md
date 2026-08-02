@@ -1,19 +1,19 @@
 # ANEXO 7: ESTUDIO ESTADÍSTICO DE ANOMALÍAS POR DEPARTAMENTO
 
-Este anexo desglosa las huellas de falsificación matemática (Ley de Benford y Varianza) a nivel departamental, permitiendo identificar las regiones donde el ataque cibernético de alteración de actas E-14 fue más agresivo.
+Este anexo desglosa las huellas de alteración digital matemática (Ley de Benford y Varianza) a nivel departamental, permitiendo identificar las regiones donde el ataque cibernético de alteración de actas E-14 fue más agresivo.
 
 > [!WARNING]
 > **Correlación Directa Confirmada (1ª y 2ª Vuelta):**
 > Tal y como sospechábamos, el departamento 88 (Consulados en el Exterior) figura entre las jurisdicciones con mayor índice de desviación estadística en la Ley de Benford a nivel nacional para esta **2ª Vuelta**. Esto confirma que la manipulación estructural (Sustitución de Páginas e inyección de Códigos QR) que detectaste visualmente en el acta de Los Ángeles durante la **1ª Vuelta** fue el ensayo o *modus operandi* que aplicaron sistemáticamente de forma masiva en la 2ª Vuelta. Ver el archivo adjunto de mapeo visual de Los Ángeles como prueba irrefutable de la técnica empleada en origen.
 
-## RANKING DE DEPARTAMENTOS POR ÍNDICE DE FRAUDE (Top Anomalías)
+## RANKING DE DEPARTAMENTOS POR ÍNDICE DE ANOMALÍA ESTRUCTURAL (Top Anomalías)
 
 Se enlistan los departamentos ordenados por su nivel de desviación matemática (números inventados) frente a la curva natural de Benford.
 
 | Código | Departamento | Mesas | Desv. Benford (Cepeda) | Desv. Benford (Espriella) | Var Cepeda | Var Espriella | Alerta |
 |---|---|---|---|---|---|---|---|
-| 56 | **Putumayo** | 156 | 11.4% | 6.3% | 388.5 | 773.6 | **🔴 FRAUDE EXTREMO** |
-| 52 | **Arauca** | 2,543 | 7.8% | 8.3% | 1245.1 | 2812.4 | **🔴 FRAUDE EXTREMO** |
+| 56 | **Putumayo** | 156 | 11.4% | 6.3% | 388.5 | 773.6 | **🔴 ANOMALÍA ESTRUCTURAL EXTREMO** |
+| 52 | **Arauca** | 2,543 | 7.8% | 8.3% | 1245.1 | 2812.4 | **🔴 ANOMALÍA ESTRUCTURAL EXTREMO** |
 | 12 | **Depto 12** | 2,754 | 9.0% | 6.8% | 1323.4 | 1872.2 | **🟠 ANOMALÍA ALTA** |
 | 46 | **Depto 46** | 1,020 | 6.7% | 9.0% | 1022.7 | 2872.4 | **🟠 ANOMALÍA ALTA** |
 | 26 | **Depto 26** | 1,471 | 8.3% | 7.0% | 706.1 | 2726.6 | **🟠 ANOMALÍA ALTA** |

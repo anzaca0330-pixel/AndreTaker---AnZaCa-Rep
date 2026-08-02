@@ -31,7 +31,7 @@ Para suplir la ausencia de claveros consulares y realizar el peritaje forense so
 
 ### 4.2. Intentos Sistemáticos de Opacar la Verificabilidad Pública
 * **Asimetría Informativa Forzada:** Al no disponer de la rama 88 en la API de escrutinio y simultáneamente activar mecanismos de **Geo-bloqueo (Geofencing via Nexusguard/Cloudflare `cf-mitigated: challenge`)** que bloquean las solicitudes masivas desde IP internacionales (como se demostró en el peritaje de red), el Estado implementó un cerco técnico doble para impedir que la ciudadanía en el exterior audite sus propios votos.
-* **Imposibilidad de Cotejo Físico vs. Digital:** Sin actas E-14 de claveros publicadas para el Depto 88, los electores y veedores internacionales quedan imposibilitados para cotejar la copia física recibida por el jurado/testigo consular contra el dato consolidado final, obligando a la veeduría a desenmascarar el fraude mediante **prueba inferencial matemática ($Z = -56.96, p < 0.0001$)**.
+* **Imposibilidad de Cotejo Físico vs. Digital:** Sin actas E-14 de claveros publicadas para el Depto 88, los electores y veedores internacionales quedan imposibilitados para cotejar la copia física recibida por el jurado/testigo consular contra el dato consolidado final, obligando a la veeduría a desenmascarar el anomalía estructural mediante **prueba inferencial matemática ($Z = -56.96, p < 0.0001$)**.
 
 ---
 *Este documento y sus archivos anexos constituyen prueba pericial inmutable y garantizan la solidez jurídica de la impugnación electoral.*

@@ -12,7 +12,7 @@ El documento se titulará `DICTAMEN_PERICIAL_FORENSE_FINAL.md` y contendrá las 
 ### 2. Metodología Aplicada
 - Descripción de las herramientas utilizadas (`qpdf`, `pdfinfo`, `pdfimages`, algoritmos en Python para Ley de Benford).
 
-### 3. Hallazgo I: Falsificación Estructural (Inyección de Capas)
+### 3. Hallazgo I: Alteración digital Estructural (Inyección de Capas)
 - Explicación técnica de la anomalía XREF (15 objetos reportados vs 13 reales).
 - Sustentación de la inyección del vector `ColorSpace: DeviceGray` (Plantilla B).
 
@@ -23,7 +23,7 @@ El documento se titulará `DICTAMEN_PERICIAL_FORENSE_FINAL.md` y contendrá las 
 
 ### 5. Hallazgo III: Correlación Estadística Matemática
 - Resultados de la prueba 2BL (Ley de Benford del Segundo Dígito).
-- Cómo el fraude documental se traduce en una anomalía estadística imposible de generar orgánicamente.
+- Cómo el anomalía estructural documental se traduce en una anomalía estadística imposible de generar orgánicamente.
 
 ### 6. Conclusión Pericial
 - Veredicto técnico sobre la integridad de las elecciones y la manipulación centralizada de los documentos.

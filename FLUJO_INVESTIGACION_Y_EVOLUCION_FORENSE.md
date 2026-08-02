@@ -32,8 +32,9 @@ graph TD
   Al reducirse la elección a 2 candidatos, la alteración evoluciona a **Superposición de Capas Vectoriales (`/XObject 12 0 R`)** sobre las casillas de los 2 candidatos y depuración absoluta (100%) de metadatos `ExifTool`.
 
 ### 2.3. ¿Por qué el cálculo estadístico (Z-Score = -56.96, p < 0.0001) es la prueba reina?
-- **Inmunidad a la nivelación aritmética:** Un fraude por permutación de votos ($V_1 \leftrightarrow V_2$) mantiene inalterada la suma total ($\sum = 	ext{Constante}$), haciendo que pase inadvertido para los sistemas de validación E-11.
-- **Invariancia al Re-permutar:** Al re-permutar inversamente los votos ($V_1 ightarrow V_2$), la mesa retorna de forma matemática a la curva normal del grupo de control. Esto constituye prueba irrebatible de que la anomalía no fue un comportamiento social, sino un efecto inducido informáticamente.
+- **Inmunidad a la nivelación aritmética:** Un anomalía estructural por permutación de votos ($V_1 \leftrightarrow V_2$) mantiene inalterada la suma total ($\sum = 	ext{Constante}$), haciendo que pase inadvertido para los sistemas de validación E-11.
+- **Invariancia al Re-permutar:** Al re-permutar inversamente los votos ($V_1 
+ightarrow V_2$), la mesa retorna de forma matemática a la curva normal del grupo de control. Esto constituye prueba irrebatible de que la anomalía no fue un comportamiento social, sino un efecto inducido informáticamente.
 
 ---
 

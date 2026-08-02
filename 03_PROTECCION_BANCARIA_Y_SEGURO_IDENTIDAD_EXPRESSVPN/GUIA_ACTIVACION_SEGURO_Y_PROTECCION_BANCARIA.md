@@ -37,13 +37,13 @@ Por Ley Federal en EE.UU., tienes el derecho a **congelar tu crédito de forma 1
 3. **TransUnion:**  
    📞 **`+1-888-909-8872`** | 🌐 [transunion.com/credit-freeze](https://www.transunion.com/credit-freeze)
 
-> 💡 **Tip:** Al solicitar una **Alerta de Fraude (*Fraud Alert*)** en una sola de las centrales (ej. Experian), por ley están obligadas a compartir la alerta automáticamente con las otras dos centrales y con tus bancos.
+> 💡 **Tip:** Al solicitar una **Alerta de Anomalía estructural (*Fraud Alert*)** en una sola de las centrales (ej. Experian), por ley están obligadas a compartir la alerta automáticamente con las otras dos centrales y con tus bancos.
 
 ---
 
 ## 🏦 3. PASOS PARA EL REPORTE DIRECTO A LOS BANCOS
 
-1. **Llamar al Departamento de Fraudes de tu Banco (ej. SchoolsFirst FCU):**  
+1. **Llamar al Departamento de Anomalía estructural de tu Banco (ej. SchoolsFirst FCU):**  
    Llama al número que figura al respaldo de tu tarjeta bancaria e indica:  
    *"I am reporting identity theft and credential compromise. I need to place a Fraud Freeze on my accounts and issue new account numbers and cards."*
 2. **Solicitar Bloqueo de Cheques y Transferencias Wire/ACH:**  

@@ -47,7 +47,7 @@ Se aplicaron herramientas de código abierto (`QPDF`, `ExifTool`, `mutool`, `zba
 | :--- | :--- |
 | *"Fue un error de binarización del escáner"* | Un escáner no elimina los metadatos de fábrica en el archivo resultante, ni suprime selectivamente un QR conservando la legibilidad del texto en la misma imagen. Además, la compresión sintética de 1 bit de profundidad (gris puro) es evidencia de inyección por software. |
 | *"Se usaron distintos escáneres o configuraciones en las sedes"* | El 100% de los 987 archivos (provenientes de diversas sedes a lo largo de todo Estados Unidos) exhibe **exactamente el mismo patrón de error estructural** y el mismo vaciado de metadatos. Esto indica un único proceso centralizado de manipulación en lote (backend), no variaciones de hardware físico local. |
-| *"Fue negligencia operativa (no hubo mala fe)"* | La repetición exacta de errores algorítmicos (inyección de objetos y encubrimiento) sobre cientos de actas en distintos estados descarta la aleatoriedad de un error accidental, confirmando dolo y sistematización. |
+| *"Fue negligencia operativa (no hubo mala fe)"* | La repetición exacta de errores algorítmicos (inyección de objetos y opacidad técnica) sobre cientos de actas en distintos estados descarta la aleatoriedad de un error accidental, confirmando intervención deliberada y sistematización. |
 
 ---
 

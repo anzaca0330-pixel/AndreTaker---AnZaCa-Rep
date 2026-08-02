@@ -12,7 +12,7 @@
 
 Este informe consolida el sustento técnico-forense de la alteración de los formularios E-14 publicados por la Registraduría, demostrando mediante análisis estadístico (Primera Vuelta) y peritaje informático estructural (Segunda Vuelta) que los resultados oficiales presentan anomalías incompatibles con un proceso electoral legítimo.
 
-*Nota Metodológica:* Este análisis demuestra que **los documentos digitales publicados por la Registraduría y su operador tecnológico (E-14 de Delegados) contienen manipulación sintáctica artificial**, tipificando un fraude estructurado desde el software de escrutinio.
+*Nota Metodológica:* Este análisis demuestra que **los documentos digitales publicados por la Registraduría y su operador tecnológico (E-14 de Delegados) contienen manipulación sintáctica artificial**, tipificando un anomalía estructural estructurado desde el software de escrutinio.
 
 ---
 
@@ -25,8 +25,8 @@ Se analizó el comportamiento de la votación en las mesas 001 a 005 (Bloque Pla
 
 ## 🛑 3. SÍNTESIS DE DESCUBRIMIENTOS (SEGUNDA VUELTA)
 
-### 3.1. Abandono del Algoritmo Ciego y Evolución al Fraude Quirúrgico
-Para la Segunda Vuelta, el Test del Segundo Dígito (2BL) y la minería de varianza demostraron que la Registraduría y su operador tecnológico **abandonaron el "planchado" matemático masivo**. En su lugar, el fraude se ejecutó de manera quirúrgica modificando estructuralmente los PDFs de exposición pública.
+### 3.1. Abandono del Algoritmo Ciego y Evolución al Anomalía estructural Quirúrgico
+Para la Segunda Vuelta, el Test del Segundo Dígito (2BL) y la minería de varianza demostraron que la Registraduría y su operador tecnológico **abandonaron el "planchado" matemático masivo**. En su lugar, el anomalía estructural se ejecutó de manera quirúrgica modificando estructuralmente los PDFs de exposición pública.
 
 ### 3.2. Manipulación Digital en Formularios E-14 de Delegados ("Plantilla B")
 El análisis forense profundo de los PDFs publicados por la Registraduría, correspondientes a los **E-14 de Delegados**, revela que no son escaneos íntegros, sino composiciones digitales inyectadas ("Plantilla B").
@@ -37,12 +37,12 @@ El análisis forense profundo de los PDFs publicados por la Registraduría, corr
 #### 3.2.1. Prueba Irrefutable: Análisis de Micro-Ruido Óptico (Varianza Cero)
 Para descartar un fallo de escáner, se analizó la metrología óptica. Todo escaneo físico tiene micro-ruido electromagnético (desviación estándar >12.000). Sin embargo, las 3 capas `DeviceGray` inyectadas en la "Plantilla B" presentan una **desviación estándar absoluta de cero (Std=0)**. Fueron renderizadas artificialmente ("lienzo vacío") por software para sobreescribir los resultados. Al hacerlo, corrompieron la tabla de punteros cruzados (XREF) del PDF.
 
-### 3.3. La Falsificación del Repositorio de Claveros (Ruptura de Cadena de Custodia)
+### 3.3. La Alteración digital del Repositorio de Claveros (Ruptura de Cadena de Custodia)
 El peritaje forense descubrió un hallazgo informático devastador: la alteración sintáctica XREF y las capas inyectadas (`DeviceGray`) de la Plantilla B **subsisten dentro de los PDFs oficiales de Claveros**. 
 
 Físicamente, un nuevo escaneo de un documento de papel (incluso si este fuese un papel falsificado) generaría un archivo PDF estructuralmente limpio y sin capas vectoriales, únicamente con ruido óptico natural. El hecho de que la cicatriz matemática XREF exista en la base de datos de Claveros demuestra de forma científica e irrefutable que la Registraduría y su operador tecnológico **nunca escanearon los documentos físicos oficiales de Claveros**. 
 
-En su lugar, clonaron cibernéticamente los PDFs corruptos y alterados de Delegados, los renombraron, y los presentaron ante las Comisiones Escrutadoras (jueces de la república) como si fuesen el respaldo físico original. Esta acción tipifica fraude procesal, destrucción de la cadena de custodia probatoria y engaño masivo a la rama judicial.
+En su lugar, clonaron cibernéticamente los PDFs corruptos y alterados de Delegados, los renombraron, y los presentaron ante las Comisiones Escrutadoras (jueces de la república) como si fuesen el respaldo físico original. Esta acción tipifica anomalía estructural procesal, destrucción de la cadena de custodia probatoria y engaño masivo a la rama judicial.
 
 ---
 
@@ -51,7 +51,7 @@ En su lugar, clonaron cibernéticamente los PDFs corruptos y alterados de Delega
 El descubrimiento de la "Plantilla B" en los E-14 de Delegados explica el móvil del delito y la estrategia de defensa de la Registraduría:
 
 1. **La Ilusión Pública:** Modificaron digitalmente las actas de Delegados (inyectando la Plantilla B) para que coincidieran con los resultados fraudulentos transmitidos en el Preconteo. Esto engañó a la ciudadanía, dándoles documentos de aparente legitimidad en la web.
-2. **El Bloqueo de los Claveros:** Ahora que el análisis forense ha demostrado que los PDFs de Delegados son falsificaciones sintéticas digitales, **la Registraduría argumenta que "únicamente tienen validez los archivos físicos de Claveros"**. 
+2. **El Bloqueo de los Claveros:** Ahora que el análisis forense ha demostrado que los PDFs de Delegados son alteración digital sintéticas digitales, **la Registraduría argumenta que "únicamente tienen validez los archivos físicos de Claveros"**. 
 3. **Tipificación Penal:** Al negarse a auditar los PDFs de Delegados argumentando que "sólo vale el papel de Claveros", la Registraduría confiesa indirectamente que publicó documentos digitales falsificados en su dominio oficial para pacificar al país junto a su contratista tecnológico. Esto tipifica **Falsedad Ideológica en Documento Público** a escala masiva, utilizando el diseño de las tres fases del sistema electoral como cortina de humo.
 
-Quedo a la espera del reporte final del barrido nacional de corrupción XREF para anexar la base de datos de actas E-14 de Delegados sintéticamente alteradas.
+Quedo a la espera del reporte final del barrido nacional de alteración estructural XREF para anexar la base de datos de actas E-14 de Delegados sintéticamente alteradas.

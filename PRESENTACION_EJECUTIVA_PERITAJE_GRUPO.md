@@ -63,7 +63,7 @@
 
 1. **Preservación Aritmética de la Suma:**  
    $$\sum 	ext{Votos} = 135 + 121 + 1 + 3 + 1 = \mathbf{261 	ext{ (Suma idéntica al E-11)}}$$
-   El software intercambia los valores de la casilla 1 por la casilla 2. Ninguna validación de suma básica detecta el fraude.
+   El software intercambia los valores de la casilla 1 por la casilla 2. Ninguna validación de suma básica detecta el anomalía estructural.
 2. **Prueba por Inversión Estadística:**  
    Al re-permutar inversamente los datos ($V_1 \leftrightarrow V_2$), la varianza y la distribución de la mesa **retornan exactamente a la curva normal del grupo de control**.
 

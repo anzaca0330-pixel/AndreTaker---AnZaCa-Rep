@@ -11,7 +11,7 @@ El departamento del Putumayo presenta el peor escenario de alteración nacional,
 
 ## 2. Inversión Forense y Recuperación de Votos
 
-Partiendo de la prueba estructural de que las mesas fraudulentas sufrieron un mecanismo de *swapping* (intercambio de votos para favorecer a Abelardo de la Espriella), hemos ejecutado un script de reconstrucción matemática que toma las mesas anómalas de Putumayo y revierte el fraude para calcular el conteo original estimado.
+Partiendo de la prueba estructural de que las mesas fraudulentas sufrieron un mecanismo de *swapping* (intercambio de votos para favorecer a Abelardo de la Espriella), hemos ejecutado un script de reconstrucción matemática que toma las mesas anómalas de Putumayo y revierte el anomalía estructural para calcular el conteo original estimado.
 
 ### Resultados Oficiales (Registraduría)
 - **Votos Cepeda:** 12,311

@@ -1,10 +1,10 @@
 # MAPA VISUAL DE CORRELACIÓN FORENSE (33 DEPARTAMENTOS)
 
-A continuación se presenta la tabla maestra que cruza la manipulación estructural de los PDFs físicos con el fraude matemático para **todos y cada uno de los departamentos de Colombia**.
+A continuación se presenta la tabla maestra que cruza la manipulación estructural de los PDFs físicos con el anomalía estructural matemático para **todos y cada uno de los departamentos de Colombia**.
 
 ## Tabla Maestra de Correlación
 
-| Departamento | Volumen (Actas/Mesas) | Manipulación Estructural (PDF) | Fraude Matemático (Benford) | Alerta Pericial |
+| Departamento | Volumen (Actas/Mesas) | Manipulación Estructural (PDF) | Anomalía estructural Matemático (Benford) | Alerta Pericial |
 |---|---|---|---|---|
 | Vichada | 197 | **100.0%** | 15.23% | 🔴 SEVERA |
 | Vaupes | 88 | **100.0%** | 10.36% | 🔴 SEVERA |

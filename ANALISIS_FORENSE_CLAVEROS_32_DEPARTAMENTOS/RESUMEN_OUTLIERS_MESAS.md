@@ -1,6 +1,6 @@
 # REPORTE FORENSE DE OUTLIERS: AISLAMIENTO DE MESAS FALSAS
 
-Al evaluar de forma aislada las **122,017** mesas del país usando algoritmos de detección de fraude, hemos identificado las actas físicas exactas que fueron fabricadas.
+Al evaluar de forma aislada las **122,017** mesas del país usando algoritmos de detección de anomalía estructural, hemos identificado las actas físicas exactas que fueron fabricadas.
 
 ## 1. CIFRAS DE INYECCIÓN DE VOTOS (OUTLIERS)
 

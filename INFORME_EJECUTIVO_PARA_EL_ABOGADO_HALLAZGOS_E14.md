@@ -94,7 +94,7 @@ Este informe tiene como fin proveer a la representación legal el sustento técn
 
 ---
 
-## 🔬 4. MECANISMO DE FRAUDE POR PERMUTACIÓN / SWAPPING DE VOTOS ($V_1 \leftrightarrow V_2$)
+## 🔬 4. MECANISMO DE ANOMALÍA ESTRUCTURAL POR PERMUTACIÓN / SWAPPING DE VOTOS ($V_1 \leftrightarrow V_2$)
 
 - **Preservación Aritmética de la Suma:**  
   La alteración se ejecutó intercambiando los valores entre las casillas del Candidato 1 y Candidato 2. Este método mantiene fija la suma total de la mesa ($\sum V = \mathbf{261 \text{ votos}}$ en el formulario E-11), evitando que los algoritmos de nivelación aritmética del sistema detecten la inconsistencia.
@@ -132,7 +132,7 @@ Este informe tiene como fin proveer a la representación legal el sustento técn
 
 A continuación, se detalla el **Top 10 de Departamentos con mayor porcentaje de alteración**, cruzando la manipulación estructural (PDF) con la desviación matemática de la Ley de Benford:
 
-| Departamento | Volumen (Actas/Mesas) | Manipulación Estructural (PDF) | Fraude Matemático (Benford) | Alerta Pericial |
+| Departamento | Volumen (Actas/Mesas) | Manipulación Estructural (PDF) | Anomalía estructural Matemático (Benford) | Alerta Pericial |
 |---|---|---|---|---|
 | Vichada | 197 | **100.0%** | 15.23% | 🔴 SEVERA |
 | Vaupes | 88 | **100.0%** | 10.36% | 🔴 SEVERA |

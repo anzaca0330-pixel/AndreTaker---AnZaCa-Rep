@@ -1,11 +1,11 @@
-# RESUMEN EJECUTIVO: FRAUDE NACIONAL (PRECONTEO VS E-14)
+# RESUMEN EJECUTIVO: ANOMALÍA ESTRUCTURAL NACIONAL (PRECONTEO VS E-14)
 
 Este reporte consolida las diferencias exactas entre la sumatoria de las actas E-14 recolectadas por los testigos y los datos oficiales reportados por la Registraduría.
 
 > [!IMPORTANT]
 > El archivo `reporte_preconteo (4).csv` contenía exactamente **122,017 filas duplicadas** (las mesas estaban dobles). Tras limpiar los duplicados, la suma de los testigos fue idéntica a la Registraduría, lo que indica que **ambos archivos provienen de la misma fuente** (La Registraduría), y no es la digitalización manual independiente de las actas.
 
-## 1. CIFRAS NACIONALES DEL FRAUDE (DELTA)
+## 1. CIFRAS NACIONALES DEL ANOMALÍA ESTRUCTURAL (DELTA)
 - **Votos alterados para Iván Cepeda:** 0
 - **Votos alterados para Abelardo de la Espriella:** 0
 

@@ -15,7 +15,7 @@ Para validar las muestras, los peritos pueden referirse al documento `MUESTRAS_C
 
 ## 2. Metodología Forense y Herramientas
 
-El análisis se centra en dos vectores de fraude comprobados matemáticamente y documentados en los informes `INFORME_TECNICO_DE_HALLAZGOS.md` y `TECHNICAL_REPORT_OF_FINDINGS.md`:
+El análisis se centra en dos vectores de anomalía estructural comprobados matemáticamente y documentados en los informes `INFORME_TECNICO_DE_HALLAZGOS.md` y `TECHNICAL_REPORT_OF_FINDINGS.md`:
 
 ### A. La Técnica "BlindMasking" y Clonación Algorítmica
 Se usó software generador de PDFs sintéticos para inyectar vectores gráficos (Plantilla B) usando máscaras `DeviceGray` para sobreescribir los votos. Se utilizaron las siguientes herramientas para desarmar el ataque:

@@ -24,5 +24,5 @@ graph TD
 
 ### Análisis Forense del Flujo:
 1. **La Interceptación:** Los PDFs originales salen de la mesa, pero antes de llegar al repositorio público final (S3), pasan por un proceso donde son modificados y re-guardados, lo que rompe la estructura del documento y altera irremediablemente su tabla XREF. 
-2. **El Encubrimiento:** Para evitar que auditores internacionales descubran en tiempo real que los PDFs que se están subiendo a Amazon S3 están siendo modificados, la entidad levanta un escudo de denegación geográfica con Nexusguard (`x-nxg`).
-3. **Falsificación Procesal (Claveros):** El repositorio "Físico" de Claveros es en realidad un reflejo clonado y renombrado (con diferente fecha de metadatos) del repositorio sintético de Delegados. La cicatriz XREF persiste en ambos, probando que el papel de Claveros nunca fue escaneado.
+2. **El Opacidad técnica:** Para evitar que auditores internacionales descubran en tiempo real que los PDFs que se están subiendo a Amazon S3 están siendo modificados, la entidad levanta un escudo de denegación geográfica con Nexusguard (`x-nxg`).
+3. **Alteración digital Procesal (Claveros):** El repositorio "Físico" de Claveros es en realidad un reflejo clonado y renombrado (con diferente fecha de metadatos) del repositorio sintético de Delegados. La cicatriz XREF persiste en ambos, probando que el papel de Claveros nunca fue escaneado.
