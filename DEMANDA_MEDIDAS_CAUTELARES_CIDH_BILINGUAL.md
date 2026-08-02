@@ -8,6 +8,16 @@
 
 ---
 
+### PREÁMBULO CONSTITUCIONAL: EDICTO DE EMPLAZAMIENTO
+
+**Fundamento Constitucional**
+En ejercicio de los principios consagrados en los artículos 1, 2, 3, 40, 95 y 103 de la Constitución Política de Colombia, que reconocen que Colombia es un Estado Social de Derecho fundado en la soberanía popular, establecen que la soberanía reside exclusivamente en el pueblo, garantizan el derecho de todos los ciudadanos a participar en la conformación, ejercicio y control del poder político, consagran los deberes de participación ciudadana y promueven los mecanismos de participación democrática,
+
+**SE EMPLAZA**
+A toda la **SOCIEDAD CIVIL COLOMBIANA**, como expresión de la soberanía popular y depositaria del poder constituyente primario, y a los **ORGANISMOS INTERNACIONALES** (ONU, OEA, CIDH y parlamentos extranjeros) para que conozcan y ejerzan sus deberes frente al fraude sistémico aquí expuesto, en defensa del orden constitucional y la democracia.
+
+---
+
 ### I. IDENTIFICACIÓN DE LOS PETICIONARIOS Y VÍCTIMAS
 **Peticionarios:** Veeduría Ciudadana con Registro Internacional (Un colectivo descentralizado, respaldado por más de 75.000 ciudadanos firmantes de esta solicitud).  
 **Víctimas:** El pueblo de la República de Colombia, titular de los derechos políticos consagrados en el Artículo 23 de la Convención Americana sobre Derechos Humanos, vulnerados mediante un fraude electoral cibernético y matemático sistémico.
@@ -71,6 +81,16 @@ Veeduría Ciudadana con Registro Internacional
 **DATE:** August 2, 2026  
 **REFERENCE:** Presidential Elections of the Republic of Colombia (2026)  
 **SUBJECT:** Urgent request for Precautionary Measures (Art. 25 of the IACHR Rules of Procedure) for the suspension of the presidential inauguration ceremony scheduled for August 7, 2026.
+
+---
+
+### CONSTITUTIONAL PREAMBLE: EDICT OF SUMMONS
+
+**Constitutional Basis**
+In exercise of the principles enshrined in Articles 1, 2, 3, 40, 95, and 103 of the Political Constitution of Colombia, which recognize that Colombia is a Social State of Law founded on popular sovereignty, establish that sovereignty resides exclusively in the people, guarantee the right of all citizens to participate in the formation, exercise, and control of political power, enshrine the duties of citizen participation, and promote the mechanisms of democratic participation,
+
+**WE SUMMON**
+The entire **COLOMBIAN CIVIL SOCIETY**, as an expression of popular sovereignty and depositary of the primary constituent power, and the **INTERNATIONAL ORGANIZATIONS** (UN, OAS, IACHR, and foreign parliaments) to acknowledge and exercise their duties regarding the systemic fraud exposed herein, in defense of the constitutional order and democracy.
 
 ---
 
