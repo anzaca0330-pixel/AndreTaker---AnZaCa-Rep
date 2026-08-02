@@ -73,6 +73,7 @@ It is imperative to leave a legal record that this investigation has been carrie
 ## 6. BIBLIOGRAPHY AND THEORETICAL FRAMEWORK
 The forensic methodology applied in this investigation is supported by the following international standards and academic literature:
 
+- **Chain of Custody Standard (RFC 3227 / ISO 27037):** Strict application of the **Read-Only Principle**. All metrology, binary extraction, and obfuscation analysis were executed strictly on cryptographic copies (bit-by-bit clones) to ensure the immaculate preservation of the original evidence downloaded from the servers.
 - **PDF Standard / XREF Corruption:** *ISO 32000-1:2008 (Document management — Portable document format)*. Defines the mandatory structure of the cross-reference table (XREF) and the object stream (`/Contents`).
 - **Cryptographic Analysis (Hashes):** *NIST Federal Information Processing Standards (FIPS 180-4)*. Security Standard for Secure Hash Functions (SHA-256).
 - **Statistical Metrology (Mathematical Ironing):** Nigrini, M. J. (2012). *Benford's Law: Applications for Forensic Accounting, Auditing, and Fraud Detection*. John Wiley & Sons.

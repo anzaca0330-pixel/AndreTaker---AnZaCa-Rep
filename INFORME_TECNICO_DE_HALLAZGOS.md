@@ -73,6 +73,7 @@ Es imperativo dejar constancia legal de que esta investigación se ha desarrolla
 ## 6. BIBLIOGRAFÍA Y MARCO TEÓRICO DE REFERENCIA
 La metodología forense aplicada en esta investigación está sustentada en los siguientes estándares internacionales y literatura académica:
 
+- **Estándar de Cadena de Custodia (RFC 3227 / ISO 27037):** Aplicación estricta del **Principio de Solo Lectura (Read-Only Principle)**. Toda la metrología, extracción binaria y análisis de ofuscación se ejecutó estrictamente sobre copias criptográficas (clones bit a bit) para garantizar la preservación inmaculada de la evidencia original descargada de los servidores.
 - **Estándar PDF / Corrupción XREF:** *ISO 32000-1:2008 (Document management — Portable document format)*. Define la estructura obligatoria de la tabla de referencias cruzadas (XREF) y el flujo de objetos (`/Contents`).
 - **Análisis Criptográfico (Hashes):** *NIST Federal Information Processing Standards (FIPS 180-4)*. Estándar de Seguridad para Funciones Hash Seguras (SHA-256).
 - **Metrología Estadística (Planchado Matemático):** Nigrini, M. J. (2012). *Benford's Law: Applications for Forensic Accounting, Auditing, and Fraud Detection*. John Wiley & Sons.
