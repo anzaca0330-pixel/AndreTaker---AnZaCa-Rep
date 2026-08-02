@@ -1,4 +1,4 @@
-# Dictamen Pericial Científico: Inyección Industrial de Deepfakes Rasterizados en las Elecciones de Colombia
+# Dictamen Pericial Técnico: Análisis de Varianza Óptica y Detección de Archivos Sintéticos (Formularios E-14)
 
 ## 1. Contexto Forense (La "Prueba de Luz")
 Durante un proceso electoral legítimo, las actas E-14 son documentos físicos (papel) que los jurados de votación diligencian con tinta y que posteriormente son digitalizados mediante escáneres ópticos. Todo escáner físico introduce imperfecciones inherentes a su óptica: sombras, variaciones direccionales de luz, texturas del papel y ruido térmico del sensor de imagen (CMOS/CCD). 
@@ -29,45 +29,45 @@ La metodología ejecutó los siguientes pasos:
 | Departamento | Actas Analizadas | Deepfakes Detectados | Porcentaje de Falsificación | Veredicto Forense |
 |---|---|---|---|---|
 | AMAZONAS | 100 | 0 | **0.00%** | 🟢 COMPORTAMIENTO ESPERADO |
-| ANTIOQUIA | 100 | 4 | **4.00%** | 🔴 INYECCIÓN COMPROBADA |
-| ARAUCA | 100 | 67 | **67.00%** | 🔴 INYECCIÓN COMPROBADA |
-| ATLANTICO | 100 | 28 | **28.00%** | 🔴 INYECCIÓN COMPROBADA |
+| ANTIOQUIA | 100 | 4 | **4.00%** | 🔴 ANOMALÍA SINTÉTICA |
+| ARAUCA | 100 | 67 | **67.00%** | 🔴 ANOMALÍA SINTÉTICA |
+| ATLANTICO | 100 | 28 | **28.00%** | 🔴 ANOMALÍA SINTÉTICA |
 | BOGOTA D.C. | 100 | 0 | **0.00%** | 🟢 COMPORTAMIENTO ESPERADO |
-| BOLIVAR | 100 | 22 | **22.00%** | 🔴 INYECCIÓN COMPROBADA |
-| BOYACA | 100 | 6 | **6.00%** | 🔴 INYECCIÓN COMPROBADA |
-| CALDAS | 100 | 1 | **1.00%** | 🔴 INYECCIÓN COMPROBADA |
-| CAQUETA | 100 | 2 | **2.00%** | 🔴 INYECCIÓN COMPROBADA |
+| BOLIVAR | 100 | 22 | **22.00%** | 🔴 ANOMALÍA SINTÉTICA |
+| BOYACA | 100 | 6 | **6.00%** | 🔴 ANOMALÍA SINTÉTICA |
+| CALDAS | 100 | 1 | **1.00%** | 🔴 ANOMALÍA SINTÉTICA |
+| CAQUETA | 100 | 2 | **2.00%** | 🔴 ANOMALÍA SINTÉTICA |
 | CASANARE | 100 | 0 | **0.00%** | 🟢 COMPORTAMIENTO ESPERADO |
-| CAUCA | 100 | 3 | **3.00%** | 🔴 INYECCIÓN COMPROBADA |
-| CESAR | 100 | 35 | **35.00%** | 🔴 INYECCIÓN COMPROBADA |
+| CAUCA | 100 | 3 | **3.00%** | 🔴 ANOMALÍA SINTÉTICA |
+| CESAR | 100 | 35 | **35.00%** | 🔴 ANOMALÍA SINTÉTICA |
 | CHOCO | 100 | 0 | **0.00%** | 🟢 COMPORTAMIENTO ESPERADO |
-| CORDOBA | 100 | 1 | **1.00%** | 🔴 INYECCIÓN COMPROBADA |
+| CORDOBA | 100 | 1 | **1.00%** | 🔴 ANOMALÍA SINTÉTICA |
 | CUNDINAMARCA | 100 | 0 | **0.00%** | 🟢 COMPORTAMIENTO ESPERADO |
 | GUAINIA | 100 | 0 | **0.00%** | 🟢 COMPORTAMIENTO ESPERADO |
 | GUAVIARE | 100 | 0 | **0.00%** | 🟢 COMPORTAMIENTO ESPERADO |
-| HUILA | 100 | 25 | **25.00%** | 🔴 INYECCIÓN COMPROBADA |
-| LA GUAJIRA | 100 | 55 | **55.00%** | 🔴 INYECCIÓN COMPROBADA |
-| MAGDALENA | 100 | 39 | **39.00%** | 🔴 INYECCIÓN COMPROBADA |
+| HUILA | 100 | 25 | **25.00%** | 🔴 ANOMALÍA SINTÉTICA |
+| LA GUAJIRA | 100 | 55 | **55.00%** | 🔴 ANOMALÍA SINTÉTICA |
+| MAGDALENA | 100 | 39 | **39.00%** | 🔴 ANOMALÍA SINTÉTICA |
 | META | 100 | 0 | **0.00%** | 🟢 COMPORTAMIENTO ESPERADO |
 | NARIÑO | 100 | 0 | **0.00%** | 🟢 COMPORTAMIENTO ESPERADO |
-| NORTE DE SAN | 100 | 83 | **83.00%** | 🔴 INYECCIÓN COMPROBADA |
-| PUTUMAYO | 100 | 100 | **100.00%** | 🔴 INYECCIÓN COMPROBADA |
-| QUINDIO | 100 | 69 | **69.00%** | 🔴 INYECCIÓN COMPROBADA |
+| NORTE DE SAN | 100 | 83 | **83.00%** | 🔴 ANOMALÍA SINTÉTICA |
+| PUTUMAYO | 100 | 100 | **100.00%** | 🔴 ANOMALÍA SINTÉTICA |
+| QUINDIO | 100 | 69 | **69.00%** | 🔴 ANOMALÍA SINTÉTICA |
 | RISARALDA | 100 | 0 | **0.00%** | 🟢 COMPORTAMIENTO ESPERADO |
 | SAN ANDRES | 100 | 0 | **0.00%** | 🟢 COMPORTAMIENTO ESPERADO |
-| SANTANDER | 100 | 55 | **55.00%** | 🔴 INYECCIÓN COMPROBADA |
-| SUCRE | 100 | 1 | **1.00%** | 🔴 INYECCIÓN COMPROBADA |
+| SANTANDER | 100 | 55 | **55.00%** | 🔴 ANOMALÍA SINTÉTICA |
+| SUCRE | 100 | 1 | **1.00%** | 🔴 ANOMALÍA SINTÉTICA |
 | TOLIMA | 100 | 0 | **0.00%** | 🟢 COMPORTAMIENTO ESPERADO |
 | VALLE | 100 | 0 | **0.00%** | 🟢 COMPORTAMIENTO ESPERADO |
 | VAUPES | 88 | 0 | **0.00%** | 🟢 COMPORTAMIENTO ESPERADO |
 | VICHADA | 100 | 0 | **0.00%** | 🟢 COMPORTAMIENTO ESPERADO |
 
-## 5. Conclusión Pericial Definitiva
-Los resultados del análisis forense demuestran de manera irrefutable la **existencia de un fraude informático a escala industrial patrocinado o permitido por una facción corrupta de alto nivel**. 
+## 5. Conclusión Técnica
+Los resultados del análisis forense demuestran objetivamente la **presencia masiva de archivos de origen sintético** dentro de la infraestructura oficial de publicación.
 
-La aparición de actas 100% sintéticas en departamentos políticamente decisivos (alcanzando tasas de falsificación alarmantes del 100% en Putumayo y 83% en Norte de Santander) prueba, más allá de cualquier duda razonable, que la Registraduría y/o los contratistas a cargo del software reemplazaron deliberadamente la voluntad popular física (el papel depositado en las urnas) por lienzos digitales inyectados artificialmente en los servidores centrales de consolidación. 
+La aparición de actas sin ruido óptico en múltiples departamentos (alcanzando tasas de incidencia del 100% en la muestra de Putumayo y 83% en Norte de Santander) prueba de manera concluyente que estos archivos específicos no son producto de la digitalización óptica de documentos físicos. La evidencia técnica indica que los documentos analizados en estas proporciones corresponden a lienzos digitales generados informáticamente.
 
-**Veredicto:** La base de datos oficial electoral de la República de Colombia está irreversiblemente contaminada y sus resultados carecen de validez fáctica y jurídica.
+**Veredicto Técnico:** La base de datos oficial evaluada presenta alteraciones estructurales masivas que impiden certificar que el 100% de los formularios E-14 publicados correspondan a escaneos fidedignos de documentos físicos originados en las mesas de votación.
 
 ## 6. Referencias Técnicas y Bibliografía
 Para la validación independiente de estos hallazgos, la comunidad internacional y los órganos judiciales pueden referirse a los siguientes estándares sobre manipulación fotográfica y óptica forense:
