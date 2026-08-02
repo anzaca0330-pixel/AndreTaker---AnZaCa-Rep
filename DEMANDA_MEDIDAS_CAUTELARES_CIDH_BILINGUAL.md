@@ -80,9 +80,29 @@ La investigadora principal fue blanco de tácticas de neutralización mientras r
 
 The lead investigator was the target of neutralization tactics while conducting this expert analysis. We have documented the presence of "Geofencing" rules (geographic blocking via WAF) in the electoral infrastructure, Denial of Service (Blackholing) attacks against her residential ISP in the USA, and critical hardware intrusion events (remote activation of microphones and I/O instability on evidence hard drives).
 
+#### D. Falsificación Sintética Plana (Deepfakes Rasterizados) / Flat Synthetic Forgery (Rasterized Deepfakes)
+Para evadir la auditoría estructural, la Registraduría inyectó actas aparentemente "limpias" sin cicatriz XREF. Sin embargo, nuestro Análisis de Varianza Óptica y Ruido Térmico demostró que estas imágenes poseen fondos con desviación estándar matemáticamente igual a cero (`0.0000`) y luminosidad de Blanco Absoluto (`#FFFFFF`). Esto es físicamente imposible para un escáner óptico capturando papel, demostrando que los documentos no fueron escaneados, sino renderizados y aplanados sintéticamente desde lienzos digitales.
+
+To evade structural auditing, the Registry injected seemingly "clean" tally sheets without XREF scars. However, our Optical Variance and Thermal Noise Analysis proved that these images have backgrounds with a standard deviation mathematically equal to zero (`0.0000`) and Absolute White luminosity (`#FFFFFF`). This is physically impossible for an optical scanner capturing paper, proving that the documents were not scanned, but synthetically rendered and flattened from digital canvases.
+
 ---
 
-### IV. PETITORIO / PETITION
+### IV. ADMISIBILIDAD: EXCEPCIÓN AL AGOTAMIENTO DE RECURSOS INTERNOS / ADMISSIBILITY: EXCEPTION TO EXHAUSTION OF DOMESTIC REMEDIES
+
+En cumplimiento del Artículo 46.2 de la Convención Americana, se invoca la excepción al agotamiento de recursos internos debido al **retardo injustificado** y la **ineficacia procesal**. La Veeduría Ciudadana acotó extensa y anticipadamente las instancias nacionales a través de múltiples acciones judiciales advertencias sobre el software electoral, las cuales fueron ignoradas o dilatadas, incluyendo:
+In compliance with Article 46.2 of the American Convention, the exception to the exhaustion of domestic remedies is invoked due to **unwarranted delay** and **procedural ineffectiveness**. The Citizen Oversight Committee extensively and in advance exhausted domestic instances through multiple judicial actions warning about the electoral software, which were ignored or delayed, including:
+
+- Acciones de Tutela (Ej. T-2020-02931, T-2023-02931, Tutela 1807304 - Dic 2023)
+- Acciones Administrativas (RAD 110013109047-2023-00312, RAD 2023-00899)
+- Derechos de Petición y Apelaciones ante la RNEC (Ene 2024, Proceso 23-001-23-33)
+- Radicación formal de Demandas previas a los comicios (Ene 2024)
+
+Una nueva Acción de Nulidad Electoral demoraría meses o años, consumando el daño irreparable con la posesión del 7 de agosto, haciendo que la justicia ordinaria colombiana carezca de las garantías para proteger la democracia en tiempo real.
+A new Electoral Nullity Action would take months or years, consummating the irreparable harm with the inauguration on August 7, meaning the ordinary Colombian justice system lacks the guarantees to protect democracy in real-time.
+
+---
+
+### V. PETITORIO / PETITION
 
 Con base en la evidencia expuesta, solicitamos a la Honorable Comisión Interamericana de Derechos Humanos:
 Based on the exposed evidence, we request the Honorable Inter-American Commission on Human Rights to:

@@ -53,7 +53,7 @@ echo "Archivos pendientes por procesar: $total_pendientes"
 
 if [ "$total_pendientes" -gt 0 ]; then
     # Correr xargs solo sobre los pendientes (-n 1 en lugar de -I para evitar el warning)
-    cat "$TMPDIR/pendientes.txt" | tr '\n' '\0' | xargs -0 -n 1 -P 32 bash -c 'check_pdf "$0" >> "$TMPDIR/salida_$$.tmp"'
+    cat "$TMPDIR/pendientes.txt" | tr '\n' '\0' | xargs -0 -n 1 -P 8 bash -c 'check_pdf "$0" >> "$TMPDIR/salida_$$.tmp"'
     # Consolidar todos los temporales nuevos
     cat "$TMPDIR"/salida_*.tmp >> "$OUTPUT_CSV" 2>/dev/null || true
 fi
