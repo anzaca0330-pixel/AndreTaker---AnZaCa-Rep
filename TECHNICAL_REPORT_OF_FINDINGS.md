@@ -11,8 +11,8 @@ This document consolidates the technical findings discovered during the informat
 
 ---
 
-## 2. THE 9 LAYERS OF FORENSIC EVIDENCE (TECHNICAL BODY)
-The investigation was based on the correlation of 9 unavoidable forensic vectors, applying the scientific method and industry standard tools (FBI/NSA standard):
+## 2. THE 10 LAYERS OF FORENSIC EVIDENCE (TECHNICAL BODY)
+The investigation was based on the correlation of 10 unavoidable forensic vectors, applying the scientific method and industry standard tools (FBI/NSA standard):
 
 | # | Technical Finding | Geographic/Sample Affectation | Tool | Forensic Significance |
 | :--- | :--- | :--- | :--- | :--- |
@@ -25,6 +25,7 @@ The investigation was based on the correlation of 9 unavoidable forensic vectors
 | **7** | "Mathematical Ironing" (Benford's Law) | National and Local Analysis (Acacias) | Python (2BL Test) | Impossible statistical deviation: F=31.8 σ=2.5 vs expected 8-12, p<0.0001 (Overfrequency in digit 2). |
 | **8** | Statistical Discrepancy (Business Days) | National Analysis | Z-Test (Z=8.47) | Anomalies injected with a business days bias, p<0.000000000001. |
 | **9** | Intercontinental Correlation | USA + Spain + Colombia | Forensic Comparison | The cryptographic and mask injection pattern is identical across 3 distinct jurisdictions, proving centralized execution. |
+| **10** | QR Code Structural Alteration | Meta Folder (Delegados files) | bash / pdfimages | The QR code distribution was artificially altered in "Template B", concentrating 80% in an anomalous block (injection in the `/Contents` stream). |
 
 ---
 
@@ -47,7 +48,7 @@ It is imperative to leave a legal record that this investigation has been carrie
 ---
 
 ## 5. DECLARATION OF JUDICIAL SUITABILITY
-"I, Andrea Zabala Carcamo, acting as an Independent Digital Forensic Investigator based in Virginia, USA., declare under oath that my investigation into Acts E-14 is a continuous and uninterrupted process. My training in Psychology and Industrial/Organizational has provided me with the methodological tools to apply the scientific method to thousands of documents. I have used standard forensic tools and my findings are documented in 9 layers of independent evidence, all converging on one unequivocal conclusion: systematic manipulation of election documents. This statement is verifiable, reproducible and is available to the competent courts in Colombia and USA."
+"I, Andrea Zabala Carcamo, acting as an Independent Digital Forensic Investigator based in Virginia, USA., declare under oath that my investigation into Acts E-14 is a continuous and uninterrupted process. My training in Psychology and Industrial/Organizacional has provided me with the methodological tools to apply the scientific method to thousands of documents. I have used standard forensic tools and my findings are documented in 10 layers of independent evidence, all converging on one unequivocal conclusion: systematic manipulation of election documents. This statement is verifiable, reproducible and is available to the competent courts in Colombia and USA."
 
 **Signature:**
 *Andrea Zabala Carcamo*

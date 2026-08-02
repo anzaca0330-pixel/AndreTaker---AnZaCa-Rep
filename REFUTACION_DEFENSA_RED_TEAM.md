@@ -31,5 +31,10 @@
 **Argumento de la Defensa:** La "persecución cibernética" que sufrió la analista fue una **respuesta automatizada estándar de un WAF (Nexusguard)**. El firewall detectó miles de peticiones de análisis de red (pings, OSINT) proviniendo de la IP residencial de la analista en Virginia. Al interpretarlo como un ataque de Denegación de Servicio (DDoS), el sistema bloqueó agresivamente la IP de origen, causando que el router residencial colapsara bajo el volumen de bloqueos. No es espionaje gubernamental, es seguridad perimetral funcionando como debe.
 
 ---
+
+### 10. Alteración de Códigos QR (Carpeta Meta)
+**Argumento de la Defensa:** La concentración anómala del código QR en el bloque 0 no es una inyección sintética. Es un artefacto de la librería de generación de PDF al codificar el código de barras bidimensional para la web. Al pasar el acta de color a blanco y negro para la versión de Delegados, el algoritmo reorganiza el flujo `/Contents` para mantener el QR legible por los escáneres, cambiando su estructura interna.
+
+---
 > [!IMPORTANT]
 > **Nota de Análisis:** Un peritaje sólido no es el que ignora estos argumentos, sino el que los anticipa y sabe cómo destruirlos en la audiencia. Esta es exactamente la defensa técnica que presentará la contraparte.

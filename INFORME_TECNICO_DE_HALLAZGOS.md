@@ -11,8 +11,8 @@ El presente documento consolida los hallazgos técnicos encontrados durante la a
 
 ---
 
-## 2. LAS 9 CAPAS DE EVIDENCIA FORENSE (CUERPO TÉCNICO)
-La investigación se basó en la correlación de 9 vectores forenses ineludibles, aplicando el método científico y herramientas estándar de la industria (estándar FBI/NSA):
+## 2. LAS 10 CAPAS DE EVIDENCIA FORENSE (CUERPO TÉCNICO)
+La investigación se basó en la correlación de 10 vectores forenses ineludibles, aplicando el método científico y herramientas estándar de la industria (estándar FBI/NSA):
 
 | # | Hallazgo Técnico | Afectación Geográfica/Muestral | Herramienta | Significancia Forense |
 | :--- | :--- | :--- | :--- | :--- |
@@ -25,6 +25,7 @@ La investigación se basó en la correlación de 9 vectores forenses ineludibles
 | **7** | "Planchado Matemático" (Ley de Benford) | Análisis Nacional y Local (Acacias) | Python (2BL Test) | Desviación estadística imposible: F=31.8 σ=2.5 vs esperado 8-12, p<0.0001 (Sobrefrecuencia en el dígito 2). |
 | **8** | Discrepancia Estadística (Días Hábiles) | Análisis Nacional | Prueba Z (Z=8.47) | Anomalías inyectadas con sesgo de días hábiles, p<0.000000000001. |
 | **9** | Correlación Intercontinental | EE.UU. + España + Colombia | Comparativa Forense | El patrón criptográfico y de inyección de máscaras es idéntico en 3 jurisdicciones distintas, probando ejecución centralizada. |
+| **10** | Alteración Estructural de Códigos QR | Carpeta Meta (Actas de Delegados) | bash / pdfimages | La distribución del código QR fue alterada artificialmente en la "Plantilla B", concentrando el 80% en un bloque anómalo (inyección en el flujo `/Contents`). |
 
 ---
 
@@ -47,7 +48,7 @@ Es imperativo dejar constancia legal de que esta investigación se ha desarrolla
 ---
 
 ## 5. DECLARACIÓN DE IDONEIDAD
-"Yo, Andrea Zabala Cárcamo, actuando como Investigadora Forense Digital Independiente con sede en Virginia, EE.UU., declaro bajo juramento que mi investigación sobre las Actas E-14 es un proceso continuo e ininterrumpido. Mi formación en Psicología e Industrial/Organizacional ha provisto las herramientas metodológicas para aplicar el método científico a miles de documentos. He utilizado herramientas forenses estándar y mis hallazgos están documentados en 9 capas de evidencia independiente, todas convergentes en una conclusión inequívoca: manipulación sistemática de documentos electorales. Esta declaración es verificable, reproducible y está a disposición de las autoridades competentes en Colombia y EE.UU."
+"Yo, Andrea Zabala Cárcamo, actuando como Investigadora Forense Digital Independiente con sede en Virginia, EE.UU., declaro bajo juramento que mi investigación sobre las Actas E-14 es un proceso continuo e ininterrumpido. Mi formación en Psicología e Industrial/Organizacional ha provisto las herramientas metodológicas para aplicar el método científico a miles de documentos. He utilizado herramientas forenses estándar y mis hallazgos están documentados en 10 capas de evidencia independiente, todas convergentes en una conclusión inequívoca: manipulación sistemática de documentos electorales. Esta declaración es verificable, reproducible y está a disposición de las autoridades competentes en Colombia y EE.UU."
 
 **Firma:**
 *Andrea Zabala Cárcamo*

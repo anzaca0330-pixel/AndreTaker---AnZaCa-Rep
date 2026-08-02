@@ -31,5 +31,10 @@
 **Defense Argument:** The "cyber persecution" suffered by the analyst was a **standard automated response from a WAF (Nexusguard)**. The firewall detected thousands of network analysis requests (pings, OSINT) coming from the analyst's residential IP in Virginia. Interpreting it as a Denial of Service (DDoS) attack, the system aggressively blocked the source IP, causing the residential router to collapse under the volume of blocks. It is not government espionage; it is perimeter security working as it should.
 
 ---
+
+### 10. QR Code Alteration (Meta Folder)
+**Defense Argument:** The anomalous concentration of the QR code in block 0 is not a synthetic injection. It is an artifact of the PDF generation library when encoding the two-dimensional barcode for the web. When converting the color minute to black and white for the Delegados version, the algorithm reorganizes the `/Contents` stream to keep the QR readable by scanners, changing its internal structure.
+
+---
 > [!IMPORTANT]
 > **Analysis Note:** A solid expert testimony is not one that ignores these arguments, but one that anticipates them and knows how to destroy them in court. This is exactly the technical defense that the opposing party will present.

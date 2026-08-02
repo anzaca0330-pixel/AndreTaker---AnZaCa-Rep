@@ -38,6 +38,10 @@ Esto prueba lógicamente que **ambos fueron generados a partir de una misma plan
 **Argumento de la Defensa:** La investigadora sufrió un autobloqueo por activar el WAF (Nexusguard) con un DDoS.
 **Refutación Pericial:** Mis logs de red certifican que el volumen de tráfico (pings, revisión de cabeceras OSINT) fue infinitesimal, incapaz de saturar un WAF corporativo. Más grave aún: un WAF **descarta paquetes (Drop)**, jamás **colapsa el hardware del router del usuario ni activa remotamente micrófonos**. Estos son vectores de un ataque APT (Advanced Persistent Threat) con privilegios ejecutivos. La defensa no puede explicar cómo su "firewall" provocó una denegación de servicio cinética en mi infraestructura física y un espionaje periférico. Eso es un ataque de Estado, no una mitigación.
 
+### 8. Invalidez del Argumento sobre los Códigos QR
+**Argumento de la Defensa:** La anomalía del código QR es un artefacto de la conversión a blanco y negro para la web.
+**Refutación Pericial:** Un algoritmo estándar de conversión a escala de grises (Dithering/Thresholding) afecta a la imagen rasterizada, pero **jamás reestructura el flujo de objetos `/Contents`** de un documento PDF inyectando un bloque anómalo donde se concentra el 80% de la información vectorial. La redistribución de los metadatos del QR de esa manera es la firma inequívoca de un software de "composición" sintética ensamblando partes (la Plantilla B), no de un escáner óptico capturando luz.
+
 ---
 
 ### 🏁 CONCLUSIÓN FINAL Y PETICIÓN AL TRIBUNAL

@@ -38,6 +38,10 @@ This logically proves that **both were generated from the same synthetic digital
 **Defense Argument:** The investigator suffered an auto-block for triggering the WAF (Nexusguard) with a DDoS.
 **Expert Rebuttal:** My network logs certify that the traffic volume (pings, OSINT header review) was infinitesimal, incapable of saturating a corporate WAF. More importantly: a WAF **drops packets**, it never **collapses the user's router hardware nor remotely activates microphones**. These are vectors of an APT (Advanced Persistent Threat) attack with executive privileges. The defense cannot explain how their "firewall" caused a kinetic denial of service on my physical infrastructure and peripheral espionage. That is a State attack, not a mitigation.
 
+### 8. Invalidity of the QR Code Argument
+**Defense Argument:** The QR code anomaly is an artifact of the black and white conversion for the web.
+**Expert Rebuttal:** A standard grayscale conversion algorithm (Dithering/Thresholding) affects the rasterized image, but **never restructures the `/Contents` object stream** of a PDF document by injecting an anomalous block where 80% of the vector information is concentrated. The redistribution of the QR metadata in that manner is the unequivocal signature of synthetic "composition" software assembling parts (Template B), not of an optical scanner capturing light.
+
 ---
 
 ### 🏁 FINAL CONCLUSION AND REQUEST TO THE COURT
