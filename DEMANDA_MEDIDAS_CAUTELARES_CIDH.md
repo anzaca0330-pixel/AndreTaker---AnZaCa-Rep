@@ -9,7 +9,7 @@
 ---
 
 ### I. IDENTIFICACIÓN DE LOS PETICIONARIOS Y VÍCTIMAS
-**Peticionarios:** Veeduría Técnica Forense Independiente (Representada por Andrea Zabala Cárcamo, Perito Forense Digital).  
+**Peticionarios:** Veeduría Ciudadana con Registro Internacional (Representada por Andrea Zabala Cárcamo y respaldada por más de 75.000 ciudadanos firmantes de esta solicitud).  
 **Víctimas:** El pueblo de la República de Colombia, titular de los derechos políticos consagrados en el Artículo 23 de la Convención Americana sobre Derechos Humanos, vulnerados mediante un fraude electoral cibernético y matemático sistémico.
 
 ---
@@ -59,5 +59,5 @@ Con base en la evidencia expuesta, solicitamos a la Honorable Comisión Interame
 
 ---
 **Firma:**
-Veeduría Técnica Forense Independiente
+Veeduría Ciudadana con Registro Internacional
 *Anexos: Repositorio Técnico (Evidencia-Forense-E14)*

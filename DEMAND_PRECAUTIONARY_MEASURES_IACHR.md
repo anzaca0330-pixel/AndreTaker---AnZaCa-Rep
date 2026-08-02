@@ -9,7 +9,7 @@
 ---
 
 ### I. IDENTIFICATION OF THE PETITIONERS AND VICTIMS
-**Petitioners:** Independent Forensic Technical Oversight Committee (Represented by Andrea Zabala Cárcamo, Digital Forensic Expert).  
+**Petitioners:** Citizen Oversight Committee with International Registry (Represented by Andrea Zabala Cárcamo and backed by more than 75,000 citizen signatories of this request).  
 **Victims:** The people of the Republic of Colombia, holders of the political rights enshrined in Article 23 of the American Convention on Human Rights, which have been violated through systemic mathematical and cybernetic electoral fraud.
 
 ---
@@ -59,5 +59,5 @@ Based on the exposed evidence, we request the Honorable Inter-American Commissio
 
 ---
 **Signature:**
-Independent Forensic Technical Oversight Committee
+Citizen Oversight Committee with International Registry
 *Annexes: Technical Repository (Evidencia-Forense-E14)*
