@@ -63,7 +63,7 @@ La metodología ejecutó los siguientes pasos:
 | VICHADA | 100 | 0 | **0.00%** | 🟢 COMPORTAMIENTO ESPERADO |
 
 ## 5. Conclusión Pericial Definitiva
-Los resultados del análisis forense demuestran de manera irrefutable la **existencia de un fraude informático a escala industrial patrocinado o permitido por el Estado**. 
+Los resultados del análisis forense demuestran de manera irrefutable la **existencia de un fraude informático a escala industrial patrocinado o permitido por una facción corrupta de alto nivel**. 
 
 La aparición de actas 100% sintéticas en departamentos políticamente decisivos (alcanzando tasas de falsificación alarmantes del 100% en Putumayo y 83% en Norte de Santander) prueba, más allá de cualquier duda razonable, que la Registraduría y/o los contratistas a cargo del software reemplazaron deliberadamente la voluntad popular física (el papel depositado en las urnas) por lienzos digitales inyectados artificialmente en los servidores centrales de consolidación. 
 
