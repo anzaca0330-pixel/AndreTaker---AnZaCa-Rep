@@ -9,8 +9,8 @@ def run_cross_audit():
     file_b = "/media/andrea-zabala-c/D A T A1/segundaVuelta/CONSULADOS_DATASET_Y_FUENTES_ORIGEN/reporte_preconteo (4).csv"
     
     out_dir = "/home/andrea-zabala-c/Desktop/ENTREGABLES_FORENSES_E14"
-    out_csv = os.path.join(out_dir, "REPORTE_FRAUDE_POR_MUNICIPIO.csv")
-    out_md = os.path.join(out_dir, "RESUMEN_EJECUTIVO_FRAUDE_NACIONAL.md")
+    out_csv = os.path.join(out_dir, "REPORTE_ANOMALIAS_POR_MUNICIPIO.csv")
+    out_md = os.path.join(out_dir, "RESUMEN_EJECUTIVO_ANOMALIAS_NACIONAL.md")
     
     # 1. Leer y Agrupar Base de Datos B (Testigos)
     print("⏳ Leyendo Base de Datos B (Testigos)...")
