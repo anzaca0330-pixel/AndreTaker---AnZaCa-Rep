@@ -9,7 +9,7 @@
 ---
 
 ### I. IDENTIFICACIÓN DE LOS PETICIONARIOS Y VÍCTIMAS
-**Peticionarios:** Veeduría Ciudadana con Registro Internacional (Representada por Andrea Zabala Cárcamo y respaldada por más de 75.000 ciudadanos firmantes de esta solicitud).  
+**Peticionarios:** Veeduría Ciudadana con Registro Internacional (Un colectivo descentralizado, respaldado por más de 75.000 ciudadanos firmantes de esta solicitud).  
 **Víctimas:** El pueblo de la República de Colombia, titular de los derechos políticos consagrados en el Artículo 23 de la Convención Americana sobre Derechos Humanos, vulnerados mediante un fraude electoral cibernético y matemático sistémico.
 
 ---
@@ -55,7 +55,7 @@ Con base en la evidencia expuesta, solicitamos a la Honorable Comisión Interame
 1. **EMITIR RESOLUCIÓN DE MEDIDAS CAUTELARES** ordenando al Estado de Colombia la **suspensión inmediata e indefinida del acto de posesión presidencial** programado para el 7 de agosto de 2026.
 2. **ORDENAR LA CONSERVACIÓN DE LA EVIDENCIA**, instruyendo el congelamiento físico y lógico de todos los servidores, bases de datos y repositorios S3 de la Registraduría Nacional del Estado Civil.
 3. **SOLICITAR UNA AUDITORÍA INTERNACIONAL INDEPENDIENTE** a cargo de la Organización de Estados Americanos (OEA) y peritos forenses imparciales.
-4. **OTORGAR PROTECCIÓN CAUTELAR** a la investigadora Andrea Zabala Cárcamo y a todos los miembros de la Veeduría Ciudadana que han sufrido ciberataques y acosos continuos, instando a los Estados Unidos de América y a Colombia a garantizar su vida, integridad física y digital.
+4. **OTORGAR PROTECCIÓN CAUTELAR** a todos los miembros de la Veeduría Ciudadana que han sufrido ciberataques y acosos continuos, instando a los Estados Unidos de América y a Colombia a garantizar su vida, integridad física y digital.
 
 ---
 **Firma:**
@@ -75,7 +75,7 @@ Veeduría Ciudadana con Registro Internacional
 ---
 
 ### I. IDENTIFICATION OF THE PETITIONERS AND VICTIMS
-**Petitioners:** Citizen Oversight Committee with International Registry (Represented by Andrea Zabala Cárcamo and backed by more than 75,000 citizen signatories of this request).  
+**Petitioners:** Citizen Oversight Committee with International Registry (A decentralized collective, backed by more than 75,000 citizen signatories of this request).  
 **Victims:** The people of the Republic of Colombia, holders of the political rights enshrined in Article 23 of the American Convention on Human Rights, which have been violated through systemic mathematical and cybernetic electoral fraud.
 
 ---
@@ -121,7 +121,7 @@ Based on the exposed evidence, we request the Honorable Inter-American Commissio
 1. **ISSUE A RESOLUTION FOR PRECAUTIONARY MEASURES** ordering the State of Colombia to immediately and indefinitely **suspend the presidential inauguration ceremony** scheduled for August 7, 2026.
 2. **ORDER THE PRESERVATION OF EVIDENCE**, instructing the physical and logical freezing of all servers, databases, and S3 repositories of the National Civil Registry.
 3. **REQUEST AN INDEPENDENT INTERNATIONAL AUDIT** to be conducted by the Organization of American States (OAS) and impartial forensic experts.
-4. **GRANT PRECAUTIONARY PROTECTION** to the investigator Andrea Zabala Cárcamo and all members of the Citizen Oversight Committee who have suffered continuous cyberattacks and harassment, urging the United States of America and Colombia to guarantee their life, physical, and digital integrity.
+4. **GRANT PRECAUTIONARY PROTECTION** to all members of the Citizen Oversight Committee who have suffered continuous cyberattacks and harassment, urging the United States of America and Colombia to guarantee their life, physical, and digital integrity.
 
 ---
 **Signature:**
