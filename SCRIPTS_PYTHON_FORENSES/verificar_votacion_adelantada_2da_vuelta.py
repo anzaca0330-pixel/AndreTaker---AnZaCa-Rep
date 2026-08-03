@@ -7,13 +7,17 @@ import re
 def compare_advance_vs_sunday_2nd_round():
     print("🔬 [VERIFICACIÓN 2DA VUELTA] Comparando Votación Adelantada (Semana Previa) vs. Domingo...")
     
-    base_dir = "/media/andrea-zabala-c/D A T A1/segundaVuelta/claveros_pdf"
+    target_dirs = [
+        "/media/andrea-zabala-c/D A T A1/segundaVuelta/claveros_pdf",
+        "/home/andrea-zabala-c/Documents/Para Revisar/E14"
+    ]
     
     advance_pdfs = []
     sunday_pdfs = []
     
-    for root, dirs, files in os.walk(base_dir):
-        for f in files:
+    for base_dir in target_dirs:
+        for root, dirs, files in os.walk(base_dir):
+            for f in files:
             if f.lower().endswith('.pdf'):
                 full = os.path.join(root, f)
                 low = full.lower()

@@ -76,8 +76,9 @@ Aunque mi nombre (Andrea Zabala Cárcamo) figura como coordinadora de la estruct
 - Por **nuestros animales**, que son sagrados y dependen del futuro que construimos hoy.
 - Por mi **mamá y mi hermana**, que siguen allá resistiendo.
 - Por **mis amigos y por los hijos de mis amigos**, a quienes les debemos un país donde la verdad no sea borrada.
+- Y por mi **abuelo**, que siempre me dijo que el mejor país del mundo es Colombia... y le creo. **No podemos dejarlo en manos de quienes no lo respetan.**
 
-Nuestra labor (incluyendo el hiperenfoque neurodivergente que detectó las primeras anomalías microscópicas en los PDF) fue solo el catalizador técnico al servicio de este colectivo. La alteración estructural de votos que hemos demostrado aquí (inyección sintética y desviación de la Ley de Benford) intentó silenciar el clamor por esos territorios y ecosistemas. 
+**No es solo mi análisis, como yo somos muchos.** Nuestra labor (incluyendo el hiperenfoque neurodivergente que detectó las primeras anomalías microscópicas en los PDF) fue solo el catalizador técnico al servicio de este colectivo. La alteración estructural de votos que hemos demostrado aquí (inyección sintética y desviación de la Ley de Benford) intentó silenciar el clamor por esos territorios y ecosistemas. 
 
 **Este repositorio es la prueba inmutable y matemática de que la voz de los colombianos existió, fue registrada y no será borrada.**
 

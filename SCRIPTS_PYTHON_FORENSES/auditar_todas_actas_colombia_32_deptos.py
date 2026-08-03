@@ -57,7 +57,10 @@ def analyze_pdf_national(pdf_path):
 def run_national_colombia_audit():
     print("🚀 [AUDITORÍA NACIONAL MASIVA] Escaneando las actas de los 32 Departamentos de Colombia...")
     
-    base_dir = "/media/andrea-zabala-c/D A T A1/segundaVuelta/claveros_pdf"
+    target_dirs = [
+        "/media/andrea-zabala-c/D A T A1/segundaVuelta/claveros_pdf",
+        "/home/andrea-zabala-c/Documents/Para Revisar/E14"
+    ]
     out_dir = "/home/andrea-zabala-c/Desktop/ENTREGABLES_FORENSES_E14"
     drive_dir = "/media/andrea-zabala-c/D A T A1/segundaVuelta/ENTREGABLES_FORENSES_E14"
     
@@ -65,10 +68,11 @@ def run_national_colombia_audit():
     os.makedirs(drive_dir, exist_ok=True)
     
     pdf_list = []
-    for root, dirs, files in os.walk(base_dir):
-        for f in files:
-            if f.lower().endswith('.pdf'):
-                pdf_list.append(os.path.join(root, f))
+    for base_dir in target_dirs:
+        for root, dirs, files in os.walk(base_dir):
+            for f in files:
+                if f.lower().endswith('.pdf'):
+                    pdf_list.append(os.path.join(root, f))
                 
     total_national = len(pdf_list)
     print(f"📊 Total Actas Nacionales E-14 Identificadas: {total_national:,}")
