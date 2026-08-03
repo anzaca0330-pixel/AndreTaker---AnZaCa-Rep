@@ -62,4 +62,17 @@ Todos los scripts están diseñados para ser ejecutados en entornos Linux (Debia
 - `exiftool` (`sudo apt install libimage-exiftool-perl`) - Requerido para verificación de eliminación de metadatos de tiempo en actas web.
 
 ---
-**Documento Confidencial.** Generado por la Veeduría Técnica / Andrea Zabala Cárcamo.
+
+## 👩‍🔬 Sobre la Investigadora y Coordinadora
+
+**Andrea Zabala Cárcamo**  
+*Estudiante activa Psicóloga Industrial-Organizacional (Universidad de Phoenix, GPA 3.61) | Veedora Ciudadana Principal*
+
+Este repositorio no fue creado por un equipo de hackers, sino por una **ciudadana con neurodivergencia (TDAH)** que utilizó su capacidad de **hiperenfoque** para detectar anomalías en más de 118,000 actas electorales. 
+
+Mi formación en **Psicología de la Conducta** y **Estadística Aplicada** me permitió identificar lo que los algoritmos automáticos pasaron por alto:
+- **El "Por Qué" Humano:** Entendí que la alteración de votos no era solo un error de código, sino un patrón de comportamiento forzado (violación de la Ley de Benford) diseñado para simular una victoria artificial.
+- **La Detección de Patrones:** Mi TDAH me permitió mantener la atención en detalles microscópicos (la "cicatriz" XREF en los PDFs) durante horas, mientras otros sistemas fallaban.
+- **La Visión Holística:** Coordiné la evidencia técnica, la cadena de custodia y la estrategia legal ante la CIDH, traduciendo datos complejos en argumentos jurídicos irrefutables.
+
+**Advertencia de Seguridad:** He sido objeto de ciberataques sistemáticos (Rootkit, bloqueo de BIOS, sabotaje vehicular) y acoso físico. Este repositorio es mi forma de preservar la verdad ante la imposibilidad de acceder a los servidores oficiales.
