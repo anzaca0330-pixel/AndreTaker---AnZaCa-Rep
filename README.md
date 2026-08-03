@@ -1,6 +1,9 @@
 # ENTREGABLES FORENSES E-14 (CASO CIDH)
 
-Este repositorio contiene las herramientas analíticas, scripts de auditoría y reportes generados durante el peritaje técnico forense a los comicios presidenciales (1ra y 2da Vuelta) de 2026. Toda la evidencia y scripts fueron diseñados para soportar el caso presentado ante la CIDH.
+## Acerca de este Repositorio / About
+**[ES]** Este repositorio es una bitácora técnica de código abierto y preservación de evidencia digital. Contiene las herramientas analíticas, scripts de auditoría matemática e informática, y dictámenes periciales independientes generados durante el análisis técnico de los comicios presidenciales (1ra y 2da Vuelta) de 2026 en Colombia. Toda la evidencia y metodología fue documentada bajo estrictos estándares forenses para soportar el caso presentado ante la Comisión Interamericana de Derechos Humanos (CIDH) y la comunidad internacional.
+
+**[EN]** This repository serves as an open-source technical log and digital evidence preservation vault. It contains the analytical tools, mathematical and computer auditing scripts, and independent forensic reports generated during the technical analysis of the 2026 presidential elections in Colombia. All evidence and methodology have been documented under strict forensic standards to support the case presented before the Inter-American Commission on Human Rights (IACHR) and the international community.
 
 ---
 
