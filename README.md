@@ -65,8 +65,9 @@ Todos los scripts están diseñados para ser ejecutados en entornos Linux (Debia
 
 ## 👩‍🔬 Sobre la Investigadora y Coordinadora
 
-**Andrea Zabala Cárcamo**  
-*Estudiante activa Psicóloga Industrial-Organizacional (Universidad de Phoenix, GPA 3.61) | Veedora Ciudadana Principal*
+**Andrea Zabala Cárcamo** (Virginia, USA)  
+*Estudiante de Psicología Industrial-Organizacional (Universidad de Phoenix, GPA 3.61) | Líder Scout Honoraria (Scouting America) | Madre y Educadora*  
+*Veedora Ciudadana Principal & Coordinadora de la red global de más de 70,000 "Testigos Digitales"*
 
 Este repositorio no fue creado por un equipo de hackers, sino por una **ciudadana con neurodivergencia (TDAH)** que utilizó su capacidad de **hiperenfoque** para detectar anomalías en más de 118,000 actas electorales. 
 
