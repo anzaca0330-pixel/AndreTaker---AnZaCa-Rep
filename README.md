@@ -1,5 +1,8 @@
 # ENTREGABLES FORENSES E-14 (CASO CIDH)
 
+⚖️ **[MANIFIESTO LEGAL Y CONSTITUCIONAL (Español)](MANIFESTO_TESTIGO_DIGITAL_ES.md)**  
+⚖️ **[LEGAL AND CONSTITUTIONAL MANIFESTO (English)](MANIFESTO_TESTIGO_DIGITAL_EN.md)**
+
 ## Acerca de este Repositorio / About
 **[ES]** Este repositorio es una bitácora técnica de código abierto y preservación de evidencia digital. Contiene las herramientas analíticas, scripts de auditoría matemática e informática, y dictámenes periciales independientes generados durante el análisis técnico de los comicios presidenciales (1ra y 2da Vuelta) de 2026 en Colombia. Toda la evidencia y metodología fue documentada bajo estrictos estándares forenses para soportar el caso presentado ante la Comisión Interamericana de Derechos Humanos (CIDH) y la comunidad internacional.
 

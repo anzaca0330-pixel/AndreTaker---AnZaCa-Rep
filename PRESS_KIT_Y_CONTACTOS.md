@@ -12,6 +12,7 @@ Este documento contiene los mensajes estandarizados listos para enviar a periodi
 > La evidencia técnica de la inyección de datos (código abierto, algoritmos de varianza y hashes) está liberada en GitHub para auditoría forense internacional. Urge la presión pública sobre la CIDH para la admisión de medidas cautelares y la suspensión de la toma de posesión presidencial (7 de agosto), debido a la destrucción comprobada de la cadena de custodia en la base de datos oficial.
 > 
 > 📁 **Repositorio y Dictámenes Forenses:** [Enlace al Repositorio en GitHub]
+> ⚖️ **Manifiesto Jurídico Bilingüe:** [Link al Manifiesto Legal ES/EN]
 > 📊 **Contacto:** Andrea Zabala (Coordinadora Veeduría Ciudadana)
 
 ## 2. Mensaje Directo para Expertos Forenses y Estadísticos
@@ -40,6 +41,7 @@ Este documento contiene los mensajes estandarizados listos para enviar a periodi
 > 
 > Nos dirigimos a ustedes solicitando su plataforma institucional. Necesitamos que las organizaciones garantes de Derechos Humanos eleven nuestra denuncia técnica y presionen a la CIDH para que se admitan las medidas cautelares antes del 7 de agosto. La cadena de custodia digital ha sido destruida desde los servidores centrales, haciendo técnicamente imposible un reconteo físico legítimo.
 > 
-> Adjunto el Resumen Ejecutivo Forense y el enlace a la auditoría técnica de código abierto para su revisión.
+> Adjunto el Resumen Ejecutivo Forense, el Manifiesto Jurídico Internacional y el enlace a la auditoría técnica de código abierto para su revisión.
 > 
 > 📁 **Repositorio Principal:** [Link]
+> ⚖️ **Manifiesto Jurídico Internacional (Inglés/Español):** [Link al Manifiesto]
