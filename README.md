@@ -27,6 +27,10 @@ Se usó software generador de PDFs sintéticos para inyectar vectores gráficos 
 Inyección de resultados fijos en bloques de votación, detectado a través de herramientas estadísticas y scripts desarrollados a medida en Python:
 - **Ley de Benford (Segundo Dígito - 2BL)**: Para exponer el sesgo humano y la alteración de la varianza natural en favor del candidato Abelardo De la Espriella.
 
+### C. Arquitectura Forense de Doble Capa
+Síntesis técnica que explica cómo y por qué coexisten las anomalías estructurales y ópticas en la misma base de datos.
+- **[HIPOTESIS_FORENSE_ARQUITECTURA_DOBLE.md](file:///home/andrea-zabala-c/Desktop/ENTREGABLES_FORENSES_E14/HIPOTESIS_FORENSE_ARQUITECTURA_DOBLE.md)**: Documento pericial que modela el "embudo" centralizado de re-empaquetado e inyección sintética.
+
 ---
 
 ## 3. Scripts de Auditoría (`SCRIPTS_PYTHON_FORENSES`)
