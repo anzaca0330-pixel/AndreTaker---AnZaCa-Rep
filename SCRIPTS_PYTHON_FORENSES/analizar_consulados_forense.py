@@ -48,7 +48,7 @@ def analyze_pdf(pdf_path):
         # Quitar las dos líneas de cabecera si existen
         img_count = max(0, len(lines) - 2)
         res["num_imagenes"] = img_count
-        if img_count > 1:
+        if img_count > 2:
             res["multicapa_sospechosa"] = True
     except Exception:
         pass

@@ -47,7 +47,7 @@ def analyze_pdf_national(pdf_path):
     try:
         proc = subprocess.run(["pdfimages", "-list", pdf_path], capture_output=True, text=True, timeout=10)
         lines = [l for l in proc.stdout.splitlines() if l.strip()]
-        if len(lines) > 3:
+        if len(lines) > 4:
             res["multicapa"] = True
     except Exception:
         pass

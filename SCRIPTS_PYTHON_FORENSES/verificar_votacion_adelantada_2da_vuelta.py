@@ -45,7 +45,7 @@ def compare_advance_vs_sunday_2nd_round():
             # 3. pdfimages
             proc_img = subprocess.run(["pdfimages", "-list", pdf], capture_output=True, text=True)
             lines = [l for l in proc_img.stdout.splitlines() if l.strip()]
-            if len(lines) > 3: # más de 1 imagen incrustada
+            if len(lines) > 4: # más de 2 imágenes incrustadas
                 multi_img += 1
                 
         tot = len(sample)
