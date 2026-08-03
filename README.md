@@ -63,17 +63,22 @@ Todos los scripts están diseñados para ser ejecutados en entornos Linux (Debia
 
 ---
 
-## 👩‍🔬 Sobre la Investigadora y Coordinadora
+## 🇨🇴 Autoría Colectiva y Dedicatoria (Frente Digital 2026)
 
-**Andrea Zabala Cárcamo** (Virginia, USA)  
-*Estudiante de Psicología Industrial-Organizacional (Universidad de Phoenix, GPA 3.61) | Líder Scout Honoraria (Scouting America) | Madre y Educadora*  
-*Veedora Ciudadana Principal & Coordinadora de la red global de más de 70,000 "Testigos Digitales"*
+**Este repositorio no me pertenece a mí, le pertenece a Colombia.**
 
-Este repositorio no fue creado por un equipo de hackers, sino por una **ciudadana con neurodivergencia (TDAH)** que utilizó su capacidad de **hiperenfoque** para detectar anomalías en más de 118,000 actas electorales. 
+Aunque mi nombre (Andrea Zabala Cárcamo) figura como coordinadora de la estructura técnica y pericial, este esfuerzo monumental fue impulsado por la fuerza de más de **70,000 "Testigos Digitales"** (Frente Digital 2026). Ciudadanos comunes que descargaron, verificaron y protegieron la evidencia digital cuando los servidores oficiales fallaron.
 
-Mi formación en **Psicología de la Conducta** y **Estadística Aplicada** me permitió identificar lo que los algoritmos automáticos pasaron por alto:
-- **El "Por Qué" Humano:** Entendí que la alteración de votos no era solo un error de código, sino un patrón de comportamiento forzado (violación de la Ley de Benford) diseñado para simular una victoria artificial.
-- **La Detección de Patrones:** Mi TDAH me permitió mantener la atención en detalles microscópicos (la "cicatriz" XREF en los PDFs) durante horas, mientras otros sistemas fallaban.
-- **La Visión Holística:** Coordiné la evidencia técnica, la cadena de custodia y la estrategia legal ante la CIDH, traduciendo datos complejos en argumentos jurídicos irrefutables.
+**Dedicamos este peritaje científico y forense:**
+- A la **gente** que salió a votar masivamente, impulsada por la esperanza y el deber cívico.
+- Por sus **tierras y territorios**, pilares de la soberanía de nuestras comunidades.
+- Por **nuestra selva y nuestras aguas**, que requieren protección y voces que las defiendan.
+- Por **nuestros animales**, que son sagrados y dependen del futuro que construimos hoy.
+- Por mi **mamá y mi hermana**, que siguen allá resistiendo.
+- Por **mis amigos y por los hijos de mis amigos**, a quienes les debemos un país donde la verdad no sea borrada.
 
-**Advertencia de Seguridad:** He sido objeto de ciberataques sistemáticos (Rootkit, bloqueo de BIOS, sabotaje vehicular) y acoso físico. Este repositorio es mi forma de preservar la verdad ante la imposibilidad de acceder a los servidores oficiales.
+Nuestra labor (incluyendo el hiperenfoque neurodivergente que detectó las primeras anomalías microscópicas en los PDF) fue solo el catalizador técnico al servicio de este colectivo. La alteración estructural de votos que hemos demostrado aquí (inyección sintética y desviación de la Ley de Benford) intentó silenciar el clamor por esos territorios y ecosistemas. 
+
+**Este repositorio es la prueba inmutable y matemática de que la voz de los colombianos existió, fue registrada y no será borrada.**
+
+*Advertencia de Seguridad:* Debido a los continuos ciberataques y hostigamientos documentados, este entorno actúa como bóveda de preservación "Cold Case" descentralizada para garantizar que la verdad llegue intacta a la CIDH.
