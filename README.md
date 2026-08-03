@@ -29,6 +29,8 @@ Se usó software generador de PDFs sintéticos para inyectar vectores gráficos 
 ### B. "Planchado Matemático" (Desviación Estadística)
 Inyección de resultados fijos en bloques de votación, detectado a través de herramientas estadísticas y scripts desarrollados a medida en Python:
 - **Ley de Benford (Segundo Dígito - 2BL)**: Para exponer el sesgo humano y la alteración de la varianza natural en favor del candidato Abelardo De la Espriella.
+  - 📊 **[Ver gráfico interactivo de la Anomalía Benford (HTML)](benford_grafica_prensa.html)**
+  - *Fig 1: Desviación estadística imposible en los dígitos 8 y 9 que comprueba inyección de datos.*
 
 ### C. Arquitectura Forense de Doble Capa
 Síntesis técnica que explica cómo y por qué coexisten las anomalías estructurales y ópticas en la misma base de datos.
@@ -55,11 +57,24 @@ Síntesis técnica que explica cómo y por qué coexisten las anomalías estruct
 
 Todos los scripts están diseñados para ser ejecutados en entornos Linux (Debian/Ubuntu). Recomendamos a la comunidad de ingenieros clonar este repositorio y validar el `INFORME_INTEGRIDAD_SHA256.md` antes de ejecutar.
 
-**Dependencias Requeridas:**
-- `python3`
-- `qpdf` (`sudo apt install qpdf`) - Vital para la detección de la inyección XREF.
-- `poppler-utils` (`sudo apt install poppler-utils`) - Requerido por `pdfimages` para la extracción de capas binarias.
-- `exiftool` (`sudo apt install libimage-exiftool-perl`) - Requerido para verificación de eliminación de metadatos de tiempo en actas web.
+**Quick Start (Inicio Rápido):**
+```bash
+# Instalar dependencias requeridas
+sudo apt-get update && sudo apt-get install qpdf poppler-utils libimage-exiftool-perl python3
+
+# Clonar el repositorio
+git clone https://github.com/anzaca0330-pixel/Evidencia-Forense-E14.git
+cd Evidencia-Forense-E14
+
+# Ejecutar auditoría en una muestra
+./SCRIPTS_PYTHON_FORENSES/auditoria_masiva_xref.sh "ruta/a/muestra" "resultados_muestra.csv"
+```
+
+> **🤝 ¿Eres experto en estadística, forense digital o derecho electoral?**
+> No necesitamos que reescribas el código. **Valida nuestra metodología.**
+> - Abre un *Issue* si encuentras errores en los scripts.
+> - Propón mejoras en la sección de *Discussions*.
+> - **Comparte este repositorio** con colegas y organizaciones internacionales.
 
 ---
 
