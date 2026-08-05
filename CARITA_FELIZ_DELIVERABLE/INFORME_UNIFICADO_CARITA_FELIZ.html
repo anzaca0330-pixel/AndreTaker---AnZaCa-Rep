@@ -28,7 +28,7 @@
   }
   
   .container {
-    max-width: 1100px;
+    max-width: 1150px;
     margin: 0 auto;
     background: var(--bg-secondary);
     border: 1px solid var(--border-color);
@@ -64,7 +64,6 @@
   p { margin-bottom: 1.2rem; font-weight: 400; color: #cbd5e1; }
   strong { color: #fff; }
 
-  /* Alert style box */
   .alert-box {
     background: rgba(255, 74, 90, 0.08);
     border: 1px solid rgba(255, 74, 90, 0.25);
@@ -74,29 +73,19 @@
   }
   .alert-box h3 { color: var(--accent-red); margin-bottom: 0.5rem; font-size: 1.1rem; }
 
-  /* Grid layout for two column parts */
-  .grid-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    margin: 2rem 0;
+  /* Image comparison styling */
+  .comparison-block {
+    text-align: center;
+    margin: 2.5rem 0;
   }
-  @media (max-width: 768px) {
-    .grid-2 { grid-template-columns: 1fr; }
-  }
-
-  /* SVG illustration styling */
-  .vector-container {
-    background: #fff;
+  .comparison-img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid var(--border-color);
     border-radius: 8px;
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid var(--border-color);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
   }
   
-  /* Tables styling */
   table {
     width: 100%;
     border-collapse: collapse;
@@ -113,7 +102,6 @@
   .timeline-table td { vertical-align: top; }
   .date-col { width: 120px; font-weight: 700; color: var(--accent-lightblue); }
 
-  /* Bibliography styling */
   .biblio-list {
     margin-left: 1.5rem;
     margin-bottom: 1.5rem;
@@ -123,7 +111,6 @@
     color: #cbd5e1;
   }
 
-  /* Footer styling */
   footer {
     margin-top: 3rem;
     border-top: 1px solid var(--border-color);
@@ -152,60 +139,13 @@
   <h2>1. El Hallazgo Principal (Por qué jamás pasaron por un escáner físico)</h2>
   <p>La conclusión pericial definitiva es que los formularios analizados <strong>son de origen estrictamente digital (nativos de computadora)</strong> y jamás pasaron por un proceso de digitalización física sobre papel. Esto se demuestra científicamente mediante la presencia sistemática de <strong>puntos de blanco digital en tono rojo</strong>.</p>
   
-  <div class="grid-2">
-    <div>
-      <p><strong>Explicación Científica:</strong></p>
-      <p>En un proceso de escaneo físico real, la lámpara del escáner proyecta luz blanca sobre el papel. La cámara del dispositivo lee la luz reflejada. Las áreas blancas de la hoja producen un blanco imperfecto con ligeras variaciones de ruido de sensor en escala de grises. Es físicamente imposible que un escáner físico de papel inserte de forma regular y uniforme pequeños píxeles coloreados exactamente de rojo puro o variaciones cromáticas exactas en las zonas de mayor luminancia.</p>
-      <p>Por el contrario, los algoritmos de inyección y compresión digital de imágenes generadas artificialmente utilizan matrices matemáticas de cuantización. Estas matrices, al procesar áreas blancas artificiales, generan artefactos de borde y ruido cromático ordenado de color rojo. La presencia de estos patrones regulares confirma que la imagen fue ensamblada por un software y no por un sensor óptico real.</p>
-    </div>
-    
-    <div class="vector-container">
-      <!-- High-definition SVG scanner mockup with zoom magnifying glass showing red dots -->
-      <svg width="450" height="400" viewBox="0 0 450 400" xmlns="http://www.w3.org/2000/svg">
-        <!-- Main Document Background representing E-14 sheet -->
-        <rect x="20" y="20" width="220" height="310" rx="4" fill="#fafafa" stroke="#ccc" stroke-width="2"/>
-        <!-- Fake E-14 headers -->
-        <rect x="35" y="35" width="190" height="15" fill="#e0e0e0" rx="2"/>
-        <text x="40" y="46" font-family="Arial" font-size="8" fill="#555" font-weight="bold">FORMULARIO E-14 (CLAVEROS)</text>
-        
-        <!-- Table rows representing data grid -->
-        <line x1="35" y1="65" x2="225" y2="65" stroke="#ddd" stroke-width="1"/>
-        <line x1="35" y1="85" x2="225" y2="85" stroke="#ddd" stroke-width="1"/>
-        <line x1="35" y1="105" x2="225" y2="105" stroke="#ddd" stroke-width="1"/>
-        <line x1="35" y1="125" x2="225" y2="125" stroke="#ddd" stroke-width="1"/>
-        <line x1="35" y1="145" x2="225" y2="145" stroke="#ddd" stroke-width="1"/>
-        <line x1="35" y1="165" x2="225" y2="165" stroke="#ddd" stroke-width="1"/>
-        
-        <!-- Simulated red white-point dots on document -->
-        <circle cx="50" cy="95" r="2.5" fill="red"/>
-        <circle cx="120" cy="115" r="2.5" fill="red"/>
-        <circle cx="180" cy="75" r="2.5" fill="red"/>
-        <circle cx="90" cy="155" r="2.5" fill="red"/>
-        
-        <!-- Zoom Magnifying Glass Callout -->
-        <!-- Zoom path lines -->
-        <line x1="120" y1="115" x2="290" y2="180" stroke="red" stroke-dasharray="3,3" stroke-width="1.5"/>
-        <line x1="122" y1="117" x2="290" y2="300" stroke="red" stroke-dasharray="3,3" stroke-width="1.5"/>
-        
-        <!-- Zoom Circle (Lens) -->
-        <circle cx="340" cy="240" r="70" fill="#fff" stroke="#333" stroke-width="3"/>
-        <circle cx="340" cy="240" r="69" fill="none" stroke="red" stroke-width="1"/>
-        
-        <!-- E14 table details inside zoom lens -->
-        <line x1="280" y1="230" x2="400" y2="230" stroke="#ccc" stroke-dasharray="2,2"/>
-        <line x1="280" y1="260" x2="400" y2="260" stroke="#ccc" stroke-dasharray="2,2"/>
-        <text x="290" y="220" font-family="Arial" font-size="10" fill="#999">Papel (Blanco Puro)</text>
-        
-        <!-- Big red dots inside zoom -->
-        <circle cx="330" cy="245" r="8" fill="red" opacity="0.8"/>
-        <circle cx="365" cy="225" r="8" fill="red" opacity="0.8"/>
-        
-        <!-- Callout Labels -->
-        <text x="285" y="160" font-family="Arial" font-size="11" fill="red" font-weight="bold">LUPA DE ANÁLISIS FORENSE</text>
-        <text x="285" y="325" font-family="Arial" font-size="10" fill="#ff4a5a" font-weight="bold">Puntos de Blanco Digital (Rojo)</text>
-        <text x="285" y="340" font-family="Arial" font-size="8" fill="#666">Ruido matemático inexistente en escáner físico</text>
-      </svg>
-    </div>
+  <p><strong>Explicación Científica:</strong></p>
+  <p>En un proceso de escaneo físico real, la lámpara del escáner proyecta luz blanca sobre el papel. La cámara del dispositivo lee la luz reflejada. Las áreas blancas de la hoja producen un blanco imperfecto con ligeras variaciones de ruido de sensor en escala de grises. Es físicamente imposible que un escáner físico de papel inserte de forma regular y uniforme pequeños píxeles coloreados exactamente de rojo puro o variaciones cromáticas exactas en las zonas de mayor luminancia.</p>
+  <p>Por el contrario, los algoritmos de inyección y compresión digital de imágenes generadas artificialmente utilizan matrices matemáticas de cuantización. Estas matrices, al procesar áreas blancas artificiales, generan artefactos de borde y ruido cromático ordenado de color rojo. La presencia de estos patrones regulares confirma que la imagen fue ensamblada por un software y no por un sensor óptico real.</p>
+
+  <div class="comparison-block">
+    <p style="margin-bottom:0.8rem; font-weight:700; color:var(--accent-red);">Fácil Verificación Visual: Imagen Original (Izquierda) vs. Detección de Blanco Digital (Derecha)</p>
+    <img class="comparison-img" src="side_by_side_final.png" alt="Comparativa Lado a Lado de Blanco Digital">
   </div>
 
   <h2>2. Ejemplo del Día a Día</h2>
