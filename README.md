@@ -63,6 +63,8 @@ Para facilitar la auditoría, el repositorio se divide en tres grandes bloques:
 
 Consulte el archivo **[`INDICE_MAESTRO.md`](INDICE_MAESTRO.md)** para una navegación detallada por cada archivo.
 
+📘 **Marco Legal y Académico:** Toda la base normativa, estándares ISO forenses y sustento estadístico de esta auditoría se encuentran detallados en la **[`BIBLIOGRAFÍA ACADÉMICA Y TÉCNICA`](03_DOCUMENTACION/BIBLIOGRAFIA_FORENSE_CIDH.md)**.
+
 ---
 
 ## 🛠️ Cómo Usar Este Repositorio
