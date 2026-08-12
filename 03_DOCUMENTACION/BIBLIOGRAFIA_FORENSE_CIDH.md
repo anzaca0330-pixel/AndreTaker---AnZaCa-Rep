@@ -26,7 +26,8 @@ Este documento compila el marco teórico, los estándares internacionales y la l
   - 🖥️ **Repositorio Oficial:** [wmebane/Election-Forensics-Toolkit](https://github.com/wmebane/Election-Forensics-Toolkit) (Herramientas base de análisis).
 
 ### 4. Manipulación Digital y Detección de Falsificaciones (Deepfakes)
-- **Farid, Hany. (2016).** *Photo Forensics*. (MIT Press). Metodología base para el análisis de compresión (JPEG Quantization), errores de nivel de error (ELA) y alteraciones estructurales en la grilla de píxeles, aplicable a la inyección (Blind Masking) detectada en las firmas de los jurados.
+- **Fridrich, Jessica. (2009).** *Steganalysis and Blind Image Forensics*. Pionera de la disciplina de "Blind Forensics" (detección de manipulación digital sin requerir la imagen original de referencia). Aunque sus conceptos fundamentales fueron creados para esteganografía y análisis de ruido de sensores, **esta es la base teórica que hemos adaptado y aplicado por primera vez de forma masiva para identificar alteraciones electorales (Blind Masking)** en documentos escaneados.
+- **Farid, Hany. (2016).** *Photo Forensics*. (MIT Press). Metodología base para el análisis de compresión (JPEG Quantization), errores de nivel de error (ELA) y alteraciones estructurales en la grilla de píxeles, aplicable a la inyección y el "1-Bit Flattening" detectado en las firmas de los jurados.
 - **SWGDE (Scientific Working Group on Digital Evidence)**. Documentos guía sobre mejores prácticas para el análisis de alteraciones en imágenes y documentos escaneados.
 - **Herramientas de Análisis Estructural y Visual**:
   - **QPDF (Jay Berkenbilt):** Utilizado como marco técnico para entender y aislar la tabla XREF corrupta. 
@@ -51,6 +52,7 @@ Este repositorio constituye un caso de estudio sin precedentes sobre **fraude el
 
 Extendemos una **invitación pública y formal** a los creadores de las herramientas y metodologías aquí aplicadas para que auditen y revisen la solidez matemática e informática de este trabajo. En especial, invitamos a:
 
+- **Dra. Jessica Fridrich**: Para evaluar cómo hemos adaptado sus conceptos pioneros de *Blind Image Forensics* (originalmente aplicados a esteganografía) para aislar inyecciones sintéticas en decenas de miles de escaneos electorales.
 - **Dr. Walter Mebane** (`@wmebane`): Para revisar la aplicación de sus modelos del segundo dígito de Benford frente a la inyección sintética detectada en los departamentos de Colombia.
 - **Dr. Mark Nigrini**: Para evaluar la sonificación y el análisis macroscópico del "planchado estadístico".
 - **Dr. Hany Farid**: Para revisar la técnica que hemos bautizado como *Blind Masking* y *1-Bit Flattening* en la generación masiva de Deepfakes electorales.
@@ -81,6 +83,7 @@ This document compiles the theoretical framework, international standards, and s
   - 🖥️ **Official Repository:** [wmebane/Election-Forensics-Toolkit](https://github.com/wmebane/Election-Forensics-Toolkit) (Base analysis tools).
 
 ### 4. Digital Manipulation and Forgery Detection (Deepfakes)
+- **Fridrich, Jessica. (2009).** *Steganalysis and Blind Image Forensics*. Pioneer of the "Blind Forensics" discipline (detecting digital manipulation without requiring the original reference image). Although her fundamental concepts were created for steganography and sensor noise analysis, **this is the theoretical baseline we have adapted and applied for the first time on a massive scale to identify electoral alterations (Blind Masking)** in scanned documents.
 - **Farid, Hany. (2016).** *Photo Forensics*. (MIT Press). Baseline methodology for compression analysis (JPEG Quantization), error level analysis (ELA), and structural alterations in the pixel grid, applicable to the injection (Blind Masking) detected in the jury signatures.
 - **SWGDE (Scientific Working Group on Digital Evidence)**. Guidance documents on best practices for analyzing alterations in images and scanned documents.
 - **Structural and Visual Analysis Tools**:
@@ -106,6 +109,7 @@ This repository constitutes an unprecedented case study on **structural electora
 
 We extend a **public and formal invitation** to the creators of the tools and methodologies applied herein to audit and review the mathematical and computational soundness of this work. We especially invite:
 
+- **Dr. Jessica Fridrich**: To evaluate how we have adapted your pioneering concepts of *Blind Image Forensics* (originally applied to steganography) to isolate synthetic injections in tens of thousands of electoral scans.
 - **Dr. Walter Mebane** (`@wmebane`): To review the application of your second-digit Benford models against the synthetic injection detected in the departments of Colombia.
 - **Dr. Mark Nigrini**: To evaluate the sonification and macroscopic analysis of the "statistical ironing".
 - **Dr. Hany Farid**: To review the technique we have baptized as *Blind Masking* and *1-Bit Flattening* in the massive generation of Electoral Deepfakes.
