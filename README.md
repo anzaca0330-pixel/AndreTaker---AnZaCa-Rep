@@ -52,7 +52,7 @@ A través del esfuerzo masivo de más de 75,000 "Testigos Digitales", se descarg
 ### 📊 Volumen Analizado por Fases (Audit Scope)
 
 Para garantizar rigor científico, la auditoría forense escaló en tres fases de volumen documental:
-*   **Fase 1 (Muestras de Control Nacionales):** Auditoría manual y estadística sobre un dataset de control de **~500 actas** de departamentos clave (ej. Antioquia) para establecer la línea base de un escaneo legítimo vs. uno falsificado.
+*   **Fase 1 (Punto Cero - Consulado de Los Ángeles):** Auditoría forense inicial sobre las actas del Consulado de Los Ángeles, siendo el epicentro donde se detectaron las primeras anomalías matemáticas y estructurales que detonaron la investigación a gran escala.
 *   **Fase 2 (Foco del Fraude - Voto en el Exterior):** Análisis profundo de anomalías en los Consulados de Estados Unidos (987 actas) y España (696 actas), consolidando **casi 1,700 actas** que representan **más de un cuarto de millón de votos (250,000+)**. Aquí se aisló por primera vez la técnica de censura *Blind Masking*.
 *   **Fase 3 (Auditoría Masiva Estructural - Acervo Completo):** Escaneo automatizado mediante *multiprocessing* sobre **121,960 PDFs** (la totalidad absoluta de los documentos E-14 de Delegados depositados en la bóveda principal). El 100% de la muestra total fue procesada en busca de la corrupción estructural (XREF).
 
