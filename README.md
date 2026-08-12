@@ -14,7 +14,7 @@
 
 # 🕊️ ACERVO PROBATORIO FORENSE E-14 (COLOMBIA 2026)
 
-**Investigadora:** Andrea Zabala Cárcamo  
+**Primera Línea Digital:** AnZaCa AndreTaker  
 **Colectivo:** Frente Digital 2026  
 **Radicado CIDH:** `IACHR-0000113728`  
 **Estado:** Evidencia preservada, blindada y disponible para peritaje internacional.
@@ -174,9 +174,11 @@ Aunque mi nombre (Andrea Zabala Cárcamo - ANZACA AndreTaker) figura como coordi
 
 ---
 
-**PRIMERA LÍNEA DIGITAL - FRENTE DIGITAL ANZACA AndreTaker**  
+**FRENTE DIGITAL**  
+🌐 [frentedigital2026.com](https://frentedigital2026.com/)
+
+**PRIMERA LÍNEA DIGITAL - AnZaCa AndreTaker**  
 *Auditoría Ciudadana por la Transparencia Electoral*  
-🌐 [testigosdigitales2026.com](https://testigosdigitales2026.com/)
 
 **Agradecimiento y Apoyo en Investigación:**  
 *[Laboratorio de Investigación FITE](https://testigodigital.co/)*
