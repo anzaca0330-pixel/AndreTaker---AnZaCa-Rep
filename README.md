@@ -101,6 +101,7 @@ Consulte el archivo **[`INDICE_MAESTRO.md`](INDICE_MAESTRO.md)** para una navega
 ### Para Autoridades, Jueces o Ciudadanos
 - Comience leyendo el **[Resumen Ejecutivo](03_DOCUMENTACION/RESUMEN_EJECUTIVO.md)**.
 - Para entender los conceptos técnicos de la falsificación en términos sencillos, lea la **[Guía Didáctica para Jueces](03_DOCUMENTACION/GUIA_PARA_JUECES.md)**.
+- 😃 **[Informe Unificado "Carita Feliz" (Exhibición Visual - PDF)](03_DOCUMENTACION/CARITA_FELIZ_DELIVERABLE/INFORME_UNIFICADO_CARITA_FELIZ.pdf)**: Demostración forense visual paso a paso que comprueba cómo funciona la manipulación de píxeles (Blind Masking) en la realidad.
 
 **Informes Periciales Específicos (Casos de Estudio de la Fase 2):**
 - 🇺🇸 **[Análisis Forense - Estados Unidos (Consulados)](02_ANALISIS/informe_forense_estados_unidos.md)**: El epicentro técnico donde se descubrió la inyección del *Blind Masking*.
