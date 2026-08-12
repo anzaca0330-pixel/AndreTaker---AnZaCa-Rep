@@ -2,6 +2,15 @@
   <img src="03_DOCUMENTACION/testigos_digitales_banner.jpg" alt="Frente Digital Banner" width="100%">
 </div>
 
+<div align="center">
+  <b>🌍 Traducción Automática / Live Translation:</b><br>
+  <a href="https://translate.google.com/translate?sl=es&tl=en&u=https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep">🇺🇸 English</a> | 
+  <a href="https://translate.google.com/translate?sl=es&tl=fr&u=https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep">🇫🇷 Français</a> | 
+  <a href="https://translate.google.com/translate?sl=es&tl=de&u=https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep">🇩🇪 Deutsch</a> | 
+  <a href="https://translate.google.com/translate?sl=es&tl=pt&u=https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep">🇧🇷 Português</a>
+</div>
+<br>
+
 # 🕊️ ACERVO PROBATORIO FORENSE E-14 (COLOMBIA 2026)
 
 **Investigadora:** Andrea Zabala Cárcamo  
