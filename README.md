@@ -93,7 +93,7 @@ Todo el acervo probatorio ha sido preservado en **Internet Archive**, una plataf
 | :--- | :--- | :--- |
 | **Acervo Probatorio Completo** | Archivo `ENTREGABLES_FORENSES_E14_COMPLETO.zip`. Contiene todos los capítulos, scripts, informes y bases de datos. | [🔗 Acceder](https://archive.org/details/colombia-e14-forensic-acervo-2026) |
 | **Scripts y Reportes Técnicos** | Archivos sueltos de scripts Python/Bash, informes forenses y análisis estadísticos. Ideal para peritos que quieran revisar la metodología. | [🔗 Acceder](https://archive.org/details/paquete-forense-scripts-y-reportes) |
-| **Actas E-14 de Delegados** | Copias digitales de las actas de Delegados (21 de junio de 2026). Documentación fuente de la manipulación estructural (XREF, Blind Masking). | [🔗 Acceder](https://archive.org/details/paquete-forense-delegados) |
+| **Actas E-14 de Delegados** | Archivo `ACERVO_DELEGADOS_121K.zip` (15 GB). Copias digitales de las actas de Delegados (21 de junio de 2026). Documentación fuente de la manipulación estructural. | [🔗 Acceder](https://archive.org/details/colombia-e14-forensic-acervo-2026) |
 
 > ⚠️ **Verificación de Integridad:** Cada archivo en estas bóvedas puede ser verificado mediante su hash SHA-256. Los hashes maestros están documentados en `01_EVIDENCIA/MUESTRAS_CONTROL_HASHES.md` dentro de este repositorio.
 
