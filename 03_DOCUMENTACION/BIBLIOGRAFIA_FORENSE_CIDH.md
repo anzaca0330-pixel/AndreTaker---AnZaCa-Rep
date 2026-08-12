@@ -15,9 +15,10 @@ Este documento compila el marco teórico, los estándares internacionales y la l
 - **ISO 32000-1:2008** – *Document management — Portable document format*. Especificación oficial del formato PDF, fundamental para el análisis de objetos (`/Obj`), árboles de directorios, capas (`/Contents`) y la tabla de referencias cruzadas (XREF) corrupta encontrada en la evidencia.
 - **RFC 3227** – *Guidelines for Evidence Collection and Archiving*. Define la recolección estricta y segura de información digital bajo la cadena de custodia.
 
-### 2. Criptografía y Preservación
+### 2. Criptografía, Preservación y Compresión
 - **FIPS 180-4 (NIST)** – *Secure Hash Standard (SHS)*. Estándar oficial del Instituto Nacional de Estándares y Tecnología de EE.UU. que avala el uso del algoritmo criptográfico **SHA-256**, utilizado en este repositorio para blindar y garantizar la inmutabilidad matemática de cada acta (E-14) y de los metadatos de recolección.
 - **RFC 3161** – *Internet X.509 Public Key Infrastructure Time-Stamp Protocol (TSP)*. Estándar utilizado para certificar los sellos de tiempo inalterables de las descargas en los laboratorios.
+- **Gailly, Jean-loup y Adler, Mark.** (1995). *Zlib / DEFLATE Compression Algorithm*. Creadores de la librería zlib y el formato de compresión subyacente que el estándar PDF utiliza bajo el filtro `/FlateDecode`. La decodificación forense de sus flujos de datos fue el paso técnico crítico que permitió revelar la inyección de comandos vectoriales ocultos (`cm`, `re`, `Do`) en los formularios E-14.
 
 ### 3. Estadística Forense (Ley de Benford y Simulaciones)
 - **Nigrini, Mark J. (2012).** *Benford's Law: Applications for Forensic Accounting, Auditing, and Fraud Detection*. (John Wiley & Sons). Obra cumbre en auditoría forense que sustenta matemáticamente por qué la desviación y el "planchado estadístico" encontrados en la digitación de los votos constituye fraude sintético, y no varianza natural.
@@ -72,9 +73,10 @@ This document compiles the theoretical framework, international standards, and s
 - **ISO 32000-1:2008** – *Document management — Portable document format*. Official PDF format specification, fundamental for the analysis of objects (`/Obj`), directory trees, layers (`/Contents`), and the corrupt cross-reference table (XREF) found in the evidence.
 - **RFC 3227** – *Guidelines for Evidence Collection and Archiving*. Defines strict and secure digital information collection under chain of custody.
 
-### 2. Cryptography and Preservation
+### 2. Cryptography, Preservation, and Compression
 - **FIPS 180-4 (NIST)** – *Secure Hash Standard (SHS)*. Official standard from the US National Institute of Standards and Technology validating the use of the **SHA-256** cryptographic algorithm, used in this repository to shield and guarantee the mathematical immutability of each tally sheet (E-14).
 - **RFC 3161** – *Internet X.509 Public Key Infrastructure Time-Stamp Protocol (TSP)*. Standard used to certify unalterable time-stamps of downloads in the laboratories.
+- **Gailly, Jean-loup and Adler, Mark.** (1995). *Zlib / DEFLATE Compression Algorithm*. Creators of the zlib library and the underlying compression format that the PDF standard uses under the `/FlateDecode` filter. The forensic decoding of these data streams was the critical technical step that allowed us to reveal the injection of hidden vector commands (`cm`, `re`, `Do`) within the E-14 forms.
 
 ### 3. Forensic Statistics (Benford's Law and Simulations)
 - **Nigrini, Mark J. (2012).** *Benford's Law: Applications for Forensic Accounting, Auditing, and Fraud Detection*. (John Wiley & Sons). Landmark work in forensic auditing that mathematically supports why the deviation and "statistical ironing" found in vote digitization constitutes synthetic fraud, not natural variance.

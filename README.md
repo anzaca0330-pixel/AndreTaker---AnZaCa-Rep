@@ -53,7 +53,7 @@ A través del esfuerzo masivo de más de 75,000 "Testigos Digitales", se descarg
 
 Para garantizar rigor científico, la auditoría forense escaló en tres fases de volumen documental:
 *   **Fase 1 (Muestras de Control Nacionales):** Auditoría manual y estadística sobre un dataset de control de **~500 actas** de departamentos clave (ej. Antioquia) para establecer la línea base de un escaneo legítimo vs. uno falsificado.
-*   **Fase 2 (Foco del Fraude - Voto en el Exterior):** Análisis profundo de anomalías en los Consulados (Estados Unidos, España, etc.), abarcando actas que representan **más de 100,000 votos**. Aquí se aisló por primera vez la técnica de censura *Blind Masking*.
+*   **Fase 2 (Foco del Fraude - Voto en el Exterior):** Análisis profundo de anomalías en los Consulados de Estados Unidos (987 actas) y España (696 actas), consolidando **casi 1,700 actas** que representan **más de 100,000 votos**. Aquí se aisló por primera vez la técnica de censura *Blind Masking*.
 *   **Fase 3 (Auditoría Masiva Estructural - Acervo Completo):** Escaneo automatizado mediante *multiprocessing* sobre **121,960 PDFs** (la totalidad absoluta de los documentos E-14 de Delegados depositados en la bóveda principal). El 100% de la muestra total fue procesada en busca de la corrupción estructural (XREF).
 
 ---
@@ -107,7 +107,8 @@ Consulte el archivo **[`INDICE_MAESTRO.md`](INDICE_MAESTRO.md)** para una navega
 
 ### Para Autoridades, Jueces o Ciudadanos
 - Comience leyendo el **[Resumen Ejecutivo](03_DOCUMENTACION/RESUMEN_EJECUTIVO.md)**.
-- Para entender los conceptos técnicos de la falsificación en términos sencillos, lea la **[Guía Didáctica para Jueces](03_DOCUMENTACION/GUIA_PARA_JUECES.md)**.
+- **NUEVO:** Para el público general, lea la **[Guía Didáctica para Ciudadanos (¿Qué le hicieron a nuestros votos?)](03_DOCUMENTACION/GUIA_CIUDADANA.md)**: Explicación en lenguaje sencillo, sin tecnicismos, sobre las trampas informáticas.
+- Para entender los conceptos técnicos de la falsificación a nivel jurídico, lea la **[Guía Didáctica para Jueces](03_DOCUMENTACION/GUIA_PARA_JUECES.md)**.
 - 😃 **[Informe Unificado "Carita Feliz" (Exhibición Visual - PDF)](03_DOCUMENTACION/CARITA_FELIZ_DELIVERABLE/INFORME_UNIFICADO_CARITA_FELIZ.pdf)**: Demostración forense visual paso a paso que comprueba cómo funciona la manipulación de píxeles (Blind Masking) en la realidad.
 
 **Informes Periciales Específicos (Casos de Estudio de la Fase 2):**
