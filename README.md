@@ -102,6 +102,11 @@ Consulte el archivo **[`INDICE_MAESTRO.md`](INDICE_MAESTRO.md)** para una navega
 - Comience leyendo el **[Resumen Ejecutivo](03_DOCUMENTACION/RESUMEN_EJECUTIVO.md)**.
 - Para entender los conceptos técnicos de la falsificación en términos sencillos, lea la **[Guía Didáctica para Jueces](03_DOCUMENTACION/GUIA_PARA_JUECES.md)**.
 
+**Informes Periciales Específicos (Casos de Estudio de la Fase 2):**
+- 🇺🇸 **[Análisis Forense - Estados Unidos (Consulados)](02_ANALISIS/informe_forense_estados_unidos.md)**: El epicentro técnico donde se descubrió la inyección del *Blind Masking*.
+- 🇪🇸 **[Análisis Forense - España (Consulados)](02_ANALISIS/informe_forense_espana.md)**: Análisis de la réplica algorítmica y sustitución de páginas en Europa.
+- 🇨🇴 **[Análisis Forense - Grupo de Control (Antioquia)](02_ANALISIS/informe_forense_grupo_control.md)**: Línea base matemática de cómo luce un departamento libre de falsificación estructural.
+
 ---
 
 ## 🌐 BÓVEDAS INMUTABLES EN INTERNET ARCHIVE
