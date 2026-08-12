@@ -181,5 +181,9 @@ Aunque mi nombre (Andrea Zabala Cárcamo - ANZACA AndreTaker) figura como coordi
 *Auditoría Ciudadana por la Transparencia Electoral*  
 
 **Agradecimiento y Apoyo en Investigación:**  
-*[Laboratorio de Investigación FITE](https://testigodigital.co/)*  
-*[Frente Digital](https://frentedigital2026.com/)*
+
+**LABORATORIO DE INVESTIGACIÓN FITE**  
+🌐 [testigodigital.co](https://testigodigital.co/)
+
+**FRENTE DIGITAL**  
+🌐 [frentedigital2026.com](https://frentedigital2026.com/)
