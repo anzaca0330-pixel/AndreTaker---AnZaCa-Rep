@@ -1,0 +1,20 @@
+# Archivos temporales y de caché
+*.tmp
+*.swp
+__pycache__/
+*.pyc
+.DS_Store
+
+# Logs y bases de datos locales
+*.log
+*.sqlite3
+
+# Archivos pesados que deben ir a LFS o Storage Externo (Mega/Drive)
+*.iso
+*.zip
+*.har
+*.mp4
+
+# Entornos virtuales
+venv/
+env/
