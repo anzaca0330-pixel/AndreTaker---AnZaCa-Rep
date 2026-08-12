@@ -66,7 +66,7 @@ El peritaje científico demuestra la falsificación a través de tres pilares t�
 - **2. Blind Masking (Capas y Vectores):** Los documentos falsificados contienen comandos vectoriales (`cm`, `re`, `Do`), máscaras tipo `DeviceGray` y números renderizados en formato de 1 bit por canal (`1bpc`), superpuestos sobre fondos ruidosos. Un escáner físico de mesa de votación **nunca** crea capas ni hace OCR selectivo; solo produce imágenes planas acopladas.
 
 <div align="center">
-  <img src="03_DOCUMENTACION/MAPA_DE_DIFERENCIAS_MESA16.jpg" alt="Mapa de Diferencias (Puntos Rojos)" width="80%">
+  <img src="03_DOCUMENTACION/MAPA_DE_DIFERENCIAS_CARITA_FELIZ.jpg" alt="Mapa de Diferencias (Carita Feliz - Puntos Rojos)" width="80%">
   <br>
   <em>Comparativa visual (Mapa de Diferencias): Los "puntos rojos" revelan la inyección de la capa vectorial superpuesta sobre el escaneo original.</em>
 </div>
