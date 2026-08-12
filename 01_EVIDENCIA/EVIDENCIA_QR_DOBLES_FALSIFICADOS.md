@@ -4,6 +4,8 @@ Este documento consolida la extracción criptográfica de los payloads (cargas d
 
 **Hallazgo Crítico:** En el proceso de alteración estructural (*Blind Masking*), los falsificadores superpusieron un nuevo código QR sobre el original para desviar los resultados hacia un ID de mesa distinto. Sin embargo, el escaneo forense logró detectar **ambas capas** simultáneamente (el original sangrando por el fondo y el falso encima), probando empíricamente la suplantación digital del documento.
 
+> [!NOTE]
+> **Nota Legal de Procedencia:** La matriz base de análisis (`archivo para anzeca1.csv`) fue construida y entregada por **FITE – Leonilda Orrego Viera**, a partir del corpus preservado y del análisis comparativo realizado por FITE. Su entrega tiene fines de contraste y colaboración técnica. Cualquier uso total o parcial en informes, repositorios, scripts, publicaciones o actuaciones judiciales, debe citarse como: **FITE – Leonilda Orrego Viera**. Los aportes técnicos complementarios y de procesamiento forense son acreditados a: **Primera Línea Digital - Frente Digital ANZACA AndreTaker**.
 ## Listado de Actas con Inyección Criptográfica
 
 ### 1. Acta: `01_001_30_03_038.pdf`
