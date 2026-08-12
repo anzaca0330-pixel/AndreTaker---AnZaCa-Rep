@@ -87,8 +87,6 @@ Para facilitar la auditoría, el repositorio se divide en tres grandes bloques:
 
 Consulte el archivo **[`INDICE_MAESTRO.md`](INDICE_MAESTRO.md)** para una navegación detallada por cada archivo.
 
-📘 **Marco Legal y Académico:** Toda la base normativa, estándares ISO forenses y sustento estadístico de esta auditoría se encuentran detallados en la **[`BIBLIOGRAFÍA ACADÉMICA Y TÉCNICA`](03_DOCUMENTACION/BIBLIOGRAFIA_FORENSE_CIDH.md)**.
-
 ---
 
 ## 🛠️ Cómo Usar Este Repositorio
@@ -138,6 +136,20 @@ El rigor científico requiere revisión independiente. Hacemos un llamado a la c
 - **No reescribas el código, valida nuestra metodología.**
 - Abre un *Issue* si encuentras vulnerabilidades o errores en los scripts.
 - Comparte este repositorio con organizaciones internacionales de derechos humanos.
+
+---
+
+## 📚 Bibliografía Académica y Normativa Técnica
+
+Todo el análisis forense contenido en este repositorio se sustenta en los más altos estándares internacionales de ciberseguridad, matemáticas y cadena de custodia.
+
+📘 **[Consulta aquí el Documento Completo de Bibliografía y Open Call for Peer Review](03_DOCUMENTACION/BIBLIOGRAFIA_FORENSE_CIDH.md)**
+
+Para garantizar el máximo rigor científico e investigativo, esta auditoría hace uso de:
+- **Estándares Forenses Internacionales (ISO 32000-1 y RFC 3227):** Asegurando la inmutabilidad de la cadena de custodia y regulando la extracción legal de datos desde el interior de la arquitectura PDF.
+- **Criptografía y Preservación (NIST SHA-256):** Algoritmos empleados para blindar el acervo probatorio, sumado a técnicas de descompresión (zlib/DEFLATE) fundamentales para revertir la ofuscación inyectada.
+- **Auditoría Estadística Computacional (Ley de Benford):** Validada académicamente por referentes globales de la economía forense para descartar desviaciones naturales y probar computacionalmente el "planchado" estadístico.
+- **Blind Image Forensics:** Adaptación de las bases fundacionales de la Dra. Jessica Fridrich y la esteganografía visual para comprobar la adulteración sintética y la inyección de alteraciones sobre los formatos originales.
 
 ---
 
