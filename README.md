@@ -71,7 +71,8 @@ El peritaje científico demuestra la falsificación a través de tres pilares t�
   <em>Comparativa visual (Mapa de Diferencias): Los "puntos rojos" revelan la inyección de la capa vectorial superpuesta sobre el escaneo original.</em>
 </div>
 
-- **3. El "Espejo Absoluto" y Ley de Benford:** Anomalías estadísticas imposibles en la naturaleza humana. Desviaciones estándar en la distribución del Segundo Dígito y secuencias (o "melodías") algorítmicas repetitivas en los bloques de transmisión, comprobando que los números fueron inyectados por un bucle de programación y no por conteo humano.
+- **3. El "Espejo Absoluto" y Ley de Benford:** Anomalías estadísticas imposibles en la naturaleza humana. Desviaciones estándar en la distribución del Segundo Dígito y secuencias (o "melodías") algorítmicas repetitivas en los bloques de transmisión, comprobando que los números fueron inyectados por un bucle de programación y no por conteo humano. 
+  🎵 **[👉 Escucha la Sonificación del Fraude (Archivo de Audio WAV)](01_EVIDENCIA/anomalia_sonora_fraude.wav)**: Escucha cómo suena el "planchado" de datos y la inyección sintética.
 
 ---
 
