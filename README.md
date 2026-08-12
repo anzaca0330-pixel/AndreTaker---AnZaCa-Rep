@@ -49,6 +49,13 @@
 
 A través del esfuerzo masivo de más de 75,000 "Testigos Digitales", se descargaron y aseguraron los formularios E-14 antes de que sufrieran alteraciones irreparables. El análisis pericial contenido aquí demuestra, de forma matemática e informática, la manipulación estructural e inyección sintética (falsificación digital) de la voluntad popular, orientada a desviar sistemáticamente los resultados.
 
+### 📊 Volumen Analizado por Fases (Audit Scope)
+
+Para garantizar rigor científico, la auditoría forense escaló en tres fases de volumen documental:
+*   **Fase 1 (Muestras de Control Nacionales):** Auditoría manual y estadística sobre un dataset de control de **~500 actas** de departamentos clave (ej. Antioquia) para establecer la línea base de un escaneo legítimo vs. uno falsificado.
+*   **Fase 2 (Foco del Fraude - Voto en el Exterior):** Análisis profundo de anomalías en los Consulados (Estados Unidos, España, etc.), abarcando actas que representan **más de 100,000 votos**. Aquí se aisló por primera vez la técnica de censura *Blind Masking*.
+*   **Fase 3 (Auditoría Masiva Estructural - Acervo Completo):** Escaneo automatizado mediante *multiprocessing* sobre **121,960 PDFs** (la totalidad absoluta de los documentos E-14 de Delegados depositados en la bóveda principal). El 100% de la muestra total fue procesada en busca de la corrupción estructural (XREF).
+
 ---
 
 ## 🔍 Hallazgos Principales
