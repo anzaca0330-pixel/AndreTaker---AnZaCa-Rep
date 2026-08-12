@@ -28,11 +28,15 @@ Este documento compila el marco teórico, los estándares internacionales y la l
 ### 4. Manipulación Digital y Detección de Falsificaciones (Deepfakes)
 - **Farid, Hany. (2016).** *Photo Forensics*. (MIT Press). Metodología base para el análisis de compresión (JPEG Quantization), errores de nivel de error (ELA) y alteraciones estructurales en la grilla de píxeles, aplicable a la inyección (Blind Masking) detectada en las firmas de los jurados.
 - **SWGDE (Scientific Working Group on Digital Evidence)**. Documentos guía sobre mejores prácticas para el análisis de alteraciones en imágenes y documentos escaneados.
-- **Herramientas de Análisis Estructural**:
+- **Herramientas de Análisis Estructural y Visual**:
   - **QPDF (Jay Berkenbilt):** Utilizado como marco técnico para entender y aislar la tabla XREF corrupta. 
     - 🖥️ **Repositorio Oficial:** [qpdf/qpdf](https://github.com/qpdf/qpdf)
   - **Peepdf (Jose Miguel Esparza):** Utilizado para el análisis de ofuscación de comandos.
     - 🖥️ **Repositorio Oficial:** [jesparza/peepdf](https://github.com/jesparza/peepdf)
+  - **DidierStevensSuite (Didier Stevens):** Base técnica para el uso avanzado de `pdfid` y `pdf-parser` en la detección de anomalías maliciosas en documentos.
+    - 🖥️ **Repositorio Oficial:** [DidierStevens/DidierStevensSuite](https://github.com/DidierStevens/DidierStevensSuite)
+  - **Sherloq (Guido Bartoli):** Entorno integrado open-source para análisis forense de imágenes digitales (Error Level Analysis, Quantization).
+    - 🖥️ **Repositorio Oficial:** [GuidoBartoli/sherloq](https://github.com/GuidoBartoli/sherloq)
   - **ImageMagick:** Utilizado para la extracción de la paleta `DeviceGray` (1-Bit Flattening).
     - 🖥️ **Repositorio Oficial:** [ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick)
 
@@ -50,7 +54,7 @@ Extendemos una **invitación pública y formal** a los creadores de las herramie
 - **Dr. Walter Mebane** (`@wmebane`): Para revisar la aplicación de sus modelos del segundo dígito de Benford frente a la inyección sintética detectada en los departamentos de Colombia.
 - **Dr. Mark Nigrini**: Para evaluar la sonificación y el análisis macroscópico del "planchado estadístico".
 - **Dr. Hany Farid**: Para revisar la técnica que hemos bautizado como *Blind Masking* y *1-Bit Flattening* en la generación masiva de Deepfakes electorales.
-- **Jay Berkenbilt** (`@jberkenbilt` / QPDF) y **Jose Miguel Esparza** (`@jesparza` / Peepdf): Para analizar la firma persistente del generador PDF que corrompió intencionalmente las tablas XREF y los objetos `/Contents` de 121,000 actas.
+- **Jay Berkenbilt** (`@jberkenbilt` / QPDF), **Jose Miguel Esparza** (`@jesparza` / Peepdf), **Didier Stevens** (`@DidierStevens` / PDFiD) y **Guido Bartoli** (`@GuidoBartoli` / Sherloq): Para analizar la firma persistente del generador PDF que corrompió intencionalmente las tablas XREF y los objetos `/Contents` de 121,000 actas, y validar la ofuscación visual detectada.
 
 Su "Peer Review" (revisión por pares) es invaluable para validar ante la **Corte Interamericana de Derechos Humanos (CIDH)** que estos hallazgos son matemáticamente irrefutables. Pueden realizar sus observaciones abriendo un **[Issue](https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep/issues)** directamente en este repositorio o creando un *Pull Request*.
 
@@ -79,11 +83,15 @@ This document compiles the theoretical framework, international standards, and s
 ### 4. Digital Manipulation and Forgery Detection (Deepfakes)
 - **Farid, Hany. (2016).** *Photo Forensics*. (MIT Press). Baseline methodology for compression analysis (JPEG Quantization), error level analysis (ELA), and structural alterations in the pixel grid, applicable to the injection (Blind Masking) detected in the jury signatures.
 - **SWGDE (Scientific Working Group on Digital Evidence)**. Guidance documents on best practices for analyzing alterations in images and scanned documents.
-- **Structural Analysis Tools**:
+- **Structural and Visual Analysis Tools**:
   - **QPDF (Jay Berkenbilt):** Used as a technical framework to understand and isolate the corrupt XREF table. 
     - 🖥️ **Official Repository:** [qpdf/qpdf](https://github.com/qpdf/qpdf)
   - **Peepdf (Jose Miguel Esparza):** Used for command obfuscation analysis.
     - 🖥️ **Official Repository:** [jesparza/peepdf](https://github.com/jesparza/peepdf)
+  - **DidierStevensSuite (Didier Stevens):** Technical baseline for using `pdfid` and `pdf-parser` in detecting malicious anomalies in documents.
+    - 🖥️ **Official Repository:** [DidierStevens/DidierStevensSuite](https://github.com/DidierStevens/DidierStevensSuite)
+  - **Sherloq (Guido Bartoli):** Open-source integrated environment for digital image forensics (Error Level Analysis, Quantization).
+    - 🖥️ **Official Repository:** [GuidoBartoli/sherloq](https://github.com/GuidoBartoli/sherloq)
   - **ImageMagick:** Used for the extraction of the `DeviceGray` palette (1-Bit Flattening).
     - 🖥️ **Official Repository:** [ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick)
 
@@ -101,7 +109,7 @@ We extend a **public and formal invitation** to the creators of the tools and me
 - **Dr. Walter Mebane** (`@wmebane`): To review the application of your second-digit Benford models against the synthetic injection detected in the departments of Colombia.
 - **Dr. Mark Nigrini**: To evaluate the sonification and macroscopic analysis of the "statistical ironing".
 - **Dr. Hany Farid**: To review the technique we have baptized as *Blind Masking* and *1-Bit Flattening* in the massive generation of Electoral Deepfakes.
-- **Jay Berkenbilt** (`@jberkenbilt` / QPDF) and **Jose Miguel Esparza** (`@jesparza` / Peepdf): To analyze the persistent signature of the PDF generator that intentionally corrupted the XREF tables and `/Contents` objects of 121,000 tally sheets.
+- **Jay Berkenbilt** (`@jberkenbilt` / QPDF), **Jose Miguel Esparza** (`@jesparza` / Peepdf), **Didier Stevens** (`@DidierStevens` / PDFiD), and **Guido Bartoli** (`@GuidoBartoli` / Sherloq): To analyze the persistent signature of the PDF generator that intentionally corrupted the XREF tables and `/Contents` objects of 121,000 tally sheets, and to validate the visual obfuscation detected.
 
 Your "Peer Review" is invaluable in validating before the **Inter-American Commission on Human Rights (IACHR)** that these findings are mathematically irrefutable. You can make your observations by opening an **[Issue](https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep/issues)** directly in this repository or by creating a *Pull Request*.
 
