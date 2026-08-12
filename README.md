@@ -174,9 +174,6 @@ Aunque mi nombre (Andrea Zabala Cárcamo - ANZACA AndreTaker) figura como coordi
 
 ---
 
-**FRENTE DIGITAL**  
-🌐 [frentedigital2026.com](https://frentedigital2026.com/)
-
 **PRIMERA LÍNEA DIGITAL - AnZaCa AndreTaker**  
 *Auditoría Ciudadana por la Transparencia Electoral*  
 
