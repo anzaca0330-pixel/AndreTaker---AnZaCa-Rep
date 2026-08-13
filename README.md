@@ -91,26 +91,17 @@ Para garantizar absoluto rigor científico, la auditoría forense escaló a trav
 
 ### 🛤️ Línea de Tiempo de la Auditoría (Flujo de Trabajo)
 
-> **📍 Fase 1: Los Ángeles (Punto Cero)**
-> ↳ *Rastreando anomalía...*
+> **[SESIÓN 01] 📍 Fases 1 a 4: Inspección Física y Expansión Consular**
+> ↳ *[Rastreando anomalía, analizando QR, detectando fraude de transmisión y escalando a EE.UU./España]*
 > 
-> **🔍 Fase 2: Inspección Física (E-14)**
-> ↳ *Analizando QR y foliación...*
+> **[SESIÓN 02] ⚖️ Fase 5: Grupo de Control (Línea Base Orgánica)**
+> ↳ *[Estableciendo línea base de actas limpias para aislar inyecciones de software]*
 > 
-> **📡 Fase 3: Detección de Fraude de Transmisión**
-> ↳ *Cruzando fronteras...*
+> **[SESIÓN 03] 🧬 Fase 6: Análisis Deepfake (Máscaras 1bpc, XREF y Hashes)**
+> ↳ *[Desencriptando capas y metadatos, mapeo masivo nacional de inyección sintética]*
 > 
-> **🌎 Fase 4: Escalamiento Consular (EE.UU. y España)**
-> ↳ *Extrayendo muestras...*
-> 
-> **⚖️ Fase 5: Grupo de Control (Línea Base Orgánica)**
-> ↳ *Desencriptando capas y metadatos...*
-> 
-> **🧬 Fase 6: Análisis de Máscaras (1bpc) y Hashes**
-> ↳ *Mapeo Masivo Nacional...*
-> 
-> **📈 Fase 7: Ley de Benford (121.960 Actas)**
-> ↳ *Correlacionando hallazgos...*
+> **[SESIÓN 02] 📈 Fase 7: Ley de Benford (121.960 Actas)**
+> ↳ *[Correlacionando hallazgos estructurales con el impacto matemático y Vote Swapping]*
 > 
 > **💥 CONSOLIDACIÓN FINAL: Estructural = Matemático**
 
