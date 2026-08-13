@@ -300,17 +300,27 @@ Consulte el archivo **[`INDICE_MAESTRO.md`](INDICE_MAESTRO.md)** para una navega
 <a id="como-usar"></a>
 ## 🛠️ Cómo Usar Este Repositorio
 
-### Para Peritos Externos y Auditores (Peer Review)
+### 🏴‍☠️ Reto Abierto a la Comunidad (Open Call for Peer Review)
 
-1. Clona el repositorio en tu entorno local (preferiblemente Linux).
-2. Instala las herramientas forenses necesarias:
-   ```bash
-   sudo apt-get update && sudo apt-get install qpdf poppler-utils libimage-exiftool-perl python3
-   ```
-3. Ejecuta los scripts de validación sobre cualquier muestra de la bóveda:
-   ```bash
-   ./02_ANALISIS/SCRIPTS_PYTHON_FORENSES/auditoria_masiva_xref.sh "ruta/a/muestra" "resultados_muestra.csv"
-   ```
+> [!IMPORTANT]
+> **NO CONFÍES. VERIFICA.** Toda la evidencia y los scripts en este repositorio están diseñados para ser 100% reproducibles. Desafiamos a la comunidad global de *Data Scientists*, Hackers Éticos y Peritos Informáticos a clonar esta bóveda, ejecutar nuestros algoritmos y someter los 10 hallazgos a la prueba de falsabilidad.
+
+**1️⃣ Despliega tu entorno forense (Linux recomendado):**
+```bash
+# Instala el stack de extracción binaria y metadata
+sudo apt-get update && sudo apt-get install qpdf poppler-utils libimage-exiftool-perl python3
+```
+
+**2️⃣ Clona la evidencia y lanza el escáner estructural:**
+```bash
+git clone https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep.git
+cd AndreTaker---AnZaCa-Rep
+
+# Ejecuta la ingeniería inversa sobre cualquier lote de actas:
+./02_ANALISIS/SCRIPTS_PYTHON_FORENSES/auditoria_masiva_xref.sh "ruta/a/muestra" "resultados_muestra.csv"
+```
+
+> 💡 *¿Lograste refutar un hallazgo estadístico? ¿Optimizaste el extractor de XREF? Abre un **Pull Request** de inmediato. La ciencia y la verdad se construyen con fricción.*
 
 ### Para Autoridades, Jueces o Ciudadanos
 - Comience leyendo el **[Resumen Ejecutivo](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/RESUMEN_EJECUTIVO.md)**.
