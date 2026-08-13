@@ -100,21 +100,43 @@ flowchart LR
 
 El peritaje científico demuestra la falsificación a través de diez (10) pilares técnicos irrefutables:
 
-- **1. Inconsistencia Censal Macroscópica (Fase Inicial):** Desplome de la participación y manipulación del censo electoral. En lugares clave como Estados Unidos, se reportaron oficialmente 159.999 nuevos inscritos, pero el censo base fue inflado artificialmente a 454.262 para justificar matemáticamente la posterior inyección sintética de votos.
-- **2. Inoperatividad Criptográfica Inicial:** Al inicio de la investigación se creía que los códigos de barras y QR habían sido simplemente borrados o destruidos intencionalmente para que los motores computacionales no pudieran leerlos.
-- **3. Redirección Criptográfica (Códigos QR Dobles):** Sin embargo, tras aplicar análisis de espectro, **encontramos que** no estaban borrados, sino suplantados.
-  > [!CAUTION]
-  > **🔴 ALERTA GRAVE:** Se superpuso un QR falso sobre el original para **DESVIAR LOS RESULTADOS HACIA UN ID DE MESA DISTINTO**. El escáner forense logró captar ambas capas simultáneamente (el original sangrando por debajo y el falso pegado encima). Ver demostración técnica en: **[EVIDENCIA_QR_DOBLES_FALSIFICADOS.md](01_EVIDENCIA/SESION_01_SPOOFING_QR/EVIDENCIA_QR_DOBLES_FALSIFICADOS.md)**
-  > 🎥 **[NUEVO]** Ver el **[Diagrama Técnico de Desvío](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/DIAGRAMA_DESVIO_TRANSMISION.md)** y la **[Animación Interactiva de Redirección (HTML)](03_DOCUMENTACION/SESION_02_MAPAS_Y_ARBOLES/GUIA_INTERACTIVA_FRAUDE.html)**.
+> [!CAUTION]
+> ### 1️⃣ Inconsistencia Censal Macroscópica (Fase Inicial)
+> Desplome de la participación y manipulación del censo electoral. En lugares clave como Estados Unidos, se reportaron oficialmente 159.999 nuevos inscritos, pero el censo base fue inflado artificialmente a 454.262 para justificar matemáticamente la posterior inyección sintética de votos.
+<br>
+
+> [!WARNING]
+> ### 2️⃣ Inoperatividad Criptográfica Inicial
+> Al inicio de la investigación se creía que los códigos de barras y QR habían sido simplemente borrados o destruidos intencionalmente para que los motores computacionales no pudieran leerlos.
+<br>
+
+> [!IMPORTANT]
+> ### 3️⃣ Redirección Criptográfica (Códigos QR Dobles)
+> Sin embargo, tras aplicar análisis de espectro, **encontramos que** no estaban borrados, sino suplantados.
+> 
+> **🔴 ALERTA GRAVE:** Se superpuso un QR falso sobre el original para **DESVIAR LOS RESULTADOS HACIA UN ID DE MESA DISTINTO**. El escáner forense logró captar ambas capas simultáneamente (el original sangrando por debajo y el falso pegado encima). Ver demostración técnica en: **[EVIDENCIA_QR_DOBLES_FALSIFICADOS.md](01_EVIDENCIA/SESION_01_SPOOFING_QR/EVIDENCIA_QR_DOBLES_FALSIFICADOS.md)**
+> 🎥 **[NUEVO]** Ver el **[Diagrama Técnico de Desvío](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/DIAGRAMA_DESVIO_TRANSMISION.md)** y la **[Animación Interactiva de Redirección (HTML)](03_DOCUMENTACION/SESION_02_MAPAS_Y_ARBOLES/GUIA_INTERACTIVA_FRAUDE.html)**.
 
 <div align="center">
   <img src="03_DOCUMENTACION/SESION_02_MAPAS_Y_ARBOLES/qr_forensics_spoofing.png" alt="Concepto Forense de QR Spoofing (Suplantación)" width="60%">
   <br>
   <em>Recreación pericial: Inspección de la suplantación de identidad del acta mediante la inyección vectorial de un código QR falso superpuesto.</em>
 </div>
-- **4. Foliación Híbrida (Manipulación Física):** Mezcla injustificada de páginas a color originales y páginas en blanco y negro (fotocopiadas) dentro de paquetes que pertenecen al mismo lote litográfico oficial, demostrando manipulación humana previa al escaneo.
-- **5. La "Cicatriz" Estructural (XREF):** El 100% de los formularios alterados (falsificados) presentan una tabla de referencias cruzadas (`XREF`) corrompida (15 objetos declarados vs 13 existentes), producto del uso de software de ensamblaje masivo de PDFs en lugar de escáneres ópticos reales. Múltiples actas procesadas reportaron un diagnóstico de "NIVEL MÁXIMO" de deepfake debido a esta huella invariable.
-- **6. Blind Masking (Capas y Vectores):** Los documentos falsificados contienen comandos vectoriales (`cm`, `re`, `Do`), máscaras tipo `DeviceGray` y números renderizados en formato de 1 bit por canal (`1bpc`), superpuestos sobre fondos ruidosos. Un escáner físico de mesa de votación **nunca** crea capas ni hace OCR selectivo; solo produce imágenes planas acopladas.
+<br>
+
+> [!NOTE]
+> ### 4️⃣ Foliación Híbrida (Manipulación Física)
+> Mezcla injustificada de páginas a color originales y páginas en blanco y negro (fotocopiadas) dentro de paquetes que pertenecen al mismo lote litográfico oficial, demostrando manipulación humana previa al escaneo.
+<br>
+
+> [!CAUTION]
+> ### 5️⃣ La "Cicatriz" Estructural (XREF)
+> El 100% de los formularios alterados (falsificados) presentan una tabla de referencias cruzadas (`XREF`) corrompida (15 objetos declarados vs 13 existentes), producto del uso de software de ensamblaje masivo de PDFs en lugar de escáneres ópticos reales. Múltiples actas procesadas reportaron un diagnóstico de "NIVEL MÁXIMO" de deepfake debido a esta huella invariable.
+<br>
+
+> [!IMPORTANT]
+> ### 6️⃣ Blind Masking (Capas y Vectores)
+> Los documentos falsificados contienen comandos vectoriales (`cm`, `re`, `Do`), máscaras tipo `DeviceGray` y números renderizados en formato de 1 bit por canal (`1bpc`), superpuestos sobre fondos ruidosos. Un escáner físico de mesa de votación **nunca** crea capas ni hace OCR selectivo; solo produce imágenes planas acopladas.
 
 <div align="center">
   <img src="03_DOCUMENTACION/SESION_02_MAPAS_Y_ARBOLES/MAPA_DE_DIFERENCIAS_CARITA_FELIZ.jpg" alt="Mapa de Diferencias (Carita Feliz - Puntos Rojos)" width="80%">
@@ -122,11 +144,27 @@ El peritaje científico demuestra la falsificación a través de diez (10) pilar
   <em>Comparativa visual (Mapa de Diferencias): Los "puntos rojos" revelan la inyección de la capa vectorial superpuesta sobre el escaneo original.</em>
 </div>
 
-- **7. Generación Sintética (Ausencia de EXIF y Canal Alfa):** El análisis de profundidad comprobó que las máscaras son imágenes `gray` de 8-bit Bilevel **sin canal alfa de transparencia real** y con total ausencia de metadatos de hardware (`Creator`, `Producer`). No son escaneos, son objetos insertados por software.
-- **8. Permutación Sintáctica (Vote Swapping):** Demostración algorítmica de que la sumatoria total de la mesa se mantiene estática mientras los votos de los candidatos principales son permutados ($V_1 \leftrightarrow V_2$) en la capa `/XObject`. Al revertir la permutación matemática, las mesas regresan exactamente a la curva gaussiana biológica normal ($Z = -56.96, p < 0.0001$).
-- **9. Impacto Matemático (Inversión del Margen):** El fraude mapeado representa más del **175.1% de la diferencia total de victoria** (1.75 veces el margen oficial). La anulación del fraude invierte directamente el resultado presidencial.
-- **10. El "Espejo Absoluto" y Ley de Benford:** Anomalías estadísticas imposibles en la naturaleza humana. Desviaciones estándar en la distribución del Segundo Dígito y secuencias (o "melodías") algorítmicas repetitivas en los bloques de transmisión, comprobando que los números fueron inyectados por un bucle de programación y no por conteo humano. 
-  🎵 **[👉 Escucha la Sonificación del Fraude (Archivo de Audio WAV)](01_EVIDENCIA/anomalia_sonora_fraude.wav)**: Escucha cómo suena el "planchado" de datos y la inyección sintética.onificación del Fraude (Archivo de Audio WAV)](01_EVIDENCIA/anomalia_sonora_fraude.wav)**: Escucha cómo suena el "planchado" de datos y la inyección sintética.
+<br>
+
+> [!TIP]
+> ### 7️⃣ Generación Sintética (Ausencia de EXIF y Canal Alfa)
+> El análisis de profundidad comprobó que las máscaras son imágenes `gray` de 8-bit Bilevel **sin canal alfa de transparencia real** y con total ausencia de metadatos de hardware (`Creator`, `Producer`). No son escaneos, son objetos insertados por software.
+<br>
+
+> [!WARNING]
+> ### 8️⃣ Permutación Sintáctica (Vote Swapping)
+> Demostración algorítmica de que la sumatoria total de la mesa se mantiene estática mientras los votos de los candidatos principales son permutados ($V_1 \leftrightarrow V_2$) en la capa `/XObject`. Al revertir la permutación matemática, las mesas regresan exactamente a la curva gaussiana biológica normal ($Z = -56.96, p < 0.0001$).
+<br>
+
+> [!CAUTION]
+> ### 9️⃣ Impacto Matemático (Inversión del Margen)
+> El fraude mapeado representa más del **175.1% de la diferencia total de victoria** (1.75 veces el margen oficial). La anulación del fraude invierte directamente el resultado presidencial.
+<br>
+
+> [!NOTE]
+> ### 🔟 El "Espejo Absoluto" y Ley de Benford
+> Anomalías estadísticas imposibles en la naturaleza humana. Desviaciones estándar en la distribución del Segundo Dígito y secuencias (o "melodías") algorítmicas repetitivas en los bloques de transmisión, comprobando que los números fueron inyectados por un bucle de programación y no por conteo humano. 
+> 🎵 **[👉 Escucha la Sonificación del Fraude (Archivo de Audio WAV)](01_EVIDENCIA/anomalia_sonora_fraude.wav)**: Escucha cómo suena el "planchado" de datos y la inyección sintética.
 
 ---
 
