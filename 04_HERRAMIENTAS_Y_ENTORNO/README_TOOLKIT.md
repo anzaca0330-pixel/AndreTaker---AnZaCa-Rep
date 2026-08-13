@@ -1,7 +1,7 @@
 # 🛠️ Paquete de Detección de Fraude PRO (Forensic Toolkit)
 ### 🔍 El Súper Buscador de Anomalías en Archivos PDF para Peritaje Informático
 
-Este ecosistema es un **Híbrido Detector Multicapas** diseñado para procesar **paquetes gigantes de archivos en lotes masivos (Batch Processing)**. No solo analiza los archivos, sino que automatiza todo el ciclo pericial: ingiere la evidencia bruta, desensambla la metadata, **saca el informe forense final y genera las tablas analíticas** listas para tribunales.
+Este ecosistema es un **Híbrido Detector Multicapas** diseñado para procesar **paquetes gigantes de archivos en lotes masivos (Batch Processing)**. No solo analiza los archivos, sino que automatiza todo el ciclo pericial: ingiere la evidencia bruta, desensambla la **METADATA** (y extrae huellas estructurales **incluso cuando el archivo carece de metadatos** por un intento de evasión), **saca el informe forense final y genera las tablas analíticas** listas para tribunales.
 
 Aunque fue diseñado para desensamblar estructuras de **Deepfake Documental** y revertir operaciones de **Blind Masking** en actas electorales, su arquitectura es **agnóstica (multipropósito)**: sirve para cazar **inyecciones algorítmicas**, alteraciones estructurales (XREF), flujos **FlateDecode** ocultos (vía **mutool**), inyecciones en **QR** (vía **zbarimg**) y sellos **Hashes** en **cualquier campo que requiera auditoría documental rigurosa** (fraudes financieros, alteración de historias clínicas, contratos legales o licitaciones públicas). Adicionalmente, incluye el **generador de gráficas de varianza (Benford / Gauss)** para respaldar los hallazgos.
 
