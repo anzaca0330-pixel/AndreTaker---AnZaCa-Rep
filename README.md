@@ -173,21 +173,18 @@ Las herramientas de código abierto mencionadas operan de forma individual por l
 
 El peritaje científico demuestra la falsificación a través de diez (10) pilares técnicos irrefutables:
 
-<a id="hallazgo-1"></a>
 > [!CAUTION]
-> ### 1️⃣ Inconsistencia Censal Macroscópica (Fase Inicial)
+> ### <a name="hallazgo-1"></a>1️⃣ Inconsistencia Censal Macroscópica (Fase Inicial)
 > Desplome de la participación y manipulación del censo electoral. En lugares clave como Estados Unidos, se reportaron oficialmente 159.999 nuevos inscritos, pero el censo base fue inflado artificialmente a 454.262 para justificar matemáticamente la posterior inyección sintética de votos.
 <br>
 
-<a id="hallazgo-2"></a>
 > [!WARNING]
-> ### 2️⃣ Inoperatividad Criptográfica Inicial
+> ### <a name="hallazgo-2"></a>2️⃣ Inoperatividad Criptográfica Inicial
 > Al inicio de la investigación se creía que los códigos de barras y QR habían sido simplemente borrados o destruidos intencionalmente para que los motores computacionales no pudieran leerlos.
 <br>
 
-<a id="hallazgo-3"></a>
 > [!IMPORTANT]
-> ### 3️⃣ Redirección Criptográfica (Códigos QR Dobles)
+> ### <a name="hallazgo-3"></a>3️⃣ Redirección Criptográfica (Códigos QR Dobles)
 > Sin embargo, tras aplicar análisis de espectro, **encontramos que** no estaban borrados, sino suplantados.
 > 
 > **🔴 ALERTA GRAVE:** Se superpuso un QR falso sobre el original para **DESVIAR LOS RESULTADOS HACIA UN ID DE MESA DISTINTO**. El escáner forense logró captar ambas capas simultáneamente (el original sangrando por debajo y el falso pegado encima). Ver demostración técnica en: **[EVIDENCIA_QR_DOBLES_FALSIFICADOS.md](01_EVIDENCIA/SESION_01_SPOOFING_QR/EVIDENCIA_QR_DOBLES_FALSIFICADOS.md)**
@@ -200,21 +197,18 @@ El peritaje científico demuestra la falsificación a través de diez (10) pilar
 </div>
 <br>
 
-<a id="hallazgo-4"></a>
 > [!NOTE]
-> ### 4️⃣ Foliación Híbrida (Manipulación Física)
+> ### <a name="hallazgo-4"></a>4️⃣ Foliación Híbrida (Manipulación Física)
 > Mezcla injustificada de páginas a color originales y páginas en blanco y negro (fotocopiadas) dentro de paquetes que pertenecen al mismo lote litográfico oficial, demostrando manipulación humana previa al escaneo.
 <br>
 
-<a id="hallazgo-5"></a>
 > [!CAUTION]
-> ### 5️⃣ La "Cicatriz" Estructural (XREF)
+> ### <a name="hallazgo-5"></a>5️⃣ La "Cicatriz" Estructural (XREF)
 > El 100% de los formularios alterados (falsificados) presentan una tabla de referencias cruzadas (`XREF`) corrompida (15 objetos declarados vs 13 existentes), producto del uso de software de ensamblaje masivo de PDFs en lugar de escáneres ópticos reales. Múltiples actas procesadas reportaron un diagnóstico de "NIVEL MÁXIMO" de deepfake debido a esta huella invariable.
 <br>
 
-<a id="hallazgo-6"></a>
 > [!IMPORTANT]
-> ### 6️⃣ Blind Masking (Capas y Vectores)
+> ### <a name="hallazgo-6"></a>6️⃣ Blind Masking (Capas y Vectores)
 > Los documentos falsificados contienen comandos vectoriales (`cm`, `re`, `Do`), máscaras tipo `DeviceGray` y números renderizados en formato de 1 bit por canal (`1bpc`), superpuestos sobre fondos ruidosos. Un escáner físico de mesa de votación **nunca** crea capas ni hace OCR selectivo; solo produce imágenes planas acopladas.
 
 <div align="center">
@@ -225,27 +219,23 @@ El peritaje científico demuestra la falsificación a través de diez (10) pilar
 
 <br>
 
-<a id="hallazgo-7"></a>
 > [!TIP]
-> ### 7️⃣ Generación Sintética (Ausencia de EXIF y Canal Alfa)
+> ### <a name="hallazgo-7"></a>7️⃣ Generación Sintética (Ausencia de EXIF)
 > El análisis de profundidad comprobó que las máscaras son imágenes `gray` de 8-bit Bilevel **sin canal alfa de transparencia real** y con total ausencia de metadatos de hardware (`Creator`, `Producer`). No son escaneos, son objetos insertados por software.
 <br>
 
-<a id="hallazgo-8"></a>
 > [!WARNING]
-> ### 8️⃣ Permutación Sintáctica (Vote Swapping)
+> ### <a name="hallazgo-8"></a>8️⃣ Permutación Sintáctica (Vote Swapping)
 > Demostración algorítmica de que la sumatoria total de la mesa se mantiene estática mientras los votos de los candidatos principales son permutados ($V_1 \leftrightarrow V_2$) en la capa `/XObject`. Al revertir la permutación matemática, las mesas regresan exactamente a la curva gaussiana biológica normal ($Z = -56.96, p < 0.0001$).
 <br>
 
-<a id="hallazgo-9"></a>
 > [!CAUTION]
-> ### 9️⃣ Impacto Matemático (Inversión del Margen)
+> ### <a name="hallazgo-9"></a>9️⃣ Impacto Matemático (Inversión del Margen)
 > El fraude mapeado representa más del **175.1% de la diferencia total de victoria** (1.75 veces el margen oficial). La anulación del fraude invierte directamente el resultado presidencial.
 <br>
 
-<a id="hallazgo-10"></a>
 > [!NOTE]
-> ### 🔟 El "Espejo Absoluto" y Ley de Benford
+> ### <a name="hallazgo-10"></a>🔟 El "Espejo Absoluto" y Ley de Benford
 > Anomalías estadísticas imposibles en la naturaleza humana. Desviaciones estándar en la distribución del Segundo Dígito y secuencias (o "melodías") algorítmicas repetitivas en los bloques de transmisión, comprobando que los números fueron inyectados por un bucle de programación y no por conteo humano. 
 > 🎵 **[👉 Escucha la Sonificación del Fraude (Archivo de Audio WAV)](01_EVIDENCIA/anomalia_sonora_fraude.wav)**: Escucha cómo suena el "planchado" de datos y la inyección sintética.
 
