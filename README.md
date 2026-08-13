@@ -26,6 +26,15 @@
 
 ---
 
+<a id="implicaciones-penales"></a>
+## ⚖️ Naturaleza Penal de la Evidencia
+
+> [!CAUTION]
+> **ESTADO DE LA INVESTIGACIÓN: PENAL Y CRIMINAL**
+> Este repositorio no constituye un análisis político o de opinión. Contiene el acervo probatorio técnico, matemático y pericial que demuestra la **Falsedad Ideológica y Material en Documento Público**, fraude procesal y alteración de resultados electorales. La evidencia aquí expuesta está estructurada bajo cadena de custodia para ser aportada en instancias penales nacionales e internacionales (CPI, CIDH).
+
+---
+
 ## 📌 Índice Rápido
 
 1. [Contexto del Caso / About](#contexto)
@@ -55,7 +64,7 @@ A través del esfuerzo masivo de más de 75,000 "Testigos Digitales", se descarg
 ### 📊 Volumen Analizado por Fases (Audit Scope)
 
 Para garantizar rigor científico, la auditoría forense escaló a través de siete (7) fases operativas e investigativas:
-*   **Fase 1 (31 Mayo – 1 Jun 2026 | Punto Cero):** Detección de la anomalía estadística inicial en el Consulado de Los Ángeles (epicentro de distorsiones y varianza nula).
+*   **Fase 1 (31 Mayo – 1 Jun 2026 | Punto Cero):** Detección de la anomalía estadística inicial en el Consulado de Los Ángeles (epicentro de distorsiones y varianza nula) y **sellado criptográfico inmediato (SHA-256)** de las 100 actas originales para preservar la cadena de custodia inmutable.
 *   **Fase 2 (1 – 2 Jun 2026 | Inspección de Campo):** Confirmación material del fraude (QR inoperativos y foliación híbrida) en los PDFs originales de Los Ángeles.
 *   **Fase 3 (2 – 5 Jun 2026 | Blindaje Legal):** Elevación de la denuncia oficial ante el CNE, Procuraduría y consolidación del amparo de precedentes jurídicos (Consejo de Estado).
 *   **Fase 4 (Jun – Jul 2026 | Automatización):** Desarrollo del pipeline pericial informático y extensión masiva a todo EE.UU. (987 actas) y España (696 actas).
@@ -66,33 +75,102 @@ Para garantizar rigor científico, la auditoría forense escaló a través de si
 <div align="center">
 
 ```mermaid
-%%{init: {"theme": "base", "themeVariables": { "fontSize": "20px", "fontFamily": "sans-serif"}}}%%
+%%{init: {"theme": "base", "themeVariables": { "fontSize": "17px", "fontFamily": "sans-serif"}}}%%
 flowchart TD
-    A["Fase 1: Los Ángeles<br><b>19 Actas</b><br>(Punto Cero)"] --> B["Fase 2: Inspección<br>de Campo"]
-    B --> C["Fase 3: Blindaje<br>Legal (CNE)"]
-    C --> D{"Escalamiento<br>Consular"}
+    A("📍 Fase 1: Los Ángeles<br>(Punto Cero)") -- "🕵🏻‍♀️ Rastreando..." --> B("🔍 Fase 2: Inspección<br>Física")
+    B -- "🕵🏻‍♀️ Analizando..." --> C("📡 Fase 3: Fraude de<br>Transmisión y QR")
     
-    D --> E["Fase 4: EE.UU.<br><b>987 Actas</b>"]
-    D --> F["Fase 4: España<br><b>696 Actas</b>"]
+    C -- "🕵🏻‍♀️ Cruzando fronteras" --> D{"Escalamiento<br>Consular"}
     
-    E --> G{"Prueba de<br>Falsación"}
+    D --> E("🌎 Fase 4: EE.UU.<br>(987 Actas)")
+    D --> F("🇪🇸 Fase 4: España<br>(696 Actas)")
+    
+    E -- "🕵🏻‍♀️ Extrayendo muestras..." --> G("⚖️ Fase 5: Grupo de Control<br>(Línea Base Orgánica)")
     F --> G
     
-    G --> H["Fase 5: Grupo de Control<br><b>25.061 Actas</b><br>(Línea Base)"]
+    G -- "🕵🏻‍♀️ Desencriptando capas..." --> H("🧬 Fase 6: Análisis de<br>Máscaras (1bpc) y Hashes")
     
-    H --> I["Fase 6: Análisis de<br>Máscaras y Hashes"]
+    H -- "🕵🏻‍♀️ Mapeo Masivo..." --> I{"Auditoría<br>Nacional"}
     
-    I --> J{"Auditoría<br>Masiva"}
+    I --> J("📈 Fase 7: Ley de Benford<br>(121.960 Actas)")
     
-    J --> K["Fase 7: Acervo Completo<br><b>121.960 Actas</b><br>(Nacional y Exterior)"]
+    J -- "🕵🏻‍♀️ BOOM! 💥" --> K("💥 CONSOLIDACIÓN FINAL 💥<br><b>Estructural = Matemático</b><br>(Fraude de Transmisión)")
 
-    classDef fase fill:#1a1b26,stroke:#7aa2f7,stroke-width:2px,color:#fff
-    classDef escalamiento fill:#414868,stroke:#bb9af7,stroke-width:2px,color:#fff
-    class A,B,C,E,F,H,I,K fase
-    class D,G,J escalamiento
+    classDef alerta_roja fill:#4a0f14,stroke:#f85149,stroke-width:2px,color:#fff
+    classDef alerta_naranja fill:#4d310e,stroke:#d29922,stroke-width:2px,color:#fff
+    classDef alerta_verde fill:#113417,stroke:#2ea043,stroke-width:2px,color:#fff
+    classDef escalamiento fill:#1a1b26,stroke:#7aa2f7,stroke-width:2px,color:#fff
+    classDef final fill:#2c0b2e,stroke:#ff007c,stroke-width:3px,color:#fff
+
+    class A,E,F,H,J alerta_roja
+    class B,C alerta_naranja
+    class G alerta_verde
+    class D,I escalamiento
+    class K final
+
+    click A "02_ANALISIS/informe_forense_estados_unidos.md"
+    click C "03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/DIAGRAMA_DESVIO_TRANSMISION.md"
+    click E "02_ANALISIS/informe_forense_estados_unidos.md"
+    click F "02_ANALISIS/informe_forense_espana.md"
+    click H "02_ANALISIS/informe_forense_grupo_control.md"
+    click I "02_ANALISIS/INFORME_INTEGRIDAD_SHA256.md"
+    click K "02_ANALISIS/SESION_02_ESTADISTICA_Y_BENFORD/TABLA_CORRELACION_FORENSE_COMPLETA.md"
 ```
 
 </div>
+
+---
+
+<a id="herramientas"></a>
+## 🛠️ Herramientas y Confiabilidad Forense
+
+El análisis contenido en este repositorio se rige bajo el **Principio Fundamental de Solo Lectura (Read-Only)** y la preservación de la cadena de custodia inmutable. Toda la evidencia original fue bloqueada contra escritura y los análisis se ejecutaron estrictamente sobre copias de trabajo (working copies) verificadas bit a bit. La metodología no depende de apreciaciones visuales subjetivas ni lecturas superficiales, sino de la descompilación profunda de la estructura binaria de los documentos y el cruce masivo de datos.
+
+### Inventario de Herramientas Estructurales y Binarias
+Para garantizar la **reproducibilidad universal** del dictamen, se utilizaron exclusivamente herramientas de código abierto, verificables y de estándar forense industrial:
+- **`qpdf`**: Herramienta de transformación estructural de PDFs.
+- **`mutool`** (MuPDF): Suite de manipulación y análisis profundo de objetos PDF.
+- **`pdfimages`** / **`pdftoppm`** (Poppler): Motores de renderizado y extracción gráfica nativa.
+- **`pdftotext`**: Analizador de flujos de texto plano y diccionarios.
+- **`zbarimg`**: Decodificador de matrices y patrones 2D/QR.
+- **`sha256sum`**: Algoritmo criptográfico de la Agencia de Seguridad Nacional (NSA).
+- **`exiftool`**: Auditor de metadatos, firmas digitales y atributos de imagen.
+- **`tesseract`**: Motor de Reconocimiento Óptico de Caracteres (OCR).
+
+### ¿En qué momento del peritaje se utiliza cada herramienta? (Casos de Uso)
+- **Bloqueo y Cadena de Custodia:** Se utiliza **`sha256sum`** en el *Día 1* (Punto Cero) para firmar criptográficamente cada PDF original descargado, garantizando que no sufra mutaciones.
+- **Descompresión y Mapeo XREF:** Se utiliza **`qpdf`** y **`mutool`** para romper la compresión del PDF (`--qdf`), inspeccionar la tabla de referencias cruzadas (XREF) y dejar al descubierto los vectores y comandos inyectados (`cm`, `Do`, `re`).
+- **Análisis de Flujo de Texto (`/Contents`):** Se utiliza **`pdftotext`** y **`mutool info`** para extraer el texto que el código inyectó pero que la imagen no muestra (desnudando la suplantación de la mesa o candidato).
+- **Desenmascaramiento Gráfico:** Se utiliza **`pdfimages`** y **`pdftoppm`** para separar las distintas capas del documento, logrando extraer la "máscara blanca" (`1bpc`) aislando así el fondo real del objeto superpuesto.
+- **Auditoría de Inyecciones Sintéticas:** Se utiliza **`exiftool`** sobre las máscaras extraídas para comprobar la total ausencia de metadatos de escáner y la carencia de canal alfa, demostrando que fueron inyectadas por software.
+- **QR Spoofing (Redirección):** Se utiliza **`zbarimg`** sobre los recortes vectoriales para decodificar los enlaces maliciosos ocultos bajo los códigos QR superpuestos.
+- **Apoyo OCR Periférico:** Se utiliza **`tesseract`** para escanear en masa palabras clave ("Claveros", "Delegados", "CNE") y confirmar la foliación híbrida en casos puntuales.
+
+### Estándar de Industria: ¿Quiénes usan estas herramientas y para qué?
+El conjunto de herramientas empleadas no es experimental; es el estándar de oro en la industria de la ciberseguridad y la informática forense (Digital Forensics and Incident Response - DFIR):
+- **Agencias de Inteligencia y Ley (FBI, NSA, INTERPOL):** Utilizan `sha256sum`, `qpdf` y `exiftool` para garantizar la cadena de custodia electrónica, descubrir esteganografía, rastrear la procedencia de documentos alterados y analizar malware inyectado en PDFs.
+- **Firmas de Ciberseguridad (Mandiant, CrowdStrike, Kaspersky):** Emplean `mutool` y Poppler (`pdfimages`/`pdftotext`) para descompilar cargas útiles (payloads) maliciosas escondidas en vectores `/Contents`, realizando ingeniería inversa sobre documentos armados (weaponized documents).
+- **Firmas de Auditoría Legal (e-Discovery):** Despliegan estas suites para certificar la inalterabilidad de contratos digitales y pruebas documentales en litigios corporativos masivos.
+
+### 🧪 Muestras de Evidencia (Para Pruebas)
+Para garantizar la reproducibilidad científica y forense de este peritaje, el repositorio incluye un directorio `00_MUESTRAS_EVIDENCIA` con actas en crudo (PDFs originales) tanto de la Primera como de la Segunda Vuelta. Cualquier investigador o periodista puede descargar el repositorio, ejecutar el *Motor AndreTaker* sobre estas muestras y verificar por sí mismo el ocultamiento de las máscaras blancas (`1bpc`), las inyecciones de código `/Contents` y el *spoofing* de códigos QR sin necesidad de descargar el paquete completo de 120.000 actas.
+
+### ¿Qué hemos creado en esta investigación? (El Motor Forense AndreTaker)
+Las herramientas de código abierto mencionadas operan de forma individual por línea de comandos. El aporte central de esta investigación es el **Motor Forense AndreTaker**, un pipeline automatizado desarrollado por **Andrea Zabala**. Este motor unifica el ecosistema DFIR para procesar la evidencia a escala industrial:
+1. **Orquestación Multihilo (Python):** Integración de `qpdf`, `exiftool`, `zbarimg` y análisis estadístico para procesar masivamente más de 120.000 actas en paralelo.
+2. **Determinismo:** Automatización de la descompilación y extracción de máscaras blancas, eliminando el sesgo humano.
+3. **Fusión Forense-Estadística:** Integración de la ingeniería inversa de PDFs con el modelado de la Ley de Newcomb-Benford para separar el error humano del fraude sistémico.
+
+> [!NOTE]
+> **Propiedad Intelectual y Patente en Trámite (Patent Pending)**
+> El *Motor Forense AndreTaker* y su metodología de detección algorítmica se encuentran en etapa de patentación. Su uso es **completamente libre y abierto** para investigadores, periodistas o entidades que lo necesiten para auditorías democráticas, bajo la condición estricta de **dar el crédito correspondiente a la autora original (Andrea Zabala)**. Ver archivo `LICENSE` para más detalles.
+
+### Análisis de Datos y Modelado Estadístico
+- **Python (Pandas, SciPy, NumPy)**: Procesamiento matemático multihilo para analizar masivamente miles de actas. Ejecución de pruebas de hipótesis, correlaciones de Pearson/Spearman y análisis de varianza nula.
+- **Ley de Newcomb-Benford**: Aplicación forense para la detección de anomalías contables y manipulación artificial de las frecuencias numéricas en los votos.
+
+> [!IMPORTANT]
+> **Fiabilidad Matemática:** Las conclusiones de este repositorio no son "suposiciones" ópticas. Son **demostraciones criptográficas, estructurales y estadísticas** probadas matemáticamente sobre la capa de código de los PDFs y el conjunto de datos electorales.
 
 ---
 
@@ -192,29 +270,30 @@ Para facilitar la auditoría pericial, el repositorio está clasificado en tres 
 > ### 🔴 SESIÓN 01: SPOOFING QR Y TRANSMISIÓN
 > **Foco:** Alteración de la capa de transmisión de datos (Formularios de Delegados vs Claveros) y suplantación de identidad del documento.
 > **Formatos:** Bases de datos crudas (`.csv`), imágenes comparativas (`.jpg`), alertas tempranas.
-> - **Evidencia:** `01_EVIDENCIA/SESION_01_SPOOFING_QR/`
-> - **Análisis (Código):** `02_ANALISIS/SESION_01_SPOOFING_QR/`
+> - **Evidencia:** [01_EVIDENCIA/SESION_01_SPOOFING_QR/](01_EVIDENCIA/SESION_01_SPOOFING_QR/)
+> - **Análisis (Código):** [02_ANALISIS/SESION_01_SPOOFING_QR/](02_ANALISIS/SESION_01_SPOOFING_QR/)
 
 > [!NOTE]
 > ### 🔵 SESIÓN 02: ESTADÍSTICA Y LEY DE BENFORD
 > **Foco:** Demostración matemática algorítmica de los patrones de inyección sintética (Varianza nula, correlaciones atípicas y anomalías de dígitos).
 > **Formatos:** Scripts estadísticos (`.py`), reportes tabulares nacionales (`.md`, `.csv`).
-> - **Evidencia:** `01_EVIDENCIA/SESION_02_ESTADISTICA_Y_BENFORD/`
-> - **Análisis (Código):** `02_ANALISIS/SESION_02_ESTADISTICA_Y_BENFORD/`
-> - **Documentación/Mapas:** `03_DOCUMENTACION/SESION_02_MAPAS_Y_ARBOLES/`
+> - **Evidencia:** [01_EVIDENCIA/SESION_02_ESTADISTICA_Y_BENFORD/](01_EVIDENCIA/SESION_02_ESTADISTICA_Y_BENFORD/)
+> - **Análisis (Código):** [02_ANALISIS/SESION_02_ESTADISTICA_Y_BENFORD/](02_ANALISIS/SESION_02_ESTADISTICA_Y_BENFORD/)
+> - **Dashboard Interactivo:** [02_ANALISIS/SESION_02_ESTADISTICA_Y_BENFORD/dashboard_campanas_gauss.html](02_ANALISIS/SESION_02_ESTADISTICA_Y_BENFORD/dashboard_campanas_gauss.html)
+> - **Documentación/Mapas:** [03_DOCUMENTACION/SESION_02_MAPAS_Y_ARBOLES/](03_DOCUMENTACION/SESION_02_MAPAS_Y_ARBOLES/)
 
 > [!IMPORTANT]
 > ### 🟣 SESIÓN 03: DEEPFAKE ESTRUCTURAL (CAPAS XREF)
 > **Foco:** La disección a nivel de metadatos PDF. Separación del canal Alfa, vectores inyectados y alteración forense de tablas de referencias cruzadas.
 > **Formatos:** Scripts de extracción masiva (`.sh`, `.py`), archivos de sonido pericial (`.wav`), reportes estructurales (`.txt`).
-> - **Evidencia:** `01_EVIDENCIA/SESION_03_DEEPFAKE_ESTRUCTURAL/`
-> - **Análisis (Código):** `02_ANALISIS/SESION_03_DEEPFAKE_ESTRUCTURAL/`
+> - **Evidencia:** [01_EVIDENCIA/SESION_03_DEEPFAKE_ESTRUCTURAL/](01_EVIDENCIA/SESION_03_DEEPFAKE_ESTRUCTURAL/)
+> - **Análisis (Código):** [02_ANALISIS/SESION_03_DEEPFAKE_ESTRUCTURAL/](02_ANALISIS/SESION_03_DEEPFAKE_ESTRUCTURAL/)
 
 > [!TIP]
 > ### 🟢 ENTREGABLES LEGALES Y CADENA DE CUSTODIA
 > **Foco:** Documentación oficial consolidada, lista para litigio, resguardo de la Cadena de Custodia e Integridad de la Evidencia.
 > **Formatos:** Dictámenes finales (`.pdf`), actas notariales de hashes (SHA-256), guías ciudadanas y manifiestos.
-> - **Ubicación Principal:** `03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/`
+> - **Ubicación Principal:** [03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/)
 
 Consulte el archivo **[`INDICE_MAESTRO.md`](INDICE_MAESTRO.md)** para una navegación pormenorizada archivo por archivo.
 
@@ -240,6 +319,7 @@ Consulte el archivo **[`INDICE_MAESTRO.md`](INDICE_MAESTRO.md)** para una navega
 - **NUEVO:** Para el público general, lea la **[Guía Didáctica para Ciudadanos (¿Qué le hicieron a nuestros votos?)](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/GUIA_CIUDADANA.md)**: Explicación en lenguaje sencillo, sin tecnicismos, sobre las trampas informáticas.
 - Para entender los conceptos técnicos de la falsificación a nivel jurídico, lea la **[Guía Didáctica para Jueces](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/GUIA_PARA_JUECES.md)**.
 - 🎯 **[NUEVO]** **[Mapa Interactivo del Fraude E-14 (HTML)](03_DOCUMENTACION/SESION_02_MAPAS_Y_ARBOLES/GUIA_INTERACTIVA_FRAUDE.html)**: Abre este archivo en tu navegador para interactuar con la simulación de los vectores de ataque sobre la cadena de transmisión.
+- 📊 **[NUEVO]** **[Dashboard Interactivo de Auditoría Estadística (Campanas de Gauss)](https://anzaca0330-pixel.github.io/AndreTaker---AnZaCa-Rep/02_ANALISIS/SESION_02_ESTADISTICA_Y_BENFORD/dashboard_campanas_gauss.html)**: Herramienta interactiva para explorar el colapso de varianza de los departamentos en tiempo real y subir tu propia auditoría ciudadana (.CSV).
 - 😃 **[Informe Unificado "Carita Feliz" (Exhibición Visual - PDF)](03_DOCUMENTACION/CARITA_FELIZ_DELIVERABLE/INFORME_UNIFICADO_CARITA_FELIZ.pdf)**: Demostración forense visual paso a paso que comprueba cómo funciona la manipulación de píxeles (Blind Masking) en la realidad.
 
 **Informes Periciales Específicos (Casos de Estudio de la Fase 2):**
@@ -320,3 +400,14 @@ Aunque mi nombre (Andrea Zabala Cárcamo - ANZACA AndreTaker) figura como coordi
 
 **FRENTE DIGITAL**  
 🌐 [frentedigital2026.com](https://frentedigital2026.com/)
+
+---
+
+*👀 ¿Buscando quién sepulta los algoritmos? Sigue el rastro de [Baba Yaga](03_DOCUMENTACION/SESION_02_MAPAS_Y_ARBOLES/andretaker_baba_yaga.png)...*
+
+---
+
+> [!WARNING]
+> ### 🚧 ESTADO DE LA INVESTIGACIÓN: EN CURSO
+> **Este repositorio es un documento vivo.** La extracción de la huella estructural (*XREF/1bpc*) y el *QR Spoofing* constituye la **Fase 1** del peritaje (Descompilación Reversa).  
+> Actualmente nos encontramos transitando hacia la **Fase 2**: El cruce estadístico macroscópico aplicando la **Ley de Newcomb-Benford** para correlacionar la inyección algorítmica con la varianza nula de las frecuencias de votación. Los scripts analíticos de esta fase ya se encuentran en el repositorio y los dictámenes finales están en desarrollo.
