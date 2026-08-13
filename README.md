@@ -75,7 +75,10 @@ A través del esfuerzo masivo de más de 75,000 "Testigos Digitales", se descarg
 
 ### 📊 Volumen Analizado por Fases (Audit Scope)
 
-Para garantizar rigor científico, la auditoría forense escaló a través de siete (7) fases operativas e investigativas:
+> [!CAUTION]
+> **TIEMPO RÉCORD Y ESCALA MASIVA:** En un periodo efectivo de trabajo **menor a dos (2) meses** —y habiendo estado aislada de cualquier dispositivo digital por al menos 20 días tras un ataque informático y secuestro de cuentas—, este proyecto logró la hazaña de procesar, extraer y auditar criptográficamente **más de 147.000 documentos oficiales (PDFs)**. La magnitud de esta evidencia procesada en tiempo récord subraya la urgencia y gravedad de la denuncia.
+
+Para garantizar absoluto rigor científico, la auditoría forense escaló a través de siete (7) fases operativas e investigativas:
 *   **Fase 1 (31 Mayo – 1 Jun 2026 | Punto Cero):** Detección de la anomalía estadística inicial en el Consulado de Los Ángeles (epicentro de distorsiones y varianza nula) y **sellado criptográfico inmediato (SHA-256)** de las 100 actas originales para preservar la cadena de custodia inmutable.
 *   **Fase 2 (1 – 2 Jun 2026 | Inspección de Campo):** Confirmación material del fraude (QR inoperativos y foliación híbrida) en los PDFs originales de Los Ángeles.
 *   **Fase 3 (2 – 5 Jun 2026 | Blindaje Legal):** Elevación de la denuncia oficial ante el CNE, Procuraduría y consolidación del amparo de precedentes jurídicos (Consejo de Estado).
