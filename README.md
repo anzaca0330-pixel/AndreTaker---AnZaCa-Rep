@@ -14,7 +14,8 @@
 </div>
 <br>
 
-# 🕊️ SIGUIENDO LA ANOMALÍA PDF: ACERVO PROBATORIO FORENSE E-14 (COLOMBIA 2026)
+# SIGUIENDO LA ANOMALÍA PDF:                          ACERVO PROBATORIO FORENSE E-14 (COLOMBIA 2026)
+
 
 **Primera Línea Digital:** AnZaCa AndreTaker  
 **Colectivo:** Frente Digital 2026  
@@ -35,15 +36,26 @@
 
 ---
 
-## 📌 Índice Rápido
+## 📌 Índice Principal (Hallazgos Forenses)
 
-1. [Contexto del Caso / About](#contexto)
-2. [Hallazgos Principales](#hallazgos)
-3. [Estructura del Repositorio](#estructura)
-4. [Cómo Usar Este Repositorio](#como-usar)
-5. [Bóvedas Inmutables en Internet Archive](#bovedas)
-6. [Cómo Contribuir (Peer Review)](#contribuir)
+1. [Inconsistencia Censal Macroscópica](#hallazgo-1)
+2. [Inoperatividad Criptográfica Inicial](#hallazgo-2)
+3. [Redirección Criptográfica (Códigos QR Dobles)](#hallazgo-3)
+4. [Foliación Híbrida (Manipulación Física)](#hallazgo-4)
+5. [La "Cicatriz" Estructural (XREF)](#hallazgo-5)
+6. [Blind Masking (Capas y Vectores)](#hallazgo-6)
+7. [Generación Sintética (Ausencia de EXIF)](#hallazgo-7)
+8. [Permutación Sintáctica (Vote Swapping)](#hallazgo-8)
+9. [Impacto Matemático (Inversión del Margen)](#hallazgo-9)
+10. [El "Espejo Absoluto" y Ley de Benford](#hallazgo-10)
 
+---
+*Navegación Adicional:*
+* [Contexto del Caso / About](#contexto)
+* [Estructura del Repositorio](#estructura)
+* [Cómo Usar Este Repositorio](#como-usar)
+* [Informes Periciales Específicos](#informes-periciales)
+* [Bóvedas Inmutables en Internet Archive](#bovedas)
 ---
 
 <a id="contexto"></a>
@@ -72,52 +84,34 @@ Para garantizar rigor científico, la auditoría forense escaló a través de si
 *   **Fase 6 (28 Jul 2026 | Máscaras y Hashes):** Análisis demostrando que las "máscaras blancas" carecen de canal alfa o EXIF, confirmando la inyección sintética por manipulación digital.
 *   **Fase 7 (29 – 30 Jul 2026 | Acervo Completo):** Escalamiento masivo al voto en el exterior (24 países) y territorio nacional (121.960 PDFs totales), comprobando el *Vote Swapping* algorítmico.
 
-<div align="center">
+<br>
 
-```mermaid
-%%{init: {"theme": "base", "themeVariables": { "fontSize": "17px", "fontFamily": "sans-serif"}}}%%
-flowchart TD
-    A("📍 Fase 1: Los Ángeles<br>(Punto Cero)") -- "🕵🏻‍♀️ Rastreando..." --> B("🔍 Fase 2: Inspección<br>Física")
-    B -- "🕵🏻‍♀️ Analizando..." --> C("📡 Fase 3: Fraude de<br>Transmisión y QR")
-    
-    C -- "🕵🏻‍♀️ Cruzando fronteras" --> D{"Escalamiento<br>Consular"}
-    
-    D --> E("🌎 Fase 4: EE.UU.<br>(987 Actas)")
-    D --> F("🇪🇸 Fase 4: España<br>(696 Actas)")
-    
-    E -- "🕵🏻‍♀️ Extrayendo muestras..." --> G("⚖️ Fase 5: Grupo de Control<br>(Línea Base Orgánica)")
-    F --> G
-    
-    G -- "🕵🏻‍♀️ Desencriptando capas..." --> H("🧬 Fase 6: Análisis de<br>Máscaras (1bpc) y Hashes")
-    
-    H -- "🕵🏻‍♀️ Mapeo Masivo..." --> I{"Auditoría<br>Nacional"}
-    
-    I --> J("📈 Fase 7: Ley de Benford<br>(121.960 Actas)")
-    
-    J -- "🕵🏻‍♀️ BOOM! 💥" --> K("💥 CONSOLIDACIÓN FINAL 💥<br><b>Estructural = Matemático</b><br>(Fraude de Transmisión)")
+### 🛤️ Línea de Tiempo de la Auditoría (Flujo de Trabajo)
 
-    classDef alerta_roja fill:#4a0f14,stroke:#f85149,stroke-width:2px,color:#fff
-    classDef alerta_naranja fill:#4d310e,stroke:#d29922,stroke-width:2px,color:#fff
-    classDef alerta_verde fill:#113417,stroke:#2ea043,stroke-width:2px,color:#fff
-    classDef escalamiento fill:#1a1b26,stroke:#7aa2f7,stroke-width:2px,color:#fff
-    classDef final fill:#2c0b2e,stroke:#ff007c,stroke-width:3px,color:#fff
+> **📍 Fase 1: Los Ángeles (Punto Cero)**
+> ↳ *Rastreando anomalía...*
+> 
+> **🔍 Fase 2: Inspección Física (E-14)**
+> ↳ *Analizando QR y foliación...*
+> 
+> **📡 Fase 3: Detección de Fraude de Transmisión**
+> ↳ *Cruzando fronteras...*
+> 
+> **🌎 Fase 4: Escalamiento Consular (EE.UU. y España)**
+> ↳ *Extrayendo muestras...*
+> 
+> **⚖️ Fase 5: Grupo de Control (Línea Base Orgánica)**
+> ↳ *Desencriptando capas y metadatos...*
+> 
+> **🧬 Fase 6: Análisis de Máscaras (1bpc) y Hashes**
+> ↳ *Mapeo Masivo Nacional...*
+> 
+> **📈 Fase 7: Ley de Benford (121.960 Actas)**
+> ↳ *Correlacionando hallazgos...*
+> 
+> **💥 CONSOLIDACIÓN FINAL: Estructural = Matemático**
 
-    class A,E,F,H,J alerta_roja
-    class B,C alerta_naranja
-    class G alerta_verde
-    class D,I escalamiento
-    class K final
 
-    click A "02_ANALISIS/informe_forense_estados_unidos.md"
-    click C "03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/DIAGRAMA_DESVIO_TRANSMISION.md"
-    click E "02_ANALISIS/informe_forense_estados_unidos.md"
-    click F "02_ANALISIS/informe_forense_espana.md"
-    click H "02_ANALISIS/informe_forense_grupo_control.md"
-    click I "02_ANALISIS/INFORME_INTEGRIDAD_SHA256.md"
-    click K "02_ANALISIS/SESION_02_ESTADISTICA_Y_BENFORD/TABLA_CORRELACION_FORENSE_COMPLETA.md"
-```
-
-</div>
 
 ---
 
@@ -179,16 +173,19 @@ Las herramientas de código abierto mencionadas operan de forma individual por l
 
 El peritaje científico demuestra la falsificación a través de diez (10) pilares técnicos irrefutables:
 
+<a id="hallazgo-1"></a>
 > [!CAUTION]
 > ### 1️⃣ Inconsistencia Censal Macroscópica (Fase Inicial)
 > Desplome de la participación y manipulación del censo electoral. En lugares clave como Estados Unidos, se reportaron oficialmente 159.999 nuevos inscritos, pero el censo base fue inflado artificialmente a 454.262 para justificar matemáticamente la posterior inyección sintética de votos.
 <br>
 
+<a id="hallazgo-2"></a>
 > [!WARNING]
 > ### 2️⃣ Inoperatividad Criptográfica Inicial
 > Al inicio de la investigación se creía que los códigos de barras y QR habían sido simplemente borrados o destruidos intencionalmente para que los motores computacionales no pudieran leerlos.
 <br>
 
+<a id="hallazgo-3"></a>
 > [!IMPORTANT]
 > ### 3️⃣ Redirección Criptográfica (Códigos QR Dobles)
 > Sin embargo, tras aplicar análisis de espectro, **encontramos que** no estaban borrados, sino suplantados.
@@ -203,16 +200,19 @@ El peritaje científico demuestra la falsificación a través de diez (10) pilar
 </div>
 <br>
 
+<a id="hallazgo-4"></a>
 > [!NOTE]
 > ### 4️⃣ Foliación Híbrida (Manipulación Física)
 > Mezcla injustificada de páginas a color originales y páginas en blanco y negro (fotocopiadas) dentro de paquetes que pertenecen al mismo lote litográfico oficial, demostrando manipulación humana previa al escaneo.
 <br>
 
+<a id="hallazgo-5"></a>
 > [!CAUTION]
 > ### 5️⃣ La "Cicatriz" Estructural (XREF)
 > El 100% de los formularios alterados (falsificados) presentan una tabla de referencias cruzadas (`XREF`) corrompida (15 objetos declarados vs 13 existentes), producto del uso de software de ensamblaje masivo de PDFs en lugar de escáneres ópticos reales. Múltiples actas procesadas reportaron un diagnóstico de "NIVEL MÁXIMO" de deepfake debido a esta huella invariable.
 <br>
 
+<a id="hallazgo-6"></a>
 > [!IMPORTANT]
 > ### 6️⃣ Blind Masking (Capas y Vectores)
 > Los documentos falsificados contienen comandos vectoriales (`cm`, `re`, `Do`), máscaras tipo `DeviceGray` y números renderizados en formato de 1 bit por canal (`1bpc`), superpuestos sobre fondos ruidosos. Un escáner físico de mesa de votación **nunca** crea capas ni hace OCR selectivo; solo produce imágenes planas acopladas.
@@ -225,21 +225,25 @@ El peritaje científico demuestra la falsificación a través de diez (10) pilar
 
 <br>
 
+<a id="hallazgo-7"></a>
 > [!TIP]
 > ### 7️⃣ Generación Sintética (Ausencia de EXIF y Canal Alfa)
 > El análisis de profundidad comprobó que las máscaras son imágenes `gray` de 8-bit Bilevel **sin canal alfa de transparencia real** y con total ausencia de metadatos de hardware (`Creator`, `Producer`). No son escaneos, son objetos insertados por software.
 <br>
 
+<a id="hallazgo-8"></a>
 > [!WARNING]
 > ### 8️⃣ Permutación Sintáctica (Vote Swapping)
 > Demostración algorítmica de que la sumatoria total de la mesa se mantiene estática mientras los votos de los candidatos principales son permutados ($V_1 \leftrightarrow V_2$) en la capa `/XObject`. Al revertir la permutación matemática, las mesas regresan exactamente a la curva gaussiana biológica normal ($Z = -56.96, p < 0.0001$).
 <br>
 
+<a id="hallazgo-9"></a>
 > [!CAUTION]
 > ### 9️⃣ Impacto Matemático (Inversión del Margen)
 > El fraude mapeado representa más del **175.1% de la diferencia total de victoria** (1.75 veces el margen oficial). La anulación del fraude invierte directamente el resultado presidencial.
 <br>
 
+<a id="hallazgo-10"></a>
 > [!NOTE]
 > ### 🔟 El "Espejo Absoluto" y Ley de Benford
 > Anomalías estadísticas imposibles en la naturaleza humana. Desviaciones estándar en la distribución del Segundo Dígito y secuencias (o "melodías") algorítmicas repetitivas en los bloques de transmisión, comprobando que los números fueron inyectados por un bucle de programación y no por conteo humano. 
