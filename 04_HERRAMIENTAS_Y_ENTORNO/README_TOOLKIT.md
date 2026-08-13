@@ -1,5 +1,5 @@
 # 🛠️ Paquete de Detección de Fraude PRO (Forensic Toolkit)
-
+### 🔍 El Súper Buscador de Anomalías en Archivos PDF
 Este directorio contiene las herramientas necesarias para automatizar la extracción de evidencia binaria, cazar **inyecciones algorítmicas**, detectar **anomalías estadísticas** y renderizar **gráficas de varianza (Benford / Gauss)**. Está diseñado específicamente para desensamblar estructuras de **Deepfake Documental** (alteración XREF), revertir operaciones sintéticas de ocultamiento como el **Blind Masking** (máscaras de 1bpc), desempaquetar flujos ocultos por **FlateDecode** usando **mutool**, auditar inconsistencias en códigos **QR** (vía **zbarimg**) y sellar criptográficamente la evidencia mediante **Hashes (SHA-256)** en cientos de miles de actas electorales.
 
 > [!IMPORTANT]
