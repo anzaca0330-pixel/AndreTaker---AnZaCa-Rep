@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="03_DOCUMENTACION/testigos_digitales_banner.jpg" alt="Frente Digital Banner" width="100%">
+  <img src="03_DOCUMENTACION/SESION_02_MAPAS_Y_ARBOLES/testigos_digitales_banner.jpg" alt="Frente Digital Banner" width="100%">
 </div>
 
 <div align="center">
@@ -39,7 +39,7 @@
 ## 📖 Contexto del Caso / About
 
 <div align="center">
-  <img src="03_DOCUMENTACION/e14_cuantico.jpg" alt="E-14 Digital Forensics" width="80%">
+  <img src="03_DOCUMENTACION/SESION_02_MAPAS_Y_ARBOLES/e14_cuantico.jpg" alt="E-14 Digital Forensics" width="80%">
   <br>
   <em>Aislamiento y auditoría cuántica de un acta E-14 manipulada.</em>
 </div>
@@ -110,7 +110,7 @@ El peritaje científico demuestra la falsificación a través de diez (10) pilar
 - **6. Blind Masking (Capas y Vectores):** Los documentos falsificados contienen comandos vectoriales (`cm`, `re`, `Do`), máscaras tipo `DeviceGray` y números renderizados en formato de 1 bit por canal (`1bpc`), superpuestos sobre fondos ruidosos. Un escáner físico de mesa de votación **nunca** crea capas ni hace OCR selectivo; solo produce imágenes planas acopladas.
 
 <div align="center">
-  <img src="03_DOCUMENTACION/MAPA_DE_DIFERENCIAS_CARITA_FELIZ.jpg" alt="Mapa de Diferencias (Carita Feliz - Puntos Rojos)" width="80%">
+  <img src="03_DOCUMENTACION/SESION_02_MAPAS_Y_ARBOLES/MAPA_DE_DIFERENCIAS_CARITA_FELIZ.jpg" alt="Mapa de Diferencias (Carita Feliz - Puntos Rojos)" width="80%">
   <br>
   <em>Comparativa visual (Mapa de Diferencias): Los "puntos rojos" revelan la inyección de la capa vectorial superpuesta sobre el escaneo original.</em>
 </div>
@@ -138,17 +138,39 @@ A continuación, se enlazan los dictámenes técnicos y documentos probatorios p
 ---
 
 <a id="estructura"></a>
-## 📂 Estructura del Repositorio
+## 📂 Estructura del Repositorio (Organización por Sesiones)
 
-Para facilitar la auditoría pericial, el repositorio se divide en tres grandes bloques que clasifican estrictamente la evidencia y los análisis según su formato de archivo (`.csv`, `.txt`, `.py`, `.md`, `.pdf`):
+Para facilitar la auditoría pericial, el repositorio está clasificado en tres grandes "Sesiones" forenses. Cada sesión agrupa la evidencia bruta, el análisis de código y los entregables correspondientes.
 
-| Estructura de Directorios | Formatos Incluidos | Descripción Detallada del Contenido |
-| :--- | :--- | :--- |
-| 📁 **`01_EVIDENCIA/`** | Tablas `.csv`, `.txt`, `.wav`, `.md` | **Evidencia Cruda y Datasets:** Organizada en sesiones (`SESION_01_SPOOFING_QR`, `SESION_02_ESTADISTICA_Y_BENFORD`, `SESION_03_DEEPFAKE_ESTRUCTURAL`). Contiene bases de datos tabulares, listados de hashes y archivos multimedia. |
-| 📁 **`02_ANALISIS/`** | Código `.py`, `.sh`, `.md` | **Scripts e Informes Periciales:** Dividido por sesiones de auditoría forense y departamentos investigados. Contiene herramientas de automatización, simulaciones de Monte Carlo e informes técnicos. |
-| 📁 **`03_DOCUMENTACION/`** | Docs `.md`, `.pdf`, `.html`, `.jpg` | **Guías, Tablas y Entregables Jurídicos:** Organizado en `SESION_01_ENTREGABLES_LEGALES` y `SESION_02_MAPAS_Y_ARBOLES`. Contiene Guías para Jueces, Guía Ciudadana, manifiestos y herramientas interactivas. |
+> [!CAUTION]
+> ### 🔴 SESIÓN 01: SPOOFING QR Y TRANSMISIÓN
+> **Foco:** Alteración de la capa de transmisión de datos (Formularios de Delegados vs Claveros) y suplantación de identidad del documento.
+> **Formatos:** Bases de datos crudas (`.csv`), imágenes comparativas (`.jpg`), alertas tempranas.
+> - **Evidencia:** `01_EVIDENCIA/SESION_01_SPOOFING_QR/`
+> - **Análisis (Código):** `02_ANALISIS/SESION_01_SPOOFING_QR/`
 
-Consulte el archivo **[`INDICE_MAESTRO.md`](INDICE_MAESTRO.md)** para una navegación detallada por cada archivo.
+> [!NOTE]
+> ### 🔵 SESIÓN 02: ESTADÍSTICA Y LEY DE BENFORD
+> **Foco:** Demostración matemática algorítmica de los patrones de inyección sintética (Varianza nula, correlaciones atípicas y anomalías de dígitos).
+> **Formatos:** Scripts estadísticos (`.py`), reportes tabulares nacionales (`.md`, `.csv`).
+> - **Evidencia:** `01_EVIDENCIA/SESION_02_ESTADISTICA_Y_BENFORD/`
+> - **Análisis (Código):** `02_ANALISIS/SESION_02_ESTADISTICA_Y_BENFORD/`
+> - **Documentación/Mapas:** `03_DOCUMENTACION/SESION_02_MAPAS_Y_ARBOLES/`
+
+> [!IMPORTANT]
+> ### 🟣 SESIÓN 03: DEEPFAKE ESTRUCTURAL (CAPAS XREF)
+> **Foco:** La disección a nivel de metadatos PDF. Separación del canal Alfa, vectores inyectados y alteración forense de tablas de referencias cruzadas.
+> **Formatos:** Scripts de extracción masiva (`.sh`, `.py`), archivos de sonido pericial (`.wav`), reportes estructurales (`.txt`).
+> - **Evidencia:** `01_EVIDENCIA/SESION_03_DEEPFAKE_ESTRUCTURAL/`
+> - **Análisis (Código):** `02_ANALISIS/SESION_03_DEEPFAKE_ESTRUCTURAL/`
+
+> [!TIP]
+> ### 🟢 ENTREGABLES LEGALES Y CADENA DE CUSTODIA
+> **Foco:** Documentación oficial consolidada, lista para litigio, resguardo de la Cadena de Custodia e Integridad de la Evidencia.
+> **Formatos:** Dictámenes finales (`.pdf`), actas notariales de hashes (SHA-256), guías ciudadanas y manifiestos.
+> - **Ubicación Principal:** `03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/`
+
+Consulte el archivo **[`INDICE_MAESTRO.md`](INDICE_MAESTRO.md)** para una navegación pormenorizada archivo por archivo.
 
 ---
 
