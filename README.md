@@ -305,21 +305,18 @@ Consulte el archivo **[`INDICE_MAESTRO.md`](INDICE_MAESTRO.md)** para una navega
 > [!IMPORTANT]
 > **NO CONFÍES. VERIFICA.** Toda la evidencia y los scripts en este repositorio están diseñados para ser 100% reproducibles. Desafiamos a la comunidad global de *Data Scientists*, Hackers Éticos y Peritos Informáticos a clonar esta bóveda, ejecutar nuestros algoritmos y someter los 10 hallazgos a la prueba de falsabilidad.
 
-**1️⃣ Despliega tu entorno forense (Linux recomendado):**
-```bash
-# 1. Instala el stack de extracción binaria y metadata
-sudo apt-get update && sudo apt-get install qpdf poppler-utils libimage-exiftool-perl python3 python3-pip
+**1️⃣ Despliega tu entorno forense (Forensic Toolkit):**
+Hemos empaquetado todas las dependencias (qpdf, exiftool, Python) en un solo instalador automatizado. Ya sea que uses Docker (Nivel Industrial) o Bash nativo, puedes configurar todo en un clic.
 
-# 2. Instala las dependencias de Python
-pip install -r 03_DOCUMENTACION/CARITA_FELIZ_DELIVERABLE/requirements.txt
-```
+> 👉 **[IR AL PAQUETE DE DETECCIÓN DE FRAUDE PRO PDF (Instaladores)](04_HERRAMIENTAS_Y_ENTORNO/README_TOOLKIT.md)**
 
-**2️⃣ Clona la evidencia y lanza el escáner estructural:**
+**2️⃣ Lanza el escáner estructural:**
+Una vez activado tu entorno forense, puedes procesar los cientos de miles de actas reales de la bóveda:
 ```bash
 git clone https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep.git
 cd AndreTaker---AnZaCa-Rep
 
-# Ejecuta la ingeniería inversa sobre cualquier lote de actas reales de la bóveda:
+# Ejecuta la ingeniería inversa sobre cualquier lote de actas reales:
 ./02_ANALISIS/SESION_03_DEEPFAKE_ESTRUCTURAL/SCRIPTS_PYTHON_FORENSES/auditoria_masiva_xref.sh "./01_EVIDENCIA/SESION_03_DEEPFAKE_ESTRUCTURAL/" "resultados_auditoria.csv"
 ```
 
