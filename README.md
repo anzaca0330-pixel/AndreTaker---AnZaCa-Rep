@@ -3,12 +3,14 @@
 </div>
 
 <div align="center">
-  <b>🌍 Traducción Automática / Live Translation:</b><br>
-  <a href="https://translate.google.com/translate?sl=es&tl=en&u=https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep">🇺🇸 English</a> | 
-  <a href="https://translate.google.com/translate?sl=es&tl=fr&u=https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep">🇫🇷 Français</a> | 
-  <a href="https://translate.google.com/translate?sl=es&tl=de&u=https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep">🇩🇪 Deutsch</a> | 
-  <a href="https://translate.google.com/translate?sl=es&tl=pt&u=https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep">🇧🇷 Português</a> |
-  <a href="https://translate.google.com/translate?sl=es&tl=zh-CN&u=https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep">🇨🇳 中文 (Chinese)</a>
+  <h2>🌍 Traducción Automática / Live Translation</h2>
+  <h3>
+    <a href="https://translate.google.com/translate?sl=es&tl=en&u=https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep">🇺🇸 English</a> &nbsp;|&nbsp; 
+    <a href="https://translate.google.com/translate?sl=es&tl=fr&u=https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep">🇫🇷 Français</a> &nbsp;|&nbsp; 
+    <a href="https://translate.google.com/translate?sl=es&tl=de&u=https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep">🇩🇪 Deutsch</a> &nbsp;|&nbsp; 
+    <a href="https://translate.google.com/translate?sl=es&tl=pt&u=https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep">🇧🇷 Português</a> &nbsp;|&nbsp;
+    <a href="https://translate.google.com/translate?sl=es&tl=zh-CN&u=https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep">🇨🇳 中文 (Chinese)</a>
+  </h3>
 </div>
 <br>
 
