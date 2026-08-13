@@ -36,6 +36,16 @@
 
 ---
 
+## 🎯 Rutas de Navegación (Elige tu Perfil)
+
+Dado el inmenso volumen y la profundidad técnica de esta auditoría, hemos diseñado tres (3) rutas rápidas para que vayas directo a la información que necesitas, sin abrumarte con tecnicismos:
+
+- 🧑‍🤝‍🧑 **Para el Ciudadano Común:** ¿No eres experto en informática o leyes? Empieza leyendo la **[Guía Didáctica para Ciudadanos (¿Qué le hicieron a nuestros votos?)](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/GUIA_CIUDADANA.md)** y explora los **[Dashboards Interactivos](02_ANALISIS/SESION_02_ESTADISTICA_Y_BENFORD/dashboard_campanas_gauss.html)** para entender visualmente el fraude de forma muy sencilla.
+- ⚖️ **Para Autoridades, Abogados y Jueces:** ¿Buscas el sustento jurídico? Dirígete a los **[Entregables Legales y el Resumen Ejecutivo](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/RESUMEN_EJECUTIVO.md)** o lee la **[Guía para Jueces](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/GUIA_PARA_JUECES.md)**, donde está consolidada la cadena de custodia probatoria lista para tribunales.
+- 💻 **Para Peritos e Ingenieros de Datos:** ¿Quieres auditar el código o la matemática? Explora el **[Índice de Hallazgos Técnicos](#-índice-principal-hallazgos-forenses)** justo abajo, despliega los algoritmos de **[Deepfake Estructural y XREF](03_DOCUMENTACION/CARITA_FELIZ_DELIVERABLE/)** o los cruces de **[Estadística y Ley de Benford](02_ANALISIS/SESION_02_ESTADISTICA_Y_BENFORD/)**.
+
+---
+
 ## 📌 Índice Principal (Hallazgos Forenses)
 
 1. [Inconsistencia Censal Macroscópica](#1️⃣-inconsistencia-censal-macroscópica-fase-inicial)
