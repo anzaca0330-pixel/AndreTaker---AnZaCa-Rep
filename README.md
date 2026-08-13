@@ -307,8 +307,11 @@ Consulte el archivo **[`INDICE_MAESTRO.md`](INDICE_MAESTRO.md)** para una navega
 
 **1️⃣ Despliega tu entorno forense (Linux recomendado):**
 ```bash
-# Instala el stack de extracción binaria y metadata
-sudo apt-get update && sudo apt-get install qpdf poppler-utils libimage-exiftool-perl python3
+# 1. Instala el stack de extracción binaria y metadata
+sudo apt-get update && sudo apt-get install qpdf poppler-utils libimage-exiftool-perl python3 python3-pip
+
+# 2. Instala las dependencias de Python
+pip install -r 03_DOCUMENTACION/CARITA_FELIZ_DELIVERABLE/requirements.txt
 ```
 
 **2️⃣ Clona la evidencia y lanza el escáner estructural:**
@@ -316,8 +319,8 @@ sudo apt-get update && sudo apt-get install qpdf poppler-utils libimage-exiftool
 git clone https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep.git
 cd AndreTaker---AnZaCa-Rep
 
-# Ejecuta la ingeniería inversa sobre cualquier lote de actas:
-./02_ANALISIS/SCRIPTS_PYTHON_FORENSES/auditoria_masiva_xref.sh "ruta/a/muestra" "resultados_muestra.csv"
+# Ejecuta la ingeniería inversa sobre cualquier lote de actas reales de la bóveda:
+./02_ANALISIS/SESION_03_DEEPFAKE_ESTRUCTURAL/SCRIPTS_PYTHON_FORENSES/auditoria_masiva_xref.sh "./01_EVIDENCIA/SESION_03_DEEPFAKE_ESTRUCTURAL/" "resultados_auditoria.csv"
 ```
 
 > 💡 *¿Lograste refutar un hallazgo estadístico? ¿Optimizaste el extractor de XREF? Abre un **Pull Request** de inmediato. La ciencia y la verdad se construyen con fricción.*
