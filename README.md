@@ -105,8 +105,13 @@ El peritaje científico demuestra la falsificación a través de diez (10) pilar
 - **3. Redirección Criptográfica (Códigos QR Dobles):** Sin embargo, tras aplicar análisis de espectro, **encontramos que** no estaban borrados, sino suplantados.
   > [!CAUTION]
   > **🔴 ALERTA GRAVE:** Se superpuso un QR falso sobre el original para **DESVIAR LOS RESULTADOS HACIA UN ID DE MESA DISTINTO**. El escáner forense logró captar ambas capas simultáneamente (el original sangrando por debajo y el falso pegado encima). Ver demostración técnica en: **[EVIDENCIA_QR_DOBLES_FALSIFICADOS.md](01_EVIDENCIA/SESION_01_SPOOFING_QR/EVIDENCIA_QR_DOBLES_FALSIFICADOS.md)**
-  > 
   > 🎥 **[NUEVO]** Ver el **[Diagrama Técnico de Desvío](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/DIAGRAMA_DESVIO_TRANSMISION.md)** y la **[Animación Interactiva de Redirección (HTML)](03_DOCUMENTACION/SESION_02_MAPAS_Y_ARBOLES/GUIA_INTERACTIVA_FRAUDE.html)**.
+
+<div align="center">
+  <img src="03_DOCUMENTACION/SESION_02_MAPAS_Y_ARBOLES/qr_forensics_spoofing.png" alt="Concepto Forense de QR Spoofing (Suplantación)" width="60%">
+  <br>
+  <em>Recreación pericial: Inspección de la suplantación de identidad del acta mediante la inyección vectorial de un código QR falso superpuesto.</em>
+</div>
 - **4. Foliación Híbrida (Manipulación Física):** Mezcla injustificada de páginas a color originales y páginas en blanco y negro (fotocopiadas) dentro de paquetes que pertenecen al mismo lote litográfico oficial, demostrando manipulación humana previa al escaneo.
 - **5. La "Cicatriz" Estructural (XREF):** El 100% de los formularios alterados (falsificados) presentan una tabla de referencias cruzadas (`XREF`) corrompida (15 objetos declarados vs 13 existentes), producto del uso de software de ensamblaje masivo de PDFs en lugar de escáneres ópticos reales. Múltiples actas procesadas reportaron un diagnóstico de "NIVEL MÁXIMO" de deepfake debido a esta huella invariable.
 - **6. Blind Masking (Capas y Vectores):** Los documentos falsificados contienen comandos vectoriales (`cm`, `re`, `Do`), máscaras tipo `DeviceGray` y números renderizados en formato de 1 bit por canal (`1bpc`), superpuestos sobre fondos ruidosos. Un escáner físico de mesa de votación **nunca** crea capas ni hace OCR selectivo; solo produce imágenes planas acopladas.
