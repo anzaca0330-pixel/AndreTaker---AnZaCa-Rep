@@ -65,24 +65,28 @@ Para garantizar rigor científico, la auditoría forense escaló a través de si
 
 ```mermaid
 flowchart LR
-    A["Fase 1: Los Ángeles<br><b>Muestra: 19 Actas</b><br>(Punto Cero)"] --> B{"Escalamiento<br>Consular"}
+    A["Fase 1: Los Ángeles<br><b>19 Actas</b><br>(Punto Cero)"] --> B["Fase 2: Inspección<br>de Campo"]
+    B --> C["Fase 3: Blindaje<br>Legal (CNE)"]
+    C --> D{"Escalamiento<br>Consular"}
     
-    B --> C["Fase 4: EE.UU.<br><b>Muestra: 987 Actas</b>"]
-    B --> D["Fase 4: España<br><b>Muestra: 696 Actas</b>"]
+    D --> E["Fase 4: EE.UU.<br><b>987 Actas</b>"]
+    D --> F["Fase 4: España<br><b>696 Actas</b>"]
     
-    C --> E{"Prueba de<br>Falsación"}
-    D --> E
+    E --> G{"Prueba de<br>Falsación"}
+    F --> G
     
-    E --> F["Fase 5: Grupo de Control<br><b>Muestra: 25.061 Actas</b><br>(Línea Base)"]
+    G --> H["Fase 5: Grupo de Control<br><b>25.061 Actas</b><br>(Línea Base)"]
     
-    F --> G{"Auditoría<br>Masiva"}
+    H --> I["Fase 6: Análisis de<br>Máscaras y Hashes"]
     
-    G --> H["Fase 7: Acervo Completo<br><b>Muestra: 121.960 Actas</b><br>(100% Nacional y Exterior)"]
+    I --> J{"Auditoría<br>Masiva"}
+    
+    J --> K["Fase 7: Acervo Completo<br><b>121.960 Actas</b><br>(Nacional y Exterior)"]
 
     classDef fase fill:#1a1b26,stroke:#7aa2f7,stroke-width:2px,color:#fff
     classDef escalamiento fill:#414868,stroke:#bb9af7,stroke-width:2px,color:#fff
-    class A,C,D,F,H fase
-    class B,E,G escalamiento
+    class A,B,C,E,F,H,I,K fase
+    class D,G,J escalamiento
 ```
 
 </div>
@@ -116,6 +120,20 @@ El peritaje científico demuestra la falsificación a través de diez (10) pilar
 - **9. Impacto Matemático (Inversión del Margen):** El fraude mapeado representa más del **175.1% de la diferencia total de victoria** (1.75 veces el margen oficial). La anulación del fraude invierte directamente el resultado presidencial.
 - **10. El "Espejo Absoluto" y Ley de Benford:** Anomalías estadísticas imposibles en la naturaleza humana. Desviaciones estándar en la distribución del Segundo Dígito y secuencias (o "melodías") algorítmicas repetitivas en los bloques de transmisión, comprobando que los números fueron inyectados por un bucle de programación y no por conteo humano. 
   🎵 **[👉 Escucha la Sonificación del Fraude (Archivo de Audio WAV)](01_EVIDENCIA/anomalia_sonora_fraude.wav)**: Escucha cómo suena el "planchado" de datos y la inyección sintética.onificación del Fraude (Archivo de Audio WAV)](01_EVIDENCIA/anomalia_sonora_fraude.wav)**: Escucha cómo suena el "planchado" de datos y la inyección sintética.
+
+---
+
+<a id="informes-periciales"></a>
+## 📄 Informes Periciales Específicos (Acceso Directo)
+
+A continuación, se enlazan los dictámenes técnicos y documentos probatorios primarios generados a lo largo de las 7 fases de auditoría:
+
+- 🔬 **[Prueba de Falsación (Grupo de Control Nacional - 25.061 Actas)](02_ANALISIS/informe_forense_grupo_control.md)**: Demostración empírica de la línea base biológica (99.96% limpia).
+- 📊 **[Mapa de Correlación Forense (33 Departamentos)](02_ANALISIS/SESION_02_ESTADISTICA_Y_BENFORD/TABLA_CORRELACION_FORENSE_COMPLETA.md)**: Cruce directo entre fraude matemático (Benford) e inyección estructural PDF.
+- 🇺🇸 **[Dictamen Forense - Consulados EE.UU. (987 Actas)](02_ANALISIS/informe_forense_estados_unidos.md)**: Análisis del Punto Cero y epicentro de varianza nula.
+- 🇪🇸 **[Dictamen Forense - Consulados España (696 Actas)](02_ANALISIS/informe_forense_espana.md)**: Comprobación de escalamiento del *spoofing* en Europa.
+- 🔐 **[Reporte de Integridad Criptográfica (ISO 27037)](02_ANALISIS/INFORME_INTEGRIDAD_SHA256.md)**: Sellado de Hashes inmutables (SHA-256) de toda la evidencia extraída.
+- ⚖️ **[Informe Ejecutivo para Equipo Legal (CNE/Procuraduría)](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/INFORME_EJECUTIVO_PARA_EQUIPO_LEGAL_HALLAZGOS_E14.md)**: Síntesis probatoria y jurídica estructurada para autoridades.
 
 ---
 
