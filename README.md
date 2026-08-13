@@ -260,8 +260,8 @@ A continuación, se enlazan los dictámenes técnicos y documentos probatorios p
 ---
 
 <a id="estructura"></a>
-## 📂 Estructura del Repositorio (Organización por Sesiones)
-
+## 📂 Estructura del Repositorio Forense: Evidencia de Alteración Digital - Elecciones 2026
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21922376.svg)](https://doi.org/10.5281/zenodo.21922376)
 Para facilitar la auditoría pericial, el repositorio está clasificado en tres grandes "Sesiones" forenses. Cada sesión agrupa la evidencia bruta, el análisis de código y los entregables correspondientes.
 
 > [!CAUTION]
