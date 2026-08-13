@@ -12,29 +12,30 @@
 </div>
 <br>
 
-# 🕊️ ACERVO PROBATORIO FORENSE E-14 (COLOMBIA 2026)
+# 🕊️ SIGUIENDO LA ANOMALÍA PDF: ACERVO PROBATORIO FORENSE E-14 (COLOMBIA 2026)
 
 **Primera Línea Digital:** AnZaCa AndreTaker  
 **Colectivo:** Frente Digital 2026  
 **Radicado CIDH:** `IACHR-0000113728`  
 **Estado:** Evidencia preservada, blindada y disponible para peritaje internacional.
 
-⚖️ **[MANIFIESTO LEGAL Y CONSTITUCIONAL (Español)](03_DOCUMENTACION/MANIFESTO_TESTIGO_DIGITAL_ES.md)**  
-⚖️ **[LEGAL AND CONSTITUTIONAL MANIFESTO (English)](03_DOCUMENTACION/MANIFESTO_TESTIGO_DIGITAL_EN.md)**  
+⚖️ **[MANIFIESTO LEGAL Y CONSTITUCIONAL (Español)](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/MANIFESTO_TESTIGO_DIGITAL_ES.md)**  
+⚖️ **[LEGAL AND CONSTITUTIONAL MANIFESTO (English)](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/MANIFESTO_TESTIGO_DIGITAL_EN.md)**  
 
 ---
 
 ## 📌 Índice Rápido
 
-1. [Contexto del Caso / About](#contexto-del-caso--about)
-2. [Hallazgos Principales](#hallazgos-principales)
-3. [Estructura del Repositorio](#estructura-del-repositorio)
-4. [Cómo Usar Este Repositorio](#cómo-usar-este-repositorio)
-5. [Cadena de Custodia y Bóvedas](#cadena-de-custodia-y-bóvedas)
-6. [Cómo Contribuir (Peer Review)](#cómo-contribuir-peer-review)
+1. [Contexto del Caso / About](#contexto)
+2. [Hallazgos Principales](#hallazgos)
+3. [Estructura del Repositorio](#estructura)
+4. [Cómo Usar Este Repositorio](#como-usar)
+5. [Bóvedas Inmutables en Internet Archive](#bovedas)
+6. [Cómo Contribuir (Peer Review)](#contribuir)
 
 ---
 
+<a id="contexto"></a>
 ## 📖 Contexto del Caso / About
 
 <div align="center">
@@ -51,19 +52,58 @@ A través del esfuerzo masivo de más de 75,000 "Testigos Digitales", se descarg
 
 ### 📊 Volumen Analizado por Fases (Audit Scope)
 
-Para garantizar rigor científico, la auditoría forense escaló en tres fases de volumen documental:
-*   **Fase 1 (Punto Cero - Consulado de Los Ángeles, Primera Vuelta):** Auditoría forense inicial sobre las actas del Consulado de Los Ángeles durante la Primera Vuelta presidencial, siendo el epicentro donde se detectaron las primeras anomalías matemáticas y estructurales que detonaron la investigación a gran escala.
-*   **Fase 2 (Foco del Fraude - Voto en el Exterior):** Análisis profundo de anomalías en los Consulados de Estados Unidos (987 actas) y España (696 actas), consolidando **casi 1,700 actas** que representan **más de un cuarto de millón de votos (250,000+)**. Aquí se aisló por primera vez la técnica de censura *Blind Masking*.
-*   **Fase 3 (Auditoría Masiva Estructural - Acervo Completo):** Escaneo automatizado mediante *multiprocessing* sobre **121,960 PDFs** (la totalidad absoluta de los documentos E-14 de Delegados depositados en la bóveda principal). El 100% de la muestra total fue procesada en busca de la corrupción estructural (XREF).
+Para garantizar rigor científico, la auditoría forense escaló a través de siete (7) fases operativas e investigativas:
+*   **Fase 1 (31 Mayo – 1 Jun 2026 | Punto Cero):** Detección de la anomalía estadística inicial en el Consulado de Los Ángeles (epicentro de distorsiones y varianza nula).
+*   **Fase 2 (1 – 2 Jun 2026 | Inspección de Campo):** Confirmación material del fraude (QR inoperativos y foliación híbrida) en los PDFs originales de Los Ángeles.
+*   **Fase 3 (2 – 5 Jun 2026 | Blindaje Legal):** Elevación de la denuncia oficial ante el CNE, Procuraduría y consolidación del amparo de precedentes jurídicos (Consejo de Estado).
+*   **Fase 4 (Jun – Jul 2026 | Automatización):** Desarrollo del pipeline pericial informático y extensión masiva a todo EE.UU. (987 actas) y España (696 actas).
+*   **Fase 5 (Julio 2026 | Grupo de Control):** Auditoría de 25.061 actas como línea base (99.96% limpias) demostrando estadísticamente ($p < 0.0001$) que las anomalías son inyecciones de software.
+*   **Fase 6 (28 Jul 2026 | Máscaras y Hashes):** Análisis demostrando que las "máscaras blancas" carecen de canal alfa o EXIF, confirmando la inyección sintética por manipulación digital.
+*   **Fase 7 (29 – 30 Jul 2026 | Acervo Completo):** Escalamiento masivo al voto en el exterior (24 países) y territorio nacional (121.960 PDFs totales), comprobando el *Vote Swapping* algorítmico.
+
+<div align="center">
+
+```mermaid
+flowchart LR
+    A["Fase 1: Los Ángeles<br><b>Muestra: 19 Actas</b><br>(Punto Cero)"] --> B{"Escalamiento<br>Consular"}
+    
+    B --> C["Fase 4: EE.UU.<br><b>Muestra: 987 Actas</b>"]
+    B --> D["Fase 4: España<br><b>Muestra: 696 Actas</b>"]
+    
+    C --> E{"Prueba de<br>Falsación"}
+    D --> E
+    
+    E --> F["Fase 5: Grupo de Control<br><b>Muestra: 25.061 Actas</b><br>(Línea Base)"]
+    
+    F --> G{"Auditoría<br>Masiva"}
+    
+    G --> H["Fase 7: Acervo Completo<br><b>Muestra: 121.960 Actas</b><br>(100% Nacional y Exterior)"]
+
+    classDef fase fill:#1a1b26,stroke:#7aa2f7,stroke-width:2px,color:#fff
+    classDef escalamiento fill:#414868,stroke:#bb9af7,stroke-width:2px,color:#fff
+    class A,C,D,F,H fase
+    class B,E,G escalamiento
+```
+
+</div>
 
 ---
 
+<a id="hallazgos"></a>
 ## 🔍 Hallazgos Principales
 
-El peritaje científico demuestra la falsificación a través de tres pilares técnicos irrefutables:
+El peritaje científico demuestra la falsificación a través de diez (10) pilares técnicos irrefutables:
 
-- **1. La "Cicatriz" Estructural (XREF):** El 100% de los formularios alterados (falsificados) presentan una tabla de referencias cruzadas (`XREF`) corrompida (15 objetos declarados vs 13 existentes), producto del uso de software de ensamblaje masivo de PDFs en lugar de escáneres ópticos reales.
-- **2. Blind Masking (Capas y Vectores):** Los documentos falsificados contienen comandos vectoriales (`cm`, `re`, `Do`), máscaras tipo `DeviceGray` y números renderizados en formato de 1 bit por canal (`1bpc`), superpuestos sobre fondos ruidosos. Un escáner físico de mesa de votación **nunca** crea capas ni hace OCR selectivo; solo produce imágenes planas acopladas.
+- **1. Inconsistencia Censal Macroscópica (Fase Inicial):** Desplome de la participación y manipulación del censo electoral. En lugares clave como Estados Unidos, se reportaron oficialmente 159.999 nuevos inscritos, pero el censo base fue inflado artificialmente a 454.262 para justificar matemáticamente la posterior inyección sintética de votos.
+- **2. Inoperatividad Criptográfica Inicial:** Al inicio de la investigación se creía que los códigos de barras y QR habían sido simplemente borrados o destruidos intencionalmente para que los motores computacionales no pudieran leerlos.
+- **3. Redirección Criptográfica (Códigos QR Dobles):** Sin embargo, tras aplicar análisis de espectro, **encontramos que** no estaban borrados, sino suplantados.
+  > [!CAUTION]
+  > **🔴 ALERTA GRAVE:** Se superpuso un QR falso sobre el original para **DESVIAR LOS RESULTADOS HACIA UN ID DE MESA DISTINTO**. El escáner forense logró captar ambas capas simultáneamente (el original sangrando por debajo y el falso pegado encima). Ver demostración técnica en: **[EVIDENCIA_QR_DOBLES_FALSIFICADOS.md](01_EVIDENCIA/SESION_01_SPOOFING_QR/EVIDENCIA_QR_DOBLES_FALSIFICADOS.md)**
+  > 
+  > 🎥 **[NUEVO]** Ver el **[Diagrama Técnico de Desvío](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/DIAGRAMA_DESVIO_TRANSMISION.md)** y la **[Animación Interactiva de Redirección (HTML)](03_DOCUMENTACION/SESION_02_MAPAS_Y_ARBOLES/GUIA_INTERACTIVA_FRAUDE.html)**.
+- **4. Foliación Híbrida (Manipulación Física):** Mezcla injustificada de páginas a color originales y páginas en blanco y negro (fotocopiadas) dentro de paquetes que pertenecen al mismo lote litográfico oficial, demostrando manipulación humana previa al escaneo.
+- **5. La "Cicatriz" Estructural (XREF):** El 100% de los formularios alterados (falsificados) presentan una tabla de referencias cruzadas (`XREF`) corrompida (15 objetos declarados vs 13 existentes), producto del uso de software de ensamblaje masivo de PDFs en lugar de escáneres ópticos reales. Múltiples actas procesadas reportaron un diagnóstico de "NIVEL MÁXIMO" de deepfake debido a esta huella invariable.
+- **6. Blind Masking (Capas y Vectores):** Los documentos falsificados contienen comandos vectoriales (`cm`, `re`, `Do`), máscaras tipo `DeviceGray` y números renderizados en formato de 1 bit por canal (`1bpc`), superpuestos sobre fondos ruidosos. Un escáner físico de mesa de votación **nunca** crea capas ni hace OCR selectivo; solo produce imágenes planas acopladas.
 
 <div align="center">
   <img src="03_DOCUMENTACION/MAPA_DE_DIFERENCIAS_CARITA_FELIZ.jpg" alt="Mapa de Diferencias (Carita Feliz - Puntos Rojos)" width="80%">
@@ -71,25 +111,30 @@ El peritaje científico demuestra la falsificación a través de tres pilares t�
   <em>Comparativa visual (Mapa de Diferencias): Los "puntos rojos" revelan la inyección de la capa vectorial superpuesta sobre el escaneo original.</em>
 </div>
 
-- **3. El "Espejo Absoluto" y Ley de Benford:** Anomalías estadísticas imposibles en la naturaleza humana. Desviaciones estándar en la distribución del Segundo Dígito y secuencias (o "melodías") algorítmicas repetitivas en los bloques de transmisión, comprobando que los números fueron inyectados por un bucle de programación y no por conteo humano. 
-  🎵 **[👉 Escucha la Sonificación del Fraude (Archivo de Audio WAV)](01_EVIDENCIA/anomalia_sonora_fraude.wav)**: Escucha cómo suena el "planchado" de datos y la inyección sintética.
+- **7. Generación Sintética (Ausencia de EXIF y Canal Alfa):** El análisis de profundidad comprobó que las máscaras son imágenes `gray` de 8-bit Bilevel **sin canal alfa de transparencia real** y con total ausencia de metadatos de hardware (`Creator`, `Producer`). No son escaneos, son objetos insertados por software.
+- **8. Permutación Sintáctica (Vote Swapping):** Demostración algorítmica de que la sumatoria total de la mesa se mantiene estática mientras los votos de los candidatos principales son permutados ($V_1 \leftrightarrow V_2$) en la capa `/XObject`. Al revertir la permutación matemática, las mesas regresan exactamente a la curva gaussiana biológica normal ($Z = -56.96, p < 0.0001$).
+- **9. Impacto Matemático (Inversión del Margen):** El fraude mapeado representa más del **175.1% de la diferencia total de victoria** (1.75 veces el margen oficial). La anulación del fraude invierte directamente el resultado presidencial.
+- **10. El "Espejo Absoluto" y Ley de Benford:** Anomalías estadísticas imposibles en la naturaleza humana. Desviaciones estándar en la distribución del Segundo Dígito y secuencias (o "melodías") algorítmicas repetitivas en los bloques de transmisión, comprobando que los números fueron inyectados por un bucle de programación y no por conteo humano. 
+  🎵 **[👉 Escucha la Sonificación del Fraude (Archivo de Audio WAV)](01_EVIDENCIA/anomalia_sonora_fraude.wav)**: Escucha cómo suena el "planchado" de datos y la inyección sintética.onificación del Fraude (Archivo de Audio WAV)](01_EVIDENCIA/anomalia_sonora_fraude.wav)**: Escucha cómo suena el "planchado" de datos y la inyección sintética.
 
 ---
 
+<a id="estructura"></a>
 ## 📂 Estructura del Repositorio
 
-Para facilitar la auditoría, el repositorio se divide en tres grandes bloques:
+Para facilitar la auditoría pericial, el repositorio se divide en tres grandes bloques que clasifican estrictamente la evidencia y los análisis según su formato de archivo (`.csv`, `.txt`, `.py`, `.md`, `.pdf`):
 
-| Carpeta | Contenido |
-| :--- | :--- |
-| `01_EVIDENCIA/` | Archivos de hashes inmutables, datasets `.csv`, y el mapa del acervo de 121,960 PDFs. |
-| `02_ANALISIS/` | Scripts de auditoría automatizada en Python y Bash, simulaciones Monte Carlo, y reportes periciales. |
-| `03_DOCUMENTACION/` | Resumen Ejecutivo, Guía para Jueces, manifiestos legales y la cronología de los ciberataques. |
+| Estructura de Directorios | Formatos Incluidos | Descripción Detallada del Contenido |
+| :--- | :--- | :--- |
+| 📁 **`01_EVIDENCIA/`** | Tablas `.csv`, `.txt`, `.wav`, `.md` | **Evidencia Cruda y Datasets:** Organizada en sesiones (`SESION_01_SPOOFING_QR`, `SESION_02_ESTADISTICA_Y_BENFORD`, `SESION_03_DEEPFAKE_ESTRUCTURAL`). Contiene bases de datos tabulares, listados de hashes y archivos multimedia. |
+| 📁 **`02_ANALISIS/`** | Código `.py`, `.sh`, `.md` | **Scripts e Informes Periciales:** Dividido por sesiones de auditoría forense y departamentos investigados. Contiene herramientas de automatización, simulaciones de Monte Carlo e informes técnicos. |
+| 📁 **`03_DOCUMENTACION/`** | Docs `.md`, `.pdf`, `.html`, `.jpg` | **Guías, Tablas y Entregables Jurídicos:** Organizado en `SESION_01_ENTREGABLES_LEGALES` y `SESION_02_MAPAS_Y_ARBOLES`. Contiene Guías para Jueces, Guía Ciudadana, manifiestos y herramientas interactivas. |
 
 Consulte el archivo **[`INDICE_MAESTRO.md`](INDICE_MAESTRO.md)** para una navegación detallada por cada archivo.
 
 ---
 
+<a id="como-usar"></a>
 ## 🛠️ Cómo Usar Este Repositorio
 
 ### Para Peritos Externos y Auditores (Peer Review)
@@ -105,9 +150,10 @@ Consulte el archivo **[`INDICE_MAESTRO.md`](INDICE_MAESTRO.md)** para una navega
    ```
 
 ### Para Autoridades, Jueces o Ciudadanos
-- Comience leyendo el **[Resumen Ejecutivo](03_DOCUMENTACION/RESUMEN_EJECUTIVO.md)**.
-- **NUEVO:** Para el público general, lea la **[Guía Didáctica para Ciudadanos (¿Qué le hicieron a nuestros votos?)](03_DOCUMENTACION/GUIA_CIUDADANA.md)**: Explicación en lenguaje sencillo, sin tecnicismos, sobre las trampas informáticas.
-- Para entender los conceptos técnicos de la falsificación a nivel jurídico, lea la **[Guía Didáctica para Jueces](03_DOCUMENTACION/GUIA_PARA_JUECES.md)**.
+- Comience leyendo el **[Resumen Ejecutivo](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/RESUMEN_EJECUTIVO.md)**.
+- **NUEVO:** Para el público general, lea la **[Guía Didáctica para Ciudadanos (¿Qué le hicieron a nuestros votos?)](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/GUIA_CIUDADANA.md)**: Explicación en lenguaje sencillo, sin tecnicismos, sobre las trampas informáticas.
+- Para entender los conceptos técnicos de la falsificación a nivel jurídico, lea la **[Guía Didáctica para Jueces](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/GUIA_PARA_JUECES.md)**.
+- 🎯 **[NUEVO]** **[Mapa Interactivo del Fraude E-14 (HTML)](03_DOCUMENTACION/SESION_02_MAPAS_Y_ARBOLES/GUIA_INTERACTIVA_FRAUDE.html)**: Abre este archivo en tu navegador para interactuar con la simulación de los vectores de ataque sobre la cadena de transmisión.
 - 😃 **[Informe Unificado "Carita Feliz" (Exhibición Visual - PDF)](03_DOCUMENTACION/CARITA_FELIZ_DELIVERABLE/INFORME_UNIFICADO_CARITA_FELIZ.pdf)**: Demostración forense visual paso a paso que comprueba cómo funciona la manipulación de píxeles (Blind Masking) en la realidad.
 
 **Informes Periciales Específicos (Casos de Estudio de la Fase 2):**
@@ -117,20 +163,22 @@ Consulte el archivo **[`INDICE_MAESTRO.md`](INDICE_MAESTRO.md)** para una navega
 
 ---
 
+<a id="bovedas"></a>
 ## 🌐 BÓVEDAS INMUTABLES EN INTERNET ARCHIVE
 
 Todo el acervo probatorio ha sido preservado en **Internet Archive**, una plataforma pública e inmutable que garantiza la integridad y accesibilidad de la evidencia a perpetuidad. Los archivos están congelados con sus respectivos hashes SHA-256 para verificar su autenticidad.
 
-| Bóveda | Contenido | Enlace |
-| :--- | :--- | :--- |
-| **Acervo Probatorio Completo** | Archivo `ENTREGABLES_FORENSES_E14_COMPLETO.zip`. Contiene todos los capítulos, scripts, informes y bases de datos. | [🔗 Acceder](https://archive.org/details/colombia-e14-forensic-acervo-2026) |
-| **Scripts y Reportes Técnicos** | Archivos sueltos de scripts Python/Bash, informes forenses y análisis estadísticos. Ideal para peritos que quieran revisar la metodología. | [🔗 Acceder](https://archive.org/details/paquete-forense-scripts-y-reportes) |
-| **Actas E-14 de Delegados** | Archivo `ACERVO_DELEGADOS_121K.zip` (15 GB). Copias digitales de las actas de Delegados (21 de junio de 2026). Documentación fuente de la manipulación estructural. | [🔗 Acceder](https://archive.org/details/colombia-e14-forensic-acervo-2026) |
+| Bóveda | Archivo y Peso | Descripción del Contenido | Enlace de Descarga |
+| :--- | :--- | :--- | :--- |
+| **Acervo Probatorio Maestro** | `ENTREGABLES_FORENSES_E14_COMPLETO.zip` | Contiene la totalidad de los capítulos periciales (`.md`, `.pdf`), scripts de auditoría (`.py`, `.sh`), bases de datos tabulares (`.csv`), registros de integridad (`.txt`) y herramientas visuales interactivas (`.html`, `.jpg`, `.wav`). | [🔗 Acceder](https://archive.org/details/colombia-e14-forensic-acervo-2026) |
+| **Herramientas de Peritaje** | Archivos Sueltos (`.py`, `.sh`, `.md`) | Repositorio de scripts Python/Bash, informes forenses (`.md`) y análisis estadísticos (`.csv`). Desglosado para facilitar la labor de auditores técnicos (*Peer Review*). | [🔗 Acceder](https://archive.org/details/paquete-forense-scripts-y-reportes) |
+| **Evidencia Fuente (Actas)** | `ACERVO_DELEGADOS_121K.zip` (**15 GB**) | Copias digitales primarias de las actas E-14 de Delegados (formato `.pdf`). Evidencia material irrefutable de la manipulación estructural y pixelar. | [🔗 Acceder](https://archive.org/details/colombia-e14-forensic-acervo-2026) |
 
-> ⚠️ **Verificación de Integridad:** Cada archivo en estas bóvedas puede ser verificado mediante su hash SHA-256. Los hashes maestros están documentados en `01_EVIDENCIA/MUESTRAS_CONTROL_HASHES.md` dentro de este repositorio.
+> ⚠️ **Fijación Criptográfica (Cadena de Custodia):** Para asegurar la integridad de la evidencia, la huella digital (SHA-256) de cada archivo alojado en estas bóvedas ha sido documentada bajo el estándar ISO 27037. Los hashes maestros inmutables se encuentran sellados en **[`02_ANALISIS/INFORME_INTEGRIDAD_SHA256.md`](02_ANALISIS/INFORME_INTEGRIDAD_SHA256.md)**. Ninguna alteración será admitida si los hashes no coinciden exactamente (byte a byte) con este registro.
 
 ---
 
+<a id="contribuir"></a>
 ## 🤝 Cómo Contribuir (Peer Review)
 
 El rigor científico requiere revisión independiente. Hacemos un llamado a la comunidad internacional de ciberseguridad, estadística e informática forense:
@@ -144,7 +192,7 @@ El rigor científico requiere revisión independiente. Hacemos un llamado a la c
 
 Todo el análisis forense contenido en este repositorio se sustenta en los más altos estándares internacionales de ciberseguridad, matemáticas y cadena de custodia.
 
-📘 **[Consulta aquí el Documento Completo de Bibliografía y Open Call for Peer Review](03_DOCUMENTACION/BIBLIOGRAFIA_FORENSE_CIDH.md)**
+📘 **[Consulta aquí el Documento Completo de Bibliografía y Open Call for Peer Review](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/BIBLIOGRAFIA_FORENSE_CIDH.md)**
 
 Para garantizar el máximo rigor científico e investigativo, esta auditoría hace uso de:
 - **Estándares Forenses Internacionales (ISO 32000-1 y RFC 3227):** Asegurando la inmutabilidad de la cadena de custodia y regulando la extracción legal de datos desde el interior de la arquitectura PDF.
