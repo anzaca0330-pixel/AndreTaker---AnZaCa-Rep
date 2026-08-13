@@ -22,6 +22,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     qpdf \
     poppler-utils \
+    mupdf-tools \
     libimage-exiftool-perl \
     tesseract-ocr \
     zbar-tools \

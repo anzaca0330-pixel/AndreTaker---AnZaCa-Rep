@@ -26,6 +26,7 @@ sudo apt-get install -y \
     qpdf \
     poppler-utils \
     libimage-exiftool-perl \
+    mupdf-tools \
     python3 \
     python3-pip \
     python3-venv \
