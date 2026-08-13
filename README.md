@@ -66,7 +66,8 @@ Para garantizar rigor científico, la auditoría forense escaló a través de si
 <div align="center">
 
 ```mermaid
-flowchart LR
+%%{init: {"theme": "base", "themeVariables": { "fontSize": "20px", "fontFamily": "sans-serif"}}}%%
+flowchart TD
     A["Fase 1: Los Ángeles<br><b>19 Actas</b><br>(Punto Cero)"] --> B["Fase 2: Inspección<br>de Campo"]
     B --> C["Fase 3: Blindaje<br>Legal (CNE)"]
     C --> D{"Escalamiento<br>Consular"}
