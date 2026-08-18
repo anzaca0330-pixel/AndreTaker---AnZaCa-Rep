@@ -16,6 +16,11 @@ Solicitantes de Refugio ante Inmigración, Refugiados y Ciudadanía de Canadá (
 
 ---
 
+> *Dedicamos este peritaje científico y forense:*
+> *A la gente que salió a votar masivamente, impulsada por la esperanza y el deber cívico; por sus tierras y territorios, pilares de la soberanía de nuestras comunidades; por nuestra selva y nuestras aguas, que requieren protección y voces que las defiendan; por nuestros animales, que son sagrados y dependen del futuro que construimos hoy; por mi mamá y mi hermana, que siguen allá resistiendo; por mis amigos y por los hijos de mis amigos, a quienes les debemos un país donde la verdad no sea borrada. Y por mi abuelo, que siempre me dijo que el mejor país del mundo es Colombia... y le creo.*
+
+---
+
 ### Señor Expresidente,
 
 Me dirijo a usted en calidad de especialista técnica independiente para informarle sobre el hallazgo y preservación de pruebas concluyentes relativas a la alteración algorítmica y estructural de los resultados de la Segunda Vuelta de las Elecciones Presidenciales de 2026.
