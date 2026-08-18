@@ -11,6 +11,12 @@
 - **poppler-utils (pdfimages)**: Para la extracción aséptica de capas vectoriales y análisis de varianza óptica.
 - **Python (Pandas, Pillow, Concurrent)**: Para el cómputo de algoritmos basados en la Ley de Benford, extracción RGB y detección algorítmica de lienzos sintéticos en un pipeline distribuido.
 
+## Asistencia de Inteligencia Artificial
+- **Tycho (Sistema AI Antigravity / Gemini)**: 
+  - Asistente de inteligencia artificial programado bajo reglas forenses estrictas por la Especialista Principal.
+  - Ejecución de limpieza, refactorización y validación matemática de las anomalías en el acervo de 405 GB.
+  - Redacción neutral, objetiva y estandarización de los entregables legales.
+
 ## Apoyo Internacional y Comunitario
 - **Testigos Digitales Globales**: Por la protección diplomática, movilización masiva y el resguardo descentralizado de la evidencia ante la censura de red.
 - **Universidad de Phoenix**: Por el soporte académico implícito a través de la formación y validación de competencias estadísticas de la especialista.
