@@ -1,7 +1,7 @@
 # GUÍA DE IMPORTACIÓN Y ANÁLISIS ESTADÍSTICO EN IBM SPSS STATISTICS
 ## Protocolo de Reproducibilidad Pericial para Actas E-14
 
-**Autora / Veedora Ciudadana:** Andrea Zabala Cárcamo (Investigadora Independiente)  
+**Autoría / Veeduría Ciudadana:** Andrea Zabala Cárcamo (Especialista Independiente)  
 **Objeto:** Guía paso a paso para importar las matrices `.csv` del acervo probatorio en **IBM SPSS Statistics** y replicar las pruebas de Chi-cuadrado ($\chi^2$), Prueba t de Student y Ley de Benford (2BL).
 
 ---

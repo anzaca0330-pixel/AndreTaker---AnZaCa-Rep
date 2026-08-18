@@ -60,4 +60,4 @@ Se comprobó la inyección masiva de capas vectoriales para alterar documentos, 
 
 **Firma del Analista:**
 *Andrea Zabala Cárcamo*
-*Veedora Ciudadana e Investigadora Independiente*
+*Veeduría Ciudadana e Especialista Independiente*

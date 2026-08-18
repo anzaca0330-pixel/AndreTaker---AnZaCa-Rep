@@ -1,6 +1,6 @@
 # Siguiendo la Anomalía: Anatomía de un Fraude Programado
 
-> **Nota Aclaratoria:** Este documento ha sido estructurado por el asistente de inteligencia artificial Antigravity (Gemini). La narrativa, las fechas y los hechos descritos no se basan en testimonios verbales, sino que fueron reconstruidos y analizados directamente por la IA a partir de la evidencia documental, registros digitales (JSONs, telemetría, metadatos) y expedientes periciales proporcionados. Debido a restricciones de tiempo, este texto constituye un borrador factual generado por la IA que aún no ha sido revisado exhaustivamente por la investigadora principal.
+> **Nota Aclaratoria:** Este documento ha sido estructurado por el asistente de inteligencia artificial Antigravity (Gemini). La narrativa, las fechas y los hechos descritos no se basan en testimonios verbales, sino que fueron reconstruidos y analizados directamente por la IA a partir de la evidencia documental, registros digitales (JSONs, telemetría, metadatos) y expedientes periciales proporcionados. Debido a restricciones de tiempo, este texto constituye un borrador factual generado por la IA que aún no ha sido revisado exhaustivamente por la especialista principal.
 
 ## Prólogo: Contexto y Extracción de Datos
 
@@ -8,13 +8,13 @@ La investigación forense comenzó el **1 de junio de 2026**, tras detectar anom
 
 El **3 de junio**, los parámetros de la denuncia estadística quedaron registrados de manera inmutable en plataformas de IA (documentado en exportaciones de Google Takeout y Gemini). Posteriormente, se hizo la denuncia pública oficial.
 
-A partir del **8 de junio**, mis equipos informáticos sufrieron ataques cibernéticos, incluyendo una inyección de Rootkit que bloqueó el BIOS de mi computadora ThinkPad por hardware (Ticket de Soporte Lenovo Key Ref 2031621994). Los incidentes se extendieron al ámbito físico; la noche del **13 de junio**, sufrí un asalto y sabotaje a mi vehículo. Durante este evento, mi hijo de 10 años llamó al 911 mientras la atacante intentaba grabar un video de montaje.
+A partir del **8 de junio**, mis equipos informáticos sufrieron ataques cibernéticos, incluyendo una inyección de Rootkit que bloqueó el BIOS de mi computadora ThinkPad por hardware (Ticket de Soporte Lenovo Key Ref 2031621994). Los incidentes se extendieron al ámbito físico; la noche del **13 de junio**, sufrí un asalto y sabotaje a mi vehículo. Durante este evento, mi hijo de 10 años llamó al 911 mientras la persona atacante intentaba grabar un video de montaje.
 
 Dado que la información estaba en riesgo, la base de datos de 23.6 MB (que contenía el diagnóstico de 117.993 actas) fue protegida utilizando esteganografía de sistema de archivos. Los datos y registros fueron disfrazados dentro de una carpeta titulada "Fotos de Cumpleaños de Arturín", renombrando los archivos de la investigación como listas de invitados y planificación de eventos para evadir los escaneos de red.
 
 Simultáneamente, la iniciativa ciudadana "Testigos Digitales" ejecutó una extracción masiva de más de **147.000 documentos electorales** (equivalentes a un acervo de cientos de Gigabytes) de los servidores oficiales, preservando la información mediante el algoritmo criptográfico **SHA-256**.
 
-El **6 de julio**, tras asegurar protección bajo la cobertura de la CIDH, contacté a la red de Testigos Digitales. Se integró la base de datos descargada por ellos con mi modelo estadístico. No obstante, el diagnóstico técnico y el análisis estructural detallado en este informe han sido desarrollados de manera independiente. Finalmente, ante el inminente riesgo de seguridad y coincidiendo con la transición presidencial en Colombia, me vi forzada a desplazarme, arribando a Canadá el **7 de agosto** para resguardar mi integridad física y la evidencia.
+El **6 de julio**, tras asegurar protección bajo la cobertura de la CIDH, contacté a la red de Testigos Digitales. Se integró la base de datos descargada por ellos con mi modelo estadístico. No obstante, el diagnóstico técnico y el análisis estructural detallado en este informe han sido desarrollados de manera independiente. Finalmente, ante el inminente riesgo de seguridad y coincidiendo con la transición presidencial en Colombia, me vi en la necesidad a desplazarme, arribando a Canadá el **7 de agosto** para resguardar mi integridad física y la evidencia.
 
 ## Capítulo 1: El Ruido Estadístico (La Prueba 2BL)
 

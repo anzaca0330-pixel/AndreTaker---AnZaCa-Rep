@@ -4,7 +4,7 @@
 ## Detección de Distribuciones Anómalas y Generación Algorítmica en Conjuntos de Datos Electorales (Elecciones 2026)
 
 **Curso:** PSY/315 - Statistical Reasoning in Psychology  
-**Autora:** Andrea Zabala  
+**Autoría:** Andrea Zabala  
 **Fecha:** Agosto 2026  
 **Nivel de Confidencialidad:** 🔴 ALTO / EVIDENCIA FORENSE  
 

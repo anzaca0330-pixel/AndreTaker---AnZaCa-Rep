@@ -1,6 +1,6 @@
 # REPORTE PERICIAL FORENSE: DETECCIÓN DE MECANISMOS DE BLOQUEO Y MITIGACIÓN EN SERVIDORES DE LA REGISTRADURÍA
 
-**Investigadora / Veedora Ciudadana:** Andrea Zabala Cárcamo  
+**Especialista / Veeduría Ciudadana:** Andrea Zabala Cárcamo  
 **Fecha de Evidencia:** 29 de Julio de 2026  
 **Objeto de Peritaje:** Evaluación de accesibilidad técnica e infraestructura de la API de Escrutinios de la Registraduría Nacional del Estado Civil (`escrutinios2vueltapresidente2026.registraduria.gov.co`)  
 **Clasificación:** Evidencia Técnica de Obstaculización a la Auditoría Ciudadana Masiva
@@ -110,5 +110,5 @@ urllib.error.URLError: <urlopen error timed out>
 
 **Firma pericial:**  
 *Andrea Zabala Cárcamo*  
-Investigadora Forense y Veedora Ciudadana  
+Especialista Forense y Veeduría Ciudadana  
 *Documento generado con sello de tiempo y firma criptográfica.*

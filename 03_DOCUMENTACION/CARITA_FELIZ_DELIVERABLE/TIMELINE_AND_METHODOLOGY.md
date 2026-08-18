@@ -53,7 +53,7 @@ Los resultados fueron consolidados en `REPO_XREF_DEEPFAKE.csv` y presentados en 
 ---
 
 ## 5️⃣ Contexto Personal y Amenazas (Desde el 8 de Junio)
-La investigadora y su familia han sido objeto de una campaña de persecución sistemática y de alta tecnología para intentar suprimir este hallazgo:
+La especialista y su familia han sido objeto de una campaña de persecución sistemática y de alta tecnología para intentar suprimir este hallazgo:
 
 1. **Ataques de Software Avanzados (Infiltración de Red):**
    - **Infección por Rootkit:** Detección de una infección tipo rootkit de nivel de kernel en los equipos de trabajo para espionaje y control del sistema.
@@ -74,11 +74,11 @@ La investigadora y su familia han sido objeto de una campaña de persecución si
 ---
 
 ## 6️⃣ Necesidad de Protección Urgente
-1. **Riesgo inminente contra la vida** de la investigadora y su menor hijo ante el nivel de recursos técnicos e intimidación de los agresores.
+1. **Riesgo inminente contra la vida** de la especialista y su menor hijo ante el nivel de recursos técnicos e intimidación de los agresores.
 2. **Preservación de la cadena de custodia**: Se requiere resguardar el computador de análisis ante posibles allanamientos ilegales o destrucción remota de datos.
 3. **Petición a ACNUR / UNHCR**: Solicito formalmente asilo y protección internacional inmediata al carecer de garantías de seguridad por parte de las fuerzas de ley nacionales y locales.
 
 ---
 
 ## 7️⃣ Conclusión
-El análisis demuestra que los documentos son artificiales y que el ataque digital a la investigadora forma parte de una operación sistemática para evitar la luz sobre estos hallazgos. Se requiere intervención y amparo internacional urgente.
+El análisis demuestra que los documentos son artificiales y que el ataque digital a la especialista forma parte de una operación sistemática para evitar la luz sobre estos hallazgos. Se requiere intervención y amparo internacional urgente.

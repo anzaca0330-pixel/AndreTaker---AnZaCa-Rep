@@ -1,6 +1,6 @@
 # Híbrido Detector Multicapas: Desensamblaje de Deepfakes Documentales a Escala Institucional
 
-**Autora:** Andrea Zabala  
+**Autoría:** Andrea Zabala  
 **Afiliación:** Universidad de Phoenix (UOPX) - Prior Learning Assessment (PLA)  
 **Dominio:** Auditoría Forense, Ciberdefensa, Análisis Estadístico  
 **Fecha:** Agosto 2026  

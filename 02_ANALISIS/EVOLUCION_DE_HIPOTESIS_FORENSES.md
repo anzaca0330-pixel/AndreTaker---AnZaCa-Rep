@@ -1,6 +1,6 @@
 # EVOLUCIÓN DE HIPÓTESIS FORENSES: DE LA OBSERVACIÓN PRIMARIA AL DICTAMEN CONSOLIDADO
 
-**Autora / Veedora Ciudadana:** Andrea Zabala Cárcamo (Investigadora Independiente)  
+**Autoría / Veeduría Ciudadana:** Andrea Zabala Cárcamo (Especialista Independiente)  
 **Objeto:** Comparativa metodológica y científica entre las Hipótesis Primarias (Junio de 2026) y las Hipótesis Consolidadas de Auditoría Masiva (Agosto de 2026), con desglose cuantitativo de mesas, archivos y versiones analizadas por hallazgo.
 
 ---
