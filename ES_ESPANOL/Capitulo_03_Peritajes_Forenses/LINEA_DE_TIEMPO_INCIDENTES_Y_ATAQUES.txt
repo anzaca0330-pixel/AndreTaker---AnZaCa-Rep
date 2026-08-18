@@ -1,0 +1,82 @@
+ LÍNEA DE TIEMPO OFICIAL DE CIBERATAQUES, DENUNCIAS POLICIALES Y DERECHOS HUMANOS
+
+**Investigadora / Beneficiaria Principal:** Andrea Zabala Carcamo (C.C. 43.925.102)  
+**Origen del Resguardo:** Red de Solidaridad de Testigos Digitales y Protección Diplomática en México.  
+**Estatus CIDH:** Solicitud Formal de Medidas Cautelares ante la CIDH **`IACHR - 0000113728`** a nombre del núcleo familiar (Christopher Baez, Arturo Garcia Zabala y Andrea Zabala Carcamo).  
+**Evidencia Clave Preservada:** Ticket/Key de Soporte Técnico Lenovo (Bloqueo BIOS por Rootkit) + Respaldos Completos Google Takeout + Archivo .vma del Sheriff.  
+**Radicado Policial EE.UU.:** Buckingham County Sheriff's Office **`Incident C20260617-0024-01`**.  
+
+---
+
+ 🧭 1. CRONOGRAMA GENERAL DE CIBERATAQUES Y PATRÓN SISTÉMICO DE PERSECUCIÓN
+
+
+timeline
+    title SECUENCIA CRONOLÓGICA CERTIFICADA Y CONTEXTO INSTITUCIONAL
+    8 Junio 2026   : Ciberataque Masivo Post-Denuncia en Fiscalía
+                   : Infección por Rootkit, BIOS Lenovo bloqueado (Ticket Soporte Lenovo), vector FIXD.
+    10 Junio 2026  : T-Mobile, Persistencia Rootkit y Pérdida de Cuenta de Rescate
+                   : Adquisición de nuevo equipo; ineficacia de Factory Wipe; secuestro de cuenta de rescate.
+    13 Junio 2026  : Sabotaje en Vehículo (11:01 PM) y Llamada al 911
+                   : Alteración eléctrica del auto; llamada al 911 (registro T-Mobile 3 min / audio Sheriff 2.01 min).
+    15-22 Junio 2026: Denuncias ante el FBI (Sede Richmond) y Sheriff
+                   : Comparecencia presencial de Andrea Zabala Carcamo en el FBI Richmond.
+    Última Semana Junio 2026: Segunda Visita a T-Mobile, Samsung S23, Aislamiento Físico, IC3 y Sheriff
+                   : Encuentro con especialista técnico en T-Mobile. Adquisición de Samsung S23. Dispositivos aislados en papel aluminio (Jaula Faraday). Primer reporte oficial en IC3 y visita al Sheriff.
+    26 Junio - Julio: Alertas en Dark Web (ICFES, Telegram Combolists, Credential Compilations)
+    29 Junio 2026  : Solicitud de Medidas Cautelares ante la CIDH (IACHR-0000113728)
+                   : Radicación por violación a los Artículos 4, 5, 13 y 25.
+    Julio 2026     : Preservación Forense Google Takeout + Testigos Digitales en México
+                   : Extracción masiva de telemetría Google Takeout y protección diplomática por el Presidente Petro.
+    Julio 2026     : Respuesta FBI (Devolución a Policía Local sin Herramientas) y Testimonio Univ. Phoenix
+                   : FBI remite el caso al Sheriff local (sin capacidad técnica); testimonios en Univ. de Phoenix.
+
+
+---
+
+ 🛡️ 2. CONTEXTO INSTITUCIONAL Y ACUMULADO PROBATORIO
+
+ 2.1. El Apoyo de los "Testigos Digitales" y la Protección en México
+- **Verificación Independiente:** La protección y resguardo actual de la investigadora no surgió al azar, sino como respuesta directa de una **red internacional de veedores y "testigos digitales"** que evaluaron la solidez técnica de sus dictámenes E-14, verificaron las anomalías y decidieron brindarle apoyo y acompañamiento.
+- **Patrón Sistémico de Hostigamiento:** Se ha confirmado que las agresiones telemáticas y sabotajes **no han sido hechos aislados contra Andrea Zabala**, sino que forman parte de un **patrón sistemático de persecución contra múltiples auditores e investigadores independientes** que han evidenciado alteraciones en las actas E-14.
+- **Seguimiento Académico (Universidad de Phoenix):** La investigadora ha rendido múltiples declaraciones y testimonios narrando la secuencia cronológica de los hechos ante la **Universidad de Phoenix (`login.phoenix.edu`)**.
+
+---
+
+ 2.2. Evidencias Técnicas Clave Preservadas en la Cadena de Custodia
+
+1. **Ticket / Key de Servicio al Cliente LENOVO (Bloqueo de BIOS):**  
+   *Registro oficial de soporte técnico emitido por Lenovo al reportar la inoperatividad y el bloqueo a nivel de hardware/BIOS del portátil ThinkPad derivado del ataque de Rootkit/Bootkit persistente.*
+2. **Descargas de Respaldo GOOGLE TAKEOUT y Cuenta Interceptada:**  
+   *Descarga completa e inmutable de los archivos comprimidos de Google Takeout, que contienen el historial de IPs de inicio de sesión, sesiones interceptadas, telemetría de dispositivos y registros de ubicación.* Además, se preserva el enlace al Drive de la cuenta secuestrada (`https://drive.google.com/drive/folders/1KSE__jPvCS7gkPAuB3ic64vAFDqqonLx`), la cual actualmente cuenta únicamente con permisos de "solo lectura" (View Only), constituyendo una prueba técnica viva del secuestro de la cuenta de rescate.
+3. **Grabación de Audio .VMA del Departamento del Sheriff:**  
+   *Archivo de audio `.vma` de 2.01 minutos remitido por la Buckingham County Sheriff's Office tras confrontarlos con el registro certificado de T-Mobile.*
+4. **Dispositivo OBD-II (FIXD):**  
+   *Dispositivo físico de diagnóstico automotriz preservado y sellado como vector de ataque físico/inalámbrico.*
+5. **Aislamiento Físico (Faraday) de Dispositivos:**  
+   *Evidencia del uso de papel aluminio para contener y neutralizar conexiones externas (Wi-Fi, Bluetooth, Celular) de los equipos comprometidos durante la crisis en la última semana de junio.*
+
+---
+
+ 2.3. Estado de la Denuncia ante el FBI y Desprotección Institucional en EE.UU.
+- **Entregas al FBI e IC3:** En la última semana de junio, tras agotar instancias técnicas en T-Mobile y adquirir un dispositivo seguro (Samsung S23) en un ambiente controlado y asilar equipos comprometidos en papel aluminio, se generó el **primer reporte en el IC3** y se visitó al Sheriff. Andrea Zabala Carcamo compareció en persona ante la sede del **FBI en Richmond (Virginia)** y radicó la totalidad de sus hallazgos, scripts, respaldos de Google Takeout y dictámenes E-14.
+- **Falta de Respuesta y Remisión a la Policía Local:** En la última semana de julio de 2026, al consultar el estado del expediente, **el FBI informó que devolvió la investigación a la policía local (Buckingham County Sheriff's Office)**, a pesar de que esta entidad había declarado previamente carecer de las herramientas tecnológicas y capacitación en ciberseguridad avanzada para investigar intrusiones de firmware/rootkit.
+
+---
+
+- **Alertas Registradas de Filtración:** `icfes.gov.co` (Julio 2026), `Credential Compilations 785M / 239M / 47M / 12M`, `Combolists Posted to Telegram`.
+- **Acciones de Remoción Solicitadas:** Procesos en curso para la eliminación de información personal en 16 portales de rastreo (`BackgroundCheckGateway`, `USSearch`, `PublicRecords`, `Intelius`, `EasyBackgroundChecks`, `OnlineSearches`).
+
+---
+
+ 📊 3. MATRIZ OFICIAL DE EXPEDIENTES Y CERTIFICADOS
+
+| Entidad / Organismo | Radicado / N° de Caso | Fecha | Estado / Detalle |
+|---|---|---|---|
+| **CIDH (OEA)** | **`PRECAUTIONARY MEASURE - IACHR - 0000113728`** | **29/06/2026** | Solicitud a nombre de Christopher Baez, Arturo Garcia Zabala y Andrea Zabala |
+| **Soporte Lenovo** | **Ticket / Key de Servicio Lenovo** | **Junio 2026** | **Certificado oficial de bloqueo BIOS por Rootkit** |
+| **Google Telemetry** | **Descargas Google Takeout** | **Julio 2026** | **Respaldos completos de logs de inicio de sesión e IPs** |
+| **FBI (Richmond / IC3)** | **Tip Presencial / IC3 Online** | **Junio 2026** | **Primer reporte IC3; Enviado de vuelta por FBI a Policía Local** |
+| **Sheriff (Buckingham, VA)** | **`Incident C20260617-0024-01`** | **17-18 y fines de Junio** | Reporte por piratería, Jaula Faraday y dispositivos en papel aluminio (Audio .vma 2.01 min) |
+| **Universidad de Phoenix** | **Portal Académico `login.phoenix.edu`** | **Julio 2026** | Testimonios y narración formalizada de hechos |
+| **Presidencia de Colombia** | **Protección Diplomática** | **Julio 2026** | Protección Diplomática en México por Veintena de Testigos Digitales |

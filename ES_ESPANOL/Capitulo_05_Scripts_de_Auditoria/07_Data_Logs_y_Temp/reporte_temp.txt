@@ -1,0 +1,43 @@
+=========================================================
+🔍 ANÁLISIS FORENSE PROFUNDO: PATRONES DE DEEPFAKE (XREF)
+=========================================================
+
+Total de Actas XREF Corruptas Encontradas: 1598
+
+--- 1. TOP 5 DEPARTAMENTOS MÁS ATACADOS ---
+  Departamento 27: 609 inyecciones (38.1%)
+  Departamento 25: 178 inyecciones (11.1%)
+  Departamento 05: 173 inyecciones (10.8%)
+  Departamento 64: 147 inyecciones (9.2%)
+  Departamento 48: 109 inyecciones (6.8%)
+
+--- 2. TOP 10 MUNICIPIOS (EPICENTROS DEL FRAUDE) ---
+  Dpt:27-Mun:001: 276 inyecciones
+  Dpt:25-Mun:001: 123 inyecciones
+  Dpt:27-Mun:082: 119 inyecciones
+  Dpt:01-Mun:121: 105 inyecciones
+  Dpt:05-Mun:028: 99 inyecciones
+  Dpt:27-Mun:160: 66 inyecciones
+  Dpt:48-Mun:016: 55 inyecciones
+  Dpt:48-Mun:010: 54 inyecciones
+  Dpt:12-Mun:150: 44 inyecciones
+  Dpt:05-Mun:022: 41 inyecciones
+
+--- 3. TOP 5 PUESTOS DE VOTACIÓN MÁS SATURADOS ---
+  Puesto Dpt:01-Mun:121-Zona:00-Puesto:01: 36 inyecciones
+  Puesto Dpt:01-Mun:121-Zona:00-Puesto:02: 32 inyecciones
+  Puesto Dpt:01-Mun:121-Zona:00-Puesto:03: 25 inyecciones
+  Puesto Dpt:27-Mun:160-Zona:00-Puesto:01: 17 inyecciones
+  Puesto Dpt:12-Mun:150-Zona:00-Puesto:01: 15 inyecciones
+
+--- 4. CLUSTERS DE BOTNET POR MUNICIPIO (Secuencias Numéricas) ---
+  > Dpt:01-Mun:121: 4(x30), 8(x27), 9(x25), 12(x23)
+  > Dpt:05-Mun:022: 2(x22), 3(x18), 23(x1)
+  > Dpt:05-Mun:028: 1(x53), 2(x46)
+  > Dpt:12-Mun:150: 1(x12), 2(x10), 3(x8), 4(x8), 5(x6)
+  > Dpt:48-Mun:010: 1(x24), 10(x16), 14(x12), 35(x2)
+  > Dpt:48-Mun:016: 5(x21), 8(x17), 13(x7), 37(x4), 42(x3), 44(x3)
+  > Dpt:25-Mun:001: 3(x81), 21(x42)
+  > Dpt:27-Mun:001: 2(x84), 7(x72), 15(x45), 22(x28), 23(x26), 25(x21)
+  > Dpt:27-Mun:082: 8(x30), 11(x25), 13(x25), 17(x16), 19(x15), 30(x4), 32(x4)
+  > Dpt:27-Mun:160: 2(x38), 7(x19), 20(x9)
