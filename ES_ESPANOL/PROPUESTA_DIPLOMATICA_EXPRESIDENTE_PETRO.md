@@ -23,7 +23,7 @@ Solicitantes de Refugio ante Inmigración, Refugiados y Ciudadanía de Canadá (
 
 ### Señor Expresidente,
 
-Me dirijo a usted en calidad de analista técnica independiente para informarle sobre el hallazgo y preservación de pruebas concluyentes relativas a la alteración algorítmica y estructural de los resultados de la Segunda Vuelta de las Elecciones Presidenciales de 2026.
+Me dirijo a usted en calidad de analista técnica independiente para informarle sobre el hallazgo y preservación de pruebas concluyentes relativas a la alteración algorítmica y estructural de los resultados de la Primera Vuelta de las Elecciones Presidenciales de 2026.
 
 Entre el 1 y el 3 de junio de 2026, mediante la aplicación de modelos estadísticos y auditoría profunda, descubrí un patrón irrefutable de fraude digital masivo en las actas E-14. Este acervo (más de **147.000 documentos**, equivalentes a **147 Gigabytes** de datos) prueba dos vectores de ataque principales:
 1. **Alteración Algorítmica (Máscaras de 1-bit):** Inyección de datos y purga de metadatos en más de 117.000 archivos PDF.
