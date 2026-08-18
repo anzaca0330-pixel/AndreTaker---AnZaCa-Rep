@@ -16,5 +16,14 @@ keywords:
   - XREF Anomaly Detection
   - Blind Masking
   - Electoral Fraud
-  - Benford's Law
+  - 2nd Digit Benford's Law
   - Ciberdefensa
+
+references:
+  - type: article
+    authors:
+      - family-names: "Mebane"
+        given-names: "Walter R. Jr."
+    title: "Election Forensics: The Second-digit Benford's Law Test and Recent American Presidential Elections"
+    year: 2006
+    notes: "Fundamento estadístico principal para la prueba 2BL ejecutada en esta auditoría."

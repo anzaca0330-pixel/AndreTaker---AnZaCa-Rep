@@ -18,7 +18,7 @@ Mientras las herramientas OSINT convencionales se limitan a analizar la metadata
 3.  **Flujos FlateDecode Ocultos:** Uso de parsers estructurales (`mutool`, `qpdf`) para desempaquetar y exponer información ofuscada algorítmicamente.
 4.  **Evasión de Metadatos (Scrubbing):** Capacidad de auditar anomalías estructurales incluso cuando actores estatales o corporativos han eliminado intencionalmente los datos EXIF (Producer, ModifyDate).
 
-Además de la extracción binaria, el ecosistema automatiza un cruce matemático renderizando la **Ley de Benford** y distribuciones de Gauss para correlacionar los hallazgos binarios con colapsos estadísticos a macroescala. 
+Además de la extracción binaria, el ecosistema automatiza un cruce matemático renderizando la **Ley de Benford (2nd Digit)** y distribuciones de Gauss para correlacionar los hallazgos binarios con colapsos estadísticos a macroescala. El análisis enfocado en el segundo dígito anula las tácticas convencionales de camuflaje de datos, exponiendo la inyección sintética con precisión quirúrgica.
 
 ### Propiedad Intelectual y Licenciamiento
 Esta herramienta y su metodología subyacente se liberan bajo **Licencia Apache 2.0**. Se autoriza su uso para peritajes independientes, investigaciones periodísticas y auditorías oficiales, garantizando el blindaje intelectual a través de su arquitectura Open Source, requiriendo citación obligatoria (Ver `CITATION.cff`).

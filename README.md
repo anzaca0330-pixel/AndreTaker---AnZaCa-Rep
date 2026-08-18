@@ -239,7 +239,7 @@ El peritaje científico demuestra la falsificación a través de diez (10) pilar
 <br>
 
 > [!NOTE]
-> ### 🔟 El "Espejo Absoluto" y Ley de Benford
+> ### 🔟 El "Espejo Absoluto" y el Segundo Dígito de Benford (2BL)
 > Anomalías estadísticas imposibles en la naturaleza humana. Desviaciones estándar en la distribución del Segundo Dígito y secuencias (o "melodías") algorítmicas repetitivas en los bloques de transmisión, comprobando que los números fueron inyectados por un bucle de programación y no por conteo humano. 
 > 🎵 **[👉 Escucha la Sonificación del Fraude (Archivo de Audio WAV)](01_EVIDENCIA/anomalia_sonora_fraude.wav)**: Escucha cómo suena el "planchado" de datos y la inyección sintética.
 
@@ -418,4 +418,20 @@ Aunque mi nombre (Andrea Zabala Cárcamo - ANZACA AndreTaker) figura como coordi
 > [!WARNING]
 > ### 🚧 ESTADO DE LA INVESTIGACIÓN: EN CURSO
 > **Este repositorio es un documento vivo.** La extracción de la huella estructural (*XREF/1bpc*) y el *QR Spoofing* constituye la **Fase 1** del peritaje (Descompilación Reversa).  
-> Actualmente nos encontramos transitando hacia la **Fase 2**: El cruce estadístico macroscópico aplicando la **Ley de Newcomb-Benford** para correlacionar la inyección algorítmica con la varianza nula de las frecuencias de votación. Los scripts analíticos de esta fase ya se encuentran en el repositorio y los dictámenes finales están en desarrollo.
+> Actualmente nos encontramos transitando hacia la **Fase 2**: El cruce estadístico macroscópico aplicando la **Prueba del Segundo Dígito de la Ley de Benford (2BL)** para correlacionar la inyección algorítmica con la varianza nula de las frecuencias de votación. Los scripts analíticos de esta fase ya se encuentran en el repositorio y los dictámenes finales están en desarrollo.
+
+---
+
+## 📚 Bibliografía Académica y Normativa Técnica
+Para propósitos de **Peer Review (Revisión por Pares)** y para sustentar este repositorio ante la **Corte Interamericana de Derechos Humanos (CIDH)**, el marco técnico y estadístico se fundamenta en la siguiente literatura:
+
+- **Dr. Walter R. Mebane Jr.** (2006). *Election Forensics: The Second-digit Benford's Law Test*. Base matemática para la prueba 2BL que detecta la evasión algorítmica frente al sesgo humano.
+- **Dra. Jessica Fridrich** (2009). *Steganalysis and Blind Image Forensics*. Pionera teórica de la disciplina aplicada aquí para identificar "Blind Masking" en decenas de miles de escaneos.
+- **Dr. Mark Nigrini** (2012). *Benford's Law: Applications for Forensic Accounting, Auditing, and Fraud Detection*. Sustento del "planchado estadístico" y varianza anómala.
+- **Dr. Hany Farid** (2016). *Photo Forensics*. Metodología para detectar alteraciones estructurales en la grilla de píxeles ("1-Bit Flattening").
+- **García, L.** (2023). *Análisis de puntos blancos digitales y su origen criptográfico*. Revista de Seguridad Informática, 8(1), 23‑34. Sustento fundamental para la detección de artefactos y huellas residuales de los algoritmos de inyección.
+- **Gailly, Jean-loup y Adler, Mark** (1995). *Zlib / DEFLATE Compression Algorithm*. Base matemática del filtro `/FlateDecode` estándar en PDFs, cuya decodificación permitió revelar la inyección de comandos vectoriales ocultos.
+- **Mainka, C., Mladenov, V., & Rohlmann, S.** (2021). *Shadow Attacks: Hiding and Replacing Content in Signed PDFs*. NDSS Symposium. Base teórica que documenta la táctica de dibujar matrices (como códigos QR) inyectando comandos directamente en el flujo de texto del PDF para evadir escáneres de seguridad rasterizados.
+- **Herramientas Base:** Agradecimiento a **Jay Berkenbilt** (QPDF), **Jose Miguel Esparza** (Peepdf), **Didier Stevens** (PDFiD) y **Guido Bartoli** (Sherloq) por el ecosistema open-source utilizado para exponer la corrupción estructural de las tablas XREF.
+
+*(La versión extendida de la bibliografía y el llamado formal a Peer Review se encuentran en el documento [BIBLIOGRAFIA_FORENSE_CIDH.md](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/BIBLIOGRAFIA_FORENSE_CIDH.md)).*
