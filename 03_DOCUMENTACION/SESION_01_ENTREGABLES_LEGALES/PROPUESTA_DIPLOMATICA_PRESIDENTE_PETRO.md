@@ -8,6 +8,7 @@ Presidencia de la República
 **De:**
 Andrea Zabala Carcamo (C.C. 43.925.102)
 Investigadora Principal y Beneficiaria de Medidas Cautelares en Trámite (CIDH - IACHR-0000113728)
+Solicitante de Refugio ante Inmigración, Refugiados y Ciudadanía de Canadá (IRCC - UCI: 1158-0327-50 | Expediente CBSA: L010534096)
 
 **Asunto:** Solicitud Urgente de Recepción de Acervo Probatorio Forense Electoral (136 GB) y Activación de Mecanismos de Protección Diplomática.
 
