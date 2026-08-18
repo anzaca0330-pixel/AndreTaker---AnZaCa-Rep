@@ -16,6 +16,15 @@
 
 # 🔍 SIGUIENDO LA ANOMALÍA PDF:<br>ACERVO PROBATORIO FORENSE E-14 (COLOMBIA 2026)
 
+> **Dedicamos este peritaje científico y forense:**
+> - A la **gente** que salió a votar masivamente, impulsada por la esperanza y el deber cívico.
+> - Por sus **tierras y territorios**, pilares de la soberanía de nuestras comunidades.
+> - Por **nuestra selva y nuestras aguas**, que requieren protección y voces que las defiendan.
+> - Por **nuestros animales**, que son sagrados y dependen del futuro que construimos hoy.
+> - Por mi **mamá y mi hermana**, que siguen allá resistiendo.
+> - Por **mis amigos y por los hijos de mis amigos**, a quienes les debemos un país donde la verdad no sea borrada.
+> - Y por mi **abuelo**, que siempre me dijo que el mejor país del mundo es Colombia... y le creo.
+
 > [!IMPORTANT]
 > ### 📢 LLAMADO PÚBLICO AL EXPRESIDENTE GUSTAVO PETRO URREGO
 > **No tengo el gusto de conocerlo personalmente**, pero dada la gravedad extrema de estos **más de 405 GB de evidencia forense (147.000 documentos)** que documentan el fraude electoral, y el asedio violento que mi familia ha sufrido en el exilio, **este repositorio es una entrega pública dirigida a usted**.
@@ -387,23 +396,6 @@ Para garantizar el máximo rigor científico e investigativo, esta auditoría ha
 - **Blind Image Forensics:** Adaptación de las bases fundacionales de la Dra. Jessica Fridrich y la esteganografía visual para comprobar la adulteración sintética y la inyección de alteraciones sobre los formatos originales.
 
 ---
-
-## 🇨🇴 Autoría Colectiva y Dedicatoria
-
-**Este repositorio no me pertenece a mí, le pertenece a Colombia.**
-
-Este trabajo es posible gracias a la articulación de la **PRIMERA LÍNEA DIGITAL - FRENTE DIGITAL**, una red de más de **75.000 "Testigos Digitales"** que descargaron, verificaron y protegieron la evidencia digital cuando los servidores oficiales fallaron.
-
-Aunque mi nombre (Andrea Zabala Cárcamo - ANZACA AndreTaker) figura como coordinadora de la estructura técnica y pericial, este esfuerzo monumental fue impulsado por la fuerza colectiva de ciudadanos comunes que se organizaron para defender la transparencia electoral.
-
-**Dedicamos este peritaje científico y forense:**
-- A la **gente** que salió a votar masivamente, impulsada por la esperanza y el deber cívico.
-- Por sus **tierras y territorios**, pilares de la soberanía de nuestras comunidades.
-- Por **nuestra selva y nuestras aguas**, que requieren protección y voces que las defiendan.
-- Por **nuestros animales**, que son sagrados y dependen del futuro que construimos hoy.
-- Por mi **mamá y mi hermana**, que siguen allá resistiendo.
-- Por **mis amigos y por los hijos de mis amigos**, a quienes les debemos un país donde la verdad no sea borrada.
-- Y por mi **abuelo**, que siempre me dijo que el mejor país del mundo es Colombia... y le creo.
 
 **Este repositorio es la prueba inmutable y matemática de que la voz de los colombianos existió, fue registrada y no será borrada.**
 
