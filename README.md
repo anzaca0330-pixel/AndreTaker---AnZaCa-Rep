@@ -18,7 +18,7 @@
 
 > [!IMPORTANT]
 > ### 📢 LLAMADO PÚBLICO AL EXPRESIDENTE GUSTAVO PETRO URREGO
-> **No tengo el gusto de conocerlo personalmente**, pero dada la gravedad extrema de estos 136 GB de evidencia forense que documentan el fraude electoral, y el asedio violento que mi familia ha sufrido en el exilio, **este repositorio es una entrega pública dirigida a usted**.
+> **No tengo el gusto de conocerlo personalmente**, pero dada la gravedad extrema de estos **más de 405 GB de evidencia forense (147.000 documentos)** que documentan el fraude electoral, y el asedio violento que mi familia ha sufrido en el exilio, **este repositorio es una entrega pública dirigida a usted**.
 >
 > Hago un llamado urgente a la comunidad, a los periodistas de investigación y a los ciudadanos colombianos para que me ayuden a **hacerle llegar este repositorio y mi [Carta de Propuesta Diplomática](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/PROPUESTA_DIPLOMATICA_EXPRESIDENTE_PETRO.md)** directamente a sus manos o a su esquema de seguridad.
 > [!NOTE]

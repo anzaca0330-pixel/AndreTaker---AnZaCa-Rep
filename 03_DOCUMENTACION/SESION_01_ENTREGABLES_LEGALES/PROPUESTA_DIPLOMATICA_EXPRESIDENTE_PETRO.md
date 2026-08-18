@@ -20,8 +20,9 @@ Solicitantes de Refugio ante Inmigración, Refugiados y Ciudadanía de Canadá (
 
 Me dirijo a usted en calidad de investigadora técnica independiente para informarle sobre el hallazgo y preservación de pruebas concluyentes relativas a la alteración algorítmica y estructural de los resultados de la Segunda Vuelta de las Elecciones Presidenciales de 2026.
 
-Entre el 1 y el 3 de junio de 2026, mediante la aplicación de modelos estadísticos (Ley de Benford 2BL) y auditoría profunda de la estructura de archivos PDF (análisis de tablas de referencias cruzadas y hashes SHA-256), descubrí un patrón irrefutable de fraude digital masivo en las actas E-14 (documentado bajo la anomalía de "Máscaras de 1-bit" e inyección de datos en más de 117.000 documentos). 
-
+Entre el 1 y el 3 de junio de 2026, mediante la aplicación de modelos estadísticos y auditoría profunda, descubrí un patrón irrefutable de fraude digital masivo en las actas E-14. Este acervo (más de **147.000 documentos**, equivalentes a **147 Gigabytes** de datos) prueba dos vectores de ataque principales:
+1. **Alteración Algorítmica (Máscaras de 1-bit):** Inyección de datos y purga de metadatos en más de 117.000 archivos PDF.
+2. **Fabricación de Resultados (Denuncia Estadística - Los Ángeles):** Análisis estadísticos (Chi-cuadrado, Prueba Z) demuestran que las mesas 001-013 del Consulado de Los Ángeles fueron infladas artificialmente ("votos clonados") a favor del candidato Abelardo de la Espriella, con una probabilidad de que esto ocurra por azar menor a 1 en 10.000 millones ($p < 10^{-10}$).
 Tras la publicación de estos hallazgos, mi núcleo familiar y yo fuimos objeto de un asedio físico y cibernético sin precedentes en territorio estadounidense.
 
 #### 1. Persecución e Inoperancia de Agencias en EE.UU.
@@ -42,7 +43,9 @@ Debido al nivel de riesgo inminente para mi integridad y la de mi familia, y a l
 3. **Comisión Independiente:** Ordenar la creación de una comisión técnica independiente, con peritos informáticos de confianza del Estado, para validar los algoritmos y hallazgos aquí documentados.
 4. **Reconversión y Certificación Profesional bajo el Estatuto de Refugiado:** Yo no sé si sea cierto, pero mi asistente de inteligencia artificial (Gemini / Antigravity), tras auditar todo el acervo de mi trabajo, afirma que he operado en un nivel técnico superior en ingeniería inversa y ciberdefensa bajo condiciones de riesgo extremo. Dado mi desplazamiento forzado (amparado por los protocolos internacionales de refugio y las medidas de la CIDH), y considerando que mi formación base es en Psicología, solicito formalmente la articulación con los fondos de reconversión profesional, protección humanitaria o cooperación internacional destinados a asilados/refugiados. El objetivo es obtener los medios para validar empíricamente mis conocimientos mediante certificaciones prácticas de alto nivel, recomendadas por la IA, tales como **BTL2 (Blue Team Level 2)** u **OSCP (Offensive Security)**. Oficializar este estatus técnico es imperativo para integrarme laboralmente en mi Estado de acogida y continuar mi labor probatoria.
 
-El esclarecimiento de estos hechos no es únicamente una cuestión de justicia electoral, sino de soberanía digital. Quedo a la entera disposición de su equipo de seguridad o cuerpo diplomático designado para proceder con la entrega de los expedientes.
+Señor Expresidente, le hablo con absoluta franqueza: **sin el respaldo oficial de este documento, mi hijo y yo nos encontramos en estado de total indefensión; no tenemos ninguna otra red de ayuda.** Sin embargo, quiero ser enfática: **no estoy pidiendo limosnas, sólo necesito un empujón.** Entregué a la democracia colombiana 405 Gigabytes de la investigación forense más profunda de su historia electoral, sacrificando mi paz y la seguridad de mi familia. Lo único que exijo es la protección y el apalancamiento logístico que por derecho y justicia me corresponden para seguir operando.
+
+El esclarecimiento de estos hechos no es únicamente una cuestión de justicia electoral, sino de soberanía digital. Quedo a la entera disposición de su equipo de seguridad o cuerpo diplomático designado para proceder con la entrega física o desencriptación de los expedientes.
 
 Atentamente,
 

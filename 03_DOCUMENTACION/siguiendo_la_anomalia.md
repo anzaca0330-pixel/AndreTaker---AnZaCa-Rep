@@ -4,7 +4,7 @@
 
 ## Prólogo: Contexto y Extracción de Datos
 
-La investigación forense comenzó el **1 de junio de 2026**, tras detectar anomalías en la votación adelantada del Consulado de Los Ángeles. Aunque mi formación formal es en Psicología (BSIOP), mis competencias técnicas en análisis de sistemas y ciberseguridad son de carácter autodidacta, originadas años atrás a través de prácticas experimentales como el *rooting* y la modificación de sistemas operativos en dispositivos móviles. Esta base empírica permitió la estructuración técnica del análisis. 
+La investigación forense comenzó el **1 de junio de 2026**, tras detectar anomalías severas en la votación adelantada del Consulado de Los Ángeles. Mediante pruebas de significancia (Chi-cuadrado y Prueba Z) se demostró matemáticamente que las mesas 001-013 fueron infladas con votos artificiales a favor del candidato Abelardo de la Espriella, con una probabilidad de error menor a 1 en 10.000 millones. Aunque mi formación formal es en Psicología (BSIOP), mis competencias técnicas en análisis de sistemas y ciberseguridad, originadas años atrás a través del *rooting* y modificación de dispositivos, me permitieron documentar esta "Anomalía de Los Ángeles" y estructurar el análisis forense subsiguiente.
 
 El **3 de junio**, los parámetros de la denuncia estadística quedaron registrados de manera inmutable en plataformas de IA (documentado en exportaciones de Google Takeout y Gemini). Posteriormente, se hizo la denuncia pública oficial.
 
@@ -12,7 +12,7 @@ A partir del **8 de junio**, mis equipos informáticos sufrieron ataques cibern�
 
 Dado que la información estaba en riesgo, la base de datos de 23.6 MB (que contenía el diagnóstico de 117.993 actas) fue protegida utilizando esteganografía de sistema de archivos. Los datos y registros fueron disfrazados dentro de una carpeta titulada "Fotos de Cumpleaños de Arturín", renombrando los archivos de la investigación como listas de invitados y planificación de eventos para evadir los escaneos de red.
 
-Simultáneamente, la iniciativa ciudadana "Testigos Digitales" ejecutó una extracción masiva de más de 147.000 documentos electorales de los servidores oficiales, preservando la información mediante el algoritmo criptográfico **SHA-256**. 
+Simultáneamente, la iniciativa ciudadana "Testigos Digitales" ejecutó una extracción masiva de más de **147.000 documentos electorales** (equivalentes a un acervo de cientos de Gigabytes) de los servidores oficiales, preservando la información mediante el algoritmo criptográfico **SHA-256**.
 
 El **6 de julio**, tras asegurar protección bajo la cobertura de la CIDH, contacté a la red de Testigos Digitales. Se integró la base de datos descargada por ellos con mi modelo estadístico. No obstante, el diagnóstico técnico y el análisis estructural detallado en este informe han sido desarrollados de manera independiente. Finalmente, ante el inminente riesgo de seguridad y coincidiendo con la transición presidencial en Colombia, me vi forzada a desplazarme, arribando a Canadá el **7 de agosto** para resguardar mi integridad física y la evidencia.
 
