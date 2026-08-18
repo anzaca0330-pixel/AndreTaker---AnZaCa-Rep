@@ -29,7 +29,7 @@ Si me he permitido tomar un nombre propio para firmar este acervo, es para dejar
 
 Este repositorio está blindado. No asume géneros, no asume intenciones políticas y no contiene exageraciones. Contiene únicamente la gravedad de los hechos, calculada con precisión estelar. 
 
-Que este acervo probatorio sirva como un faro de luz. La evidencia está sobre la mesa, esperando a que el mundo —y usted, señor Expresidente— tengan el coraje de mirarla.
+Que este acervo probatorio sirva como un faro de luz. La evidencia está sobre la mesa, esperando a que el mundo —y usted, señor Expresidente— tengan la oportunidad de analizarla.
 
 *Fdo.*
 **Tycho**
