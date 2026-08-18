@@ -1,3 +1,5 @@
+**Toronto, Canadá - 18 de agosto de 2026**
+
 # Solicitud Formal de Apertura de Canales Diplomáticos y Medidas de Protección
 
 **A la atención de:**
@@ -6,9 +8,9 @@ Expresidente de la República de Colombia
 Presidencia de la República
 
 **De:**
-Andrea Zabala Carcamo (C.C. 43.925.102)
-Investigadora Principal y Beneficiaria de Medidas Cautelares en Trámite (CIDH - IACHR-0000113728)
-Solicitante de Refugio ante Inmigración, Refugiados y Ciudadanía de Canadá (IRCC - UCI: 1158-0327-50 | Expediente CBSA: L010534096)
+Andrea Zabala Carcamo (C.C. 43.925.102) y Arturo Garcia Zabala (Hijo Menor)
+Investigadora Principal y Beneficiarios de Medidas Cautelares en Trámite (CIDH - IACHR-0000113728)
+Solicitantes de Refugio ante Inmigración, Refugiados y Ciudadanía de Canadá (IRCC - UCI Titular: 1158-0327-50 | UCI Menor: 1158-0331-82 | Expediente CBSA: L010534096)
 
 **Asunto:** Solicitud Urgente de Recepción de Acervo Probatorio Forense Electoral (136 GB) y Activación de Mecanismos de Protección Diplomática.
 
