@@ -67,7 +67,7 @@ Todas las herramientas son **open‑source** y cuentan con auditorías de seguri
 ---
 
 ## 6️⃣ Necesidad de Protección Urgente
-1. **Riesgo de intimidación** contra la investigadora y su menor, lo que podría coartar la divulgación de la evidencia.
+1. **Riesgo de intimidación** contra la especialista y su menor, lo que podría coartar la divulgación de la evidencia.
 2. **Preservación de la cadena de custodia**: Necesario evitar que terceros alteren o destruyan los archivos CSV, HTML o PDF.
 3. **Garantía de imparcialidad judicial**: El juez debe contar con un documento claro, firmemente respaldado por metodologías verificables, para adoptar medidas de protección.
 

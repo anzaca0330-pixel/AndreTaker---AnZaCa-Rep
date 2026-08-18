@@ -7,7 +7,7 @@ Este documento contiene los mensajes estandarizados listos para enviar a periodi
 
 > **URGENTE: Evidencia Técnica de Inyección Sintética en Comicios de Colombia 2026**
 >
-> Una investigadora independiente y una red de 70,000 "testigos digitales" exponen una grave anomalía electoral masiva: la auditoría informática a más de 118,000 actas revela alteraciones criptográficas generalizadas, y prueba que el 18% del universo documental fue sustituido por lienzos 100% sintéticos (Deepfakes sin ruido óptico). 
+> Una especialista independiente y una red de 70,000 "testigos digitales" exponen una grave anomalía electoral masiva: la auditoría informática a más de 118,000 actas revela alteraciones criptográficas generalizadas, y prueba que el 18% del universo documental fue sustituido por lienzos 100% sintéticos (Deepfakes sin ruido óptico). 
 > 
 > La evidencia técnica de la inyección de datos (código abierto, algoritmos de varianza y hashes) está liberada en GitHub para auditoría forense internacional. Urge la presión pública sobre la CIDH para la admisión de medidas cautelares y la suspensión de la toma de posesión presidencial (7 de agosto), debido a la destrucción comprobada de la cadena de custodia en la base de datos oficial.
 > 
@@ -22,7 +22,7 @@ Este documento contiene los mensajes estandarizados listos para enviar a periodi
 > 
 > Estimado/a [Nombre del Experto],
 > 
-> Soy Andrea Zabala, investigadora en Psicología Organizacional y coordinadora de Veeduría Ciudadana en Colombia. Hemos detectado una inyección masiva de datos en las elecciones presidenciales de 2026 empleando la Ley de Benford y análisis forense avanzado de la estructura PDF (corrupción sistemática de tablas XREF e inyección de actas sintéticas "Blanco Puro").
+> Soy Andrea Zabala, especialista en Psicología Organizacional y coordinadora de Veeduría Ciudadana en Colombia. Hemos detectado una inyección masiva de datos en las elecciones presidenciales de 2026 empleando la Ley de Benford y análisis forense avanzado de la estructura PDF (corrupción sistemática de tablas XREF e inyección de actas sintéticas "Blanco Puro").
 > 
 > Requerimos con urgencia una **validación externa e independiente de nuestros scripts de auditoría** (disponibles en código abierto). No buscamos que reescriba el código, sino que verifique metodológicamente nuestra extracción estadística y la metrología de píxeles empleada. Su comentario u observación pública como especialista de alto perfil en [Especialidad del Experto] aportaría el rigor científico internacional necesario para respaldar el expediente ante la CIDH antes de que se consume la posesión presidencial.
 > 

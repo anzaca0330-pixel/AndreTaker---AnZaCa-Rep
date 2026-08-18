@@ -1,6 +1,6 @@
 # ACTA DE HALLAZGOS FORENSES: MATRIZ TÉCNICA DE 14 PUNTOS DE INMUTABILIDAD Y PRECONTEO VS. ESCRUTINIO
 
-**Autora / Veedora Ciudadana:** Andrea Zabala Cárcamo (Investigadora Independiente)  
+**Autoría / Veeduría Ciudadana:** Andrea Zabala Cárcamo (Especialista Independiente)  
 **Origen:** Informe de Hallazgos Forenses (Rescatado de la memoria caché de `markdownlive` post-intrusión)  
 **Objeto:** Consolidación de 14 anomalías estructurales e inmutables identificadas en los formularios E-14 de la Registraduría Nacional.
 

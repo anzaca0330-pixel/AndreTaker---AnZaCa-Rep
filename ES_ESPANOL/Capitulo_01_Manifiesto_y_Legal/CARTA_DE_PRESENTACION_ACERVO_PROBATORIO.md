@@ -8,7 +8,7 @@
 
 ---
 
-**Por medio de la presente,** yo, **Andrea Zabala Cárcamo**, identificada como aparece al pie de mi firma, actuando en mi calidad de investigadora ciudadana e independiente, presento formalmente el **Acervo Probatorio Forense E-14**, un compendio documental, técnico y criptográfico que demuestra la manipulación algorítmica y estructural de los formularios E-14 en las elecciones presidenciales de 2026 en Colombia.
+**Por medio de la presente,** yo, **Andrea Zabala Cárcamo**, identificada como aparece al pie de mi firma, actuando en mi calidad de especialista ciudadana e independiente, presento formalmente el **Acervo Probatorio Forense E-14**, un compendio documental, técnico y criptográfico que demuestra la manipulación algorítmica y estructural de los formularios E-14 en las elecciones presidenciales de 2026 en Colombia.
 
 ---
 
@@ -82,7 +82,7 @@ En virtud de lo anterior, solicito:
 
 ### 6. Datos de Contacto
 
-**Investigadora:** Andrea Zabala Cárcamo  
+**Especialista:** Andrea Zabala Cárcamo  
 **Correos electrónicos:** anzaca0330@gmail.com | andrea.zabalacarcamo@email.phoenix.edu  
 **Cédula:** 43.925.102  
 **Radicado CIDH:** `IACHR-0000113728`  
@@ -95,7 +95,7 @@ En virtud de lo anterior, solicito:
 ________________________________  
 **Andrea Zabala Cárcamo**  
 C.C. 43.925.102  
-Investigadora Ciudadana e Independiente  
+Especialista Ciudadana e Independiente  
 
 **Fecha:** 9 de agosto de 2026  
 **Lugar:** Canadá

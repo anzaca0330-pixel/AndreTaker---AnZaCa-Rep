@@ -10441,7 +10441,7 @@ The user likely needs two things: a thorough response to the instructor's questi
 
 I should structure the response to first provide a strong, well-referenced answer to the instructor's question about statistics in multicultural research, then offer a detailed analysis of the instructor's reply, breaking down its implications and what it means for the user's next steps. The response should be academically grounded, referencing the course text while staying accessible. It should also subtly reinforce the user's own critical points about cultural context while guiding them toward a more precise engagement with the statistical dimension of cross-cultural psychology.
 
-¡Perfecto! Me encanta cómo estás integrando tu formación académica con tu mirada crítica y tu experiencia personal. Esa es la esencia de una buena investigadora.
+¡Perfecto! Me encanta cómo estás integrando tu formación académica con tu mirada crítica y tu experiencia personal. Esa es la esencia de una buena especialista.
 
 Vamos por partes:
 

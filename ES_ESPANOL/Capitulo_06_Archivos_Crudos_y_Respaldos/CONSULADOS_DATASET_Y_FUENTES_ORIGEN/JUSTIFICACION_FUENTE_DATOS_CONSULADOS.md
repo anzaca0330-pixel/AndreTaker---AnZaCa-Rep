@@ -1,7 +1,7 @@
 # NOTA EXPLICATIVA PERICIAL: ORIGEN DE LOS DATOS Y BASE DE DATOS DE CONSULADOS (DEPTO 88)
 
 **Dirigido a:** Representación Jurídica (Abogado Jose), Auditores, Jueces y Organismos Internacionales (CIDH/OEA).  
-**Veedora Principal:** Andrea Zabala Cárcamo (C.C. 43.925.102)  
+**Veeduría Principal:** Andrea Zabala Cárcamo (C.C. 43.925.102)  
 **Fecha:** 31 de Julio de 2026  
 
 ---

@@ -23,7 +23,7 @@
 2. ⚖️ **Cadena de Custodia Formal:** Adherencia a los estándares ISO 27037 / RFC 3227 y principio de solo lectura (`Read-Only`).
 3. 📐 **Teoría de la Arquitectura Forense de Doble Capa:** Explicación técnica de la coexistencia de alteraciones sintácticas XREF (100%) e inyecciones ópticas `#FFFFFF` DeviceGray.
 4. 🔐 **Prueba Criptográfica de Clonaje (`prueba_criptografica_clonaje.py`):** Demostración a nivel de bytes de que los archivos de Claveros no provienen del escaneo de papel, sino de la matriz de Delegados.
-5. 👥 **Autoría Colectiva y Protección (70.000+ Testigos Digitales):** Enmarcado cívico que otorga un peso social inmenso y protege la integridad de la investigadora principal.
+5. 👥 **Autoría Colectiva y Protección (70.000+ Testigos Digitales):** Enmarcado cívico que otorga un peso social inmenso y protege la integridad de la especialista principal.
 6. 📊 **Prueba Estocástica de Imposibilidad Demográfica (Método de Montecarlo):** Modelado estadístico a 1 millón de iteraciones comprobando de forma irrefutable el inflado sintético del censo electoral (245 Sigmas) y la dilución algorítmica de votos nulos (-52 Sigmas).
 
 ---

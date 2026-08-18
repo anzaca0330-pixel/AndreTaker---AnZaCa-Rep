@@ -1,6 +1,6 @@
  ÍNDICE MAESTRO DEL ACERVO PROBATORIO FORENSE E-14 (PARA CARGA JUDICIAL Y OEA/CIDH)
 
-**Investigadora / Veedora Principal:** Andrea Zabala Carcamo (C.C. 43.925.102)  
+**Especialista / Veeduría Principal:** Andrea Zabala Carcamo (C.C. 43.925.102)  
 **Solicitud CIDH / OEA:** **`PRECAUTIONARY MEASURE - IACHR - 0000113728`**  
 **Radicado Policial EE.UU.:** Buckingham County Sheriff's Office **`Incident C20260617-0024-01`**  
 **Estándar de Cadena de Custodia Criptográfica:** **ISO/IEC 27037** (114,386 Firmas SHA-256 congeladas en `firmas_criptograficas_sha256.txt`).  

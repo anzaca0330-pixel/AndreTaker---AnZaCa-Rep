@@ -1,7 +1,7 @@
 # ANÁLISIS ESTADÍSTICO INICIAL Y ENTRAMADO TÉCNICO: CONSULADO DE LOS ÁNGELES (1RA VUELTA)
 ## Fundamentación Cuantitativa del "Punto Cero" de la Investigación
 
-**Autora / Veedora Ciudadana:** Andrea Zabala Cárcamo (Investigadora Independiente)  
+**Autoría / Veeduría Ciudadana:** Andrea Zabala Cárcamo (Especialista Independiente)  
 **Objeto de Análisis:** Actas E-14 de Primera Vuelta — Consulado de Los Ángeles (Mesas 001 a 019)  
 **Fecha de Detección Primaria:** 1 al 6 de Junio de 2026
 
@@ -47,9 +47,9 @@ Junto con el desplome de la participación, se registró un cambio brusco en la 
 ## 3. LA REACCIÓN DE RED Y EL RESCATE DESDE LA CACHÉ
 
 Posterior a la publicación de estos hallazgos el 6 de junio de 2026:
-1. **Intrusión y Geolocalización Masiva:** Se registraron 1.650 intentos de rastreo de ubicación en 5 minutos contra la infraestructura de la investigadora.
+1. **Intrusión y Geolocalización Masiva:** Se registraron 1.650 intentos de rastreo de ubicación en 5 minutos contra la infraestructura de la especialista.
 2. **Sabotaje a Google Drive:** Los archivos originales del dictamen fueron eliminados remotamente de su almacenamiento en la nube.
-3. **Rescate Criptográfico (`markdownlive`):** La investigadora recuperó el informe maestro desde la memoria caché local de `markdownlive`, preservando la integridad del acervo probatorio.
+3. **Rescate Criptográfico (`markdownlive`):** La especialista recuperó el informe maestro desde la memoria caché local de `markdownlive`, preservando la integridad del acervo probatorio.
 
 ---
 

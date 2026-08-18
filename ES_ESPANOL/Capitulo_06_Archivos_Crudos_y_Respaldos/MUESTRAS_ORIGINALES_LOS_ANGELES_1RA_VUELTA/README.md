@@ -3,7 +3,7 @@
 
 Este directorio conserva los archivos originales y las evidencias primarias rescatadas del **Consulado de Los Ángeles (Estados Unidos)** correspondientes a la **Primera Vuelta Presidencial de 2026**. 
 
-Fue en estas actas donde la investigadora principal (Andrea Zabala Cárcamo) identificó por primera vez, mediante el análisis visual intensivo de patrones, la presencia de la **máscara blanca sintética (`#FFFFFF` DeviceGray)** en la página 3 de los formularios de 3 páginas.
+Fue en estas actas donde la especialista principal (Andrea Zabala Cárcamo) identificó por primera vez, mediante el análisis visual intensivo de patrones, la presencia de la **máscara blanca sintética (`#FFFFFF` DeviceGray)** en la página 3 de los formularios de 3 páginas.
 
 ---
 

@@ -1,6 +1,6 @@
 # Guía Ciudadana: Explicación Técnica de las Anomalías en Formularios E-14
 
-> **Nota Aclaratoria:** Este documento ha sido estructurado por el asistente de inteligencia artificial Antigravity (Gemini). La explicación técnica no se basa en testimonios verbales, sino que fue extraída y resumida directamente por la IA a partir de los datos crudos, análisis estadísticos y metadatos forenses proporcionados. Debido a restricciones de tiempo, este texto constituye un borrador factual que aún no ha sido revisado exhaustivamente por la investigadora principal.
+> **Nota Aclaratoria:** Este documento ha sido estructurado por el asistente de inteligencia artificial Antigravity (Gemini). La explicación técnica no se basa en testimonios verbales, sino que fue extraída y resumida directamente por la IA a partir de los datos crudos, análisis estadísticos y metadatos forenses proporcionados. Debido a restricciones de tiempo, este texto constituye un borrador factual que aún no ha sido revisado exhaustivamente por la especialista principal.
 
 ## Contexto
 Durante la Segunda Vuelta de las Elecciones Presidenciales de 2026, una auditoría técnica detectó irregularidades en la digitalización y procesamiento de resultados. La manipulación identificada ocurrió a nivel de servidores y procesamiento digital, no en el conteo físico tradicional.
@@ -39,6 +39,6 @@ Esto demuestra que los códigos QR no fueron escaneados de la vida real, sino qu
 
 ## Estado de la Evidencia
 
-Durante la recolección y análisis de la información, se registraron alertas de seguridad en los equipos de la investigadora principal, lo que requirió medidas de protección de la evidencia. Los archivos de datos fueron preservados mediante técnicas de esteganografía (nombrándolos como archivos personales) para evitar el escaneo y borrado automatizado. 
+Durante la recolección y análisis de la información, se registraron alertas de seguridad en los equipos de la especialista principal, lo que requirió medidas de protección de la evidencia. Los archivos de datos fueron preservados mediante técnicas de esteganografía (nombrándolos como archivos personales) para evitar el escaneo y borrado automatizado. 
 
 Adicionalmente, la red de "Testigos Digitales" respaldó los datos originales. Actualmente, el acervo probatorio (aproximadamente 136 GB) se encuentra respaldado y ha sido anexado a procesos formales ante la CIDH y otras entidades competentes.

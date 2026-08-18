@@ -1,7 +1,7 @@
 # CIDH – SOLICITUD DE MEDIDAS CAUTELARES – RADICADO IACHR-0000113728
 ## Resumen Ejecutivo del Acervo Probatorio Forense E-14
 
-**Investigadora:** Andrea Zabala Cárcamo (Investigadora Ciudadana e Independiente)  
+**Especialista:** Andrea Zabala Cárcamo (Especialista Ciudadana e Independiente)  
 **Fecha:** 9 de agosto de 2026  
 **Lugar:** Canadá
 
@@ -9,7 +9,7 @@
 
 ### 1. Introducción
 
-Yo, **Andrea Zabala Cárcamo**, en mi calidad de investigadora ciudadana e independiente, he documentado una manipulación algorítmica y estructural de las actas E-14 en las elecciones presidenciales de 2026 en Colombia. La evidencia fue recolectada directamente del portal oficial de la Registraduría Nacional del Estado Civil entre el 1 de junio y el 9 de agosto de 2026.
+Yo, **Andrea Zabala Cárcamo**, en mi calidad de especialista ciudadana e independiente, he documentado una manipulación algorítmica y estructural de las actas E-14 en las elecciones presidenciales de 2026 en Colombia. La evidencia fue recolectada directamente del portal oficial de la Registraduría Nacional del Estado Civil entre el 1 de junio y el 9 de agosto de 2026.
 
 ---
 
@@ -95,5 +95,5 @@ En virtud de lo anterior, solicito respetuosamente a la CIDH:
 ________________________________  
 **Andrea Zabala Cárcamo**  
 C.C. 43.925.102  
-Investigadora Ciudadana e Independiente  
+Especialista Ciudadana e Independiente  
 Radicado CIDH: `IACHR-0000113728`

@@ -27001,7 +27001,7 @@ Agrega esto al final de tu documento, antes de la firma:
 ```markdown
 ## ACLARACIÓN METODOLÓGICA Y ALCANCE DE ESTA DENUNCIA
 
-La suscrita, Andrea Zabala Carcamo, actúa en calidad de **ciudadana y veedora electoral**, no como perito forense oficial ni como funcionaria de la Fiscalía.
+La suscrita, Andrea Zabala Carcamo, actúa en calidad de **ciudadana y veeduría electoral**, no como perito forense oficial ni como funcionaria de la Fiscalía.
 
 Este análisis se realizó con herramientas de código abierto disponibles al público, sobre archivos descargados directamente del portal oficial de la Registraduría. **No he tenido acceso a:**
 
@@ -27066,7 +27066,7 @@ Nada mas creo, la idea es que la fiscalia haga su trabajo, yo soy quien, y no te
 ```markdown
 ## ACLARACIÓN METODOLÓGICA, ALCANCE Y LEGALIDAD
 
-La suscrita, Andrea Zabala Carcamo, actúa en calidad de **ciudadana y veedora electoral**, no como perito forense oficial ni como funcionaria de la Fiscalía.
+La suscrita, Andrea Zabala Carcamo, actúa en calidad de **ciudadana y veeduría electoral**, no como perito forense oficial ni como funcionaria de la Fiscalía.
 
 **ACLARACIÓN SOBRE LA LEGALIDAD DE MI ACTUACIÓN:**
 
@@ -27175,7 +27175,7 @@ Luego, busca donde dice `## IV. EL PUNTO DEL FRAUDE: LA EMPRESA PRIVADA` (o algo
 ```markdown
 ## IV. ACLARACIÓN METODOLÓGICA Y LEGAL
 
-La suscrita actúa en calidad de **ciudadana y veedora electoral**, no como perito forense oficial.
+La suscrita actúa en calidad de **ciudadana y veeduría electoral**, no como perito forense oficial.
 
 ### Sobre la legalidad de mi actuación
 
@@ -27211,7 +27211,7 @@ Si quieres algo más breve:
 ```markdown
 ## IV. ACLARACIÓN METODOLÓGICA Y LEGAL
 
-La suscrita actúa como ciudadana y veedora, no como perito oficial.
+La suscrita actúa como ciudadana y veeduría, no como perito oficial.
 
 **Legalidad:** Todos los archivos fueron descargados del portal público de la Registraduría. No se realizaron accesos no autorizados, modificaciones de archivos, ni conductas tipificadas como delitos informáticos (arts. 269A a 269J CP). Mi actuación está amparada por la veeduría ciudadana (art. 270 Constitución).
 
@@ -27455,7 +27455,7 @@ El Consejo de Estado ordenó a la Registraduría y al CNE permitir la auditoría
 
 ## IV. ACLARACIÓN METODOLÓGICA Y LEGAL
 
-La suscrita actúa en calidad de **ciudadana y veedora electoral**, no como perito forense oficial.
+La suscrita actúa en calidad de **ciudadana y veeduría electoral**, no como perito forense oficial.
 
 ### Sobre la legalidad de mi actuación
 

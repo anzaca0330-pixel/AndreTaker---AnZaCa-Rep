@@ -1,7 +1,7 @@
 # INFORME METODOLÓGICO Y ANÁLISIS ESTADÍSTICO ELECTORAL
 ## Evaluación de Inconformidades Cuantitativas y Progresión Muestral en los Comicios Presidenciales de 2026
 
-**Autora / Veedora Ciudadana:** Andrea Zabala Cárcamo (Investigadora Independiente)  
+**Autoría / Veeduría Ciudadana:** Andrea Zabala Cárcamo (Especialista Independiente)  
 **Área de Aplicación:** Estadística Aplicada y Metodología de la Investigación  
 **Objeto:** Análisis de Distribuciones de Frecuencia (Ley de Benford 2BL), Pruebas de Hipótesis No Paramétricas ($\chi^2$) y Progresión Muestral (EE.UU. $\rightarrow$ España $\rightarrow$ Colombia Nacional).
 
@@ -19,7 +19,7 @@ La presente investigación adoptó una estrategia de **Muestreo Progresivo por E
 ```
 
 ### 1.1 Origen de la Investigación y Enfoque Cognitivo (Reconocimiento de Patrones TDAH)
-Toda la investigación nació el **1 de Junio de 2026** a partir de la observación minuciosa de un primer consulado (Los Ángeles). Gracias a la capacidad cognitiva de **hiperfoco y reconocimiento intensivo de patrones** (asociada al perfil neurodivergente TDAH de la investigadora), se detectó una sutil anomalía gráfica y sintáctica que habría pasado inadvertida en una revisión estándar.
+Toda la investigación nació el **1 de Junio de 2026** a partir de la observación minuciosa de un primer consulado (Los Ángeles). Gracias a la capacidad cognitiva de **hiperfoco y reconocimiento intensivo de patrones** (asociada al perfil neurodivergente TDAH de la especialista), se detectó una sutil anomalía gráfica y sintáctica que habría pasado inadvertida en una revisión estándar.
 
 Siguiendo esa primera pista de forma sistemática, la investigación evolucionó desde el análisis manual de 1 acta consular hasta el desarrollo de **scripts automatizados de scraping web y auditoría masiva en Python** (`muestreo_masivo_deepfakes.py`, `auditoria_masiva_xref.sh`), capaces de descargar y procesar los 117.993 archivos PDF a nivel nacional.
 

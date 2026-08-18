@@ -1,7 +1,7 @@
 # HIPÓTESIS FORENSE: ABUSO EN LA TRIANGULACIÓN DE LOS 3 EJEMPLARES (DELEGADOS, TRANSMISIÓN Y CLAVEROS)
 ## Arquitectura de Alteración Sintáctica y Clonación Digital
 
-**Autora / Veedora Ciudadana:** Andrea Zabala Cárcamo (Investigadora Independiente)  
+**Autoría / Veeduría Ciudadana:** Andrea Zabala Cárcamo (Especialista Independiente)  
 **Objeto de Análisis:** Relación estructural y cibernética entre las tres copias oficiales del formulario E-14 (Delegados, Transmisión y Claveros).
 
 ---

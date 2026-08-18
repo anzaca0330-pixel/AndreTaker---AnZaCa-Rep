@@ -1,7 +1,7 @@
 # LÍNEA DE TIEMPO Y EVOLUCIÓN METODOLÓGICA DE LA INVESTIGACIÓN FORENSE
 ## CASO ACTAS E-14 (ELECCIONES PRESIDENCIALES 2026)
 
-**Investigadora / Veedora Ciudadana:** Andrea Zabala Carcamo (C.C. 43.925.102)  
+**Especialista / Veeduría Ciudadana:** Andrea Zabala Carcamo (C.C. 43.925.102)  
 **Fecha de Consolidación:** Julio de 2026  
 **Ventanas Temporales de Evidencia (Fechas de Creación):**  
 - **Primera Vuelta:** 31 de Mayo de 2026 hasta el 21 de Junio de 2026.  
@@ -51,7 +51,7 @@ timeline
 ---
 
 ### Fase 2: Inspección Documental de Campo y Confirmación Material (1 – 2 de Junio de 2026)
-- **Acción:** Guiada por la alerta cuantitativa inicial, la investigadora descargó y examinó los archivos digitales de los formularios E-14 correspondientes a las 19 mesas de Los Ángeles.
+- **Acción:** Guiada por la alerta cuantitativa inicial, la especialista descargó y examinó los archivos digitales de los formularios E-14 correspondientes a las 19 mesas de Los Ángeles.
 - **Hallazgos Físicos/Técnicos Comprobados:**
   1. **Inoperatividad de Códigos QR:** Ningún código QR o de barras del puesto permitía decodificación por motores computacionales, rompiendo la trazabilidad criptográfica.
   2. **Foliación Híbrida:** Mezcla injustificada de páginas a color originales (Mesas 011, 012, 015) y páginas en blanco y negro/fotocopiadas (Mesas 013, 014, 018) dentro de paquetes del mismo lote litográfico oficial.
@@ -68,7 +68,7 @@ timeline
 - **4 – 5 de Junio de 2026:** Construcción del marco doctrinario y legal de respaldo:
   1. *Nota Jurídica sobre Precedente del Consejo de Estado:* Documentación del desacato institucional de 8 años al fallo judicial que ordena permitir la auditoría del software electoral de escrutinio.
   2. *Refutación de Excepciones por Secreto Comercial y Ciberataques:* Análisis jurídico para desestimar defensas contractuales de "caja negra" o excusas de ataques cibernéticos externos.
-  3. *Protección Veedora:* Análisis sobre la improcedencia de contrademandas por pánico económico o acceso abusivo (C.C. 43.925.102).
+  3. *Protección Veeduría:* Análisis sobre la improcedencia de contrademandas por pánico económico o acceso abusivo (C.C. 43.925.102).
 - **Documentos Adjuntos y Evidencia Fuente:**
   - 📄 [DENUNCIA_FINAL.pdf](../../Capitulo_06_Archivos_Crudos_y_Respaldos/DENUNCIA_FINAL.pdf) — Escrito oficial de la denuncia interpuesta ante el CNE, Procuraduría, URIEL y MOE.
   - 📄 [NOTA_JURIDICA_PRECEDENTE_CONSEJO_ESTADO.docx](../../Capitulo_06_Archivos_Crudos_y_Respaldos/NOTA_JURIDICA_PRECEDENTE_CONSEJO_ESTADO.docx) — Dictamen jurídico sobre la sentencia obligatoria de auditoría de software electoral.

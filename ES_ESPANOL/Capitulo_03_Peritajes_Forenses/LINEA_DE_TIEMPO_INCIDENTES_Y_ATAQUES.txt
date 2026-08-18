@@ -1,6 +1,6 @@
  LÍNEA DE TIEMPO OFICIAL DE CIBERATAQUES, DENUNCIAS POLICIALES Y DERECHOS HUMANOS
 
-**Investigadora / Beneficiaria Principal:** Andrea Zabala Carcamo (C.C. 43.925.102)  
+**Especialista / Beneficiaria Principal:** Andrea Zabala Carcamo (C.C. 43.925.102)  
 **Origen del Resguardo:** Red de Solidaridad de Testigos Digitales y Protección Diplomática en México.  
 **Estatus CIDH:** Solicitud Formal de Medidas Cautelares ante la CIDH **`IACHR - 0000113728`** a nombre del núcleo familiar (Christopher Baez, Arturo Garcia Zabala y Andrea Zabala Carcamo).  
 **Evidencia Clave Preservada:** Ticket/Key de Soporte Técnico Lenovo (Bloqueo BIOS por Rootkit) + Respaldos Completos Google Takeout + Archivo .vma del Sheriff.  
@@ -37,9 +37,9 @@ timeline
  🛡️ 2. CONTEXTO INSTITUCIONAL Y ACUMULADO PROBATORIO
 
  2.1. El Apoyo de los "Testigos Digitales" y la Protección en México
-- **Verificación Independiente:** La protección y resguardo actual de la investigadora no surgió al azar, sino como respuesta directa de una **red internacional de veedores y "testigos digitales"** que evaluaron la solidez técnica de sus dictámenes E-14, verificaron las anomalías y decidieron brindarle apoyo y acompañamiento.
+- **Verificación Independiente:** La protección y resguardo actual de la especialista no surgió al azar, sino como respuesta directa de una **red internacional de veedores y "testigos digitales"** que evaluaron la solidez técnica de sus dictámenes E-14, verificaron las anomalías y decidieron brindarle apoyo y acompañamiento.
 - **Patrón Sistémico de Hostigamiento:** Se ha confirmado que las agresiones telemáticas y sabotajes **no han sido hechos aislados contra Andrea Zabala**, sino que forman parte de un **patrón sistemático de persecución contra múltiples auditores e investigadores independientes** que han evidenciado alteraciones en las actas E-14.
-- **Seguimiento Académico (Universidad de Phoenix):** La investigadora ha rendido múltiples declaraciones y testimonios narrando la secuencia cronológica de los hechos ante la **Universidad de Phoenix (`login.phoenix.edu`)**.
+- **Seguimiento Académico (Universidad de Phoenix):** La especialista ha rendido múltiples declaraciones y testimonios narrando la secuencia cronológica de los hechos ante la **Universidad de Phoenix (`login.phoenix.edu`)**.
 
 ---
 
