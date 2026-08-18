@@ -18,7 +18,7 @@ Las tres poblaciones de datos analizadas y mantenidas de forma independiente en 
 
 ### 1.1 Origen Metodológico y Trazabilidad de la Investigación
 
-El desarrollo de este peritaje internacional tuvo su origen en la observación de campo y la veeduría ciudadana iniciada el **2 de junio de 2026** sobre las 19 mesas del Puesto 02 del **Consulado de Los Ángeles, California (EE.UU.)**. En dicha inspección primaria, la investigadora documentó tres anomalías empíricas fundamentales:
+El desarrollo de este peritaje internacional tuvo su origen en la observación de campo y la veeduría ciudadana iniciada el **2 de junio de 2026** sobre las 19 mesas del Puesto 02 del **Consulado de Los Ángeles, California (EE.UU.)**. En dicha inspección primaria, la especialista documentó tres anomalías empíricas fundamentales:
 1. **Supresión e Ilegibilidad de Códigos QR:** Inoperatividad total de lectura automatizada sobre los códigos impresos en las actas de dicho puesto.
 2. **Foliación Híbrida en Actas E-14:** Mezcla irregular de páginas a color originales y páginas fotocopiadas/reimpresas en blanco y negro dentro de los mismos paquetes electorales oficiales (ej. Mesas 011, 012 y 015 en color frente a Mesas 013, 014 y 018 en B/N).
 3. **Comportamiento Estadístico Atípico:** Clonación de patrones numéricos en mesas contiguas (ej. Mesas 001 a 003) y un desplome abrupto de la participación en las mesas finales del puesto (Mesas 015 a 019 con apenas 12, 7 y 9 votantes).

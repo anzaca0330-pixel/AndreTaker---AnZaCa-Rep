@@ -1,7 +1,7 @@
 # ESTRUCTURA Y ÁRBOL COMPLETO DE LA EVIDENCIA
 ## EXPEDIENTE FORENSE ELECTORAL E-14 (ELECCIONES PRESIDENCIALES 2026)
 
-**Investigadora / Veedora Ciudadana:** Andrea Zabala Carcamo (C.C. 43.925.102)
+**Especialista / Veeduría Ciudadana:** Andrea Zabala Carcamo (C.C. 43.925.102)
 
 ```text
 EVIDENCIA_FORENSE_E14_2026/

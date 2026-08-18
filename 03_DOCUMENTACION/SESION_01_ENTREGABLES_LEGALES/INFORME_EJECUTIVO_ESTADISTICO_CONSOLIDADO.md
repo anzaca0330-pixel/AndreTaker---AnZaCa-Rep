@@ -1,7 +1,7 @@
 # INFORME EJECUTIVO PERICIAL PARA LA REPRESENTACIÓN JURÍDICA: ANÁLISIS FORENSE (1ª Y 2ª VUELTA)
 
 **PARA:** Equipo Jurídico Defensor / Apoderado Judicial  
-**DE:** Andrea Zabala Cárcamo (Perito Forense / Veedora Principal - C.C. 43.925.102)  
+**DE:** Andrea Zabala Cárcamo (Perito Forense / Veeduría Principal - C.C. 43.925.102)  
 **FECHA:** 1 de Agosto de 2026  
 **ASUNTO:** Síntesis Ejecutiva de Hallazgos Objetivos: "Planchado Matemático" (Primera Vuelta) y Manipulación Sintáctica de Actas E-14 (Segunda Vuelta).  
 **REFERENCIA INTERNACIONAL:** Medida Cautelar CIDH **`IACHR - 0000113728`**  

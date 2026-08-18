@@ -1,7 +1,7 @@
 # CREDITS & ACKNOWLEDGMENTS
 
-## Investigadora Principal y Coordinadora
-- **Andrea Zabala Cárcamo** (Psicóloga Industrial-Organizacional, Veedora Ciudadana)  
+## Especialista Principal y Coordinadora
+- **Andrea Zabala Cárcamo** (Psicóloga Industrial-Organizacional, Veeduría Ciudadana)  
   - Liderazgo en la detección de patrones de comportamiento y coordinación de la evidencia forense.
   - Desarrollo de la estrategia legal ante la CIDH.
   - Soporte técnico en la validación de scripts y análisis estadístico.
@@ -13,7 +13,7 @@
 
 ## Apoyo Internacional y Comunitario
 - **Testigos Digitales Globales**: Por la protección diplomática, movilización masiva y el resguardo descentralizado de la evidencia ante la censura de red.
-- **Universidad de Phoenix**: Por el soporte académico implícito a través de la formación y validación de competencias estadísticas de la investigadora.
+- **Universidad de Phoenix**: Por el soporte académico implícito a través de la formación y validación de competencias estadísticas de la especialista.
 - **Ciudadanía Activa**: Por el respaldo masivo a la solicitud de medidas cautelares y la firma ciudadana.
 
 ## Invitación a Peer Review (Revisión por Pares)

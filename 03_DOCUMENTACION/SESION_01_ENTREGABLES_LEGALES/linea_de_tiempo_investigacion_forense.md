@@ -1,7 +1,7 @@
 # LÍNEA DE TIEMPO Y EVOLUCIÓN METODOLÓGICA DE LA INVESTIGACIÓN FORENSE
 ## CASO ACTAS E-14 (ELECCIONES PRESIDENCIALES 2026)
 
-**Investigadora / Veedora Ciudadana:** Andrea Zabala Carcamo (C.C. 43.925.102)  
+**Especialista / Veeduría Ciudadana:** Andrea Zabala Carcamo (C.C. 43.925.102)  
 **Fecha de Consolidación:** Julio de 2026  
 **Alcance de la Investigación:** De la anomalía estadística inicial en Los Ángeles a la auditoría masiva de 26.744 actas en EE.UU., España y Grupo de Control.
 
@@ -45,7 +45,7 @@ timeline
 ---
 
 ### Fase 2: Inspección Documental de Campo y Confirmación Material (1 – 2 de Junio de 2026)
-- **Acción:** Guiada por la alerta cuantitativa inicial, la investigadora descargó y examinó los archivos digitales de los formularios E-14 correspondientes a las 19 mesas de Los Ángeles.
+- **Acción:** Guiada por la alerta cuantitativa inicial, la especialista descargó y examinó los archivos digitales de los formularios E-14 correspondientes a las 19 mesas de Los Ángeles.
 - **Hallazgos Físicos/Técnicos Comprobados:**
   1. **Inoperatividad de Códigos QR:** Ningún código QR o de barras del puesto permitía decodificación por motores computacionales, rompiendo la trazabilidad criptográfica.
   2. **Foliación Híbrida:** Mezcla injustificada de páginas a color originales (Mesas 011, 012, 015) y páginas en blanco y negro/fotocopiadas (Mesas 013, 014, 018) dentro de paquetes del mismo lote litográfico oficial.

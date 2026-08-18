@@ -9,7 +9,7 @@ Presidencia de la República
 
 **De:**
 Andrea Zabala Carcamo (C.C. 43.925.102) y Arturo Garcia Zabala (Hijo Menor)
-Investigadora Principal y Beneficiarios de Medidas Cautelares en Trámite (CIDH - IACHR-0000113728)
+Especialista Principal y Beneficiarios de Medidas Cautelares en Trámite (CIDH - IACHR-0000113728)
 Solicitantes de Refugio ante Inmigración, Refugiados y Ciudadanía de Canadá (IRCC - UCI Titular: 1158-0327-50 | UCI Menor: 1158-0331-82 | Expediente CBSA: L010534096)
 
 **Asunto:** Solicitud Urgente de Recepción de Acervo Probatorio Forense Electoral (136 GB) y Activación de Mecanismos de Protección Diplomática.
@@ -18,7 +18,7 @@ Solicitantes de Refugio ante Inmigración, Refugiados y Ciudadanía de Canadá (
 
 ### Señor Expresidente,
 
-Me dirijo a usted en calidad de investigadora técnica independiente para informarle sobre el hallazgo y preservación de pruebas concluyentes relativas a la alteración algorítmica y estructural de los resultados de la Segunda Vuelta de las Elecciones Presidenciales de 2026.
+Me dirijo a usted en calidad de especialista técnica independiente para informarle sobre el hallazgo y preservación de pruebas concluyentes relativas a la alteración algorítmica y estructural de los resultados de la Segunda Vuelta de las Elecciones Presidenciales de 2026.
 
 Entre el 1 y el 3 de junio de 2026, mediante la aplicación de modelos estadísticos y auditoría profunda, descubrí un patrón irrefutable de fraude digital masivo en las actas E-14. Este acervo (más de **147.000 documentos**, equivalentes a **147 Gigabytes** de datos) prueba dos vectores de ataque principales:
 1. **Alteración Algorítmica (Máscaras de 1-bit):** Inyección de datos y purga de metadatos en más de 117.000 archivos PDF.
@@ -50,7 +50,7 @@ El esclarecimiento de estos hechos es una cuestión de justicia y soberanía dig
 Atentamente,
 
 **Andrea Zabala Carcamo**
-*Investigadora y Analista Forense*
+*Especialista y Analista Forense*
 
 ---
 **Anexos y Evidencia Pública:**
