@@ -15,19 +15,19 @@
 ---
 </div>
 ## 1. Abstract
-This project conducts a comprehensive statistical analysis on a massive dataset (122,017 data points representing polling stations). The primary objective is to evaluate the organic nature of the data distribution against theoretical models of human randomness. By employing the Z-test for proportions, variance analysis, and Benford's Law (Second-Digit Expected Distribution), this paper categorically tests the Null Hypothesis ($H_0$) that the observed data variance is the result of natural, unbiased human input. The results demonstrate a statistically significant deviation from expected models, rejecting $H_0$ and suggesting synthetic algorithmic interference.
+This project conducts a comprehensive statistical analysis on a massive dataset (122,017 data points representing polling stations). The primary objective is to evaluate the organic nature of the data distribution against theoretical models of human randomness. By employing the Z-test for proportions, variance analysis, and Benford's Law (2nd Digit - Mebane) (Second-Digit Expected Distribution), this paper categorically tests the Null Hypothesis ($H_0$) that the observed data variance is the result of natural, unbiased human input. The results demonstrate a statistically significant deviation from expected models, rejecting $H_0$ and suggesting synthetic algorithmic interference.
 
 ## 2. Introduction and Hypothesis
-In psychological and sociological studies, large-scale human behavioral data tends to follow predictable mathematical distributions (such as Normal Distributions and Benford's Law). When data is generated artificially (synthetically), it often fails to replicate natural variance. 
+In psychological and sociological studies, large-scale human behavioral data tends to follow predictable mathematical distributions (such as Normal Distributions and Benford's Law (2nd Digit - Mebane)). When data is generated artificially (synthetically), it often fails to replicate natural variance. 
 *   **Null Hypothesis ($H_0$):** The data distribution across polling stations is organic, and any observed variance falls within expected standard deviations.
-*   **Alternative Hypothesis ($H_1$):** The data distribution exhibits artificial suppression of variance (fixed percentages) and violates Benford's Law, indicating synthetic data generation.
+*   **Alternative Hypothesis ($H_1$):** The data distribution exhibits artificial suppression of variance (fixed percentages) and violates Benford's Law (2nd Digit - Mebane), indicating synthetic data generation.
 
 ## 3. Investigative Timeline (Chronological Progression)
 The statistical and forensic findings were uncovered progressively, establishing a clear chain of evidence:
 *   **June 1-2, 2026 (Initial Anomaly - The Catalyst):** The investigation started on a micro-scale with just **19 polling stations and 98 files** from the Los Angeles consulate. Manual audit of the first 5 tables revealed a statistically impossible low variance ($\sigma = 2.5$).
 *   **June 3, 2026 (Hybrid Documents):** Expanding the scope, the analysis identified hybrid layer composition in the PDFs (mixing color backgrounds with B/W binary injections).
 *   **June 4, 2026 (Structural Deepfake / QR Spoofing):** Automated parsing via `peepdf` and `qpdf` confirmed 100% decodification errors across anomalous files, revealing massive QR replacement (Spoofing).
-*   **June 20-30, 2026 (National Statistical Confirmation):** Application of Benford's Law and Monte Carlo simulations across 122,017 tables, confirming the algorithmic nature of the injections.
+*   **June 20-30, 2026 (National Statistical Confirmation):** Application of Benford's Law (2nd Digit - Mebane) and Monte Carlo simulations across 122,017 tables, confirming the algorithmic nature of the injections.
 *   **July 2026 (First vs Second Round Corroboration):** Final cross-reference (`xref`) analysis proved that both election rounds shared the identical cryptographic generation flaw (reporting 15 objects while containing 13).
 
 ## 4. Methodology
@@ -58,7 +58,7 @@ Following the initial discovery, the data revealed extreme outliers in variance 
 
 ![Análisis de Varianza - Colapso (Datos Reales)](real_variance_scatter.svg)
 
-### 4.2. Benford's Law Deviation
+### 4.2. Benford's Law (2nd Digit - Mebane) Deviation
 The Second-Digit distribution of the votes for the anomalous candidate showed a massive spike at the digit '0', reaching 20.18%, far exceeding the expected natural frequency (approximately 11.9%). This indicates that the numbers were synthetically assigned (e.g., rounded algorithmic outputs) rather than naturally occurring.
 
 
@@ -105,16 +105,16 @@ While the core of this project is statistical, a brief digital analysis was requ
 
 ![First Round - Los Angeles Polling Station Anomaly](acta_ejemplo_los_angeles.png)
 
-From a statistical standpoint, this physical evidence provides the absolute "mechanism of action." It explains why the variance collapsed, why the Benford's Law distribution spiked artificially at '0', and why the Monte Carlo simulations yielded $p < 0.0001$. Both election rounds shared the identical algorithmic footprint, confirming that the deviation from organic randomness was systemic and intentional.
+From a statistical standpoint, this physical evidence provides the absolute "mechanism of action." It explains why the variance collapsed, why the Benford's Law (2nd Digit - Mebane) distribution spiked artificially at '0', and why the Monte Carlo simulations yielded $p < 0.0001$. Both election rounds shared the identical algorithmic footprint, confirming that the deviation from organic randomness was systemic and intentional.
 
 ## 6. Conclusion
-The statistical analysis provides irrefutable evidence against the Null Hypothesis. The absence of natural variance, extreme deviations from Benford's Law, the presence of absolute mirroring, and the low-entropy harmonic sequencing in vote injections demonstrate that the dataset contains synthetically generated numbers. In the context of behavioral statistics, this proves that human behavior was bypassed, and the numbers were assigned via a fixed algorithm.
+The statistical analysis provides irrefutable evidence against the Null Hypothesis. The absence of natural variance, extreme deviations from Benford's Law (2nd Digit - Mebane), the presence of absolute mirroring, and the low-entropy harmonic sequencing in vote injections demonstrate that the dataset contains synthetically generated numbers. In the context of behavioral statistics, this proves that human behavior was bypassed, and the numbers were assigned via a fixed algorithm.
 
 ---
 **References:**
 *   Sullivan, M., III (2025). *Statistics: Informed decisions using data* (7th ed.). Pearson.
 *   Benford, F. (1938). The law of anomalous numbers. *Proceedings of the American Philosophical Society*, 78(4), 551-572.
-*   Mebane, W. R., Jr. (2006). Election forensics: The second-digit Benford's law test and recent American presidential elections. *Election Fraud: Detecting and Deterring Electoral Manipulation*.
+*   Mebane, W. R., Jr. (2006). Election forensics: The second-digit Benford's law (2nd Digit) test and recent American presidential elections. *Election Fraud: Detecting and Deterring Electoral Manipulation*.
 
 ---
 
@@ -133,5 +133,5 @@ The project is backed by the following original annexes compiled during the fore
 | **3** | Hybrid PDFs | Evidence of the digital mixing of color and B/W matrices within the same document. |
 | **4** | Structural Errors | `peepdf` validation showing the decodification errors in 100% of the manipulated ballots. |
 | **5 & 6** | Original PDFs and Extractions | The raw dataset containing the 122,017 polling station files and isolated anomalous layers. |
-| **7** | Statistical Analysis | The original spreadsheet and Python scripts used to calculate the 2.5 standard deviation and Benford's Law visualizations. |
+| **7** | Statistical Analysis | The original spreadsheet and Python scripts used to calculate the 2.5 standard deviation and Benford's Law (2nd Digit - Mebane) visualizations. |
 | **8** | CNE Legal Complaint | The formal legal filing submitted to the National Electoral Council based on these statistical findings. |

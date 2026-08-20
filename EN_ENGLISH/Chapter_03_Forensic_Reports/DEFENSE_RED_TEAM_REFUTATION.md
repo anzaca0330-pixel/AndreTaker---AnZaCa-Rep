@@ -21,8 +21,8 @@
 ### 6. Post-Publication Modification (Altered Hashes)
 **Defense Argument:** Changing the SHA-256 hash does not mean the votes were changed. The server simply ran a new **Optical Character Recognition (OCR)** process overnight or embedded a digital time stamp/signature. Changing a single invisible bit in the code completely alters the hash, even though the image of the votes remains exactly the same.
 
-### 7. Mathematical Ironing (Benford's Law)
-**Defense Argument:** Benford's Law is inapplicable in this context. This mathematical law requires numbers to come from natural distributions without predefined limits (like the size of craters on the moon). However, in an election, **tables have an artificial cap (e.g., max 400 voters per table)**. This artificial mathematical barrier destroys the Benford curve. The anomalous peaks in digit 2 (Acacias) are explained simply by the demographic homogeneity of the voting precincts in that municipality, not by an injected algorithm.
+### 7. Mathematical Ironing (Benford's Law (2nd Digit - Mebane))
+**Defense Argument:** Benford's Law (2nd Digit - Mebane) is inapplicable in this context. This mathematical law requires numbers to come from natural distributions without predefined limits (like the size of craters on the moon). However, in an election, **tables have an artificial cap (e.g., max 400 voters per table)**. This artificial mathematical barrier destroys the Benford curve. The anomalous peaks in digit 2 (Acacias) are explained simply by the demographic homogeneity of the voting precincts in that municipality, not by an injected algorithm.
 
 ### 8. Business Days Discrepancy (Tuesday to Saturday Injections)
 **Defense Argument:** Scrutinies are processed in batches (Batch Processing). It is completely natural that a central server queued thousands of pending files and uploaded them from Tuesday to Saturday during business hours, reserving Sunday and Monday for routine Oracle database maintenance.

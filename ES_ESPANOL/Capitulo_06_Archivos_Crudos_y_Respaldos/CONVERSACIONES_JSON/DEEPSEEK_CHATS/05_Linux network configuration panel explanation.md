@@ -138,9 +138,9 @@ Tu computadora o teléfono debe estar conectado a la red del módem, ya sea por 
 ### Paso 2: Accede a la Interfaz Web
 Abre **Chrome, Firefox o Edge** y escribe una de estas direcciones en la barra de direcciones. Son las más comunes para entrar al panel de control:
 
-*   `http://192.168.1.1` (La más común) [citation:3][citation:6]
-*   `http://192.168.0.1` (También muy usada) [citation:10]
-*   `http://192.168.100.1` (Para algunos módems de cable) [citation:9]
+*   `http://[REDACTED_IP]` (La más común) [citation:3][citation:6]
+*   `http://[REDACTED_IP]` (También muy usada) [citation:10]
+*   `http://[REDACTED_IP]` (Para algunos módems de cable) [citation:9]
 *   `http://tplinkmodem.net` (Para routers TP-Link) [citation:1][citation:7]
 
 Si ninguna funciona, busca en la parte de abajo de tu módem. Suele tener una etiqueta (**sticker**) con la dirección correcta y los datos de acceso.
@@ -251,11 +251,11 @@ sudo nmcli connection up "netplan-enp3s0f2"
 ```
 Then check again:
 ```bash
-ping 8.8.8.8
+ping [REDACTED_IP]
 ```
 - If ping works but web browsing doesn't → DNS issue. Fix with:
 ```bash
-echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf
+echo "nameserver [REDACTED_IP]" | sudo tee /etc/resolv.conf
 ```
 
 ### 5. If nothing works (try this last)
@@ -334,7 +334,7 @@ sudo modprobe -r r8169 && sudo modprobe r8169
 
 ## Quick test after each step:
 ```bash
-ping 8.8.8.8
+ping [REDACTED_IP]
 ```
 
 **What do you see when you run `sudo ethtool enp3s0f2`?** That will tell us if it's a cable/modem problem or a software problem.
@@ -397,7 +397,7 @@ nmcli device status
 ```
 Si ves `enp3s0f2` como `connected`, prueba el internet:
 ```bash
-ping 8.8.8.8
+ping [REDACTED_IP]
 ```
 
 #### Paso 4: Revisar los logs de instalación (Para entender qué pasó)
@@ -425,7 +425,7 @@ Tu prioridad ahora es recuperar el internet. Copia y pega estos comandos **en es
 
 1.  `sudo iptables -F` (Limpia el firewall)
 2.  `sudo systemctl restart NetworkManager` (Reinicia la red)
-3.  `ping 8.8.8.8` (Prueba)
+3.  `ping [REDACTED_IP]` (Prueba)
 
 **¿Qué ves cuando ejecutas el paso 1 (`sudo iptables -L -n -v`)?** Si la terminal muestra una larga lista de reglas, ya sabemos por dónde empezar a limpiar.
 
@@ -477,7 +477,7 @@ sudo systemctl restart systemd-resolved
 #### Paso 4: Verificar que el internet vuelva
 ```bash
 nmcli device status
-ping 8.8.8.8
+ping [REDACTED_IP]
 ```
 
 #### Paso 5: (Opcional) Desinstalar Postfix si no lo necesitas
@@ -494,7 +494,7 @@ sudo apt-get autoremove
 ```bash
 sudo dpkg --configure -a
 sudo systemctl restart NetworkManager
-ping 8.8.8.8
+ping [REDACTED_IP]
 ```
 
 **¿Lograste salir de la pantalla de Postfix?** Si la terminal sigue congelada, dime exactamente qué texto ves en pantalla y te digo la tecla exacta para avanzar.
@@ -582,7 +582,7 @@ Once the Postfix installer finishes (or is killed safely), run:
 ```bash
 sudo systemctl restart NetworkManager
 nmcli device status
-ping 8.8.8.8
+ping [REDACTED_IP]
 ```
 
 Your Ethernet should now show `connected` instead of `unavailable`.
@@ -652,7 +652,7 @@ Inmediatamente después, ejecuta esto para recuperar el internet:
 
 ```bash
 sudo systemctl restart NetworkManager
-ping 8.8.8.8
+ping [REDACTED_IP]
 ```
 
 **¿Ya ves el símbolo `$` o `#` de nuevo en la terminal?** Si sí, escribe el comando de arriba. Si aún ves la pantalla del 98%, dime exactamente qué texto aparece y te digo el siguiente paso.
@@ -691,7 +691,7 @@ sudo systemctl restart NetworkManager
 nmcli device status
 
 # 4. Prueba el internet
-ping 8.8.8.8
+ping [REDACTED_IP]
 ```
 
 ---
@@ -702,7 +702,7 @@ ping 8.8.8.8
 
 **Si el ping funciona pero no puedes navegar en el navegador**, ejecuta:
 ```bash
-echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf
+echo "nameserver [REDACTED_IP]" | sudo tee /etc/resolv.conf
 ```
 
 ---
@@ -744,7 +744,7 @@ nmcli device status
 Si ves `enp3s0f2` como `connected`, prueba:
 
 ```bash
-ping -c 4 8.8.8.8
+ping -c 4 [REDACTED_IP]
 ```
 
 ---
@@ -794,7 +794,7 @@ Estos son los motivos típicos por los que no puedes acceder a la configuración
         ```bash
         ip route | grep default
         ```
-    *   La dirección que veas ahí (ej. `192.168.1.1`) es la IP de tu router, la que debes poner en el navegador[citation:5][citation:6].
+    *   La dirección que veas ahí (ej. `[REDACTED_IP]`) es la IP de tu router, la que debes poner en el navegador[citation:5][citation:6].
 
 2.  **El navegador te está jugando una mala pasada (Caché/Proxy)**
     A veces, el navegador guarda información antigua o tiene una configuración de "proxy" que impide la conexión con el router[citation:1].
@@ -850,13 +850,13 @@ Antes de hacer cambios, revisa señales de que algo anda mal [citation:7]:
 ### ⚙️ Paso a paso: Cómo revisar la configuración
 Necesitas entrar a la **interfaz web del router** (como intentabas hacer ayer). Sigue estos pasos:
 
-1.  **Accede al panel:** Escribe en el navegador `192.168.1.1` o `192.168.0.1`. Usa el usuario y contraseña (suele estar en una etiqueta debajo del router) [citation:1].
+1.  **Accede al panel:** Escribe en el navegador `[REDACTED_IP]` o `[REDACTED_IP]`. Usa el usuario y contraseña (suele estar en una etiqueta debajo del router) [citation:1].
 2.  **Revisa el firmware (la prioridad máxima):** Busca la sección "Actualización de firmware" o "Administración". Si hay una actualización disponible, **instálala de inmediato** [citation:1][citation:7][citation:9]. Las actualizaciones suelen incluir parches de seguridad críticos.
 3.  **Revisa el cifrado WiFi:** Ve a la configuración inalámbrica (WiFi). Asegúrate de que la "Seguridad" o "Encriptación" sea **WPA2-PSK o WPA3**. **NUNCA uses WEP o WPA**, ya son inseguros [citation:1][citation:7][citation:9].
 4.  **Desactiva características peligrosas:**
     *   **UPnP (Universal Plug and Play):** Permite que los dispositivos abran puertos solos. Es muy inseguro. Búscalo en "Avanzado" o "Herramientas" y **desactívalo** [citation:4][citation:7].
     *   **Acceso remoto (WAN Access):** Si está activado, alguien desde Internet podría controlar tu router. Debe estar **DESACTIVADO** [citation:9].
-5.  **Revisa el DNS:** Busca la configuración del servidor DNS. Si ves números raros que no son los de tu proveedor, podrías estar siendo víctima de secuestro (DNS hijacking) [citation:7]. Un DNS seguro es `8.8.8.8` (Google) o `1.1.1.1` (Cloudflare).
+5.  **Revisa el DNS:** Busca la configuración del servidor DNS. Si ves números raros que no son los de tu proveedor, podrías estar siendo víctima de secuestro (DNS hijacking) [citation:7]. Un DNS seguro es `[REDACTED_IP]` (Google) o `[REDACTED_IP]` (Cloudflare).
 
 ---
 
@@ -947,8 +947,8 @@ Vamos a forzar una configuración de DNS rápida y fiable (la de Google y Cloudf
     ```
 2.  Borra todo lo que haya dentro (con las flechas o suprimir) y **copia y pega exactamente esto**:
     ```text
-    nameserver 1.1.1.1
-    nameserver 8.8.8.8
+    nameserver [REDACTED_IP]
+    nameserver [REDACTED_IP]
     ```
 3.  Para guardar, presiona `Ctrl + O`, luego `Enter`. Para salir, presiona `Ctrl + X`.
 4.  Reinicia la red para aplicar los cambios:
@@ -1544,7 +1544,7 @@ deb http://security.ubuntu.com/ubuntu jammy-security main restricted
 A veces el Ethernet sí funciona, pero el error de `sources.list` te asusta. Prueba:
 
 ```bash
-ping 8.8.8.8
+ping [REDACTED_IP]
 ```
 
 Si ves respuestas (64 bytes desde...), **¡tienes internet!** Solo que `apt update` falla por el archivo roto. En ese caso, arregla el archivo como te dije y luego `sudo apt update`.
@@ -1554,7 +1554,7 @@ Si ves respuestas (64 bytes desde...), **¡tienes internet!** Solo que `apt upda
 **Cuéntame:**
 - ¿Puedes compartir internet por USB desde tu teléfono? (Opción 1, la más fácil)
 - ¿O prefieres escribir el archivo a mano? (Opción 2)
-- ¿El comando `ping 8.8.8.8` funciona o no? (Opción 3)
+- ¿El comando `ping [REDACTED_IP]` funciona o no? (Opción 3)
 
 Dime y avanzo contigo.
 
@@ -1591,7 +1591,7 @@ Como no tienes internet en la PC, te voy a dar los comandos exactos para que los
 cat /etc/resolv.conf
 ```
 **¿Qué debes ver?** Líneas que digan `nameserver`.
-*   ✅ **Esperado:** `1.1.1.1`, `8.8.8.8` o la IP de tu router (ej. `192.168.1.1`).
+*   ✅ **Esperado:** `[REDACTED_IP]`, `[REDACTED_IP]` o la IP de tu router (ej. `[REDACTED_IP]`).
 *   ❌ **Peligro:** Si ves IPs raras (coreanas, rusas, o direcciones largas raras), ese es el filtro.
 
 #### Paso 2: Revisa las reglas del Firewall
@@ -1611,10 +1611,10 @@ sudo systemd-resolve --statistics
 
 ### 3. Cómo interpretar lo que veas (El diagnóstico)
 
-*   **Caso 1: El `resolv.conf` apunta a `127.0.0.53` (localhost).**
+*   **Caso 1: El `resolv.conf` apunta a `[REDACTED_IP]` (localhost).**
     *   **Significa:** Estás usando `systemd-resolved`. Ahí dentro puede haber una configuración global filtrando por ubicación. No es malo en sí mismo, pero hay que revisarlo con `resolvectl status`.
 *   **Caso 2: El `resolv.conf` apunta a una IP extraña (como la coreana).**
-    *   **Significa:** Un programa (quizás el Postfix o el VPN que intentaste) sobreescribió tu configuración. **Solución:** Forzar DNS seguro con `sudo echo "nameserver 1.1.1.1" > /etc/resolv.conf`.
+    *   **Significa:** Un programa (quizás el Postfix o el VPN que intentaste) sobreescribió tu configuración. **Solución:** Forzar DNS seguro con `sudo echo "nameserver [REDACTED_IP]" > /etc/resolv.conf`.
 *   **Caso 3: El Firewall muestra una política `DROP` en la cadena `OUTPUT`.**
     *   **Significa:** Tu PC sí recibe datos, pero el firewall no deja que los paquetes de respuesta "salgan". Es una configuración extremadamente restrictiva.
 
@@ -1627,8 +1627,8 @@ Si ves algo raro en el `resolv.conf` y quieres volver a la configuración "neutr
 sudo systemctl stop systemd-resolved
 
 # 2. Borra el archivo de DNS actual y pon uno limpio con los DNS de Cloudflare/Google
-echo "nameserver 1.1.1.1" | sudo tee /etc/resolv.conf
-echo "nameserver 8.8.8.8" | sudo tee -a /etc/resolv.conf
+echo "nameserver [REDACTED_IP]" | sudo tee /etc/resolv.conf
+echo "nameserver [REDACTED_IP]" | sudo tee -a /etc/resolv.conf
 
 # 3. Bloquea el archivo para que ningún programa (como Postfix) lo vuelva a escribir sin permiso
 sudo chattr +i /etc/resolv.conf
@@ -1662,8 +1662,8 @@ Son dos opciones que le dicen a tu sistema cómo debe manejar las consultas de d
 
 ---
 
-### 🛠️ El problema real: `127.0.0.53`
-Tu archivo `/etc/resolv.conf` probablemente también contiene la línea `nameserver 127.0.0.53`. **Esa es la verdadera causa** de que no puedas navegar después de la instalación fallida.
+### 🛠️ El problema real: `[REDACTED_IP]`
+Tu archivo `/etc/resolv.conf` probablemente también contiene la línea `nameserver [REDACTED_IP]`. **Esa es la verdadera causa** de que no puedas navegar después de la instalación fallida.
 
 *   **¿Qué es?** Es la dirección de un "proxy" o "stub resolver" interno de `systemd-resolved` [citation:1][citation:6].
 *   **¿Por qué falla?** Normalmente, este proxy reenvía tus consultas al router. Sin embargo, tras la instalación de `postfix`, `systemd-resolved` se ha quedado atascado o configurado incorrectamente. Funciona, pero lo hace tan lento que parece que no tienes internet [citation:4].
@@ -1685,8 +1685,8 @@ sudo systemctl stop systemd-resolved
 # 2. Le dices a tu PC que olvide la configuración actual
 sudo rm /etc/resolv.conf
 
-# 3. Creas un archivo nuevo apuntando a tu router (generalmente es 192.168.1.1)
-echo "nameserver 192.168.1.1" | sudo tee /etc/resolv.conf
+# 3. Creas un archivo nuevo apuntando a tu router (generalmente es [REDACTED_IP])
+echo "nameserver [REDACTED_IP]" | sudo tee /etc/resolv.conf
 
 # 4. Haces que este archivo no se pueda modificar sola (para que el problema no vuelva)
 sudo chattr +i /etc/resolv.conf
@@ -1702,9 +1702,9 @@ sudo systemctl stop systemd-resolved
 # 2. Le dices a tu PC que olvide la configuración actual
 sudo rm /etc/resolv.conf
 
-# 3. Creas un archivo nuevo con los DNS de Cloudflare (1.1.1.1) y Google (8.8.8.8)
-echo "nameserver 1.1.1.1" | sudo tee /etc/resolv.conf
-echo "nameserver 8.8.8.8" | sudo tee -a /etc/resolv.conf
+# 3. Creas un archivo nuevo con los DNS de Cloudflare ([REDACTED_IP]) y Google ([REDACTED_IP])
+echo "nameserver [REDACTED_IP]" | sudo tee /etc/resolv.conf
+echo "nameserver [REDACTED_IP]" | sudo tee -a /etc/resolv.conf
 
 # 4. Haces que este archivo no se pueda modificar sola
 sudo chattr +i /etc/resolv.conf
@@ -1748,8 +1748,8 @@ sudo nano /etc/resolv.conf
 Dentro de `nano`, escribe exactamente esto:
 
 ```
-nameserver 1.1.1.1
-nameserver 8.8.8.8
+nameserver [REDACTED_IP]
+nameserver [REDACTED_IP]
 ```
 
 ### Paso 4: Guardar y salir
@@ -1763,13 +1763,13 @@ cat /etc/resolv.conf
 ```
 Deberías ver:
 ```
-nameserver 1.1.1.1
-nameserver 8.8.8.8
+nameserver [REDACTED_IP]
+nameserver [REDACTED_IP]
 ```
 
 ### Paso 6: Probar internet
 ```bash
-ping 8.8.8.8
+ping [REDACTED_IP]
 ```
 
 ---
@@ -1779,8 +1779,8 @@ ping 8.8.8.8
 Usa este comando alternativo para crear el archivo directamente:
 
 ```bash
-echo "nameserver 1.1.1.1" | sudo dd of=/etc/resolv.conf
-echo "nameserver 8.8.8.8" | sudo dd of=/etc/resolv.conf oflag=append conv=notrunc
+echo "nameserver [REDACTED_IP]" | sudo dd of=/etc/resolv.conf
+echo "nameserver [REDACTED_IP]" | sudo dd of=/etc/resolv.conf oflag=append conv=notrunc
 ```
 
 ---
@@ -1850,8 +1850,8 @@ sudo nano /etc/resolv.conf
 Escribe exactamente:
 
 ```
-nameserver 1.1.1.1
-nameserver 8.8.8.8
+nameserver [REDACTED_IP]
+nameserver [REDACTED_IP]
 ```
 
 Luego `Ctrl + O`, `Enter`, `Ctrl + X`.
@@ -1859,7 +1859,7 @@ Luego `Ctrl + O`, `Enter`, `Ctrl + X`.
 Después:
 
 ```bash
-ping 8.8.8.8
+ping [REDACTED_IP]
 ```
 
 ---
@@ -1969,7 +1969,7 @@ No, está bien. Es que al parecer se conecta al wifi pero no al Ethernet
 
 ¡Ahora sí tenemos una pista muy importante! Lo que estás viendo no es la configuración de tu router de internet, sino la configuración de **Compartir Conexión (Tethering)** o **Red de Área Personal (PAN)** , probablemente de **Blueman** (el gestor de Bluetooth de Xubuntu).
 
-Esa pantalla te permite compartir la internet de tu computadora con otros dispositivos (un móvil, otra PC) vía Bluetooth o USB, o configurar un "Access Point" local. Por eso ves la IP `10.166.76.1`, que es una red **privada** y **local** que tu PC crea para sí misma, no la que te da el router de casa.
+Esa pantalla te permite compartir la internet de tu computadora con otros dispositivos (un móvil, otra PC) vía Bluetooth o USB, o configurar un "Access Point" local. Por eso ves la IP `[REDACTED_IP]`, que es una red **privada** y **local** que tu PC crea para sí misma, no la que te da el router de casa.
 
 **Conclusión:** Has entrado en una herramienta de red virtual/local, no en la configuración de tu router de internet.
 
@@ -2024,7 +2024,7 @@ Si después de esto el Ethernet funciona, entonces el culpable era el Bluetooth 
 
 ¡Gracias por la paciencia y por el dato clave! Un **PC viejo sin Bluetooth** descarta cualquier interferencia de Blueman o PAN. Ahora todo encaja mejor.
 
-**Conclusión inmediata:** lo que viste en la captura (`NAP Support`, `IP 10.166.76.1`) no es un error ni un virus, sino una **reliquia de configuración**. Es muy probable que en el pasado alguien (o tú) usara ese PC para compartir internet por USB o con un celular mediante "Tethering". Esa IP `10.166.76.1` es de una red local virtual que tu PC se asigna a sí misma, pero como no tienes Bluetooth ni nada conectado, esa configuración está **huérfana y estorbando**.
+**Conclusión inmediata:** lo que viste en la captura (`NAP Support`, `IP [REDACTED_IP]`) no es un error ni un virus, sino una **reliquia de configuración**. Es muy probable que en el pasado alguien (o tú) usara ese PC para compartir internet por USB o con un celular mediante "Tethering". Esa IP `[REDACTED_IP]` es de una red local virtual que tu PC se asigna a sí misma, pero como no tienes Bluetooth ni nada conectado, esa configuración está **huérfana y estorbando**.
 
 ---
 
@@ -2032,7 +2032,7 @@ Si después de esto el Ethernet funciona, entonces el culpable era el Bluetooth 
 
 Tu PC tiene dos "personalidades" de red:
 1.  **Ethernet (`enp3s0f2`)**: Quiere recibir internet del router de casa.
-2.  **Red virtual PAN (`pan1`, IP 10.166.76.1)**: Le dice al sistema "yo soy un router, no necesito buscar internet fuera".
+2.  **Red virtual PAN (`pan1`, IP [REDACTED_IP])**: Le dice al sistema "yo soy un router, no necesito buscar internet fuera".
 
 El sistema se confunde: cree que ya tiene internet a través de `pan1` (aunque esté muerta) y no activa correctamente el Ethernet.
 
@@ -2069,7 +2069,7 @@ Debes ver `enp3s0f2` como `connected`. Si ves `pan1` de nuevo, repite el Paso 1.
 
 Haz ping a Google:
 ```bash
-ping -c 4 8.8.8.8
+ping -c 4 [REDACTED_IP]
 ```
 
 Si ves respuestas (`64 bytes from...`), **ya tienes internet**.
@@ -2128,21 +2128,21 @@ sudo dhclient -r enp3s0f2
 sudo dhclient enp3s0f2
 
 # 3. Prueba a ver si ahora ves el router
-ping -c 2 192.168.1.1
+ping -c 2 [REDACTED_IP]
 ```
 
 ---
 
 ### 🚀 ¿El Ping Falló? Entonces Haz Esto
 
-Si después de todo, el comando `ping 192.168.1.1` te sigue dando error, significa que tu PC y el router no se "hablan". En ese caso, olvida los comandos y **fuerza una IP manual**, ya que sabemos que el DHCP (el que asigna IPs automáticamente) puede estar fallando.
+Si después de todo, el comando `ping [REDACTED_IP]` te sigue dando error, significa que tu PC y el router no se "hablan". En ese caso, olvida los comandos y **fuerza una IP manual**, ya que sabemos que el DHCP (el que asigna IPs automáticamente) puede estar fallando.
 
 **La solución más directa si el ping falla:**
 Ve a la configuración de red en tu Xubuntu (el ícono de red en la esquina superior derecha), selecciona "Cableado" o "Wired", ve a "Configuración" y cambia de "Automático" (DHCP) a "Manual". Asígnate una IP como esta:
-*   **Dirección:** `192.168.1.50`
-*   **Máscara de red:** `255.255.255.0`
-*   **Puerta de enlace (Gateway):** `192.168.1.1` (Esta es la IP de tu router)
-*   **DNS:** `8.8.8.8`
+*   **Dirección:** `[REDACTED_IP]`
+*   **Máscara de red:** `[REDACTED_IP]`
+*   **Puerta de enlace (Gateway):** `[REDACTED_IP]` (Esta es la IP de tu router)
+*   **DNS:** `[REDACTED_IP]`
 
 ---
 
@@ -2150,10 +2150,10 @@ Ve a la configuración de red en tu Xubuntu (el ícono de red en la esquina supe
 
 Es muy raro que lo anterior falle, pero si ocurre, prueba estas cosas rápidas antes de pensar en algo más grave:
 
-1.  **Prueba con otro navegador o en modo incógnito:** A veces el navegador guarda configuraciones viejas. Abre una ventana privada e intenta entrar a `http://192.168.1.1`[citation:7].
+1.  **Prueba con otro navegador o en modo incógnito:** A veces el navegador guarda configuraciones viejas. Abre una ventana privada e intenta entrar a `http://[REDACTED_IP]`[citation:7].
 2.  **Desactiva el firewall temporalmente como prueba:** En la terminal, ejecuta `sudo ufw disable`. Si luego puedes entrar, significa que el firewall estaba bloqueando el acceso. Recuerda volver a activarlo con `sudo ufw enable`.
 
-**¿Qué viste después de ejecutar `ping -c 2 192.168.1.1`?** Con eso sabremos si tu PC ya ve al router.
+**¿Qué viste después de ejecutar `ping -c 2 [REDACTED_IP]`?** Con eso sabremos si tu PC ya ve al router.
 
 ---
 
@@ -2273,8 +2273,8 @@ Sí, es completamente normal que la página de configuración de tu router **no 
 ## 💡 Entonces, ¿cómo accedo de forma segura?
 
 No te compliques. Para entrar al router desde tu casa:
-1.  Escribe la dirección IP en el navegador **asegurándote de poner `http://` al principio**. Por ejemplo: `http://192.168.1.1` [citation:3].
-2.  Si tu navegador (como Firefox o Chrome) intenta cambiarlo a `https://` automáticamente [citation:3], edita la dirección y vuelve a poner `http://` al inicio. A veces funciona mejor escribir solo los números (ej. `192.168.1.1`) y dejar que el navegador decida.
+1.  Escribe la dirección IP en el navegador **asegurándote de poner `http://` al principio**. Por ejemplo: `http://[REDACTED_IP]` [citation:3].
+2.  Si tu navegador (como Firefox o Chrome) intenta cambiarlo a `https://` automáticamente [citation:3], edita la dirección y vuelve a poner `http://` al inicio. A veces funciona mejor escribir solo los números (ej. `[REDACTED_IP]`) y dejar que el navegador decida.
 
 En resumen: **Es normal que sea así**. El problema de seguridad no es el HTTP en tu casa, sino tener el acceso remoto activado o la contraseña de fábrica. Concéntrate en desactivar el acceso remoto y cambiar la contraseña del administrador.
 
@@ -2325,7 +2325,7 @@ Este es el método más efectivo. El router está en un estado "zombie" y necesi
 2.  **Espera 2 minutos completos.** (Esto es clave para borrar la memoria caché corrupta).
 3.  Vuelve a enchufarlo y espera otros 2-3 minutos a que todas las luces estén fijas y estables.
 
-**¿Funcionó?** Prueba a entrar a `http://192.168.1.1` en tu navegador. ¿Ya carga?
+**¿Funcionó?** Prueba a entrar a `http://[REDACTED_IP]` en tu navegador. ¿Ya carga?
 
 ### Paso 2: Si no funciona, Restablecer a valores de fábrica (Reset)
 
@@ -2375,7 +2375,7 @@ Empieza por el **Paso 1** (desconectar 2 minutos). Es la opción más rápida y 
 Esto explica todo:
 
 1.  **Por qué el Ethernet no funciona**: El cable Ethernet de tu PC ahora debe estar conectado al **nuevo router**, no al viejo. O el viejo ya no recibe internet del módem.
-2.  **Por qué no puedes entrar a la configuración**: El viejo router (Aircove) ya no es el que gestiona tu red. Su IP (`192.168.132.1`) probablemente está en conflicto con la del nuevo router, o simplemente ya no es accesible.
+2.  **Por qué no puedes entrar a la configuración**: El viejo router (Aircove) ya no es el que gestiona tu red. Su IP (`[REDACTED_IP]`) probablemente está en conflicto con la del nuevo router, o simplemente ya no es accesible.
 3.  **Por qué el archivo de diagnóstico muestra errores**: Ese archivo es del **viejo router**, que está fallando (por eso lo cambió el técnico).
 
 ---
@@ -2392,13 +2392,13 @@ El nuevo router (el que instaló el técnico) es el que realmente te da internet
 ip route | grep default
 ```
 
-Te saldrá algo como `default via 192.168.1.1 dev eth0` o `default via 192.168.0.1`.
+Te saldrá algo como `default via [REDACTED_IP] dev eth0` o `default via [REDACTED_IP]`.
 
-Esa IP (ej. `192.168.1.1` o `192.168.0.1`) es la dirección de tu **nuevo router**.
+Esa IP (ej. `[REDACTED_IP]` o `[REDACTED_IP]`) es la dirección de tu **nuevo router**.
 
 ### Paso 2: Entrar al nuevo router
 
-Abre el navegador y escribe esa IP (con `http://` al inicio, no `https`). Ejemplo: `http://192.168.1.1`
+Abre el navegador y escribe esa IP (con `http://` al inicio, no `https`). Ejemplo: `http://[REDACTED_IP]`
 
 ### Paso 3: Desconectar el viejo router (Aircove)
 
@@ -2462,7 +2462,7 @@ En ese caso, volvemos al diagnóstico original: **tu router Aircove tiene proble
 Desconecta el router de la corriente.
 **Espera 3 minutos completos** (importante).
 Vuelve a enchufarlo y espera 2 minutos.
-Prueba: `ping 8.8.8.8` desde tu PC.
+Prueba: `ping [REDACTED_IP]` desde tu PC.
 
 ### Opción 2: Restablecer a valores de fábrica (pierdes WiFi y contraseñas)
 Con el router encendido, presiona el botón de reset (detrás) con un clip durante **30 segundos**.
@@ -2522,7 +2522,7 @@ Y más adelante, la confirmación de que el servicio web interno está roto:
 assertion failed: flush: Broken pipe
 ```
 
-**Traducción:** El software del router (el firmware) está intentando ejecutar un programa de seguridad (el firewall) y no lo encuentra. Como no puede ejecutar el firewall, el servicio web (la página donde tu entras a `192.168.132.1`) también se rompe. Tu router está "vivo" pero "mentalmente incapacitado".
+**Traducción:** El software del router (el firmware) está intentando ejecutar un programa de seguridad (el firewall) y no lo encuentra. Como no puede ejecutar el firewall, el servicio web (la página donde tu entras a `[REDACTED_IP]`) también se rompe. Tu router está "vivo" pero "mentalmente incapacitado".
 
 ---
 
@@ -2552,7 +2552,7 @@ Esto **no** es el simple "apagar y encender". Esto borra la memoria corrupta y r
 Una vez que las luces del router se estabilicen (se queden fijas), el router habrá vuelto a su estado de fábrica. Ahora tendrás que:
 
 1.  **Conectarte a la red WiFi** que aparece con el nombre de fábrica (debería venir en una pegatina en la parte inferior del router).
-2.  **Abrir el navegador** (desde tu teléfono o computadora) e ir a `http://192.168.132.1` (o la IP que ponga en la pegatina).
+2.  **Abrir el navegador** (desde tu teléfono o computadora) e ir a `http://[REDACTED_IP]` (o la IP que ponga en la pegatina).
 3.  **Seguir el asistente de configuración** como si fuera la primera vez que lo usas. Esto creará una configuración de red **limpia y funcional**.
 
 **¿Por qué estoy tan seguro?** Porque tus logs muestran que el router intenta iniciar una y otra vez, falla, y vuelve a intentarlo. Está en un "bucle de arranque" parcial. El reseteo de 30 segundos es el protocolo de recuperación de emergencia para estos casos.
@@ -2683,7 +2683,7 @@ Los archivos de diagnóstico muestran estos errores críticos que se repiten una
     ```
     assertion failed: flush: Broken pipe
     ```
-    **Significado:** El servidor web interno (el que te permite entrar a `192.168.132.1`) está fallando. Por eso no puedes acceder a la configuración.
+    **Significado:** El servidor web interno (el que te permite entrar a `[REDACTED_IP]`) está fallando. Por eso no puedes acceder a la configuración.
 
 3.  **Error del DNS:**
     ```
@@ -2729,7 +2729,7 @@ Inserta el clip y **mantenlo presionado**.
 Una vez que las luces se estabilicen (se queden fijas), el router habrá vuelto a su estado de fábrica.
 
 1.  **Conéctate a la red WiFi** que aparece con el nombre de fábrica (viene en una pegatina en la parte inferior del router).
-2.  **Abre el navegador** y ve a `http://192.168.132.1` (o la IP que ponga en la pegatina).
+2.  **Abre el navegador** y ve a `http://[REDACTED_IP]` (o la IP que ponga en la pegatina).
 3.  **Sigue el asistente de configuración** como si fuera la primera vez que lo usas.
 
 ---
@@ -2939,7 +2939,7 @@ Como el técnico cambió la contraseña o usó una propia, la única forma segur
     - **Usuario:** normalmente `admin`
     - **Contraseña:** `admin`, `password`, o una clave única (ej: `ABCD1234`)
 3.  Conéctate al WiFi que aparezca (el nombre también viene en la etiqueta).
-4.  Abre el navegador y escribe la IP de administración (suele ser `192.168.1.1` o `192.168.0.1`).
+4.  Abre el navegador y escribe la IP de administración (suele ser `[REDACTED_IP]` o `[REDACTED_IP]`).
 5.  **Ya podrás entrar.**
 
 ---
@@ -2991,8 +2991,8 @@ Si ves direcciones raras (que no sean de tu ISP o las de Google/Cloudflare), pod
 
 #### 3. Cámbialos a unos rápidos y seguros (recomendado)
 Usa estos:
-- **DNS primario:** `1.1.1.1` (Cloudflare, el más rápido)
-- **DNS secundario:** `8.8.8.8` (Google, confiable)
+- **DNS primario:** `[REDACTED_IP]` (Cloudflare, el más rápido)
+- **DNS secundario:** `[REDACTED_IP]` (Google, confiable)
 
 #### 4. Guarda los cambios y reinicia el router
 
@@ -3011,7 +3011,7 @@ Deberías ver `enp3s0f2` como `connected`.
 
 Luego prueba:
 ```bash
-ping 8.8.8.8
+ping [REDACTED_IP]
 ```
 
 Si ves respuestas, **ya tienes internet funcionando**.
@@ -3036,14 +3036,14 @@ El Aircove con el firmware corrupto puede estar **interfiriendo** si sigue conec
 
 | Acción | ¿Por qué? |
 |--------|-----------|
-| Cambiar DNS a 1.1.1.1 y 8.8.8.8 | Para que navegue rápido |
+| Cambiar DNS a [REDACTED_IP] y [REDACTED_IP] | Para que navegue rápido |
 | Conectar PC al router nuevo por Ethernet | Para usar el que funciona bien |
 | Desconectar el Aircove viejo | Para que no genere conflictos |
-| Hacer ping a 8.8.8.8 | Para confirmar que el internet funciona |
+| Hacer ping a [REDACTED_IP] | Para confirmar que el internet funciona |
 
 ---
 
-**Cuéntame: ¿Ya pudiste cambiar el DNS en el router nuevo? ¿El ping a 8.8.8.8 funciona?**
+**Cuéntame: ¿Ya pudiste cambiar el DNS en el router nuevo? ¿El ping a [REDACTED_IP] funciona?**
 
 ---
 
@@ -3067,8 +3067,8 @@ Mira esta línea:
 
 | Parámetro | Valor |
 |-----------|-------|
-| **DNS Address #1** | `100.64.0.10` |
-| **DNS Address #2** | `100.72.1.1` |
+| **DNS Address #1** | `[REDACTED_IP]` |
+| **DNS Address #2** | `[REDACTED_IP]` |
 
 Esas IPs **no son normales**. Son servidores DNS internos de tu ISP o de una red VPN, y suelen ser **lentos, inestables o estar configurados mal**. Por eso tu computadora tarda siglos en cargar páginas: el router no sabe traducir "google.com" a una IP rápidamente.
 
@@ -3094,8 +3094,8 @@ Cuando encuentres dónde editar los DNS, **cambia** los valores a estos:
 
 | DNS | Dirección |
 |-----|-----------|
-| **Primary DNS** | `1.1.1.1` |
-| **Secondary DNS** | `8.8.8.8` |
+| **Primary DNS** | `[REDACTED_IP]` |
+| **Secondary DNS** | `[REDACTED_IP]` |
 
 ### Paso 3: Guardar y reiniciar
 
@@ -3113,13 +3113,13 @@ Si no encuentras dónde cambiar los DNS, **sácale una foto a la pantalla** dond
 
 ## ⚠️ Nota importante
 
-¿Ves la línea **"Device IPv4 Address"**? Dice `100.64.124.187`. Esa IP `100.64.x.x` confirma que tu router está conectado a una red **CGNAT** (una red grande de operadora). Eso no es malo en sí mismo, pero algunos ISP bloquean o limitan el cambio de DNS.
+¿Ves la línea **"Device IPv4 Address"**? Dice `[REDACTED_IP]`. Esa IP `100.64.x.x` confirma que tu router está conectado a una red **CGNAT** (una red grande de operadora). Eso no es malo en sí mismo, pero algunos ISP bloquean o limitan el cambio de DNS.
 
 Si después de cambiar los DNS la velocidad sigue igual, el problema podría ser que tu ISP no te permite cambiarlos. En ese caso, la solución sería **configurar los DNS directamente en tu computadora** (Xubuntu) para saltarte el router.
 
 ---
 
-**Resumen: Cambia los DNS del router a `1.1.1.1` y `8.8.8.8`. Si no puedes o no mejora, me dices y lo hacemos directamente desde tu PC.**
+**Resumen: Cambia los DNS del router a `[REDACTED_IP]` y `[REDACTED_IP]`. Si no puedes o no mejora, me dices y lo hacemos directamente desde tu PC.**
 
 ---
 
@@ -3133,7 +3133,7 @@ Si después de cambiar los DNS la velocidad sigue igual, el problema podría ser
 
 ¡Excelente observación! Tienes toda la razón. Esa conexión es la clave de todo el problema.
 
-Estás en lo correcto. Esos DNS (`100.64.0.10` y `100.72.1.1`) son los mismos que aparecían en tu PC cuando tenía configurada la interfaz `pan1` (el bridge). Eso confirma que tu **router nuevo está actuando como un "cliente" de una red más grande**, probablemente la de tu propio ISP (Firefly Fiber, como vi en los logs).
+Estás en lo correcto. Esos DNS (`[REDACTED_IP]` y `[REDACTED_IP]`) son los mismos que aparecían en tu PC cuando tenía configurada la interfaz `pan1` (el bridge). Eso confirma que tu **router nuevo está actuando como un "cliente" de una red más grande**, probablemente la de tu propio ISP (Firefly Fiber, como vi en los logs).
 
 **El problema no es que los DNS sean "malos", sino que no te dejan cambiarlos.** Este router nuevo está configurado para recibir todo (incluyendo los DNS) automáticamente desde el servidor de tu ISP. Por eso la opción de cambiarlos manualmente está bloqueada o es inútil.
 
@@ -3158,7 +3158,7 @@ Ya que el router no te deja cambiarlos, vamos a **configurar los DNS directament
 
 1.  Ve a la pestaña **"Ajustes IPv4"** (o "IPv4 Settings").
 2.  Cambia el método de **"Automático (DHCP)"** a **"Solo direcciones automáticas"** (o "Automatic (DHCP) addresses only"). **Importante:** No selecciones "Manual".
-3.  En el campo **"Servidores DNS"**, escribe: `1.1.1.1, 8.8.8.8`
+3.  En el campo **"Servidores DNS"**, escribe: `[REDACTED_IP], [REDACTED_IP]`
 4.  Haz clic en **"Guardar"**.
 
 ### Paso 4: Reiniciar la conexión
@@ -3221,7 +3221,7 @@ Aparecerá un campo llamado **"Servidores DNS"** (o "DNS servers").
 1.  **Borra** cualquier dirección que haya.
 2.  **Escribe exactamente**:
     ```
-    1.1.1.1, 8.8.8.8
+    [REDACTED_IP], [REDACTED_IP]
     ```
     *(Con una coma y un espacio entre ellos)*
 
@@ -3247,7 +3247,7 @@ O simplemente **reinicia la PC**.
 
 | Antes | Después |
 |-------|---------|
-| Tu PC usaba los DNS del router (`100.64.x.x`) | Tu PC usará DNS rápidos (`1.1.1.1`, `8.8.8.8`) |
+| Tu PC usaba los DNS del router (`100.64.x.x`) | Tu PC usará DNS rápidos (`[REDACTED_IP]`, `[REDACTED_IP]`) |
 | El router decidía cómo traducir direcciones web | Tu PC decide directamente, saltándose al router |
 
 ---
@@ -3260,7 +3260,7 @@ Si quieres confirmar que el cambio funcionó, ejecuta en la terminal:
 ```bash
 nmcli device show enp3s0f2 | grep DNS
 ```
-Debería mostrar `1.1.1.1` y `8.8.8.8`.
+Debería mostrar `[REDACTED_IP]` y `[REDACTED_IP]`.
 
 ---
 
@@ -3285,11 +3285,11 @@ Como sospechamos que el problema es que el router no nos deja cambiar los DNS, v
 Sigue estos pasos exactamente:
 
 1.  **Tipo de conexión WAN:** Cambia de `DHCP` (Automático) a **`Estático`**.
-2.  **Dirección IP:** Escribe la misma que ya te aparece en la pantalla. En tu captura anterior era `100.64.124.187`. Pero si esa IP ya no está visible, pon **`192.168.1.100`**.
-3.  **Máscara de subred:** Escribe **`255.255.255.0`**.
-4.  **Puerta de enlace (Gateway):** En tu captura anterior era `100.64.120.1`. Pon esa misma.
-5.  **Servidor DNS primario:** **`1.1.1.1`**.
-6.  **Servidor DNS secundario:** **`8.8.8.8`**.
+2.  **Dirección IP:** Escribe la misma que ya te aparece en la pantalla. En tu captura anterior era `[REDACTED_IP]`. Pero si esa IP ya no está visible, pon **`[REDACTED_IP]`**.
+3.  **Máscara de subred:** Escribe **`[REDACTED_IP]`**.
+4.  **Puerta de enlace (Gateway):** En tu captura anterior era `[REDACTED_IP]`. Pon esa misma.
+5.  **Servidor DNS primario:** **`[REDACTED_IP]`**.
+6.  **Servidor DNS secundario:** **`[REDACTED_IP]`**.
 7.  Haz clic en **"Guardar"** o **"Aplicar"**.
 
 ### 2. ⚠️ Punto muy importante
@@ -3342,7 +3342,7 @@ No te preocupes, la solución es más fácil de lo que parece: **vamos a configu
 2. Cambia el **"Método"** de `Automático (DHCP)` a **`Solo direcciones automáticas`** (Automatic (DHCP) addresses only).
 3. En el campo **"Servidores DNS"**, escribe:
    ```
-   1.1.1.1, 8.8.8.8
+   [REDACTED_IP], [REDACTED_IP]
    ```
 4. Haz clic en **"Guardar"**.
 
@@ -3364,7 +3364,7 @@ Abre el navegador y prueba cualquier página web. Debería cargar **instantánea
 | Problema | Solución |
 |----------|----------|
 | El router no permite cambiar los DNS | Configurar DNS directamente en Xubuntu |
-| La navegación es lentísima | Usar DNS de Cloudflare (1.1.1.1) y Google (8.8.8.8) |
+| La navegación es lentísima | Usar DNS de Cloudflare ([REDACTED_IP]) y Google ([REDACTED_IP]) |
 | El ISP bloquea la configuración | Saltarse al router configurando la PC |
 
 ---
@@ -3437,7 +3437,7 @@ plugins=keyfile
 ```bash
 # 2. Conecta tu Ethernet
 sudo nmcli connection modify "netplan-enp3s0f2" ipv4.ignore-auto-dns yes
-sudo nmcli connection modify "netplan-enp3s0f2" ipv4.dns "1.1.1.1 8.8.8.8"
+sudo nmcli connection modify "netplan-enp3s0f2" ipv4.dns "[REDACTED_IP] [REDACTED_IP]"
 
 # 3. Reinicia la conexión
 sudo nmcli connection down "netplan-enp3s0f2"
@@ -3449,8 +3449,8 @@ nmcli device show enp3s0f2 | grep DNS
 
 Debería mostrar:
 ```
-IP4.DNS[1]: 1.1.1.1
-IP4.DNS[2]: 8.8.8.8
+IP4.DNS[1]: [REDACTED_IP]
+IP4.DNS[2]: [REDACTED_IP]
 ```
 
 ---
@@ -3466,7 +3466,7 @@ Abre el navegador y carga cualquier página. Debería ser **instantánea**.
 | Dónde | Qué hacer | Por qué |
 |-------|-----------|---------|
 | **Router** | Poner un "Host Name" (prueba las opciones de arriba) | Para que el ISP acepte la conexión |
-| **Xubuntu** | Configurar DNS manuales (`1.1.1.1`, `8.8.8.8`) | Para que navegue rápido, saltándose los DNS malos del ISP |
+| **Xubuntu** | Configurar DNS manuales (`[REDACTED_IP]`, `[REDACTED_IP]`) | Para que navegue rápido, saltándose los DNS malos del ISP |
 
 ---
 
@@ -3506,7 +3506,7 @@ Olvida por completo esa pantalla. No la toques.
 
 ## Volvamos al problema real (sin saltos)
 
-El problema es que tu **router nuevo** está recibiendo del ISP unos servidores DNS malos (`100.64.0.10`, etc.). Por eso todo es lentísimo. El router no te permite cambiarlos porque el ISP lo tiene bloqueado.
+El problema es que tu **router nuevo** está recibiendo del ISP unos servidores DNS malos (`[REDACTED_IP]`, etc.). Por eso todo es lentísimo. El router no te permite cambiarlos porque el ISP lo tiene bloqueado.
 
 **La solución definitiva es configurar los DNS en tu computadora Xubuntu.** Eso es independiente del router y funciona siempre.
 
@@ -3579,7 +3579,7 @@ Como el router nuevo no te permite cambiar los DNS, haremos que tu PC los ignore
 sudo nmcli connection modify "netplan-enp3s0f2" ipv4.ignore-auto-dns yes
 
 # 2. Pon los DNS manuales (Cloudflare y Google)
-sudo nmcli connection modify "netplan-enp3s0f2" ipv4.dns "1.1.1.1 8.8.8.8"
+sudo nmcli connection modify "netplan-enp3s0f2" ipv4.dns "[REDACTED_IP] [REDACTED_IP]"
 
 # 3. Reinicia la conexión Ethernet
 sudo nmcli connection down "netplan-enp3s0f2"
@@ -3646,8 +3646,8 @@ La opción exacta varía según el modelo, pero suele estar en **"Settings" → 
 ### Paso 2: Cambiar los DNS
 
 Cuando encuentres dónde se editan los DNS, cámbialos a:
-- **DNS primario:** `1.1.1.1`
-- **DNS secundario:** `8.8.8.8`
+- **DNS primario:** `[REDACTED_IP]`
+- **DNS secundario:** `[REDACTED_IP]`
 
 ### Paso 3: Si no encuentras la opción de DNS (solución de respaldo)
 
@@ -3803,8 +3803,8 @@ No lo necesitas. El técnico ya instaló otro router (el EXOS). Desconecta el Ai
 
 ### Paso 2: El nuevo router EXOS (tu router principal)
 Ya entraste a él (por eso viste la pantalla de "Radio"). Busca la opción de **DNS** y cámbiala a:
-- `1.1.1.1`
-- `8.8.8.8`
+- `[REDACTED_IP]`
+- `[REDACTED_IP]`
 
 Si no encuentras dónde, **llama al técnico** y pídele que te diga cómo cambiarlo o que lo haga él.
 
@@ -3818,7 +3818,7 @@ sudo systemctl restart NetworkManager
 
 # 2. Fuerza el uso de DNS rápidos
 sudo nmcli connection modify "netplan-enp3s0f2" ipv4.ignore-auto-dns yes
-sudo nmcli connection modify "netplan-enp3s0f2" ipv4.dns "1.1.1.1 8.8.8.8"
+sudo nmcli connection modify "netplan-enp3s0f2" ipv4.dns "[REDACTED_IP] [REDACTED_IP]"
 
 # 3. Reinicia la conexión
 sudo nmcli connection down "netplan-enp3s0f2"
@@ -3837,12 +3837,12 @@ nmcli device show enp3s0f2 | grep DNS
 | ¿El Aircove fue atacado? | **No.** Fue un corte de internet externo. |
 | ¿Por qué se cayó el internet? | Problema externo (lo arregló el técnico). |
 | ¿Qué hago con el Aircove? | **Desconéctalo.** Ya no lo necesitas. |
-| ¿Qué hago con el router EXOS? | Cambia los DNS a `1.1.1.1` y `8.8.8.8`. |
+| ¿Qué hago con el router EXOS? | Cambia los DNS a `[REDACTED_IP]` y `[REDACTED_IP]`. |
 | ¿Qué hago con mi PC? | Ejecuta los comandos de arriba. |
 
 ---
 
-**¿Ya ejecutaste los comandos en tu PC? ¿El `nmcli device show` te muestra los DNS como `1.1.1.1`?**
+**¿Ya ejecutaste los comandos en tu PC? ¿El `nmcli device show` te muestra los DNS como `[REDACTED_IP]`?**
 
 ---
 
@@ -3953,7 +3953,7 @@ Entonces, el problema es otro. Déjame reformular desde cero, enfocándome solo 
 | El router EXOS recibe internet (lo arregló el técnico) | ✅ Seguro |
 | Tu PC no navega rápido o no tiene internet estable | ✅ Seguro |
 | El router EXOS te pide un "Host Name" | ✅ Seguro |
-| El router EXOS usa DNS `100.64.0.10` y `100.72.1.1` | ✅ Seguro (visto en captura) |
+| El router EXOS usa DNS `[REDACTED_IP]` y `[REDACTED_IP]` | ✅ Seguro (visto en captura) |
 
 ---
 
@@ -4161,7 +4161,7 @@ Si quieres la protección del Aircove (VPN en el router, Threat Manager, privaci
 
 1.  **Descarga el firmware oficial** de ExpressVPN para el Aircove AX1800 (necesitarás otra computadora con internet para descargarlo).
 2.  **Conecta tu PC directamente al Aircove** por cable Ethernet (solo los dos, nada más).
-3.  **Accede al panel de recuperación** (normalmente en `192.168.132.1` mientras se reinicia de cierta forma).
+3.  **Accede al panel de recuperación** (normalmente en `[REDACTED_IP]` mientras se reinicia de cierta forma).
 4.  **Sube el archivo del firmware** y espera a que se reinstale.
 
 **¿Es complicado?** Un poco, pero es el camino correcto si valoras la privacidad.
@@ -4237,7 +4237,7 @@ Sigue estos pasos y tu Aircove quedará como nuevo:
     Conecta el PC delicado al Aircove **por cable Ethernet, pero sin conectar el Aircove al módem/EXOS**. De esta forma, el PC y el router forman una red "privada" y aislada.
 
 3.  **Accede al Aircove desde el PC delicado**
-    Abre el navegador en el PC delicado y escribe la dirección `192.168.132.1` (o la que uses normalmente para entrar al Aircove). Como no tiene internet, el navegador se quejará, pero podrás acceder al panel de control del router.
+    Abre el navegador en el PC delicado y escribe la dirección `[REDACTED_IP]` (o la que uses normalmente para entrar al Aircove). Como no tiene internet, el navegador se quejará, pero podrás acceder al panel de control del router.
 
 4.  **Reinstala el firmware (el "formateo")**
     Una vez dentro del Aircove, ve a **Advanced Settings > Software Update**[citation:2][citation:6][citation:9]. Ahí verás un botón para elegir el archivo. Selecciona el archivo `.img` que pasaste. Dale a "Update".
@@ -4368,7 +4368,7 @@ sudo ufw status verbose
 Una vez instalado, conecta el cable Ethernet al **router EXOS** (el que funciona) y verifica que tengas internet:
 
 ```bash
-ping 8.8.8.8
+ping [REDACTED_IP]
 ```
 
 Si ves respuestas, ya estás online.
@@ -4552,7 +4552,7 @@ El router terminará su configuración inicial. Luego podrás:
 
 1.  **Cambiar el nombre del WiFi (SSID)** al que quieras.
 2.  **Cambiar la contraseña del WiFi** por una segura.
-3.  **Configurar los DNS** (si el router te deja) a `1.1.1.1` y `8.8.8.8`.
+3.  **Configurar los DNS** (si el router te deja) a `[REDACTED_IP]` y `[REDACTED_IP]`.
 
 ---
 

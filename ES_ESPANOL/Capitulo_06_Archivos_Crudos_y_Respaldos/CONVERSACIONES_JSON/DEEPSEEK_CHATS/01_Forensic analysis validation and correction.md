@@ -12933,7 +12933,7 @@ Leyendo la información de estado... Hecho
 Nota, seleccionando «libimage-exiftool-perl» en lugar de «exiftool»
 qpdf ya está en su versión más reciente (11.9.0-1.1ubuntu0.1).
 poppler-utils ya está en su versión más reciente (24.02.0-1ubuntu9.8).
-imagemagick ya está en su versión más reciente (8:6.9.12.98+dfsg1-5.2ubuntu0.1~esm9).
+imagemagick ya está en su versión más reciente (8:[REDACTED_IP]+dfsg1-5.2ubuntu0.1~esm9).
 libimage-exiftool-perl ya está en su versión más reciente (12.76+dfsg-1).
 Los paquetes indicados a continuación se instalaron de forma automática y ya no son necesarios.
   byzanz dde-qt5integration libdframeworkdbus2 libdtkcommon libdtkcore5 libdtkgui5 libdtkwidget5
@@ -12947,8 +12947,8 @@ Receiving objects: 100% (1605/1605), 1.01 MiB | 901.00 KiB/s, done.
 Resolving deltas: 100% (1108/1108), done.
 python3: can't open file '/tmp/peepdf/setup.py': [Errno 2] No such file or directory
 --2026-06-06 12:41:21--  https://didierstevens.com/files/software/pdfid_v0_2_8.zip
-Resolving didierstevens.com (didierstevens.com)... 148.113.201.69
-Connecting to didierstevens.com (didierstevens.com)|148.113.201.69|:443... connected.
+Resolving didierstevens.com (didierstevens.com)... [REDACTED_IP]
+Connecting to didierstevens.com (didierstevens.com)|[REDACTED_IP]|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 11844 (12K) [application/zip]
 Saving to: ‘pdfid_v0_2_8.zip’
@@ -13622,8 +13622,8 @@ done
 
 Docker version 29.1.3, build 29.1.3-0ubuntu3~24.04.2
 4: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
-    link/ether 26:6a:76:f7:8e:5b brd ff:ff:ff:ff:ff:ff
-    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+    link/ether [REDACTED_MAC] brd [REDACTED_MAC]
+    inet [REDACTED_IP]/16 brd [REDACTED_IP] scope global docker0
        valid_lft forever preferred_lft forever
 
 ---

@@ -51,9 +51,8 @@ Para que cualquier ciudadano o auditor pueda descargar los archivos y probar nue
 ## 🧩 SINERGIA DE INVESTIGACIÓN COMPLEMENTARIA
 Este trabajo se integra y complementa de forma directa con la investigación pericial liderada por **Leonilda Viera** (*[Libro Judicial Digital - FITE](https://fite-libro-judicial-lectura-20260806.leonilda-viera.chatgpt.site/)*):
 
-* 🛠️ **Leonilda Viera ("El Cómo"):** Descubrió el mecanismo técnico de forjamiento, la arquitectura de capas vectoriales ocultas y la inyección sintética en la estructura PDF.
-* 📍 **Andrea Zabala Cárcamo ("El Dónde"):** Identificó la ubicación geográfica exacta de la anomalía, el comportamiento de los consulados y la distorsión estadística cuantitativa (Ley de Benford).
-
+* 🛠️ **Leonilda Viera:** Autora de una investigación independiente; nos remitimos a sus hallazgos como referente complementario a los expuestos en este acervo.
+* 📍 **Andrea Zabala Cárcamo:** Autora de este repositorio. Identificó la ubicación geográfica exacta de la anomalía, el comportamiento estadístico atípico (Ley de Benford (2do dígito - Mebane)) y desarrolló los peritajes forenses documentados aquí.
 
 ## ⚖️ Principios de Cadena de Custodia y Preservación (Chain of Custody)
 - **Principio de Solo Lectura:** Todo el análisis criptográfico y la metrología se realizaron sobre copias exactas en un entorno "Cold Case" aislado (RFC 3227 / ISO 27037).

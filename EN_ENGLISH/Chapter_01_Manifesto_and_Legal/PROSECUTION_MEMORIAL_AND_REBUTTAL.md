@@ -26,9 +26,9 @@ This logically proves that **both were generated from the same synthetic digital
 **Defense Argument:** The hash changed due to an overnight OCR process.
 **Investigator Rebuttal:** A standard Optical Character Recognition (OCR) process or a digital signature adds layers without corrupting the base architecture. The massive alteration of the XREF table indicates a **complete structural re-packaging** of the file, which is incompatible with the behavior of a simple OCR or timestamp.
 
-### 5. Mathematical Validity of Benford's Law
-**Defense Argument:** Benford's Law does not apply due to maximum voter caps per table.
-**Investigator Rebuttal:** Global statistical jurisprudence applies Benford's Law in capped elections. The limit (e.g., 400 voters) moderates the curve, it does not generate artificial erratic peaks. We have demonstrated an **extreme and impossible deviation** (F=31.8 σ=2.5) in digit 2, with a random probability of **p<0.0001**, and **proven at the national level**. It is not demographic variance; it is the immutable digital footprint of an injection algorithm that assigned prefabricated results.
+### 5. Mathematical Validity of Benford's Law (2nd Digit - Mebane)
+**Defense Argument:** Benford's Law (2nd Digit - Mebane) does not apply due to maximum voter caps per table.
+**Investigator Rebuttal:** Global statistical jurisprudence applies Benford's Law (2nd Digit - Mebane) in capped elections. The limit (e.g., 400 voters) moderates the curve, it does not generate artificial erratic peaks. We have demonstrated an **extreme and impossible deviation** (F=31.8 σ=2.5) in digit 2, with a random probability of **p<0.0001**, and **proven at the national level**. It is not demographic variance; it is the immutable digital footprint of an injection algorithm that assigned prefabricated results.
 
 ### 6. Denial of "Batch Processing"
 **Defense Argument:** Uploading files from Tuesday to Saturday is standard "batch processing".

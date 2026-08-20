@@ -33,7 +33,7 @@ The investigation was based on the correlation of 10 unavoidable forensic vector
 | **4** | **"BlindMasking" Technique (Template B)** | Specific to Tuesday to Saturday | ImageMagick | Use of `DeviceGray` masks (pure digital white, mean 65535) to obfuscate the original document and overwrite election data. |
 | **5** | Hybrid PDFs (Cloning) | Claveros vs Delegados files | ImageMagick / pdfinfo | Anomalous mix of Color (USB) and Black/White (Web) files that share the exact same injection damage. |
 | **6** | Post-Publication Modification | 30/30 analyzed minutes | sha256sum | Confirmed cryptographic alteration of the files after their initial publication. |
-| **7** | "Mathematical Ironing" (Benford's Law) | National and Local Analysis (Acacias) | Python (2BL Test) | Impossible statistical deviation: F=31.8 σ=2.5 vs expected 8-12, p<0.0001 (Overfrequency in digit 2). |
+| **7** | "Mathematical Ironing" (Benford's Law (2nd Digit - Mebane)) | National and Local Analysis (Acacias) | Python (2BL Test) | Impossible statistical deviation: F=31.8 σ=2.5 vs expected 8-12, p<0.0001 (Overfrequency in digit 2). |
 | **8** | Statistical Discrepancy (Business Days) | National Analysis | Z-Test (Z=8.47) | Anomalies injected with a business days bias, p<0.000000000001. |
 | **9** | Intercontinental Correlation | USA + Spain + Colombia | Forensic Comparison | The cryptographic and mask injection pattern is identical across 3 distinct jurisdictions, proving centralized execution. |
 | **10** | QR Code Structural Alteration | Meta Folder (Delegados files) | bash / pdfimages | The QR code distribution was artificially altered in "Template B", concentrating 80% in an anomalous block (injection in the `/Contents` stream). |
@@ -76,7 +76,7 @@ The forensic methodology applied in this investigation is supported by the follo
 - **Chain of Custody Standard (RFC 3227 / ISO 27037):** Strict application of the **Read-Only Principle**. All metrology, binary extraction, and obfuscation analysis were executed strictly on cryptographic copies (bit-by-bit clones) to ensure the immaculate preservation of the original evidence downloaded from the servers.
 - **PDF Standard / XREF Corruption:** *ISO 32000-1:2008 (Document management — Portable document format)*. Defines the mandatory structure of the cross-reference table (XREF) and the object stream (`/Contents`).
 - **Cryptographic Analysis (Hashes):** *NIST Federal Information Processing Standards (FIPS 180-4)*. Security Standard for Secure Hash Functions (SHA-256).
-- **Statistical Metrology (Mathematical Ironing):** Nigrini, M. J. (2012). *Benford's Law: Applications for Forensic Accounting, Auditing, and Fraud Detection*. John Wiley & Sons.
+- **Statistical Metrology (Mathematical Ironing):** Nigrini, M. J. (2012). *Benford's Law (2nd Digit - Mebane): Applications for Forensic Accounting, Auditing, and Fraud Detection*. John Wiley & Sons.
 - **Forensic Validation Tools:** Technical documentation for `qpdf` (structural manipulation), `peepdf` (PDF malware obfuscation analysis), and `ImageMagick` (pixel metrology and extraction of `DeviceGray` masks for the BlindMasking technique).
 
 ---

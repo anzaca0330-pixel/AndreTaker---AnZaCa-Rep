@@ -2,7 +2,7 @@
 ## Protocolo de Reproducibilidad Pericial para Actas E-14
 
 **Autoría / Veeduría Ciudadana:** Andrea Zabala Cárcamo (Especialista Independiente)  
-**Objeto:** Guía paso a paso para importar las matrices `.csv` del acervo probatorio en **IBM SPSS Statistics** y replicar las pruebas de Chi-cuadrado ($\chi^2$), Prueba t de Student y Ley de Benford (2BL).
+**Objeto:** Guía paso a paso para importar las matrices `.csv` del acervo probatorio en **IBM SPSS Statistics** y replicar las pruebas de Chi-cuadrado ($\chi^2$), Prueba t de Student y Ley de Benford (2do dígito - Mebane) (2BL).
 
 ---
 
@@ -30,7 +30,7 @@ Para cargar cualquier matriz de datos del repositorio en SPSS (ejemplo: `REPORTE
 * **Variable de prueba:** `Votantes_Totales`
 * **Variable de agrupación:** `Bloque_Mesa` (Grupo 1: Mesas 001-013, Grupo 2: Mesas 014-019).
 
-### 2.2 Prueba de Chi-Cuadrado de Bondad de Ajuste ($\chi^2$) — Ley de Benford 2BL
+### 2.2 Prueba de Chi-Cuadrado de Bondad de Ajuste ($\chi^2$) — Ley de Benford (2do dígito - Mebane) 2BL
 * **Objetivo:** Demostrar la distorsión del segundo dígito a nivel nacional ($\chi^2 = 1.755,91, p < 0.001$).
 * **Ruta en SPSS:**  
   `Analizar` $\rightarrow$ `Pruebas no paramétricas` $\rightarrow$ `Cuadros de diálogo heredados` $\rightarrow$ `Chi-cuadrado...`

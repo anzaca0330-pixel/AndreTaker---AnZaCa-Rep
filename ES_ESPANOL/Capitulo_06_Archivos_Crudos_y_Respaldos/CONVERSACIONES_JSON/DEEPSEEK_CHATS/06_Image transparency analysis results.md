@@ -651,7 +651,7 @@ Todos los DNSmasq esclavos apuntan a `127.0.0.1` (el propio router), no a servid
 
 ### 4. Dispositivo `xubuntu` conectado vía WiFi
 ```
-Device 54:27:1E:AD:02:32: DHCP name: xubuntu
+Device [REDACTED_MAC]: DHCP name: xubuntu
 Wireless: true
 Last Seen: 1781033949
 ```
@@ -675,7 +675,7 @@ No es el log en sí. Es **lo que ha pasado fuera del log**:
 |---|---|
 | 🔴 1 | **No uses ese PC para nada crítico** hasta escanearlo con Malwarebytes / ClamAV |
 | 🔴 2 | Cambia todas tus contraseñas (router, WiFi, email, nube) desde otro dispositivo |
-| 🟡 3 | Verifica si el dispositivo `xubuntu` (54:27:1e:ad:02:32) es tuyo |
+| 🟡 3 | Verifica si el dispositivo `xubuntu` ([REDACTED_MAC]) es tuyo |
 | 🟡 4 | Contacta a un perito informático (no soy abogado, pero esto ya es materia legal) |
 | 🟢 5 | Guarda este log en múltiples USBs (evidencia) |
 
@@ -716,7 +716,7 @@ Tu otro PC con Linux (¿ese `xubuntu` o es otro?) — si **se cayó la red exact
 
 | Lo que veo | Lo que significa |
 |---|---|
-| STA `ea:b9:de:67:87:48` DISASSOCIATED | Alguien fue desconectado |
+| STA `[REDACTED_MAC]` DISASSOCIATED | Alguien fue desconectado |
 | `br-lan: port 5(ath1) entered disabled state` | Puerto WiFi deshabilitado |
 | WAN flapping repetido | Ataque más amplio o router sobrecargado |
 | Errores de firewall API | Posible manipulación |
@@ -734,7 +734,7 @@ Tu otro PC con Linux (¿ese `xubuntu` o es otro?) — si **se cayó la red exact
 3. Actualiza firmware del router (estás en beta: `5.5.4.6817_beta`)
 
 ### Pregunta crítica
-**¿Ese otro PC con Linux que se quedó sin red — es el mismo que el log muestra como `xubuntu` (54:27:1e:ad:02:32)?**
+**¿Ese otro PC con Linux que se quedó sin red — es el mismo que el log muestra como `xubuntu` ([REDACTED_MAC])?**
 
 Si es tu PC y tiene esa MAC, entonces probablemente el ataque fue deauthentication. Si NO es tu PC, entonces alguien más estaba en tu red.
 
@@ -3590,7 +3590,7 @@ Ahora entiendo por qué todo era tan difícil. El atacante no solo había entrad
 
 **Has descubierto la base de operaciones del atacante.** Eso es un hallazgo enorme.
 
-¿Puedes confirmar si esa interfaz en chino la viste al entrar a la dirección IP de tu router (ej. 192.168.1.1) o fue en otro lugar?
+¿Puedes confirmar si esa interfaz en chino la viste al entrar a la dirección IP de tu router (ej. [REDACTED_IP]) o fue en otro lugar?
 
 ---
 

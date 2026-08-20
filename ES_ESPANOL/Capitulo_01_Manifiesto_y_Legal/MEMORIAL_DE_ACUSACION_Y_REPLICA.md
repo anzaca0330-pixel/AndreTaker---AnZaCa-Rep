@@ -26,9 +26,9 @@ Esto prueba lógicamente que **ambos fueron generados a partir de una misma plan
 **Argumento de la Defensa:** El hash cambió por un proceso de OCR nocturno.
 **Refutación Pericial:** Un proceso de reconocimiento óptico (OCR) estándar o una firma digital agrega capas sin corromper la arquitectura base. La alteración masiva de la tabla XREF indica una **re-empaquetación estructural completa** del archivo, lo cual es incompatible con el comportamiento de un simple OCR o sello de tiempo.
 
-### 5. Vigencia Matemática de la Ley de Benford
-**Argumento de la Defensa:** La Ley de Benford no aplica por los topes máximos de votantes por mesa.
-**Refutación Pericial:** La jurisprudencia estadística global aplica la Ley de Benford en elecciones con topes. El límite (ej. 400 votantes) modera la curva, no genera picos erráticos artificiales. Hemos demostrado una **desviación extrema e imposible** (F=31.8 σ=2.5) en el dígito 2, con probabilidad aleatoria de **p<0.0001**, y **comprobado a nivel nacional**. No es varianza demográfica; es la huella digital inmutable de un algoritmo de inyección que asignó resultados prefabricados.
+### 5. Vigencia Matemática de la Ley de Benford (2do dígito - Mebane)
+**Argumento de la Defensa:** La Ley de Benford (2do dígito - Mebane) no aplica por los topes máximos de votantes por mesa.
+**Refutación Pericial:** La jurisprudencia estadística global aplica la Ley de Benford (2do dígito - Mebane) en elecciones con topes. El límite (ej. 400 votantes) modera la curva, no genera picos erráticos artificiales. Hemos demostrado una **desviación extrema e imposible** (F=31.8 σ=2.5) en el dígito 2, con probabilidad aleatoria de **p<0.0001**, y **comprobado a nivel nacional**. No es varianza demográfica; es la huella digital inmutable de un algoritmo de inyección que asignó resultados prefabricados.
 
 ### 6. Desmentido del "Batch Processing"
 **Argumento de la Defensa:** Subir archivos de martes a sábado es "proceso por lotes" estándar.

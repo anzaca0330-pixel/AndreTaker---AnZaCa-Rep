@@ -13,7 +13,7 @@ A continuación, se exponen los tres hallazgos técnicos principales:
 
 Imagina que lanzas un dado mil veces. Es imposible que te salga el número "5" quinientas veces seguidas. La estadística natural es impredecible.
 
-Sin embargo, al analizar los resultados de las mesas a nivel nacional, descubrimos que **se inyectaron exactamente 161 votos fijos** a favor de un mismo candidato en **451 mesas distintas**, ubicadas a cientos de kilómetros de distancia unas de otras. Esto rompió una ley matemática llamada "Ley de Benford", que sirve para detectar fraudes financieros. Los números no fueron producto de la decisión de la gente; fueron producto de un algoritmo informático de "copiar y pegar".
+Sin embargo, al analizar los resultados de las mesas a nivel nacional, descubrimos que **se inyectaron exactamente 161 votos fijos** a favor de un mismo candidato en **451 mesas distintas**, ubicadas a cientos de kilómetros de distancia unas de otras. Esto rompió una ley matemática llamada "Ley de Benford (2do dígito - Mebane)", que sirve para detectar fraudes financieros. Los números no fueron producto de la decisión de la gente; fueron producto de un algoritmo informático de "copiar y pegar".
 
 ---
 

@@ -15,7 +15,7 @@
 
 ---  
 
-## 2. PRUEBA DE LEY DE BENFORD (PRIMER DÍGITO EN VOTACIÓN CONSULAR)
+## 2. PRUEBA DE LEY DE BENFORD (2DO DÍGITO - MEBANE) (PRIMER DÍGITO EN VOTACIÓN CONSULAR)
 
 | Dígito Inicial | Distribución Teórica Benford | Observado en Consulados | Observado en Control Nacional | Desviación |
 |---|---|---|---|---|

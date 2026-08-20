@@ -6,8 +6,8 @@
 ## 1. Transparent Topology (July 9, 2026)
 
 During the forensic capture phase (Evidence: `.har` files and debugging console), requests to the official API `escrutinios2vueltapresidente2026.registraduria.gov.co` resolved to IP addresses managed by:
-- **AWS (Amazon Web Services):** IP `3.140.182.61` (Ohio, USA)
-- **Akamai Technologies:** IP `23.223.240.76` (Texas, USA)
+- **AWS (Amazon Web Services):** IP `[REDACTED_IP]` (Ohio, USA)
+- **Akamai Technologies:** IP `[REDACTED_IP]` (Texas, USA)
 
 On that date, the technical team initially concluded that routing through public CDNs and load balancers like AWS and Akamai constituted "normal and expected behavior" for high-demand portals. If the infrastructure had remained in this state, this technical conclusion would have held.
 
@@ -18,7 +18,7 @@ However, the subsequent behavior of the network sharply refutes the presumption 
 Subjecting the official domain to technical scrutiny today (ICMP Ping and HTTP traceability resolutions) reveals a drastic modification in routing:
 
 ```text
-PING ce5fd2294b3b2ab.cdd-ap.nexusguard.cloud (207.192.142.228) 56(84) bytes of data.
+PING ce5fd2294b3b2ab.cdd-ap.nexusguard.cloud ([REDACTED_IP]) 56(84) bytes of data.
 4 packets transmitted, 0 received, 100% packet loss, time 3086ms
 ```
 ```text
@@ -46,4 +46,4 @@ Despite the Nexusguard shield, rigorous analysis of the HTTP headers from the su
 *   **External Routing:** The header `x-amz-cf-pop: MIA50-P8` proves that, despite using a Colombian IP, the data is being served from a datacenter in Miami, Florida.
 *   **Storage (S3 Bucket):** The headers `x-amz-server-side-encryption: aws:kms` and `x-amz-version-id` are irrefutable proof that the final origin of the data is a version-controlled Amazon S3 Bucket.
 
-*(Internal audit note: The false positive of IP 1.0.1.1 has been excluded from this report, as it corresponds to the algorithmic version of the Cloudflare Bot Management script (`__cf_bm`), not a physical routing trace, thus protecting the absolute integrity of this ruling).*
+*(Internal audit note: The false positive of IP [REDACTED_IP] has been excluded from this report, as it corresponds to the algorithmic version of the Cloudflare Bot Management script (`__cf_bm`), not a physical routing trace, thus protecting the absolute integrity of this ruling).*

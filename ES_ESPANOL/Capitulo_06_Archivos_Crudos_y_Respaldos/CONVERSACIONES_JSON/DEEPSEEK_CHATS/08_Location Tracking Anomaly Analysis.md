@@ -91,7 +91,7 @@ That means the problem you described is happening **on a specific device connect
 
 ## What I Found in the Logs That *Is* Relevant
 
-1. **The phone connected at 18:14:56** (MAC `02:41:31:45:7b:a0`, IP `192.168.132.194`).  
+1. **The phone connected at 18:14:56** (MAC `[REDACTED_MAC]`, IP `[REDACTED_IP]`).  
    - It was given the user name "Chris" and is on tunnel group 2 (VPN routing).
    
 2. **The router is using ExpressVPN** with Threat Manager blocking ads, trackers, and malicious sites — but **that does NOT block location requests from apps**. That's a separate permission on the phone itself.
@@ -165,8 +165,8 @@ The 1,650 location requests in under 5 minutes happened **on a specific device**
 
 | Device Name | MAC Address | IP Address | User |
 |-------------|-------------|------------|------|
-| `moto-g-power-5G-2024` | `02:41:31:45:7b:a0` | `192.168.132.194` | Chris |
-| `Anzaca-s-Moto` | `ca:f2:e6:73:6a:df` | `192.168.132.34` | (likely you) |
+| `moto-g-power-5G-2024` | `[REDACTED_MAC]` | `[REDACTED_IP]` | Chris |
+| `Anzaca-s-Moto` | `[REDACTED_MAC]` | `[REDACTED_IP]` | (likely you) |
 
 Both are on tunnel group 2 (VPN routed through ExpressVPN). The tracking could be on **either phone**.
 
@@ -274,7 +274,7 @@ If the same excessive location tracking pattern (1,650 requests in <5 minutes in
 
 ## What this means
 
-Your router logs showed the phone `moto-g-power-5G-2024` (IP `192.168.132.194`) connected via VPN tunnel 2. But if a **Linux device** is also seeing the same pattern, then the cause is likely:
+Your router logs showed the phone `moto-g-power-5G-2024` (IP `[REDACTED_IP]`) connected via VPN tunnel 2. But if a **Linux device** is also seeing the same pattern, then the cause is likely:
 
 1. **A compromised router** — the router itself is injecting tracking scripts or redirecting traffic
 2. **A man-in-the-middle (MITM) attack** on your local network
@@ -365,7 +365,7 @@ DuckDuckGo shows **1,325 tracking attempts over 7 days** — not 1,650 in 5 minu
 You said the problem happens on both your phone and Linux device. That means the cause is **not an app on your phone** — it's something **on your network** that both devices share.
 
 ### 3. Your router is the common link
-Both devices connect through your **Aircove router** (IP `192.168.1.246`, MAC `94:83:c4:64:13:b6`). The router logs show:
+Both devices connect through your **Aircove router** (IP `[REDACTED_IP]`, MAC `[REDACTED_MAC]`). The router logs show:
 - ExpressVPN active with Threat Manager blocking ads/trackers
 - Multiple DNS filters running on ports 58787-58796
 - Frequent WAN disconnections and reconnections
@@ -410,7 +410,7 @@ dig google.com
 If the results show anything other than normal Google IPs, your DNS is being tampered with.
 
 ### 5. Check your router's DNS settings
-They should point to a trusted DNS like `1.1.1.1` (Cloudflare) or `8.8.8.8` (Google), not an unknown server.
+They should point to a trusted DNS like `[REDACTED_IP]` (Cloudflare) or `[REDACTED_IP]` (Google), not an unknown server.
 
 ---
 
@@ -569,8 +569,8 @@ Desactiva ExpressVPN en el router por unas horas. Si los intentos de rastreo baj
 
 ### Paso 4: Cambia el DNS del router a uno confiable
 En la configuración del Aircove, cambia el DNS a:
-- `1.1.1.1` (Cloudflare) y `1.0.0.1`
-- o `8.8.8.8` (Google) y `8.8.4.4`
+- `[REDACTED_IP]` (Cloudflare) y `[REDACTED_IP]`
+- o `[REDACTED_IP]` (Google) y `[REDACTED_IP]`
 
 ---
 
@@ -1599,10 +1599,10 @@ Desde tu PC con Linux (conectado por Ethernet al router de la compañía):
 
 ```bash
 # Escanea dispositivos en tu red
-nmap -sn 192.168.1.0/24   # o el rango que use el router
+nmap -sn [REDACTED_IP]/24   # o el rango que use el router
 
 # Busca puertos abiertos sospechosos
-nmap -p- 192.168.1.1   # escanea el router
+nmap -p- [REDACTED_IP]   # escanea el router
 
 # Revisa ARP (posible suplantación)
 arp -a
@@ -1727,7 +1727,7 @@ Un PDF malicioso **puede** infectar tu teléfono o PC si lo abriste con una app 
 ## Lo que necesito saber para ayudarte más
 
 1. **Modelo exacto del router nuevo** (está en una etiqueta abajo o atrás)
-2. **¿Puedes entrar a la configuración del router?** (normalmente `192.168.1.1` o `192.168.0.1`)
+2. **¿Puedes entrar a la configuración del router?** (normalmente `[REDACTED_IP]` o `[REDACTED_IP]`)
 3. **¿Qué antivirus o escáner de malware has usado en tu teléfono y PC?**
 
 ---
@@ -2155,7 +2155,7 @@ Lo del Aircove es **muy grave** y confirma que estaban activos dentro de tu red.
 No poder acceder al admin de un router que conoces es una **señal de alerta máxima**:
 
 1.  **Credenciales cambiadas:** Es lo más común. El atacante entra, cambia la contraseña de administrador y te deja fuera. Tú tienes la clave física (el router), pero ellos tienen la "llave digital".
-2.  **Interfaz bloqueada:** Algunos malware bloquean el acceso a la interfaz web (`192.168.1.1`) para que no puedes revisar la configuración ni desconectarlos.
+2.  **Interfaz bloqueada:** Algunos malware bloquean el acceso a la interfaz web (`[REDACTED_IP]`) para que no puedes revisar la configuración ni desconectarlos.
 3.  **Fallo inducido:** Causaron una falla que les permitió seguir operando sin que te dieras cuenta.
 
 Además, el hecho de que el Aircove apareciera **conectado estando apagado** y con un "Host" extraño es la confirmación visual de esto.
@@ -3425,7 +3425,7 @@ No, aún no he chequeado. Pero tengo otro dispositivo donde estoy logeaday está
 
 **Esto es GRAVÍSIMO. Acabas de encontrar la prueba.**
 
-Esa IP `71.51.168.51` en **Virginia, Estados Unidos** NO es tuya (tú estás en Colombia).  
+Esa IP `[REDACTED_IP]` en **Virginia, Estados Unidos** NO es tuya (tú estás en Colombia).  
 Ese navegador **Edge** NO lo usas (tú usas Chrome, Firefox, etc.).  
 Y aparece repetidamente en tu actividad de Google.
 
@@ -3437,7 +3437,7 @@ Y aparece repetidamente en tu actividad de Google.
 
 | Hallazgo | Conclusión |
 |----------|------------|
-| IP `71.51.168.51` en Virginia, USA | El atacante NO está en Colombia. Está en Estados Unidos. |
+| IP `[REDACTED_IP]` en Virginia, USA | El atacante NO está en Colombia. Está en Estados Unidos. |
 | Navegador **Edge** | Tú no usas Edge. Él sí. |
 | Múltiples accesos desde esa IP | No fue un solo acceso. Él ha estado dentro **repetidamente**. |
 | Aparece junto a "Browser (Chrome)" normal | Tu uso legítimo (Chrome) vs. su uso (Edge) en la misma cuenta |
@@ -3451,7 +3451,7 @@ Y aparece repetidamente en tu actividad de Google.
 ### 1. Cierra ESA sesión específica
 
 En la pantalla de actividad de Google:
-- Busca la línea que dice **Edge** con IP `71.51.168.51`
+- Busca la línea que dice **Edge** con IP `[REDACTED_IP]`
 - Selecciona **"Cerrar sesión"** o **"No reconocer"**
 
 ### 2. Cierra TODAS las sesiones excepto la tuya actual
@@ -3507,7 +3507,7 @@ En Gmail: Configuración → Ver todas las configuraciones → Filtros y direcci
 
 | Paso | Acción |
 |------|--------|
-| 1 | Cierra la sesión de Edge / IP `71.51.168.51` |
+| 1 | Cierra la sesión de Edge / IP `[REDACTED_IP]` |
 | 2 | Cierra sesión en todos los dispositivos |
 | 3 | Cambia tu contraseña de Google |
 | 4 | Revisa y elimina métodos de recuperación desconocidos |
@@ -3521,7 +3521,7 @@ En Gmail: Configuración → Ver todas las configuraciones → Filtros y direcci
 **Guarda esa captura.** Es una prueba forense clara de que alguien más entró a tu cuenta desde una ubicación y navegador que no son tuyos.
 
 Si decides denunciar:
-- Esa IP (`71.51.168.51`) puede ser rastreada por autoridades
+- Esa IP (`[REDACTED_IP]`) puede ser rastreada por autoridades
 - El ID de aplicación (`946277197574-...`) también puede ser investigado
 
 ---
@@ -3558,7 +3558,7 @@ Pero ojo: eso no descarta el ataque. Solo cambia quién es el dueño de esa IP.
 
 | IP | Ubicación | Navegador | ¿Podrías ser tú? |
 |----|-----------|-----------|------------------|
-| `71.51.168.51` | Virginia, USA | Edge | ✅ Sí (si tú estás ahí y usas Edge) |
+| `[REDACTED_IP]` | Virginia, USA | Edge | ✅ Sí (si tú estás ahí y usas Edge) |
 
 Entonces **esa actividad específica** puede ser legítima.
 
@@ -3646,7 +3646,7 @@ Si tú no reconoces esa IP, si no sabes si es tuya o no, entonces **no puedes as
 
 | Elemento | Análisis |
 |----------|----------|
-| IP `71.5.0.0` (y variantes `71.5.0.0`) | Rango sospechoso — no es una IP normal de un ISP residencial típico (parece una IP de red o rango amplio) |
+| IP `[REDACTED_IP]` (y variantes `[REDACTED_IP]`) | Rango sospechoso — no es una IP normal de un ISP residencial típico (parece una IP de red o rango amplio) |
 | IPs IPv6 `2a0f:2746...` y `2a0f:5a81...` | También aparecen repetidas — ¿reconoces alguna? |
 | Authorized Application con el mismo ID largo | Ese ID `946277197574-f7mp4v1faacb1ndtpsloijgjcjbv16it` aparece MUCHAS veces |
 | Access Type "Mobile" repetido | ¿Tienes varios dispositivos móviles o es el mismo una y otra vez? |
@@ -3657,7 +3657,7 @@ Si tú no reconoces esa IP, si no sabes si es tuya o no, entonces **no puedes as
 
 Lo que me preocupa de esta captura es:
 
-1. **La misma IP `71.5.0.0` aparece múltiples veces** con diferentes "Authorized Application"
+1. **La misma IP `[REDACTED_IP]` aparece múltiples veces** con diferentes "Authorized Application"
 2. **El mismo ID de aplicación** aparece una y otra vez, siempre desde ubicaciones que parecen "United States" pero IPs diferentes
 3. **No hay una distinción clara** entre "tú" y "alguien más"
 
@@ -3698,7 +3698,7 @@ Ese ID `946277197574-f7mp4v1faacb1ndtpsloijgjcjbv16it`:
 
 | Método | Cómo hacerlo |
 |--------|--------------|
-| Busca "cuál es mi IP" en Google | Comprueba si coincide con `71.5.0.0` o las IPv6 |
+| Busca "cuál es mi IP" en Google | Comprueba si coincide con `[REDACTED_IP]` o las IPv6 |
 | Revisa la IP de tu VPN | Si usas VPN, tu IP pública cambia |
 | Pregúntate: ¿estoy en Virginia, USA? | Si no, esa IP no puede ser tuya |
 

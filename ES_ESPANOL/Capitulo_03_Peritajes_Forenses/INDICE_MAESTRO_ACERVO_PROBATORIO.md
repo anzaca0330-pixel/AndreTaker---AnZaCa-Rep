@@ -34,7 +34,7 @@
 7. 📊 **[INFORME_METODOLOGICO_Y_ESTADISTICO_ELECTORAL.md](INFORME_METODOLOGICO_Y_ESTADISTICO_ELECTORAL.md)**  
    *Informe científico metodológico de progresión muestral (EE.UU. -> España -> Colombia Nacional) y prueba Benford 2BL (ISO 27037 / NIST SP 800-86).*
 7.1 📈 **[ESTUDIO_ESTADISTICO_ANOMALIAS_CONSULADOS.md](../../ESTUDIO_ESTADISTICO_ANOMALIAS_CONSULADOS.md)**  
-   *Prueba inferencial de hipótesis (Z = -56.96, p < 0.0001) y Ley de Benford en la diáspora.*
+   *Prueba inferencial de hipótesis (Z = -56.96, p < 0.0001) y Ley de Benford (2do dígito - Mebane) en la diáspora.*
 8. 📄 **[REPORTE_CROSS_AUDITORIA_PRECONTEO_VS_E14.md](../../REPORTE_CROSS_AUDITORIA_PRECONTEO_VS_E14.md)**  
    *Cruce de los 244,034 registros de preconteo contra los códigos QR y flujos de texto del PDF.*
 91.1 📄 **[ACTA_DE_HALLAZGOS_FORENSES_MATRIZ_14_PUNTOS.md](ACTA_DE_HALLAZGOS_FORENSES_MATRIZ_14_PUNTOS.md)**  

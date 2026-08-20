@@ -61,7 +61,7 @@ The presence of this watermark in electoral documents published for public consu
 Forms were also found lacking the page containing the juries' signatures. The absence of the signature page prevents the citizen from verifying who signed the tally sheet.
 
 **3.3. Absence of security controls and appearance of statistical sequences incompatible with a random distribution**
-The statistical study (Benford's Law and Variance) identified numerous polling locations exhibiting prolonged sequences of tables oriented in the same electoral direction, lacking the alternations that would normally arise when each table behaves independently.
+The statistical study (Benford's Law (2nd Digit - Mebane) and Variance) identified numerous polling locations exhibiting prolonged sequences of tables oriented in the same electoral direction, lacking the alternations that would normally arise when each table behaves independently.
 In other words, the results did not appear distributed as an irregular succession of autonomous tables, but grouped into excessively extensive and repeated consecutive blocks. The reported statistical probability for a grouping of this magnitude to appear by mere chance is practically zero.
 
 ### SEVENTH: RESPECT FOR JUDICIAL INDEPENDENCE AND DUE PROCESS

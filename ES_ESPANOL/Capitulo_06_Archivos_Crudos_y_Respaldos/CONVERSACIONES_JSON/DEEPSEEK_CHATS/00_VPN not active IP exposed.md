@@ -7,7 +7,7 @@
 
 Based on the images you provided, here’s a summary of your current VPN and IP address situation:
 
-- **Your current public IP address:** `192.253.209.145`  
+- **Your current public IP address:** `[REDACTED_IP]`  
 - **IP location:** Jersey City, New Jersey, US  
 - **ISP:** GSL Networks  
 - **VPN status:** **Not protected** (Your IP is exposed — visible to your ISP and others)
@@ -35,10 +35,10 @@ Thank you for the clarification — that explains the mismatch.
 
 Looking at your images again:
 
-- The **NordVPN** page (`1000012698.png`) is just a public **IP check website** (nordvpn.com), not the NordVPN app. That's why it shows your real IP as `192.253.209.145` and says "Unprotected."
+- The **NordVPN** page (`1000012698.png`) is just a public **IP check website** (nordvpn.com), not the NordVPN app. That's why it shows your real IP as `[REDACTED_IP]` and says "Unprotected."
 - Your actual VPN is **ExpressVPN**, shown in the router dashboard (`1000012699.png`) and the other device screenshots.
 
-However, the **critical issue** is: your real IP is still leaking as `192.253.209.145` (New Jersey, GSL Networks), even though your ExpressVPN app says it's connected to **Los Angeles**.
+However, the **critical issue** is: your real IP is still leaking as `[REDACTED_IP]` (New Jersey, GSL Networks), even though your ExpressVPN app says it's connected to **Los Angeles**.
 
 That means **your ExpressVPN connection is not working** — you're browsing unprotected.
 
@@ -49,7 +49,7 @@ That means **your ExpressVPN connection is not working** — you're browsing unp
 
 **Quick fix:**  
 - Open ExpressVPN app → tap the **power button** to connect.  
-- Once connected, your IP should change away from `192.253.209.145`.
+- Once connected, your IP should change away from `[REDACTED_IP]`.
 
 Would you like me to help you troubleshoot why your ExpressVPN isn't connecting properly?
 
@@ -69,7 +69,7 @@ Your **ExpressVPN router** *is* connected — to **EE. UU. - Nueva Jersey** (USA
 
 That explains everything:
 
-- The IP check page showed `192.253.209.145` located in **Jersey City, New Jersey** → that **is** your ExpressVPN router's IP address.
+- The IP check page showed `[REDACTED_IP]` located in **Jersey City, New Jersey** → that **is** your ExpressVPN router's IP address.
 - So **you are protected** — that IP is not your real home IP, it's the VPN server's IP.
 - The "Unprotected" message on the NordVPN website just means that website doesn't recognize your VPN (common with some IP checkers).
 
@@ -79,7 +79,7 @@ That was likely from a different app (not ExpressVPN), or the ExpressVPN app on 
 **Bottom line:**  
 ✅ You are protected via your ExpressVPN router  
 ✅ Your real IP is hidden  
-✅ The IP `192.253.209.145` (New Jersey) is your VPN server
+✅ The IP `[REDACTED_IP]` (New Jersey) is your VPN server
 
 You don't need to do anything — your setup is working correctly.
 
@@ -99,9 +99,9 @@ Here's what the test shows:
 
 | Type | IP Address | What it means |
 |------|-----------|----------------|
-| Remote IP | `192.253.209.129` | VPN server IP (New Jersey) ✅ |
-| WebRTC Public IP | `192.253.209.150` | Also VPN IP (slightly different, normal) ✅ |
-| WebRTC Local IP | `192.168.132.75` | Your router's internal IP (harmless) ✅ |
+| Remote IP | `[REDACTED_IP]` | VPN server IP (New Jersey) ✅ |
+| WebRTC Public IP | `[REDACTED_IP]` | Also VPN IP (slightly different, normal) ✅ |
+| WebRTC Local IP | `[REDACTED_IP]` | Your router's internal IP (harmless) ✅ |
 
 **Key takeaway:**  
 Your real home IP address is **not visible anywhere**. WebRTC is exposing a local IP (`192.168.x.x`) — that's just your internal network address, not your public IP. Every home network has this, and it cannot be used to identify or locate you.

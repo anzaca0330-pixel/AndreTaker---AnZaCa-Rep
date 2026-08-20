@@ -16,7 +16,7 @@ The purpose of this audit report is to conduct an informatics, structural, and s
 The investigation was conducted using a multidisciplinary approach combining:
 1. **Network Analysis and Traceability (OSINT/Netsec):** Tracking of the web storage infrastructure (Amazon S3) and perimeter obfuscation systems (WAF Nexusguard).
 2. **Structural File Analysis (QDF/XREF):** Use of decompression algorithms and syntactic review (`qpdf --check`, `pdfinfo`, `pdfimages`) to audit the internal architecture of the PDF files.
-3. **Probabilistic Statistical Analysis:** Application of Benford's Law Theorem (specifically the 2BL test - Second Digit Analysis) and variance compression studies for the detection of algorithmic structural anomalies in massive volumes of electoral data.
+3. **Probabilistic Statistical Analysis:** Application of Benford's Law (2nd Digit - Mebane) Theorem (specifically the 2BL test - Second Digit Analysis) and variance compression studies for the detection of algorithmic structural anomalies in massive volumes of electoral data.
 
 ---
 
@@ -46,7 +46,7 @@ By cross-referencing the Delegates files (downloaded from the web portal, obfusc
 ## 5. FINDING III: MATHEMATICAL STATISTICAL CORRELATION
 The physical and digital alteration (described in findings I and II) left a mathematical footprint undetectable to the naked eye, but statistically measurable.
 
-When subjecting the results of the national scrutiny to the **2BL test (Benford's Law of the Second Digit)**, a severe deviation was found in the distribution of the vote assigned to candidate Abelardo De la Espriella. Particularly in the municipalities where the injection of Template B was proven (e.g., Acacias, Meta), the digit `2` presented an overfrequency of **+3.97%** above the maximum limit tolerated by the mathematics of nature, while digits `0` and `1` suffered a forced deflation (-3.48%).
+When subjecting the results of the national scrutiny to the **2BL test (Benford's Law (2nd Digit - Mebane) of the Second Digit)**, a severe deviation was found in the distribution of the vote assigned to candidate Abelardo De la Espriella. Particularly in the municipalities where the injection of Template B was proven (e.g., Acacias, Meta), the digit `2` presented an overfrequency of **+3.97%** above the maximum limit tolerated by the mathematics of nature, while digits `0` and `1` suffered a forced deflation (-3.48%).
 
 > [!WARNING]
 > This mathematical deviation confirms that the numbers captured on the forged tally sheets (Template B) were generated or altered by human or algorithmic intervention. They are not numbers produced by the organic suffrage of the voters.
@@ -56,7 +56,7 @@ When subjecting the results of the national scrutiny to the **2BL test (Benford'
 ## 6. GENERAL CONCLUSION OF THE AUDIT REPORT
 Based on the informatics, cryptographic, and statistical evidence presented, this forensic observatory concludes that **the electoral system was subjected to centralized technical intervention**.
 
-The massive injection of vector layers to alter documents, the cloning of the physical database from synthetic files to cover up the lack of real tally sheets, and the artificial allocation of votes evidenced by the violation of Benford's Law, were all proven. The official repositories lack documentary authenticity and cannot be considered a true reflection of the popular will.
+The massive injection of vector layers to alter documents, the cloning of the physical database from synthetic files to cover up the lack of real tally sheets, and the artificial allocation of votes evidenced by the violation of Benford's Law (2nd Digit - Mebane), were all proven. The official repositories lack documentary authenticity and cannot be considered a true reflection of the popular will.
 
 **Analyst Signature:**
 *Andrea Zabala Cárcamo*

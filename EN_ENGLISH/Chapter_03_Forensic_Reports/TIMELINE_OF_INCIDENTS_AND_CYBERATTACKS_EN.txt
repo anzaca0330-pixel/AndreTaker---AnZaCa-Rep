@@ -4,7 +4,7 @@ Primary Investigator / Principal Beneficiary: Andrea Zabala Carcamo (C.C. 43.925
 Active Secure Contact Channels: anzaca0330@gmail.com | andrea.zabalacarcamo@email.phoenix.edu (All other prior accounts unaccessible due to cyberattacks)
 Origin of Protection: Digital Witness Solidarity Network & Diplomatic Protection in Mexico.
 IACHR Status: Formal Request for Precautionary Measures before the Inter-American Commission on Human Rights IACHR - 0000113728 on behalf of the family unit (Christopher Baez, Arturo Garcia Zabala, and Andrea Zabala Carcamo).
-Preserved Key Evidence: Lenovo Technical Support Ticket/Key (Key Ref: 2031621994 - Rootkit BIOS Lockout) + 136 GB Forensic Evidence Vault + Google Takeout Archives + Sheriff Office .vma Emergency Audio File.
+Preserved Key Evidence: Lenovo Technical Support Ticket/Key (Key Ref: [REDACTED_TICKET] - Rootkit BIOS Lockout) + 136 GB Forensic Evidence Vault + Google Takeout Archives + Sheriff Office .vma Emergency Audio File.
 U.S. Police Case / Incident Number: Buckingham County Sheriff's Office Incident C20260617-0024-01.
 
 ================================================================================
@@ -12,7 +12,7 @@ U.S. Police Case / Incident Number: Buckingham County Sheriff's Office Incident 
 ================================================================================
 
 - June 8, 2026: Massive Post-Prosecutor Reporting Cyberattack
-  Rootkit infection, Lenovo ThinkPad BIOS lockout (Ticket Key Ref: 2031621994), FIXD vector intrusion.
+  Rootkit infection, Lenovo ThinkPad BIOS lockout (Ticket Key Ref: [REDACTED_TICKET]), FIXD vector intrusion.
 
 - June 10, 2026: T-Mobile, Rootkit Persistence & Rescue Account Compromise
   Acquisition of new device; factory wipes proven ineffective; rescue account compromised.
@@ -23,8 +23,8 @@ U.S. Police Case / Incident Number: Buckingham County Sheriff's Office Incident 
 - June 20, 2026: Vehicle Technical Inspection at Specialized Mitsubishi Service Center
   Vehicle taken to specialized Mitsubishi dealership/mechanic shop for electrical system diagnostics and OBD-II (FIXD) vector scanning following the June 13 sabotage.
 
-- Post-June 20, 2026: Official Call to LENOVO Technical Support (Key Ref: 2031621994)
-  Call to Lenovo support post-mechanic inspection; official Key Ref 2031621994 issued for ThinkPad hardware/BIOS Rootkit lockout and total device inoperability.
+- Post-June 20, 2026: Official Call to LENOVO Technical Support (Key Ref: [REDACTED_TICKET])
+  Call to Lenovo support post-mechanic inspection; official Key Ref [REDACTED_TICKET] issued for ThinkPad hardware/BIOS Rootkit lockout and total device inoperability.
 
 - June 15-22, 2026: Filings with FBI (Richmond Field Office) and Local Sheriff
   In-person appearance of Andrea Zabala Carcamo at FBI Richmond Headquarters.
@@ -58,8 +58,8 @@ U.S. Police Case / Incident Number: Buckingham County Sheriff's Office Incident 
   * Grade Clarification & Direct Academic Damage: In course PSY/335 Research Methods, her actual earned grade is A- (backed by gradebook portal screenshots, pending administrative transcript update from a temporary C). As documentary proof of direct academic damages caused by the June 2026 attack (ThinkPad BIOS lockout, vehicle sabotage, and emergency relocation), her official transcript records an involuntary emergency withdrawal (Grade: W - Withdrawn) in PSY/315 Statistical Reasoning in Psychology, a course she was prevented from completing due to device destruction and acute threat.
 
 2.2. Key Technical Evidence Preserved in Chain of Custody (136 GB Forensic Repository)
-1. LENOVO Customer Service Ticket / Key (Key Ref: 2031621994):
-   Official technical support record issued by Lenovo post-June 20 under reference 2031621994 reporting the total hardware/BIOS lockout and inoperability of her ThinkPad laptop caused by a persistent Rootkit/Bootkit attack.
+1. LENOVO Customer Service Ticket / Key (Key Ref: [REDACTED_TICKET]):
+   Official technical support record issued by Lenovo post-June 20 under reference [REDACTED_TICKET] reporting the total hardware/BIOS lockout and inoperability of her ThinkPad laptop caused by a persistent Rootkit/Bootkit attack.
 2. GOOGLE TAKEOUT Backups & Compromised Rescue Account:
    Complete, immutable compressed Google Takeout backup archives containing login IP histories, intercepted sessions, device telemetry, and location logs. Additionally, access to the compromised drive account (https://drive.google.com/drive/folders/1KSE__jPvCS7gkPAuB3ic64vAFDqqonLx) is preserved in "View Only" status as live forensic proof of rescue account hijacking.
 3. Sheriff Department .VMA Audio Recording (Initial Denial, Minor Son's Call & Duration Discrepancy):
@@ -84,7 +84,7 @@ U.S. Police Case / Incident Number: Buckingham County Sheriff's Office Incident 
 - University of Phoenix: Student ID: 9059123560 | 03/2025 - Present | BSIOP Program (GPA 3.61) / June Forced Withdrawal (Grade: W PSY/315)
 - Active Contact Emails: anzaca0330@gmail.com | andrea.zabalacarcamo@email.phoenix.edu (All other prior accounts currently unaccessible)
 - Mitsubishi Vehicle Service: Specialized Dealer Diagnostics | 06/20/2026 | Electrical diagnostics & OBD-II (FIXD) vector inspection
-- Lenovo Support: Key Ref: 2031621994 | Post-06/20/2026 | Official BIOS Rootkit Lockout Certificate ( ThinkPad )
+- Lenovo Support: Key Ref: [REDACTED_TICKET] | Post-06/20/2026 | Official BIOS Rootkit Lockout Certificate ( ThinkPad )
 - Google Telemetry: Google Takeout Archives (~136 GB) | July 2026 | Full forensic archives of login logs, IP addresses, and E-14 tally data
 - FBI (Richmond / IC3): In-Person Tip / IC3 Online | June 2026 | Initial IC3 report; Remanded back by FBI to Local Police
 - Sheriff (Buckingham, VA): Incident C20260617-0024-01 | 06/17-18 & Late June | Cyberattack report, Faraday isolation (2.01 min .vma audio trimmed)

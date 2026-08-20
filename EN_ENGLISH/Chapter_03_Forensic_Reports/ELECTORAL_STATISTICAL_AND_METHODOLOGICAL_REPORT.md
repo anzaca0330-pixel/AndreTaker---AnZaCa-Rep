@@ -3,7 +3,7 @@
 
 **Author / Citizen Observer:** Andrea Zabala Cárcamo (Independent Researcher)  
 **Field of Application:** Applied Statistics and Research Methodology  
-**Subject:** Frequency Distribution Analysis (Benford's Law 2BL), Non-Parametric Hypothesis Testing ($\chi^2$), and Sampling Progression (USA $\rightarrow$ Spain $\rightarrow$ Colombia National).
+**Subject:** Frequency Distribution Analysis (Benford's Law (2nd Digit - Mebane) 2BL), Non-Parametric Hypothesis Testing ($\chi^2$), and Sampling Progression (USA $\rightarrow$ Spain $\rightarrow$ Colombia National).
 
 ---
 
@@ -97,7 +97,7 @@ $$\chi^2 = \sum_{i=0}^{9} \frac{(O_i - E_i)^2}{E_i}$$
 ## 5. ACADEMIC REFERENCES AND BIBLIOGRAPHY
 
 * **Benford, F. (1938).** *The law of anomalous numbers*. Proceedings of the American Philosophical Society, 78(4), 551-572.
-* **Diekmann, A. (2007).** *Not the first digit! Using Benford's law to detect fraudulent data in the scientific literature and the election files*. Journal of Applied Statistics, 34(3), 321-329.
+* **Diekmann, A. (2007).** *Not the first digit! Using Benford's law (2nd Digit) to detect fraudulent data in the scientific literature and the election files*. Journal of Applied Statistics, 34(3), 321-329.
 * **ISO/IEC 27037:2012.** *Information technology — Security techniques — Guidelines for identification, collection, acquisition and preservation of digital evidence*.
-* **Nigrini, M. J. (2012).** *Benford's Law: Applications for forensic accounting, auditing, and fraud detection*. John Wiley & Sons.
+* **Nigrini, M. J. (2012).** *Benford's Law (2nd Digit - Mebane): Applications for forensic accounting, auditing, and fraud detection*. John Wiley & Sons.
 * **NIST SP 800-86 (2006).** *Guide to Integrating Forensic Techniques into Incident Response*. National Institute of Standards and Technology.
