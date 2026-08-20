@@ -9,7 +9,7 @@
 ## Herramientas Técnicas Utilizadas
 - **qpdf**: Para la detección de anomalías estructurales y alteración deliberada de tablas (XREF).
 - **poppler-utils (pdfimages)**: Para la extracción aséptica de capas vectoriales y análisis de varianza óptica.
-- **Python (Pandas, Pillow, Concurrent)**: Para el cómputo de algoritmos basados en la Ley de Benford, extracción RGB y detección algorítmica de lienzos sintéticos en un pipeline distribuido.
+- **Python (Pandas, Pillow, Concurrent)**: Para el cómputo de algoritmos basados en la Ley de Benford (2do dígito - Mebane), extracción RGB y detección algorítmica de lienzos sintéticos en un pipeline distribuido.
 
 ## Asistencia de Inteligencia Artificial
 - **Tycho (Sistema AI Antigravity / Gemini)**: 
@@ -26,6 +26,6 @@
 Este proyecto está estrictamente abierto a la validación de expertos internacionales, auditores informáticos y observadores de Derechos Humanos. Si usted es un especialista en:
 1. Análisis Forense Digital (Estructuras de contenedores PDF).
 2. Metrología de imágenes y ruido térmico óptico.
-3. Estadística electoral (Ley de Benford).
+3. Estadística electoral (Ley de Benford (2do dígito - Mebane)).
 
 Por favor, revise de manera independiente nuestros algoritmos y código fuente. Le instamos a contactar a través de los **Issues de GitHub** para someter esta evidencia a revisión científica y aportar su dictamen técnico al expediente internacional.

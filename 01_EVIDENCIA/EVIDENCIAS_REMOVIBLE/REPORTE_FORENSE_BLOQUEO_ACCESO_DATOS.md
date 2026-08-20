@@ -27,7 +27,7 @@ El análisis de resolución de nombres de dominio (DNS) e inspección de sockets
 Domain: escrutinios2vueltapresidente2026.registraduria.gov.co
 CNAME Target: ce5fd2294b3b2ab.cdd-ap.nexusguard.cloud
 Alias final: 76e6d7105fc211f-cdd.ap-dsr.nexusguard.cloud
-IP de destino: 27.126.250.160 (Nexusguard Cloud DDoS Protection)
+IP de destino: [REDACTED_IP] (Nexusguard Cloud DDoS Protection)
 Resultado de Socket TCP (Puerto 443): ConnectTimeoutError / Drop de paquetes en rangos de IP específicos (ej. Los Ángeles)
 ```
 

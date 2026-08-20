@@ -6,8 +6,8 @@
 ## 1. Topología Transparente (9 de Julio de 2026)
 
 Durante la fase de captura pericial (Evidencia: Archivos `.har` y consola de depuración), las peticiones a la API oficial `escrutinios2vueltapresidente2026.registraduria.gov.co` resolvían hacia direcciones IP administradas por:
-- **AWS (Amazon Web Services):** IP `3.140.182.61` (Ohio, EE.UU.)
-- **Akamai Technologies:** IP `23.223.240.76` (Texas, EE.UU.)
+- **AWS (Amazon Web Services):** IP `[REDACTED_IP]` (Ohio, EE.UU.)
+- **Akamai Technologies:** IP `[REDACTED_IP]` (Texas, EE.UU.)
 
 Ese día, el equipo técnico concluyó inicialmente que el enrutamiento a través de CDNs públicas y balanceadores de carga como AWS y Akamai constituía un "comportamiento normal y esperado" para portales de alta demanda. Si la infraestructura hubiera permanecido en este estado, dicha conclusión técnica se habría mantenido.
 
@@ -18,7 +18,7 @@ Sin embargo, el comportamiento posterior de la red refuta tajantemente la presun
 Al someter hoy el dominio oficial a escrutinio técnico (ICMP Ping y resoluciones de trazabilidad HTTP), se evidencia una modificación drástica en el enrutamiento:
 
 ```text
-PING ce5fd2294b3b2ab.cdd-ap.nexusguard.cloud (207.192.142.228) 56(84) bytes of data.
+PING ce5fd2294b3b2ab.cdd-ap.nexusguard.cloud ([REDACTED_IP]) 56(84) bytes of data.
 4 packets transmitted, 0 received, 100% packet loss, time 3086ms
 ```
 ```text
@@ -46,4 +46,4 @@ A pesar del escudo de Nexusguard, el análisis riguroso de las cabeceras HTTP de
 *   **Enrutamiento Externo:** La cabecera `x-amz-cf-pop: MIA50-P8` demuestra que, a pesar de usar una IP colombiana, los datos están siendo servidos desde un centro de datos en Miami, Florida.
 *   **Almacenamiento (Bucket S3):** Las cabeceras `x-amz-server-side-encryption: aws:kms` y `x-amz-version-id` son pruebas irrefutables de que el origen final de los datos es un Bucket de Amazon S3 con control de versiones.
 
-*(Nota interna de peritaje: Se ha excluido del reporte el falso positivo de la IP 1.0.1.1, ya que corresponde a la versión algorítmica del script de Cloudflare Bot Management (`__cf_bm`), no a una traza de enrutamiento físico, protegiendo así la integridad absoluta de este dictamen).*
+*(Nota interna de peritaje: Se ha excluido del reporte el falso positivo de la IP [REDACTED_IP], ya que corresponde a la versión algorítmica del script de Cloudflare Bot Management (`__cf_bm`), no a una traza de enrutamiento físico, protegiendo así la integridad absoluta de este dictamen).*

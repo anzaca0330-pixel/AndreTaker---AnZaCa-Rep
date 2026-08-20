@@ -21,7 +21,7 @@ Para descubrir si un documento oficial ha sido alterado, los peritos informátic
 | **7. La Foto sin Cámara** *(Sin Metadatos EXIF)* | Las actas falsas no tienen metadatos ni rastro del escáner. Fueron fabricadas por un software, no son un escaneo físico real. | Te dan una foto y dicen "la tomé ayer". La miras y no tiene píxeles de cámara, parece pintada a mano. |
 | **8. El Juego de las Bolitas** *(Permutación de Votos)* | Intercambiaron los votos de los candidatos por debajo, manteniendo el total estático para no alertar a los jueces. | El truco de los 3 vasos y la bolita: los vasos nunca cambian, pero mueven la bolita (votos) tan rápido que no lo notas. |
 | **9. La Balanza Desequilibrada** *(Impacto del Margen)* | El volumen de los votos inyectados superó en un 175% la diferencia oficial con la que se ganó la elección. | Dos atletas compiten. A uno le meten 2 kilos de piedras en la maleta, y pierde por 1 kilo de diferencia. La trampa definió la carrera. |
-| **10. La Perfección Robótica** *(Ley de Benford)* | Los números perdieron la varianza del caos humano; parecen planchados por un bucle matemático programado. | Pides a 100.000 personas tirar un dado. Si todas sacan "6" y luego "4" en el mismo orden, no son humanos, son robots. |
+| **10. La Perfección Robótica** *(Ley de Benford (2do dígito - Mebane))* | Los números perdieron la varianza del caos humano; parecen planchados por un bucle matemático programado. | Pides a 100.000 personas tirar un dado. Si todas sacan "6" y luego "4" en el mismo orden, no son humanos, son robots. |
 
 ---
 

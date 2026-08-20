@@ -51,7 +51,7 @@ El paquete de herramientas Python creadas para auditar, verificar hashes SHA-256
 4. `generar_tabla_por_dia_semana.py` (Matriz de anomalías de Lunes a Domingo).
 5. `extraer_flujo_texto_y_qr_consulados.py` (Extracción de `/Contents` y cadenas QR).
 6. `auditar_discrepancias_preconteo_vs_pdf.py` (Cruce de 244,036 mesas de preconteo).
-7. `ejecutar_analisis_estadistico_consulados.py` (Prueba de hipótesis Z = -56.96, p < 0.0001 y Ley de Benford).
+7. `ejecutar_analisis_estadistico_consulados.py` (Prueba de hipótesis Z = -56.96, p < 0.0001 y Ley de Benford (2do dígito - Mebane)).
 8. `generar_diagrama_inyecciones_canvas.py` (Mapa esquemático del lienzo E-14).
 9. `generar_presentacion_ejecutiva_grupo.py` (Paquete de diapositivas para exposición).
 10. `comparar_inyecciones_1ra_vs_2da_vuelta.py` (Mapeo de desplazamiento 1ª vs 2ª Vuelta).

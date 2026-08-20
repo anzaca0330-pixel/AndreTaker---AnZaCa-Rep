@@ -16,13 +16,13 @@ Este documento contiene los mensajes estandarizados listos para enviar a periodi
 > 📊 **Contacto:** Andrea Zabala (Coordinadora Veeduría Ciudadana)
 
 ## 2. Mensaje Directo para Expertos Forenses y Estadísticos
-*Para contactar a través de LinkedIn, Issues de GitHub o Email directo a académicos, desarrolladores de Election Integrity y expertos en Ley de Benford y PDF Forensics.*
+*Para contactar a través de LinkedIn, Issues de GitHub o Email directo a académicos, desarrolladores de Election Integrity y expertos en Ley de Benford (2do dígito - Mebane) y PDF Forensics.*
 
 > **Asunto:** Solicitud Urgente de Peer Review Forense - Alteración Estructural Electoral Colombia
 > 
 > Estimado/a [Nombre del Experto],
 > 
-> Soy Andrea Zabala, especialista en Psicología Organizacional y coordinadora de Veeduría Ciudadana en Colombia. Hemos detectado una inyección masiva de datos en las elecciones presidenciales de 2026 empleando la Ley de Benford y análisis forense avanzado de la estructura PDF (corrupción sistemática de tablas XREF e inyección de actas sintéticas "Blanco Puro").
+> Soy Andrea Zabala, especialista en Psicología Organizacional y coordinadora de Veeduría Ciudadana en Colombia. Hemos detectado una inyección masiva de datos en las elecciones presidenciales de 2026 empleando la Ley de Benford (2do dígito - Mebane) y análisis forense avanzado de la estructura PDF (corrupción sistemática de tablas XREF e inyección de actas sintéticas "Blanco Puro").
 > 
 > Requerimos con urgencia una **validación externa e independiente de nuestros scripts de auditoría** (disponibles en código abierto). No buscamos que reescriba el código, sino que verifique metodológicamente nuestra extracción estadística y la metrología de píxeles empleada. Su comentario u observación pública como especialista de alto perfil en [Especialidad del Experto] aportaría el rigor científico internacional necesario para respaldar el expediente ante la CIDH antes de que se consume la posesión presidencial.
 > 

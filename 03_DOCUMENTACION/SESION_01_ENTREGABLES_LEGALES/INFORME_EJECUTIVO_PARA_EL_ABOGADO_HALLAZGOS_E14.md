@@ -130,7 +130,7 @@ Este informe tiene como fin proveer a la representación legal el sustento técn
 > ⚠️ **INFORMACIÓN CLAVE PARA EL ABOGADO:**  
 > Se completó exitosamente la revisión masiva e inspección estructural de las **117,993 actas E-14** correspondientes a la totalidad de los 32 Departamentos de Colombia y Bogotá D.C. El análisis confirma que la inyección de la "Máscara Blanca" (XObject) no fue un hecho aislado, sino un patrón de ataque sistemático a nivel nacional.
 
-A continuación, se detalla el **Top 10 de Departamentos con mayor porcentaje de alteración**, cruzando la manipulación estructural (PDF) con la desviación matemática de la Ley de Benford:
+A continuación, se detalla el **Top 10 de Departamentos con mayor porcentaje de alteración**, cruzando la manipulación estructural (PDF) con la desviación matemática de la Ley de Benford (2do dígito - Mebane):
 
 | Departamento | Volumen (Actas/Mesas) | Manipulación Estructural (PDF) | Anomalía estructural Matemático (Benford) | Alerta Pericial |
 |---|---|---|---|---|

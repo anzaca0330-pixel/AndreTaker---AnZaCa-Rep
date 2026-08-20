@@ -20,7 +20,7 @@ A continuación, se tabulan los 9 pilares de la evidencia recabada, cruzando el 
 | **6. Sin EXIF** | Carencia absoluta de metadatos de hardware de escaneo (Deepfake documental). | **Violación de Cadena de Custodia:** Imagen generada por software, carente de valor probatorio primario. |
 | **7. Vote Swapping** | Intercambio de valores entre candidatos ($V_1 \leftrightarrow V_2$) manteniendo constante el total de la mesa. | **Sustitución Automatizada:** Dolo informático diseñado para engañar el cuadre manual de los escrutadores. |
 | **8. Determinancia** | El volumen de fraude mapeado representa el 175.1% del margen oficial de victoria. | **Causal Directa de Nulidad Electoral:** El fraude es superior y determinante sobre el resultado final. |
-| **9. Ley de Benford** | Imposibilidad matemática estocástica; ausencia de varianza humana natural (Espejo Absoluto). | **Planchado Estadístico:** Prueba matemática de que los números fueron inyectados por un bucle algorítmico. |
+| **9. Ley de Benford (2do dígito - Mebane)** | Imposibilidad matemática estocástica; ausencia de varianza humana natural (Espejo Absoluto). | **Planchado Estadístico:** Prueba matemática de que los números fueron inyectados por un bucle algorítmico. |
 
 ---
 

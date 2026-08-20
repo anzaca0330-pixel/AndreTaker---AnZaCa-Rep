@@ -3,7 +3,7 @@
 
 **Autoría / Veeduría Ciudadana:** Andrea Zabala Cárcamo (Especialista Independiente)  
 **Área de Aplicación:** Estadística Aplicada y Metodología de la Investigación  
-**Objeto:** Análisis de Distribuciones de Frecuencia (Ley de Benford 2BL), Pruebas de Hipótesis No Paramétricas ($\chi^2$) y Progresión Muestral (EE.UU. $\rightarrow$ España $\rightarrow$ Colombia Nacional).
+**Objeto:** Análisis de Distribuciones de Frecuencia (Ley de Benford (2do dígito - Mebane) 2BL), Pruebas de Hipótesis No Paramétricas ($\chi^2$) y Progresión Muestral (EE.UU. $\rightarrow$ España $\rightarrow$ Colombia Nacional).
 
 ---
 
@@ -40,7 +40,7 @@ Tras confirmar el patrón en las dos muestras más representativas del exterior,
 
 ---
 
-## 2. ANÁLISIS ESTADÍSTICO DE FRECUENCIAS (LEY DE BENFORD DEL SEGUNDO DÍGITO - 2BL)
+## 2. ANÁLISIS ESTADÍSTICO DE FRECUENCIAS (LEY DE BENFORD (2DO DÍGITO - MEBANE) DEL SEGUNDO DÍGITO - 2BL)
 
 La Ley del Segundo Dígito de Benford (2BL) establece la frecuencia probabilística esperada para la segunda posición numérica en conjuntos de datos numéricos generados por procesos orgánicos o naturales.
 
@@ -97,7 +97,7 @@ $$\chi^2 = \sum_{i=0}^{9} \frac{(O_i - E_i)^2}{E_i}$$
 ## 5. REFERENCIAS Y BIBLIOGRAFÍA ACADÉMICA
 
 * **Benford, F. (1938).** *The law of anomalous numbers*. Proceedings of the American Philosophical Society, 78(4), 551-572.
-* **Diekmann, A. (2007).** *Not the first digit! Using Benford's law to detect fraudulent data in the scientific literature and the election files*. Journal of Applied Statistics, 34(3), 321-329.
+* **Diekmann, A. (2007).** *Not the first digit! Using Benford's law (2nd Digit) to detect fraudulent data in the scientific literature and the election files*. Journal of Applied Statistics, 34(3), 321-329.
 * **ISO/IEC 27037:2012.** *Information technology — Security techniques — Guidelines for identification, collection, acquisition and preservation of digital evidence*.
-* **Nigrini, M. J. (2012).** *Benford's Law: Applications for forensic accounting, auditing, and fraud detection*. John Wiley & Sons.
+* **Nigrini, M. J. (2012).** *Benford's Law (2nd Digit - Mebane): Applications for forensic accounting, auditing, and fraud detection*. John Wiley & Sons.
 * **NIST SP 800-86 (2006).** *Guide to Integrating Forensic Techniques into Incident Response*. National Institute of Standards and Technology.

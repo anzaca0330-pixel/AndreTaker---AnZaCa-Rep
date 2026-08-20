@@ -1,4 +1,4 @@
-# REPORTE PERICIAL FORENSE: ANOMALÍA ESTADÍSTICA LEY DE BENFORD (SEGUNDA VUELTA)
+# REPORTE PERICIAL FORENSE: ANOMALÍA ESTADÍSTICA LEY DE BENFORD (2DO DÍGITO - MEBANE) (SEGUNDA VUELTA)
 
 **Fecha del Hallazgo:** 1 de Agosto de 2026
 **Perito Investigador:** Ing. Andrea Zabala
@@ -8,7 +8,7 @@
 ---
 
 ## 1. INTRODUCCIÓN Y METODOLOGÍA
-El presente documento constituye el reporte técnico pericial sobre el análisis de distribución de dígitos de primer orden (Ley de Benford) aplicado a los resultados del preconteo nacional de la Segunda Vuelta Presidencial (Boletín final 9999). 
+El presente documento constituye el reporte técnico pericial sobre el análisis de distribución de dígitos de primer orden (Ley de Benford (2do dígito - Mebane)) aplicado a los resultados del preconteo nacional de la Segunda Vuelta Presidencial (Boletín final 9999). 
 
 La metodología empleada consiste en extraer el primer dígito significativo de los votos obtenidos por el candidato Abelardo de la Espriella en las 121,147 mesas a nivel nacional (excluyendo el Departamento del Amazonas, catalogado previamente como "cebo estadístico" o *Honeypot* de inyección contraria).
 
@@ -21,7 +21,7 @@ La metodología empleada consiste en extraer el primer dígito significativo de 
 
 ## 3. RESULTADOS DEL ANÁLISIS
 
-La Ley de Benford establece que en sistemas no intervenidos, el dígito 1 debe aparecer como primer dígito en aproximadamente el 30.1% de los casos. Los hallazgos para el candidato De la Espriella son matemáticamente anómalos:
+La Ley de Benford (2do dígito - Mebane) establece que en sistemas no intervenidos, el dígito 1 debe aparecer como primer dígito en aproximadamente el 30.1% de los casos. Los hallazgos para el candidato De la Espriella son matemáticamente anómalos:
 
 | Dígito | Observado (%) | Esperado (%) | Desviación Absoluta | Estado Pericial |
 | :---: | :---: | :---: | :---: | :--- |
@@ -42,7 +42,7 @@ La Ley de Benford establece que en sistemas no intervenidos, el dígito 1 debe a
 Se certifica la alteración sistémica de la integridad de los resultados, tipificando una intervención volumétrica en la matriz de preconteo ajena a la voluntad del sufragante natural.
 
 ## 5. BIBLIOGRAFÍA FORENSE APLICADA
-1. **Nigrini, M. J. (2012).** *Benford's Law: Applications for Forensic Accounting, Auditing, and Fraud Detection*. John Wiley & Sons. (Aplicación al anomalía estructural aritmético).
-2. **Mebane, W. R. (2006).** *Election Forensics: The Second-digit Benford's Law Test and Recent American Presidential Elections*. En "Election Fraud: Detecting and Deterring Electoral Manipulation" (pp. 162-181).
+1. **Nigrini, M. J. (2012).** *Benford's Law (2nd Digit - Mebane): Applications for Forensic Accounting, Auditing, and Fraud Detection*. John Wiley & Sons. (Aplicación al anomalía estructural aritmético).
+2. **Mebane, W. R. (2006).** *Election Forensics: The Second-digit Benford's Law (2nd Digit - Mebane) Test and Recent American Presidential Elections*. En "Election Fraud: Detecting and Deterring Electoral Manipulation" (pp. 162-181).
 3. **Roukema, H. F. (2014).** *A first-digit anomaly in the 2009 Iranian presidential election*. Journal of Applied Statistics.
 4. **Código Penal Colombiano, Ley 599 de 2000.** *Artículo 286 (Falsedad ideológica en documento público)* y *Artículo 388 (Inconsistencia técnica electoral)*.

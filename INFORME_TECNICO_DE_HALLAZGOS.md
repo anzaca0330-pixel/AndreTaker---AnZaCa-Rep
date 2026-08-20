@@ -33,7 +33,7 @@ La investigación se basó en la correlación de 10 vectores forenses ineludible
 | **4** | **Técnica de "BlindMasking" (Plantilla B)** | Específicas de Martes a Sábado | ImageMagick | Uso de máscaras `DeviceGray` (blanco digital puro de media 65535) para ofuscar el documento original y sobreescribir datos electorales. |
 | **5** | PDFs Híbridos (Clonación) | Archivos Claveros vs Delegados | ImageMagick / pdfinfo | Mezcla anómala de archivos en Color (USB) y Blanco/Negro (Web) que comparten el mismo daño de inyección. |
 | **6** | Modificación Post-Publicación | 30/30 actas analizadas | sha256sum | Alteración criptográfica confirmada de los archivos tras su publicación inicial. |
-| **7** | "Planchado Matemático" (Ley de Benford) | Análisis Nacional y Local (Acacias) | Python (2BL Test) | Desviación estadística imposible: F=31.8 σ=2.5 vs esperado 8-12, p<0.0001 (Sobrefrecuencia en el dígito 2). |
+| **7** | "Planchado Matemático" (Ley de Benford (2do dígito - Mebane)) | Análisis Nacional y Local (Acacias) | Python (2BL Test) | Desviación estadística imposible: F=31.8 σ=2.5 vs esperado 8-12, p<0.0001 (Sobrefrecuencia en el dígito 2). |
 | **8** | Discrepancia Estadística (Días Hábiles) | Análisis Nacional | Prueba Z (Z=8.47) | Anomalías inyectadas con sesgo de días hábiles, p<0.000000000001. |
 | **9** | Correlación Intercontinental | EE.UU. + España + Colombia | Comparativa Forense | El patrón criptográfico y de inyección de máscaras es idéntico en 3 jurisdicciones distintas, probando ejecución centralizada. |
 | **10** | Alteración Estructural de Códigos QR | Carpeta Meta (Actas de Delegados) | bash / pdfimages | La distribución del código QR fue alterada artificialmente en la "Plantilla B", concentrando el 80% en un bloque anómalo (inyección en el flujo `/Contents`). |
@@ -76,7 +76,7 @@ La metodología forense aplicada en esta investigación está sustentada en los 
 - **Estándar de Cadena de Custodia (RFC 3227 / ISO 27037):** Aplicación estricta del **Principio de Solo Lectura (Read-Only Principle)**. Toda la metrología, extracción binaria y análisis de ofuscación se ejecutó estrictamente sobre copias criptográficas (clones bit a bit) para garantizar la preservación inmaculada de la evidencia original descargada de los servidores.
 - **Estándar PDF / Alteración estructural XREF:** *ISO 32000-1:2008 (Document management — Portable document format)*. Define la estructura obligatoria de la tabla de referencias cruzadas (XREF) y el flujo de objetos (`/Contents`).
 - **Análisis Criptográfico (Hashes):** *NIST Federal Information Processing Standards (FIPS 180-4)*. Estándar de Seguridad para Funciones Hash Seguras (SHA-256).
-- **Metrología Estadística (Planchado Matemático):** Nigrini, M. J. (2012). *Benford's Law: Applications for Forensic Accounting, Auditing, and Fraud Detection*. John Wiley & Sons.
+- **Metrología Estadística (Planchado Matemático):** Nigrini, M. J. (2012). *Benford's Law (2nd Digit - Mebane): Applications for Forensic Accounting, Auditing, and Fraud Detection*. John Wiley & Sons.
 - **Herramientas de Validación Forense:** Documentación técnica de `qpdf` (manipulación estructural), `peepdf` (análisis de ofuscación de malware en PDF), e `ImageMagick` (metrología de píxeles y extracción de máscaras `DeviceGray` para la técnica de BlindMasking).
 
 ---

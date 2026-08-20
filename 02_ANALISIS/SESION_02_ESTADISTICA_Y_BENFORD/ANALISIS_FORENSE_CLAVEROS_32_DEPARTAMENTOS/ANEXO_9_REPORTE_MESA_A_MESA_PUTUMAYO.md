@@ -17,7 +17,7 @@
 - **Varianza:** 773.62
 - **Conclusión:** La dispersión es inusualmente baja. Las máquinas asignaron saldos parejos sin respetar la varianza sociodemográfica natural.
 
-### Prueba 3: Desviación Extrema de la Ley de Benford
+### Prueba 3: Desviación Extrema de la Ley de Benford (2do dígito - Mebane)
 - **Desviación Benford:** > 14.7% (Nivel crítico)
 
 ## 2. ESCRUTINIO DOMINGO POR MESA (LAS MESAS DEL DEPARTAMENTO)

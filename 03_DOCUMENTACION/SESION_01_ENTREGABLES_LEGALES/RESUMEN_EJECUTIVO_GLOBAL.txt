@@ -15,6 +15,6 @@ RESUMEN EJECUTIVO GLOBAL DE AUDITORÍA Y PERITAJE FORENSE E-14
    - Intrusión de Objeto QR en Flujo /Contents: Presente en la totalidad de la muestra.
 
 3. INFRAESTRUCTURA DE RED Y GEO-BLOQUEO:
-   - Bloqueo perimetral L7 Cloudflare / Nexusguard (IP 27.126.250.160) en nodos internacionales.
+   - Bloqueo perimetral L7 Cloudflare / Nexusguard (IP [REDACTED_IP]) en nodos internacionales.
    - Descarte selectivo de paquetes TCP SYN desde nodos de EE.UU. (Los Ángeles vs NJ / Colombia).
 ================================================================================

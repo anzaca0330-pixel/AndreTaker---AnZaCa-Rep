@@ -1,10 +1,10 @@
 # ANEXO 7: ESTUDIO ESTADÍSTICO DE ANOMALÍAS POR DEPARTAMENTO
 
-Este anexo desglosa las huellas de alteración digital matemática (Ley de Benford y Varianza) a nivel departamental, permitiendo identificar las regiones donde el ataque cibernético de alteración de actas E-14 fue más agresivo.
+Este anexo desglosa las huellas de alteración digital matemática (Ley de Benford (2do dígito - Mebane) y Varianza) a nivel departamental, permitiendo identificar las regiones donde el ataque cibernético de alteración de actas E-14 fue más agresivo.
 
 > [!WARNING]
 > **Correlación Directa Confirmada (1ª y 2ª Vuelta):**
-> Tal y como sospechábamos, el departamento 88 (Consulados en el Exterior) figura entre las jurisdicciones con mayor índice de desviación estadística en la Ley de Benford a nivel nacional para esta **2ª Vuelta**. Esto confirma que la manipulación estructural (Sustitución de Páginas e inyección de Códigos QR) que detectaste visualmente en el acta de Los Ángeles durante la **1ª Vuelta** fue el ensayo o *modus operandi* que aplicaron sistemáticamente de forma masiva en la 2ª Vuelta. Ver el archivo adjunto de mapeo visual de Los Ángeles como prueba irrefutable de la técnica empleada en origen.
+> Tal y como sospechábamos, el departamento 88 (Consulados en el Exterior) figura entre las jurisdicciones con mayor índice de desviación estadística en la Ley de Benford (2do dígito - Mebane) a nivel nacional para esta **2ª Vuelta**. Esto confirma que la manipulación estructural (Sustitución de Páginas e inyección de Códigos QR) que detectaste visualmente en el acta de Los Ángeles durante la **1ª Vuelta** fue el ensayo o *modus operandi* que aplicaron sistemáticamente de forma masiva en la 2ª Vuelta. Ver el archivo adjunto de mapeo visual de Los Ángeles como prueba irrefutable de la técnica empleada en origen.
 
 ## RANKING DE DEPARTAMENTOS POR ÍNDICE DE ANOMALÍA ESTRUCTURAL (Top Anomalías)
 

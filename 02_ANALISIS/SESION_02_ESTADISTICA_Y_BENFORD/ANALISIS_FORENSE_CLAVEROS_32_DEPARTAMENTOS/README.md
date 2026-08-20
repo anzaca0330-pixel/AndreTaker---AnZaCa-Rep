@@ -9,8 +9,8 @@ Scripts and reports demonstrating that the official PDFs of the E-14 forms conta
 - `auditar_todas_actas_colombia_32_deptos.py`
 - `AUDITORIA_NACIONAL_32_DEPARTAMENTOS_COLOMBIA.md`
 
-### 2. Statistical Anomalies & Benford's Law
-Scripts proving that the numbers within the forged PDFs were mathematically generated, violating Benford's law and exhibiting artificial variance (robotic behavior).
+### 2. Statistical Anomalies & Benford's Law (2nd Digit - Mebane)
+Scripts proving that the numbers within the forged PDFs were mathematically generated, violating Benford's law (2nd Digit) and exhibiting artificial variance (robotic behavior).
 - `ejecutar_analisis_estadistico_nacional.py`
 - `ESTUDIO_ESTADISTICO_NACIONAL.md`
 

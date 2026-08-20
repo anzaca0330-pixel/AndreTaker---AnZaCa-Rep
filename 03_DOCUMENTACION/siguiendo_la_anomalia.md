@@ -8,9 +8,9 @@ La investigación forense comenzó el **1 de junio de 2026**, tras detectar anom
 
 El **3 de junio**, los parámetros de la denuncia estadística quedaron registrados de manera inmutable en plataformas de IA (documentado en exportaciones de Google Takeout y Gemini). Posteriormente, se hizo la denuncia pública oficial.
 
-A partir del **8 de junio**, mis equipos informáticos sufrieron ataques cibernéticos, incluyendo una inyección de Rootkit que bloqueó el BIOS de mi computadora ThinkPad por hardware (Ticket de Soporte Lenovo Key Ref 2031621994). Los incidentes se extendieron al ámbito físico; la noche del **13 de junio**, sufrí un asalto y sabotaje a mi vehículo. Durante este evento, mi hijo de 10 años llamó al 911 mientras la persona atacante intentaba grabar un video de montaje.
+A partir del **8 de junio**, mis equipos informáticos sufrieron ataques cibernéticos, incluyendo una inyección de Rootkit que bloqueó el BIOS de mi computadora ThinkPad por hardware (Ticket de Soporte Lenovo Key Ref [REDACTED_TICKET]). Los incidentes se extendieron al ámbito físico; la noche del **13 de junio**, sufrí un asalto y sabotaje a mi vehículo. Durante este evento, mi hijo de 10 años llamó al 911 mientras la persona atacante intentaba grabar un video de montaje.
 
-Dado que la información estaba en riesgo, la base de datos de 23.6 MB (que contenía el diagnóstico de 117.993 actas) fue protegida utilizando esteganografía de sistema de archivos. Los datos y registros fueron disfrazados dentro de una carpeta titulada "Fotos de Cumpleaños de Arturín", renombrando los archivos de la investigación como listas de invitados y planificación de eventos para evadir los escaneos de red.
+Dado que la información estaba en riesgo, la base de datos de 23.6 MB (que contenía el diagnóstico de 117.993 actas) fue protegida utilizando esteganografía de sistema de archivos. Los datos y registros fueron disfrazados dentro de una carpeta titulada "Fotos de Cumpleaños de [REDACTED_NAME]", renombrando los archivos de la investigación como listas de invitados y planificación de eventos para evadir los escaneos de red.
 
 Simultáneamente, la iniciativa ciudadana "Testigos Digitales" ejecutó una extracción masiva de más de **147.000 documentos electorales** (equivalentes a un acervo de cientos de Gigabytes) de los servidores oficiales, preservando la información mediante el algoritmo criptográfico **SHA-256**.
 
@@ -20,7 +20,7 @@ El **6 de julio**, tras asegurar protección bajo la cobertura de la CIDH, conta
 
 Nuestra primera mirada a la Base Maestra de Preconteo (`base_mesa_a_mesa_122020_marcada.csv`, 122.024 registros) fue matemática. Los fraudes masivos y coordinados dejan huellas estadísticas indelebles porque los humanos —y los algoritmos mal programados— son incapaces de simular la aleatoriedad perfecta de la naturaleza.
 
-Aplicamos la **Prueba del Segundo Dígito de la Ley de Benford (2BL)**, una técnica estandarizada en auditorías financieras (Nigrini, 2012) y análisis electorales (Mebane, 2006). Los resultados hicieron saltar las alarmas inmediatamente.
+Aplicamos la **Prueba del Segundo Dígito de la Ley de Benford (2do dígito - Mebane) (2BL)**, una técnica estandarizada en auditorías financieras (Nigrini, 2012) y análisis electorales (Mebane, 2006). Los resultados hicieron saltar las alarmas inmediatamente.
 
 Detectamos un comportamiento que la estadística natural prohíbe: el "planchado". A lo largo de la geografía nacional, en mesas ubicadas a cientos de kilómetros de distancia, encontramos **451 mesas idénticas**. En todas ellas, se habían inyectado exactamente **161 votos fijos** para el candidato Abelardo. Esta clonación absoluta de resultados provocó una disonancia brutal en la curva de frecuencias del segundo dígito, demostrando que los resultados no provenían de la voluntad atomizada de los votantes, sino de un script centralizado de inyección de datos.
 

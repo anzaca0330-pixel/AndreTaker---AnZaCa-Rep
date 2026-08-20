@@ -23,7 +23,7 @@ Un escáner óptico de una mesa de votación genera un documento plano. Sin emba
 Al hacer ingeniería inversa a los archivos PDF mediante herramientas de metrología gráfica (`qpdf` y `pdfimages`), descubrimos que los números de los votos no forman parte de la imagen escaneada original. Fueron sobrepuestos utilizando **capas vectoriales (`cm`, `re`, `Do`)** y máscaras tipo `DeviceGray` para ocultar los datos reales. Los números falsos están en formato de "Blanco y Negro puro" (`1bpc`), lo cual es ópticamente imposible para un escáner comercial que digitaliza hojas de papel con ruido y color.
 
 ### C. El "Espejo Absoluto" y la Estadística
-Mediante simulaciones de Monte Carlo y pruebas rigurosas de la Ley de Benford (2BL), demostramos que la distribución de los dígitos en las mesas alteradas **carece de entropía humana natural**.
+Mediante simulaciones de Monte Carlo y pruebas rigurosas de la Ley de Benford (2do dígito - Mebane) (2BL), demostramos que la distribución de los dígitos en las mesas alteradas **carece de entropía humana natural**.
 Los scripts en Python encontraron "melodías" (secuencias de números repetitivas) y bloques enteros de mesas donde la desviación estándar era 0 (un planchado estadístico), evidenciando que los votos fueron calculados por una fórmula matemática `=REDONDEAR(total * 0.70)` y posteriormente inyectados en la capa superior del PDF.
 
 ---

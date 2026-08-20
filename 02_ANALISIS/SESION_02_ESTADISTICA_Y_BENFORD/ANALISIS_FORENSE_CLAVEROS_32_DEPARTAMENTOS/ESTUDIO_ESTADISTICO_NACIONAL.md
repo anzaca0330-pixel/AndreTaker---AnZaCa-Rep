@@ -1,4 +1,4 @@
-# ESTUDIO PERICIAL ESTADÍSTICO NACIONAL (VARIANZA Y LEY DE BENFORD)
+# ESTUDIO PERICIAL ESTADÍSTICO NACIONAL (VARIANZA Y LEY DE BENFORD (2DO DÍGITO - MEBANE))
 
 **Total Mesas Analizadas:** 122,017
 **Municipios Evaluados:** 1,069 (con N > 10 mesas)
@@ -6,9 +6,9 @@
 > [!CAUTION]
 > **Alerta de Inyección Robótica:** Se han detectado municipios con **varianza cero** o artificialmente baja. Esto significa que todas las mesas de un municipio reportan exactamente la misma cantidad de votos, probando que un algoritmo inyectó los números en bloque al falsificar los PDFs.
 
-## 1. COMPORTAMIENTO NACIONAL FRENTE A LA LEY DE BENFORD
+## 1. COMPORTAMIENTO NACIONAL FRENTE A LA LEY DE BENFORD (2DO DÍGITO - MEBANE)
 
-La curva muestra la distribución de los primeros dígitos de la votación comparada contra el patrón matemático natural (Ley de Benford).
+La curva muestra la distribución de los primeros dígitos de la votación comparada contra el patrón matemático natural (Ley de Benford (2do dígito - Mebane)).
 
 ### Desviación en Votos Cepeda
 ```mermaid
@@ -32,7 +32,7 @@ xychart-beta
 
 ## 2. TOP 15 MUNICIPIOS CON MAYOR NIVEL DE ANOMALÍA ESTRUCTURAL ESTADÍSTICO
 
-Se enlistan los municipios que exhiben la menor varianza (comportamiento robótico) o la mayor desviación a la Ley de Benford.
+Se enlistan los municipios que exhiben la menor varianza (comportamiento robótico) o la mayor desviación a la Ley de Benford (2do dígito - Mebane).
 
 | Código Dpto-Mpio | Total Mesas | Media Cepeda | Var Cepeda | Media Espriella | Var Espriella | Desviación Benford | Alerta Alteración digital |
 |---|---|---|---|---|---|---|---|

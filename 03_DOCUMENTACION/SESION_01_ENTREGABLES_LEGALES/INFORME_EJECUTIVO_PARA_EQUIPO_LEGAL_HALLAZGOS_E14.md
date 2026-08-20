@@ -140,9 +140,9 @@ Este informe tiene como fin proveer a la representación legal el sustento técn
 > ⚠️ **INFORMACIÓN CLAVE PARA EL EQUIPO LEGAL:**  
 > Se completó exitosamente la revisión masiva e inspección estructural de las **117,993 actas E-14** correspondientes a la totalidad de los 32 Departamentos de Colombia y Bogotá D.C. El análisis confirma que la inyección de la "Máscara Blanca" (XObject) no fue un hecho aislado, sino un patrón de ataque sistemático a nivel nacional.
 
-> 🛑 **CONSOLIDACIÓN PERICIAL DEFINITIVA:** La convergencia del Fraude de Transmisión (Spoofing QR) con la alteración estructural y la Ley de Benford nos permite concluir técnicamente que **no existen diferencias entre las "Actas de Delegados", "Actas de Transmisión" y "Actas de Claveros"**. Todas son **copias sintéticas generadas digitalmente por el mismo motor de software**. El hecho de que Vichada presente un 100% de alteración en la etapa de Claveros demuestra concluyentemente que **no existió un proceso de escaneo físico orgánico**; los documentos oficiales son "Deepfakes Estructurales" originados desde la misma fuente informática.
+> 🛑 **CONSOLIDACIÓN PERICIAL DEFINITIVA:** La convergencia del Fraude de Transmisión (Spoofing QR) con la alteración estructural y la Ley de Benford (2do dígito - Mebane) nos permite concluir técnicamente que **no existen diferencias entre las "Actas de Delegados", "Actas de Transmisión" y "Actas de Claveros"**. Todas son **copias sintéticas generadas digitalmente por el mismo motor de software**. El hecho de que Vichada presente un 100% de alteración en la etapa de Claveros demuestra concluyentemente que **no existió un proceso de escaneo físico orgánico**; los documentos oficiales son "Deepfakes Estructurales" originados desde la misma fuente informática.
 
-A continuación, se detalla el **Top 10 de Departamentos con mayor porcentaje de alteración**, cruzando la manipulación estructural (PDF) con la desviación matemática de la Ley de Benford:
+A continuación, se detalla el **Top 10 de Departamentos con mayor porcentaje de alteración**, cruzando la manipulación estructural (PDF) con la desviación matemática de la Ley de Benford (2do dígito - Mebane):
 
 | Departamento | Volumen (Actas/Mesas) | Manipulación Estructural (PDF) | Anomalía estructural Matemático (Benford) | Alerta Pericial |
 |---|---|---|---|---|
