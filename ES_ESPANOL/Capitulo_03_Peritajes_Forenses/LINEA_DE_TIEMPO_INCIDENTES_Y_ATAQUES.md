@@ -28,6 +28,8 @@ timeline
                    : Llamada a soporte de Lenovo tras llevar el auto al taller; emisión del radicado oficial Key Ref [REDACTED_TICKET] por inoperatividad y bloqueo de hardware/BIOS por Rootkit en portátil ThinkPad.
     15-22 Junio 2026: Denuncias ante el FBI (Sede Richmond) y Sheriff
                    : Comparecencia presencial de Andrea Zabala Carcamo en el FBI Richmond.
+    17-18 Junio 2026: Infección Concurrente de Equipo Corporativo (Esposo)
+                   : El computador corporativo de su esposo (Chris) también resultó infectado. Su plataforma entera cambió, requiriendo 2 días de intervención con acceso remoto para restaurar el acceso, certificada por el técnico Alexander Lucas (lucas.alexander@orsnasco.com).
     Última Semana Junio 2026: Segunda Visita a T-Mobile, Samsung S23, Aislamiento Físico, IC3 y Sheriff
                    : Encuentro con especialista técnico en T-Mobile. Adquisición de Samsung S23. Dispositivos aislados en papel aluminio (Jaula Faraday). Primer reporte oficial en IC3 y visita al Sheriff.
     26 Junio - Julio: Alertas en Dark Web (ICFES, Telegram Combolists, Credential Compilations)
@@ -57,7 +59,9 @@ timeline
 
 ### 2.2. Evidencias Técnicas Clave Preservadas en la Cadena de Custodia (Acervo Forense de 136 GB)
 
-1. **Ticket / Key de Servicio al Cliente LENOVO (`Key Ref: [REDACTED_TICKET]`):**  
+1. **Infección y Reporte Técnico de Equipo Corporativo (17-18 Junio 2026):**
+   *El computador corporativo de su esposo (Chris) también resultó infectado en el mismo marco temporal. La plataforma entera del equipo sufrió alteraciones. El departamento de TI requirió 2 días de trabajo continuo con acceso remoto para poder restaurarle el acceso al empleado. Esta intervención está certificada por el técnico Alexander Lucas (lucas.alexander@orsnasco.com).* 
+2. **Ticket / Key de Servicio al Cliente LENOVO (`Key Ref: [REDACTED_TICKET]`):**  
    *Registro oficial de soporte técnico emitido por Lenovo posterior al 20 de junio bajo el código **[REDACTED_TICKET]** al reportar la inoperatividad y el bloqueo a nivel de hardware/BIOS del portátil ThinkPad derivado del ataque de Rootkit/Bootkit persistente.*
 2. **Descargas de Respaldo GOOGLE TAKEOUT y Cuenta Interceptada:**  
    *Descarga completa e inmutable de los archivos comprimidos de Google Takeout, que contienen el historial de IPs de inicio de sesión, sesiones interceptadas, telemetría de dispositivos y registros de ubicación.* Además, se preserva el enlace al Drive de la cuenta secuestrada (`https://drive.google.com/drive/folders/1KSE__jPvCS7gkPAuB3ic64vAFDqqonLx`), la cual actualmente cuenta únicamente con permisos de "solo lectura" (View Only), constituyendo una prueba técnica viva del secuestro de la cuenta de rescate.

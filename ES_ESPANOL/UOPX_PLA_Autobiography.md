@@ -6,7 +6,7 @@
 My professional and academic journey has been driven by a relentless pursuit of empirical truth through data. While my initial interests lay in digital forensics and cybersecurity, my path profoundly shifted when I realized that the core of all modern data manipulation leaves a mathematical fingerprint. This realization guided me toward the rigorous application of statistical reasoning as the ultimate tool for uncovering anomalies that human observation alone cannot detect.
 
 ## Professional Experience and the Catalyst for Statistical Auditing
-The defining moment of my practical learning occurred in the summer of 2026. What began as a localized observation of digital document irregularities quickly escalated into the largest independent forensic statistical audit of an electoral process in recent history. 
+The defining moment of my practical learning occurred in the summer of 2026. What began as a localized observation of digital document irregularities quickly escalated into the largest independent forensic statistical audit of an electoral process in recent history, leading directly to my independent discovery of a systemic algorithmic injection within national electoral databases.
 
 On June 1st, while reviewing early returns from the Los Angeles consulate, I noticed a data distribution that defied organic human behavior. A specific candidate's vote share was returning flat, repeating percentages in the exact same polling station, with a standard deviation of mere 2.5 votes across independent ballot boxes. My background in data analysis told me this variance was impossible in a natural sociological setting. 
 

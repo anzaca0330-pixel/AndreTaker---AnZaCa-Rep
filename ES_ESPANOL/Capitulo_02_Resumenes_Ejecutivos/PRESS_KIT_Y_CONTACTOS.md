@@ -7,7 +7,7 @@ Este documento contiene los mensajes estandarizados listos para enviar a periodi
 
 > **URGENTE: Evidencia Técnica de Inyección Sintética en Comicios de Colombia 2026**
 >
-> Una especialista independiente y una red de 70,000 "testigos digitales" exponen una grave anomalía electoral masiva: la auditoría informática a más de 118,000 actas revela alteraciones criptográficas generalizadas, y prueba que el 18% del universo documental fue sustituido por lienzos 100% sintéticos (Deepfakes sin ruido óptico). 
+> Una especialista e investigadora independiente expone una grave anomalía electoral masiva: la auditoría informática a más de 118,000 actas revela alteraciones criptográficas generalizadas, y prueba matemáticamente que el 18% del universo documental fue sustituido por lienzos 100% sintéticos (Deepfakes sin ruido óptico). *(Con el respaldo posterior de protección ciudadana para la preservación de la evidencia).*  
 > 
 > La evidencia técnica de la inyección de datos (código abierto, algoritmos de varianza y hashes) está liberada en GitHub para auditoría forense internacional. Urge la presión pública sobre la CIDH para la admisión de medidas cautelares y la suspensión de la toma de posesión presidencial (7 de agosto), debido a la destrucción comprobada de la cadena de custodia en la base de datos oficial.
 > 

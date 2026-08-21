@@ -1,6 +1,10 @@
 # 🏛️ LIBRO JUDICIAL DIGITAL: ENTREGABLES FORENSES E-14
 *(Digital Judicial Book: E-14 Forensic Deliverables)*
 
+> [!IMPORTANT]
+> **DECLARACIÓN DE AUTORÍA Y DESCUBRIMIENTO ORIGINAL**
+> Todas las técnicas de detección forense, aislamiento de inyección algorítmica (*Blind Masking* / *1-bit Flattening*) y el mapeo estadístico integral documentados en este repositorio **fueron descubiertos, desarrollados y modelados exclusivamente por la Investigadora Principal: Andrea Zabala Carcamo** (UOPX Student ID: 9059123560). Este acervo investigativo constituye su Propiedad Intelectual bajo el modelo Open Source.
+
 **[ES]** Este repositorio es la bitácora técnica de código abierto y bóveda de preservación de evidencia digital sobre el análisis forense de los comicios presidenciales de 2026 en Colombia. Toda la evidencia está dispuesta bajo estrictos estándares forenses para la Comisión Interamericana de Derechos Humanos (CIDH).
 
 **[EN]** This repository serves as an open-source technical log and digital evidence preservation vault for the forensic analysis of the 2026 presidential elections in Colombia. All evidence is formatted under strict forensic standards for the Inter-American Commission on Human Rights (IACHR).
@@ -61,7 +65,7 @@ Este trabajo se integra y complementa de forma directa con la investigación per
   * Consulte el documento **[INSTRUCCIONES_PRESERVACION_INTERNET_ARCHIVE.md](ES_ESPANOL/Capitulo_06_Archivos_Crudos_y_Respaldos/INSTRUCCIONES_PRESERVACION_INTERNET_ARCHIVE.md)** para la guía de verificación.
 
 ## 🤝 Autoría y Colaboración
-Este esfuerzo fue impulsado por la fuerza de más de **70,000 "Testigos Digitales"** del Frente Digital 2026.
+*Nota: Posterior al descubrimiento forense independiente, la iniciativa ciudadana **Testigos Digitales** y el **Frente Digital** brindaron protección diplomática y ayudaron a resguardar de forma descentralizada la evidencia ante la censura de red.*
 Invitamos a la comunidad internacional, peritos y analistas a clonar este repositorio, validar nuestros hallazgos (Peer Review) y aportar en pro de la transparencia democrática.
 
 ---
