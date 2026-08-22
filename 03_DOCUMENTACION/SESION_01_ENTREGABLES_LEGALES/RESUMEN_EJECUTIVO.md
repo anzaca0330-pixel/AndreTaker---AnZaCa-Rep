@@ -1,7 +1,7 @@
 # ⚖️ RESUMEN EJECUTIVO: FRAUDE ESTRUCTURAL EN LOS FORMULARIOS E-14 (COLOMBIA 2026)
 
 **A la atención de:** Comisión Interamericana de Derechos Humanos (CIDH), Observadores Internacionales y Jueces Electorales.  
-**Investigación Pericial:** Andrea Zabala Cárcamo .  
+**Investigación Pericial:** Andrea Zabala Cárcamo y el Frente Digital 2026.  
 **Radicado Referencia:** `IACHR-0000113728`  
 
 ---
@@ -33,7 +33,7 @@ Los scripts en Python encontraron "melodías" (secuencias de números repetitiva
 El análisis cruzado (Informática Forense + Modelado Estadístico) concluye que los documentos oficiales presentados por la autoridad electoral son **Deepfakes Documentales (Falsedad Material en Documento Público)**. La magnitud, simetría y velocidad de la falsificación descartan el "error humano" y prueban un *Dolo* (intención algorítmica centralizada) dirigido a subvertir la voluntad popular.
 
 **Solicitud a la CIDH:**
-1. Otorgar **medidas cautelares urgentes** para proteger la integridad física de los peritos y la investigadora independiente, quienes han sufrido hostigamientos tras publicar esta evidencia.
+1. Otorgar **medidas cautelares urgentes** para proteger la integridad física de los peritos y miembros del Frente Digital 2026, quienes han sufrido hostigamientos tras publicar esta evidencia.
 2. Reconocer la validez de las **bóvedas inmutables** en Internet Archive como preservación lícita de la cadena de custodia (RFC 3227).
 3. Designar una misión técnica independiente que ejecute nuestros scripts de código abierto para auditar y corroborar matemáticamente la manipulación aquí denunciada.
 
