@@ -7,9 +7,21 @@
 **Evidencia Clave Preservada:** Ticket/Key de Soporte Técnico Lenovo (**`Key Ref: [REDACTED_TICKET]`** - Bloqueo BIOS por Rootkit) + Respaldos Completos Google Takeout (~136 GB) + Archivo .vma del Sheriff.  
 **Radicado Policial EE.UU.:** Buckingham County Sheriff's Office **`Incident C20260617-0024-01`**.  
 
----
-
-## 🧭 1. CRONOGRAMA GENERAL DE CIBERATAQUES Y PATRÓN SISTÉMICO DE PERSECUCIÓN
+10: ---
+11: 
+12: ## 🔑 MATRIZ DE CUENTAS COMPROMETIDAS (ARQUITECTURA DEL CIBERATAQUE)
+13: 
+14: Durante el asedio cibernético de 20 días, el vector de ataque se centró en interceptar, bloquear y rastrear la red de cuentas interconectadas utilizadas por la especialista:
+15: 
+16: | Cuenta | Rol en la Arquitectura | Estado Durante el Ataque |
+17: |---|---|---|
+18: | **`azabalabaez`** | **Cuenta Maestra / Administradora** | Comprometida. Controlaba los accesos de las demás cuentas. |
+19: | **`andreazabalac`** | **Emisora Legal / Pública** | Interceptada. Cuenta con la que se emitieron las denuncias (CNE, Fiscalía). |
+20: | **`ansekurt`** | **Cuenta Secundaria / Enlace** | Vulnerada y utilizada para triangulación de accesos. |
+21: 
+22: ---
+23: 
+24: ## 🧭 1. CRONOGRAMA GENERAL DE CIBERATAQUES Y PATRÓN SISTÉMICO DE PERSECUCIÓN
 
 ```mermaid
 timeline
@@ -32,13 +44,17 @@ timeline
                    : El computador corporativo de su esposo (Chris) también resultó infectado. Su plataforma entera cambió, requiriendo 2 días de intervención con acceso remoto para restaurar el acceso, certificada por el técnico Alexander Lucas (lucas.alexander@orsnasco.com).
     Última Semana Junio 2026: Segunda Visita a T-Mobile, Samsung S23, Aislamiento Físico, IC3 y Sheriff
                    : Encuentro con especialista técnico en T-Mobile. Adquisición de Samsung S23. Dispositivos aislados en papel aluminio (Jaula Faraday). Primer reporte oficial en IC3 y visita al Sheriff.
+    Junio 2026 (Desde Junio 1) : Reporte de Asedio a ExpressVPN (Reclamo Oficial)
+                   : Se radica el bloqueo total de tráfico y aislamiento (abarcando desde el 1 de junio), a través de ExpressVPN, obteniendo un Claim Number formal que certifica el corte anómalo de conexión segura.
     26 Junio - Julio: Alertas en Dark Web (ICFES, Telegram Combolists, Credential Compilations)
     29 Junio 2026  : Solicitud de Medidas Cautelares ante la CIDH (IACHR-0000113728)
                    : Radicación por violación a los Artículos 4, 5, 13 y 25.
     Julio 2026     : Preservación Forense Google Takeout + Testigos Digitales en México
                    : Extracción masiva de telemetría Google Takeout y protección diplomática por el Presidente Petro.
-    Julio 2026     : Respuesta FBI (Devolución a Policía Local sin Herramientas) y Testimonio Univ. Phoenix
-                   : FBI remite el caso al Sheriff local (sin capacidad técnica); testimonios y expediente en Univ. de Phoenix (Student ID: 9059123560).
+42:     Julio 2026     : Respuesta FBI (Devolución a Policía Local sin Herramientas) y Testimonio Univ. Phoenix
+43:                    : FBI remite el caso al Sheriff local (sin capacidad técnica); testimonios y expediente en Univ. de Phoenix (Student ID: 9059123560).
+44:     9 Julio 2026   : Intento de Exfiltración de Tráfico Web (Spyware) en México
+45:                    : El análisis forense confirma que, durante las auditorías de red a la Registraduría desde México, el rootkit interceptó el archivo de tráfico `[26-07-09 08-56-27].har` (el único con evidencia sensible), cifrándolo con grado militar AES-256 (`.har.gpg`) para exfiltrarlo. El archivo malicioso quedó atascado en el dispositivo gracias al aislamiento provisto por la VPN (Kill Switch de ExpressVPN).
 ```
 
 ---
@@ -103,5 +119,6 @@ timeline
 | **Soporte Lenovo** | **`Key Ref: [REDACTED_TICKET]`** | **Pos-20/06/2026** | **Certificado oficial de bloqueo BIOS por Rootkit ( ThinkPad )** |
 | **Google Telemetry** | **Descargas Google Takeout** | **Julio 2026** | **Respaldos completos de logs de inicio de sesión e IPs** |
 | **FBI (Richmond / IC3)** | **Tip Presencial / IC3 Online** | **Junio 2026** | **Primer reporte IC3; Enviado de vuelta por FBI a Policía Local** |
-| **Sheriff (Buckingham, VA)** | **`Incident C20260617-0024-01`** | **17-18 y fines de Junio** | Reporte por piratería, Jaula Faraday y dispositivos en papel aluminio (Audio .vma 2.01 min) |
-| **Presidencia de Colombia** | **Protección Diplomática** | **Julio 2026** | Protección Diplomática en México por Veintena de Testigos Digitales |
+108: | **Sheriff (Buckingham, VA)** | **`Incident C20260617-0024-01`** | **17-18 y fines de Junio** | Reporte por piratería, Jaula Faraday y dispositivos en papel aluminio (Audio .vma 2.01 min) |
+109: 109: | **ExpressVPN** | **`[CLAIM_NUMBER_PENDING]`** | **Desde Junio 1 de 2026** | **Reporte oficial de aislamiento y bloqueo de conexión segura** |
+110: | **Presidencia de Colombia** | **Protección Diplomática** | **Julio 2026** | Protección Diplomática en México por Veintena de Testigos Digitales |
