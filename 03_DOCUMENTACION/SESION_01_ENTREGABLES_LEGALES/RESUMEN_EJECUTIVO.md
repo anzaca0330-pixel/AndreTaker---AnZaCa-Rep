@@ -1,7 +1,8 @@
 # ⚖️ RESUMEN EJECUTIVO: FRAUDE ESTRUCTURAL EN LOS FORMULARIOS E-14 (COLOMBIA 2026)
 
 **A la atención de:** Comisión Interamericana de Derechos Humanos (CIDH), Observadores Internacionales y Jueces Electorales.  
-**Investigación Pericial:** Andrea Zabala Cárcamo y el Frente Digital 2026.  
+**Investigación Pericial e Ingeniería Inversa:** AndreTaker AnZaCa (Primera Línea Digital)  
+**Recolección de Datos (Scraping):** Frente Digital 2026, FITE y TestigosDigitales.
 **Radicado Referencia:** `IACHR-0000113728`  
 
 ---

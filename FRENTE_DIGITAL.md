@@ -1,27 +1,20 @@
-# PRIMERA LÍNEA DIGITAL - FRENTE DIGITAL
+# IDENTIDAD, AUTORÍA Y CRÉDITOS COLABORATIVOS
 
-## ¿Quiénes somos?
+Este repositorio y la evidencia presentada son el resultado de la convergencia de dos esfuerzos técnicos independientes, donde se reconoce y delimita estrictamente la autoría de cada parte:
 
-Somos una red ciudadana de más de 75,000 colombianos y colombianas, dentro y fuera del país, que nos organizamos para auditar y preservar la evidencia digital de las elecciones presidenciales de 2026.
+## 1. Peritaje Forense e Ingeniería Inversa
+Toda la investigación pericial profunda, la decodificación de algoritmos criptográficos (Base64/SHA-256), la detección del vector `expectedName`, la anomalía `FlateDecode`, el aislamiento de capas (*Blind Masking*) y la inyección por *QR Spoofing* son autoría exclusiva de:
 
-Ante la opacidad del sistema electoral y la falla de las instituciones, asumimos la responsabilidad de documentar, verificar y proteger los documentos públicos que sustentan la voluntad popular.
+**AndreTaker AnZaCa (Primera Línea Digital)**  
+*Con la asistencia del algoritmo de rastreo: Baba Yaga*
 
-## Nuestro compromiso
+## 2. Recolección de Datos y Veeduría Ciudadana
+Reconocemos y citamos el invaluable trabajo de raspado de datos institucionales (scraping), organización de bases de datos maestras y veeduría electoral masiva realizado por las siguientes organizaciones aliadas, sin las cuales no habría sido posible obtener la data cruda para este peritaje:
 
-- **Auditoría ciudadana**: Creemos que la democracia se fortalece con participación, no con delegación ciega.
-- **Transparencia radical**: Publicamos todos nuestros métodos, scripts y hallazgos para que cualquier persona pueda replicarlos.
-- **Preservación de la verdad**: Utilizamos herramientas inmutables (Internet Archive, hashes SHA-256, discos físicos) para que la evidencia no pueda ser borrada ni alterada.
-- **Solidaridad internacional**: Colaboramos con redes de derechos humanos, periodistas de investigación y comunidades técnicas de todo el mundo.
-
-## Nuestros principios
-
-1. La verdad es un derecho.
-2. La democracia no se negocia.
-3. La tecnología debe estar al servicio de la transparencia, no del ocultamiento.
-4. La resistencia ciudadana es legítima cuando las instituciones fallan.
+- **Frente Digital 2026**
+- **FITE**
+- **Testigos Digitales**  
+🌐 [testigosdigitales2026.com](https://testigosdigitales2026.com/)
 
 ---
-
-**PRIMERA LÍNEA DIGITAL - FRENTE DIGITAL ANZACA AndreTaker**  
-*Colombia, 2026*  
-🌐 [testigosdigitales2026.com](https://testigosdigitales2026.com/)
+*La tecnología debe estar al servicio de la transparencia. La verdad es un derecho.*
