@@ -1,8 +1,9 @@
 # ⚖️ RESUMEN EJECUTIVO: FRAUDE ESTRUCTURAL EN LOS FORMULARIOS E-14 (COLOMBIA 2026)
 
 **A la atención de:** Comisión Interamericana de Derechos Humanos (CIDH), Observadores Internacionales y Jueces Electorales.  
-**Investigación Pericial e Ingeniería Inversa:** AndreTaker AnZaCa (Primera Línea Digital)  
-**Recolección de Datos (Scraping):** Frente Digital 2026, FITE y TestigosDigitales.
+**Autoría Forense Total:** AndreTaker AnZaCa (Primera Línea Digital)  
+**Investigación Complementaria:** Leonilda Viera (FITE)  
+**Organizaciones:** Frente Digital 2026 y TestigosDigitales.
 **Radicado Referencia:** `IACHR-0000113728`  
 
 ---
