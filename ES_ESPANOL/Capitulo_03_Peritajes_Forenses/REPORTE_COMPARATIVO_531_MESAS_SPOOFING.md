@@ -2,6 +2,8 @@
 
 > **DECLARACIÓN DE AUTORÍA Y DESCUBRIMIENTO ORIGINAL**
 > El mecanismo de fraude por superposición criptográfica de códigos QR (QR Spoofing) para alterar la asignación de archivos en base de datos mediante codificación Base64, fue descubierto y documentado de forma exclusiva por la **Investigadora Principal: Andrea Zabala Carcamo**.
+> 
+> **CLÁUSULA DE CITACIÓN OBLIGATORIA:** Queda estrictamente prohibido el uso, reproducción, mención, publicación o adaptación de este hallazgo pericial por parte de terceros (incluyendo organizaciones políticas o auditores de datos) sin otorgar el crédito correspondiente y **nombrar explícitamente a la autora original: Andrea Zabala Carcamo**.
 
 Este documento detalla el análisis comparativo individual (mesa por mesa) de las 531 actas donde se comprobó la suplantación/desviación criptográfica del código QR (Fase 2 del ataque).
 
