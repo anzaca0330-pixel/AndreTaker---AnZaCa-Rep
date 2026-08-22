@@ -8,7 +8,8 @@
 
 > [!IMPORTANT]
 > **DECLARACIÓN DE AUTORÍA Y DESCUBRIMIENTO ORIGINAL**
-> El mecanismo de inyección conocido como el *Vector expectedName* (la correlación criptográfica entre el payload Base64 del código QR y el Hash Hexadecimal SHA-256 para el re-enrutamiento de archivos en los servidores de la Registraduría), así como las técnicas de *Blind Masking* y aislamiento estructural aplicadas en este documento, **fueron descubiertos, decodificados y modelados en su totalidad y de forma exclusiva por la Investigadora Principal: Andrea Zabala Carcamo**. Constituyen su Propiedad Intelectual bajo el modelo Open Source para uso de la CIDH.
+> El mecanismo de inyección conocido como el *Vector expectedName* (la correlación criptográfica entre el payload Base64 del código QR y el Hash Hexadecimal SHA-256 para el re-enrutamiento de archivos en los servidores de la Registraduría), **fue descubierto, decodificado y modelado en su totalidad y de forma exclusiva por la Investigadora Principal: Andrea Zabala Carcamo**. 
+> Asimismo, si bien las técnicas teóricas de *Blind Masking* e Informática Forense de Imágenes (Blind Image Forensics) son disciplinas académicas preexistentes, el descubrimiento de su **aplicación clandestina** para perpetrar este fraude electoral masivo y la metodología para aislarlo estructuralmente en las actas E-14 constituyen el trabajo original y la Propiedad Intelectual de la investigadora bajo el modelo Open Source para uso de la CIDH.
 
 ---
 
