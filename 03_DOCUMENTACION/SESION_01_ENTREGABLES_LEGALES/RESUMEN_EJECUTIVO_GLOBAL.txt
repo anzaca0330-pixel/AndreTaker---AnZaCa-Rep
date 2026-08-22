@@ -1,0 +1,20 @@
+================================================================================
+RESUMEN EJECUTIVO GLOBAL DE AUDITORÍA Y PERITAJE FORENSE E-14
+================================================================================
+
+1. COBERTURA TOTAL DE LA SEGUNDA VUELTA:
+   - Total Actas E-14 Descargadas e Inspeccionadas: 117,468 actas (100% de la Registraduría).
+   - Integridad Estructural Verificada: 112,869 actas PDF válidas con encabezado %PDF- y tráiler %%EOF.
+   - Manifiesto Criptográfico ISO/IEC 27037: 114,386 firmas SHA-256 congeladas en disco portátil.
+
+2. HALLAZGOS PERICIALES EN CONSULADOS E INTERNACIONAL:
+   - Total Actas Consulares Analizadas: 2,365 actas.
+   - Depuración de Metadatos (ExifTool): 100.0% (2,365/2,365).
+   - Estructura Multicapa / Imágenes Pegadas (pdfimages): 100.0% (2,365/2,365).
+   - Advertencias Sintácticas XREF (QPDF): 88.8% (2,101/2,365).
+   - Intrusión de Objeto QR en Flujo /Contents: Presente en la totalidad de la muestra.
+
+3. INFRAESTRUCTURA DE RED Y GEO-BLOQUEO:
+   - Bloqueo perimetral L7 Cloudflare / Nexusguard (IP [REDACTED_IP]) en nodos internacionales.
+   - Descarte selectivo de paquetes TCP SYN desde nodos de EE.UU. (Los Ángeles vs NJ / Colombia).
+================================================================================

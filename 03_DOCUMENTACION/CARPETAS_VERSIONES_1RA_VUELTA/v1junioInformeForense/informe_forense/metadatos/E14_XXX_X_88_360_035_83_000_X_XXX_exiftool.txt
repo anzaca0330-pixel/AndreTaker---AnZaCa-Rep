@@ -1,0 +1,15 @@
+[ExifTool]      ExifTool Version Number         : 13.59
+[System]        File Name                       : E14_XXX_X_88_360_035_83_000_X_XXX.pdf
+[System]        Directory                       : .
+[System]        File Size                       : 504 kB
+[System]        File Modification Date/Time     : 2026:06:01 00:40:05-04:00
+[System]        File Access Date/Time           : 2026:06:04 17:34:56-04:00
+[System]        File Inode Change Date/Time     : 2026:06:04 17:34:55-04:00
+[System]        File Permissions                : -rw-rw----
+[File]          File Type                       : PDF
+[File]          File Type Extension             : pdf
+[File]          MIME Type                       : application/pdf
+[PDF]           PDF Version                     : 1.6
+[PDF]           Linearized                      : No
+[PDF]           PDF Version                     : 1.6
+[PDF]           Page Count                      : 3

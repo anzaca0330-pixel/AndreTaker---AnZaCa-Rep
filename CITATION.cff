@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Si utilizas este software o sus hallazgos en tu investigación o auditoría, por favor cítalo como se indica a continuación."
+title: "Forensic Toolkit: Híbrido Detector Multicapas para Análisis de Fraude Electoral"
+abstract: "Herramienta de grado militar para análisis estructural de PDF, detección de Deepfakes documentales, alteraciones XREF y operaciones sintéticas de Blind Masking en elecciones a escala masiva."
+authors:
+  - family-names: "Zabala"
+    given-names: "Andrea"
+    affiliation: "Universidad de Phoenix (UOPX)"
+date-released: "2026-08-13"
+doi: "10.5281/zenodo.21922376"
+license: "Apache-2.0"
+repository-code: "https://github.com/andrea-zabala-c/repo_github_comparacion"
+keywords:
+  - OSINT
+  - PDF Forensics
+  - XREF Anomaly Detection
+  - Blind Masking
+  - Electoral Fraud
+  - 2nd Digit Benford's Law
+  - Ciberdefensa
+
+references:
+  - type: article
+    authors:
+      - family-names: "Mebane"
+        given-names: "Walter R. Jr."
+    title: "Election Forensics: The Second-digit Benford's Law Test and Recent American Presidential Elections"
+    year: 2006
+    notes: "Fundamento estadístico principal para la prueba 2BL ejecutada en esta auditoría."

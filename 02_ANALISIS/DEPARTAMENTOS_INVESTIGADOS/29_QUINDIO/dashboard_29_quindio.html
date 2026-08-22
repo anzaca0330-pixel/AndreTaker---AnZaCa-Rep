@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Siguiendo la Anomalía PDF: El Rastro</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true, theme: 'dark' });
+    </script>
+    <style>
+        body { background-color: #0f172a; color: white; font-family: 'Inter', sans-serif; padding: 40px; }
+        h1 { text-align: center; color: #38bdf8; font-size: 2.5em; text-transform: uppercase; letter-spacing: 2px; }
+        .subtitle { text-align: center; color: #94a3b8; margin-bottom: 50px; font-size: 1.2em; }
+        .mermaid-container { background: #1e293b; padding: 30px; border-radius: 15px; border: 1px solid #334155; margin-bottom: 60px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.3); }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 30px; }
+        .chart-container { background: #1e293b; padding: 25px; border-radius: 15px; border: 1px solid #334155; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); transition: transform 0.3s ease; }
+        .chart-container:hover { transform: translateY(-5px); border-color: #38bdf8; }
+        .upload-section { background: #0f172a; border: 2px dashed #38bdf8; padding: 40px; text-align: center; border-radius: 15px; margin-bottom: 60px; cursor: pointer; transition: background 0.3s; }
+        .upload-section:hover { background: #1e293b; }
+        #csv-upload { display: none; }
+        .upload-btn { background: #38bdf8; color: #0f172a; padding: 10px 20px; font-weight: bold; border-radius: 5px; cursor: pointer; font-size: 16px; border: none; }
+    </style>
+</head>
+<body>
+    <h1>Siguiendo la Anomalía PDF</h1>
+    <p class="subtitle">El rastro criptográfico del fraude: desde la inyección física hasta el aplastamiento estadístico.</p>
+
+    <div class="upload-section" onclick="document.getElementById('csv-upload').click()">
+        <h2 style="color: #38bdf8;">Auditoría Pública: Sube tu propia tabla de transmisión (.CSV)</h2>
+        <p style="color: #cbd5e1;">Haz clic aquí o arrastra un archivo CSV para que el algoritmo procese los votos en tiempo real y dibuje la Campana de Gauss.</p>
+        <button class="upload-btn">Subir Archivo CSV</button>
+        <input type="file" id="csv-upload" accept=".csv" onchange="handleFileUpload(event)">
+    </div>
+    
+    <div id="custom-chart-container" class="chart-container" style="display: none; margin-bottom: 60px; border-color: #facc15;">
+        <h3 style="color: #facc15; text-align: center;">Resultados de tu Archivo:</h3>
+        <canvas id="custom-chart"></canvas>
+    </div>
+    
+    <div class="mermaid-container">
+        <h2 style="color: #cbd5e1; text-align: center; margin-bottom: 30px;">El Rastro de la Alteración (Línea de Tiempo)</h2>
+        <div class="mermaid" style="text-align: center;">
+            graph TD
+                classDef physical fill:#b45309,color:#fff,stroke:#fcd34d,stroke-width:2px;
+                classDef digital fill:#4338ca,color:#fff,stroke:#a5b4fc,stroke-width:2px;
+                classDef transmit fill:#047857,color:#fff,stroke:#6ee7b7,stroke-width:2px;
+                classDef anomaly fill:#be123c,color:#fff,stroke:#fda4af,stroke-width:2px;
+                
+                H["Empates Exactos e Inviables<br>(Campanas Rotas)"]:::anomaly --> G{"Planchado Estadístico<br>(Fallas de Benford)"}:::anomaly
+                G -- Rastreando el 175% de Impacto --> F["Desvío de Mesa en Transmisión<br>(Secuestro de ID)"]:::transmit
+                F -- La máquina lee la trampa --> E["Spoofing de Código QR<br>(Doble Capa de Enrutamiento)"]:::transmit
+                E -- Archivos sin Metadatos EXIF --> D{"Inyección Deepfake<br>Blind Masking y XREF"}:::digital
+                D --> C["Digitalización Manipulada<br>(PDFs adulterados)"]:::digital
+                C -- Escaneo Inseguro --> B{"Foliación Híbrida<br>(Páginas Falsas en B/N)"}:::physical
+                B --> A["Impresión de Actas<br>(Papel Moneda)"]:::physical
+        </div>
+    </div>
+
+    <h2 style="color: #cbd5e1; text-align: center; margin-bottom: 40px; margin-top: 60px;">Evidencia Estocástica: Campanas de Gauss por Departamento</h2>
+    <div class="grid" id="charts-grid"></div>
+
+    <script>
+        let customChartInstance = null;
+        
+        function handleFileUpload(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            
+            Papa.parse(file, {
+                header: true,
+                skipEmptyLines: true,
+                complete: function(results) {
+                    let c1 = [];
+                    let c2 = [];
+                    
+                    results.data.forEach(row => {
+                        let col2 = parseInt(row['Votos_Espriella'] || row['votos_espriella']);
+                        let col1 = parseInt(row['Votos_Cepeda'] || row['votos_cepeda']);
+                        if (!isNaN(col1) && !isNaN(col2)) {
+                            c1.push(col2); // Mapeo Inverso
+                            c2.push(col1); // Mapeo Inverso
+                        }
+                    });
+                    
+                    if (c1.length === 0) {
+                        alert('No se encontraron las columnas esperadas en el archivo CSV.');
+                        return;
+                    }
+                    
+                    const bins = 30;
+                    const max_val = 400;
+                    const bin_size = max_val / bins;
+                    let counts_c1 = new Array(bins).fill(0);
+                    let counts_c2 = new Array(bins).fill(0);
+                    let labels = Array.from({length: bins}, (_, i) => Math.floor(i * bin_size));
+                    
+                    c1.forEach(val => { let idx = Math.min(Math.floor(val/bin_size), bins-1); if(idx>=0) counts_c1[idx]++; });
+                    c2.forEach(val => { let idx = Math.min(Math.floor(val/bin_size), bins-1); if(idx>=0) counts_c2[idx]++; });
+                    
+                    document.getElementById('custom-chart-container').style.display = 'block';
+                    if (customChartInstance) customChartInstance.destroy();
+                    
+                    const ctx = document.getElementById('custom-chart').getContext('2d');
+                    customChartInstance = new Chart(ctx, {
+                        type: 'line',
+                        data: {
+                            labels: labels,
+                            datasets: [
+                                { label: 'Candidato 1 (Línea Base)', data: counts_c1, borderColor: '#3b82f6', backgroundColor: 'rgba(59,130,246,0.2)', fill: true, tension: 0.4 },
+                                { label: 'Candidato 2 (Inyección)', data: counts_c2, borderColor: '#ef4444', backgroundColor: 'rgba(239,68,68,0.2)', fill: true, tension: 0.4 }
+                            ]
+                        },
+                        options: {
+                            responsive: true,
+                            plugins: {
+                                title: { display: true, text: 'Tu Auditoría Pública: ' + file.name, color: 'white', font: {size: 16} },
+                                legend: { labels: { color: 'white' } }
+                            },
+                            scales: {
+                                y: { grid: { color: '#334155' }, ticks: { color: '#cbd5e1' }, title: { display: true, text: 'Frecuencia (Densidad)', color: '#94a3b8'} },
+                                x: { grid: { color: '#334155' }, ticks: { color: '#cbd5e1' }, title: { display: true, text: 'Volumen de Votos', color: '#94a3b8'} }
+                            }
+                        }
+                    });
+                    
+                    document.getElementById('custom-chart-container').scrollIntoView({behavior: 'smooth'});
+                }
+            });
+        }
+        
+        const data = [{"title": "Planchado Estad\u00edstico - 68 Guainia", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [0, 0, 0, 0, 3, 0, 1, 0, 0, 0, 3, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 15 Cesar", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [0, 1, 1, 0, 0, 4, 1, 3, 6, 4, 6, 1, 0, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [6, 1, 1, 0, 0, 3, 0, 3, 5, 4, 6, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 25 Meta", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [29, 0, 0, 1, 3, 2, 2, 1, 1, 1, 2, 4, 4, 1, 2, 2, 6, 4, 6, 4, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [45, 1, 1, 1, 2, 4, 0, 0, 1, 2, 4, 2, 2, 2, 6, 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 88 Consulados", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [1, 1, 3, 8, 4, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 2, 2, 1, 2, 1, 3, 2, 0, 1, 0, 3, 1, 0, 13], "candidato_2": [27, 12, 3, 7, 2, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 13 Cauca", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [4, 0, 2, 1, 2, 5, 3, 4, 2, 4, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [0, 0, 2, 1, 4, 6, 3, 3, 2, 4, 2, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 26 Depto 26", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [0, 0, 0, 0, 0, 0, 0, 3, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [0, 0, 0, 0, 0, 0, 1, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 54 Casanare", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 46 Tolima", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [2, 0, 0, 0, 0, 0, 0, 1, 2, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [4, 0, 0, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 56 Putumayo", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 01 Antioquia", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [10, 0, 3, 3, 3, 7, 16, 14, 9, 9, 1, 0, 1, 0, 1, 3, 0, 2, 3, 4, 4, 4, 10, 17, 12, 1, 0, 0, 0, 0], "candidato_2": [56, 7, 5, 3, 5, 6, 16, 13, 9, 9, 1, 1, 1, 2, 0, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 05 Bogota", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [2, 1, 5, 5, 2, 5, 3, 7, 3, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [1, 0, 4, 5, 3, 4, 3, 7, 3, 2, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 50 Depto 50", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [4, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 07 Bolivar", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [4, 0, 0, 0, 1, 1, 1, 3, 5, 3, 2, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [6, 0, 0, 0, 0, 0, 4, 4, 4, 2, 1, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 03 Atl\u00e1ntico", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [0, 0, 2, 3, 1, 3, 3, 2, 4, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [0, 0, 2, 3, 1, 4, 4, 1, 4, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 29 Quindio", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [0, 0, 1, 2, 1, 0, 1, 1, 4, 1, 2, 0, 0, 0, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [2, 0, 1, 2, 1, 0, 2, 2, 3, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 72 Guaviare", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [25, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [0, 0, 0, 3, 4, 0, 1, 0, 0, 2, 2, 1, 3, 1, 2, 4, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 27 Narino", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [1, 1, 4, 2, 2, 3, 7, 7, 9, 5, 1, 1, 0, 1, 1, 1, 0, 0, 1, 2, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [24, 2, 4, 3, 2, 2, 4, 2, 7, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 17 Cundinamarca", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [190, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [1, 0, 0, 7, 12, 15, 10, 20, 18, 12, 17, 17, 13, 13, 8, 8, 6, 8, 2, 1, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 19 Choco", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [0, 1, 1, 1, 0, 0, 2, 4, 4, 2, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [2, 1, 1, 1, 0, 0, 3, 3, 4, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 09 Boyaca", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [0, 0, 0, 0, 0, 0, 5, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [0, 0, 0, 0, 0, 0, 5, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 28 Norte de Santander", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [3, 0, 2, 1, 1, 3, 3, 3, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [0, 0, 2, 1, 1, 3, 3, 2, 0, 2, 4, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 44 Sucre", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [4, 0, 1, 0, 0, 1, 0, 3, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [0, 0, 1, 0, 1, 2, 1, 3, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 24 Magdalena", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [15, 0, 0, 0, 1, 1, 3, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [0, 0, 0, 0, 0, 1, 3, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 2, 1, 3, 5, 2, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 11 Caldas", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [358, 1, 0, 1, 0, 0, 0, 0, 2, 3, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [0, 0, 0, 4, 8, 11, 17, 14, 15, 10, 9, 18, 10, 13, 17, 19, 16, 16, 24, 23, 36, 41, 19, 21, 3, 3, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 12 Caqueta", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [15, 0, 1, 0, 0, 1, 4, 5, 6, 3, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [1, 0, 1, 0, 0, 2, 4, 4, 6, 3, 3, 1, 3, 3, 1, 1, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 64 Amazonas", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [18, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [0, 0, 0, 0, 1, 2, 3, 1, 1, 1, 0, 0, 1, 2, 1, 1, 2, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 40 Depto 40", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 60 San Andres", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [4, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [0, 0, 0, 1, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 48 Valle del Cauca", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [6, 0, 2, 5, 1, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [0, 0, 1, 6, 3, 1, 1, 4, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 21 Huila", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [2, 0, 1, 0, 1, 2, 4, 1, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [0, 0, 0, 0, 1, 2, 4, 1, 2, 2, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 31 Risaralda", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [72, 1, 1, 1, 0, 2, 1, 4, 15, 8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [0, 0, 0, 2, 3, 2, 5, 8, 20, 11, 10, 3, 8, 10, 4, 8, 4, 0, 2, 1, 3, 2, 1, 0, 1, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 52 Arauca", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [11, 0, 0, 1, 1, 0, 4, 6, 7, 4, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [0, 0, 0, 1, 1, 0, 5, 5, 8, 4, 0, 1, 2, 0, 0, 0, 1, 1, 0, 4, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 23 La Guajira", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [470, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [0, 0, 0, 6, 17, 24, 28, 37, 20, 27, 15, 17, 33, 33, 27, 35, 33, 13, 23, 23, 32, 12, 8, 7, 0, 0, 0, 0, 0, 0]}, {"title": "Planchado Estad\u00edstico - 16 Cordoba", "labels": [0, 13, 26, 40, 53, 66, 80, 93, 106, 120, 133, 146, 160, 173, 186, 200, 213, 226, 240, 253, 266, 280, 293, 306, 320, 333, 346, 360, 373, 386], "candidato_1": [7, 0, 0, 0, 2, 0, 2, 4, 5, 13, 10, 6, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "candidato_2": [2, 0, 0, 0, 2, 0, 2, 5, 5, 12, 10, 8, 1, 0, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}];
+        const grid = document.getElementById('charts-grid');
+        
+        data.forEach((chartData, index) => {
+            const div = document.createElement('div');
+            div.className = 'chart-container';
+            div.innerHTML = `<canvas id="chart-${index}"></canvas>`;
+            grid.appendChild(div);
+            
+            new Chart(document.getElementById(`chart-${index}`), {
+                type: 'line',
+                data: {
+                    labels: chartData.labels,
+                    datasets: [
+                        {
+                            label: 'Candidato 1 (Línea Base)',
+                            data: chartData.candidato_1,
+                            borderColor: '#3b82f6',
+                            backgroundColor: 'rgba(59, 130, 246, 0.2)',
+                            fill: true,
+                            tension: 0.4
+                        },
+                        {
+                            label: 'Candidato 2 (Inyección)',
+                            data: chartData.candidato_2,
+                            borderColor: '#ef4444',
+                            backgroundColor: 'rgba(239, 68, 68, 0.2)',
+                            fill: true,
+                            tension: 0.4
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: { display: true, text: chartData.title, color: 'white', font: {size: 16} },
+                        legend: { labels: { color: '#94a3b8' } }
+                    },
+                    scales: {
+                        y: { grid: { color: '#1e293b' }, ticks: { color: '#64748b' }, title: { display: true, text: 'Densidad de Frecuencia', color: '#94a3b8'} },
+                        x: { grid: { color: '#1e293b' }, ticks: { color: '#64748b' }, title: { display: true, text: 'Volumen de Votos', color: '#94a3b8'} }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

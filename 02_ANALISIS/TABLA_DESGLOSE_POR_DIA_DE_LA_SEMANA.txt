@@ -1,0 +1,53 @@
+================================================================================
+MATRIZ PERICIAL DE ANOMALÍAS POR DÍA DE LA SEMANA (LUNES A DOMINGO)
+================================================================================
+
+DÍA: LUNES (DÍA 1)
+  Total Actas: 627
+  Estructura QPDF: 367
+  Metadatos Vacíos: 627
+  Multicapa Imágenes: 627
+  Fallo/Intrusión QR: 0
+----------------------------------------
+DÍA: MARTES (DÍA 2)
+  Total Actas: 420
+  Estructura QPDF: 232
+  Metadatos Vacíos: 420
+  Multicapa Imágenes: 420
+  Fallo/Intrusión QR: 0
+----------------------------------------
+DÍA: MIÉRCOLES (DÍA 3)
+  Total Actas: 31
+  Estructura QPDF: 14
+  Metadatos Vacíos: 31
+  Multicapa Imágenes: 31
+  Fallo/Intrusión QR: 0
+----------------------------------------
+DÍA: JUEVES (DÍA 4)
+  Total Actas: 27
+  Estructura QPDF: 4
+  Metadatos Vacíos: 27
+  Multicapa Imágenes: 27
+  Fallo/Intrusión QR: 0
+----------------------------------------
+DÍA: VIERNES (DÍA 5)
+  Total Actas: 15
+  Estructura QPDF: 4
+  Metadatos Vacíos: 15
+  Multicapa Imágenes: 15
+  Fallo/Intrusión QR: 0
+----------------------------------------
+DÍA: SÁBADO (DÍA 6)
+  Total Actas: 11
+  Estructura QPDF: 2
+  Metadatos Vacíos: 11
+  Multicapa Imágenes: 11
+  Fallo/Intrusión QR: 0
+----------------------------------------
+DÍA: DOMINGO (JORNADA PRINCIPAL)
+  Total Actas: 132
+  Estructura QPDF: 40
+  Metadatos Vacíos: 132
+  Multicapa Imágenes: 132
+  Fallo/Intrusión QR: 0
+----------------------------------------

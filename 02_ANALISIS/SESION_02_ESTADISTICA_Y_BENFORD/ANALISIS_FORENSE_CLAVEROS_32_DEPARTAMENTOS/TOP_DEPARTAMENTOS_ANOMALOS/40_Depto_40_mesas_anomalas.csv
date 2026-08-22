@@ -1,0 +1,4 @@
+Dpto,Mpio,Zona,Puesto,Mesa,Votos_Cepeda,Votos_Espriella,Total_Votos,Anomalia
+40,010,02,02,000011,30,30,65,Empate Exacto (Estadísticamente Inviable)
+40,010,99,27,000001,190,1,192,Polarización Extrema (>95%)
+40,025,99,61,000001,194,1,198,Polarización Extrema (>95%)

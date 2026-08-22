@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Interactivo: Trazabilidad del Fraude E-14</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --text-color: #f8fafc;
+            --accent-color: #ef4444;
+            --glass-bg: rgba(30, 41, 59, 0.7);
+            --glass-border: rgba(255, 255, 255, 0.1);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow-x: hidden;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem 1rem;
+            width: 100%;
+            background: linear-gradient(180deg, rgba(15,23,42,1) 0%, rgba(15,23,42,0) 100%);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            background: linear-gradient(90deg, #f8fafc, #94a3b8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p.subtitle {
+            color: #94a3b8;
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+        }
+
+        .flow-container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 2rem auto;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 2rem;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 4rem;
+            position: relative;
+        }
+
+        .row::after {
+            content: '';
+            position: absolute;
+            bottom: -2rem;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: var(--glass-border);
+        }
+
+        .row:last-child::after {
+            display: none;
+        }
+
+        .row-title {
+            width: 200px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+            color: #cbd5e1;
+            text-transform: uppercase;
+        }
+
+        .steps {
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+            justify-content: space-between;
+        }
+
+        .step {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .step:hover {
+            transform: translateY(-5px);
+        }
+
+        .step-icon {
+            font-size: 3rem;
+            color: #94a3b8;
+            background: rgba(255,255,255,0.05);
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+            border: 1px solid rgba(255,255,255,0.1);
+            position: relative;
+        }
+
+        .step-label {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: #cbd5e1;
+            font-weight: 500;
+        }
+
+        .arrow {
+            color: #475569;
+            font-size: 1.5rem;
+            animation: pulse-arrow 2s infinite;
+        }
+
+        @keyframes pulse-arrow {
+            0% { transform: translateX(0); opacity: 0.5; }
+            50% { transform: translateX(5px); opacity: 1; }
+            100% { transform: translateX(0); opacity: 0.5; }
+        }
+
+        /* Hotspots */
+        .hotspot {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            width: 20px;
+            height: 20px;
+            background-color: var(--accent-color);
+            border-radius: 50%;
+            box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+            animation: pulse-hotspot 1.5s infinite;
+            z-index: 10;
+        }
+
+        @keyframes pulse-hotspot {
+            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+            70% { transform: scale(1); box-shadow: 0 0 0 15px rgba(239, 68, 68, 0); }
+            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+        }
+
+        /* Modal (Glassmorphism) */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(5px);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        .modal-content {
+            background: rgba(30, 41, 59, 0.85);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            width: 90%;
+            max-width: 600px;
+            padding: 2.5rem;
+            position: relative;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            transform: translateY(20px);
+            transition: transform 0.3s ease;
+        }
+
+        .modal-overlay.active .modal-content {
+            transform: translateY(0);
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 1rem;
+            right: 1.5rem;
+            font-size: 1.5rem;
+            color: #94a3b8;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        .close-btn:hover {
+            color: #fff;
+        }
+
+        .modal-title {
+            color: var(--accent-color);
+            font-size: 1.5rem;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .modal-body {
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+
+        .modal-body ul {
+            padding-left: 1.2rem;
+        }
+
+        .modal-body li {
+            margin-bottom: 0.8rem;
+        }
+
+        .btn-link {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 0.8rem 1.5rem;
+            background: rgba(239, 68, 68, 0.2);
+            border: 1px solid var(--accent-color);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+
+        .btn-link:hover {
+            background: var(--accent-color);
+        }
+
+        /* Actors */
+        .actor {
+            position: absolute;
+            left: -80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #64748b;
+        }
+        .actor i { font-size: 2rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mapa Forense: E-14</h1>
+        <p class="subtitle">Haz clic en los puntos rojos parpadeantes para descubrir los vectores de ataque.</p>
+    </header>
+
+    <div class="flow-container">
+        
+        <!-- DELEGADOS ROW -->
+        <div class="row">
+            <div class="actor">
+                <i class="fas fa-users"></i>
+                <small>Jurados</small>
+            </div>
+            <div class="row-title">E-14 Delegados</div>
+            <div class="steps">
+                <div class="step" onclick="openModal('origen')">
+                    <div class="step-icon"><i class="fas fa-file-signature"></i></div>
+                    <div class="step-label">Acta Física</div>
+                    <div class="hotspot"></div>
+                </div>
+                <div class="arrow"><i class="fas fa-long-arrow-alt-right"></i></div>
+                <div class="step" onclick="openModal('escaner')">
+                    <div class="step-icon"><i class="fas fa-print"></i></div>
+                    <div class="step-label">Digitalización</div>
+                    <div class="hotspot"></div>
+                </div>
+                <div class="arrow"><i class="fas fa-long-arrow-alt-right"></i></div>
+                <div class="step" onclick="openModal('publicacion')">
+                    <div class="step-icon"><i class="fas fa-globe"></i></div>
+                    <div class="step-label">Web / Repositorio</div>
+                    <div class="hotspot"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TRANSMISION ROW -->
+        <div class="row">
+            <div class="row-title">E-14 Transmisión</div>
+            <div class="steps">
+                <div class="step" onclick="openModal('preconteo_origen')">
+                    <div class="step-icon"><i class="fas fa-phone-alt"></i></div>
+                    <div class="step-label">Dictado (Preconteo)</div>
+                    <div class="hotspot"></div>
+                </div>
+                <div class="arrow"><i class="fas fa-long-arrow-alt-right"></i></div>
+                <div class="step" onclick="openModal('rft')">
+                    <div class="step-icon"><i class="fas fa-headset"></i></div>
+                    <div class="step-label">Recepción (RFT)</div>
+                </div>
+                <div class="arrow"><i class="fas fa-long-arrow-alt-right"></i></div>
+                <div class="step" onclick="openModal('qr_desvio')">
+                    <div class="step-icon"><i class="fas fa-qrcode"></i></div>
+                    <div class="step-label">Escaneo y Transmisión</div>
+                    <div class="hotspot"></div>
+                </div>
+                <div class="arrow"><i class="fas fa-long-arrow-alt-right"></i></div>
+                <div class="step" onclick="openModal('db')">
+                    <div class="step-icon"><i class="fas fa-database"></i></div>
+                    <div class="step-label">Consolidación DB</div>
+                    <div class="hotspot"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CLAVEROS ROW -->
+        <div class="row" style="margin-bottom: 0;">
+            <div class="row-title">E-14 Claveros</div>
+            <div class="steps" style="justify-content: flex-start;">
+                <div class="step">
+                    <div class="step-icon"><i class="fas fa-box-open"></i></div>
+                    <div class="step-label">Bolsa de Seguridad</div>
+                </div>
+                <div style="margin-left: 2rem; color: #64748b; max-width: 400px; font-size: 0.9rem;">
+                    <em>* Documento legal final sometido a Escrutinio. Debería ser idéntico a las otras dos copias.</em>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <i class="fas fa-times close-btn" onclick="closeModal()"></i>
+            <h2 class="modal-title" id="mTitle"><i class="fas fa-exclamation-triangle"></i> Hallazgo Forense</h2>
+            <div class="modal-body" id="mBody">
+                <!-- Content injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const fraudData = {
+            'origen': {
+                title: 'Punto Cero: Manipulación Física y Censal',
+                body: `
+                    <ul>
+                        <li><strong>Trampa 1 (Censo Inflado):</strong> Se alteró el potencial de votantes (ej. Estados Unidos reportó 159.999 inscritos, pero inflaron la base a 454.000 para abrir espacio a los votos inyectados).</li>
+                        <li><strong>Trampa 4 (Foliación Híbrida):</strong> En la mesa, los paquetes litográficos fueron manipulados físicamente, mezclando páginas a color originales con fotocopias en blanco y negro.</li>
+                    </ul>
+                `
+            },
+            'escaner': {
+                title: 'Quirófano Digital: Alteración de PDFs',
+                body: `
+                    <p>En el momento en que las actas fueron supuestamente "escaneadas", en realidad pasaron por un software de falsificación masiva:</p>
+                    <ul>
+                        <li><strong>Trampa 5 (Cicatriz XREF):</strong> El software dañó la tabla interna del archivo. Declara 15 objetos pero tiene 13. Un escáner real jamás hace esto.</li>
+                        <li><strong>Trampa 6 (Blind Masking):</strong> Inyectaron una capa transparente por encima de la imagen del acta y escribieron resultados sintéticos (1 bit por canal) tapando los verdaderos.</li>
+                        <li><strong>Trampa 7 (Generación Sintética):</strong> Los archivos carecen absolutamente de metadatos de hardware (EXIF). No nacieron de una cámara.</li>
+                    </ul>
+                `
+            },
+            'publicacion': {
+                title: 'El "Espejo Absoluto"',
+                body: `
+                    <p>Las actas alteradas son subidas a la web. Al someterlas a análisis estocástico:</p>
+                    <ul>
+                        <li><strong>Trampa 10 (Ley de Benford (2do dígito - Mebane)):</strong> Descubrimos que los números publicados no tienen varianza humana (caos natural). Fueron generados por un bucle de programación matemático.</li>
+                    </ul>
+                `
+            },
+            'preconteo_origen': {
+                title: 'Ruptura de Trazabilidad Inicial',
+                body: `
+                    <ul>
+                        <li><strong>Trampa 2 (Códigos Nulos):</strong> Los códigos de barras de los E-14 fueron destruidos criptográficamente a propósito para que los sistemas informáticos no pudieran leerlos.</li>
+                    </ul>
+                `
+            },
+            'qr_desvio': {
+                title: 'Spoofing de Transmisión (Redirección QR)',
+                body: `
+                    <p>El ataque directo a la maquinaria de los contratistas de transmisión (Indra/Disproel):</p>
+                    <ul>
+                        <li><strong>Trampa 3 (Códigos QR Dobles):</strong> Superpusieron un QR falso exactamente encima del verdadero. Cuando las máquinas escaneaban el acta para transmisión rápida, leían la capa falsa, <strong>desviando los resultados hacia un ID de mesa distinto</strong>.</li>
+                    </ul>
+                    <a href="../01_EVIDENCIA/EVIDENCIA_QR_DOBLES_FALSIFICADOS.md" class="btn-link">Ver Evidencia Criptográfica</a>
+                `
+            },
+            'db': {
+                title: 'Inyección Base de Datos: Vote Swapping',
+                body: `
+                    <p>Al llegar los datos a los servidores centrales de consolidación:</p>
+                    <ul>
+                        <li><strong>Trampa 8 (Permutación Sintáctica):</strong> Para engañar a los jueces escrutadores (que verifican que los totales cuadren), el software hizo <em>Vote Swapping</em>. Mantuvo estático el total de la mesa, pero intercambió por debajo de la mesa los votos del candidato perdedor hacia el ganador.</li>
+                        <li><strong>Trampa 9 (Impacto 175%):</strong> Todo este ecosistema de fraude sumó un volumen de votos inyectados equivalente al 175% del margen oficial de victoria.</li>
+                    </ul>
+                `
+            }
+        };
+
+        const overlay = document.getElementById('modalOverlay');
+        const mTitle = document.getElementById('mTitle');
+        const mBody = document.getElementById('mBody');
+
+        function openModal(id) {
+            const data = fraudData[id];
+            if(data) {
+                mTitle.innerHTML = `<i class="fas fa-exclamation-triangle"></i> ${data.title}`;
+                mBody.innerHTML = data.body;
+                overlay.classList.add('active');
+            }
+        }
+
+        function closeModal(e) {
+            if (e && e.target !== overlay && !e.target.classList.contains('close-btn')) {
+                return;
+            }
+            overlay.classList.remove('active');
+        }
+    </script>
+</body>
+</html>
