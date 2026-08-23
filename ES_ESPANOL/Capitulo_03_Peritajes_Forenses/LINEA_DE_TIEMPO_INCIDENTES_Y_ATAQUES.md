@@ -31,8 +31,8 @@ timeline
     3-4 Junio 2026 : Descubrimiento Forense de Alteración XREF en Actas E-14 (Páginas Blancas)
                    : Identificación técnica de anomalías estructurales en PDF ("number of objects 21, highest object number 19"). Prueba certificada mediante capturas del navegador Opera y análisis de IA (DeepSeek), demostrando edición incremental y spoofing antes del inicio de los ataques masivos.
                    : Metodología de detección de "1-Bit Flattening" (Planchado Raster) documentada mediante script Bash utilizando ImageMagick (`identify -format "%[colorspace]"`) para separar automatizadamente actas genuinas de máscaras de 1-bit falsificadas.
-    8 Junio 2026   : Ciberataque Masivo Post-Denuncia en Fiscalía
-                   : Infección por Rootkit, BIOS Lenovo bloqueado (Ticket Key Ref: [REDACTED_TICKET]), vector FIXD.
+    8 Junio 2026   : Colapso de Red y Bloqueo de Tráfico E-14
+                   : Durante la mañana, al conectar su celular (que se encontraba limpio) a la red WiFi, se produjo una caída total y externa del internet (Ataque de Denegación de Servicio Dirigido), impidiendo el acceso a la página de la Registraduría Nacional. Horas después, se materializa la infección por Rootkit (BIOS Lenovo bloqueado, Ticket Key Ref: [REDACTED_TICKET]).
     10 Junio 2026  : T-Mobile, Propagación del Rootkit a Terceros y Borrado Remoto
                    : Pérdida de cuenta de rescate y adquisición de nuevo equipo en T-Mobile. Al visitar la casa de sus suegros, el dispositivo ejecuta un borrado remoto de archivos en vivo (medida anti-forense presenciada visualmente). El Rootkit se propaga lateralmente e infecta también los dispositivos de los suegros.
     13 Junio 2026  : Sabotaje FIXD, SMS Payload (C2) y Emboscada Física/Digital
@@ -50,6 +50,8 @@ timeline
                    : Traslado del automóvil al concesionario/taller especializado Mitsubishi para revisión de sistemas eléctricos y escaneo del vector OBD-II (FIXD) tras el sabotaje del 13 de junio.
     Pos-20 Junio 2026: Llamada a Soporte Técnico LENOVO (Key Ref: [REDACTED_TICKET])
                    : Llamada a soporte de Lenovo tras llevar el auto al taller; emisión del radicado oficial Key Ref [REDACTED_TICKET] por inoperatividad y bloqueo de hardware/BIOS por Rootkit en portátil ThinkPad.
+    21 Junio 2026  : Censura por DPI (Deep Packet Inspection) y Evasión Táctica (Live Stream TV)
+                   : Los atacantes implementaron filtros DPI en la red local para interceptar y borrar en vivo los documentos forenses de Google Drive. La especialista logró evadir el cerco recuperando los archivos vía caché de `markdownlive` y transmitiendo los hallazgos (#BLINDMASKING) a través de un Live Stream de Televisión, bypasseando el cortafuegos de los atacantes.
     15-22 Junio 2026: Denuncias ante el FBI (Sede Richmond) y Sheriff
                    : Comparecencia presencial de Andrea Zabala Carcamo en el FBI Richmond.
     17-18 Junio 2026: Infección Concurrente de Equipo Corporativo (Esposo)
@@ -87,12 +89,17 @@ timeline
 
 ### 2.2. Evidencias Técnicas Clave Preservadas en la Cadena de Custodia (Acervo Forense de 136 GB)
 
+0. **Colapso de Red Local, Fuga de MAC Address y Bloqueo a Servidores Electorales (Mañana del 8 de Junio 2026):**
+   *Las capturas de pantalla de esa mañana documentan que, estando el dispositivo móvil completamente limpio, la conexión a la red WiFi del domicilio fue interceptada. Durante este intento de acceso a la página de la Registraduría Nacional, los atacantes lograron detectar la Dirección MAC (MAC Address) del dispositivo, triangulando instantáneamente su ubicación física exacta. Este evento provocó un colapso total de la red (Ataque Externo Dirigido) y sirvió como detonante geolocalizado para el rastreo masivo (1.650 solicitudes) y la posterior inyección del rootkit horas después.*
+
 1. **Infección y Reporte Técnico de Equipo Corporativo (17-18 Junio 2026):**
    *El computador corporativo de su esposo (Chris) también resultó infectado en el mismo marco temporal. La plataforma entera del equipo sufrió alteraciones. El departamento de TI requirió 2 días de trabajo continuo con acceso remoto para poder restaurarle el acceso al empleado. Esta intervención está certificada por el técnico Alexander Lucas (lucas.alexander@orsnasco.com).* 
 2. **Ticket / Key de Servicio al Cliente LENOVO (`Key Ref: [REDACTED_TICKET]`):**  
    *Registro oficial de soporte técnico emitido por Lenovo posterior al 20 de junio bajo el código **[REDACTED_TICKET]** al reportar la inoperatividad y el bloqueo a nivel de hardware/BIOS del portátil ThinkPad derivado del ataque de Rootkit/Bootkit persistente.*
 2. **Descargas de Respaldo GOOGLE TAKEOUT y Cuenta Interceptada:**  
    *Descarga completa e inmutable de los archivos comprimidos de Google Takeout, que contienen el historial de IPs de inicio de sesión, sesiones interceptadas, telemetría de dispositivos y registros de ubicación.* Además, se preserva el enlace al Drive de la cuenta secuestrada (`https://drive.google.com/drive/folders/1KSE__jPvCS7gkPAuB3ic64vAFDqqonLx`), la cual actualmente cuenta únicamente con permisos de "solo lectura" (View Only), constituyendo una prueba técnica viva del secuestro de la cuenta de rescate.
+2.1. **Censura de Tráfico (DPI), Borrado en Vivo y Recuperación Táctica:**  
+   *Registro JSON de sesiones (ej. `Gemini_Chat_Records_Blindmasking.json`) que certifica cómo los atacantes emplearon Inspección Profunda de Paquetes (DPI) para borrar en vivo los documentos probatorios de Google Drive. La especialista recuperó la información usando la caché de `markdownlive` y exfiltró los resultados transmitiendo la palabra clave `#BLINDMASKING` mediante un streaming en vivo de TV para saltar las reglas del firewall malicioso.*
 3. **Grabación de Audio .WAV del Sheriff (Spoofing Acústico y Discrepancia de T-Mobile):**  
    *El registro oficial certificado de facturación de T-Mobile demuestra que la llamada de emergencia al 911 (13 de junio, 11:01 PM) tuvo una duración de red de **3:00 minutos**. Sin embargo, la Buckingham County Sheriff's Office entregó un archivo `.wav` de únicamente **2:01 minutos**.* Al someter el audio a peritaje forense acústico, se confirmó que la grabación fue manipulada o interceptada (Spoofing Acústico): no se escucha conversación real con el operador, sino únicamente gritos automatizados a "Hey Google" y balbuceos ininteligibles, comprobando que el ataque de red aisló la transmisión de voz real o que la evidencia fue intencionalmente editada (Scrubbing).
 4. **Despliegue de Rootkit vía SMS Payload (Short Code 1003):**  
@@ -105,8 +112,8 @@ timeline
    *La especialista logró recuperar y preservar físicamente múltiples vectores del ataque: (1) El dispositivo celular comprometido (con pantalla Red Download Mode), (2) la Chromebook utilizada para detectar la red fantasma PEAP, y (3) dispositivos de rastreo físicos (tags en forma de rombo) que los atacantes adhirieron subrepticiamente a la cajuela del vehículo. Todos estos elementos se encuentran neutralizados y aislados permanentemente en jaulas de Faraday caseras (papel aluminio) en el domicilio, resguardados como cadena de custodia física intocable.*
 8. **Sustitución Clandestina de Espejo Retrovisor (Vigilancia de Cabina):**  
    *La especialista detectó que el espejo retrovisor original del vehículo fue intercambiado subrepticiamente (hardware swap). En operaciones paramilitares y de espionaje avanzado, los retrovisores son reemplazados por piezas idénticas que contienen micrófonos ocultos y módulos GSM/LTE conectados a la corriente continua del auto, proveyendo vigilancia acústica y rastreo de respaldo (redundancia).*
-9. **Rastreo Masivo de Ubicación (1.650 Solicitudes en 5 Minutos a ~5.5 Hz):**  
-   *Certificación de telemetría registrando 1.650 solicitudes de localización en menos de 5 minutos, confirmando ataque de geolocalización continua (Continuous Location Sniffing) operando a 5.5 Hz.*
+9. **Rastreo Masivo de Ubicación (1.650 Solicitudes en menos de 2 Minutos):**  
+   *Certificación de telemetría (respaldada por grabación de pantalla desde el 8 de junio) registrando más de 1.650 solicitudes de localización en menos de 2 minutos, confirmando ataque de geolocalización continua de alta intensidad (Continuous Location Sniffing) operando a más de 13 Hz.*
 
 ---
 
