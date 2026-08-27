@@ -45,7 +45,7 @@ Al cruzar los archivos de Delegados (descargados del portal web, ofuscados con U
 ## 5. HALLAZGO III: CORRELACIÓN ESTADÍSTICA MATEMÁTICA
 La alteración digital física y digital (descrita en los hallazgos I y II) dejó una huella matemática indetectable a simple vista, pero medible estadísticamente.
 
-Al someter los resultados del escrutinio nacional a la prueba **2BL (Ley de Benford del Segundo Dígito)**, se encontró una desviación severa en la distribución de la votación asignada al candidato Abelardo De la Espriella. Particularmente en los municipios donde se probó la inyección de la Plantilla B (ej. Acacias, Meta), el dígito `2` presentó una sobrefrecuencia de **+3.97%** por encima del límite máximo tolerado por las matemáticas de la naturaleza, mientras que los dígitos `0` y `1` sufrieron una deflación forzada (-3.48%).
+Al someter los resultados del escrutinio nacional a la prueba **2BL (Ley de Benford del Segundo Dígito)**, se encontró una desviación severa en la distribución de la votación asignada al candidato Abelardo De la Espriella. Particularmente en los municipios donde se probó la inyección de la Plantilla B (ej. Acacias, Meta), el dígito `2` presentó una sobrefrecuencia de **+3.97%** por encima del límite máximo tolerado por las matemáticas de la naturaleza, mientras que los dígitos `0` y `1` sufrieron una deflación forzada (-3.71% en total).
 
 > [!WARNING]
 > Esta desviación matemática confirma que los números plasmados en las actas falsificadas (Plantilla B) fueron generados o alterados por intervención humana o algorítmica. No son números producto del sufragio orgánico de los electores.

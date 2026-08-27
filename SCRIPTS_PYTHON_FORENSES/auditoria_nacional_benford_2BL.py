@@ -2,8 +2,8 @@ import csv
 import math
 import sys
 
-archivo_preconteo = "/home/andrea-zabala-c/Desktop/reporte_preconteo (4).csv"
-archivo_salida = "/home/andrea-zabala-c/Desktop/ENTREGABLES_FORENSES_E14/SCRIPTS_PYTHON_FORENSES/anomalias_benford_2BL_nacional_abelardo.csv"
+archivo_preconteo = "/home/andrea-zabala-c/Desktop/EVIDENCIA_Y_DATOS/reporte_preconteo (4).csv"
+archivo_salida = "anomalias_benford_2BL_nacional_abelardo.csv"
 
 def expected_2BL():
     """Calcula la probabilidad teórica del SEGUNDO dígito en la Ley de Benford (2BL)"""

@@ -2,7 +2,7 @@ import csv
 import math
 import sys
 
-archivo_preconteo = "/media/andrea-zabala-c/D A T A1/segundaVuelta/CONSULADOS_DATASET_Y_FUENTES_ORIGEN/reporte_preconteo (4).csv"
+archivo_preconteo = "/home/andrea-zabala-c/Desktop/EVIDENCIA_Y_DATOS/reporte_preconteo (4).csv"
 
 def expected_2BL():
     probs = {}

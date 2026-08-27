@@ -2,7 +2,7 @@ import csv
 import sys
 from collections import defaultdict, Counter
 
-archivo_preconteo = "/home/andrea-zabala-c/Desktop/reporte_preconteo (4).csv"
+archivo_preconteo = "/home/andrea-zabala-c/Desktop/EVIDENCIA_Y_DATOS/reporte_preconteo (4).csv"
 
 def caceria_patrones():
     print("Iniciando cacería avanzada de patrones forenses...")

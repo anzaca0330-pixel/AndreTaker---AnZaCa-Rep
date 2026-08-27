@@ -1,7 +1,7 @@
 import csv
 import math
 
-archivo_preconteo = "/home/andrea-zabala-c/Desktop/reporte_preconteo (4).csv"
+archivo_preconteo = "/home/andrea-zabala-c/Desktop/EVIDENCIA_Y_DATOS/reporte_preconteo (4).csv"
 
 def benford_law_amazonas_verificado():
     # Ley de Benford teórica
