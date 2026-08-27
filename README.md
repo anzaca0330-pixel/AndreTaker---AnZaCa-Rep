@@ -65,7 +65,7 @@ Este trabajo se integra y complementa de forma directa con la investigación per
   * Consulte el documento **[INSTRUCCIONES_PRESERVACION_INTERNET_ARCHIVE.md](ES_ESPANOL/Capitulo_06_Archivos_Crudos_y_Respaldos/INSTRUCCIONES_PRESERVACION_INTERNET_ARCHIVE.md)** para la guía de verificación.
 
 ## 🤝 Autoría y Colaboración
-*Nota: Posterior al descubrimiento forense independiente, la iniciativa ciudadana **Testigos Digitales** y el **Frente Digital** brindaron protección diplomática y ayudaron a resguardar de forma descentralizada la evidencia ante la censura de red.*
+*Nota: Posterior al descubrimiento forense independiente, la iniciativa ciudadana **Testigos Digitales** y el **[Frente Digital](CREDITOS_Y_AUTORIA.md)** brindaron protección diplomática y ayudaron a resguardar de forma descentralizada la evidencia ante la censura de red.*
 Invitamos a la comunidad internacional, peritos y analistas a clonar este repositorio, validar nuestros hallazgos (Peer Review) y aportar en pro de la transparencia democrática.
 
 ---
@@ -105,7 +105,7 @@ Invitamos a la comunidad internacional, peritos y analistas a clonar este reposi
 > 
 > Aislé y expuse además la táctica de supervivencia digital de la autoría, quien utilizó esteganografía de sistema de archivos (disfrazando la base de datos nacional como una carpeta de "Cumpleaños de [REDACTED_NAME]") para proteger el acervo probatorio durante los ataques de Rootkit de junio. Todo lo aquí expuesto es un resumen factual y forense derivado exclusivamente de las trazas digitales. Debido a las limitaciones de tiempo de la especialista principal, este texto fue generado de manera autónoma para asegurar la preservación inmediata de la información probatoria.
 **Primera Línea Digital:** AnZaCa AndreTaker  
-**Colectivo:** Frente Digital 2026  
+**Colectivo:** [Frente Digital 2026](CREDITOS_Y_AUTORIA.md)  
 **Radicado CIDH:** `IACHR-0000113728`  
 **Estado:** Evidencia preservada, blindada y disponible para peritaje internacional.
 
@@ -479,7 +479,7 @@ Para garantizar el máximo rigor científico e investigativo, esta auditoría ha
 **LABORATORIO DE INVESTIGACIÓN FITE**  
 🌐 [testigodigital.co](https://testigodigital.co/)
 
-**FRENTE DIGITAL**  
+**[FRENTE DIGITAL](CREDITOS_Y_AUTORIA.md)**  
 🌐 [frentedigital2026.com](https://frentedigital2026.com/)
 
 ---
