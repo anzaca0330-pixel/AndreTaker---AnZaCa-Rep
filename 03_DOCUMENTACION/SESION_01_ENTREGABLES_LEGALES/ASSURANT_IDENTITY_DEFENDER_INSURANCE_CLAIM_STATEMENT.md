@@ -14,7 +14,7 @@
 
 ## 📋 1. EXECUTIVE CLAIM SUMMARY
 
-The undersigned **Andrea Zabala Cárcamo** (C.C. 43.925.102), enrolled in the ExpressVPN Identity Defender monitoring program under **Restoration ID: 85720870**, hereby submits this formal Claim Statement and Request for Identity Theft Restoration Services, Compensation for **Destroyed Hardware**, Full Reimbursement of **Purchased Replacement Devices**, and Compensation for **Three (3) Months of Total Loss of Income / Employment** following severe Dark Web credential leaks, targeted hardware cyberattacks, autonomous physical Wi-Fi implants, vehicle sabotage, and physical harassment arising from her role as lead forensic investigator in the 2026 Colombia Electoral Audit.
+The undersigned **Andrea Zabala Cárcamo** (C.C. 43.925.102), enrolled in the ExpressVPN Identity Defender monitoring program under **Restoration ID: 85720870**, hereby submits this formal Claim Statement and Request for Identity Theft Restoration Services, Compensation for **Destroyed Hardware**, Full Reimbursement of **Purchased Replacement Devices**, and Compensation for **Three (3) Months of Total Loss of Income / Employment** following severe Dark Web credential leaks, targeted hardware cyberattacks, autonomous physical Wi-Fi implants, vehicle sabotage, physical harassment, and emergency multi-country displacements (including initial travel to Mexico with repeated unanswered institutional outreach attempts, followed by security relocation to Canada) arising from her role as lead forensic investigator in the 2026 Colombia Electoral Audit.
 
 ---
 
@@ -36,12 +36,13 @@ The undersigned **Andrea Zabala Cárcamo** (C.C. 43.925.102), enrolled in the Ex
 * **Emergency 911 Call by 10-Year-Old Child:** Official T-Mobile billing records verify a 3:00-minute dispatch call. The local Sheriff initially denied the call's existence and later produced a cropped `.vma` audio missing 59 seconds of the child's distress call.
 * **Mitsubishi Master Technician Inspection (June 20):** Diagnostic inspection of electrical systems and physical sealing of the rogue OBD-II (FIXD) wireless attack vector at an authorized Mitsubishi dealership.
 
-### E. FBI Submission & IACHR Precautionary Measures
+### E. FBI Submission, IACHR Filing, Mexico Refuge & Canada Relocation
 * **In-Person Appearance at FBI Richmond, VA:** Formal submission before FBI Richmond Field Office and `IC3.gov` (subsequently referred by FBI back to local Sheriff lacking cybersecurity infrastructure).
 * **Buckingham Sheriff's Office:** Incident Report `C20260617-0024-01`.
 * **Inter-American Commission on Human Rights (IACHR):** Precautionary Measures Filing `IACHR-0000113728` (June 29, 2026).
-* **Academic Damages at University of Phoenix (`Student ID: 9059123560`):** Enforced withdrawal (`Grade: W`) in `PSY/315 Statistical Reasoning in Psychology` due to rootkit hardware destruction and emergency displacement.
-* **Emergency International Relocation:** Security travel to Canada executed on August 7, 2026.
+* **Initial Emergency Travel to Mexico & Repeated Outreach:** Following severe security threats, Claimant and her family first traveled to **Mexico** seeking diplomatic protection and shelter. During the stay in Mexico, Claimant made repeated formal outreach attempts to institutional and diplomatic authorities without receiving an effective protective response.
+* **Academic Damages at University of Phoenix (`Student ID: 9059123560`):** Enforced withdrawal (`Grade: W`) in `PSY/315 Statistical Reasoning in Psychology` due to rootkit hardware destruction, constant harassment, and multi-country emergency displacement.
+* **Secondary International Relocation to Canada:** Due to persistent safety risks and lack of protective response in Mexico, Claimant executed a secondary emergency security relocation to Canada on August 7, 2026.
 
 ---
 
@@ -67,11 +68,11 @@ Under the **Assurant / ExpressVPN Identity Defender $3,000,000 USD Restoration P
 
 | Category | Itemized Loss / Cost Claimed | Applicable Policy Coverage |
 | :--- | :--- | :--- |
-| **Lost Wages / Employment Loss** | **Three (3) Full Months of Total Loss of Income / Employment (June, July, August 2026)** resulting directly from hardware destruction, physical harassment, Faraday isolation protocols, and emergency international relocation. | **Lost Wages & Wage Indemnification Coverage** |
+| **Lost Wages / Employment Loss** | **Three (3) Full Months of Total Loss of Income / Employment (June, July, August 2026)** resulting directly from hardware destruction, physical harassment, Faraday isolation protocols, and multi-country displacement (Mexico & Canada). | **Lost Wages & Wage Indemnification Coverage** |
+| **Emergency Multi-Country Travel** | Protective emergency airfare, temporary housing, and international relocation logistics to **Mexico** and subsequently to **Canada** (August 7, 2026). | **Threat Displacement Relocation Expenses** |
 | **Destroyed Devices** | Full indemnification for ThinkPad laptop loss, primary mobile phones, and compromised Aircove router. | Total Hardware Loss via Cyberattack |
 | **Purchased Devices** | Reimbursement for Samsung S23, replacement T-Mobile phone, and Faraday shielding bags. | Device Replacement for Harassment/Cyberdefense |
 | **Vehicle Repair** | Authorized Mitsubishi dealership costs for electrical diagnosis and wireless OBD-II (FIXD) vector removal. | Property Damage & Sabotage Repair |
-| **Emergency Relocation** | Protective emergency airfare, temporary housing, and international relocation logistics to Canada (August 7). | Threat Displacement Relocation Expenses |
 | **Tuition & Academic Loss** | Tuition reimbursement and re-enrollment fees at University of Phoenix (`Student ID: 9059123560`) due to forced withdrawal (`Grade: W`). | Lost Educational Benefits & Assistance |
 | **Legal & Forensic Fees** | International legal counsel fees, IACHR/FBI filing costs, and technical cryptographic forensic audit expenses. | Legal Counsel & Expert Coverage |
 | **Identity Remediation** | Dark Web credential remediation and data broker removal procedures across 16 tracking portals. | Identity Theft Restoration Services |

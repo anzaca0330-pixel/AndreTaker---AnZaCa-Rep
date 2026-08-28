@@ -14,7 +14,7 @@
 
 ## 📋 1. RESUMEN EJECUTIVO DEL RECLAMO
 
-La suscrita **Andrea Zabala Cárcamo** (C.C. 43.925.102), identificada en el sistema de monitoreo de ExpressVPN Identity Defender con el **Restoration ID: 85720870**, presenta formalmente esta Declaración de Reclamo y Solicitud de Cobertura y Reembolso de Gastos por Robo de Identidad, Filtración Masiva de Credenciales en la Dark Web, Hostigamiento Cibernético, Implantación de Redes Fantasma, Destrucción de Hardware, Sabotaje Físico e **Indemnización por Tres (3) Meses de Pérdida Total de Ingresos y Empleo** como consecuencia directa de su labor en la auditoría forense electoral 2026.
+La suscrita **Andrea Zabala Cárcamo** (C.C. 43.925.102), identificada en el sistema de monitoreo de ExpressVPN Identity Defender con el **Restoration ID: 85720870**, presenta formalmente esta Declaración de Reclamo y Solicitud de Cobertura y Reembolso de Gastos por Robo de Identidad, Filtración Masiva de Credenciales en la Dark Web, Hostigamiento Cibernético, Implantación de Redes Fantasma, Destrucción de Hardware, Sabotaje Físico, Desplazamiento Internacional Multi-País (incluyendo viaje inicial a México e intentos repetidos sin respuesta de contacto institucional, seguido por reubicación a Canadá) e **Indemnización por Tres (3) Meses de Pérdida Total de Ingresos y Empleo** como consecuencia directa de su labor en la auditoría forense electoral 2026.
 
 ---
 
@@ -36,18 +36,19 @@ La suscrita **Andrea Zabala Cárcamo** (C.C. 43.925.102), identificada en el sis
 * **Llamada de Emergencia al 911 por Menor de 10 Años:** Factura oficial de T-Mobile certifica 3:00 minutos de llamada. La policía entregó un audio `.vma` recortado a solo 2.01 minutos (recorte de 59 segundos de auxilio del menor).
 * **Inspección Técnica Mitsubishi (20 de junio):** Diagnóstico de sistemas eléctricos y sellado del vector de ataque inalambrico/físico OBD-II (FIXD) en el taller especializado Mitsubishi.
 
-### E. Comparecencia ante el FBI y Medidas CIDH
+### E. Comparecencia ante el FBI, CIDH, Refugio en México y Reubicación a Canadá
 * **Comparecencia Presencial en FBI Richmond, VA:** Radicación ante el FBI e `IC3.gov` (remitido posteriormente por el FBI al Sheriff local sin capacidad técnica).
 * **Sheriff's Office (Buckingham):** Incident Report `C20260617-0024-01`.
 * **Comisión Interamericana de Derechos Humanos (CIDH):** Petición de Medidas Cautelares Radicado `IACHR-0000113728` (29 de junio de 2026).
-* **Perjuicios Académicos en Universidad de Phoenix (`Student ID: 9059123560`):** Retiro forzado (`Grade: W`) en la asignatura `PSY/315 Statistical Reasoning in Psychology` debido a la inoperatividad de equipos por rootkit y desplazamiento de emergencia.
-* **Reubicación Internacional de Emergencia:** Traslado de seguridad a Canadá el 7 de Agosto de 2026.
+* **Desplazamiento Inicial a México e Intentos Repetidos de Contacto:** Ante el incremento de las amenazas, la investigadora y su familia viajaron primero a **México** buscando protección diplomática y resguardo. Durante su estancia en México, se realizaron múltiples e insistentemente intentos de contacto formal con autoridades e instituciones sin recibir respuesta efectiva o garantista.
+* **Perjuicios Académicos en Universidad de Phoenix (`Student ID: 9059123560`):** Retiro forzado (`Grade: W`) en la asignatura `PSY/315 Statistical Reasoning in Psychology` debido a la inoperatividad de equipos por rootkit, hostigamiento y desplazamiento internacional multi-país.
+* **Segundo Desplazamiento de Seguridad a Canadá:** Ante la falta de respuesta efectiva en México y la persistencia de los riesgos, se ejecutó una reubicación secundaria de seguridad a Canadá el 7 de Agosto de 2026.
 
 ---
 
 ## 💰 3. TABLA DESGLOSADA DE DISPOSITIVOS DESTRUIDOS, COMPRADOS Y GASTOS DE REEMBOLSO
 
-Bajo la Póliza de Restauración por $3,000,000 USD de **Assurant / ExpressVPN Identity Defender**, se solicita la indemnización por **Dispositivos Destruidos/Comprometidos**, el reembolso de **Dispositivos Adquiridos para Sustitución**, la cobertura de **Gastos Conexos** e **Indemnización por 3 Meses Sin Trabajo**:
+Bajo la Póliza de Restauración por $3,000,000 USD de **Assurant / ExpressVPN Identity Defender**, se solicita la indemnización por **Dispositivos Destruidos/Comprometidos**, el reembolso de **Dispositivos Adquiridos para Sustitución**, la cobertura de **Gastos Conexos de Desplazamiento Multi-País** e **Indemnización por 3 Meses Sin Trabajo**:
 
 ### A. Dispositivos Destruidos e Inhabilitados por Ciberataque/Sabotaje
 1. **Portátil ThinkPad:** Destruido e inhabilitado permanentemente por Rootkit de firmware (BIOS bloqueado a nivel de hardware - Soporte Lenovo `Key Ref 2031621994`).
@@ -67,11 +68,11 @@ Bajo la Póliza de Restauración por $3,000,000 USD de **Assurant / ExpressVPN I
 
 | Categoría | Detalle del Dispositivo / Costo Reclamado | Cobertura Aplicable de la Póliza |
 | :--- | :--- | :--- |
-| **Pérdida de Ingresos (3 Meses)** | **Indemnización por Tres (3) Meses Consecutivos Sin Trabajo / Pérdida de Ingresos (Junio, Julio, Agosto 2026)** derivados directamente de la destrucción de hardware, asedio informático, protocolos de aislamiento (Jaula Faraday) y desplazamiento de emergencia. | **Cobertura por Salarios/Ingresos Perdidos** |
+| **Pérdida de Ingresos (3 Meses)** | **Indemnización por Tres (3) Meses Consecutivos Sin Trabajo / Pérdida de Ingresos (Junio, Julio, Agosto 2026)** derivados directamente de la destrucción de hardware, asedio informático, protocolos de aislamiento (Jaula Faraday) y desplazamiento internacional multi-país. | **Cobertura por Salarios/Ingresos Perdidos** |
+| **Desplazamiento Multi-País (México/Canadá)** | Boletos aéreos de seguridad, hospedaje temporal y logística de transporte hacia **México** (con intentos repetidos de contacto institucional sin respuesta) y posteriormente hacia **Canadá** (7 de agosto). | **Gastos de Reubicación por Amenaza Directa** |
 | **Dispositivos Destruidos** | Indemnización por pérdida total del portátil ThinkPad, teléfonos móviles primarios y router Aircove comprometido. | Pérdida Total de Hardware por Ciberataque |
 | **Dispositivos Adquiridos** | Reembolso por compra de Samsung S23, teléfono T-Mobile de sustitución y bolsas de aislamiento Faraday. | Sustitución de Dispositivos por Acoso/Ciberdefensa |
 | **Reparación Vehicular** | Taller especializado Mitsubishi por diagnóstico eléctrico y remoción de vector OBD-II (FIXD). | Reparación por Sabotaje Físico |
-| **Reubicación de Emergencia** | Boletos aéreos de seguridad, hospedaje y logística de desplazamiento hacia Canadá (7 de agosto). | Gastos de Reubicación por Amenaza Directa |
 | **Perjuicios Académicos** | Reembolso de matrícula y costo de reinscripción en Univ. de Phoenix (`Student ID: 9059123560`) tras retiro obligado (`Grade: W`). | Pérdida de Derechos Educativos / Asistencia |
 | **Honorarios y Peritajes** | Asesoría jurídica internacional, radicados CIDH/FBI y auditoría técnica forense criptográfica. | Cobertura de Honorarios Legales |
 | **Remediación de Identidad** | Limpieza de credenciales en Dark Web y solicitudes de remoción ante 16 agencias/databrokers. | Servicios de Restauración de Identidad |

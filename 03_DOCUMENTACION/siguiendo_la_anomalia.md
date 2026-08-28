@@ -18,7 +18,8 @@ Dado que la información estaba en riesgo, la base de datos de 23.6 MB (que cont
 
 Simultáneamente, la iniciativa ciudadana "Testigos Digitales" ejecutó una extracción masiva de más de **147.000 documentos electorales** (equivalentes a un acervo consolidado de **más de 677 Gigabytes**) de los servidores oficiales, preservando la información mediante el algoritmo criptográfico **SHA-256**.
 
-El **6 de julio**, tras asegurar protección bajo la cobertura de la CIDH (Radicado `IACHR-0000113728`), contacté a la red de Testigos Digitales. Se integró la base de datos descargada por ellos con mi modelo estadístico. No obstante, el diagnóstico técnico y el análisis estructural detallado en este informe han sido desarrollados de manera independiente. Finalmente, ante el inminente riesgo de seguridad y coincidiendo con la transición presidencial en Colombia, me vi en la necesidad a desplazarme, arribando a Canadá el **7 de agosto** para resguardar mi integridad física y la evidencia.
+El **6 de julio**, tras asegurar protección bajo la cobertura de la CIDH (Radicado `IACHR-0000113728`), contacté a la red de Testigos Digitales. Se integró la base de datos descargada por ellos con mi modelo estadístico. Ante el riesgo inminente y la falta de garantías, viajamos primero a **México** buscando protección diplomática y resguardo. Durante nuestra estancia en México, intentamos contactarnos en repetidas ocasiones con las autoridades y canales institucionales sin recibir respuesta efectiva. Finalmente, ante la persistencia de la inseguridad y coincidiendo con la transición presidencial en Colombia, nos vimos en la necesidad de desplazarnos nuevamente, arribando a Canadá el **7 de agosto** para resguardar nuestra integridad física y la evidencia.
+
 
 ---
 
@@ -50,7 +51,7 @@ La pregunta definitiva era: si los documentos eran sintéticos, ¿qué pasaba co
 
 Según la literatura de ciberseguridad (Mainka et al., 2013), un atacante puede alterar un documento inyectando comandos ocultos sin afectar la apariencia exterior, una técnica conocida como *Blind Masking*. Para probarlo, ejecutamos una extracción dual de hashes sobre la bóveda completa de actas de Delegados del 21 de junio, un total de **121.960 archivos**.
 
-El procedimiento fue implacable:
+El procedimiento fue el siguiente:
 1. Calculamos el **Hash Físico Real (SHA-256)** de cada uno de los 121.960 PDFs.
 2. Extrajimos los **64 caracteres inyectados en el código QR** (el Transmission Code) asignado a cada mesa en la base de datos de la Registraduría.
 
