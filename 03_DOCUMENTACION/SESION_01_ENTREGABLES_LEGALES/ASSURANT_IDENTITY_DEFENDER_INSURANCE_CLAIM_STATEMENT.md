@@ -14,7 +14,7 @@
 
 ## 📋 1. EXECUTIVE CLAIM SUMMARY
 
-The undersigned **Andrea Zabala Cárcamo** (C.C. 43.925.102), enrolled in the ExpressVPN Identity Defender monitoring program under **Restoration ID: 85720870**, hereby submits this formal Claim Statement and Request for Identity Theft Restoration Services, Compensation for **Destroyed Hardware**, and Full Reimbursement of **Purchased Replacement Devices & Associated Expenses** following severe Dark Web credential leaks, targeted hardware cyberattacks, autonomous physical Wi-Fi implants, vehicle sabotage, and physical harassment arising from her role as lead forensic investigator in the 2026 Colombia Electoral Audit.
+The undersigned **Andrea Zabala Cárcamo** (C.C. 43.925.102), enrolled in the ExpressVPN Identity Defender monitoring program under **Restoration ID: 85720870**, hereby submits this formal Claim Statement and Request for Identity Theft Restoration Services, Compensation for **Destroyed Hardware**, Full Reimbursement of **Purchased Replacement Devices**, and Compensation for **Three (3) Months of Total Loss of Income / Employment** following severe Dark Web credential leaks, targeted hardware cyberattacks, autonomous physical Wi-Fi implants, vehicle sabotage, and physical harassment arising from her role as lead forensic investigator in the 2026 Colombia Electoral Audit.
 
 ---
 
@@ -47,7 +47,7 @@ The undersigned **Andrea Zabala Cárcamo** (C.C. 43.925.102), enrolled in the Ex
 
 ## 💰 3. ITEMIZED SCHEDULE OF DESTROYED DEVICES, PURCHASED REPLACEMENTS & EXPENSES
 
-Under the **Assurant / ExpressVPN Identity Defender $3,000,000 USD Restoration Policy**, Claimant submits the following itemized breakdown for total hardware loss compensation and replacement reimbursement:
+Under the **Assurant / ExpressVPN Identity Defender $3,000,000 USD Restoration Policy**, Claimant submits the following itemized breakdown for total hardware loss compensation, replacement reimbursement, and lost wages:
 
 ### A. Destroyed & Permanently Disabled Devices (Cyberattack & Sabotage)
 1. **Primary ThinkPad Workstation Laptop:** Permanently destroyed/rendered inoperable by firmware Rootkit (hardware BIOS lock - Lenovo Support `Key Ref 2031621994`).
@@ -63,10 +63,11 @@ Under the **Assurant / ExpressVPN Identity Defender $3,000,000 USD Restoration P
 
 ---
 
-### C. Expense Reimbursement Summary Matrix
+### C. Expense Reimbursement & Wage Loss Summary Matrix
 
 | Category | Itemized Loss / Cost Claimed | Applicable Policy Coverage |
 | :--- | :--- | :--- |
+| **Lost Wages / Employment Loss** | **Three (3) Full Months of Total Loss of Income / Employment (June, July, August 2026)** resulting directly from hardware destruction, physical harassment, Faraday isolation protocols, and emergency international relocation. | **Lost Wages & Wage Indemnification Coverage** |
 | **Destroyed Devices** | Full indemnification for ThinkPad laptop loss, primary mobile phones, and compromised Aircove router. | Total Hardware Loss via Cyberattack |
 | **Purchased Devices** | Reimbursement for Samsung S23, replacement T-Mobile phone, and Faraday shielding bags. | Device Replacement for Harassment/Cyberdefense |
 | **Vehicle Repair** | Authorized Mitsubishi dealership costs for electrical diagnosis and wireless OBD-II (FIXD) vector removal. | Property Damage & Sabotage Repair |
@@ -74,7 +75,6 @@ Under the **Assurant / ExpressVPN Identity Defender $3,000,000 USD Restoration P
 | **Tuition & Academic Loss** | Tuition reimbursement and re-enrollment fees at University of Phoenix (`Student ID: 9059123560`) due to forced withdrawal (`Grade: W`). | Lost Educational Benefits & Assistance |
 | **Legal & Forensic Fees** | International legal counsel fees, IACHR/FBI filing costs, and technical cryptographic forensic audit expenses. | Legal Counsel & Expert Coverage |
 | **Identity Remediation** | Dark Web credential remediation and data broker removal procedures across 16 tracking portals. | Identity Theft Restoration Services |
-| **Lost Wages** | Income loss during security isolation, Faraday cage device containment, and emergency travel. | Income Loss & Wage Indemnification |
 
 ---
 

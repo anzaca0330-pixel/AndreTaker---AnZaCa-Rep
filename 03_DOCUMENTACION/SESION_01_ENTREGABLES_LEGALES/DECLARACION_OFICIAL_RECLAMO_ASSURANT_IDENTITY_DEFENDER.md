@@ -14,7 +14,7 @@
 
 ## 📋 1. RESUMEN EJECUTIVO DEL RECLAMO
 
-La suscrita **Andrea Zabala Cárcamo** (C.C. 43.925.102), identificada en el sistema de monitoreo de ExpressVPN Identity Defender con el **Restoration ID: 85720870**, presenta formalmente esta Declaración de Reclamo y Solicitud de Cobertura y Reembolso de Gastos por Robo de Identidad, Filtración Masiva de Credenciales en la Dark Web, Hostigamiento Cibernético, Implantación de Redes Fantasma, Destrucción de Hardware y Sabotaje Físico como consecuencia directa de su labor en la auditoría forense electoral 2026.
+La suscrita **Andrea Zabala Cárcamo** (C.C. 43.925.102), identificada en el sistema de monitoreo de ExpressVPN Identity Defender con el **Restoration ID: 85720870**, presenta formalmente esta Declaración de Reclamo y Solicitud de Cobertura y Reembolso de Gastos por Robo de Identidad, Filtración Masiva de Credenciales en la Dark Web, Hostigamiento Cibernético, Implantación de Redes Fantasma, Destrucción de Hardware, Sabotaje Físico e **Indemnización por Tres (3) Meses de Pérdida Total de Ingresos y Empleo** como consecuencia directa de su labor en la auditoría forense electoral 2026.
 
 ---
 
@@ -47,7 +47,7 @@ La suscrita **Andrea Zabala Cárcamo** (C.C. 43.925.102), identificada en el sis
 
 ## 💰 3. TABLA DESGLOSADA DE DISPOSITIVOS DESTRUIDOS, COMPRADOS Y GASTOS DE REEMBOLSO
 
-Bajo la Póliza de Restauración por $3,000,000 USD de **Assurant / ExpressVPN Identity Defender**, se solicita la indemnización por **Dispositivos Destruidos/Comprometidos**, el reembolso de **Dispositivos Adquiridos para Sustitución** y la cobertura de **Gastos Conexos**:
+Bajo la Póliza de Restauración por $3,000,000 USD de **Assurant / ExpressVPN Identity Defender**, se solicita la indemnización por **Dispositivos Destruidos/Comprometidos**, el reembolso de **Dispositivos Adquiridos para Sustitución**, la cobertura de **Gastos Conexos** e **Indemnización por 3 Meses Sin Trabajo**:
 
 ### A. Dispositivos Destruidos e Inhabilitados por Ciberataque/Sabotaje
 1. **Portátil ThinkPad:** Destruido e inhabilitado permanentemente por Rootkit de firmware (BIOS bloqueado a nivel de hardware - Soporte Lenovo `Key Ref 2031621994`).
@@ -59,14 +59,15 @@ Bajo la Póliza de Restauración por $3,000,000 USD de **Assurant / ExpressVPN I
 ### B. Dispositivos Adquiridos de Emergencia para Reemplazo y Ciberdefensa
 1. **Teléfono Móvil Seguro Samsung Galaxy S23:** Adquirido en ambiente controlado de T-Mobile en la última semana de junio de 2026.
 2. **Segundo Dispositivo Telefónico T-Mobile de Reemplazo:** Adquirido para restablecer la comunicación segura del núcleo familiar y del menor.
-3. **Fundas y Bolsas de Aislamiento Faraday:** Adquiridas para la contención física de radiofrecuencia ( Wi-Fi / Celular / Bluetooth) de los equipos comprometidos.
+3. **Fundas y Bolsas de Aislamiento Faraday:** Adquiridas para la contención física de radiofrecuencia (Wi-Fi / Celular / Bluetooth) de los equipos comprometidos.
 
 ---
 
-### C. Matriz Resumen de Reembolso de Gastos
+### C. Matriz Resumen de Reembolso de Gastos y Salarios Perdidos
 
 | Categoría | Detalle del Dispositivo / Costo Reclamado | Cobertura Aplicable de la Póliza |
 | :--- | :--- | :--- |
+| **Pérdida de Ingresos (3 Meses)** | **Indemnización por Tres (3) Meses Consecutivos Sin Trabajo / Pérdida de Ingresos (Junio, Julio, Agosto 2026)** derivados directamente de la destrucción de hardware, asedio informático, protocolos de aislamiento (Jaula Faraday) y desplazamiento de emergencia. | **Cobertura por Salarios/Ingresos Perdidos** |
 | **Dispositivos Destruidos** | Indemnización por pérdida total del portátil ThinkPad, teléfonos móviles primarios y router Aircove comprometido. | Pérdida Total de Hardware por Ciberataque |
 | **Dispositivos Adquiridos** | Reembolso por compra de Samsung S23, teléfono T-Mobile de sustitución y bolsas de aislamiento Faraday. | Sustitución de Dispositivos por Acoso/Ciberdefensa |
 | **Reparación Vehicular** | Taller especializado Mitsubishi por diagnóstico eléctrico y remoción de vector OBD-II (FIXD). | Reparación por Sabotaje Físico |
@@ -74,7 +75,6 @@ Bajo la Póliza de Restauración por $3,000,000 USD de **Assurant / ExpressVPN I
 | **Perjuicios Académicos** | Reembolso de matrícula y costo de reinscripción en Univ. de Phoenix (`Student ID: 9059123560`) tras retiro obligado (`Grade: W`). | Pérdida de Derechos Educativos / Asistencia |
 | **Honorarios y Peritajes** | Asesoría jurídica internacional, radicados CIDH/FBI y auditoría técnica forense criptográfica. | Cobertura de Honorarios Legales |
 | **Remediación de Identidad** | Limpieza de credenciales en Dark Web y solicitudes de remoción ante 16 agencias/databrokers. | Servicios de Restauración de Identidad |
-| **Pérdida de Ingresos** | Pérdida de ingresos por interrupción laboral durante el aislamiento de seguridad y jaula Faraday. | Indemnización por Ingresos Perdidos |
 
 ---
 
