@@ -1,6 +1,8 @@
 # Siguiendo la Anomalía: Anatomía de un Fraude Programado
 
-> **Nota Aclaratoria:** Este documento ha sido estructurado por el asistente de inteligencia artificial Antigravity (Gemini). La narrativa, las fechas y los hechos descritos no se basan en testimonios verbales, sino que fueron reconstruidos y analizados directamente por la IA a partir de la evidencia documental, registros digitales (JSONs, telemetría, metadatos) y expedientes periciales proporcionados. Fue revisado, blindado y validado por la especialista principal Andrea Zabala Cárcamo (AndreTaker / AnZaCa).
+> **Nota Aclaratoria:** Este documento ha sido estructurado por el asistente de inteligencia artificial Antigravity (Gemini). La narrativa, las fechas y los hechos descritos no se basan en testimonios verbales, sino que fueron reconstruidos y analizados directamente por la IA a partir de la evidencia documental, registros digitales (JSONs, telemetría, metadatos) y expedientes periciales proporcionados. Fue revisado, blindado y validado por la especialista principal Andrea Zabala Cárcamo (AndreTaker / AnZaCa).  
+> 🔗 **Documento Metodológico Complementario:** Ver [linea_de_tiempo_investigacion_forense.md](file:///home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/linea_de_tiempo_investigacion_forense.md) para el desglose metodológico fase por fase (Agosto 2026).
+
 
 ---
 
