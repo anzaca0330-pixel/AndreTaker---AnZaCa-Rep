@@ -2,7 +2,7 @@
 ## Claim Number: 00115536906 | Adjuster: Yisell
 
 **Para:** `myclaiminfo@assurant.com`, `ClientLetter@assurant.com`  
-**Asunto:** `Re: Claim Number 00115536906 - Comprehensive Loss Statement, Available Evidence Inventory & Financial Loss Estimate (Andrea Zabala Carcamo)`  
+**Asunto:** `Re: Claim Number 00115536906 - Formal Statement & Itemized Loss Claim ($83,050.00 USD)`  
 **Adjuntos a incluir en tu Proton Mail:**  
 - `ROR.00115536906.pdf` (La carta enviada por Assurant)  
 - `ASSURANT_CLAIM_00115536906_STATEMENT_EN.md` (Exportado a PDF o adjunto)  
@@ -10,18 +10,34 @@
 
 ---
 
-### ✉️ TEXTO EN INGLÉS (PARA COPIAR Y PEGAR EN PROTON MAIL):
+### ✉️ OPCIÓN 1: CORREO CORTO PARA EL CUERPO PRINCIPAL (COPIAR Y PEGAR):
 
 ```text
 To: myclaiminfo@assurant.com, ClientLetter@assurant.com
-Subject: Re: Claim Number 00115536906 - Comprehensive Loss Statement, Available Evidence Inventory & Financial Loss Estimate (Andrea Zabala Carcamo)
+Subject: Re: Claim Number 00115536906 - Formal Statement & Itemized Loss Claim ($83,050.00 USD)
 
 Dear Yisell (Adjuster, FSO Claims Operations),
 
-Thank you for your correspondence regarding Identity Fraud Claim Number: 00115536906 (Date of Loss: 06-01-2026 / First Notice of Loss: 08-12-2026).
+Thank you for your correspondence regarding Identity Fraud Claim Number: 00115536906.
 
-Pursuant to my active policy coverage under ExpressVPN Identity Defender / Assurant ($3,000,000 USD Identity Fraud & Cybercrime Policy), I am submitting my formal Comprehensive Loss Statement, Minor Child Identity Theft Report, Bank Account Compromise Notice, Complete Available Evidence Inventory, and Itemized Financial Loss Estimate resulting directly from targeted identity theft, Dark Web credential breaches, persistent hardware rootkit destruction, vehicle sabotage, physical harassment, and emergency multi-country protective relocation.
+Please find attached my formal Claim Statement and Itemized Financial Loss Breakdown ($83,050.00 USD) resulting directly from Dark Web identity theft breaches (Restoration ID: 85720870), firmware rootkit destruction of my workstation (Lenovo Support Key Ref: 2031621994), unauthorized minor child data exposure, vehicle sabotage, and emergency protective relocation.
 
+Attached for your records are the original Assurant notice (ROR.00115536906.pdf), formal loss statement, and supporting documentation. I respectfully request the assignment of a dedicated claims adjuster to initiate identity restoration, FCRA credit bureau freezes (Experian, Equifax, TransUnion), minor child identity remediation, and loss reimbursement processing.
+
+Sincerely,
+
+Andrea Zabala Carcamo
+Claimant | Claim Number: 00115536906
+Restoration ID: 85720870
+Email: anzaca0330@gmail.com / andretaker@proton.me
+Property Address: 2626 Troublesome Creek Rd, Dillwyn, VA 23936
+```
+
+---
+
+### 📄 OPCIÓN 2: DECLARACIÓN DETALLADA COMPLETA DE RECLAMO ($83,050.00 USD):
+
+```text
 1. EXECUTIVE SUMMARY & CONTEXT OF LOSS
 In early June 2026, following my work as lead forensic analyst in an international electoral audit, my identity, personal credentials, bank accounts, and minor child's personal data were targeted. My credentials were exposed in Dark Web breaches (as alerted by ExpressVPN Identity Defender under Restoration ID: 85720870). These attacks led to:
 - Minor Child Data Theft: My 10-year-old child's personal identifiers, school/medical records, and mobile line were severely compromised online following the June 13 emergency dispatch call, triggering over 1,600 barrage tracking calls/messages.
@@ -58,6 +74,7 @@ Our claim is supported by 10 master categories of verifiable physical, digital, 
 +-------------------------------------------------------------+-------------------+
 | 2. Three (3) Months Total Loss of Income / Employment:      |                   |
 |    - 3 Months Employment Loss (June, July, August 2026)     | $19,500.00 USD    |
+|      (Directly resulting from rootkit destruction & threat) |                   |
 +-------------------------------------------------------------+-------------------+
 | 3. Destroyed Hardware & Hardware Loss Compensation:         |                   |
 |    - ThinkPad Workstation (Firmware BIOS Rootkit destruction)| $3,200.00 USD     |
@@ -99,10 +116,3 @@ Restoration ID: 85720870
 Email: anzaca0330@gmail.com / andretaker@proton.me
 Property Address: 2626 Troublesome Creek Rd, Dillwyn, VA 23936
 ```
-
----
-
-### 🇪🇸 SÍNTESIS DE LAS PRUEBAS INCLUIDAS EN EL CORREO:
-- **10 Categorías Maestras de Evidencia:** Hardware (Lenovo Key Ref `2031621994`), Vehículo (Mitsubishi OBD-II FIXD), Policial (Sheriff Incident `C20260617-0024-01`, factura T-Mobile y audio recortado), Dark Web (ExpressVPN ID `85720870`), Académica (Univ. Phoenix `PSY/315`), Protección (CIDH `IACHR-0000113728`, FBI Richmond, tiquetes aéreos $2,000 USD), Acervo (>677 GB, Internet Archive, Zenodo), PDF XREF (57.981 actas), QR Blind Masking (121.960 actas, 0% coincidencia) y Benford 2BL (451 mesas clonadas, $Z = -56.96$).
-
-¡Todo el expediente de pruebas ha quedado detallado en el correo y en el documento oficial! 🕊️💽🛡️⚡
