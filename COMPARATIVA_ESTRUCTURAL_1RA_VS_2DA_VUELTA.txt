@@ -1,6 +1,6 @@
 COMPARATIVA ESTRUCTURAL 1RA VS 2DA VUELTA
 ==================================================
 
-1ra Vuelta Imágenes: 2
+1ra Vuelta Imágenes: 3
 2da Vuelta Imágenes: 2
 Patrón XREF: Idéntico en ambas rondas.

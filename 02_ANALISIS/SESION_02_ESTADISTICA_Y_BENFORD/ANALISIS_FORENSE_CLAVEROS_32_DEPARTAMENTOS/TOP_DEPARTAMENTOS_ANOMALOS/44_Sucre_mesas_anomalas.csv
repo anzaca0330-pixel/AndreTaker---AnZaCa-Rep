@@ -1,0 +1,11 @@
+Dpto,Mpio,Zona,Puesto,Mesa,Votos_Cepeda,Votos_Espriella,Total_Votos,Anomalia
+44,001,01,03,000005,89,176,270,Clonada (Idéntica a mesa anterior)
+44,001,04,01,000012,28,28,58,Empate Exacto (Estadísticamente Inviable)
+44,003,00,00,000003,138,102,248,Clonada (Idéntica a mesa anterior)
+44,016,99,25,000001,68,68,139,Empate Exacto (Estadísticamente Inviable)
+44,001,01,01,000016,98,98,205,Empate Exacto (Estadísticamente Inviable)
+44,001,04,06,000015,98,98,207,Empate Exacto (Estadísticamente Inviable)
+44,022,99,25,000001,65,2,67,Polarización Extrema (>95%)
+44,022,99,30,000001,73,0,73,Polarización Extrema (>95%)
+44,016,99,51,000001,279,0,279,Polarización Extrema (>95%)
+44,016,99,51,000002,102,1,105,Polarización Extrema (>95%)

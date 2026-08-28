@@ -18,3 +18,7 @@ __pycache__/
 # Entornos virtuales
 venv/
 env/
+*venv*/
+
+# Evidencia Cruda (USB)
+ES_ESPANOL/Capitulo_06_Archivos_Crudos_y_Respaldos/Evidencia_USB_Rescate/

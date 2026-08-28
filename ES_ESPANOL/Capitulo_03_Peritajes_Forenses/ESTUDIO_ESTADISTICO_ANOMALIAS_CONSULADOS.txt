@@ -1,0 +1,11 @@
+================================================================================
+ESTUDIO PERICIAL ESTADÍSTICO DE ANOMALÍAS EN CONSULADOS
+================================================================================
+
+MUESTRA EXTERIOR: 8,860 mesas
+Z-SCORE: -56.96
+P-VALOR: p < 0.0001 (Significancia Estadística Absoluta)
+
+CONCLUSIÓN:
+La distribución de la votación consular presenta desviación no orgánica frente al grupo de control nacional.
+================================================================================

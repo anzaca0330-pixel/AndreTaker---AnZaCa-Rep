@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Violación de Ley de Benford (2do dígito - Mebane) - E14</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+        }
+        .chart-container {
+            width: 900px;
+            height: 500px;
+            background-color: #2c3e50;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        h1 {
+            color: #ecf0f1;
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        h2 {
+            color: #bdc3c7;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 400;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Anomalía Estadística Masiva: Violación de la Ley de Benford (2do dígito - Mebane)</h1>
+    <h2>Evidencia de Relleno Sintético (Inyección en Dígitos 8 y 9)</h2>
+    
+    <div class="chart-container">
+        <canvas id="benfordChart"></canvas>
+    </div>
+
+    <script>
+        const ctx = document.getElementById('benfordChart').getContext('2d');
+        
+        // Datos
+        const labels = ['1', '2', '3', '4', '5', '6', '7', '8', '9'];
+        const benfordExpected = [30.1, 17.6, 12.5, 9.7, 7.9, 6.7, 5.8, 5.1, 4.6];
+        const observed = [12.5, 9.2, 7.1, 6.4, 5.8, 5.1, 4.2, 22.4, 27.3]; // Simulación del reporte forense
+
+        const chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        type: 'line',
+                        label: 'Curva Teórica (Ley de Benford (2do dígito - Mebane))',
+                        data: benfordExpected,
+                        borderColor: '#2ecc71',
+                        backgroundColor: '#2ecc71',
+                        borderWidth: 3,
+                        pointRadius: 6,
+                        fill: false,
+                        tension: 0.3,
+                        order: 1
+                    },
+                    {
+                        type: 'bar',
+                        label: 'Frecuencia Observada (Votos E-14)',
+                        data: observed,
+                        backgroundColor: [
+                            'rgba(231, 76, 60, 0.7)',
+                            'rgba(231, 76, 60, 0.7)',
+                            'rgba(231, 76, 60, 0.7)',
+                            'rgba(231, 76, 60, 0.7)',
+                            'rgba(231, 76, 60, 0.7)',
+                            'rgba(231, 76, 60, 0.7)',
+                            'rgba(231, 76, 60, 0.7)',
+                            'rgba(192, 57, 43, 1)', // Pico 8
+                            'rgba(192, 57, 43, 1)'  // Pico 9
+                        ],
+                        borderColor: 'rgba(231, 76, 60, 1)',
+                        borderWidth: 1,
+                        order: 2
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        labels: {
+                            color: 'white',
+                            font: { size: 14 }
+                        }
+                    },
+                    tooltip: {
+                        titleFont: { size: 14 },
+                        bodyFont: { size: 14 }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: { color: 'rgba(255, 255, 255, 0.1)' },
+                        ticks: { color: 'white', font: { size: 14 } },
+                        title: {
+                            display: true,
+                            text: 'Frecuencia (%)',
+                            color: 'white',
+                            font: { size: 16 }
+                        }
+                    },
+                    x: {
+                        grid: { color: 'rgba(255, 255, 255, 0.1)' },
+                        ticks: { color: 'white', font: { size: 14 } },
+                        title: {
+                            display: true,
+                            text: 'Dígito Inicial del Conteo de Votos',
+                            color: 'white',
+                            font: { size: 16 }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "title": "Forensic Discovery And Technical Anomalies - Gemini Shared Record",
+  "url": "https://share.gemini.google/Yfz7Dwcnf3XG",
+  "author": "Andrea Zabala Carcamo",
+  "date_created": "2026-06-21T20:23:00Z",
+  "date_published": "2026-08-09T16:43:00Z",
+  "summary": {
+    "key_findings": [
+      "Pure white DeviceGray synthetic masks (#FFFFFF, std dev 0, luminance 65535)",
+      "Hybrid PDF architecture (sRGB + DeviceGray)",
+      "Post-publication SHA256 modifications across 4 consecutive days",
+      "Structural ghost object mismatch (15 objects != highest 13)",
+      "0% QR code readability in manipulated cluster",
+      "Low standard deviation of 2.5 votes (injected rounding formula)",
+      "Read-only methodology via pdfimages, ImageMagick, qpdf, sha256sum"
+    ],
+    "tactical_events": [
+      "Document deletion from Google Drive recovered via markdownlive cache",
+      "#BLINDMASKING phrase sent via TV live stream to bypass local DPI inspection filters",
+      "FBI Cybercrime and Sheriff Department reporting",
+      "256-bit cryptographic backup key from April 14, 2026 preserved"
+    ]
+  }
+}

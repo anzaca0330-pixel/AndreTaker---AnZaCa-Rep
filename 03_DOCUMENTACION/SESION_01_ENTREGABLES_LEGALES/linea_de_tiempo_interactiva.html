@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motor AndreTaker - Línea de Tiempo Forense</title>
+    <!-- Google Fonts for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0b0c10;
+            --glass-bg: rgba(31, 40, 51, 0.6);
+            --glass-border: rgba(69, 162, 158, 0.3);
+            --accent-cyan: #66fcf1;
+            --accent-red: #ff2a2a;
+            --text-main: #c5c6c7;
+            --text-heading: #ffffff;
+            --font-main: 'Outfit', sans-serif;
+            --font-code: 'JetBrains Mono', monospace;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(102, 252, 241, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 85% 30%, rgba(255, 42, 42, 0.05) 0%, transparent 50%);
+            background-attachment: fixed;
+            color: var(--text-main);
+            font-family: var(--font-main);
+            overflow-x: hidden;
+        }
+
+        /* Header styling */
+        header {
+            text-align: center;
+            padding: 6rem 2rem 4rem;
+            position: relative;
+        }
+
+        .baba-yaga-seal {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 2px solid var(--accent-cyan);
+            box-shadow: 0 0 20px rgba(102, 252, 241, 0.4);
+            margin-bottom: 2rem;
+            animation: pulse-glow 3s infinite alternate;
+        }
+
+        @keyframes pulse-glow {
+            0% { box-shadow: 0 0 10px rgba(102, 252, 241, 0.2); }
+            100% { box-shadow: 0 0 30px rgba(102, 252, 241, 0.6); }
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: var(--text-heading);
+            margin: 0 0 1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        h1 span {
+            color: var(--accent-cyan);
+            font-family: var(--font-code);
+        }
+
+        p.subtitle {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        /* Timeline Container */
+        .timeline {
+            position: relative;
+            max-width: 1000px;
+            margin: 4rem auto;
+            padding: 2rem;
+        }
+
+        /* The central glowing line */
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 4px;
+            background: linear-gradient(to bottom, var(--accent-cyan), var(--accent-red), var(--accent-cyan));
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -2px;
+            border-radius: 2px;
+            box-shadow: 0 0 15px rgba(102, 252, 241, 0.5);
+        }
+
+        /* Timeline Items */
+        .timeline-item {
+            padding: 10px 40px;
+            position: relative;
+            background-color: inherit;
+            width: 50%;
+            box-sizing: border-box;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+        }
+
+        .timeline-item.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .timeline-item:nth-child(odd) {
+            left: 0;
+        }
+
+        .timeline-item:nth-child(even) {
+            left: 50%;
+        }
+
+        /* The dots on the line */
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            right: -10px;
+            background-color: var(--bg-color);
+            border: 4px solid var(--accent-cyan);
+            top: 30px;
+            border-radius: 50%;
+            z-index: 1;
+            box-shadow: 0 0 10px var(--accent-cyan);
+            transition: all 0.3s ease;
+        }
+
+        .timeline-item:nth-child(even)::after {
+            left: -10px;
+        }
+
+        .timeline-item:hover::after {
+            background-color: var(--accent-cyan);
+            transform: scale(1.3);
+        }
+
+        /* Glassmorphism Cards */
+        .content {
+            padding: 2rem;
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid var(--glass-border);
+            border-radius: 15px;
+            position: relative;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .timeline-item:hover .content {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px 0 rgba(102, 252, 241, 0.2);
+            border-color: rgba(102, 252, 241, 0.6);
+        }
+
+        .timeline-item.critical .content {
+            border-color: rgba(255, 42, 42, 0.4);
+        }
+        
+        .timeline-item.critical:hover .content {
+            box-shadow: 0 15px 40px 0 rgba(255, 42, 42, 0.2);
+            border-color: rgba(255, 42, 42, 0.8);
+        }
+
+        .timeline-item.critical::after {
+            border-color: var(--accent-red);
+            box-shadow: 0 0 10px var(--accent-red);
+        }
+        
+        .timeline-item.critical:hover::after {
+            background-color: var(--accent-red);
+        }
+
+        .date {
+            display: inline-block;
+            padding: 5px 12px;
+            background: rgba(102, 252, 241, 0.1);
+            color: var(--accent-cyan);
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            border: 1px solid rgba(102, 252, 241, 0.3);
+        }
+
+        .timeline-item.critical .date {
+            background: rgba(255, 42, 42, 0.1);
+            color: var(--accent-red);
+            border-color: rgba(255, 42, 42, 0.3);
+        }
+
+        .content h2 {
+            margin: 0 0 10px;
+            color: var(--text-heading);
+            font-size: 1.5rem;
+        }
+
+        .content p {
+            line-height: 1.6;
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        .tech-badge {
+            display: inline-block;
+            margin-top: 1rem;
+            font-family: var(--font-code);
+            font-size: 0.8rem;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 4px 8px;
+            border-radius: 4px;
+            color: #8892b0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 4rem 2rem;
+            font-family: var(--font-code);
+            color: #8892b0;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            .timeline::after {
+                left: 31px;
+            }
+            .timeline-item {
+                width: 100%;
+                padding-left: 70px;
+                padding-right: 25px;
+            }
+            .timeline-item:nth-child(even) {
+                left: 0%;
+            }
+            .timeline-item::after {
+                left: 21px;
+            }
+            .timeline-item:nth-child(even)::after {
+                left: 21px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="../SESION_02_MAPAS_Y_ARBOLES/andretaker_baba_yaga.png" alt="Motor AndreTaker" class="baba-yaga-seal" onerror="this.style.display='none'">
+        <h1>AUDITORÍA <span>//</span> THE ANDRETAKER</h1>
+        <p class="subtitle">Expediente Oficial: Cronología del hallazgo pericial sobre la manipulación estructural de los formularios E-14 y el Fraude de Transmisión.</p>
+    </header>
+
+    <div class="timeline">
+        
+        <!-- Fase 1 y 2 -->
+        <div class="timeline-item">
+            <div class="content">
+                <span class="date">1 - 2 Junio 2026</span>
+                <h2>Inspección de Campo y Anomalías Base</h2>
+                <p>Hallazgo inicial de códigos QR nulos y foliación híbrida (mezcla de formatos a color y blanco/negro) en las actas correspondientes a Los Ángeles, Puesto 02. Identificación de varianza sospechosa.</p>
+                <div class="tech-badge">Inspección Documental</div>
+            </div>
+        </div>
+
+        <!-- Fase 3: QR SPOOFING (CRITICAL) -->
+        <div class="timeline-item critical">
+            <div class="content">
+                <span class="date">2 - 5 Junio 2026</span>
+                <h2>Fase 3: Fraude de Transmisión (QR Spoofing)</h2>
+                <p><strong>Hallazgo Material:</strong> Descubrimiento de suplantación de identidad de mesas mediante códigos QR idénticos inyectados. El sistema de transmisión central fue forzado a sobrescribir iterativamente los datos orgánicos con actas fraudulentas clonadas.</p>
+                <div class="tech-badge">Vulneración de Base de Datos Central</div>
+            </div>
+        </div>
+
+        <!-- Fase 4 y 5 -->
+        <div class="timeline-item">
+            <div class="content">
+                <span class="date">Junio - Julio 2026</span>
+                <h2>Automatización del Pipeline Forense</h2>
+                <p>Desarrollo de los scripts de extracción masiva. Análisis procesal de más de 25.061 actas (Grupo de Control). Se demostró estadísticamente (p &lt; 0.0001) la imposibilidad de la varianza cero encontrada en la transmisión.</p>
+                <div class="tech-badge">Python / QPDF / ExifTool / Bash</div>
+            </div>
+        </div>
+
+        <!-- Fase 6 -->
+        <div class="timeline-item">
+            <div class="content">
+                <span class="date">28 Julio 2026</span>
+                <h2>Análisis de Máscaras Blancas</h2>
+                <p>Disección forense de las tablas XREF de los PDF. Verificación de la purga total del Canal Alfa y metadatos EXIF. Se descubrió la inyección de objetos vectoriales sintéticos superpuestos (XObject) en lugar de trazos físicos.</p>
+                <div class="tech-badge">Deepfake Estructural / PDF XREF</div>
+            </div>
+        </div>
+
+        <!-- Fase 7: BENFORD (CRITICAL) -->
+        <div class="timeline-item critical">
+            <div class="content">
+                <span class="date">29 - 30 Julio 2026</span>
+                <h2>Consolidación Final: Ley de Benford (2do dígito - Mebane)</h2>
+                <p><strong>Cruce Técnico-Matemático:</strong> La estructura sintética de los PDFs y el desvío matemático masivo (Z = -56.96) conforman un solo mecanismo. Se consolida pericialmente que las Actas de Claveros, Delegados y Transmisión son copias generadas por un mismo motor, descartando el escaneo físico orgánico.</p>
+                <div class="tech-badge">Análisis Matemático Poblacional</div>
+                <div style="margin-top: 15px;">
+                    <a href="../../02_ANALISIS/SESION_02_ESTADISTICA_Y_BENFORD/TABLA_CORRELACION_FORENSE_COMPLETA.md" style="color: var(--accent-cyan); text-decoration: none; font-weight: bold; border: 1px solid var(--accent-cyan); padding: 5px 10px; border-radius: 5px; display: inline-block; margin-bottom: 5px;">📊 Ver Tabla de Correlación (33 Deptos)</a><br>
+                    <a href="../../02_ANALISIS/SESION_02_ESTADISTICA_Y_BENFORD/REPORTE_FORENSE_BENFORD_NACIONAL.md" style="color: var(--accent-cyan); text-decoration: none; font-weight: bold; border: 1px solid var(--accent-cyan); padding: 5px 10px; border-radius: 5px; display: inline-block; margin-bottom: 5px;">📈 Ver Reporte Benford Nacional</a><br>
+                    <a href="../../../../Music/dashboard_campanas_gauss.html" style="color: var(--accent-red); text-decoration: none; font-weight: bold; border: 1px solid var(--accent-red); padding: 5px 10px; border-radius: 5px; display: inline-block;">🖥️ Abrir Dashboard de Campanas de Gauss</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Documento amparado bajo Cadena de Custodia Criptográfica (ISO/IEC 27037).<br>Firma SHA-256 asegurada.</p>
+    </footer>
+
+    <!-- JavaScript for scroll animations -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.2 // Trigger when 20% of the item is visible
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        // Optional: Stop observing once it has become visible
+                        // observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            const timelineItems = document.querySelectorAll('.timeline-item');
+            timelineItems.forEach(item => {
+                observer.observe(item);
+            });
+        });
+    </script>
+</body>
+</html>

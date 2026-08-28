@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auditoría XREF — E-14 Segunda Vuelta 2026</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Inter',sans-serif;background:#0d0d14;color:#e2e8f0;min-height:100vh;padding:2rem;}
+
+  .header{text-align:center;margin-bottom:2.5rem;}
+  .header h1{font-size:1.8rem;font-weight:800;letter-spacing:-0.5px;
+    background:linear-gradient(135deg,#f87171,#fb923c);
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:.4rem;}
+  .header p{color:#94a3b8;font-size:.9rem;}
+
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-bottom:2rem;}
+  .kpi{background:#1a1a2e;border:1px solid #2d2d44;border-radius:12px;padding:1.2rem;text-align:center;}
+  .kpi .val{font-size:2rem;font-weight:800;line-height:1;margin-bottom:.3rem;}
+  .kpi .lbl{font-size:.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:.05em;}
+  .kpi.red .val{color:#f87171;}
+  .kpi.blue .val{color:#60a5fa;}
+  .kpi.gray .val{color:#e2e8f0;}
+  .kpi.orange .val{color:#fb923c;}
+
+  .progress-global{background:#1a1a2e;border:1px solid #2d2d44;border-radius:12px;
+    padding:1.2rem;margin-bottom:2rem;}
+  .progress-global .lbl{font-size:.8rem;color:#94a3b8;margin-bottom:.5rem;}
+  .prog-bar-bg{background:#0d0d14;border-radius:999px;height:12px;overflow:hidden;}
+  .prog-bar-fill{height:100%;border-radius:999px;
+    background:linear-gradient(90deg,#22c55e,#60a5fa);transition:width .5s;}
+
+  .table-wrap{background:#1a1a2e;border:1px solid #2d2d44;border-radius:14px;overflow:hidden;}
+  .table-title{padding:1rem 1.5rem;border-bottom:1px solid #2d2d44;
+    font-size:.8rem;font-weight:600;color:#94a3b8;text-transform:uppercase;letter-spacing:.08em;}
+  table{width:100%;border-collapse:collapse;font-size:.85rem;}
+  thead th{background:#111122;padding:.75rem 1rem;text-align:left;
+    font-size:.72rem;font-weight:600;color:#64748b;text-transform:uppercase;letter-spacing:.06em;
+    border-bottom:1px solid #2d2d44;}
+  thead th.num{text-align:right;}
+  tbody tr{border-bottom:1px solid #1e1e30;transition:background .15s;}
+  tbody tr:hover{background:#1e1e30;}
+  tbody tr:last-child{border-bottom:none;}
+
+  /* Filas coloreadas */
+  tr.limpio td.depto-name{border-left:3px solid #60a5fa;padding-left:.8rem;}
+  tr.anomalo td.depto-name{border-left:3px solid #fb923c;padding-left:.8rem;}
+  tr.critico td.depto-name{border-left:3px solid #f87171;padding-left:.8rem;}
+
+  td{padding:.6rem 1rem;}
+  td.num{text-align:right;font-variant-numeric:tabular-nums;font-weight:500;}
+  td.green{color:#4ade80;}
+  td.red{color:#f87171;font-weight:600;}
+  td.yellow{color:#fbbf24;}
+  td.depto-name{font-weight:600;letter-spacing:.02em;}
+
+  .pct-cell{min-width:160px;}
+  .bar-bg{background:#0d0d14;border-radius:999px;height:8px;margin-bottom:3px;overflow:hidden;}
+  .bar-fill{height:100%;border-radius:999px;background:linear-gradient(90deg,#f87171,#dc2626);}
+
+  /* Si pct=0 la barra es azul */
+  tr.limpio .bar-fill{background:linear-gradient(90deg,#60a5fa,#3b82f6);}
+
+  .pct-label{font-size:.75rem;color:#94a3b8;font-variant-numeric:tabular-nums;}
+
+  .badge{display:inline-block;font-size:.7rem;font-weight:700;border-radius:4px;padding:2px 8px;}
+  .badge-ok{background:#1e3a2f;color:#4ade80;}
+  .badge-anomalo{background:#3a2a1e;color:#fb923c;}
+  .badge-critico{background:#3a1e1e;color:#f87171;}
+
+  .footer{text-align:center;margin-top:2rem;color:#475569;font-size:.75rem;}
+  .en-curso{display:inline-block;background:#1e2a3a;color:#60a5fa;border:1px solid #3b82f6;
+    border-radius:6px;padding:4px 12px;font-size:.75rem;font-weight:600;margin-bottom:1rem;
+    animation:pulse 2s infinite;}
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.6;}}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="en-curso">⏳ ANÁLISIS EN CURSO — 68,555 / 117,993 archivos procesados</div>
+  <h1>Auditoría Forense XREF — Formularios E-14</h1>
+  <p>Segunda Vuelta Presidencial Colombia 2026 · Generado el 04/08/2026 22:04</p>
+</div>
+
+<div class="kpis">
+  <div class="kpi gray">
+    <div class="val">68,555</div>
+    <div class="lbl">Archivos procesados</div>
+  </div>
+  <div class="kpi red">
+    <div class="val">68,515</div>
+    <div class="lbl">Corruptos XREF</div>
+  </div>
+  <div class="kpi blue">
+    <div class="val">40</div>
+    <div class="lbl">Limpios</div>
+  </div>
+  <div class="kpi orange">
+    <div class="val">99.9%</div>
+    <div class="lbl">Tasa de anomalía</div>
+  </div>
+</div>
+
+<div class="progress-global">
+  <div class="lbl">Progreso del análisis nacional (68,555 de 117,993)</div>
+  <div class="prog-bar-bg">
+    <div class="prog-bar-fill" style="width:58.1%"></div>
+  </div>
+</div>
+
+<div class="table-wrap">
+  <div class="table-title">Resumen por Departamento · 15 departamentos procesados hasta ahora</div>
+  <table>
+    <thead>
+      <tr>
+        <th>Departamento</th>
+        <th class="num">Total</th>
+        <th class="num">Limpios</th>
+        <th class="num">Corruptos</th>
+        <th class="num">Advert.</th>
+        <th>% Anomalía</th>
+        <th>Estado</th>
+      </tr>
+    </thead>
+    <tbody>
+    
+    <tr class="critico">
+      <td class="depto-name">AMAZONAS</td>
+      <td class="num">176</td>
+      <td class="num green">0</td>
+      <td class="num red">176</td>
+      <td class="num yellow">0</td>
+      <td class="pct-cell">
+        <div class="bar-bg"><div class="bar-fill" style="width:100%"></div></div>
+        <span class="pct-label">100.0%</span>
+      </td>
+      <td><span class="badge badge-critico">⚠ CRÍTICO</span></td>
+    </tr>
+    <tr class="critico">
+      <td class="depto-name">ANTIOQUIA</td>
+      <td class="num">15,731</td>
+      <td class="num green">35</td>
+      <td class="num red">15,696</td>
+      <td class="num yellow">0</td>
+      <td class="pct-cell">
+        <div class="bar-bg"><div class="bar-fill" style="width:99%"></div></div>
+        <span class="pct-label">99.8%</span>
+      </td>
+      <td><span class="badge badge-critico">⚠ CRÍTICO</span></td>
+    </tr>
+    <tr class="critico">
+      <td class="depto-name">ARAUCA</td>
+      <td class="num">661</td>
+      <td class="num green">0</td>
+      <td class="num red">661</td>
+      <td class="num yellow">0</td>
+      <td class="pct-cell">
+        <div class="bar-bg"><div class="bar-fill" style="width:100%"></div></div>
+        <span class="pct-label">100.0%</span>
+      </td>
+      <td><span class="badge badge-critico">⚠ CRÍTICO</span></td>
+    </tr>
+    <tr class="critico">
+      <td class="depto-name">ATLANTICO</td>
+      <td class="num">6,173</td>
+      <td class="num green">0</td>
+      <td class="num red">6,173</td>
+      <td class="num yellow">0</td>
+      <td class="pct-cell">
+        <div class="bar-bg"><div class="bar-fill" style="width:100%"></div></div>
+        <span class="pct-label">100.0%</span>
+      </td>
+      <td><span class="badge badge-critico">⚠ CRÍTICO</span></td>
+    </tr>
+    <tr class="critico">
+      <td class="depto-name">BOGOTA D.C.</td>
+      <td class="num">17,120</td>
+      <td class="num green">0</td>
+      <td class="num red">17,120</td>
+      <td class="num yellow">0</td>
+      <td class="pct-cell">
+        <div class="bar-bg"><div class="bar-fill" style="width:100%"></div></div>
+        <span class="pct-label">100.0%</span>
+      </td>
+      <td><span class="badge badge-critico">⚠ CRÍTICO</span></td>
+    </tr>
+    <tr class="critico">
+      <td class="depto-name">BOLIVAR</td>
+      <td class="num">5,351</td>
+      <td class="num green">1</td>
+      <td class="num red">5,350</td>
+      <td class="num yellow">0</td>
+      <td class="pct-cell">
+        <div class="bar-bg"><div class="bar-fill" style="width:99%"></div></div>
+        <span class="pct-label">100.0%</span>
+      </td>
+      <td><span class="badge badge-critico">⚠ CRÍTICO</span></td>
+    </tr>
+    <tr class="critico">
+      <td class="depto-name">BOYACA</td>
+      <td class="num">3,095</td>
+      <td class="num green">0</td>
+      <td class="num red">3,095</td>
+      <td class="num yellow">0</td>
+      <td class="pct-cell">
+        <div class="bar-bg"><div class="bar-fill" style="width:100%"></div></div>
+        <span class="pct-label">100.0%</span>
+      </td>
+      <td><span class="badge badge-critico">⚠ CRÍTICO</span></td>
+    </tr>
+    <tr class="critico">
+      <td class="depto-name">CALDAS</td>
+      <td class="num">2,489</td>
+      <td class="num green">0</td>
+      <td class="num red">2,489</td>
+      <td class="num yellow">0</td>
+      <td class="pct-cell">
+        <div class="bar-bg"><div class="bar-fill" style="width:100%"></div></div>
+        <span class="pct-label">100.0%</span>
+      </td>
+      <td><span class="badge badge-critico">⚠ CRÍTICO</span></td>
+    </tr>
+    <tr class="critico">
+      <td class="depto-name">CAQUETA</td>
+      <td class="num">983</td>
+      <td class="num green">0</td>
+      <td class="num red">983</td>
+      <td class="num yellow">0</td>
+      <td class="pct-cell">
+        <div class="bar-bg"><div class="bar-fill" style="width:100%"></div></div>
+        <span class="pct-label">100.0%</span>
+      </td>
+      <td><span class="badge badge-critico">⚠ CRÍTICO</span></td>
+    </tr>
+    <tr class="critico">
+      <td class="depto-name">CASANARE</td>
+      <td class="num">1,020</td>
+      <td class="num green">0</td>
+      <td class="num red">1,020</td>
+      <td class="num yellow">0</td>
+      <td class="pct-cell">
+        <div class="bar-bg"><div class="bar-fill" style="width:100%"></div></div>
+        <span class="pct-label">100.0%</span>
+      </td>
+      <td><span class="badge badge-critico">⚠ CRÍTICO</span></td>
+    </tr>
+    <tr class="critico">
+      <td class="depto-name">CAUCA</td>
+      <td class="num">3,422</td>
+      <td class="num green">0</td>
+      <td class="num red">3,422</td>
+      <td class="num yellow">0</td>
+      <td class="pct-cell">
+        <div class="bar-bg"><div class="bar-fill" style="width:100%"></div></div>
+        <span class="pct-label">100.0%</span>
+      </td>
+      <td><span class="badge badge-critico">⚠ CRÍTICO</span></td>
+    </tr>
+    <tr class="critico">
+      <td class="depto-name">CESAR</td>
+      <td class="num">2,749</td>
+      <td class="num green">0</td>
+      <td class="num red">2,749</td>
+      <td class="num yellow">0</td>
+      <td class="pct-cell">
+        <div class="bar-bg"><div class="bar-fill" style="width:100%"></div></div>
+        <span class="pct-label">100.0%</span>
+      </td>
+      <td><span class="badge badge-critico">⚠ CRÍTICO</span></td>
+    </tr>
+    <tr class="critico">
+      <td class="depto-name">CHOCO</td>
+      <td class="num">1,250</td>
+      <td class="num green">0</td>
+      <td class="num red">1,250</td>
+      <td class="num yellow">0</td>
+      <td class="pct-cell">
+        <div class="bar-bg"><div class="bar-fill" style="width:100%"></div></div>
+        <span class="pct-label">100.0%</span>
+      </td>
+      <td><span class="badge badge-critico">⚠ CRÍTICO</span></td>
+    </tr>
+    <tr class="critico">
+      <td class="depto-name">CORDOBA</td>
+      <td class="num">4,167</td>
+      <td class="num green">4</td>
+      <td class="num red">4,163</td>
+      <td class="num yellow">0</td>
+      <td class="pct-cell">
+        <div class="bar-bg"><div class="bar-fill" style="width:99%"></div></div>
+        <span class="pct-label">99.9%</span>
+      </td>
+      <td><span class="badge badge-critico">⚠ CRÍTICO</span></td>
+    </tr>
+    <tr class="critico">
+      <td class="depto-name">CUNDINAMARCA</td>
+      <td class="num">4,168</td>
+      <td class="num green">0</td>
+      <td class="num red">4,168</td>
+      <td class="num yellow">0</td>
+      <td class="pct-cell">
+        <div class="bar-bg"><div class="bar-fill" style="width:100%"></div></div>
+        <span class="pct-label">100.0%</span>
+      </td>
+      <td><span class="badge badge-critico">⚠ CRÍTICO</span></td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="footer">
+  Script: auditoria_masiva_xref.sh v2.0 · flock atómico incremental · 68,555 PDFs analizados con qpdf --check
+</div>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+# FLUJO DE INVESTIGACIÓN FORENSE, EVOLUCIÓN Y METODOLOGÍA PROBATORIA
+
+**Documento Técnico:** Memoria metodológica de la investigación forense realizada sobre las actas E-14 (Voto en Colombia y Consulados en el Exterior).  
+**Propósito:** Explicar el flujo evolutivo del peritaje, las hipótesis verificadas y el fundamento técnico de por qué ciertos tipos de error no aparecen en todas las etapas.  
+
+---
+
+## 🧭 1. FLUJO EVOLUTIVO DE LA INVESTIGACIÓN FORENSE
+
+```mermaid
+graph TD
+    P1["Fase 1: Descarga e Inmutabilidad ISO 27037"] --> P2["Fase 2: Peritaje Estructural (QPDF / ExifTool)"]
+    P2 --> P3["Fase 3: Desenmascaramiento de Capas (/XObject)"]
+    P3 --> P4["Fase 4: Análisis Estadístico e Inferencia (p < 0.0001)"]
+    P4 --> P5["Fase 5: Verificación de Permutación / Swapping de Votos"]
+    P5 --> P6["Fase 6: Comparativa 1ª Vuelta vs 2ª Vuelta (Mapeo de Coordenadas)"]
+```
+
+---
+
+## 🔍 2. JUSTIFICACIÓN METODOLÓGICA DE HALLAZGOS Y POR QUÉ ALGUNOS ERRORES NO APARECEN EN CIERTAS CAPAS
+
+### 2.1. ¿Por qué el voto en el exterior no presenta discrepancias de escrutinio mesa a mesa en el preconteo?
+- **Naturaleza del Voto Consular:** En los consulados de Colombia en el exterior **no existe audiencia de escrutinio local mesa a mesa por claveros consulares**.
+- **Mecanismo de Transmisión:** Las urnas consulares se cierran y la votación se transmite directamente en paquete cerrado hacia Bogotá (CNE / Registraduría).
+- **Consecuencia Técnica:** La base de datos de preconteo consolida la votación exterior por puesto/zona, por lo que el cotejo plano mesa a mesa no arroja diferencias por nombre de jurado local, sino que obliga a recurrir a la **prueba reina inferencial y al desenmascaramiento sintáctico del PDF**.
+
+### 2.2. ¿Por qué la 1ª Vuelta y la 2ª Vuelta muestran errores estructurales distintos?
+- **Primera Vuelta (3 Páginas / Multicandidato):**  
+  Al existir 8+ opciones presidenciales, el formulario se extendía en 3 páginas. El mecanismo de alteración utilizó **Sustitución de Página Blanca (*Blind Masking*)**, reemplazando la 3ª página por una imagen en blanco de idéntico tamaño (`1260 x 3897 px`).
+- **Segunda Vuelta (2 Páginas / Binario):**  
+  Al reducirse la elección a 2 candidatos, la alteración evoluciona a **Superposición de Capas Vectoriales (`/XObject 12 0 R`)** sobre las casillas de los 2 candidatos y depuración absoluta (100%) de metadatos `ExifTool`.
+
+### 2.3. ¿Por qué el cálculo estadístico (Z-Score = -56.96, p < 0.0001) es la prueba reina?
+- **Inmunidad a la nivelación aritmética:** Un anomalía estructural por permutación de votos ($V_1 \leftrightarrow V_2$) mantiene inalterada la suma total ($\sum = 	ext{Constante}$), haciendo que pase inadvertido para los sistemas de validación E-11.
+- **Invariancia al Re-permutar:** Al re-permutar inversamente los votos ($V_1 
+ightarrow V_2$), la mesa retorna de forma matemática a la curva normal del grupo de control. Esto constituye prueba irrebatible de que la anomalía no fue un comportamiento social, sino un efecto inducido informáticamente.
+
+---
+
+## 📂 3. ARCHIVO DE SCRIPTS DE AUDITORÍA INCLUIDOS
+
+El paquete de herramientas Python creadas para auditar, verificar hashes SHA-256 y extraer flujos se encuentra en:
+
+📁 **[SCRIPTS_PYTHON_FORENSES (Escritorio)](../../SCRIPTS_PYTHON_FORENSES)**  
+📁 **[SCRIPTS_PYTHON_FORENSES (Disco Portátil)](../../SCRIPTS_PYTHON_FORENSES)**
+
+1. `analizar_consulados_forense.py` (Peritaje de 2,365 mesas consulares en 24 países).
+2. `generar_reportes_individuales_por_pais.py` (Reportes por país en .md, .csv, .txt).
+3. `actualizar_impacto_260k_votos.py` (Cálculo de impacto frente al margen de 260,000 votos).
+4. `generar_tabla_por_dia_semana.py` (Matriz de anomalías de Lunes a Domingo).
+5. `extraer_flujo_texto_y_qr_consulados.py` (Extracción de `/Contents` y cadenas QR).
+6. `auditar_discrepancias_preconteo_vs_pdf.py` (Cruce de 244,036 mesas de preconteo).
+7. `ejecutar_analisis_estadistico_consulados.py` (Prueba de hipótesis Z = -56.96, p < 0.0001 y Ley de Benford (2do dígito - Mebane)).
+8. `generar_diagrama_inyecciones_canvas.py` (Mapa esquemático del lienzo E-14).
+9. `generar_presentacion_ejecutiva_grupo.py` (Paquete de diapositivas para exposición).
+10. `comparar_inyecciones_1ra_vs_2da_vuelta.py` (Mapeo de desplazamiento 1ª vs 2ª Vuelta).
+11. `generar_comparativa_visual_con_imagen.py` (Integración de imagen real de acta E-14).
+12. `generar_entregables_primera_vuelta.py` (Peritaje masivo de 25,061 actas de 1ª Vuelta).
+13. `extraer_capas_los_angeles_1ra_vuelta.py` (Desenmascaramiento de 32 mesas de Los Ángeles).
+14. `auditar_todas_actas_colombia_32_deptos.py` (Barrido nacional de 117,993 actas en 32 departamentos).

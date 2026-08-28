@@ -1,0 +1,77 @@
+# COMPARATIVA VISUAL Y MAPEO LADO A LADO: PRIMERA VUELTA VS. SEGUNDA VUELTA
+
+**Objeto:** Visualización directa y didáctica del mapa sintáctico de inyecciones `/XObject` colocado en paralelo junto a la imagen real del formulario E-14.  
+
+---
+
+## 1. ACTA REAL VS. MAPA DE INYECCIÓN DE CAPAS SINTÁCTICAS (2ª VUELTA)
+
+![Acta Real 2ª Vuelta (Caucasia Mesa 5)](../../acta_ejemplo_caucasia_mesa5.jpg)
+
+```
++-----------------------------------------------------------------------------------+
+| [IMAGEN REAL DEL ACTA (E-14 CAUCASIA MESA 5)] | [MAPA DE INYECCIÓN SINTÁCTICA PDF]|
++-----------------------------------------------+-----------------------------------+
+|                                               |                                   |
+|  [CÓDIGO DE BARRAS SUPERIOR]                  |  +-----------------------------+  |
+|  710459971010102                              |  | ENCABEZADO BASE Y CÓDIGO BARRAS|  |
+|                                               |  +-----------------------------+  |
+|  [CÓDIGO QR - ESQUINA SUP. IZQ.]              |  | 🚨 INYECCIÓN 1: /XObject 11 0 R |  |
+|                                               |  | [MATRIZ QR SUPERPUESTA]        |  |
+|                                               |  +-----------------------------+  |
+|                                               |                                   |
+|  DEPARTAMENTO: 01 - ANTIOQUIA                 |  DEPARTAMENTO: 01 - ANTIOQUIA     |
+|  MUNICIPIO: 088 - CAUCASIA                    |  MUNICIPIO: 088 - CAUCASIA        |
+|  ZONA: 01 PUESTO: 04 MESA: 005                |  ZONA: 01 PUESTO: 04 MESA: 005    |
+|                                               |                                   |
+|  CLAVE: X 6-01-48-14 X                        |  CLAVE: X 6-01-48-14 X            |
+|                                               |                                   |
+|  E-11 / URNA: [2 6 1]                         |  E-11 / URNA: [2 6 1]             |
+|                                               |                                   |
+|  +-----------------------------------------+  |  +-----------------------------+  |
+|  | CANDIDATO 1: IVÁN CEPEDA   | [1 3 5]    |  |  | 🚨 INYECCIÓN 2: /XObject 12  |  |
+|  | CANDIDATO 2: ABELARDO ESP. | [1 2 1]    |  |  | [CAPA DE CASILLAS DE VOTOS] |  |
+|  | VOTOS EN BLANCO            | [• • 1]    |  |  | (Montada sobre el lienzo)   |  |
+|  | VOTOS NULOS                | [• • 3]    |  |  +-----------------------------+  |
+|  | VOTOS NO MARCADOS          | [• • 1]    |  |                                   |
+|  | SUMA TOTAL                 | [2 6 1]    |  |  ⚠️ ADVERTENCIA XREF QPDF:        |
+|  +-----------------------------------------+  |  Punteros borrados a ID 14 y 15   |  |
++-----------------------------------------------+-----------------------------------+
+```
+
+---
+
+## 2. ACTA REAL Y MAPA DE INYECCIÓN DE CAPAS SINTÁCTICAS (1ª VUELTA - LOS ÁNGELES)
+
+![Acta Real 1ª Vuelta (Los Ángeles Lunes Mesa 1)](../../acta_ejemplo_los_angeles_1ra_vuelta.png)
+
+```
++------------------------------------------+  +------------------------------------------+
+| PRIMERA VUELTA (LIENZO LARGO 1260x3897)  |  | SEGUNDA VUELTA (LIENZO CARTA 612x1008)   |
++------------------------------------------+  +------------------------------------------+
+|                                          |  |                                          |
+|  [CÓDIGO QR / OBRETO ID 6]               |  |  🚨 INYECCIÓN QR: Objeto /XObject 11 0 R |
+|                                          |  |                                          |
+|  +------------------------------------+  |  +------------------------------------+  |
+|  | CANDIDATO 1 (PÁG 1)     | [VOTOS]  |  |  | 🚨 INYECCIÓN VOTACIÓN:            |  |
+|  | CANDIDATO 2 (PÁG 1)     | [VOTOS]  |  |  | Objeto /XObject 12 0 R            |  |
+|  | CANDIDATO 3 (PÁG 1)     | [VOTOS]  |  |  | 1. IVÁN CEPEDA      | [1 3 5]    |  |
+|  | CANDIDATO 4 (PÁG 1)     | [VOTOS]  |  |  | 2. ABELARDO ESP.    | [1 2 1]    |  |
+|  +------------------------------------+  |  | TOTAL VOTACIÓN      | [2 6 1]    |  |
+|                                          |  +------------------------------------+  |
+|  +------------------------------------+  |                                          |
+|  | CANDIDATO 5 (PÁG 2)     | [VOTOS]  |  |  ⚠️ HUELLA QPDF IDÉNTICA EN AMBAS:       |
+|  | CANDIDATO 6 (PÁG 2)     | [VOTOS]  |  |  reported 15 objects != highest 13       |
+|  +------------------------------------+  |                                          |
+|                                          |  |                                          |
+|  🚨 3ª PÁGINA: MÁSCARA / IMAGEN BLANCA   |  |                                          |
+|  (Sustitución de Página en 1ra Vuelta)   |  |                                          |
++------------------------------------------+  +------------------------------------------+
+```
+
+---
+
+## 3. CONCLUSIÓN PARA EL GRUPO DE INVESTIGACIÓN
+
+1. **Inyección Adaptativa:** En la **1ª Vuelta**, al tener 8+ candidatos, las inyecciones se extienden a lo largo de las páginas 1 y 2, sustituyendo la página 3 con una máscara blanca. En la **2ª Vuelta**, al tener 2 candidatos, se condensa en la casilla única `/XObject 12 0 R`.
+2. **Mismo Motor de Generación:** Ambas elecciones fueron procesadas por el mismo software informático, dejando la misma falla sintáctica en la tabla `xref` (**15 objetos reportados vs 13 reales**).
