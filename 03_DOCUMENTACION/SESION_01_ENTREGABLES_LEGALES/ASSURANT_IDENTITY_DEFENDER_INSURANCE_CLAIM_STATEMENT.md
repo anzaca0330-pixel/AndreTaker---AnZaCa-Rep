@@ -14,7 +14,7 @@
 
 ## 📋 1. EXECUTIVE CLAIM SUMMARY
 
-The undersigned **Andrea Zabala Cárcamo** (C.C. 43.925.102), enrolled in the ExpressVPN Identity Defender monitoring program under **Restoration ID: 85720870**, hereby submits this formal Claim Statement and Request for Identity Theft Restoration Services and Full Expense Reimbursement following severe Dark Web credential leaks, targeted hardware cyberattacks, autonomous physical Wi-Fi implants, vehicle sabotage, and physical harassment arising from her role as lead forensic investigator in the 2026 Colombia Electoral Audit.
+The undersigned **Andrea Zabala Cárcamo** (C.C. 43.925.102), enrolled in the ExpressVPN Identity Defender monitoring program under **Restoration ID: 85720870**, hereby submits this formal Claim Statement and Request for Identity Theft Restoration Services, Compensation for **Destroyed Hardware**, and Full Reimbursement of **Purchased Replacement Devices & Associated Expenses** following severe Dark Web credential leaks, targeted hardware cyberattacks, autonomous physical Wi-Fi implants, vehicle sabotage, and physical harassment arising from her role as lead forensic investigator in the 2026 Colombia Electoral Audit.
 
 ---
 
@@ -45,19 +45,36 @@ The undersigned **Andrea Zabala Cárcamo** (C.C. 43.925.102), enrolled in the Ex
 
 ---
 
-## 💰 3. ITEMIZED EXPENSE & REIMBURSEMENT CLAIM SCHEDULE
+## 💰 3. ITEMIZED SCHEDULE OF DESTROYED DEVICES, PURCHASED REPLACEMENTS & EXPENSES
 
-Under the **Assurant / ExpressVPN Identity Defender $3,000,000 USD Restoration Policy**, Claimant submits the following itemized categories for full coverage and reimbursement:
+Under the **Assurant / ExpressVPN Identity Defender $3,000,000 USD Restoration Policy**, Claimant submits the following itemized breakdown for total hardware loss compensation and replacement reimbursement:
 
-| Expense Category | Itemized Loss / Cost Breakdown | Applicable Policy Coverage |
+### A. Destroyed & Permanently Disabled Devices (Cyberattack & Sabotage)
+1. **Primary ThinkPad Workstation Laptop:** Permanently destroyed/rendered inoperable by firmware Rootkit (hardware BIOS lock - Lenovo Support `Key Ref 2031621994`).
+2. **Primary Mobile Phone Device:** Destroyed/rendered inoperable by persistent rootkit malware infection (*Factory Wipe* ineffective due to deep system persistence).
+3. **Child's California Line Mobile Device:** Disabled/compromised by anomalous tracking bursts (1,600+ barrage calls/messages) following the 911 emergency call on June 13.
+4. **Aircove Router & Home Network Hardware:** Infiltrated and physically compromised by autonomous battery-powered rogue Wi-Fi surveillance implant.
+5. **Mitsubishi Vehicle Electrical & OBD-II System:** Sabotaged during June 13 road ambush, requiring authorized dealership electrical remediation on June 20.
+
+### B. Emergency Purchased Replacement Devices & Cyberdefense Shielding
+1. **Samsung Galaxy S23 Secure Smartphone:** Purchased at a T-Mobile store in a controlled environment during late June 2026 for secure communications.
+2. **Secondary T-Mobile Emergency Replacement Phone:** Purchased to restore safe family communications for the minor child.
+3. **Faraday RF Shielding Bags & Sleeves:** Purchased to physically block radio frequency signals (Wi-Fi / Cellular / Bluetooth) from compromised devices.
+
+---
+
+### C. Expense Reimbursement Summary Matrix
+
+| Category | Itemized Loss / Cost Claimed | Applicable Policy Coverage |
 | :--- | :--- | :--- |
-| **1. Hardware & Computer Replacement** | Replacement of ThinkPad laptop destroyed by firmware rootkit (BIOS lockout - Key Ref `2031621994`) and replacement of T-Mobile mobile devices / Samsung S23 acquired in secure environment. | Compromised Hardware Replacement |
-| **2. Vehicle Repair & Remediation** | Mitsubishi master technician dealership costs for electrical diagnostics and wireless OBD-II (FIXD) attack vector removal. | Property Damage & Sabotage Repair |
-| **3. Emergency Relocation & Travel** | Protective emergency airfare, temporary housing, and international relocation logistics to Canada executed on August 7, 2026. | Threat Displacement Relocation Expenses |
-| **4. Tuition & Educational Damages** | Reimbursement of tuition fees and re-enrollment costs at University of Phoenix (`Student ID: 9059123560`) due to forced withdrawal (`Grade: W` in `PSY/315`). | Lost Educational Benefits & Assistance |
-| **5. Legal & Expert Forensic Fees** | International legal counsel fees, IACHR/FBI filing costs, and technical cryptographic forensic audit expenses. | Legal Counsel & Expert Coverage |
-| **6. Identity Remediation & Data Brokers** | Dark Web credential remediation and data broker removal procedures across 16 tracking portals. | Identity Theft Restoration Services |
-| **7. Lost Wages & Protection Costs** | Income loss during security isolation, Faraday cage device containment, and emergency travel. | Income Loss & Wage Indemnification |
+| **Destroyed Devices** | Full indemnification for ThinkPad laptop loss, primary mobile phones, and compromised Aircove router. | Total Hardware Loss via Cyberattack |
+| **Purchased Devices** | Reimbursement for Samsung S23, replacement T-Mobile phone, and Faraday shielding bags. | Device Replacement for Harassment/Cyberdefense |
+| **Vehicle Repair** | Authorized Mitsubishi dealership costs for electrical diagnosis and wireless OBD-II (FIXD) vector removal. | Property Damage & Sabotage Repair |
+| **Emergency Relocation** | Protective emergency airfare, temporary housing, and international relocation logistics to Canada (August 7). | Threat Displacement Relocation Expenses |
+| **Tuition & Academic Loss** | Tuition reimbursement and re-enrollment fees at University of Phoenix (`Student ID: 9059123560`) due to forced withdrawal (`Grade: W`). | Lost Educational Benefits & Assistance |
+| **Legal & Forensic Fees** | International legal counsel fees, IACHR/FBI filing costs, and technical cryptographic forensic audit expenses. | Legal Counsel & Expert Coverage |
+| **Identity Remediation** | Dark Web credential remediation and data broker removal procedures across 16 tracking portals. | Identity Theft Restoration Services |
+| **Lost Wages** | Income loss during security isolation, Faraday cage device containment, and emergency travel. | Income Loss & Wage Indemnification |
 
 ---
 
