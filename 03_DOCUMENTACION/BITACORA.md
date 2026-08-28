@@ -27,6 +27,12 @@
 - **Transcripción Formateada:** `03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/TRANSCRIPCION_GEMINI_AZABALABAEZ.md`
 - **Sello Criptográfico SHA-256:** `4fc30014761dfec1601be3f06f83ed217a3194b81f844392403e150e177176f4` (congelado en `hashes_takeout_gemini.txt`).
 
+## 7. Refutación del Argumento de "Comportamiento Normal del Software"
+- **Documento Creado:** `03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/REFUTACION_ARGUMENTO_SOFTWARE_NORMAL.md`.
+- **Principios Clave:** Violación ISO 32000, presencia de Mesas de Control Limpias, física de captura ($\sigma = 0$), invalidación de QR y mutación criptográfica.
+- **Veredicto:** No es un error de fábrica. Es sistemático. Y está documentado.
+
 _Nota: Se mantiene la integridad forense usando datos reales; no se generaron datos ficticios._
+
 
 

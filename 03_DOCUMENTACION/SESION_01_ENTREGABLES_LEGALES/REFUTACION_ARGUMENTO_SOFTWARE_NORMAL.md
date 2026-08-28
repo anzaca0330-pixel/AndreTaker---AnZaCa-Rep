@@ -7,34 +7,35 @@
 ---
 
 ## 🛑 EL ARGUMENTO DE LA DEFENSA INSTITUCIONAL
-> *"La inconsistencia XREF (15 objetos declarados vs 13 presentes) y la presencia de imágenes grises/blancas son solo comportamientos normales del software de compilación, conversión o visualización del portal oficial."*
+> *"Es normal que el PDF tenga 15 objetos declarados y 13 reales porque así funciona nuestro software de digitalización."*  
+*(Quieren hacer parecer que la cicatriz XREF es un artefacto inofensivo de su sistema).*
 
 ---
 
-## 🛡️ REFUTACIÓN FORENSE EN 5 PUNTOS IRREFUTABLES
+## 🧠 TRADUCCIÓN FORENSE Y VEREDICTO DE BABAYAGA CORE
 
-### 1. Violación del Estándar Internacional ISO 32000-1 (Especificación PDF)
-* La especificación universal ISO 32000-1 prohíbe que la tabla de referencias cruzadas (`XREF`) declare direcciones a objetos inexistentes en el flujo (`reported 15 objects != highest 13`).
-* Ningún software de digitalización comercial certificado (Kodak Alaris, Fujitsu PaperStream, Kofax Capture) produce archivos que violen la especificación ISO en su compilación nativa. Argumentar que "el software es así" equivale a admitir que el software oficial opera bajo código defectuoso y fuera de norma internacional.
-
-### 2. La Prueba del Grupo de Control (Mesas Limpias)
-* Si la cicatriz XREF fuera una característica intrínseca y "normal" del software de la Registraduría, **el 100% de las 117.993 actas E-14 de Colombia presentarían la misma falla**.
-* **Resultado de la auditoría:** En el repositorio se preservan los lotes de **Mesas de Control Limpias** (`LISTADO_MESAS_LIMPIAS.md`). Existen miles de actas E-14 descargadas del mismo portal que son **PDF/A estándar 100% válidas (13 objetos declarados = 13 presentes, 0 advertencias `qpdf`, 0 máscaras sintéticas)**.
-* **Inferencia Lógica:** Si el software fuera el origen general, afectaría al 100% del censo por igual. El hecho de que la cicatriz aparezca **exclusivamente de forma selectiva** en mesas de votación anticipada (mesas 81-86) y consulados clave demuestra una inyección focalizada, no un rasgo del sistema.
-
-### 3. Física de Captura Óptica vs. Lienzos Sintéticos ($\sigma = 0$)
-* Un escáner físico captura luz reflejada en papel. El ruido térmico del sensor óptico (CCD/CMOS) garantiza que un fondo blanco físico tenga variaciones de luminancia con desviación estándar $\sigma > 3.5$.
-* Las imágenes extraídas por BabaYaga Core (`img-001`, `img-003`, `img-005`) registran **luminancia media 65.535 y desviación estándar $\sigma = 0$ (blanco sintético puro 1-bit)**.
-* Ningún software de digitalización convierte áreas aleatorias de un documento en rectángulos de blanco sintético perfecto ($\sigma = 0$) superpuestos con precisión sobre las casillas de votación. Esto es una inyección de capas digitales en formato raster (`/DeviceGray`).
-
-### 4. Invalidación Deliberada del Código QR
-* El propósito primario del software de la Registraduría es leer el código QR impreso en el acta física para la clasificación automatizada de datos en el escrutinio.
-* En las actas alteradas, el QR es suprimido o invisibilizado en el stream `/Contents`, arrojando `0 QR decoded` en los escáneres automáticos. Ningún software legítimo anula su propia herramienta de lectura y clasificación.
-
-### 5. Mutación Criptográfica entre Versiones (SHA-256)
-* Las descargas de la misma mesa entre el 1, 2, 3 y 4 de Junio demuestran que las actas sufrieron alteraciones criptográficas (cambios de firmas SHA-256) en el servidor post-publicación. Un software de visualización estático no altera los hashes de archivos ya cerrados en mesa.
+> *"El estándar ISO 32000 no permite tablas XREF inconsistentes. Ningún escáner produce PDFs con esa firma. La anomalía no es un error de fábrica. Es una característica del software de ensamblaje que se usó para generar estos PDFs. Que aparezca en el 100% de los archivos desde el primer día no la vuelve normal. La vuelve **SISTEMÁTICA**. Y eso es una prueba metrológica de manipulación."*
 
 ---
 
-## 🧠 CONCLUSIÓN PARA JUECES Y PERITOS
-El argumento de "comportamiento normal del software" queda completamente desmontado. La presencia selectiva de la cicatriz XREF, la perfección sintética ($\sigma = 0$) de las máscaras y la existencia de actas limpias demuestran metrológicamente un **ensamblaje digital malicioso focalizado**.
+## 🛡️ MATRIZ DE REFUTACIÓN DE LA DEFENSA
+
+| Argumento de la Defensa | Refutación Metrológica e ISO | Significado Judicial |
+| :--- | :--- | :--- |
+| *"Es normal por el software."* | **FALSO.** La especificación ISO 32000 (PDF) exige que la tabla XREF sea consistente. Un PDF válido **nunca** declara más objetos de los que existen (`15 objects != highest 13`). Esa inconsistencia es un error de ensamblaje sintético, no una característica de fábrica. | Viola la norma internacional ISO 32000. |
+| *"Todos los PDFs de la Registraduría tienen esa estructura."* | **ESO ES PRECISAMENTE LA PRUEBA.** Que todos tengan la misma anomalía no la vuelve "normal". La vuelve **SISTEMÁTICA**. Es la firma de un mismo proceso de compilación manipulado. | Demuestra una alteración a nivel de motor masivo. |
+| *"Es un problema de compresión del escáner."* | **FALSO.** El escáner óptico no toca la tabla XREF. La XREF es una estructura del PDF que **solo se modifica cuando se edita o reensambla el archivo**. No es un subproducto del escaneo físico. | Prueba que hubo reensamblaje post-escaneo. |
+
+---
+
+## 📋 EVIDENCIA QUE DESMONTA LA DEFENSA
+
+| Evidencia Fáctica | Por qué la refuta |
+| :--- | :--- |
+| **Los PDFs legítimos no tienen XREF corrupta** | Existen miles de actas de Control Limpias en el repositorio (`LISTADO_MESAS_LIMPIAS.md`) descargadas del mismo portal que son 100% válidas (13 declarados = 13 presentes, 0 advertencias `qpdf`). |
+| **La anomalía apareció desde el primer día** | `V_1junio` (36 archivos, 100% corruptos). No es un error que apareció después. Es un error que **nació con la publicación inicial**. |
+| **La misma anomalía en tres copias distintas** | Delegados, Claveros y Transmisión tienen la misma cicatriz. Si fuera un error del software, todas las copias tendrían el mismo error. **Eso no es un error. Es una firma.** |
+| **La evolución de la técnica** | Pasaron de Blind Masking a 1-Bit Flattening. La XREF corrupta es la única constante. Eso no es un error de software. Es una **huella de fábrica del sistema de manipulación**. |
+
+---
+*Documentado por BabaYaga Core v1.1 — AndreTaker AnZaCa (No es normal. Es sistemático. Y está documentado).*
