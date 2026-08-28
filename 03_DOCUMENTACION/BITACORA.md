@@ -32,7 +32,15 @@
 - **Principios Clave:** Violación ISO 32000, presencia de Mesas de Control Limpias, física de captura ($\sigma = 0$), invalidación de QR y mutación criptográfica.
 - **Veredicto:** No es un error de fábrica. Es sistemático. Y está documentado.
 
+## 8. Cierre de Jornada: Volumetría >677 GB, Propiedad Intelectual, Reclamo Assurant y Estrategia Masiva
+- **Certificación de Volumetría:** Se midió la escala real del acervo superando los **677 Gigabytes** distribuidos entre `D A T A1` (406 GB), `ANZACA` (79.71 GB), `BACKUP` (6.9 GB) y almacenamiento NVMe (185 GB).
+- **Propiedad Intelectual & Zenodo:** Creación de `PROPIEDAD_INTELECTUAL.md`, actualización de `CITATION.cff` (DOI Zenodo `10.5281/zenodo.21922376`) y `ESTRATEGIA_PORTABILIDAD.md` garantizando la autoría exclusiva de Andrea Zabala Cárcamo sobre el código, prompts y metodología.
+- **Declaración Reclamo Assurant ($3M USD):** Redacción y publicación de `DECLARACION_OFICIAL_RECLAMO_ASSURANT_IDENTITY_DEFENDER.md` (Restoration ID: `85720870`) por filtración en Dark Web, rootkit BIOS Lenovo y sabotaje vehicular.
+- **Estrategia Masiva y Dossier:** Creación de `ESTRATEGIA_PRESION_Y_DIFUSION_MASIVA.md` y `DOSSIER_DIVULGATIVO_PRENSA_Y_CIUDADANIA.md` para presionar en 5 frentes activos.
+- **Introducción AndreTaker — BabaYaga Core:** Integrada formalmente en `DECLARACION_ANDRETAKER.md` y `ANDRE_TAKER_SYSTEM_PROMPT.txt`.
+
 _Nota: Se mantiene la integridad forense usando datos reales; no se generaron datos ficticios._
+
 
 
 
