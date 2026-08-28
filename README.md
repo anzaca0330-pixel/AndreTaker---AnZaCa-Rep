@@ -399,6 +399,7 @@ Consulte el archivo **[`INDICE_MAESTRO.md`](INDICE_MAESTRO.md)** para una navega
 Hemos empaquetado todas las dependencias (qpdf, exiftool, Python) en un solo instalador automatizado. Ya sea que uses Docker (Nivel Industrial) o Bash nativo, puedes configurar todo en un clic.
 
 > 👉 **[IR AL PAQUETE DE DETECCIÓN DE FRAUDE PRO PDF (Instaladores)](04_HERRAMIENTAS_Y_ENTORNO/README_TOOLKIT.md)**
+> 🧙‍♀️ **[NUEVO: ANDRETAKER BABAYAGA CORE FORENSIC TOOLKIT](04_HERRAMIENTAS_Y_ENTORNO/AndreTaker_BabaYaga_Core_Forensic_Toolkit.md)**
 
 **2️⃣ Lanza el escáner estructural:**
 Una vez activado tu entorno forense, puedes procesar los cientos de miles de actas reales de la bóveda:
