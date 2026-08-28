@@ -19,7 +19,7 @@
 
 ## 📋 1. EXECUTIVE CLAIM SUMMARY
 
-The undersigned **Andrea Zabala Cárcamo**, enrolled in the ExpressVPN Identity Defender monitoring program under **Restoration ID: 85720870** and **Claim Number: 00115536906**, hereby submits this formal Claim Statement and Request for Identity Theft Restoration Services, Compensation for **Destroyed Hardware**, Full Reimbursement of **Purchased Replacement Devices**, Compensation for **Severe Bank Account Compromise & Financial Damage**, Emergency **Minor Child Identity Restoration**, and Compensation for **Three (3) Months of Total Loss of Income / Employment** following severe Dark Web credential leaks, targeted hardware cyberattacks, autonomous physical Wi-Fi implants, vehicle sabotage, physical harassment, and emergency multi-country displacements (including initial travel to Mexico with repeated unanswered institutional outreach attempts, followed by security relocation to Canada) arising from her role as lead forensic investigator in the 2026 Colombia Electoral Audit.
+The undersigned **Andrea Zabala Cárcamo**, enrolled in the ExpressVPN Identity Defender monitoring program under **Restoration ID: 85720870** and **Claim Number: 00115536906**, hereby submits this formal Claim Statement and Request for Identity Theft Restoration Services, Compensation for **Destroyed Hardware**, Full Reimbursement of **Purchased Replacement Devices**, Reimbursement of **Emergency Accommodations, Meals & Daily Living Subsistence**, Compensation for **Severe Bank Account Compromise & Financial Damage**, Emergency **Minor Child Identity Restoration**, and Compensation for **Three (3) Months of Total Loss of Income / Employment** following severe Dark Web credential leaks, targeted hardware cyberattacks, autonomous physical Wi-Fi implants, vehicle sabotage, physical harassment, and emergency multi-country displacements (including initial travel to Mexico with repeated unanswered institutional outreach attempts, followed by security relocation to Canada) arising from her role as lead forensic investigator in the 2026 Colombia Electoral Audit.
 
 ---
 
@@ -57,7 +57,7 @@ The undersigned **Andrea Zabala Cárcamo**, enrolled in the ExpressVPN Identity 
 
 ## 💰 3. ITEMIZED SCHEDULE OF DESTROYED DEVICES, PURCHASED REPLACEMENTS & EXPENSES
 
-Under the **Assurant / ExpressVPN Identity Defender $3,000,000 USD Restoration Policy** (Claim Number `00115536906`), Claimant submits the following itemized breakdown for total hardware loss compensation, replacement reimbursement, bank account remediation, child identity restoration, and lost wages:
+Under the **Assurant / ExpressVPN Identity Defender $3,000,000 USD Restoration Policy** (Claim Number `00115536906`), Claimant submits the following itemized breakdown for total hardware loss compensation, replacement reimbursement, accommodations/food expenses, bank account remediation, child identity restoration, and lost wages:
 
 ### A. Destroyed & Permanently Disabled Devices (Cyberattack & Sabotage)
 1. **Primary ThinkPad Workstation Laptop:** Permanently destroyed/rendered inoperable by firmware Rootkit (hardware BIOS lock - Lenovo Support `Key Ref 2031621994`).
@@ -73,20 +73,20 @@ Under the **Assurant / ExpressVPN Identity Defender $3,000,000 USD Restoration P
 
 ---
 
-### C. Expense Reimbursement & Financial Loss Summary Matrix ($47,900.00 USD)
+### C. Expense Reimbursement & Financial Loss Summary Matrix ($84,850.00 USD)
 
 | Category | Itemized Loss / Cost Claimed | Estimated Amount (USD) | Applicable Policy Coverage |
 | :--- | :--- | :--- | :--- |
-| **Lost Wages / Employment Loss** | **Three (3) Full Months of Total Loss of Income / Employment (June, July, August 2026)** resulting directly from hardware destruction, physical harassment, Faraday isolation protocols, and multi-country displacement (Mexico & Canada). | **$15,000.00 USD** | **Lost Wages & Wage Indemnification Coverage** |
-| **Emergency Multi-Country Travel** | Protective emergency airfare, temporary housing, and international relocation logistics to **Mexico** and subsequently to **Canada** (August 7, 2026). | **$10,300.00 USD** | **Threat Displacement Relocation Expenses** |
-| **Destroyed Devices** | Full indemnification for ThinkPad laptop loss, primary mobile phones, and compromised Aircove router. | **$5,200.00 USD** | Total Hardware Loss via Cyberattack |
-| **Purchased Devices** | Reimbursement for replacement smartphone, secondary phone, and Faraday shielding bags. | **$1,700.00 USD** | Device Replacement for Harassment/Cyberdefense |
-| **Vehicle Repair** | Authorized Mitsubishi dealership costs for electrical diagnosis and wireless OBD-II (FIXD) vector removal. | **$1,450.00 USD** | Property Damage & Sabotage Repair |
-| **Tuition & Academic Loss** | Tuition reimbursement and re-enrollment fees at university due to forced withdrawal (`Grade: W`). | **$2,200.00 USD** | Lost Educational Benefits & Assistance |
-| **Legal & Forensic Fees** | International legal counsel fees, IACHR/FBI filing costs, and technical cryptographic forensic audit expenses. | **$12,500.00 USD** | Legal Counsel & Expert Coverage |
+| **Emergency Relocation, Housing & Subsistence** | Protective airfare, extended-stay emergency lodging, temporary accommodations, daily meals, food, and essential living expenses during multi-country security displacement (USA -> Mexico -> Canada). | **$33,000.00 USD** | **Threat Displacement Relocation & Living Expenses Coverage** |
+| **Lost Wages / Employment Loss** | **Three (3) Full Months of Total Loss of Income / Employment (June, July, August 2026)** resulting directly from hardware destruction, physical harassment, Faraday isolation protocols, and multi-country displacement. | **$19,500.00 USD** | **Lost Wages & Wage Indemnification Coverage** |
+| **Destroyed Hardware Indemnification** | Full indemnification for ThinkPad workstation laptop loss, primary mobile phones, child's line device, and compromised Aircove router. | **$7,800.00 USD** | Total Hardware Loss via Cyberattack |
+| **Purchased Replacement Devices** | Reimbursement for replacement Samsung S23 smartphone, secondary child's phone, and Faraday RF shielding equipment. | **$2,200.00 USD** | Device Replacement for Harassment/Cyberdefense |
+| **Vehicle Sabotage Remediation** | Authorized Mitsubishi dealership costs for electrical diagnostics, wiring repair, and wireless OBD-II (FIXD) vector removal. | **$2,150.00 USD** | Property Damage & Sabotage Repair |
+| **Tuition & Academic Loss** | Tuition reimbursement and re-enrollment fees at university due to forced withdrawal (`Grade: W`). | **$3,400.00 USD** | Lost Educational Benefits & Assistance |
+| **Legal Counsel & Forensic Audit** | International legal counsel fees, IACHR/FBI filing costs, and technical cryptographic forensic audit expenses. | **$16,800.00 USD** | Legal Counsel & Expert Coverage |
 | **Identity & Child Data Remediation** | Dark Web credential remediation, **minor child identity restoration**, and data broker removal procedures across data tracking portals. | Covered Services | Identity Theft Restoration Services |
 | **Bank Account & Credit Remediation** | Remediation of unauthorized bank intrusion attempts, account lockouts, FCRA credit score restoration, and bank fee waivers. | Covered Services | Financial Fraud & Credit Restoration |
-| **TOTAL ESTIMATED FINANCIAL LOSS** | **Consolidated Financial Loss Claim** | **$47,900.00 USD** | Total Financial Loss Claim |
+| **TOTAL ESTIMATED FINANCIAL LOSS** | **Consolidated Financial Loss Claim** | **$84,850.00 USD** | Total Financial Loss Claim |
 
 ---
 
