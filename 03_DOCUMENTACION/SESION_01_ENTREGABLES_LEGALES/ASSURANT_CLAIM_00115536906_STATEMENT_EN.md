@@ -55,25 +55,57 @@ The undersigned **Andrea Zabala Cárcamo**, enrolled in the ExpressVPN Identity 
 
 ---
 
-## 💰 3. ITEMIZED SCHEDULE OF DESTROYED DEVICES, PURCHASED REPLACEMENTS & EXPENSES
+## 📁 3. COMPREHENSIVE INVENTORY OF AVAILABLE PROOF AND EVIDENCE
 
-Under the **Assurant / ExpressVPN Identity Defender $3,000,000 USD Restoration Policy** (Claim Number `00115536906`), Claimant submits the following itemized breakdown for total hardware loss compensation, replacement reimbursement, accommodations/food expenses, bank account remediation, child identity restoration, and lost wages:
+The following 10 master categories of verifiable physical, digital, legal, and institutional evidence support this claim:
 
-### A. Destroyed & Permanently Disabled Devices (Cyberattack & Sabotage)
-1. **Primary ThinkPad Workstation Laptop:** Permanently destroyed/rendered inoperable by firmware Rootkit (hardware BIOS lock - Lenovo Support `Key Ref 2031621994`).
-2. **Primary Mobile Phone Device:** Destroyed/rendered inoperable by persistent rootkit malware infection (*Factory Wipe* ineffective due to deep system persistence).
-3. **Child's Mobile Device:** Disabled/compromised by anomalous tracking bursts (1,600+ barrage calls/messages) following the 911 emergency call on June 13.
-4. **Aircove Router & Home Network Hardware:** Infiltrated and physically compromised by autonomous battery-powered rogue Wi-Fi surveillance implant.
-5. **Mitsubishi Vehicle Electrical & OBD-II System:** Sabotaged during June 13 road ambush, requiring authorized dealership electrical remediation on June 20.
+1. **Hardware Destruction & Rootkit Evidence:**
+   - Lenovo Official Support Ticket Key Ref `2031621994` (Hardware BIOS lockout via firmware rootkit on ThinkPad workstation).
+   - Cable Technician & Physical Inspection Log verifying autonomous rogue Wi-Fi signal transmitting during main electrical breaker shutdown.
+   - Proof of persistent malware infection overriding factory reset wipes on mobile hardware.
 
-### B. Emergency Purchased Replacement Devices & Cyberdefense Shielding
-1. **Secure Smartphone:** Purchased at a mobile carrier store in a controlled environment during late June 2026 for secure communications.
-2. **Secondary Emergency Replacement Phone:** Purchased to restore safe family communications for the minor child.
-3. **Faraday RF Shielding Bags & Sleeves:** Purchased to physically block radio frequency signals (Wi-Fi / Cellular / Bluetooth) from compromised devices.
+2. **Vehicle Sabotage & Dealership Diagnostic Evidence:**
+   - Authorized Mitsubishi Dealership Work Order & Electrical Diagnostics Report (June 20, 2026) inspecting electrical wiring and sealing the wireless OBD-II (FIXD) attack vector.
+
+3. **Police Department & 911 Audio Discrepancy Evidence:**
+   - Official T-Mobile Itemized Usage Bill certifying a 3:00-minute 911 dispatch call placed by Claimant's 10-year-old child on June 13, 2026, at 11:01 PM.
+   - Buckingham County Sheriff's Office Incident Report `C20260617-0024-01`.
+   - Audio `.vma` file provided by Sheriff's Office showing a 59-second discrepancy (cropped to 2:01 minutes).
+
+4. **Dark Web Credential & Minor Child Data Breach Alerts:**
+   - ExpressVPN Identity Defender Restoration ID `85720870` Dark Web notifications (`icfes.gov.co`, Telegram Combolists).
+   - Telemetry logs documenting 1,600+ barrage tracking calls/messages targeting the minor child's mobile line.
+
+5. **University Academic Damage Evidence:**
+   - Official University of Phoenix Transcript (`Student ID: [REDACTED]`, GPA 3.61, BSIOP Program) documenting enforced withdrawal (`Grade: W` in `PSY/315`) due to rootkit destruction and emergency travel.
+
+6. **International Legal Protection & Displacement Evidence:**
+   - Inter-American Commission on Human Rights (IACHR) Precautionary Measures Filing `IACHR-0000113728`.
+   - FBI Richmond VA In-Person Filing & `IC3.gov` Complaint Receipts.
+   - Emergency Flight Tickets ($2,000.00 USD) and passport transit stamps (USA -> Mexico -> Canada on August 7, 2026).
+
+7. **Master Physical & Digital Forensic Vault (>677 GB):**
+   - Preserved Physical Drive Vaults: `D A T A1` (406 GB), `ANZACA` (79.71 GB), `BACKUP` (6.90 GB), Local NVMe (185 GB).
+   - Immutable Archival Vault on Internet Archive (`colombia-e14-forensic-acervo-2026`) and Zenodo (`DOI 10.5281/zenodo.21922376`).
+
+8. **PDF Structural Corruption & Deepfake Analysis:**
+   - Diagnostic Database of 57,981 PDFs with damaged XREF tables (`15 declared != highest 13`).
+   - BabaYaga Core v1.1 Batch Audit certifying 100% XREF scar presence in original `V_1junio` downloads.
+   - Channel Alpha &EXIF Analysis proving synthetic `/DeviceGray` 1-bit masks ($\sigma = 0$).
+
+9. **QR Code Cryptographic Spoofing Proof (Blind Masking):**
+   - Dual Hash Extraction over 121,960 Delegados PDFs (June 21): Physical SHA-256 Hash vs. 64-char QR Transmission Code. **Match rate: 0.00% (100% Fake Synthetic Vectors).**
+
+10. **Population Statistics & Benford 2BL Proof:**
+    - Master Pre-count Database (`base_mesa_a_mesa_122020_marcada.csv`, 122,024 records).
+    - Mebane Benford Second Digit (2BL) test identifying 451 identical polling stations with 161 fixed cloned votes ($Z = -56.96, p < 0.0001$).
+    - Baseline Control Group Audit over 25,061 forms proving 99.96% clean status.
 
 ---
 
-### C. Expense Reimbursement & Financial Loss Summary Matrix ($83,050.00 USD)
+## 💰 4. ITEMIZED SCHEDULE OF DESTROYED DEVICES, PURCHASED REPLACEMENTS & EXPENSES
+
+Under the **Assurant / ExpressVPN Identity Defender $3,000,000 USD Restoration Policy** (Claim Number `00115536906`), Claimant submits the following itemized breakdown ($83,050.00 USD):
 
 | Category | Itemized Loss / Cost Claimed | Estimated Amount (USD) | Applicable Policy Coverage |
 | :--- | :--- | :--- | :--- |
@@ -90,7 +122,7 @@ Under the **Assurant / ExpressVPN Identity Defender $3,000,000 USD Restoration P
 
 ---
 
-## 🧠 4. FORMAL COVERAGE REQUESTS
+## 🧠 5. FORMAL COVERAGE REQUESTS
 
 1. **Dedicated Restoration Specialist Assignment:** Immediate assignment of an Assurant claims specialist for reimbursement processing, **bank account remediation**, **child identity restoration**, and data broker removal.
 2. **FCRA Credit Freeze & Bureau Notifications:** Assistance in placing credit freezes and fraud alerts with Experian, Equifax, TransUnion, and financial institutions.
