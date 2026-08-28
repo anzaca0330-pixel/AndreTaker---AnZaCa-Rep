@@ -14,7 +14,7 @@
 
 ## 📋 1. EXECUTIVE CLAIM SUMMARY
 
-The undersigned **Andrea Zabala Cárcamo** (C.C. 43.925.102), enrolled in the ExpressVPN Identity Defender monitoring program under **Restoration ID: 85720870**, hereby submits this formal Claim Statement and Request for Identity Theft Restoration Services following severe Dark Web credential leaks, targeted hardware cyberattacks, autonomous physical Wi-Fi implants, vehicle sabotage, and physical harassment arising from her role as lead forensic investigator in the 2026 Colombia Electoral Audit.
+The undersigned **Andrea Zabala Cárcamo** (C.C. 43.925.102), enrolled in the ExpressVPN Identity Defender monitoring program under **Restoration ID: 85720870**, hereby submits this formal Claim Statement and Request for Identity Theft Restoration Services and Full Expense Reimbursement following severe Dark Web credential leaks, targeted hardware cyberattacks, autonomous physical Wi-Fi implants, vehicle sabotage, and physical harassment arising from her role as lead forensic investigator in the 2026 Colombia Electoral Audit.
 
 ---
 
@@ -45,14 +45,27 @@ The undersigned **Andrea Zabala Cárcamo** (C.C. 43.925.102), enrolled in the Ex
 
 ---
 
-## 🧠 3. FORMAL COVERAGE REQUESTS
+## 💰 3. ITEMIZED EXPENSE & REIMBURSEMENT CLAIM SCHEDULE
 
-Pursuant to the terms of the **ExpressVPN Identity Defender / Assurant $3,000,000 USD Restoration Policy**, Claimant requests:
+Under the **Assurant / ExpressVPN Identity Defender $3,000,000 USD Restoration Policy**, Claimant submits the following itemized categories for full coverage and reimbursement:
 
-1. **Immediate Identity Restoration & Remediation:** Professional assistance for data broker removal across 16 tracking portals and Dark Web credential suppression.
-2. **Reimbursement of Covered Legal, Forensic & Travel Expenses:** Coverage for legal fees, forensic auditing costs, system recovery, vehicle electrical repairs, and emergency protective relocation.
-3. **FCRA Credit Monitoring & Protection:** Assistance in placing credit freezes and fraud alerts with Experian (`+1-888-397-3742`), Equifax (`+1-800-685-1111`), and TransUnion (`+1-888-909-8872`).
-4. **Immutable Evidence Verification:** All supporting technical documentation is permanently stored and verified at Internet Archive (`https://archive.org/details/colombia-e14-forensic-acervo-2026`) and GitHub repository [https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep](https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep).
+| Expense Category | Itemized Loss / Cost Breakdown | Applicable Policy Coverage |
+| :--- | :--- | :--- |
+| **1. Hardware & Computer Replacement** | Replacement of ThinkPad laptop destroyed by firmware rootkit (BIOS lockout - Key Ref `2031621994`) and replacement of T-Mobile mobile devices / Samsung S23 acquired in secure environment. | Compromised Hardware Replacement |
+| **2. Vehicle Repair & Remediation** | Mitsubishi master technician dealership costs for electrical diagnostics and wireless OBD-II (FIXD) attack vector removal. | Property Damage & Sabotage Repair |
+| **3. Emergency Relocation & Travel** | Protective emergency airfare, temporary housing, and international relocation logistics to Canada executed on August 7, 2026. | Threat Displacement Relocation Expenses |
+| **4. Tuition & Educational Damages** | Reimbursement of tuition fees and re-enrollment costs at University of Phoenix (`Student ID: 9059123560`) due to forced withdrawal (`Grade: W` in `PSY/315`). | Lost Educational Benefits & Assistance |
+| **5. Legal & Expert Forensic Fees** | International legal counsel fees, IACHR/FBI filing costs, and technical cryptographic forensic audit expenses. | Legal Counsel & Expert Coverage |
+| **6. Identity Remediation & Data Brokers** | Dark Web credential remediation and data broker removal procedures across 16 tracking portals. | Identity Theft Restoration Services |
+| **7. Lost Wages & Protection Costs** | Income loss during security isolation, Faraday cage device containment, and emergency travel. | Income Loss & Wage Indemnification |
+
+---
+
+## 🧠 4. FORMAL COVERAGE REQUESTS
+
+1. **Dedicated Restoration Specialist Assignment:** Immediate assignment of an Assurant claims specialist for reimbursement processing and data broker removal.
+2. **FCRA Credit Freeze & Bureau Notifications:** Assistance in placing credit freezes and fraud alerts with Experian (`+1-888-397-3742`), Equifax (`+1-800-685-1111`), and TransUnion (`+1-888-909-8872`).
+3. **Immutable Evidence Verification:** All supporting technical documentation is permanently stored and verified at Internet Archive (`https://archive.org/details/colombia-e14-forensic-acervo-2026`) and GitHub repository [https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep](https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep).
 
 ---
 *Signed and submitted by Andrea Zabala Cárcamo (Restoration ID: 85720870).*
