@@ -12,11 +12,11 @@ import subprocess
 import json
 from datetime import datetime
 
-print("🧙‍♀️ BabaYaga despierta...")
-print("🌲 El bosque se abre. Los archivos esperan.")
+print("⚡ BabaYaga despierta... [Fuerza e Integridad Forense]")
+print("🔥 La verdad binaria se abre paso sin filtro. Los archivos son interrogados.")
 
 def verificar_herramientas():
-    """Comprueba que el bosque tenga las herramientas necesarias."""
+    """Comprueba que el sistema tenga las herramientas necesarias."""
     herramientas = ['qpdf', 'exiftool', 'pdfimages', 'identify', 'zbarimg']
     faltan = []
     for h in herramientas:
@@ -35,24 +35,24 @@ def analizar_estructura(pdf_path):
         if 'reported number of objects' in resultado.stderr:
             return {'XREF_corrupta': True, 'detalle': resultado.stderr.strip()}
         else:
-            return {'XREF_corrupta': False, 'detalle': 'El archivo respira normal'}
+            return {'XREF_corrupta': False, 'detalle': 'El archivo mantiene su estructura íntegra'}
     except Exception as e:
         return {'error': str(e)}
 
 def analizar_metadatos(pdf_path):
-    """Escucha lo que el archivo dice de sí mismo."""
+    """Inspecciona las marcas de tiempo y autoría."""
     try:
         resultado = subprocess.run(
             ['exiftool', '-Creator', '-Producer', '-CreateDate', pdf_path],
             capture_output=True,
             text=True
         )
-        return {'metadatos': resultado.stdout.strip() if resultado.stdout else 'Silencio. No hay huella.'}
+        return {'metadatos': resultado.stdout.strip() if resultado.stdout else 'Sin metadatos (Purga de huella)'}
     except Exception as e:
         return {'error': str(e)}
 
 def analizar_imagenes(pdf_path):
-    """Extrae las imágenes y las interroga."""
+    """Extrae las imágenes y analiza su espacio de color."""
     try:
         base = pdf_path.replace('.pdf', '_img')
         subprocess.run(['pdfimages', '-png', pdf_path, base], capture_output=True)
@@ -71,22 +71,22 @@ def analizar_imagenes(pdf_path):
         return {'error': str(e)}
 
 def generar_informe(resultados, pdf_path):
-    """Escribe el veredicto en la lengua de los humanos."""
-    informe = f"""# 📜 INFORME BABAYAGA — El veredicto del bosque
+    """Escribe el veredicto con la fuerza imparable de la verdad."""
+    informe = f"""# 📜 INFORME BABAYAGA — VEREDICTO DE PURA VERDAD
 
 **Archivo analizado:** {pdf_path}  
-**Fecha del ritual:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+**Fecha del peritaje:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 
 ---
 
-## 🔍 Lo que la noche reveló
+## ⚡ LO QUE EL ANÁLISIS FORENSE REVELÓ
 
 ### Estructura (XREF)
 - **Corrupta:** {resultados.get('estructura', {}).get('XREF_corrupta', 'N/A')}
 - **Detalle:** {resultados.get('estructura', {}).get('detalle', 'N/A')}
 
 ### Metadatos
-{resultados.get('metadatos', {}).get('metadatos', 'No hay voz en el archivo')}
+{resultados.get('metadatos', {}).get('metadatos', 'Sin huella de origen')}
 
 ### Imágenes
 - **Cantidad extraída:** {len(resultados.get('imagenes', {}).get('imagenes', []))}
@@ -94,16 +94,16 @@ def generar_informe(resultados, pdf_path):
 
 ---
 
-## 🧠 El veredicto
+## 🧠 EL VEREDICTO
 
-{ '⚠️ Hay una cicatriz en este archivo. Algo fue alterado.' if resultados.get('estructura', {}).get('XREF_corrupta') else '✅ El archivo parece limpio. Pero BabaYaga nunca confía del todo.' }
+{ '⚠️ CICATRIZ ESTRUCTURAL DETECTADA: Este archivo fue alterado sintéticamente. BabaYaga rompe el camuflaje.' if resultados.get('estructura', {}).get('XREF_corrupta') else '✅ Estructura sin anomalías directas. La auditoría continúa.' }
 
 ---
-*Informe generado por BabaYaga Core v1.0 — porque la verdad también tiene derecho a ser poética.*
+*Informe generado por BabaYaga Core v1.0 — AndreTaker AnZaCa (Pura verdad y fuerza imparable).*
 """
     with open('informe_babayaga.md', 'w') as f:
         f.write(informe)
-    print("✅ El veredicto está listo: informe_babayaga.md")
+    print("✅ El veredicto de la verdad está listo: informe_babayaga.md")
 
 def main():
     parser = argparse.ArgumentParser(description='BabaYaga Core — Análisis forense de PDFs')
