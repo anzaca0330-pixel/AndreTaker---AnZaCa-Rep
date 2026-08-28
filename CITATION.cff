@@ -1,19 +1,23 @@
 cff-version: 1.2.0
 message: "Si utilizas este software, sus modelos de IA o sus hallazgos en tu investigación o auditoría, por favor cítalo como se indica a continuación."
 title: "AndreTaker — BabaYaga Core: Forensic Toolkit & AI Engine for Electoral PDF Reverse-Engineering"
+version: 1.0.0
 abstract: "Herramienta forense e inteligencia artificial estructurada (AndreTaker — BabaYaga Core) para análisis estructural de PDF, detección de Deepfakes documentales, anomalías XREF (ISO 32000-1), firmas 1-bit y operaciones sintéticas de Blind Masking en elecciones a escala masiva."
 authors:
   - family-names: "Zabala Cárcamo"
     given-names: "Andrea"
-    alias: "AndreTaker / AnZaCa"
+    alias: "AnZaCa / AndreTaker"
     affiliation: "Investigadora Ciudadana e Independiente"
   - family-names: "System"
     given-names: "Tycho"
     alias: "Antigravity AI Engine"
-date-released: "2026-08-27"
+date-released: 2026-08-27
 doi: "10.5281/zenodo.21922376"
-license: "Apache-2.0"
+license: Apache-2.0
 repository-code: "https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep"
+notes: |
+  La autora es la titular exclusiva de la propiedad intelectual del código, los prompts y la metodología.
+  La infraestructura de cómputo (Google AI Studio) es solo un procesador temporal, sin derechos sobre el contenido.
 keywords:
   - BabaYaga Core
   - AI System Prompt
