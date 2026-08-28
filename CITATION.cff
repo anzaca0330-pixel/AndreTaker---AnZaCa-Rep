@@ -1,23 +1,28 @@
 cff-version: 1.2.0
-message: "Si utilizas este software o sus hallazgos en tu investigación o auditoría, por favor cítalo como se indica a continuación."
-title: "Forensic Toolkit: Híbrido Detector Multicapas para Análisis de Fraude Electoral"
-abstract: "Herramienta de grado militar para análisis estructural de PDF, detección de Deepfakes documentales, alteraciones XREF y operaciones sintéticas de Blind Masking en elecciones a escala masiva."
+message: "Si utilizas este software, sus modelos de IA o sus hallazgos en tu investigación o auditoría, por favor cítalo como se indica a continuación."
+title: "AndreTaker — BabaYaga Core: Forensic Toolkit & AI Engine for Electoral PDF Reverse-Engineering"
+abstract: "Herramienta forense e inteligencia artificial estructurada (AndreTaker — BabaYaga Core) para análisis estructural de PDF, detección de Deepfakes documentales, anomalías XREF (ISO 32000-1), firmas 1-bit y operaciones sintéticas de Blind Masking en elecciones a escala masiva."
 authors:
-  - family-names: "Zabala"
+  - family-names: "Zabala Cárcamo"
     given-names: "Andrea"
-    affiliation: "Universidad de Phoenix (UOPX)"
-date-released: "2026-08-13"
+    alias: "AndreTaker / AnZaCa"
+    affiliation: "Investigadora Ciudadana e Independiente"
+  - family-names: "System"
+    given-names: "Tycho"
+    alias: "Antigravity AI Engine"
+date-released: "2026-08-27"
 doi: "10.5281/zenodo.21922376"
 license: "Apache-2.0"
-repository-code: "https://github.com/andrea-zabala-c/repo_github_comparacion"
+repository-code: "https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep"
 keywords:
-  - OSINT
+  - BabaYaga Core
+  - AI System Prompt
   - PDF Forensics
-  - XREF Anomaly Detection
+  - ISO 32000 XREF Anomaly Detection
   - Blind Masking
   - Electoral Fraud
-  - 2nd Digit Benford's Law
-  - Ciberdefensa
+  - 2nd Digit Benford's Law (Mebane)
+  - Ciberdefensa & DFIR
 
 references:
   - type: article
