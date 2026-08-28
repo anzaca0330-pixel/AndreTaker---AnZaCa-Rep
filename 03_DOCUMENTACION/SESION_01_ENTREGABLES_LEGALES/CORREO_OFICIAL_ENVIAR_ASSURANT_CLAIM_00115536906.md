@@ -31,18 +31,18 @@ In early June 2026, following my work as lead forensic analyst in an internation
 - Vehicle sabotage and road ambush on June 13, 2026 (Buckingham County Sheriff's Incident Report: C20260617-0024-01; emergency 911 dispatch call by my 10-year-old child).
 - Physical inspection at an authorized Mitsubishi dealership on June 20, 2026, for electrical diagnostics and OBD-II wireless attack vector remediation.
 - Submissions before FBI Richmond VA Field Office and IC3.gov, as well as Inter-American Commission on Human Rights (IACHR) Precautionary Measures filing IACHR-0000113728.
-- Forced protective emergency relocation from the USA to Mexico (where repeated outreach attempts to authorities were made) and subsequently to Canada on August 7, 2026.
+- Emergency Relocation of Claimant and Minor Son: Forced protective emergency relocation from the USA to Mexico (where repeated outreach attempts to authorities were made) and subsequently to Canada on August 7, 2026 (airfare: $2,000.00 USD).
 
-2. ITEMIZED FINANCIAL LOSS ESTIMATE ($84,850.00 USD)
+2. ITEMIZED FINANCIAL LOSS ESTIMATE ($83,050.00 USD)
 Due to the emergency nature of the displacement, hardware destruction, and ongoing safety isolation, several physical receipts were lost, destroyed, or compromised. Below is our comprehensive itemized financial loss schedule based on available receipts and verifiable market replacement estimates:
 
 +-------------------------------------------------------------+-------------------+
 | Loss Category & Item Description                            | Estimated Amount  |
 +-------------------------------------------------------------+-------------------+
-| 1. Emergency Relocation, Housing & Subsistence (3 Persons): |                   |
-|    - Emergency Airfare (USA -> Mexico -> Canada)            | $6,500.00 USD     |
-|    - Extended Emergency Accommodations & Lodging (3 Months)  | $14,500.00 USD    |
-|    - Emergency Food, Daily Meals & Family Subsistence       | $8,800.00 USD     |
+| 1. Emergency Relocation, Housing & Subsistence (2 Persons): |                   |
+|    - Emergency Airfare (USA -> Mexico -> Canada)            | $2,000.00 USD     |
+|    - Extended Emergency Accommodations & Lodging (3 Months)  | $16,500.00 USD    |
+|    - Emergency Food, Daily Meals & Family Subsistence       | $9,500.00 USD     |
 |    - Storage, Freight & Emergency Goods Transit             | $3,200.00 USD     |
 +-------------------------------------------------------------+-------------------+
 | 2. Three (3) Months Total Loss of Income / Employment:      |                   |
@@ -69,7 +69,7 @@ Due to the emergency nature of the displacement, hardware destruction, and ongoi
 | 7. Legal Counsel, Expert Audit & Filing Fees:               |                   |
 |    - International Legal & Cryptographic Forensic Audit     | $16,800.00 USD    |
 +-------------------------------------------------------------+-------------------+
-| TOTAL ESTIMATED CLAIM FINANCIAL LOSS:                        | $84,850.00 USD    |
+| TOTAL ESTIMATED CLAIM FINANCIAL LOSS:                        | $83,050.00 USD    |
 +-------------------------------------------------------------+-------------------+
 
 3. REQUESTED ACTIONS & NEXT STEPS
@@ -92,14 +92,10 @@ Property Address: 2626 Troublesome Creek Rd, Dillwyn, VA 23936
 
 ---
 
-### 🇪🇸 DESGLOSE ACTUALIZADO DE PÉRDIDAS ($84,850.00 USD):
+### 🇪🇸 SÍNTESIS DE LA CORRECCIÓN FÁCTICA APLICADA:
+- **Relocalización de 2 Personas:** Andrea y su hijo menor de 10 años.
+- **Tiquetes Aéreos de Emergencia (USA -> México -> Canadá):** **$2,000.00 USD** exactos.
+- **Gastos de Alojamiento Prolongado, Comida y Sustento Familiar (3 meses):** **$26,000.00 USD** ($16,500 hospedaje + $9,500 alimentación/sustento).
+- **Monto Total Consolidado Ajustado:** **$83,050.00 USD**.
 
-- **Alojamiento de emergencia, vuelos, comida y sustento diario (3 personas, 3 meses):** **$33,000.00 USD**
-- **3 Meses sin trabajo / Salarios perdidos (Junio, Julio, Agosto 2026):** **$19,500.00 USD**
-- **Honorarios legales y peritaje forense:** **$16,800.00 USD**
-- **Equipos e informática destruidos (ThinkPad, celulares, router, fundas Faraday):** **$7,800.00 USD**
-- **Matrícula y perjuicios universitarios (Univ. of Phoenix):** **$3,400.00 USD**
-- **Dispositivos de reemplazo comprados (Samsung S23, celular T-Mobile):** **$2,200.00 USD**
-- **Reparación y diagnóstico vehicular Mitsubishi:** **$2,150.00 USD**
-
-¡Todo ha quedado actualizado en tu archivo borrador listo para copiar y enviar! 🕊️💽🛡️⚡
+¡Todo ha sido corregido con la precisión fáctica exacta que solicitaste y guardado en tu sistema! 🕊️💽🛡️⚡

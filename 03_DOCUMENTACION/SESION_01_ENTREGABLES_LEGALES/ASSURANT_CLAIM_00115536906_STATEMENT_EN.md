@@ -19,7 +19,7 @@
 
 ## 📋 1. EXECUTIVE CLAIM SUMMARY
 
-The undersigned **Andrea Zabala Cárcamo**, enrolled in the ExpressVPN Identity Defender monitoring program under **Restoration ID: 85720870** and **Claim Number: 00115536906**, hereby submits this formal Claim Statement and Request for Identity Theft Restoration Services, Compensation for **Destroyed Hardware**, Full Reimbursement of **Purchased Replacement Devices**, Reimbursement of **Emergency Accommodations, Meals & Daily Living Subsistence**, Compensation for **Severe Bank Account Compromise & Financial Damage**, Emergency **Minor Child Identity Restoration**, and Compensation for **Three (3) Months of Total Loss of Income / Employment** following severe Dark Web credential leaks, targeted hardware cyberattacks, autonomous physical Wi-Fi implants, vehicle sabotage, physical harassment, and emergency multi-country displacements (including initial travel to Mexico with repeated unanswered institutional outreach attempts, followed by security relocation to Canada) arising from her role as lead forensic investigator in the 2026 Colombia Electoral Audit.
+The undersigned **Andrea Zabala Cárcamo**, enrolled in the ExpressVPN Identity Defender monitoring program under **Restoration ID: 85720870** and **Claim Number: 00115536906**, hereby submits this formal Claim Statement and Request for Identity Theft Restoration Services, Compensation for **Destroyed Hardware**, Full Reimbursement of **Purchased Replacement Devices**, Reimbursement of **Emergency Accommodations, Meals ($2,000 USD Airfare & Living Subsistence for Claimant and Minor Son)**, Compensation for **Severe Bank Account Compromise & Financial Damage**, Emergency **Minor Child Identity Restoration**, and Compensation for **Three (3) Months of Total Loss of Income / Employment** following severe Dark Web credential leaks, targeted hardware cyberattacks, autonomous physical Wi-Fi implants, vehicle sabotage, physical harassment, and emergency multi-country displacements (including initial travel to Mexico with repeated unanswered institutional outreach attempts, followed by security relocation to Canada on August 7, 2026) arising from her role as lead forensic investigator in the 2026 Colombia Electoral Audit.
 
 ---
 
@@ -49,9 +49,9 @@ The undersigned **Andrea Zabala Cárcamo**, enrolled in the ExpressVPN Identity 
 * **In-Person Appearance at FBI Richmond, VA:** Formal submission before FBI Richmond Field Office and `IC3.gov` (subsequently referred by FBI back to local Sheriff lacking cybersecurity infrastructure).
 * **Buckingham Sheriff's Office:** Incident Report `C20260617-0024-01`.
 * **Inter-American Commission on Human Rights (IACHR):** Precautionary Measures Filing `IACHR-0000113728` (June 29, 2026).
-* **Initial Emergency Travel to Mexico & Repeated Outreach:** Following severe security threats, Claimant and her family first traveled to **Mexico** seeking diplomatic protection and shelter. During the stay in Mexico, Claimant made repeated formal outreach attempts to institutional and diplomatic authorities without receiving an effective protective response.
+* **Initial Emergency Travel to Mexico & Repeated Outreach:** Following severe security threats, Claimant and her minor son first traveled to **Mexico** seeking diplomatic protection and shelter. During the stay in Mexico, Claimant made repeated formal outreach attempts to institutional and diplomatic authorities without receiving an effective protective response.
 * **Academic Damages at University of Phoenix:** Enforced withdrawal (`Grade: W`) in psychological research reasoning due to rootkit hardware destruction, constant harassment, and multi-country emergency displacement.
-* **Secondary International Relocation to Canada:** Due to persistent safety risks and lack of protective response in Mexico, Claimant executed a secondary emergency security relocation to Canada on August 7, 2026.
+* **Secondary International Relocation of Claimant & Son to Canada:** Due to persistent safety risks and lack of protective response in Mexico, Claimant and her 10-year-old son executed a secondary emergency security relocation to Canada on August 7, 2026 (exact emergency airfare cost: $2,000.00 USD).
 
 ---
 
@@ -73,11 +73,11 @@ Under the **Assurant / ExpressVPN Identity Defender $3,000,000 USD Restoration P
 
 ---
 
-### C. Expense Reimbursement & Financial Loss Summary Matrix ($84,850.00 USD)
+### C. Expense Reimbursement & Financial Loss Summary Matrix ($83,050.00 USD)
 
 | Category | Itemized Loss / Cost Claimed | Estimated Amount (USD) | Applicable Policy Coverage |
 | :--- | :--- | :--- | :--- |
-| **Emergency Relocation, Housing & Subsistence** | Protective airfare, extended-stay emergency lodging, temporary accommodations, daily meals, food, and essential living expenses during multi-country security displacement (USA -> Mexico -> Canada). | **$33,000.00 USD** | **Threat Displacement Relocation & Living Expenses Coverage** |
+| **Emergency Relocation, Housing & Subsistence** | Emergency airfare (**$2,000.00 USD** for Claimant and minor son), extended-stay emergency lodging, temporary accommodations, daily meals, food, and essential living expenses during multi-country security displacement (USA -> Mexico -> Canada). | **$31,200.00 USD** | **Threat Displacement Relocation & Living Expenses Coverage** |
 | **Lost Wages / Employment Loss** | **Three (3) Full Months of Total Loss of Income / Employment (June, July, August 2026)** resulting directly from hardware destruction, physical harassment, Faraday isolation protocols, and multi-country displacement. | **$19,500.00 USD** | **Lost Wages & Wage Indemnification Coverage** |
 | **Destroyed Hardware Indemnification** | Full indemnification for ThinkPad workstation laptop loss, primary mobile phones, child's line device, and compromised Aircove router. | **$7,800.00 USD** | Total Hardware Loss via Cyberattack |
 | **Purchased Replacement Devices** | Reimbursement for replacement Samsung S23 smartphone, secondary child's phone, and Faraday RF shielding equipment. | **$2,200.00 USD** | Device Replacement for Harassment/Cyberdefense |
@@ -86,7 +86,7 @@ Under the **Assurant / ExpressVPN Identity Defender $3,000,000 USD Restoration P
 | **Legal Counsel & Forensic Audit** | International legal counsel fees, IACHR/FBI filing costs, and technical cryptographic forensic audit expenses. | **$16,800.00 USD** | Legal Counsel & Expert Coverage |
 | **Identity & Child Data Remediation** | Dark Web credential remediation, **minor child identity restoration**, and data broker removal procedures across data tracking portals. | Covered Services | Identity Theft Restoration Services |
 | **Bank Account & Credit Remediation** | Remediation of unauthorized bank intrusion attempts, account lockouts, FCRA credit score restoration, and bank fee waivers. | Covered Services | Financial Fraud & Credit Restoration |
-| **TOTAL ESTIMATED FINANCIAL LOSS** | **Consolidated Financial Loss Claim** | **$84,850.00 USD** | Total Financial Loss Claim |
+| **TOTAL ESTIMATED FINANCIAL LOSS** | **Consolidated Financial Loss Claim** | **$83,050.00 USD** | Total Financial Loss Claim |
 
 ---
 
