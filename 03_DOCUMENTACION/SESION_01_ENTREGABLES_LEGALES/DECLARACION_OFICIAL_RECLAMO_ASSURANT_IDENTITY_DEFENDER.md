@@ -2,7 +2,7 @@
 ## ExpressVPN Identity Defender / Assurant $3,000,000 USD Policy
 
 **Afectada / Reclamante:** Andrea Zabala Cárcamo (AnZaCa / AndreTaker)  
-**Cédula de Ciudadanía:** 43.925.102  
+**Documento de Identidad:** `[REDACTED_ID]`  
 **ID de Restauración (Restoration ID):** `85720870`  
 **Póliza de Cobertura:** Cobertura de Restauración por Robo de Identidad y Ciberdelincuencia ($3.000.000 USD)  
 **Fecha de Presentación Formal:** 27 de agosto de 2026  
@@ -14,7 +14,7 @@
 
 ## 📋 1. RESUMEN EJECUTIVO DEL RECLAMO
 
-La suscrita **Andrea Zabala Cárcamo** (C.C. 43.925.102), identificada en el sistema de monitoreo de ExpressVPN Identity Defender con el **Restoration ID: 85720870**, presenta formalmente esta Declaración de Reclamo y Solicitud de Cobertura y Reembolso de Gastos por Robo de Identidad, Filtración Masiva de Credenciales en la Dark Web, Hostigamiento Cibernético, Implantación de Redes Fantasma, Destrucción de Hardware, Sabotaje Físico, Desplazamiento Internacional Multi-País (incluyendo viaje inicial a México e intentos repetidos sin respuesta de contacto institucional, seguido por reubicación a Canadá) e **Indemnización por Tres (3) Meses de Pérdida Total de Ingresos y Empleo** como consecuencia directa de su labor en la auditoría forense electoral 2026.
+La suscrita **Andrea Zabala Cárcamo**, identificada en el sistema de monitoreo de ExpressVPN Identity Defender con el **Restoration ID: 85720870**, presenta formalmente esta Declaración de Reclamo y Solicitud de Cobertura y Reembolso de Gastos por Robo de Identidad, Filtración Masiva de Credenciales en la Dark Web, Hostigamiento Cibernético, Implantación de Redes Fantasma, Destrucción de Hardware, Sabotaje Físico, Desplazamiento Internacional Multi-País (incluyendo viaje inicial a México e intentos repetidos sin respuesta de contacto institucional, seguido por reubicación a Canadá) e **Indemnización por Tres (3) Meses de Pérdida Total de Ingresos y Empleo** como consecuencia directa de su labor en la auditoría forense electoral 2026.
 
 ---
 
@@ -33,7 +33,7 @@ La suscrita **Andrea Zabala Cárcamo** (C.C. 43.925.102), identificada en el sis
 
 ### D. Sabotaje Vehicular, Vector OBD-II (FIXD) y Emboscada (13 y 20 de Junio de 2026)
 * Hostigamiento físico y emboscada en carretera el 13 de junio a las 11:01 PM.
-* **Llamada de Emergencia al 911 por Menor de 10 Años:** Factura oficial de T-Mobile certifica 3:00 minutos de llamada. La policía entregó un audio `.vma` recortado a solo 2.01 minutos (recorte de 59 segundos de auxilio del menor).
+* **Llamada de Emergencia al 911 por Menor de 10 Años:** Factura oficial de la compañía telefónica certifica 3:00 minutos de llamada. La policía entregó un audio `.vma` recortado a solo 2.01 minutos (recorte de 59 segundos de auxilio del menor).
 * **Inspección Técnica Mitsubishi (20 de junio):** Diagnóstico de sistemas eléctricos y sellado del vector de ataque inalambrico/físico OBD-II (FIXD) en el taller especializado Mitsubishi.
 
 ### E. Comparecencia ante el FBI, CIDH, Refugio en México y Reubicación a Canadá
@@ -41,7 +41,7 @@ La suscrita **Andrea Zabala Cárcamo** (C.C. 43.925.102), identificada en el sis
 * **Sheriff's Office (Buckingham):** Incident Report `C20260617-0024-01`.
 * **Comisión Interamericana de Derechos Humanos (CIDH):** Petición de Medidas Cautelares Radicado `IACHR-0000113728` (29 de junio de 2026).
 * **Desplazamiento Inicial a México e Intentos Repetidos de Contacto:** Ante el incremento de las amenazas, la investigadora y su familia viajaron primero a **México** buscando protección diplomática y resguardo. Durante su estancia en México, se realizaron múltiples e insistentemente intentos de contacto formal con autoridades e instituciones sin recibir respuesta efectiva o garantista.
-* **Perjuicios Académicos en Universidad de Phoenix (`Student ID: 9059123560`):** Retiro forzado (`Grade: W`) en la asignatura `PSY/315 Statistical Reasoning in Psychology` debido a la inoperatividad de equipos por rootkit, hostigamiento y desplazamiento internacional multi-país.
+* **Perjuicios Académicos en Universidad de Phoenix:** Retiro forzado (`Grade: W`) en la asignatura de razonamiento estadístico en psicología debido a la inoperatividad de equipos por rootkit, hostigamiento y desplazamiento internacional multi-país.
 * **Segundo Desplazamiento de Seguridad a Canadá:** Ante la falta de respuesta efectiva en México y la persistencia de los riesgos, se ejecutó una reubicación secundaria de seguridad a Canadá el 7 de Agosto de 2026.
 
 ---
@@ -53,14 +53,14 @@ Bajo la Póliza de Restauración por $3,000,000 USD de **Assurant / ExpressVPN I
 ### A. Dispositivos Destruidos e Inhabilitados por Ciberataque/Sabotaje
 1. **Portátil ThinkPad:** Destruido e inhabilitado permanentemente por Rootkit de firmware (BIOS bloqueado a nivel de hardware - Soporte Lenovo `Key Ref 2031621994`).
 2. **Teléfono Móvil Primario:** Destruido/inoperativo por infección cibernética persistente e ineficacia de restore de fábrica (*Factory Wipe* inútil por persistencia de malware).
-3. **Teléfono Móvil del Menor (Línea California):** Inhabilitado/comprometido por ráfagas de rastreo masivo (1.600 llamadas/mensajes anómalos) tras la llamada de emergencia al 911 del 13 de junio.
+3. **Teléfono Móvil del Menor:** Inhabilitado/comprometido por ráfagas de rastreo masivo (1.600 llamadas/mensajes anómalos) tras la llamada de emergencia al 911 del 13 de junio.
 4. **Módem / Router Aircove e Infraestructura Doméstica:** Infiltrado e inhabilitado por la implantación física de dispositivo espía con red Wi-Fi fantasma autónoma.
 5. **Sistema Eléctrico Vehicular Mitsubishi & Conector OBD-II:** Saboteado físicamente durante la emboscada del 13 de junio, requiriendo remediación en taller especializado el 20 de junio.
 
 ### B. Dispositivos Adquiridos de Emergencia para Reemplazo y Ciberdefensa
-1. **Teléfono Móvil Seguro Samsung Galaxy S23:** Adquirido en ambiente controlado de T-Mobile en la última semana de junio de 2026.
-2. **Segundo Dispositivo Telefónico T-Mobile de Reemplazo:** Adquirido para restablecer la comunicación segura del núcleo familiar y del menor.
-3. **Fundas y Bolsas de Aislamiento Faraday:** Adquiridas para la contención física de radiofrecuencia (Wi-Fi / Celular / Bluetooth) de los equipos comprometidos.
+1. **Teléfono Móvil Seguro Smartphone:** Adquirido en ambiente controlado de operador telefónico en la última semana de junio de 2026.
+2. **Segundo Dispositivo Telefónico de Reemplazo:** Adquirido para restablecer la comunicación segura del núcleo familiar y del menor.
+3. **Fundas y Bolsas de Aislamiento Faraday:** Adquiridas para la contención física de radiofrecuencia (Wi-Fi / Celular / Bluetooth) de los equipos compromisedos.
 
 ---
 
@@ -71,18 +71,18 @@ Bajo la Póliza de Restauración por $3,000,000 USD de **Assurant / ExpressVPN I
 | **Pérdida de Ingresos (3 Meses)** | **Indemnización por Tres (3) Meses Consecutivos Sin Trabajo / Pérdida de Ingresos (Junio, Julio, Agosto 2026)** derivados directamente de la destrucción de hardware, asedio informático, protocolos de aislamiento (Jaula Faraday) y desplazamiento internacional multi-país. | **Cobertura por Salarios/Ingresos Perdidos** |
 | **Desplazamiento Multi-País (México/Canadá)** | Boletos aéreos de seguridad, hospedaje temporal y logística de transporte hacia **México** (con intentos repetidos de contacto institucional sin respuesta) y posteriormente hacia **Canadá** (7 de agosto). | **Gastos de Reubicación por Amenaza Directa** |
 | **Dispositivos Destruidos** | Indemnización por pérdida total del portátil ThinkPad, teléfonos móviles primarios y router Aircove comprometido. | Pérdida Total de Hardware por Ciberataque |
-| **Dispositivos Adquiridos** | Reembolso por compra de Samsung S23, teléfono T-Mobile de sustitución y bolsas de aislamiento Faraday. | Sustitución de Dispositivos por Acoso/Ciberdefensa |
+| **Dispositivos Adquiridos** | Reembolso por compra de teléfono inteligente seguro, equipo de sustitución y bolsas de aislamiento Faraday. | Sustitución de Dispositivos por Acoso/Ciberdefensa |
 | **Reparación Vehicular** | Taller especializado Mitsubishi por diagnóstico eléctrico y remoción de vector OBD-II (FIXD). | Reparación por Sabotaje Físico |
-| **Perjuicios Académicos** | Reembolso de matrícula y costo de reinscripción en Univ. de Phoenix (`Student ID: 9059123560`) tras retiro obligado (`Grade: W`). | Pérdida de Derechos Educativos / Asistencia |
+| **Perjuicios Académicos** | Reembolso de matrícula y costo de reinscripción universitaria tras retiro obligado (`Grade: W`). | Pérdida de Derechos Educativos / Asistencia |
 | **Honorarios y Peritajes** | Asesoría jurídica internacional, radicados CIDH/FBI y auditoría técnica forense criptográfica. | Cobertura de Honorarios Legales |
-| **Remediación de Identidad** | Limpieza de credenciales en Dark Web y solicitudes de remoción ante 16 agencias/databrokers. | Servicios de Restauración de Identidad |
+| **Remediación de Identidad** | Limpieza de credenciales en Dark Web y solicitudes de remoción ante agencias/databrokers. | Servicios de Restauración de Identidad |
 
 ---
 
 ## 🧠 4. SOLICITUDES FORMALES Y PRETENSIONES DE COBERTURA
 
 1. **Designación de Especialista de Restauración Dedicado:** Asignación inmediata de un especialista de Assurant para la tramitación de reembolsos y gestión de data brokers.
-2. **Congelamiento y Protección Crediticia (FCRA):** Asistencia en la notificación y congelamiento de crédito ante Experian (`+1-888-397-3742`), Equifax (`+1-800-685-1111`) y TransUnion (`+1-888-909-8872`).
+2. **Congelamiento y Protección Crediticia (FCRA):** Asistencia en la notificación y congelamiento de crédito ante agencias crediticias.
 3. **Cadena de Custodia Criptográfica:** Evidencia forense inmutable disponible en Internet Archive (`https://archive.org/details/colombia-e14-forensic-acervo-2026`) y en GitHub [https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep](https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep).
 
 ---
