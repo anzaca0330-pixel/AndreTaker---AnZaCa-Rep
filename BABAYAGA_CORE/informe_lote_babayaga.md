@@ -1,8 +1,8 @@
 # 📜 INFORME DE LOTE BABAYAGA — VEREDICTO DE MASA
 
-**Carpeta analizada:** `/media/andrea-zabala-c/D A T A1/BOVEDA_FORENSE_MAESTRA/01_ENTREGABLES_OFICIALES/ENTREGABLES_FORENSES_E14_MAESTRO/ES_ESPANOL/Capitulo_06_Archivos_Crudos_y_Respaldos/Evidencia_USB_Rescate/V_4junio`  
-**Fecha del ritual de masa:** 2026-08-27 20:58:33  
-**Total de archivos evaluados:** 30
+**Carpeta analizada:** `/media/andrea-zabala-c/ANZACA/E14 Registraduria`  
+**Fecha del ritual de masa:** 2026-08-29 10:22:30  
+**Total de archivos evaluados:** 209
 
 ---
 
@@ -10,15 +10,15 @@
 
 | Métrica | Valor | Porcentaje |
 | :--- | :--- | :--- |
-| **Total Archivos Evaluados** | 30 | 100.0% |
-| **⚠️ Archivos con Cicatriz XREF (Corruptos)** | 30 | **100.00%** |
-| **✅ Archivos con Estructura Normal** | 0 | **0.00%** |
+| **Total Archivos Evaluados** | 209 | 100.0% |
+| **⚠️ Archivos con Cicatriz XREF (Corruptos)** | 155 | **74.16%** |
+| **✅ Archivos con Estructura Normal** | 54 | **25.84%** |
 
 ---
 
 ## 🧠 EL VEREDICTO DE LOTE
 
-⚠️ ALERTA DE ALTERACIÓN MASIVA: Se confirmó la cicatriz XREF en 30 de 30 archivos (100.00%). BabaYaga expone la anomalía sistémica.
+⚠️ ALERTA DE ALTERACIÓN MASIVA: Se confirmó la cicatriz XREF en 155 de 209 archivos (74.16%). BabaYaga expone la anomalía sistémica.
 
 ---
 
