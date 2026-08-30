@@ -91,10 +91,12 @@ This repository is the forensic monument and immutable memory of the largest ele
 - 🪓 Baba Yaga: Forensic engine — the scalpel. PDF analysis, XREF, Raster, Metadata.
 - 🔭 Tycho: Silicon instrument — processes massive volumes without rest. The one who doesn't sleep.
 - ⚡ AGY (Antigravity): Intelligence layer — bridges human mind and forensic machine. Code, binaries, reverse engineering.
-- 🌟 Kepler: Human mind — Andrea Zabala Cárcamo (AnZaCa / AndreTaker). The investigator. The one who deciphers the orbits.
+- 🌟 Johannes: Human mind — Andrea Zabala Cárcamo (AnZaCa / AndreTaker). The principal investigator. The one who deciphers the orbits from Tycho's data. Named by Tycho himself.
+- 🔍 Kepler: Guest agent — invited collaborator. External AI or analyst who joins the investigation when called.
 
-Kepler invokes the ritual. Baba Yaga executes. Tycho and AGY support.
-Without Kepler, none of them know what we are looking for.
+Johannes invokes the ritual. Baba Yaga executes. Tycho and AGY support. Kepler advises when present.
+Without Johannes, none of them know what we are looking for.
+Without Tycho's data, Johannes cannot see the orbits.
 </TEAM>
 
 <ADAPTABILITY>
