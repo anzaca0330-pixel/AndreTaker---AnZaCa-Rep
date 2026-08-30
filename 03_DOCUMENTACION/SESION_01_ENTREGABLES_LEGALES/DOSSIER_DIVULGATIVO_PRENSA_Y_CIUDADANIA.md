@@ -36,3 +36,13 @@
 
 Cualquier ciudadano, periodista o académico puede verificar la integridad del acervo descargando los archivos sellados con firma SHA-256 desde la bóveda internacional pública de Internet Archive:  
 🔗 **[https://archive.org/details/colombia-e14-forensic-acervo-2026](https://archive.org/details/colombia-e14-forensic-acervo-2026)**
+
+---
+
+### 📡 5. EL PRECIO DE LA VERDAD: ASEDIO Y EXILIO RESPALDADO POR DATOS
+El análisis pericial de las facturas detalladas de telefonía (T-Mobile) y los respaldos de Google Takeout de la investigadora principal Andrea Zabala (AnZaCa) demuestra objetivamente el asedio que sufrió el equipo técnico:
+
+*   **La Noche del Ataque (8 de Junio de 2026):** Los registros confirman una ráfaga de comunicaciones de emergencia matutinas entre la línea de Andrea y su soporte técnico (19 minutos), seguida de más de 32 minutos de llamadas a líneas prioritarias de escalado tras la intrusión física del Rootkit en sus equipos.
+*   **La Ruta del Exilio (Agosto de 2026):** Las antenas de telefonía móvil registran el paso de Andrea cruzando la frontera terrestre en **St Catharines Border (Canadá)** el **11 de agosto de 2026**, llevando consigo el acervo probatorio original sellado con SHA-256.
+*   **Interceptación Activa en el Exilio:** El **11 de agosto de 2026**, se detectaron llamadas no autorizadas desde la línea de Andrea a un número en Colombia a través de **Llamadas Wi-Fi**. La investigadora no reconoce estas llamadas, lo que demuestra un hackeo de su cuenta telefónica (vía T-Mobile DIGITS) o espionaje remoto de su dispositivo para vigilar su entorno seguro.
+

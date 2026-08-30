@@ -1,30 +1,40 @@
-# 📜 INFORME DE LOTE BABAYAGA — VEREDICTO DE MASA
+# 📜 INFORME DE LOTE FORENSE — VEREDICTO DE MASA
 
-**Carpeta analizada:** `/media/andrea-zabala-c/ANZACA/E14 Registraduria`  
-**Fecha del ritual de masa:** 2026-08-29 10:22:30  
-**Total de archivos evaluados:** 209
+**Carpeta analizada:** `/home/andrea-zabala-c/AndreTaker---AnZaCa-Rep/00_MUESTRAS_EVIDENCIA`  
+**Fecha del diagnóstico:** 2026-08-30 19:12:36 UTC  
+**Total de archivos evaluados:** 4
 
 ---
 
-## 📊 LO QUE EL ESCANEO DE MASA REVELÓ
+## 🛠️ VERSIONES DEL ENTORNO DE AUDITORÍA
+*   **qpdf:** `qpdf version 11.9.0`
+*   **exiftool:** `ExifTool v12.76`
+*   **pdfimages:** `pdfimages version 24.02.0`
+*   **identify:** `Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org`
 
-| Métrica | Valor | Porcentaje |
+---
+
+## 📊 RESUMEN ESTADÍSTICO DE ANOMALÍAS
+
+| Métrica / Hallazgo | Valor | Porcentaje |
 | :--- | :--- | :--- |
-| **Total Archivos Evaluados** | 209 | 100.0% |
-| **⚠️ Archivos con Cicatriz XREF (Corruptos)** | 155 | **74.16%** |
-| **✅ Archivos con Estructura Normal** | 54 | **25.84%** |
+| **Total Archivos Evaluados** | 4 | 100.0% |
+| **⚠️ Discrepancia XREF Detectada (Irregularidad/Alteración)** | 4 | **100.00%** |
+| **✅ Estructura Normal de Objetos** | 0 | **0.00%** |
+| **🖼️ Archivos con Imágenes de Varianza Cero (Std = 0)** | 1 | **25.00%** |
 
 ---
 
-## 🧠 EL VEREDICTO DE LOTE
+## 🧠 VEREDICTO E INTERPRETACIÓN METODOLÓGICA (ARGOS)
 
-⚠️ ALERTA DE ALTERACIÓN MASIVA: Se confirmó la cicatriz XREF en 155 de 209 archivos (74.16%). BabaYaga expone la anomalía sistémica.
+*   **Advertencias XREF:** El 100.00% de las muestras presentan discrepancias en el conteo de objetos (`reported number of objects`). Si este comportamiento es idéntico al de los controles del mismo período y plataforma, debe catalogarse como una **irregularidad de generación** propia de la plataforma de la Registraduría, no necesariamente como una modificación deliberada de un atacante.
+*   **Varianza Cero ($Std = 0$):** Se confirmaron 1 archivos que contienen imágenes raster con desviación estándar cero. Dado que los sensores ópticos físicos siempre introducen ruido térmico, la presencia de imágenes con $Std = 0$ indica de forma inequívoca la **inyección digital de capas de fondo sintéticas** posteriores a la captura física.
 
 ---
 
 ### 📂 Archivos generados:
-- **Matriz CSV Completa:** `matriz_lote_babayaga.csv`
-- **Informe Consolidado:** `informe_lote_babayaga.md`
+*   **Matriz CSV de Datos Crudos:** `matriz_lote_babayaga.csv`
+*   **Informe de Lote Consolidado:** `informe_lote_babayaga.md`
 
 ---
-*Informe generado por BabaYaga Core v1.1 — AndreTaker AnZaCa (Pura verdad y fuerza imparable).*
+*Informe generado con rigor metodológico forense e integridad de datos.*

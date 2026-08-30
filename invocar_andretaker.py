@@ -3,7 +3,7 @@
 Invocador Híbrido de AndreTaker — BabaYaga Core (Edición de Seguridad Offline)
 Soporta:
   1. Modo Online: Llama al API de Gemini usando GOOGLE_API_KEY y ANDRE_TAKER_SYSTEM_PROMPT.txt.
-  2. Modo Local (Ollama): Inferencia local con modelos de lenguaje offline.
+  2. Modo Local (Ollama): Inferencia local con modelos de lenguaje offline (Modelo: AndreTaker).
   3. Modo Desconectado Duro: Auditoría estructural de actas usando el motor local babayaga_core.py.
   4. Protocolo Anti-Palantir (-ap / --anti-palantir): Mitigación activa contra sistemas de
      vigilancia y minería de datos mediante eliminación de metadatos, aleatorización de hashes 
@@ -14,13 +14,31 @@ import os
 import sys
 import subprocess
 import argparse
-import random
-import string
-import hashlib
+
+# Asegurar importabilidad de los sub-paquetes de babayaga
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "BABAYAGA_CORE")))
+
+try:
+    from babayaga.core.intelligence.mitigation import AntiPalantir
+    from babayaga.core.forensics.xref import XrefAnalyzer
+except ImportError:
+    # Fallback local temporal
+    class AntiPalantir:
+        @staticmethod
+        def calcular_sha256(filepath):
+            import hashlib
+            sha = hashlib.sha256()
+            with open(filepath, 'rb') as f:
+                while chunk := f.read(65536):
+                    sha.update(chunk)
+            return sha.hexdigest()
+        @classmethod
+        def ejecutar_mitigacion(cls, filepath):
+            return {"status": "error", "message": "No se pudo cargar el núcleo de inteligencia."}
 
 SYSTEM_PROMPT_PATH = "ANDRE_TAKER_SYSTEM_PROMPT.txt"
 MODEL_GEMINI = "gemini-3.6-flash"
-MODEL_OLLAMA = "gemma2"
+MODEL_OLLAMA = "AndreTaker"  # Apunta al modelo compilado localmente
 
 def cargar_system_prompt():
     path = os.path.abspath(SYSTEM_PROMPT_PATH)
@@ -38,35 +56,91 @@ def check_ollama_status():
     except Exception:
         return False
 
+def setup_local_ollama_model():
+    """
+    Genera dinámicamente el Modelfile e invoca a Ollama para crear el modelo
+    pericial local 'AndreTaker' de forma 100% automatizada.
+    """
+    print("🧠 INICIANDO AUTOCOMPILACIÓN DE MODELO LOCAL (OLLAMA)...")
+    system_prompt = cargar_system_prompt()
+    
+    # Escribir Modelfile
+    modelfile_path = "Modelfile"
+    modelfile_content = f"""FROM gemma2
+PARAMETER temperature 0.3
+SYSTEM \"\"\"{system_prompt}\"\"\"
+"""
+    try:
+        with open(modelfile_path, "w", encoding="utf-8") as f:
+            f.write(modelfile_content)
+        print("  [OK] Modelfile generado exitosamente.")
+        
+        # Ejecutar ollama create
+        print("  [Ollama] Compilando modelo 'AndreTaker'... (Esto puede demorar unos segundos)")
+        res = subprocess.run(
+            ['ollama', 'create', 'AndreTaker', '-f', modelfile_path],
+            capture_output=True,
+            text=True
+        )
+        
+        # Limpiar Modelfile temporal
+        if os.path.exists(modelfile_path):
+            os.remove(modelfile_path)
+            
+        if res.returncode == 0:
+            print("🎉 ¡COMPILACIÓN EXITOSA! El modelo 'AndreTaker' ya está activo y listo offline.")
+        else:
+            print(f"❌ Error al crear el modelo: {res.stderr}")
+            print("💡 Asegúrate de tener instalado Ollama y de haber descargado la base con: ollama pull gemma2")
+    except Exception as e:
+        print(f"❌ Error inesperado en autocompilación: {str(e)}")
+
 def run_ollama_inference(prompt, system_instruction):
-    print(f"🤖 Ejecutando inferencia local offline con Ollama (Modelo: {MODEL_OLLAMA})...")
-    full_prompt = f"SYSTEM INSTRUCTION:\n{system_instruction}\n\nUSER PROMPT:\n{prompt}"
+    print(f"🤖 Invocando asistente pericial offline (Ollama: {MODEL_OLLAMA})...")
+    # Si usamos el modelo compilado, ya tiene el SYSTEM prompt inyectado!
     try:
         res = subprocess.run(
-            ['ollama', 'run', MODEL_OLLAMA, full_prompt],
+            ['ollama', 'run', MODEL_OLLAMA, prompt],
             capture_output=True,
             text=True,
             encoding='utf-8'
         )
+        # Fallback si AndreTaker no está compilado
+        if "not found" in res.stderr.lower() or res.returncode != 0:
+            print("⚠️ Modelo 'AndreTaker' no detectado. Usando fallback básico 'gemma2'...")
+            fallback_prompt = f"SYSTEM:\n{system_instruction}\n\nUSER:\n{prompt}"
+            res = subprocess.run(
+                ['ollama', 'run', 'gemma2', fallback_prompt],
+                capture_output=True,
+                text=True,
+                encoding='utf-8'
+            )
         return res.stdout if res.returncode == 0 else f"❌ ERROR de Ollama: {res.stderr}"
     except Exception as e:
         return f"❌ Fallo al invocar Ollama: {str(e)}"
 
 def run_direct_forensic_audit(pdf_path):
     print(f"🔍 Ejecutando auditoría forense local cruda sobre {pdf_path} (Sin LLM)...")
-    core_path = os.path.abspath("BABAYAGA_CORE/babayaga_core.py")
-    if not os.path.exists(core_path):
-        core_path = os.path.abspath("../BABAYAGA_CORE/babayaga_core.py")
+    dir_path = os.path.dirname(os.path.abspath(__file__))
+    core_path = os.path.join(dir_path, "BABAYAGA_CORE", "babayaga_core.py")
     if not os.path.exists(core_path):
         return f"❌ ERROR: No se encontró babayaga_core.py."
     try:
         res = subprocess.run(
-            ['python3', core_path, '-f', pdf_path],
+            ['python3', core_path, 'scan', '--ruta', pdf_path, '--caso', 'Auditoria Invocador'],
             capture_output=True,
             text=True,
             encoding='utf-8'
         )
-        return res.stdout
+        if res.returncode == 0:
+            status_res = subprocess.run(
+                ['python3', core_path, 'status', '--caso', 'Auditoria Invocador'],
+                capture_output=True,
+                text=True,
+                encoding='utf-8'
+            )
+            return res.stdout + "\n" + status_res.stdout
+        return res.stdout if res.stdout else res.stderr
     except Exception as e:
         return f"❌ Fallo al invocar el motor local: {str(e)}"
 
@@ -74,25 +148,15 @@ def run_direct_forensic_audit(pdf_path):
 # PROTOCOLOS ANTI-PALANTIR (Mitigación de Minería de Datos)
 # =========================================================
 
-def calcular_sha256(filepath):
-    sha256 = hashlib.sha256()
-    with open(filepath, 'rb') as f:
-        while chunk := f.read(8192):
-            sha256.update(chunk)
-    return sha256.hexdigest()
-
 def ejecutar_protocolo_anti_palantir(target_path):
     """
-    Ejecuta el protocolo de protección contra ingesta y correlación de Palantir:
-    1. Limpieza absoluta de metadatos exif/XMP (evita rastreo de dispositivo/autor).
-    2. Spoofing de fechas y autores con valores aleatorios (rompe correlación de perfiles).
-    3. Padding aleatorio al final del archivo (cambia el SHA-256 para evitar rastreo por hash).
+    Ejecuta el protocolo de protección contra ingesta y correlación de Palantir
+    llamando directamente a la clase modular del núcleo de inteligencia.
     """
     if not os.path.exists(target_path):
         print(f"❌ ERROR: Ruta no encontrada: {target_path}")
         return
 
-    # Si es un directorio, procesar recursivamente
     if os.path.isdir(target_path):
         print(f"📁 Iniciando protocolo anti-Palantir en lote para el directorio: {target_path}")
         for root, dirs, files in os.walk(target_path):
@@ -102,52 +166,16 @@ def ejecutar_protocolo_anti_palantir(target_path):
         return
 
     print(f"\n🛡️ Protegiendo archivo: {os.path.basename(target_path)}")
-    hash_previo = calcular_sha256(target_path)
-    print(f"  [Original HASH]  {hash_previo}")
-
-    # 1. Stripping y Sanitización de Metadatos
-    try:
-        # Remover todos los metadatos conocidos
-        subprocess.run(['exiftool', '-all=', '-overwrite_original', target_path], capture_output=True)
+    res = AntiPalantir.ejecutar_mitigacion(target_path)
+    
+    if res.get("status") == "success":
+        print(f"  [Original HASH]  {res.get('original_hash')}")
         print("  [OK] Limpieza y sanitización de metadatos (Exif/XMP) completada.")
-    except Exception as e:
-        print(f"  [!] Fallo en limpieza de metadatos (¿exiftool instalado?): {e}")
-
-    # 2. Metadatos Spoofing (Datos sintéticos falsos para confundir analítica de Palantir)
-    try:
-        autores_falsos = ["Veeduría Ciudadana", "Anonymous Veedor", "System Operator", "User_Node_12", "Forensic Analyst"]
-        autor_fake = random.choice(autores_falsos)
-        fecha_fake = f"2026:08:{random.randint(10,28)} {random.randint(10,23)}:{random.randint(10,59)}:{random.randint(10,59)}"
-        
-        subprocess.run([
-            'exiftool',
-            f'-Author={autor_fake}',
-            f'-CreateDate={fecha_fake}',
-            f'-ModifyDate={fecha_fake}',
-            '-overwrite_original',
-            target_path
-        ], capture_output=True)
-        print(f"  [OK] Metadatos ofuscados (Autor: {autor_fake} | Fecha: {fecha_fake}).")
-    except Exception as e:
-        pass
-
-    # 3. Hash Randomization (Evita link-analysis por huella digital SHA-256)
-    try:
-        rand_padding = ''.join(random.choices(string.ascii_letters + string.digits, k=32))
-        if target_path.endswith('.pdf'):
-            # Padding seguro para PDF como comentario al final del archivo
-            with open(target_path, 'ab') as f:
-                f.write(f"\n% AP_PAD_{rand_padding}\n".encode('utf-8'))
-        else:
-            # Padding genérico para binarios/imágenes al final del flujo
-            with open(target_path, 'ab') as f:
-                f.write(f"\n# AP_PAD_{rand_padding}\n".encode('utf-8'))
-        
-        hash_nuevo = calcular_sha256(target_path)
-        print(f"  [OK] Mutación criptográfica completada.")
-        print(f"  [Mutated HASH]   {hash_nuevo}")
-    except Exception as e:
-        print(f"  [!] Fallo en mutación de hash: {e}")
+        print(f"  [OK] Metadatos ofuscados de forma segura.")
+        print("  [OK] Mutación criptográfica completada.")
+        print(f"  [Mutated HASH]   {res.get('mutated_hash')}")
+    else:
+        print(f"  [!] Fallo en mitigación: {res.get('message')}")
 
 def main():
     parser = argparse.ArgumentParser(description="Invocador de AndreTaker — BabaYaga Core")
@@ -156,9 +184,15 @@ def main():
     parser.add_argument("--offline", action="store_true", help="Forzar ejecución en modo offline")
     parser.add_argument("--model", help="Sobrescribir modelo local (Ollama)")
     parser.add_argument("-ap", "--anti-palantir", help="Aplicar protocolo anti-Palantir (archivo o carpeta)")
+    parser.add_argument("--setup-ollama", action="store_true", help="Generar Modelfile y compilar modelo AndreTaker")
     
     args = parser.parse_args()
     
+    # Autocompilación de modelo local
+    if args.setup_ollama:
+        setup_local_ollama_model()
+        return
+
     # Ejecutar protocolo Anti-Palantir si se solicita
     if args.anti_palantir:
         print("\n🛡️  ACTIVANDO PROTOCOLO ANTI-PALANTIR (Desordenamiento de Entidades y Correlación)")
