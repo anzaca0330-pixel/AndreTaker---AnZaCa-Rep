@@ -532,9 +532,17 @@ footer a:hover {
   pointer-events: none;
 }
 
-.avatar-sprite {
-  font-size: 2.2rem;
-  text-align: center;
+.avatar-sprite, .avatar-badge {
+  background: linear-gradient(135deg, #38bdf8, #a855f7);
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 900;
+  padding: 6px 14px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.8);
+  border: 2px solid #fff;
+  white-space: nowrap;
   animation: bounce 0.6s infinite alternate;
 }
 
