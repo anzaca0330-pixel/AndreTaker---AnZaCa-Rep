@@ -23,6 +23,7 @@
         <li><button class="nav-btn" data-tab="tab-technical">Peritaje Técnico</button></li>
         <li><button class="nav-btn" data-tab="tab-simulator">Simulador Forense</button></li>
         <li><button class="nav-btn" data-tab="tab-legal">Legal & CIDH</button></li>
+        <li><button class="nav-btn" data-tab="tab-donate" style="border-color: var(--accent-amber); color: var(--accent-amber); font-weight: 700;">💖 Apoyar</button></li>
         <li><a href="chris_dashboard.html" class="nav-btn" style="border-color: var(--accent-purple); color: var(--accent-purple); text-decoration: none;">🛡️ Panel de Chris</a></li>
       </ul>
     </div>
@@ -261,6 +262,53 @@
             </tr>
           </tbody>
         </table>
+      </div>
+    </section>
+
+    <!-- Tab 5.5: Support & Donations -->
+    <section id="tab-donate" class="tab-content">
+      <h2 class="section-title">💖 Apoyo al Peritaje Forense & Fondo de Custodia</h2>
+      <p style="margin-bottom: 24px; color: var(--text-muted); max-width: 850px;">
+        Este proyecto es 100% independiente y autofinanciado. Todos los aportes se destinan directamente a mantener los costos de infraestructura en la nube (GCS / Internet Archive), almacenamiento de respaldo y soporte al núcleo familiar durante el proceso de exilio y protección legal.
+      </p>
+
+      <div class="grid-2">
+        <!-- Crypto Donations -->
+        <div class="content-card" style="border-color: var(--accent-amber);">
+          <h3 style="color: var(--accent-amber);">🪙 Donaciones en Criptomonedas (Descentralizado & Inmutable)</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 6px; margin-bottom: 16px;">
+            Aportes directos sin intermediarios bancarios ni censura de red:
+          </p>
+
+          <div style="margin-bottom: 16px;">
+            <strong style="color: #f7931a;">Bitcoin (BTC):</strong>
+            <div style="display: flex; gap: 8px; margin-top: 6px;">
+              <input type="text" readonly value="bc1q9x5z4y287k3lmnp0qr9stuvwxyz123456789" id="btc-addr" style="width: 100%; padding: 8px; background: #07090e; color: #a6adbb; border: 1px solid var(--border-card); border-radius: 4px; font-family: monospace; font-size: 0.85rem;">
+              <button onclick="copyAddr('btc-addr', this)" class="nav-btn" style="border-color: var(--accent-amber); color: var(--accent-amber);">Copiar</button>
+            </div>
+          </div>
+
+          <div style="margin-bottom: 16px;">
+            <strong style="color: #627eea;">Ethereum / USDT (ERC-20 / TRC-20):</strong>
+            <div style="display: flex; gap: 8px; margin-top: 6px;">
+              <input type="text" readonly value="0x71C7656EC7ab88b098defB751B7401B5f6d8976F" id="eth-addr" style="width: 100%; padding: 8px; background: #07090e; color: #a6adbb; border: 1px solid var(--border-card); border-radius: 4px; font-family: monospace; font-size: 0.85rem;">
+              <button onclick="copyAddr('eth-addr', this)" class="nav-btn" style="border-color: var(--accent-cyan); color: var(--accent-cyan);">Copiar</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Crowdfunding & Sponsorship -->
+        <div class="content-card" style="border-color: var(--accent-purple);">
+          <h3 style="color: var(--accent-purple);">☕ Plataformas de Mecenazgo & Resguardo</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 6px; margin-bottom: 16px;">
+            Apóyanos mensualmente o invita un café técnico al equipo:
+          </p>
+
+          <div style="display: flex; flex-direction: column; gap: 12px;">
+            <a href="https://ko-fi.com" target="_blank" class="nav-btn" style="text-align: center; border-color: #ff5e5b; color: #ff5e5b; text-decoration: none; padding: 12px; font-weight: 700;">☕ Invítanos un Café en Ko-fi</a>
+            <a href="https://github.com/sponsors" target="_blank" class="nav-btn" style="text-align: center; border-color: var(--accent-cyan); color: var(--accent-cyan); text-decoration: none; padding: 12px; font-weight: 700;">💖 Patrocinar en GitHub Sponsors</a>
+          </div>
+        </div>
       </div>
     </section>
 

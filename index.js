@@ -164,4 +164,18 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 2600);
     });
   }
+
+  // Copy address clipboard helper
+  window.copyAddr = function(elemId, btnElem) {
+    const inputElem = document.getElementById(elemId);
+    if (!inputElem) return;
+    inputElem.select();
+    navigator.clipboard.writeText(inputElem.value).then(() => {
+      const origText = btnElem.innerText;
+      btnElem.innerText = '¡Copiado!';
+      setTimeout(() => {
+        btnElem.innerText = origText;
+      }, 1500);
+    });
+  };
 });
