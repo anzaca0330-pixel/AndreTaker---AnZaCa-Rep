@@ -191,14 +191,25 @@
 
       <!-- Agent Voice Audio Panel -->
       <div class="content-card" style="margin-top: 24px; border-color: var(--accent-purple);">
-        <h3 style="color: var(--accent-purple);">🎙️ Probador de Voces de Agentes (Multi-Voice TTS)</h3>
+        <h3 style="color: var(--accent-purple);">🎙️ Probador Multilingüe de Voces (Español, English, Français)</h3>
         <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 16px;">
-          Escucha a cada uno de los agentes con su voz y tono característico:
+          Escucha a cada uno de los agentes en su idioma y tono característico:
         </p>
-        <div style="display: flex; gap: 12px; flex-wrap: wrap;">
-          <button onclick="speakAgent('babayaga', 'Soy Baba Yaga. La evidencia es inmutable y la verdad no pide permiso.')" class="nav-btn" style="border-color: var(--accent-purple); color: var(--accent-purple);">🪓 Escuchar a Baba Yaga</button>
-          <button onclick="speakAgent('tycho', 'Soy Tycho. Instrumento metrológico de silicio analizando métricas de red y hashes.')" class="nav-btn" style="border-color: var(--accent-cyan); color: var(--accent-cyan);">🔭 Escuchar a Tycho</button>
-          <button onclick="speakAgent('andretaker', 'Soy Andre Taker. Motor de inteligencia forense e investigación técnica.')" class="nav-btn" style="border-color: var(--accent-teal); color: var(--accent-teal);">⚡ Escuchar a AndreTaker</button>
+
+        <!-- Español -->
+        <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 10px;">
+          <span class="badge badge-cyan" style="align-self: center;">🇪🇸 Español</span>
+          <button onclick="speakAgent('babayaga', 'Soy Baba Yaga. La evidencia es inmutable y la verdad no pide permiso.', 'es-ES')" class="nav-btn" style="border-color: var(--accent-purple); color: var(--accent-purple);">🪓 Baba Yaga</button>
+          <button onclick="speakAgent('tycho', 'Soy Tycho. Instrumento metrológico de silicio analizando métricas de red y hashes.', 'es-ES')" class="nav-btn" style="border-color: var(--accent-cyan); color: var(--accent-cyan);">🔭 Tycho</button>
+          <button onclick="speakAgent('andretaker', 'Soy Andre Taker. Motor de inteligencia forense e investigación técnica.', 'es-ES')" class="nav-btn" style="border-color: var(--accent-teal); color: var(--accent-teal);">⚡ AndreTaker</button>
+        </div>
+
+        <!-- English -->
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+          <span class="badge badge-purple" style="align-self: center;">🇺🇸 English</span>
+          <button onclick="speakAgent('babayaga', 'I am Baba Yaga. Evidence is immutable and truth asks for no permission.', 'en-US')" class="nav-btn" style="border-color: var(--accent-purple); color: var(--accent-purple);">🪓 Baba Yaga</button>
+          <button onclick="speakAgent('tycho', 'I am Tycho. Silicon metrological instrument analyzing network metrics and hashes.', 'en-US')" class="nav-btn" style="border-color: var(--accent-cyan); color: var(--accent-cyan);">🔭 Tycho</button>
+          <button onclick="speakAgent('andretaker', 'I am Andre Taker. Forensic intelligence engine and technical research core.', 'en-US')" class="nav-btn" style="border-color: var(--accent-teal); color: var(--accent-teal);">⚡ AndreTaker</button>
         </div>
       </div>
     </section>

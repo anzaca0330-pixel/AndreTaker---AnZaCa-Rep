@@ -76,23 +76,28 @@ document.addEventListener('DOMContentLoaded', () => {
     andretaker: { name: 'AndreTaker', pitch: 0.95, rate: 1.0, lang: 'es-ES' }
   };
 
-  window.speakAgent = function(agentKey, text) {
+  // Multilingual voice profile mapping (Spanish, English, French)
+  window.speakAgent = function(agentKey, text, targetLang) {
     if (!('speechSynthesis' in window)) {
       alert("Tu navegador no soporta síntesis de voz.");
       return;
     }
     window.speechSynthesis.cancel();
     
+    const lang = targetLang || document.documentElement.lang || 'es-ES';
     const profile = VOICE_PROFILES[agentKey] || VOICE_PROFILES.andretaker;
+    
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.pitch = profile.pitch;
     utterance.rate = profile.rate;
-    utterance.lang = profile.lang;
+    utterance.lang = lang;
     
     const voices = window.speechSynthesis.getVoices();
-    const esVoice = voices.find(v => v.lang.startsWith('es'));
-    if (esVoice) {
-      utterance.voice = esVoice;
+    const langPrefix = lang.split('-')[0].toLowerCase();
+    const matchedVoice = voices.find(v => v.lang.toLowerCase().startsWith(langPrefix));
+    
+    if (matchedVoice) {
+      utterance.voice = matchedVoice;
     }
     
     window.speechSynthesis.speak(utterance);
