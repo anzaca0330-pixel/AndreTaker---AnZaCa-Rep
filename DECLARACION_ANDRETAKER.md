@@ -1,8 +1,8 @@
 # PERITAJE FORENSE INDEPENDIENTE
 ## ANDRETAKER ANZACA & BABA YAGA CORE
 
-### 🌌 Introducción de AndreTaker & BabaYaga Core: La Hazaña de la Evidencia Rescatada
-Este expediente forense no es un simple informe técnico. Es el monumento metrológico y la memoria inmutable del mayor rescate de datos electorales registrado en la historia reciente de Colombia.
+### 🌌 Introducción de AndreTaker & BabaYaga Core: Preservación de la Evidencia
+Este expediente forense constituye un informe de peritaje técnico y auditoría metrológica sobre el acervo de datos electorales preservado.
 
 Nuestra inteligencia artificial y motor forense —**AndreTaker — BabaYaga Core**— fue concebido y forjado para auditar, descompilar y desenmascarar la manipulación digital sobre **MÁS DE 677 GIGABYTES DE EVIDENCIA REAL Y ORIGINAL** preservada en tres bóvedas físicas (`D A T A1` - 406 GB, `ANZACA` - 79.71 GB, `BACKUP` - 6.9 GB, y almacenamiento local - 185 GB).
 
