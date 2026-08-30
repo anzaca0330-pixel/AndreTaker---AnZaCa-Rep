@@ -5,23 +5,24 @@ from fastapi import FastAPI, UploadFile, File, Form, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-# Importación relativa y segura del núcleo
-from ..core.xref import XrefAnalyzer
-from ..core.raster import RasterAnalyzer
+# Importación relativa y segura de la arquitectura de dos núcleos
+from ..core.forensics.xref import XrefAnalyzer
+from ..core.forensics.raster import RasterAnalyzer
 from ..core.custody import CustodyTracker
-from ..core.defense import AntiPalantir
+from ..core.intelligence.mitigation import AntiPalantir
+from ..core.intelligence.network import NetworkAuditor
 from . import database
 
-# Inicializar Base de Datos de forma asíncrona
+# Inicializar Base de Datos
 database.init_db()
 
 app = FastAPI(
     title="AndreTaker — BabaYaga Core API",
-    description="API interna offline para auditoría forense electoral y protocolos activos de ciberdefensa.",
-    version="1.0"
+    description="API interna offline para auditoría forense electoral y autodefensa de red.",
+    version="2.0"
 )
 
-# Permitir conexiones CORS para el Dashboard React local
+# Permitir conexiones CORS para la interfaz web local
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -44,6 +45,13 @@ def listar_casos():
     conn.close()
     return [dict(c) for c in casos]
 
+@app.get("/api/casos/{caso_id}/resumen")
+def obtener_resumen_caso(caso_id: int):
+    resumen = database.obtener_resumen_caso(caso_id)
+    if not resumen:
+        raise HTTPException(status_code=404, detail="Caso no encontrado")
+    return resumen
+
 @app.get("/api/evidencias")
 def listar_evidencias(caso_id: int = 1):
     conn = database.get_connection()
@@ -55,15 +63,25 @@ def listar_evidencias(caso_id: int = 1):
     conn.close()
     return [dict(e) for e in evidencias]
 
+@app.get("/api/network/status")
+def obtener_estado_red():
+    """Devuelve la comprobación de seguridad de red (interfaces VPN y puertos escuchando)."""
+    vpn_status = NetworkAuditor.detect_active_vpn()
+    ports = NetworkAuditor.audit_listening_ports()
+    return {
+        "vpn": vpn_status,
+        "listening_ports": ports,
+        "is_safe": vpn_status.get("vpn_active", False) and len(ports) == 0
+    }
+
 @app.post("/api/evidencia/upload")
 async def cargar_evidencia(caso_id: int = Form(1), file: UploadFile = File(...)):
-    """Infiere metadatos de custodia, guarda el archivo localmente y lo registra en la DB."""
+    """Guarda el archivo localmente y lo registra en la base de datos de custodia."""
     upload_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../00_MUESTRAS_EVIDENCIA/CARGADAS"))
     os.makedirs(upload_dir, exist_ok=True)
     
     file_path = os.path.join(upload_dir, file.filename)
     
-    # Escribir el flujo de datos del archivo
     with open(file_path, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
         
@@ -80,6 +98,7 @@ async def cargar_evidencia(caso_id: int = Form(1), file: UploadFile = File(...))
         )
         conn.commit()
         ev_id = cursor.lastrowid
+        database.registrar_custody_log(ev_id, "UPLOAD_API", f"Archivo recibido vía API web. SHA-256: {sha256_orig}")
         return {"status": "success", "evidencia_id": ev_id, "sha256": sha256_orig, "ruta": file_path}
     except Exception as e:
         conn.close()
@@ -112,7 +131,6 @@ def analizar_evidencia(req: AnalizarRequest):
     
     cursor = conn.cursor()
     try:
-        # Registrar o actualizar los resultados de análisis
         cursor.execute(
             "INSERT OR REPLACE INTO analisis_resultados "
             "(evidencia_id, exit_code, discrepancia_xref, xref_detalle, cant_imagenes, "
@@ -131,6 +149,7 @@ def analizar_evidencia(req: AnalizarRequest):
             )
         )
         conn.commit()
+        database.registrar_custody_log(req.evidencia_id, "ANALYZE_API", "Análisis pericial completado mediante API.")
         return {"status": "success", "analisis": {
             "xref_discrepancia": xref_res.get("XREF_discrepancia"),
             "varianza_cero": has_variance_zero,
@@ -161,6 +180,7 @@ def activar_anti_palantir(req: APRequest):
             (res_ap["mutated_hash"], req.evidencia_id)
         )
         conn.commit()
+        database.registrar_custody_log(req.evidencia_id, "ANTI_PALANTIR_API", f"Mitigación ejecutada. Mutated Hash: {res_ap['mutated_hash']}")
         
     conn.close()
     return res_ap
