@@ -85,19 +85,21 @@ header {
 
 .nav-links {
   display: flex;
-  gap: 16px;
+  gap: 8px;
   list-style: none;
+  flex-wrap: nowrap;
 }
 
 .nav-btn {
   background: transparent;
   border: 1px solid transparent;
   color: var(--text-muted);
-  padding: 8px 16px;
+  padding: 6px 10px;
   border-radius: 6px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 500;
   cursor: pointer;
+  white-space: nowrap;
   transition: all 0.25s ease;
 }
 
