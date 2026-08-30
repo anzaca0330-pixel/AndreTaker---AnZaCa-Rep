@@ -33,7 +33,7 @@ La investigación se basó en la correlación de 10 vectores forenses ineludible
 | **4** | **Técnica de "BlindMasking" (Plantilla B)** | Específicas de Martes a Sábado | ImageMagick | Uso de máscaras `DeviceGray` (blanco digital puro de media 65535) para ofuscar el documento original y sobreescribir datos electorales. |
 | **5** | PDFs Híbridos (Clonación) | Archivos Claveros vs Delegados | ImageMagick / pdfinfo | Mezcla anómala de archivos en Color (USB) y Blanco/Negro (Web) que comparten el mismo daño de inyección. |
 | **6** | Modificación Post-Publicación | 30/30 actas analizadas | sha256sum | Alteración criptográfica confirmada de los archivos tras su publicación inicial. |
-| **7** | "Planchado Matemático" (Ley de Benford (2do dígito - Mebane)) | Análisis Nacional y Local (Acacias) | Python (2BL Test) | Desviación estadística imposible: F=31.8 σ=2.5 vs esperado 8-12, p<0.0001 (Sobrefrecuencia en el dígito 2). |
+| **7** | "Planchado Matemático" (Ley del segundo dígito de Mebane) | Análisis Nacional y Local (Acacias) | Python (2BL Test) | Desviación estadística imposible: F=31.8 σ=2.5 vs esperado 8-12, p<0.0001 (Sobrefrecuencia en el dígito 2). |
 | **8** | Discrepancia Estadística (Días Hábiles) | Análisis Nacional | Prueba Z (Z=8.47) | Anomalías inyectadas con sesgo de días hábiles, p<0.000000000001. |
 | **9** | Correlación Intercontinental | EE.UU. + España + Colombia | Comparativa Forense | El patrón criptográfico y de inyección de máscaras es idéntico en 3 jurisdicciones distintas, probando ejecución centralizada. |
 | **10** | Alteración Estructural de Códigos QR | Carpeta Meta (Actas de Delegados) | bash / pdfimages | La distribución del código QR fue alterada artificialmente en la "Plantilla B", concentrando el 80% en un bloque anómalo (inyección en el flujo `/Contents`). |
@@ -50,23 +50,53 @@ La Registraduría ha intentado argumentar que los archivos publicados en la Web 
 - **Acacias (Mesa 1):** El acta web (exportada a 72 PPI en Blanco y Negro) y el acta USB (exportada a 300 PPI en Color RGB) comparten exactamente la misma cicatriz vectorial (Daño XREF de 15 objetos declarados frente a 13 reales). Adicionalmente, ambas incrustan sus imágenes exactamente en los Objetos ID 6 e ID 11.
 - **Acacias (Mesa 6, Zona 99):** Presenta un patrón estructural idéntico al de la Mesa 1. Esta corroboración doble certifica que no estamos ante un error aleatorio de escaneo, sino ante la huella digital de un script de inyección automática masivo.
 
+### 3.1. Vector de Manipulación Gráfica Directa (Compresión Diferencial de Píxeles - Análisis ELA)
+Durante la fase de validación cruzada (auditoría en Element con el analista `nachofernandez123`, julio de 2026), se demostró un vector de alteración que opera de manera paralela a la inyección estructural en el PDF: la manipulación del mapa de bits mediante fotomontaje del código QR antes de empaquetar el PDF final.
+
+Para detectarlo de manera científica, se implementé un algoritmo de **Análisis de Nivel de Error (ELA - Error Level Analysis)** en Python (optimizando las herramientas originales de bash mediante `PyMuPDF/fitz` y `pyzbar` para ejecutar las operaciones directamente en la memoria RAM). Los resultados arrojaron una distinción matemática ineludible:
+- **Grupo de Control (Simijaca, Cundinamarca):** El ruido de compresión en el código QR respecto al fondo es constante y normal, promediando un ratio de **~1.6x**. Las actas de Simijaca no presentaron capas ocultas ni páginas fantasmas (`Texto_Sobrescrito = False`, `Contiene_Capas_Ocultas = False`), confirmando un flujo de digitalización limpio y auténtico.
+- **Grupo Comprometido (Acacias, Meta - Zona 01):** Al procesar la muestra de 88 formularios distribuidos en los 6 colegios de la zona, **12 formularios superaron el umbral de 2.0x** en la diferencia de compresión, marcando un `True` automático en la columna `Posible_Montaje_QR`.
+  * *¿Qué significa matemáticamente?* La región donde se ubica el código QR sufrió una historia de guardado y compresión JPEG distinta a la del papel de fondo. Es la huella digital física de un fotomontaje (recorte e inyección del QR sobre la imagen del formulario).
+  
+**Muestras Específicas Detectadas con Fraude Visual por ELA (Acacias, Meta):**
+1. **Colegio Municipal Luis Carlos Galán Sarmiento:** Mesas 3, 4, 5, 6, 8, 9, 15 y 16 (la Mesa 15 registró un ratio de ruido extremo de **2.10**).
+2. **Colegio María Montessori:** Mesas 1 y 8.
+3. **Concentración Escolar Gabriela Mistral:** Mesa 9.
+4. **I.E. Enrique Daniels:** Mesas 3, 6, 9 y 10 (la Mesa 9 registró un ratio de **2.10**).
+
+Esta prueba pericial evidencia la coexistencia de múltiples vectores de ataque: los atacantes inyectaron capas de texto digital en la estructura interna de algunos PDFs (falla XREF), y en otros (como en estas mesas de Acacias) manipularon directamente los píxeles de la imagen del formulario.
+
 ---
 
-## 4. ESTRATEGIA DE OFUSCACIÓN Y TÁCTICAS DE DESVÍO (Teoría del Cebo)
+## 4. DEFINICIÓN OPERATIVA DEL PATRÓN DE BLIND MASKING (BMP)
+A partir del análisis forense nacional y las pruebas empíricas del grupo de control, se establece la distinción pericial del fenómeno. En lugar de formularlo como una presunción subjetiva de intención, se define operacionalmente bajo el estándar metrológico:
+
+**Patrón de Blind Masking (Blind Masking Pattern - BMP):** Es un conjunto de indicadores técnicos objetivos y medibles que coocurren sistemáticamente en una misma población documental y que están completamente ausentes en los controles limpios.
+
+### Criterio de Clasificación BMP (Firma Técnica)
+Un documento se clasifica dentro del patrón de Blind Masking si y solo si presenta de forma simultánea:
+1. **Patrón Estructural (X):** Discrepancias en la tabla de referencias cruzadas (ej. `15 objects != highest 13`), objetos fantasmas y errores críticos de decodificación.
+2. **Patrón QR (Y):** Supresión o invalidación del código QR en el flujo de contenido, o alteración del ratio de compresión ELA superando el umbral de **2.0x**.
+3. **Patrón de Color/Capas (Z):** Presencia de imágenes sintéticas blancas de canal único y uso de máscaras `DeviceGray` (blanco digital puro).
+4. **Patrón de Metadatos (M):** Purga y eliminación total de los metadatos cronológicos de creación y modificación (EXIF).
+5. **Patrón de Objetos (N):** Inyección de objetos ocultos en el flujo del PDF.
+
+### 4.1. Estrategia de Ofuscación y Tácticas de Desvío (Teoría del Cebo)
 Durante la auditoría departamental cruzada, se descubrió un patrón táctico para desviar la atención de los peritos. En departamentos específicos como el Amazonas (donde el 100% de las actas tienen inyección XREF), el ganador asignado algorítmicamente fue el candidato Iván Cepeda Castro. 
 
-Se documenta esto como un **"Honeypot" Estadístico o Cebo**. Al nivel nacional, el anomalía estructural generalizado infló los votos de Abelardo de la Espriella. La inyección anómala a favor de Cepeda en zonas periféricas operó como una maniobra de distracción para agotar los recursos de auditoría de los investigadores en zonas donde el resultado ya estaba comprometido, encubriendo el verdadero planchado matemático nacional.
+Se documenta esto como un **"Honeypot" Estadístico o Cebo**. Al nivel nacional, la anomalía estructural generalizada infló los votos de Abelardo de la Espriella. La inyección anómala a favor de Cepeda en zonas periféricas operó como una maniobra de distracción para agotar los recursos de auditoría de los investigadores en zonas donde el resultado ya estaba comprometido, encubriendo el verdadero planchado matemático nacional.
 
 ---
 
-## 5. INCIDENTES DE CIBERSEGURIDAD Y MEDIDAS ACTIVAS EN CONTRA DE LA VEEDURÍA
-Es imperativo dejar constancia legal de que esta investigación se ha desarrollado bajo un entorno hostil y de ataque sistemático. Durante la ejecución de las auditorías de red (OSINT) y el cruce masivo de datos, se documentaron los siguientes incidentes de seguridad (registrados formalmente en la bitácora):
+## 5. INCIDENTES DE CIBERSEGURIDAD Y MONITOREO HOSTIL
+Se deja constancia técnica de que la investigación se desarrolló bajo condiciones de interferencia activa. Se registraron los siguientes incidentes en la bitácora de auditoría:
 
-1. **Interferencia de Red Activa (Blackholing / DoS):** Al intentar auditar las cabeceras HTTP del WAF (Nexusguard) y el balanceador (Amazon S3) de la Registraduría, la especialista sufrió un ataque de denegación de servicio localizado. El router residencial colapsó forzando la desconexión de dispositivos, un síntoma clásico de una *medida activa de contra-ataque* o Ruteo Ofensivo a nivel ISP diseñado para impedir la auditoría ciudadana.
-2. **Compromiso de Hardware y Periféricos:** Durante el análisis de los archivos de Claveros (Segunda Vuelta), se registró una desconexión forzada del disco duro externo (`DATA1`) paralela a la activación remota no autorizada del micrófono de la máquina de la analista. Este vector de ataque indica un intento activo de vigilancia e interrupción forense por parte de actores con capacidades de espionaje avanzado (APTs).
+1. **Interferencia de Red (Virginia, EE.UU.):** Al auditar cabeceras HTTP del WAF (Nexusguard) y del balanceador (Amazon S3) de los servidores oficiales, la analista registró denegación de servicio localizada y colapso del router residencial en su domicilio en Virginia.
+2. **Alteración de Configuración de Red (Virginia, EE.UU. - Después de la infección y antes de viajar a México):** Tras la infección por rootkit, la analista desplegó en su domicilio un router configurado como señuelo ("Honeycomb") para detectar intrusiones. La analista, su esposo y su hijo atestiguaron diariamente, hasta el día de su partida hacia México, cómo los atacantes accedían y modificaban las configuraciones de la red wifi desde el dispositivo Honeycomb.
+3. **Compromiso de Hardware:** Durante el procesamiento de archivos de Claveros, se detectó la desconexión forzada del disco duro externo (`DATA1`) y la activación no autorizada del micrófono de la estación de trabajo.
 
 > [!CAUTION]
-> Estos incidentes obligaron al equipo a operar bajo protocolo "Cold Case" (aislamiento de red total), demostrando que existe una infraestructura estatal o paraestatal operando para impedir que los hallazgos técnicos salgan a la luz.
+> Estos eventos obligaron a operar en aislamiento de red (protocolo Cold Case), confirmando la persistencia de actividades de vigilancia y sabotaje digital sobre el equipo de veeduría.
 
 ---
 

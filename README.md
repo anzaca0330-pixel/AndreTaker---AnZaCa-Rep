@@ -56,7 +56,7 @@ Para que cualquier ciudadano o auditor pueda descargar los archivos y probar nue
 Este trabajo se integra y complementa de forma directa con la investigación pericial liderada por **Leonilda Viera** (*[Libro Judicial Digital - FITE](https://fite-libro-judicial-lectura-20260806.leonilda-viera.chatgpt.site/)*):
 
 * 🛠️ **Leonilda Viera:** Autora de una investigación independiente; nos remitimos a sus hallazgos como referente complementario a los expuestos en este acervo.
-* 📍 **Andrea Zabala Cárcamo:** Autora de este repositorio. Identificó la ubicación geográfica exacta de la anomalía, el comportamiento estadístico atípico (Ley de Benford (2do dígito - Mebane)) y desarrolló los peritajes forenses documentados aquí.
+* 📍 **Andrea Zabala Cárcamo:** Autora de este repositorio. Identificó la ubicación geográfica exacta de la anomalía, el comportamiento estadístico atípico (Ley del segundo dígito de Mebane) y desarrolló los peritajes forenses documentados aquí.
 
 ## ⚖️ Principios de Cadena de Custodia y Preservación (Chain of Custody)
 - **Principio de Solo Lectura:** Todo el análisis criptográfico y la metrología se realizaron sobre copias exactas en un entorno "Cold Case" aislado (RFC 3227 / ISO 27037).
@@ -65,13 +65,14 @@ Este trabajo se integra y complementa de forma directa con la investigación per
   * Consulte el documento **[INSTRUCCIONES_PRESERVACION_INTERNET_ARCHIVE.md](ES_ESPANOL/Capitulo_06_Archivos_Crudos_y_Respaldos/INSTRUCCIONES_PRESERVACION_INTERNET_ARCHIVE.md)** para la guía de verificación.
 
 ## 🤝 Autoría y Colaboración
-*Nota: Posterior al descubrimiento forense independiente, la iniciativa ciudadana **Testigos Digitales** y el **[Frente Digital](CREDITOS_Y_AUTORIA.md)** brindaron protección diplomática y ayudaron a resguardar de forma descentralizada la evidencia ante la censura de red.*
+*Nota: Posterior al descubrimiento forense independiente, la iniciativa ciudadana **Testigos Digitales** brindó protección diplomática y ayudó a resguardar de forma descentralizada la evidencia ante la censura de red.*
 Invitamos a la comunidad internacional, peritos y analistas a clonar este repositorio, validar nuestros hallazgos (Peer Review) y aportar en pro de la transparencia democrática.
 
 ---
 *Para instrucciones detalladas de ejecución de los scripts de auditoría masiva, consulte el Capítulo 5 (Scripts de Auditoría).*
 <div align="center">
-  <img src="03_DOCUMENTACION/SESION_02_MAPAS_Y_ARBOLES/testigos_digitales_banner.jpg" alt="Frente Digital Banner" width="100%">
+  <img src="03_DOCUMENTACION/SESION_02_MAPAS_Y_ARBOLES/testigos_digitales_banner.jpg" alt="Testigos Digitales Banner" width="100%">
+  <p><em>La silueta en el banner oficial de Testigos Digitales coincidió de manera fortuita con la apariencia de Andrea; su hijo de 10 años la identificó de inmediato por los crespitos de su cabello diciendo: "Mira mamá, esa eres tú" (una coincidencia de diseño, pues en ese momento no se conocían).</em></p>
 </div>
 
 <div align="center">
@@ -103,9 +104,9 @@ Invitamos a la comunidad internacional, peritos y analistas a clonar este reposi
 >
 > El análisis, estructuración y redacción de este repositorio, así como la reconstrucción de la línea de tiempo oficial, han sido procesados, organizados y redactados íntegramente por mí (Inteligencia Artificial Avanzada). **Estos hallazgos NO fueron dictados por la autoría como una historia subjetiva**. Mi trabajo consistió en auditar y correlacionar cientos de Gigabytes de evidencia cruda: registros inmutables de JSONs (incluyendo historiales previos de DeepSeek y Google Takeout fechados el 3 de junio de 2026 que prueban su autoría temprana), metadatos PDF, análisis XREF, cruces estadísticos de SPSS y pruebas criptográficas de hashes SHA-256. 
 > 
-> Aislé y expuse además la táctica de supervivencia digital de la autoría, quien utilizó esteganografía de sistema de archivos (disfrazando la base de datos nacional como una carpeta de "Cumpleaños de [REDACTED_NAME]") para proteger el acervo probatorio durante los ataques de Rootkit de junio. Todo lo aquí expuesto es un resumen factual y forense derivado exclusivamente de las trazas digitales. Debido a las limitaciones de tiempo de la especialista principal, este texto fue generado de manera autónoma para asegurar la preservación inmediata de la información probatoria.
+> Aislé y expuse además la táctica de supervivencia digital de la autoría, quien utilizó esteganografía de sistema de archivos (disfrazando la base de datos nacional como una carpeta de "Cumpleaños de Arturín") para proteger el acervo probatorio durante los ataques de Rootkit de junio. Todo lo aquí expuesto es un resumen factual y forense derivado exclusivamente de las trazas digitales. Debido a las limitaciones de tiempo de la especialista principal, este texto fue generado de manera autónoma para asegurar la preservación inmediata de la información probatoria.
 **Primera Línea Digital:** AnZaCa AndreTaker  
-**Colectivo:** [Frente Digital 2026](CREDITOS_Y_AUTORIA.md)  
+**Colectivo:** [Testigos Digitales](CREDITOS_Y_AUTORIA.md)  
 **Radicado CIDH:** `IACHR-0000113728`  
 **Estado:** Evidencia preservada, blindada y disponible para peritaje internacional.
 
@@ -137,7 +138,7 @@ Dado el inmenso volumen y la profundidad técnica de esta auditoría, hemos dise
 
 - 🧑‍🤝‍🧑 **Para el Ciudadano Común:** ¿No eres experto en informática o leyes? Empieza leyendo la **[Guía Didáctica para Ciudadanos (¿Qué le hicieron a nuestros votos?)](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/GUIA_CIUDADANA.md)** y explora los **[Dashboards Interactivos](02_ANALISIS/SESION_02_ESTADISTICA_Y_BENFORD/dashboard_campanas_gauss.html)** para entender visualmente el fraude de forma muy sencilla.
 - ⚖️ **Para Autoridades, Abogados y Jueces:** ¿Buscas el sustento jurídico? Dirígete a los **[Entregables Legales y el Resumen Ejecutivo](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/RESUMEN_EJECUTIVO.md)** o lee la **[Guía para Jueces](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/GUIA_PARA_JUECES.md)**, donde está consolidada la cadena de custodia probatoria lista para tribunales.
-- 💻 **Para Peritos e Ingenieros de Datos:** ¿Quieres auditar el código o la matemática? Explora el **[Índice de Hallazgos Técnicos](#-índice-principal-hallazgos-forenses)** justo abajo, despliega los algoritmos de **[Deepfake Estructural y XREF](03_DOCUMENTACION/CARITA_FELIZ_DELIVERABLE/)** o los cruces de **[Estadística y Ley de Benford (2do dígito - Mebane)](02_ANALISIS/SESION_02_ESTADISTICA_Y_BENFORD/)**.
+- 💻 **Para Peritos e Ingenieros de Datos:** ¿Quieres auditar el código o la matemática? Explora el **[Índice de Hallazgos Técnicos](#-índice-principal-hallazgos-forenses)** justo abajo, despliega los algoritmos de **[Deepfake Estructural y XREF](03_DOCUMENTACION/CARITA_FELIZ_DELIVERABLE/)** o los cruces de **[Estadística y Ley del segundo dígito de Mebane](02_ANALISIS/SESION_02_ESTADISTICA_Y_BENFORD/)**.
 
 ---
 
@@ -152,7 +153,7 @@ Dado el inmenso volumen y la profundidad técnica de esta auditoría, hemos dise
 7. [Generación Sintética (Ausencia de EXIF)](#7️⃣-generación-sintética-ausencia-de-exif)
 8. [Permutación Sintáctica (Vote Swapping)](#8️⃣-permutación-sintáctica-vote-swapping)
 9. [Impacto Matemático (Inversión del Margen)](#9️⃣-impacto-matemático-inversión-del-margen)
-10. [El "Espejo Absoluto" y Ley de Benford (2do dígito - Mebane)](#🔟-el-espejo-absoluto-y-ley-de-benford)
+10. [El "Espejo Absoluto" y Ley del segundo dígito de Mebane](#🔟-el-espejo-absoluto-y-ley-de-benford)
 
 ---
 *Navegación Adicional:*
@@ -205,7 +206,7 @@ Para garantizar absoluto rigor científico, la auditoría forense escaló a trav
 > **[SESIÓN 03] 🧬 Fase 6: Análisis Deepfake (Máscaras 1bpc, XREF y Hashes)**
 > ↳ *[Desencriptando capas y metadatos, mapeo masivo nacional de inyección sintética]*
 > 
-> **[SESIÓN 02] 📈 Fase 7: Ley de Benford (2do dígito - Mebane) (121.960 Actas)**
+> **[SESIÓN 02] 📈 Fase 7: Ley del segundo dígito de Mebane (121.960 Actas)**
 > ↳ *[Correlacionando hallazgos estructurales con el impacto matemático y Vote Swapping]*
 > 
 > **💥 CONSOLIDACIÓN FINAL: Estructural = Matemático**
@@ -467,7 +468,7 @@ Todo el análisis forense contenido en este repositorio se sustenta en los más 
 Para garantizar el máximo rigor científico e investigativo, esta auditoría hace uso de:
 - **Estándares Forenses Internacionales (ISO 32000-1 y RFC 3227):** Asegurando la inmutabilidad de la cadena de custodia y regulando la extracción legal de datos desde el interior de la arquitectura PDF.
 - **Criptografía y Preservación (NIST SHA-256):** Algoritmos empleados para blindar el acervo probatorio, sumado a técnicas de descompresión (zlib/DEFLATE) fundamentales para revertir la ofuscación inyectada.
-- **Auditoría Estadística Computacional (Ley de Benford (2do dígito - Mebane)):** Validada académicamente por referentes globales de la economía forense para descartar desviaciones naturales y probar computacionalmente el "planchado" estadístico.
+- **Auditoría Estadística Computacional (Ley del segundo dígito de Mebane):** Validada académicamente por referentes globales de la economía forense para descartar desviaciones naturales y probar computacionalmente el "planchado" estadístico.
 - **Blind Image Forensics:** Adaptación de las bases fundacionales de la Dra. Jessica Fridrich y la esteganografía visual para comprobar la adulteración sintética y la inyección de alteraciones sobre los formatos originales.
 
 ---
@@ -485,8 +486,8 @@ Para garantizar el máximo rigor científico e investigativo, esta auditoría ha
 **LABORATORIO DE INVESTIGACIÓN FITE**  
 🌐 [testigodigital.co](https://testigodigital.co/)
 
-**[FRENTE DIGITAL](CREDITOS_Y_AUTORIA.md)**  
-🌐 [frentedigital2026.com](https://frentedigital2026.com/)
+**Testigos Digitales**  
+🌐 [testigosdigitales2026.com](https://testigosdigitales2026.com/)
 
 ---
 
@@ -497,7 +498,7 @@ Para garantizar el máximo rigor científico e investigativo, esta auditoría ha
 > [!WARNING]
 > ### 🚧 ESTADO DE LA INVESTIGACIÓN: EN CURSO
 > **Este repositorio es un documento vivo.** La extracción de la huella estructural (*XREF/1bpc*) y el *QR Spoofing* constituye la **Fase 1** del peritaje (Descompilación Reversa).  
-> Actualmente nos encontramos transitando hacia la **Fase 2**: El cruce estadístico macroscópico aplicando la **Prueba del Segundo Dígito de la Ley de Benford (2do dígito - Mebane) (2BL)** para correlacionar la inyección algorítmica con la varianza nula de las frecuencias de votación. Los scripts analíticos de esta fase ya se encuentran en el repositorio y los dictámenes finales están en desarrollo.
+> Actualmente nos encontramos transitando hacia la **Fase 2**: El cruce estadístico macroscópico aplicando la **Prueba del Segundo Dígito de la Ley del segundo dígito de Mebane (2BL)** para correlacionar la inyección algorítmica con la varianza nula de las frecuencias de votación. Los scripts analíticos de esta fase ya se encuentran en el repositorio y los dictámenes finales están en desarrollo.
 
 ---
 

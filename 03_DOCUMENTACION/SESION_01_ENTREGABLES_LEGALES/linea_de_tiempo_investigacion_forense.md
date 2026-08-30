@@ -24,7 +24,7 @@ timeline
                            : Análisis de 25.061 actas para prueba de significancia estadística (p < 0.0001)
     28 Julio 2026          : Análisis de Máscaras Blancas y Hashes por Posición
                            : Verificación de Canal Alfa, EXIF y generación individualizada de objetos por software
-    29 - 30 Julio 2026     : Ley de Benford (2do dígito - Mebane) y Consolidación Final
+    29 - 30 Julio 2026     : Ley del segundo dígito de Mebane y Consolidación Final
                            : Demostración de que la estructura (Deepfakes) y el desvío matemático son un solo mecanismo
 ```
 
@@ -99,16 +99,16 @@ timeline
 
 ---
 
-### Fase 7: Ley de Benford (2do dígito - Mebane), Peritaje Masivo y Consolidación (29 – 30 de Julio de 2026)
+### Fase 7: Ley del segundo dígito de Mebane, Peritaje Masivo y Consolidación (29 – 30 de Julio de 2026)
 - **Acción:** Escalamiento final del peritaje (Acervo completo de 121.960 actas) cruzando la evidencia técnica estructural con el análisis matemático poblacional:
-  1. **Ley de Benford (2do dígito - Mebane) y Desviación Estadística Z = -56.96:** La aplicación matemática masiva determinó que las curvas de votación del país rompieron las leyes estadísticas universales de forma coordinada.
+  1. **Ley del segundo dígito de Mebane y Desviación Estadística Z = -56.96:** La aplicación matemática masiva determinó que las curvas de votación del país rompieron las leyes estadísticas universales de forma coordinada.
   2. **CONSOLIDACIÓN (Estructural = Matemático):** Comprobación final de que las anomalías en los PDFs (*deepfakes*, capas `/XObject`) y la desviación matemática (Benford) **son exactamente la misma inyección**. Las actas de los claveros y delegados son 100% copias digitales generadas por el mismo motor (The AndreTaker demostró que las actas físicas no existen, son impresiones sintéticas).
   3. **Demostración de Impacto Electoral (260.000 Votos):** Confirmación de que el volumen alterado por este mecanismo (Ej. 455,262 votos consulares) representa el 175.1% de la diferencia de victoria oficial.
   4. **Cadena de Custodia Criptográfica ISO 27037:** Congelamiento masivo de firmas SHA-256 en disco duro para amparo judicial.
 - **Documentos Adjuntos y Evidencia Fuente:**
   - 📄 [TABLA_ANALISIS_FORENSE_CONSULADOS.md](file:///home/andrea-zabala-c/Desktop/ENTREGABLES_FORENSES_E14/TABLA_ANALISIS_FORENSE_CONSULADOS.md) — Matriz pericial de consulados en 24 países.
   - 📄 [DEMOSTRACION_IMPACTO_260K_VOTOS.md](file:///home/andrea-zabala-c/Desktop/ENTREGABLES_FORENSES_E14/DEMOSTRACION_IMPACTO_260K_VOTOS.md) — Demostración de impacto frente al margen de victoria.
-  - 📄 [ESTUDIO_ESTADISTICO_ANOMALIAS_CONSULADOS.md](file:///home/andrea-zabala-c/Desktop/ENTREGABLES_FORENSES_E14/ESTUDIO_ESTADISTICO_ANOMALIAS_CONSULADOS.md) — Prueba de hipótesis Z = -56.96, p < 0.0001 y Ley de Benford (2do dígito - Mebane).
+  - 📄 [ESTUDIO_ESTADISTICO_ANOMALIAS_CONSULADOS.md](file:///home/andrea-zabala-c/Desktop/ENTREGABLES_FORENSES_E14/ESTUDIO_ESTADISTICO_ANOMALIAS_CONSULADOS.md) — Prueba de hipótesis Z = -56.96, p < 0.0001 y Ley del segundo dígito de Mebane.
   - 📄 [DIAGRAMA_COMPARATIVO_1RA_VS_2DA_VUELTA.md](file:///home/andrea-zabala-c/Desktop/ENTREGABLES_FORENSES_E14/DIAGRAMA_COMPARATIVO_1RA_VS_2DA_VUELTA.md) — Mapeo visual del lienzo E-14 con la fotografía del acta real.
   - 📄 [PRESENTACION_EJECUTIVA_PERITAJE_GRUPO.md](file:///home/andrea-zabala-c/Desktop/ENTREGABLES_FORENSES_E14/PRESENTACION_EJECUTIVA_PERITAJE_GRUPO.md) — Paquete de diapositivas para exposición del grupo.
   - 📁 [SCRIPTS_PYTHON_FORENSES](file:///home/andrea-zabala-c/Desktop/ENTREGABLES_FORENSES_E14/SCRIPTS_PYTHON_FORENSES) — Repositorio de 28 scripts de auditoría.
@@ -125,5 +125,5 @@ timeline
 | **4. Automatización** | Desarrollo de scripts forenses (`analizar_todas_carpetas_v4.sh`) | Extensión a 987 actas (EE.UU.) y 696 actas (España). |
 | **5. Validación** | Análisis masivo del Grupo de Control (25.061 actas) | Demostración de significancia estadística ($p < 0.0001$). |
 | **6. Refinamiento** | Análisis de canal alfa, metadatos EXIF y hashes por posición | Demostración de inserción individualizada de objetos sintéticos por software. |
-| **7. Consolidación** | Cruce técnico-matemático (Ley de Benford (2do dígito - Mebane) y Deepfakes) | Demostración de que la estructura PDF y la alteración numérica son un mismo mecanismo. |
+| **7. Consolidación** | Cruce técnico-matemático (Ley del segundo dígito de Mebane y Deepfakes) | Demostración de que la estructura PDF y la alteración numérica son un mismo mecanismo. |
 

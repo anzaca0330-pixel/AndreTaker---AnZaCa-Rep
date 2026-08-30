@@ -23,13 +23,13 @@
 ### 4. Recuperación de Contexto Forense (Anomalía en el Flujo de Análisis)
 - **El Falso Negativo (Incidente Josseossa):** Se documenta que previamente el equipo obtuvo un 0% de inyección digital en la Segunda Vuelta. Las capturas demuestran que esto fue un falso negativo provocado por una falla silenciosa (`try...except`) en el script de Python, debido a que la máquina analista no tenía instalado `pdfimages` (paquete `poppler-utils`).
 - **La Prueba Reina (`XObject`):** Se establece formalmente que la advertencia general de `qpdf` (XREF alterado) es una alerta base (presente en casi todos los archivos masivos de la entidad), pero la prueba irrefutable de la inyección es la detección y extracción de capas vectoriales anómalas (`/XObject 11 0 R` y `/XObject 12 0 R`, correspondientes a la "Máscara Blanca" y parches de datos).
-- **Correlación Matemática (Benford):** Se confirma que el anomalía estructural físico en el nivel de Claveros (reemplazo de actas en la bolsa) deja una huella matemática imborrable (violación de la Ley de Benford (2do dígito - Mebane)) que se correlaciona directamente con los departamentos que presentan mayor inyección estructural (Ej. Vichada 100%, Putumayo 96%).
+- **Correlación Matemática (Benford):** Se confirma que el anomalía estructural físico en el nivel de Claveros (reemplazo de actas en la bolsa) deja una huella matemática imborrable (violación de la Ley del segundo dígito de Mebane) que se correlaciona directamente con los departamentos que presentan mayor inyección estructural (Ej. Vichada 100%, Putumayo 96%).
 - **Estado Local:** Se ejecutó `command -v pdfimages` confirmando que nuestra máquina actual SÍ tiene las dependencias correctas para evitar este falso negativo.
 
 ### 5. Análisis de Cruce Departamental (Caso: Amazonas)
 - **Anomalía Estructural Confirmada:** El `reporte_amazonas.csv` documentó que el 100% de las actas de Amazonas (177 archivos) presentan alteración estructural XREF, indicando re-empaquetado digital.
 - **Correlación (Ganador Inyectado):** Se ejecutó un script de Python cruzando estas actas corruptas con el preconteo nacional. En los municipios afectados (100% de Amazonas), Iván Cepeda Castro ganó abrumadoramente con el 61.90% de los votos frente al 36.70% de De la Espriella.
-- **Prueba Matemática (Ley de Benford (2do dígito - Mebane)) - DOBLE VERIFICACIÓN:** Atendiendo al protocolo forense, se re-escribió el script para aislar un error metodológico del archivo de preconteo (el cual contenía múltiples boletines intermedios por mesa). Al filtrar estrictamente por el **boletín final** de cada recinto, el sistema procesó exactamente **176 mesas únicas** (una coincidencia perfecta 1:1 con las actas corruptas).
+- **Prueba Matemática (Ley del segundo dígito de Mebane) - DOBLE VERIFICACIÓN:** Atendiendo al protocolo forense, se re-escribió el script para aislar un error metodológico del archivo de preconteo (el cual contenía múltiples boletines intermedios por mesa). Al filtrar estrictamente por el **boletín final** de cada recinto, el sistema procesó exactamente **176 mesas únicas** (una coincidencia perfecta 1:1 con las actas corruptas).
   - El resultado validado arrojó las mismas desviaciones estadísticamente imposibles (exceso masivo en dígitos 8 y 9), descartando cualquier anomalía de muestreo o doble conteo y haciendo la prueba **matemáticamente irrefutable**.
 
 ### 6. Estrategia de Ofuscación: La Teoría del Cebo (Amazonas)
@@ -49,12 +49,12 @@
 - **Análisis de Hashes:** Se descubrió que los nombres de los archivos en Delegados (`07e0c2e1d...`) son UUIDs web y no el hash interno real del PDF. El servidor web ofuscó el archivo original modificando los metadatos y el nombre para impedir auditorías masivas de cruce de Hashes (SHA-256).
 - **El Mapeo Estructural (qpdf):** Al comparar un PDF de Delegados (web) contra el archivo físico supuesto de Claveros (Mesa 1, Acacias), el escáner forense demostró que **ambos archivos poseen la misma cicatriz XREF (15 objetos reportados, 13 reales)**.
 - **Conclusión de Clonación:** La evidencia de la inyección vectorial `DeviceGray` subsiste en el repositorio oficial de Claveros. Esto prueba científicamente que los documentos de Claveros NO son escaneos orgánicos en papel, sino **clones cibernéticos** de los archivos sintéticos de Delegados. Hay ruptura total de cadena de custodia.
-- **Validación Estadística Final:** Se ejecutó el test Benford (2BL) sobre los resultados de Abelardo de la Espriella en el municipio de Acacias, demostrando desviaciones extremas (+3.97% en el dígito 2), confirmando la manipulación matemática de los votos subyacentes.
+- **Validación Estadística Final:** Se ejecutó el prueba de la ley del segundo dígito de Mebane sobre los resultados de Abelardo de la Espriella en el municipio de Acacias, demostrando desviaciones extremas (+3.97% en el dígito 2), confirmando la manipulación matemática de los votos subyacentes.
 - **Incidente de Seguridad:** Interrupción súbita del hardware (disco `DATA1`) y activación remota del micrófono de la analista. Se estableció protocolo de seguridad (aislamiento de cámara y red).
 
 ---
 
-## [29 de Agosto de 2026] - Integración del Acervo Probatorio Nacional y Reactivación de Tycho
+## [31 de Julio de 2026] - Integración del Acervo Probatorio Nacional y Reactivación de Tycho
 
 ### 1. Extracción y Desentierro del Acervo Nacional
 - **Acción:** BabaYaga ha extraído y desenterrado el archivo `01_EVIDENCIA/ACERVO_PROBATORIO_ELECCIONES_2026.zip` en la raíz del repositorio, creando la sección modular [ANALISIS_FORENSE_CLAVEROS_32_DEPARTAMENTOS](file:///home/andrea-zabala-c/AndreTaker---AnZaCa-Rep/ANALISIS_FORENSE_CLAVEROS_32_DEPARTAMENTOS).

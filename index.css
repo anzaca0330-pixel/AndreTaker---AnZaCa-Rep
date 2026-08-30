@@ -370,3 +370,206 @@ footer a:hover {
   .nav-container { flex-direction: column; height: auto; padding: 16px 0; gap: 12px; }
   .nav-links { flex-wrap: wrap; justify-content: center; }
 }
+
+/* Retro Map Styling */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&display=swap');
+
+.pixel-font {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.retro-container {
+  background: #0f172a;
+  border: 4px solid #38bdf8;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.2), inset 0 0 15px rgba(56, 189, 248, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.retro-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px dashed rgba(56, 189, 248, 0.3);
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+.retro-title-box {
+  display: flex;
+  gap: 20px;
+}
+
+.retro-pixel-text {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.75rem;
+  color: #38bdf8;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
+}
+
+.retro-inst {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  font-style: italic;
+}
+
+.retro-map-canvas-container {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  border: 2px solid rgba(56, 189, 248, 0.4);
+  background: #090e18;
+  overflow-x: auto;
+  overflow-y: hidden;
+  border-radius: 8px;
+}
+
+.retro-grid-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1200px;
+  height: 100%;
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(56, 189, 248, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(56, 189, 248, 0.04) 1px, transparent 1px);
+}
+
+.retro-paths {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1200px;
+  height: 500px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.path-line {
+  fill: none;
+  stroke: rgba(168, 85, 247, 0.5);
+  stroke-width: 4;
+  stroke-dasharray: 8 8;
+  animation: dash 30s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: -1000;
+  }
+}
+
+.retro-node {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background: #1e293b;
+  border: 3px solid #94a3b8;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.retro-node:hover {
+  transform: translate(-50%, -50%) scale(1.15);
+  border-color: #38bdf8;
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.6);
+}
+
+.retro-node.active {
+  border-color: #38bdf8;
+  background: #0f172a;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.4);
+}
+
+.retro-node.visited {
+  border-color: #14b8a6;
+  background: #0b1a1c;
+}
+
+.node-badge {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.node-label {
+  position: absolute;
+  top: 56px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  padding: 4px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 0.75rem;
+  color: #f1f5f9;
+  pointer-events: none;
+}
+
+.retro-avatar {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  z-index: 20;
+  transform: translate(-50%, -50%);
+  transition: left 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94), top 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  pointer-events: none;
+}
+
+.avatar-sprite {
+  font-size: 2.2rem;
+  text-align: center;
+  animation: bounce 0.6s infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-8px);
+  }
+}
+
+.retro-dialog-box {
+  margin-top: 24px;
+  background: #020617;
+  border: 4px solid #a855f7;
+  border-radius: 8px;
+  padding: 16px;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.dialog-border {
+  border: 2px dashed rgba(168, 85, 247, 0.4);
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.retro-dialog-box h3 {
+  color: #a855f7;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.retro-dialog-box p {
+  color: #e2e8f0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+

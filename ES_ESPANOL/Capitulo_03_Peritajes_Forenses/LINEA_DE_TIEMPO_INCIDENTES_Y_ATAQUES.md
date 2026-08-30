@@ -4,7 +4,7 @@
 **Canales Activos de Contacto Seguro:** `anzaca0330@gmail.com` | `andrea.zabalacarcamo@email.phoenix.edu` (Demás cuentas inaccesibles por ciberataques)  
 **Origen del Resguardo:** Red de Solidaridad de Testigos Digitales y Protección Diplomática en México.  
 **Estatus CIDH:** Solicitud Formal de Medidas Cautelares ante la CIDH **`IACHR - 0000113728`** a nombre del núcleo familiar (Christopher Baez, Arturo Garcia Zabala y Andrea Zabala Carcamo).  
-**Evidencia Clave Preservada:** Ticket/Key de Soporte Técnico Lenovo (**`Key Ref: [REDACTED_TICKET]`** - Bloqueo BIOS por Rootkit) + Respaldos Completos Google Takeout (~136 GB) + Archivo .vma del Sheriff.  
+**Evidencia Clave Preservada:** Ticket/Key de Soporte Técnico Lenovo (**`Key Ref: 2031621994`** - Bloqueo BIOS por Rootkit) + Respaldos Completos Google Takeout (~136 GB) + Archivo .vma del Sheriff.  
 **Radicado Policial EE.UU.:** Buckingham County Sheriff's Office **`Incident C20260617-0024-01`**.  
 
 10: ---
@@ -32,7 +32,7 @@ timeline
                    : Identificación técnica de anomalías estructurales en PDF ("number of objects 21, highest object number 19"). Prueba certificada mediante capturas del navegador Opera y análisis de IA (DeepSeek), demostrando edición incremental y spoofing antes del inicio de los ataques masivos.
                    : Metodología de detección de "1-Bit Flattening" (Planchado Raster) documentada mediante script Bash utilizando ImageMagick (`identify -format "%[colorspace]"`) para separar automatizadamente actas genuinas de máscaras de 1-bit falsificadas.
     8 Junio 2026   : Colapso de Red y Bloqueo de Tráfico E-14
-                   : Durante la mañana, al conectar su celular (que se encontraba limpio) a la red WiFi, se produjo una caída total y externa del internet (Ataque de Denegación de Servicio Dirigido), impidiendo el acceso a la página de la Registraduría Nacional. Horas después, se materializa la infección por Rootkit (BIOS Lenovo bloqueado, Ticket Key Ref: [REDACTED_TICKET]).
+                   : Durante la mañana, al conectar su celular (que se encontraba limpio) a la red WiFi, se produjo una caída total y externa del internet (Ataque de Denegación de Servicio Dirigido), impidiendo el acceso a la página de la Registraduría Nacional. Horas después, se materializa la infección por Rootkit (BIOS Lenovo bloqueado, Ticket Key Ref: 2031621994).
     10 Junio 2026  : T-Mobile, Propagación del Rootkit a Terceros y Borrado Remoto
                    : Pérdida de cuenta de rescate y adquisición de nuevo equipo en T-Mobile. Al visitar la casa de sus suegros, el dispositivo ejecuta un borrado remoto de archivos en vivo (medida anti-forense presenciada visualmente). El Rootkit se propaga lateralmente e infecta también los dispositivos de los suegros.
     13 Junio 2026  : Sabotaje FIXD, SMS Payload (C2) y Emboscada Física/Digital
@@ -48,8 +48,8 @@ timeline
                    : Al intentar ejecutar un reinicio de fábrica (Factory Reset) en este dispositivo, la especialista evidenció que la pantalla de "Download Mode" (Modo de Descarga) era de color ROJO en lugar del azul estándar. Esta es la prueba técnica definitiva de un Bootloader comprometido (Custom ROM / Firmware modificado a bajo nivel). Ante la transmisión autónoma, el dispositivo fue arrojado lejos de la propiedad para romper el vector de rastreo. Posteriormente fue recuperado en secreto y puesto en cuarentena inmediata: forrado en papel aluminio (Jaula de Faraday casera), manteniéndose hoy preservado como evidencia material innegable.
     20 Junio 2026  : Inspección Técnica de Vehículo en Taller Especializado Mitsubishi
                    : Traslado del automóvil al concesionario/taller especializado Mitsubishi para revisión de sistemas eléctricos y escaneo del vector OBD-II (FIXD) tras el sabotaje del 13 de junio.
-    Pos-20 Junio 2026: Llamada a Soporte Técnico LENOVO (Key Ref: [REDACTED_TICKET])
-                   : Llamada a soporte de Lenovo tras llevar el auto al taller; emisión del radicado oficial Key Ref [REDACTED_TICKET] por inoperatividad y bloqueo de hardware/BIOS por Rootkit en portátil ThinkPad.
+    Pos-20 Junio 2026: Llamada a Soporte Técnico LENOVO (Key Ref: 2031621994)
+                   : Llamada a soporte de Lenovo tras llevar el auto al taller; emisión del radicado oficial Key Ref 2031621994 por inoperatividad y bloqueo de hardware/BIOS por Rootkit en portátil ThinkPad.
     21 Junio 2026  : Censura por DPI (Deep Packet Inspection) y Evasión Táctica (Live Stream TV)
                    : Los atacantes implementaron filtros DPI en la red local para interceptar y borrar en vivo los documentos forenses de Google Drive. La especialista logró evadir el cerco recuperando los archivos vía caché de `markdownlive` y transmitiendo los hallazgos (#BLINDMASKING) a través de un Live Stream de Televisión, bypasseando el cortafuegos de los atacantes.
     15-22 Junio 2026: Denuncias ante el FBI (Sede Richmond) y Sheriff
@@ -94,8 +94,8 @@ timeline
 
 1. **Infección y Reporte Técnico de Equipo Corporativo (17-18 Junio 2026):**
    *El computador corporativo de su esposo (Chris) también resultó infectado en el mismo marco temporal. La plataforma entera del equipo sufrió alteraciones. El departamento de TI requirió 2 días de trabajo continuo con acceso remoto para poder restaurarle el acceso al empleado. Esta intervención está certificada por el técnico Alexander Lucas (lucas.alexander@orsnasco.com).* 
-2. **Ticket / Key de Servicio al Cliente LENOVO (`Key Ref: [REDACTED_TICKET]`):**  
-   *Registro oficial de soporte técnico emitido por Lenovo posterior al 20 de junio bajo el código **[REDACTED_TICKET]** al reportar la inoperatividad y el bloqueo a nivel de hardware/BIOS del portátil ThinkPad derivado del ataque de Rootkit/Bootkit persistente.*
+2. **Ticket / Key de Servicio al Cliente LENOVO (`Key Ref: 2031621994`):**  
+   *Registro oficial de soporte técnico emitido por Lenovo posterior al 20 de junio bajo el código **2031621994** al reportar la inoperatividad y el bloqueo a nivel de hardware/BIOS del portátil ThinkPad derivado del ataque de Rootkit/Bootkit persistente.*
 2. **Descargas de Respaldo GOOGLE TAKEOUT y Cuenta Interceptada:**  
    *Descarga completa e inmutable de los archivos comprimidos de Google Takeout, que contienen el historial de IPs de inicio de sesión, sesiones interceptadas, telemetría de dispositivos y registros de ubicación.* Además, se preserva el enlace al Drive de la cuenta secuestrada (`https://drive.google.com/drive/folders/1KSE__jPvCS7gkPAuB3ic64vAFDqqonLx`), la cual actualmente cuenta únicamente con permisos de "solo lectura" (View Only), constituyendo una prueba técnica viva del secuestro de la cuenta de rescate.
 2.1. **Censura de Tráfico (DPI), Borrado en Vivo y Recuperación Táctica:**  
@@ -141,7 +141,7 @@ timeline
 | **CIDH (OEA)** | **`PRECAUTIONARY MEASURE - IACHR - 0000113728`** | **29/06/2026** | Solicitud a nombre de Christopher Baez, Arturo Garcia Zabala y Andrea Zabala |
 | **Universidad de Phoenix** | **`Student ID: 9059123560`** | **03/2025 - Presente** | **BSIOP Program (GPA 3.61) / Retiro Forzado en Junio (`Grade: W` PSY/315)** |
 | **Servicio Vehicular Mitsubishi** | **Ingreso Taller Especializado** | **20/06/2026** | **Revisión eléctrica e inspección de vector OBD-II (FIXD)** |
-| **Soporte Lenovo** | **`Key Ref: [REDACTED_TICKET]`** | **Pos-20/06/2026** | **Certificado oficial de bloqueo BIOS por Rootkit ( ThinkPad )** |
+| **Soporte Lenovo** | **`Key Ref: 2031621994`** | **Pos-20/06/2026** | **Certificado oficial de bloqueo BIOS por Rootkit ( ThinkPad )** |
 | **Google Telemetry** | **Descargas Google Takeout** | **Julio 2026** | **Respaldos completos de logs de inicio de sesión e IPs** |
 | **FBI (Richmond / IC3)** | **Tip Presencial / IC3 Online** | **Junio 2026** | **Primer reporte IC3; Enviado de vuelta por FBI a Policía Local** |
 | **Sheriff (Buckingham, VA)** | **`Incident C20260617-0024-01`** | **17-18 y fines de Junio** | Reporte por piratería, Jaula Faraday y dispositivos en papel aluminio (Audio .wav 2:01 min alterado) |

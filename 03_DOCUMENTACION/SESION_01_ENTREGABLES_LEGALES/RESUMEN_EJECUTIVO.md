@@ -3,7 +3,7 @@
 **A la atención de:** Comisión Interamericana de Derechos Humanos (CIDH), Observadores Internacionales y Jueces Electorales.  
 **Autoría Forense Total:** AndreTaker AnZaCa (Primera Línea Digital)  
 **Investigación Complementaria:** Leonilda Viera (FITE)  
-**Organizaciones:** Frente Digital 2026 y TestigosDigitales.
+**Organizaciones:** Testigos Digitales (TestigosDigitales)
 **Radicado Referencia:** `IACHR-0000113728`  
 
 ---
@@ -25,7 +25,7 @@ Un escáner óptico de una mesa de votación genera un documento plano. Sin emba
 Al hacer ingeniería inversa a los archivos PDF mediante herramientas de metrología gráfica (`qpdf` y `pdfimages`), descubrimos que los números de los votos no forman parte de la imagen escaneada original. Fueron sobrepuestos utilizando **capas vectoriales (`cm`, `re`, `Do`)** y máscaras tipo `DeviceGray` para ocultar los datos reales. Los números falsos están en formato de "Blanco y Negro puro" (`1bpc`), lo cual es ópticamente imposible para un escáner comercial que digitaliza hojas de papel con ruido y color.
 
 ### C. El "Espejo Absoluto" y la Estadística
-Mediante simulaciones de Monte Carlo y pruebas rigurosas de la Ley de Benford (2do dígito - Mebane) (2BL), demostramos que la distribución de los dígitos en las mesas alteradas **carece de entropía humana natural**.
+Mediante simulaciones de Monte Carlo y pruebas rigurosas de la Ley del segundo dígito de Mebane (2BL), demostramos que la distribución de los dígitos en las mesas alteradas **carece de entropía humana natural**.
 Los scripts en Python encontraron "melodías" (secuencias de números repetitivas) y bloques enteros de mesas donde la desviación estándar era 0 (un planchado estadístico), evidenciando que los votos fueron calculados por una fórmula matemática `=REDONDEAR(total * 0.70)` y posteriormente inyectados en la capa superior del PDF.
 
 ---
@@ -35,7 +35,7 @@ Los scripts en Python encontraron "melodías" (secuencias de números repetitiva
 El análisis cruzado (Informática Forense + Modelado Estadístico) concluye que los documentos oficiales presentados por la autoridad electoral son **Deepfakes Documentales (Falsedad Material en Documento Público)**. La magnitud, simetría y velocidad de la falsificación descartan el "error humano" y prueban un *Dolo* (intención algorítmica centralizada) dirigido a subvertir la voluntad popular.
 
 **Solicitud a la CIDH:**
-1. Otorgar **medidas cautelares urgentes** para proteger la integridad física de los peritos y miembros del Frente Digital 2026, quienes han sufrido hostigamientos tras publicar esta evidencia.
+1. Otorgar **medidas cautelares urgentes** para proteger la integridad física de los peritos y miembros del equipo de Testigos Digitales, quienes han sufrido hostigamientos tras publicar esta evidencia.
 2. Reconocer la validez de las **bóvedas inmutables** en Internet Archive como preservación lícita de la cadena de custodia (RFC 3227).
 3. Designar una misión técnica independiente que ejecute nuestros scripts de código abierto para auditar y corroborar matemáticamente la manipulación aquí denunciada.
 

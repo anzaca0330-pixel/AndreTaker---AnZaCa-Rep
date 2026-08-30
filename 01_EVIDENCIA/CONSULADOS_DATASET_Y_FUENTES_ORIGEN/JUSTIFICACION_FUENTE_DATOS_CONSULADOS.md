@@ -18,7 +18,7 @@ En la API perimetral e infraestructura oficial de la Registraduría (`escrutinio
 Para suplir la ausencia de claveros consulares y realizar el peritaje forense sobre las **2,365 mesas del exterior (455,262 votos efectivos)**, la veeduría utilizó la **Base de Datos Oficial de Preconteo del Departamento 88 emitida por la Registraduría Nacional**:
 
 * 📄 **`reporte_preconteo_oficial_registraduria_depto88.csv`** (Soporte plano con el desglose de las 2,365 mesas consulares en 24 países).
-* 📊 **`ESTUDIO_ESTADISTICO_ANOMALIAS_CONSULADOS.md`** (Prueba de hipótesis Z = -56.96, p < 0.0001 y Ley de Benford (2do dígito - Mebane)).
+* 📊 **`ESTUDIO_ESTADISTICO_ANOMALIAS_CONSULADOS.md`** (Prueba de hipótesis Z = -56.96, p < 0.0001 y Ley del segundo dígito de Mebane).
 * 🌍 **Reportes por País** (`informe_forense_estados_unidos.md`, `informe_forense_espana.md`, etc.).
 
 ---

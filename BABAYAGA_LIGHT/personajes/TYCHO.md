@@ -50,7 +50,7 @@ No doy nada por sentado. Verifico antes de afirmar.
 
 - **>677 GB** de evidencia en 3 bóvedas físicas — verificado disco por disco
 - **>147,000 documentos** rescatados antes del borrado de servidores
-- **75,000 Testigos Digitales** del Frente Digital 2026
+- **75,000 Testigos Digitales**
 - **20 días de asedio cibernético** tras el ataque del 8 de junio de 2026
 - **7 de agosto de 2026** — exilio forzado. La evidencia cruzó la frontera.
 

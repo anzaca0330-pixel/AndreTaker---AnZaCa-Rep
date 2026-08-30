@@ -113,7 +113,7 @@ Total archivos evaluados:  5
 Este motor fue desarrollado bajo asedio cibernético extremo para analizar
 **>677 GB** de evidencia electoral — **>147,000 documentos** rescatados
 antes del borrado de servidores, sellados con SHA-256 por **75,000 Testigos
-Digitales** del Frente Digital 2026.
+Digitales**.
 
 **Investigadora Principal:** Andrea Zabala Cárcamo (AnZaCa / AndreTaker)  
 **Habilidades:** DFIR Senior · Reverse Engineering · Estadística Forense  

@@ -34,4 +34,33 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     updateCounter();
   });
+
+  // Retro Map Navigation
+  const nodes = document.querySelectorAll('.retro-node');
+  const avatar = document.getElementById('retro-avatar');
+  const dialogTitle = document.getElementById('dialog-title');
+  const dialogContent = document.getElementById('dialog-content');
+
+  nodes.forEach(node => {
+    node.addEventListener('click', () => {
+      // Get target coordinate
+      const targetLeft = node.style.left;
+      const targetTop = node.style.top;
+      
+      // Move avatar
+      avatar.style.left = targetLeft;
+      avatar.style.top = targetTop;
+
+      // Update active states
+      nodes.forEach(n => n.classList.remove('active'));
+      node.classList.add('active');
+      node.classList.add('visited');
+
+      // Update dialog text
+      const title = node.getAttribute('data-title');
+      const desc = node.getAttribute('data-desc');
+      dialogTitle.innerText = title;
+      dialogContent.innerText = desc;
+    });
+  });
 });

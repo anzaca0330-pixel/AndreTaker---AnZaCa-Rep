@@ -14,7 +14,7 @@
 | **Phase 1: Control Sample (June 6)** | SHA-256 Hash Duplication & QR Failure (0/30 in Block 82-86) | $N = 32$ control tally sheets | **32 decompressed PDFs, 96 pages, 30 extracted QR images.** |
 | **Phase 2: Consular Expansion (June-July)**| Overseas Voting Audit & Day of Week Breakdown (Monday 58.5%) | $N = 5,982$ tables in 88 consulates | **5,982 consular E-14 scanned tally sheets.** |
 | **Phase 3: Massive Audit (July-August)**   | XREF Structural Violation (`reported 15 objects != highest 13`) | $N = 117,993$ tables (32 Departments) | **117,993 PDF files (235,986 total pages).** |
-| **Phase 3: Benford 2BL Analysis (August)**  | Second-Digit Shift ($\chi^2 = 1,755.91, p < 0.001$) | $N = 233,448$ national tables | **233,448 processed electoral records.** |
+| **Phase 3: Ley del segundo dígito de Mebane Analysis (August)**  | Second-Digit Shift ($\chi^2 = 1,755.91, p < 0.001$) | $N = 233,448$ national tables | **233,448 processed electoral records.** |
 | **Phase 3: Cross-Audit (August)**          | Cross-Matching Pre-Count vs. E-14 Scrutiny | $N = 244,034$ pre-count records | **244,034 consolidated data rows.** |
 
 ---
@@ -24,7 +24,7 @@
 ```
 +-----------------------------------------------------------------------------------+
 | PRIMARY INITIAL FINDING (June 2026)   ──>  CONSOLIDATED HYPOTHESES (August 2026)  |
-| Injection of White Pages #FFFFFF           117,993 Tables Audit + Benford 2BL     |
+| Injection of White Pages #FFFFFF           117,993 Tables Audit + Ley del segundo dígito de Mebane     |
 +-----------------------------------------------------------------------------------+
 ```
 

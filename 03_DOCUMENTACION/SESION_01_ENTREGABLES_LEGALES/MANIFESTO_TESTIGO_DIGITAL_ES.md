@@ -61,7 +61,7 @@ La presencia de esa marca en documentos electorales publicados para consulta pú
 También se encontraron formularios en los que no aparece la hoja que contiene las firmas de los jurados. La falta de la hoja de firmas impide que el ciudadano verifique quiénes suscribieron el acta.
 
 **3.3. Ausencia de controles de seguridad y aparición de secuencias estadísticas incompatibles**
-El estudio estadístico (Ley de Benford (2do dígito - Mebane) y Varianza) identificó numerosos puestos de votación en los que aparecían secuencias prolongadas de mesas orientadas en una misma dirección electoral, sin las alternancias que normalmente deberían surgir cuando cada mesa se comporta de manera independiente.
+El estudio estadístico (Ley del segundo dígito de Mebane y Varianza) identificó numerosos puestos de votación en los que aparecían secuencias prolongadas de mesas orientadas en una misma dirección electoral, sin las alternancias que normalmente deberían surgir cuando cada mesa se comporta de manera independiente.
 Dicho de otro modo, los resultados no aparecían distribuidos como una sucesión irregular de mesas autónomas, sino agrupados en bloques consecutivos excesivamente extensos y repetidos. La probabilidad estadística reportada para que un agrupamiento de esa magnitud aparezca por simple azar es prácticamente nula.
 
 ### SÉPTIMO: RESPETO POR LA INDEPENDENCIA JUDICIAL Y EL DEBIDO PROCESO

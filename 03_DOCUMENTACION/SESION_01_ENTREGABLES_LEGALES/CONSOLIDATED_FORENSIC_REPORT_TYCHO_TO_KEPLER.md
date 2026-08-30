@@ -29,7 +29,7 @@ A continuación, te presento la síntesis ejecutiva de todo el trabajo técnico,
 
 ### 3. 🐍 AUDITORÍA DE SCRIPTS PYTHON Y REPRODUCIBILIDAD SPPS
 * **Salud del Código (50/50):** Verificación y compilación de los 50 scripts de Python del repositorio (0 errores de sintaxis).
-* **Guía SPSS:** Elaboración de `GUIA_AUDITORIA_ESTADISTICA_SPSS.md` para la replicación paso a paso en IBM SPSS Statistics de $\chi^2$, prueba $t(17) = 8.2, p < 0.00001$ (Colapso de votación Los Ángeles Mesa 014 vs 001-013) y Benford 2BL.
+* **Guía SPSS:** Elaboración de `GUIA_AUDITORIA_ESTADISTICA_SPSS.md` para la replicación paso a paso en IBM SPSS Statistics de $\chi^2$, prueba $t(17) = 8.2, p < 0.00001$ (Colapso de votación Los Ángeles Mesa 014 vs 001-013) y Ley del segundo dígito de Mebane.
 * **Procesamiento de Takeout de Hoy (`azabalabaez`):** Transcripción de conversaciones de Gemini Workspace en `TRANSCRIPCION_GEMINI_AZABALABAEZ.md` con sello SHA-256 `4fc30014761dfec1601be3f06f83ed217a3194b81f844392403e150e177176f4`.
 
 ---

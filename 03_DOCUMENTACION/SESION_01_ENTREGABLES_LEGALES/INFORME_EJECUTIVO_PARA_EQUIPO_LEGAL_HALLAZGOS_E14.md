@@ -3,18 +3,18 @@
 **PARA:** Equipo Jurídico Defensor / Apoderado Judicial  
 **DE:** Andrea Zabala Cárcamo (Veeduría Ciudadana Principal - C.C. 43.925.102)  
 **FECHA:** 30 de Julio de 2026  
-**ASUNTO:** Síntesis Ejecutiva de Hallazgos Sintácticos, Descomposición de Capas e Inyecciones Descubiertas el 9 de Agosto de 2026 en 1ª y 2ª Vuelta, e Informe del Estado Actual del Procesamiento Masivo Nacional en Actas E-14.  
+**ASUNTO:** Síntesis Ejecutiva de Hallazgos Sintácticos, Descomposición de Capas e Inyecciones descubiertas entre el 30 y 31 de Julio de 2026 en 1ª y 2ª Vuelta, e Informe del Estado Actual del Procesamiento Masivo Nacional en Actas E-14.  
 **REFERENCIA INTERNACIONAL:** Medida Cautelar CIDH **`IACHR - 0000113728`**  
 
 ---
 
 ## 📌 1. OBJETIVO DEL DOCUMENTO
 
-Este informe tiene como fin proveer a la representación legal el sustento técnico-pericial consolidado sobre las alteraciones descubiertas el 9 de Agosto de 2026 en la estructura interna de los archivos PDF de los formularios E-14 (tanto en **Primera Vuelta** como en **Segunda Vuelta**), para su incorporación en las acciones de impugnación electoral, demandas de nulidad o trámites ante organismos internacionales.
+Este informe tiene como fin proveer a la representación legal el sustento técnico-pericial consolidado sobre las alteraciones descubiertas entre el 30 y 31 de Julio de 2026 en la estructura interna de los archivos PDF de los formularios E-14 (tanto en **Primera Vuelta** como en **Segunda Vuelta**), para su incorporación en las acciones de impugnación electoral, demandas de nulidad o trámites ante organismos internacionales.
 
 ---
 
-## 🔬 2. SÍNTESIS DE LOS DESCUBRIMIENTOS PERICIALES REALIZADOS EL 9 DE AGOSTO DE 2026
+## 🔬 2. SÍNTESIS DE LOS DESCUBRIMIENTOS PERICIALES REALIZADOS EL 30 DE JULIO DE 2026
 
 ### 2.1. Descomposición de Capas Ocultas (`pdfimages` / `/XObject 12 0 R`)
 - Al descomprimir el flujo de comandos `/Contents` y extraer la secuencia gráfica interna de las actas E-14, se comprobó que el archivo PDF **no es una fotografía escaneada plana**, sino un **documento compuesto por capas superpuestas por separado**:
@@ -140,9 +140,9 @@ Este informe tiene como fin proveer a la representación legal el sustento técn
 > ⚠️ **INFORMACIÓN CLAVE PARA EL EQUIPO LEGAL:**  
 > Se completó exitosamente la revisión masiva e inspección estructural de las **117,993 actas E-14** correspondientes a la totalidad de los 32 Departamentos de Colombia y Bogotá D.C. El análisis confirma que la inyección de la "Máscara Blanca" (XObject) no fue un hecho aislado, sino un patrón de ataque sistemático a nivel nacional.
 
-> 🛑 **CONSOLIDACIÓN PERICIAL DEFINITIVA:** La convergencia del Fraude de Transmisión (Spoofing QR) con la alteración estructural y la Ley de Benford (2do dígito - Mebane) nos permite concluir técnicamente que **no existen diferencias entre las "Actas de Delegados", "Actas de Transmisión" y "Actas de Claveros"**. Todas son **copias sintéticas generadas digitalmente por el mismo motor de software**. El hecho de que Vichada presente un 100% de alteración en la etapa de Claveros demuestra concluyentemente que **no existió un proceso de escaneo físico orgánico**; los documentos oficiales son "Deepfakes Estructurales" originados desde la misma fuente informática.
+> 🛑 **CONSOLIDACIÓN PERICIAL DEFINITIVA:** La convergencia del Fraude de Transmisión (Spoofing QR) con la alteración estructural y la Ley del segundo dígito de Mebane nos permite concluir técnicamente que **no existen diferencias entre las "Actas de Delegados", "Actas de Transmisión" y "Actas de Claveros"**. Todas son **copias sintéticas generadas digitalmente por el mismo motor de software**. El hecho de que Vichada presente un 100% de alteración en la etapa de Claveros demuestra concluyentemente que **no existió un proceso de escaneo físico orgánico**; los documentos oficiales son "Deepfakes Estructurales" originados desde la misma fuente informática.
 
-A continuación, se detalla el **Top 10 de Departamentos con mayor porcentaje de alteración**, cruzando la manipulación estructural (PDF) con la desviación matemática de la Ley de Benford (2do dígito - Mebane):
+A continuación, se detalla el **Top 10 de Departamentos con mayor porcentaje de alteración**, cruzando la manipulación estructural (PDF) con la desviación matemática de la Ley del segundo dígito de Mebane:
 
 | Departamento | Volumen (Actas/Mesas) | Manipulación Estructural (PDF) | Anomalía estructural Matemático (Benford) | Alerta Pericial |
 |---|---|---|---|---|

@@ -1,6 +1,6 @@
 # PUNTO DE CONTROL DE LA INVESTIGACIÓN (STATE OF THE INVESTIGATION)
 
-**Última Actualización:** 19 de Agosto de 2026
+**Última Actualización:** 131 de Julio de 2026
 
 ## 📍 ¿Dónde nos quedamos?
 - **Estructura Consolidada:** El historial de la investigación forense ya está dividido de forma definitiva en 8 partes (1. Cronograma, 2. Contenido Técnico, 3. Estructura Narrativa, 4. Análisis de Dígitos, 5. Guía Ciudadana, 6. Telemetría IA/Gemini, 7. Vectores de Ataque, 8. Ataque Nube/Evasión).

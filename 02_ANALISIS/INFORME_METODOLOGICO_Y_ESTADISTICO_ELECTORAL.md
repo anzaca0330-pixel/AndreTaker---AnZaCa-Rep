@@ -3,7 +3,7 @@
 
 **Autoría / Veeduría Ciudadana:** Andrea Zabala Cárcamo (Especialista Independiente)  
 **Área de Aplicación:** Estadística Aplicada y Metodología de la Investigación  
-**Objeto:** Análisis de Distribuciones de Frecuencia (Ley de Benford (2do dígito - Mebane) 2BL), Pruebas de Hipótesis No Paramétricas ($\chi^2$) y Progresión Muestral (EE.UU. $\rightarrow$ España $\rightarrow$ Colombia Nacional).
+**Objeto:** Análisis de Distribuciones de Frecuencia (Ley del segundo dígito de Mebane 2BL), Pruebas de Hipótesis No Paramétricas ($\chi^2$) y Progresión Muestral (EE.UU. $\rightarrow$ España $\rightarrow$ Colombia Nacional).
 
 ---
 
@@ -66,8 +66,8 @@ $$P(d) = \sum_{k=1}^{9} \log_{10} \left( 1 + \frac{1}{10k + d} \right)$$
 ## 3. RESULTADOS CUANTITATIVOS Y PRUEBAS DE HIPÓTESIS
 
 ### 3.1 Planteamiento de Hipótesis
-* **Hipótesis Nula ($H_0$):** La distribución observada del segundo dígito se ajusta al modelo probabilístico de Benford 2BL ($p \ge 0.001$).
-* **Hipótesis Alternativa ($H_1$):** La distribución observada del segundo dígito se desvía significativamente del modelo probabilístico de Benford 2BL ($p < 0.001$), indicando atipicidad cuantitativa.
+* **Hipótesis Nula ($H_0$):** La distribución observada del segundo dígito se ajusta al modelo probabilístico de Ley del segundo dígito de Mebane ($p \ge 0.001$).
+* **Hipótesis Alternativa ($H_1$):** La distribución observada del segundo dígito se desvía significativamente del modelo probabilístico de Ley del segundo dígito de Mebane ($p < 0.001$), indicando atipicidad cuantitativa.
 
 ### 3.2 Matriz Comparativa por Bloques Territoriales
 

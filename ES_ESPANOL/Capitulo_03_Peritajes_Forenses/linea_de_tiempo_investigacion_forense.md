@@ -119,7 +119,7 @@ timeline
 - **Documentos Adjuntos y Evidencia Fuente:**
   - 📄 [TABLA_ANALISIS_FORENSE_CONSULADOS.md](../../TABLA_ANALISIS_FORENSE_CONSULADOS.md) — Matriz pericial de consulados en 24 países.
   - 📄 [DEMOSTRACION_IMPACTO_260K_VOTOS.md](../../DEMOSTRACION_IMPACTO_260K_VOTOS.md) — Demostración de impacto frente al margen de victoria.
-  - 📄 [ESTUDIO_ESTADISTICO_ANOMALIAS_CONSULADOS.md](../../ESTUDIO_ESTADISTICO_ANOMALIAS_CONSULADOS.md) — Prueba de hipótesis Z = -56.96, p < 0.0001 y Ley de Benford (2do dígito - Mebane).
+  - 📄 [ESTUDIO_ESTADISTICO_ANOMALIAS_CONSULADOS.md](../../ESTUDIO_ESTADISTICO_ANOMALIAS_CONSULADOS.md) — Prueba de hipótesis Z = -56.96, p < 0.0001 y Ley del segundo dígito de Mebane.
   - 📄 [DIAGRAMA_COMPARATIVO_1RA_VS_2DA_VUELTA.md](../../DIAGRAMA_COMPARATIVO_1RA_VS_2DA_VUELTA.md) — Mapeo visual del lienzo E-14 con la fotografía del acta real.
   - 📄 [PRESENTACION_EJECUTIVA_PERITAJE_GRUPO.md](../../PRESENTACION_EJECUTIVA_PERITAJE_GRUPO.md) — Paquete de diapositivas para exposición del grupo.
   - 📁 [SCRIPTS_PYTHON_FORENSES](../../SCRIPTS_PYTHON_FORENSES) — Repositorio de 28 scripts de auditoría.

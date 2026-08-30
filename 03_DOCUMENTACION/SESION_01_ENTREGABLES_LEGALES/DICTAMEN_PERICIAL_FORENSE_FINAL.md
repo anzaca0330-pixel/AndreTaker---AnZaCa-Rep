@@ -15,7 +15,7 @@ El presente dictamen tiene por objeto realizar una auditoría forense informáti
 La investigación se realizó mediante un enfoque multidisciplinario combinando:
 1. **Análisis de Red y Trazabilidad (OSINT/Netsec):** Rastreo de la infraestructura de almacenamiento web (Amazon S3) y sistemas de ofuscación perimetral (WAF Nexusguard).
 2. **Análisis Estructural de Archivos (QDF/XREF):** Uso de algoritmos de descompresión y revisión sintáctica (`qpdf --check`, `pdfinfo`, `pdfimages`) para auditar la arquitectura interna de los archivos PDF.
-3. **Análisis Estadístico Probabilístico:** Aplicación del Teorema de la Ley de Benford (2do dígito - Mebane) (Específicamente el test 2BL - Análisis del Segundo Dígito) y estudios de compresión de varianza para la detección de anomalía estructural algorítmico en volúmenes masivos de datos electorales.
+3. **Análisis Estadístico Probabilístico:** Aplicación del Teorema de la Ley del segundo dígito de Mebane (Específicamente el test 2BL - Análisis del Segundo Dígito) y estudios de compresión de varianza para la detección de anomalía estructural algorítmico en volúmenes masivos de datos electorales.
 
 ---
 
@@ -45,7 +45,7 @@ Al cruzar los archivos de Delegados (descargados del portal web, ofuscados con U
 ## 5. HALLAZGO III: CORRELACIÓN ESTADÍSTICA MATEMÁTICA
 La alteración digital física y digital (descrita en los hallazgos I y II) dejó una huella matemática indetectable a simple vista, pero medible estadísticamente.
 
-Al someter los resultados del escrutinio nacional a la prueba **2BL (Ley de Benford (2do dígito - Mebane) del Segundo Dígito)**, se encontró una desviación severa en la distribución de la votación asignada al candidato Abelardo De la Espriella. Particularmente en los municipios donde se probó la inyección de la Plantilla B (ej. Acacias, Meta), el dígito `2` presentó una sobrefrecuencia de **+3.97%** por encima del límite máximo tolerado por las matemáticas de la naturaleza, mientras que los dígitos `0` y `1` sufrieron una deflación forzada (-3.48%).
+Al someter los resultados del escrutinio nacional a la prueba **2BL (Ley del segundo dígito de Mebane del Segundo Dígito)**, se encontró una desviación severa en la distribución de la votación asignada al candidato Abelardo De la Espriella. Particularmente en los municipios donde se probó la inyección de la Plantilla B (ej. Acacias, Meta), el dígito `2` presentó una sobrefrecuencia de **+3.97%** por encima del límite máximo tolerado por las matemáticas de la naturaleza, mientras que los dígitos `0` y `1` sufrieron una deflación forzada (-3.48%).
 
 > [!WARNING]
 > Esta desviación matemática confirma que los números plasmados en las actas falsificadas (Plantilla B) fueron generados o alterados por intervención humana o algorítmica. No son números producto del sufragio orgánico de los electores.
@@ -55,7 +55,7 @@ Al someter los resultados del escrutinio nacional a la prueba **2BL (Ley de Benf
 ## 6. CONCLUSIÓN GENERAL DEL PERITAJE
 Con base en la evidencia informática, criptográfica y estadística expuesta, esta veeduría forense concluye que **el sistema electoral fue objeto de una intervención técnica centralizada**. 
 
-Se comprobó la inyección masiva de capas vectoriales para alterar documentos, la clonación de la base de datos física a partir de archivos sintéticos para encubrir la falta de actas reales, y la asignación artificial de votos evidenciada por la violación a la Ley de Benford (2do dígito - Mebane). Los repositorios oficiales carecen de autenticidad documental y no pueden ser considerados como fiel reflejo de la voluntad popular.
+Se comprobó la inyección masiva de capas vectoriales para alterar documentos, la clonación de la base de datos física a partir de archivos sintéticos para encubrir la falta de actas reales, y la asignación artificial de votos evidenciada por la violación a la Ley del segundo dígito de Mebane. Los repositorios oficiales carecen de autenticidad documental y no pueden ser considerados como fiel reflejo de la voluntad popular.
 
 **Firma del Analista:**
 *Andrea Zabala Cárcamo*

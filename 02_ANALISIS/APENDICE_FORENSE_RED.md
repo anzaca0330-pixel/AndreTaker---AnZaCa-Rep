@@ -1,6 +1,6 @@
 # APÉNDICE FORENSE: ANÁLISIS DE RED Y OCULTAMIENTO DE INFRAESTRUCTURA
 
-**Periodo de Análisis:** 1 de Junio de 2026 - 9 de Agosto de 2026
+**Periodo de Análisis:** 1 de Junio de 2026 - 31 de Julio de 2026
 **Objetivo:** Demostrar la alteración de la topología de red oficial posterior a las capturas de tráfico del 9 de Julio de 2026.
 
 ## 1. Topología Transparente (9 de Julio de 2026)

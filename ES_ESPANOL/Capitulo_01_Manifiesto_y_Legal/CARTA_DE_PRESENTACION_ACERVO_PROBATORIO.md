@@ -14,7 +14,7 @@
 
 ### 1. Contexto y Hallazgo Principal
 
-El acervo que aquí se presenta contiene **más de 114.386 firmas criptográficas SHA-256**, **50 scripts de auditoría forense**, **informes por país**, **matrices estadísticas** y **la cadena de custodia completa** de los archivos PDF originales descargados desde el portal oficial de la Registraduría Nacional del Estado Civil entre el 1 de junio y el 9 de agosto de 2026.
+El acervo que aquí se presenta contiene **más de 114.386 firmas criptográficas SHA-256**, **50 scripts de auditoría forense**, **informes por país**, **matrices estadísticas** y **la cadena de custodia completa** de los archivos PDF originales descargados desde el portal oficial de la Registraduría Nacional del Estado Civil entre el 1 de junio y el 31 de julio de 2026.
 
 **El hallazgo central es el siguiente:**
 
@@ -54,7 +54,7 @@ El acervo está organizado en los siguientes bloques:
 
 **Además, se incluye:**
 
-- **Expediente personal:** Cronología de ataques, radicados de la CIDH (`IACHR-0000113728`), del Sheriff de Buckingham (`C20260617-0024-01`), y del ticket de Lenovo (`[REDACTED_TICKET]`).
+- **Expediente personal:** Cronología de ataques, radicados de la CIDH (`IACHR-0000113728`), del Sheriff de Buckingham (`C20260617-0024-01`), y del ticket de Lenovo (`2031621994`).
 - **Manifiesto de hashes del disco:** 253 firmas SHA-256 que certifican la integridad del disco físico.
 - **Bóveda pública en Internet Archive:** El acervo completo está disponible en [https://archive.org/details/colombia-e14-forensic-acervo-2026](https://archive.org/details/colombia-e14-forensic-acervo-2026).
 
@@ -97,5 +97,5 @@ ________________________________
 C.C. 43.925.102  
 Especialista Ciudadana e Independiente  
 
-**Fecha:** 9 de agosto de 2026  
+**Fecha:** 31 de julio de 2026  
 **Lugar:** Canadá

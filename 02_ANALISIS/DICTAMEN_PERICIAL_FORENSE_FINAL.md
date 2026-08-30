@@ -2,7 +2,7 @@
 **Referencia:** Comicios Electorales Presidenciales 2026 (Primera y Segunda Vuelta)
 **Autor:** Veeduría Ciudadana Independiente / Andrea Zabala Cárcamo
 **Inicio de Investigación:** 1 de Junio de 2026
-**Fecha de Emisión del Reporte:** 9 de Agosto de 2026
+**Fecha de Emisión del Reporte:** 31 de Julio de 2026
 **Estatus:** CONFIDENCIAL / MATERIAL PROBATORIO CIDH
 
 ---
@@ -16,7 +16,7 @@ El presente dictamen tiene por objeto realizar una auditoría forense informáti
 La investigación se realizó mediante un enfoque multidisciplinario combinando:
 1. **Análisis de Red y Trazabilidad (OSINT/Netsec):** Rastreo de la infraestructura de almacenamiento web (Amazon S3) y sistemas de ofuscación perimetral (WAF Nexusguard).
 2. **Análisis Estructural de Archivos (QDF/XREF):** Uso de algoritmos de descompresión y revisión sintáctica (`qpdf --check`, `pdfinfo`, `pdfimages`) para auditar la arquitectura interna de los archivos PDF.
-3. **Análisis Estadístico Probabilístico:** Aplicación del Teorema de la Ley de Benford (2do dígito - Mebane) (Específicamente el test 2BL - Análisis del Segundo Dígito) y estudios de compresión de varianza para la detección de anomalía estructural algorítmico en volúmenes masivos de datos electorales.
+3. **Análisis Estadístico Probabilístico:** Aplicación del Teorema de la Ley del segundo dígito de Mebane (Específicamente el test 2BL - Análisis del Segundo Dígito) y estudios de compresión de varianza para la detección de anomalía estructural algorítmico en volúmenes masivos de datos electorales.
 
 ---
 
@@ -46,11 +46,11 @@ Al cruzar los archivos de Delegados (descargados del portal web, ofuscados con U
 ## 5. HALLAZGO III: CORRELACIÓN ESTADÍSTICA MATEMÁTICA Y OUTLIERS NACIONALES
 La alteración documental (descrita en los hallazgos I y II) dejó una huella matemática indetectable a simple vista, pero plenamente medible en el volumen de datos a escala nacional.
 
-Al someter los resultados del escrutinio nacional de los 32 Departamentos de Colombia a la prueba **2BL (Ley de Benford del Segundo Dígito)**, se confirmaron desviaciones estadísticas extremas consistentes con una generación de datos artificial/algorítmica en bloque:
+Al someter los resultados del escrutinio nacional de los 32 Departamentos de Colombia a la prueba **2BL (Ley del segundo dígito de Mebane)**, se confirmaron desviaciones estadísticas extremas consistentes con una generación de datos artificial/algorítmica en bloque:
 
-1. **El Caso de Putumayo (Depto 56):** Es la jurisdicción con el peor escenario de alteración nacional. Presenta una desviación Benford superior al **14.7%**, una varianza artificialmente baja en la votación para Abelardo de la Espriella (773.62), y tras auditar individualmente sus 156 mesas, se demostró que **75 actas (48.1%)** poseen la inyección directa de la capa sintética (*XObject* / Máscara Blanca), invalidando el sufragio físico en favor de un proceso de intercambio de votos (*swapping*).
-2. **Arauca (Depto 52):** Exhibe un comportamiento altamente anómalo con una desviación Benford para Iván Cepeda del **7.8%** y para Abelardo de la Espriella de **8.3%**, y una varianza excesivamente desproporcionada en Espriella (2812.42).
-3. **Amazonas (Depto 64):** Muestra una desviación Benford para Iván Cepeda del **8.98%** y un aplanamiento de varianza en Espriella (646.64) sobre sus 809 mesas analizadas.
+1. **El Caso de Putumayo (Depto 56):** Es la jurisdicción con el peor escenario de alteración nacional. Presenta una desviación de la ley del segundo dígito de Mebane superior al **14.7%**, una varianza artificialmente baja en la votación para Abelardo de la Espriella (773.62), y tras auditar individualmente sus 156 mesas, se demostró que **75 actas (48.1%)** poseen la inyección directa de la capa sintética (*XObject* / Máscara Blanca), invalidando el sufragio físico en favor de un proceso de intercambio de votos (*swapping*).
+2. **Arauca (Depto 52):** Exhibe un comportamiento altamente anómalo con una desviación de la ley del segundo dígito de Mebane para Iván Cepeda del **7.8%** y para Abelardo de la Espriella de **8.3%**, y una varianza excesivamente desproporcionada en Espriella (2812.42).
+3. **Amazonas (Depto 64):** Muestra una desviación de la ley del segundo dígito de Mebane para Iván Cepeda del **8.98%** y un aplanamiento de varianza en Espriella (646.64) sobre sus 809 mesas analizadas.
 4. **Firmas de Empate Exacto (Outliers Estadísticos):** A nivel municipal, el algoritmo inyectó secuencias rígidas e imposibles en el caos estocástico natural. Como ejemplo, en Antioquia (Dpto 05) se registraron empates idénticos exactos en mesas independientes:
    - Municipio 113, Mesa 4: Cepeda = 104, Espriella = 104 (Total 209)
    - Municipio 110, Mesa 16: Cepeda = 73, Espriella = 73 (Total 147)

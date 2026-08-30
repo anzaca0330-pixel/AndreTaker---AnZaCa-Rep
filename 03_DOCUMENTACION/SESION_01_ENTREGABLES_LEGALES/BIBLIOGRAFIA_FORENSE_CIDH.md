@@ -20,7 +20,7 @@ Este documento compila el marco teórico, los estándares internacionales y la l
 - **RFC 3161** – *Internet X.509 Public Key Infrastructure Time-Stamp Protocol (TSP)*. Estándar utilizado para certificar los sellos de tiempo inalterables de las descargas en los laboratorios.
 - **Gailly, Jean-loup y Adler, Mark.** (1995). *Zlib / DEFLATE Compression Algorithm*. Creadores de la librería zlib y el formato de compresión subyacente que el estándar PDF utiliza bajo el filtro `/FlateDecode`. La decodificación forense de sus flujos de datos fue el paso técnico crítico que permitió revelar la inyección de comandos vectoriales ocultos (`cm`, `re`, `Do`) en los formularios E-14.
 
-### 3. Estadística Forense (Ley de Benford (2do dígito - Mebane) y Simulaciones)
+### 3. Estadística Forense (Ley del segundo dígito de Mebane y Simulaciones)
 - **Nigrini, Mark J. (2012).** *Benford's Law (2nd Digit - Mebane): Applications for Forensic Accounting, Auditing, and Fraud Detection*. (John Wiley & Sons). Obra cumbre en auditoría forense que sustenta matemáticamente por qué la desviación y el "planchado estadístico" encontrados en la digitación de los votos constituye fraude sintético, y no varianza natural.
 - **Fewster, R. M. (2009).** *A simple explanation of Benford's Law (2nd Digit - Mebane)*. (The American Statistician). Utilizado para el sustento probabilístico y cálculo de P-Values.
 - **Mebane, Walter R. Jr. (2006).** *Election Forensics: The Second-digit Benford's Law (2nd Digit - Mebane) Test and Recent American Presidential Elections*. Aplicación directa del test del segundo dígito en entornos electorales, la misma técnica ejecutada sobre los formularios nacionales.

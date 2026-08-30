@@ -1,5 +1,5 @@
 # PRUEBA ESTADÍSTICA NACIONAL (SEGUNDA VUELTA)
-**Auditoría Ley de Benford (2do dígito - Mebane) - Votación Nacional (Abelardo de la Espriella)**
+**Auditoría Ley del segundo dígito de Mebane - Votación Nacional (Abelardo de la Espriella)**
 
 Tras descartar el "Cebo de Amazonas" (Departamento 60), se ejecutó la auditoría estadística sobre las actas de preconteo (Boletín 9999) del resto del país para la Segunda Vuelta Presidencial.
 
@@ -8,9 +8,9 @@ Tras descartar el "Cebo de Amazonas" (Departamento 60), se ejecutó la auditorí
 - **Mesas Únicas Procesadas:** 121,147
 - **Filtro de Doble Conteo:** Aplicado (solo se tomó el último boletín emitido por mesa para evitar sesgo de actualización).
 
-## Análisis Ley de Benford (2do dígito - Mebane) (Primer Dígito Significativo)
+## Análisis Ley del segundo dígito de Mebane (Primer Dígito Significativo)
 
-La Ley de Benford (2do dígito - Mebane) dictamina la distribución natural esperada del primer dígito en conjuntos de datos contables no manipulados. Cualquier alteración manual o relleno aritmético rompe esta distribución, generando picos artificiales.
+La Ley del segundo dígito de Mebane dictamina la distribución natural esperada del primer dígito en conjuntos de datos contables no manipulados. Cualquier alteración manual o relleno aritmético rompe esta distribución, generando picos artificiales.
 
 | Dígito | Observado (%) | Esperado (%) | Desviación Absoluta | Estado |
 | :---: | :---: | :---: | :---: | :--- |

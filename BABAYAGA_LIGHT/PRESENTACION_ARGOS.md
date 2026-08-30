@@ -122,7 +122,7 @@ y que AnZaCa ejecutó en campo:
 │  PASO 5 — PRESERVACIÓN DISTRIBUIDA                          │
 │  └─ Copiar resultados a múltiples medios físicos            │
 │  └─ Si hay riesgo físico: esteganografía de sistema         │
-│  └─ Red de testigos descentralizada (Frente Digital 2026)   │
+│  └─ Red de testigos descentralizada (Testigos Digitales)     │
 └─────────────────────────────────────────────────────────────┘
                           │
                           ▼
@@ -237,7 +237,7 @@ python3 babayaga_core.py --ruta ./demo/
 | Documentos rescatados | **>147,000** antes del borrado |
 | PDFs E-14 con SHA-256 | **121,960** congelados el 21 jun 2026 |
 | PDFs en bóveda cruda | **439,623** (D A T A1 verificado) |
-| Testigos digitales | **75,000** (Frente Digital 2026) |
+| Testigos digitales | **75,000** (Testigos Digitales) |
 | Condiciones de desarrollo | **20 días de asedio cibernético** |
 
 ---

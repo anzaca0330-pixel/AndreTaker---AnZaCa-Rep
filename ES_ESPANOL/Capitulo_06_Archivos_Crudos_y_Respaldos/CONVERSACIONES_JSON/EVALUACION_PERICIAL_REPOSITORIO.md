@@ -11,7 +11,7 @@
 | Categoría | Implementación en el Repositorio | Valor Forense y Procesal |
 | :--- | :--- | :--- |
 | **Evidencia y Hallazgos** | Separación por 1ª Vuelta, 2ª Vuelta y Consulados en las salas `ES_ESPANOL` y `EN_ENGLISH`. | Establece una cadena de custodia lógica. Facilita la localización inmediata para jueces y peritos. |
-| **Metodología y Análisis** | 28 scripts de código abierto (`SCRIPTS_PYTHON_FORENSES`) e informes de varianza y Benford 2BL. | Garantiza la **reproducibilidad científica por terceros**. Transforma opiniones en hechos comprobables. |
+| **Metodología y Análisis** | 28 scripts de código abierto (`SCRIPTS_PYTHON_FORENSES`) e informes de varianza y Ley del segundo dígito de Mebane. | Garantiza la **reproducibilidad científica por terceros**. Transforma opiniones en hechos comprobables. |
 | **Documentación Legal y Contexto** | Manifiesto ciudadano, Demanda bilingüe CIDH, Refutación Red Team y Press Kit. | Convierte el repositorio en un expediente judicial completo apto para tribunales y prensa internacional. |
 | **Colaboración y Reproducibilidad** | `README.md` interactivo con guía rápida de comandos de auditoría. | Abre el acervo a la validación por pares (Peer Review) internacional. |
 

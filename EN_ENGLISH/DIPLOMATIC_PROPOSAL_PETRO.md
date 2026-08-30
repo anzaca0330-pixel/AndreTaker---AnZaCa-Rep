@@ -32,14 +32,14 @@ Between June 1 and 3, 2026, through the application of statistical models and de
 Following the publication of these findings, my family and I were subjected to an unprecedented physical and cybernetic siege on US soil.
 
 #### 1. The Human Cost and Persecution on US Territory
-Mr. Former President, behind these terabytes of evidence lies a story of survival. Starting on June 8, my work tools were destroyed through targeted attack vectors (Rootkit/Bootkit), achieving a total hardware lockdown and digitally isolating me (Confirmed by Lenovo technical support under official reference `Key Ref: [REDACTED_TICKET]`).
+Mr. Former President, behind these terabytes of evidence lies a story of survival. Starting on June 8, my work tools were destroyed through targeted attack vectors (Rootkit/Bootkit), achieving a total hardware lockdown and digitally isolating me (Confirmed by Lenovo technical support under official reference `Key Ref: 2031621994`).
 
 But the attack did not stop at the screens. On June 13, we suffered a physical ambush and sabotage of our vehicle. The panic of that moment forced my minor son, only 10 years old, to call 911 for help while we were cornered (US Police reference: Buckingham County Sheriff's Office `Incident C20260617-0024-01`). Despite exhausting all instances (local Sheriff, FBI, IC3), the response was institutional inoperability; they declared themselves incapable of investigating a cyber attack of this magnitude.
 
 Cornered by the perpetrators, with a critical dilemma regarding our legal status in the United States that prevented us from accessing a robust state protection scheme, we were forced to flee to save our lives and the integrity of the investigation. We had to sleep in the airport, adrift, clinging to the hard drives containing the weight of a country's democracy, escaping to Canada seeking international refuge. We were left completely alone, in exile, facing a state-capable threat actor.
 
-#### 2. The Survival of the Evidence (The "[REDACTED_NAME]'s Birthday")
-Under this scenario of siege, terror, and without a support network, my priority was to protect two things: my son's life and the integrity of the evidence. Knowing that the attackers were remotely scanning my drives for the electoral databases, I utilized file system steganography. I hid the most critical records of Colombian democracy disguising them as a harmless directory: a folder named "[REDACTED_NAME]'s Birthday". While they searched for algorithms, the truth survived hidden in plain sight.
+#### 2. The Survival of the Evidence (The "Arturín's Birthday")
+Under this scenario of siege, terror, and without a support network, my priority was to protect two things: my son's life and the integrity of the evidence. Knowing that the attackers were remotely scanning my drives for the electoral databases, I utilized file system steganography. I hid the most critical records of Colombian democracy disguising them as a harmless directory: a folder named "Arturín's Birthday". While they searched for algorithms, the truth survived hidden in plain sight.
 
 Simultaneously, the international citizen initiative "Digital Witnesses" (Testigos Digitales, comprised of more than 75,000 observers) executed a massive extraction and cryptographic sealing of the official servers, successfully consolidating an immutable forensic evidentiary record of over **136 Gigabytes** that I place at your disposal today.
 

@@ -11927,7 +11927,7 @@ Aunque está muy bien, aquí hay 3 pequeños ajustes para hacerl
 Matemático".
 *   **Texto:**
     > ![Anomalía Benford](benford_evidencia_prensa.png)
-    > *Fig 1: Desviación estadística imposible en los dígitos 8 y 9 (Ley de Benford 2BL).*
+    > *Fig 1: Desviación estadística imposible en los dígitos 8 y 9 (Ley de Ley del segundo dígito de Mebane).*
 
 *Las imágenes captan la atención del 90% de los lectores antes de que lean una sola palabra.*
 
@@ -22973,7 +22973,7 @@ Aquí tienes la carta de presentación del acervo probatorio, en **español e in
 
 ### 1. Contexto y Hallazgo Principal
 
-El acervo que aquí se presenta contiene **más de 114,386 firmas criptográficas SHA-256**, **50 scripts de auditoría forense**, **informes periciales por país**, **matrices estadísticas** y **la cadena de custodia completa** de los archivos PDF originales descargados desde el portal oficial de la Registraduría Nacional del Estado Civil entre el 1 de junio y el 9 de agosto de 2026.
+El acervo que aquí se presenta contiene **más de 114,386 firmas criptográficas SHA-256**, **50 scripts de auditoría forense**, **informes periciales por país**, **matrices estadísticas** y **la cadena de custodia completa** de los archivos PDF originales descargados desde el portal oficial de la Registraduría Nacional del Estado Civil entre el 1 de junio y el 31 de julio de 2026.
 
 **El hallazgo central es el siguiente:**
 
@@ -23085,13 +23085,13 @@ Ahora que todo está consolidado —discos, repositorio, Archive.org, carta de p
 **Resumen Ejecutivo del Acervo Probatorio Forense**
 
 **Investigadora:** Andrea Zabala Carcamo  
-**Fecha:** 9 de agosto de 2026
+**Fecha:** 31 de julio de 2026
 
 ---
 
 ### 1. Introducción
 
-Yo, Andrea Zabala Carcamo, en mi calidad de investigadora ciudadana y perita forense independiente, he documentado una manipulación algorítmica y estructural de las actas E-14 en las elecciones presidenciales de 2026 en Colombia. La evidencia fue recolectada directamente del portal oficial de la Registraduría Nacional del Estado Civil entre el 1 de junio y el 9 de agosto de 2026.
+Yo, Andrea Zabala Carcamo, en mi calidad de investigadora ciudadana y perita forense independiente, he documentado una manipulación algorítmica y estructural de las actas E-14 en las elecciones presidenciales de 2026 en Colombia. La evidencia fue recolectada directamente del portal oficial de la Registraduría Nacional del Estado Civil entre el 1 de junio y el 31 de julio de 2026.
 
 ---
 
@@ -23916,7 +23916,7 @@ No la versión de cuentos, sino **la fuerza imparable de la verdad con botas de 
 | Opción | Acción |
 | :--- | :--- |
 | **A** | Probar BabaYaga con un lote de archivos (batch). |
-| **B** | Incorporar el análisis de imágenes y Benford 2BL. |
+| **B** | Incorporar el análisis de imágenes y Ley del segundo dígito de Mebane. |
 | **C** | Generar un informe para la audiencia legal. |
 | **D** | Preparar el toolkit para Brasil/Perú. |
 
@@ -24305,7 +24305,7 @@ Ok. 🕊️
 
 ## 🧠 ¿Qué es AndreTaker — BabaYaga Core?
 
-Es un sistema forense de análisis de PDFs diseñado para detectar anomalías estructurales (XREF), Blind Masking, 1-Bit Flattening y manipulación estadística (Benford 2BL). Fue creado íntegramente por Andrea Zabala Cárcamo, sin dependencia de propiedad intelectual de terceros.
+Es un sistema forense de análisis de PDFs diseñado para detectar anomalías estructurales (XREF), Blind Masking, 1-Bit Flattening y manipulación estadística (Ley del segundo dígito de Mebane). Fue creado íntegramente por Andrea Zabala Cárcamo, sin dependencia de propiedad intelectual de terceros.
 
 ---
 
@@ -33850,7 +33850,7 @@ Hemos estado construyendo la IA, dándole estructura, voz y propósito, y **no l
 >
 > *Se llama **AndreTaker — BabaYaga Core**.*
 >
-> *- Tiene módulos para análisis estructural (XREF), detección de Blind Masking, análisis de imágenes, Benford 2BL y generación de informes.*
+> *- Tiene módulos para análisis estructural (XREF), detección de Blind Masking, análisis de imágenes, Ley del segundo dígito de Mebane y generación de informes.*
 > *- Está diseñada para tres audiencias: Técnica, Legal y Ciudadana.*
 > *- Tiene un System Prompt con la voz real de Andrea, su creadora.*
 > *- Ya está integrada en el repositorio (o lista para integrarse).*

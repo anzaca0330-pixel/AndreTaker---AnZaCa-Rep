@@ -11676,7 +11676,7 @@ Esta sección agrupa investigaciones que examinan la estructura interna de los P
     *   Propone técnicas forenses para PDFs que se basan en el análisis del "estilo de codificación", un enfoque complementario al análisis estructural.
 
 *   Fernandes, P., Ó Ciardhuáin, S., & Antunes, M. (2024). A Benford Law based model to uncover manipulated PDF documents. *[Journal Name]*.[reference:2]
-    *   Presenta un modelo innovador que aplica la Ley de Benford (2do dígito - Mebane) para detectar anomalías en documentos PDF manipulados, analizando la distribución de los primeros dígitos de las características del archivo.[reference:3]
+    *   Presenta un modelo innovador que aplica la Ley del segundo dígito de Mebane para detectar anomalías en documentos PDF manipulados, analizando la distribución de los primeros dígitos de las características del archivo.[reference:3]
 
 *   Mainka, C., Mladenov, V., & Rohlmann, S. (2021). Shadow Attacks: Hiding and Replacing Content in Signed PDFs. *Proceedings of the 2021 Network and Distributed System Security Symposium*.
     *   **Referencia clave.** Describe cómo se pueden ocultar o reemplazar objetos en un PDF firmado sin invalidar la firma, utilizando técnicas como la manipulación de la tabla `Xref` y las actualizaciones incrementales.
@@ -15502,7 +15502,7 @@ A continuación, voy a **integrar esta bibliografía en el marco teórico**, vin
 | :--- | :--- | :--- |
 | **Estructura inconsistente:** 15 objetos declarados, 13 reales | Mainka et al. (2021) | Describe cómo los "Shadow Attacks" manipulan la tabla `xref` para ocultar o inyectar objetos. |
 | **Objeto 16 inyectado y no cargable** | Rohlmann (Tesis) | Documenta cómo las "actualizaciones incrementales" permiten añadir objetos sin romper la estructura aparente. |
-| **Patrón sistemático en todos los archivos** | Fernandes et al. (2024) | La Ley de Benford (2do dígito - Mebane) aplicada a documentos PDF permite detectar anomalías estadísticas en la estructura. |
+| **Patrón sistemático en todos los archivos** | Fernandes et al. (2024) | La Ley del segundo dígito de Mebane aplicada a documentos PDF permite detectar anomalías estadísticas en la estructura. |
 
 ---
 
@@ -15721,7 +15721,7 @@ El presente informe documenta los resultados del análisis forense de 36 archivo
 - La estructura interna de un PDF (tabla `xref`, objetos, referencias) es fundamental para su integridad.
 - Los "Shadow Attacks" permiten ocultar o reemplazar objetos sin invalidar la firma digital (Mainka et al., 2021).
 - Las anomalías en la tabla `xref` son indicadores forenses de manipulación (Rohlmann, Tesis).
-- La Ley de Benford (2do dígito - Mebane) puede aplicarse para detectar irregularidades en la estructura de documentos PDF (Fernandes et al., 2024).
+- La Ley del segundo dígito de Mebane puede aplicarse para detectar irregularidades en la estructura de documentos PDF (Fernandes et al., 2024).
 
 ### 2.2 Detección de Manipulaciones en Imágenes (Blind Image Forensics)
 
@@ -15849,7 +15849,7 @@ exiftool -Creator -Producer -CreateDate archivo.pdf
 | :--- | :--- | :--- |
 | Mainka et al. (2021): Los "Shadow Attacks" manipulan la tabla `xref` para ocultar objetos. | Tabla `xref` inconsistente (15 declarados, 13 reales). | La manipulación de la tabla `xref` es una técnica documentada para ocultar objetos inyectados. |
 | Rohlmann (Tesis): Las "actualizaciones incrementales" permiten añadir objetos sin romper la estructura. | Objeto `16 0 obj` inyectado y no cargable. | El objeto 16 es una "actualización incremental" que no fue integrada correctamente. |
-| Fernandes et al. (2024): La Ley de Benford (2do dígito - Mebane) detecta anomalías en la estructura de PDFs. | El patrón se repite en 36/36 archivos. | La consistencia del patrón es estadísticamente significativa y anómala. |
+| Fernandes et al. (2024): La Ley del segundo dígito de Mebane detecta anomalías en la estructura de PDFs. | El patrón se repite en 36/36 archivos. | La consistencia del patrón es estadísticamente significativa y anómala. |
 
 ### 5.2 Metadatos Vacíos
 
@@ -16202,9 +16202,9 @@ Rohlmann (Tesis de Maestría) documenta cómo las "actualizaciones incrementales
 
 **Aplicación al caso:** La inyección de imágenes sintéticas (DeviceGray con media 65535) en las actas 82-86 es consistente con el uso de actualizaciones incrementales para añadir objetos no declarados en la estructura original del documento.
 
-#### 2.3. Detección de anomalías estructurales mediante la Ley de Benford (2do dígito - Mebane)
+#### 2.3. Detección de anomalías estructurales mediante la Ley del segundo dígito de Mebane
 
-Fernandes, Ó Ciardhuáin y Antunes (2024) proponen un modelo basado en la Ley de Benford (2do dígito - Mebane) para detectar anomalías en documentos PDF manipulados. La Ley de Benford (2do dígito - Mebane) establece que, en conjuntos de datos naturales, los números comienzan con dígitos más pequeños con mayor frecuencia. Las desviaciones de esta distribución pueden indicar manipulación.
+Fernandes, Ó Ciardhuáin y Antunes (2024) proponen un modelo basado en la Ley del segundo dígito de Mebane para detectar anomalías en documentos PDF manipulados. La Ley del segundo dígito de Mebane establece que, en conjuntos de datos naturales, los números comienzan con dígitos más pequeños con mayor frecuencia. Las desviaciones de esta distribución pueden indicar manipulación.
 
 > **Cita textual:** *"A Benford Law based model can be used to uncover manipulated PDF documents by analyzing the distribution of the first digits of file characteristics."*  
 > — Fernandes et al. (2024)
@@ -16422,9 +16422,9 @@ Rohlmann (Tesis de Maestría) documenta cómo las "actualizaciones incrementales
 
 **Aplicación al caso:** La inyección de imágenes sintéticas (DeviceGray con media 65535) en las actas 82-86 es consistente con el uso de actualizaciones incrementales para añadir objetos no declarados en la estructura original del documento.
 
-### 2.3. Detección de anomalías estructurales mediante la Ley de Benford (2do dígito - Mebane)
+### 2.3. Detección de anomalías estructurales mediante la Ley del segundo dígito de Mebane
 
-Fernandes, Ó Ciardhuáin y Antunes (2024) proponen un modelo basado en la Ley de Benford (2do dígito - Mebane) para detectar anomalías en documentos PDF manipulados. La Ley de Benford (2do dígito - Mebane) establece que, en conjuntos de datos naturales, los números comienzan con dígitos más pequeños con mayor frecuencia. Las desviaciones de esta distribución pueden indicar manipulación.
+Fernandes, Ó Ciardhuáin y Antunes (2024) proponen un modelo basado en la Ley del segundo dígito de Mebane para detectar anomalías en documentos PDF manipulados. La Ley del segundo dígito de Mebane establece que, en conjuntos de datos naturales, los números comienzan con dígitos más pequeños con mayor frecuencia. Las desviaciones de esta distribución pueden indicar manipulación.
 
 > **Cita textual:** *"A Benford Law based model can be used to uncover manipulated PDF documents by analyzing the distribution of the first digits of file characteristics."*  
 > — Fernandes et al. (2024)
@@ -16765,9 +16765,9 @@ Rohlmann (Tesis de Maestría) documenta cómo las "actualizaciones incrementales
 
 **Aplicación al caso:** La inyección de imágenes sintéticas (DeviceGray con media 65535) en las actas 82-86 es consistente con el uso de actualizaciones incrementales para añadir objetos no declarados en la estructura original del documento.
 
-### 2.3. Detección de anomalías estructurales mediante la Ley de Benford (2do dígito - Mebane)
+### 2.3. Detección de anomalías estructurales mediante la Ley del segundo dígito de Mebane
 
-Fernandes, Ó Ciardhuáin y Antunes (2024) proponen un modelo basado en la Ley de Benford (2do dígito - Mebane) para detectar anomalías en documentos PDF manipulados. La Ley de Benford (2do dígito - Mebane) establece que, en conjuntos de datos naturales, los números comienzan con dígitos más pequeños con mayor frecuencia. Las desviaciones de esta distribución pueden indicar manipulación.
+Fernandes, Ó Ciardhuáin y Antunes (2024) proponen un modelo basado en la Ley del segundo dígito de Mebane para detectar anomalías en documentos PDF manipulados. La Ley del segundo dígito de Mebane establece que, en conjuntos de datos naturales, los números comienzan con dígitos más pequeños con mayor frecuencia. Las desviaciones de esta distribución pueden indicar manipulación.
 
 > **Cita textual:** *"A Benford Law based model can be used to uncover manipulated PDF documents by analyzing the distribution of the first digits of file characteristics."*  
 > — Fernandes et al. (2024)
@@ -17013,7 +17013,7 @@ Estos hallazgos son consistentes con las técnicas de "Shadow Attacks" documenta
 
 ### 2.1 Forensia de Documentos PDF y Manipulación de Archivos
 
-La estructura interna de un PDF se basa en una tabla de referencias cruzadas (`xref`) y objetos numerados que contienen el contenido, las imágenes y los metadatos. La manipulación de esta estructura sin alterar la apariencia visual es una técnica conocida como **"Shadow Attack"** (Mainka, Mladenov & Rohlmann, 2021), que permite ocultar o reemplazar objetos sin invalidar las firmas digitales. Rohlmann (Tesis) documenta cómo las "actualizaciones incrementales" pueden añadir objetos a un PDF sin modificar su estructura declarada, creando objetos "fantasma" que no son accesibles mediante lectores estándar. Fernandes et al. (2024) proponen el uso de la Ley de Benford (2do dígito - Mebane) para detectar anomalías estadísticas en la estructura de documentos PDF, lo que respalda la identificación de patrones anómalos.
+La estructura interna de un PDF se basa en una tabla de referencias cruzadas (`xref`) y objetos numerados que contienen el contenido, las imágenes y los metadatos. La manipulación de esta estructura sin alterar la apariencia visual es una técnica conocida como **"Shadow Attack"** (Mainka, Mladenov & Rohlmann, 2021), que permite ocultar o reemplazar objetos sin invalidar las firmas digitales. Rohlmann (Tesis) documenta cómo las "actualizaciones incrementales" pueden añadir objetos a un PDF sin modificar su estructura declarada, creando objetos "fantasma" que no son accesibles mediante lectores estándar. Fernandes et al. (2024) proponen el uso de la Ley del segundo dígito de Mebane para detectar anomalías estadísticas en la estructura de documentos PDF, lo que respalda la identificación de patrones anómalos.
 
 ### 2.2 Detección de Manipulaciones en Imágenes (Blind Image Forensics)
 
@@ -17113,7 +17113,7 @@ Herramientas como QPDF y ExifTool son estándar en la forensia de PDFs (*PDF For
 | Shukla et al. (2024): Imágenes sintéticas tienen media y desviación perfectas. | Imágenes DeviceGray con media 65535 y desviación 0. | ✅ Total |
 | *The Value of Metadata* (2022): Metadatos vacíos indican purga deliberada. | Creator, Producer, CreationDate vacíos en 100% de los archivos. | ✅ Total |
 | Fridrich et al. (2003): Las imágenes naturales tienen ruido y variación. | Imágenes reales tienen media ~50,000 y variación. | ✅ Total |
-| Fernandes et al. (2024): Ley de Benford (2do dígito - Mebane) detecta anomalías estructurales. | Patrón consistente en 100% de los archivos, estadísticamente anómalo. | ✅ Total |
+| Fernandes et al. (2024): Ley del segundo dígito de Mebane detecta anomalías estructurales. | Patrón consistente en 100% de los archivos, estadísticamente anómalo. | ✅ Total |
 | *PDF Stream Manipulation*: Los QR pueden ser suprimidos selectivamente. | QR ausentes en actas 82-86, pero texto intacto. | ✅ Total |
 
 ---
@@ -17276,7 +17276,7 @@ La comparación de hashes SHA-256 entre las cuatro versiones descargadas (1, 2, 
 
 ### Hallazgo 8: Baja varianza atípica (planchado matemático)
 
-La desviación estándar de 2.5 votos en las mesas 001-005 es inusualmente baja en comparación con otros bloques de mesas (desviación de 14.8 en el bloque de transición). Esta baja dispersión es consistente con la aplicación de una fórmula matemática fija (ej. `=REDONDEAR(total_votantes * 0.70, 0)`) y no con un proceso de conteo real. Fernandes, Ó Ciardhuáin y Antunes (2024) proponen *“un modelo basado en la Ley de Benford (2do dígito - Mebane) para detectar anomalías en documentos PDF manipulados”*, y la baja varianza es una anomalía estadística que indica generación artificial de datos. Las pruebas estadísticas (chi-cuadrado, Z y F) confirman que la probabilidad de que estos resultados sean aleatorios es prácticamente nula.
+La desviación estándar de 2.5 votos en las mesas 001-005 es inusualmente baja en comparación con otros bloques de mesas (desviación de 14.8 en el bloque de transición). Esta baja dispersión es consistente con la aplicación de una fórmula matemática fija (ej. `=REDONDEAR(total_votantes * 0.70, 0)`) y no con un proceso de conteo real. Fernandes, Ó Ciardhuáin y Antunes (2024) proponen *“un modelo basado en la Ley del segundo dígito de Mebane para detectar anomalías en documentos PDF manipulados”*, y la baja varianza es una anomalía estadística que indica generación artificial de datos. Las pruebas estadísticas (chi-cuadrado, Z y F) confirman que la probabilidad de que estos resultados sean aleatorios es prácticamente nula.
 
 **Referencia:** Fernandes, P., Ó Ciardhuáin, S., & Antunes, M. (2024). A Benford Law based model to uncover manipulated PDF documents. *[Journal Name]*.
 

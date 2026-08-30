@@ -2,7 +2,7 @@
 ## La Evidencia Criptográfica y Estadística del Fraude Electoral E-14 en Colombia 2026
 
 **Investigadora Principal:** Andrea Zabala Cárcamo (AndreTaker AnZaCa)  
-**Equipo Técnico:** Frente Digital de Veeduría Ciudadana & BabaYaga Core  
+**Equipo Técnico:** Testigos Digitales Veeduría Ciudadana & BabaYaga Core  
 **Bóveda Pública Inmutable:** [https://archive.org/details/colombia-e14-forensic-acervo-2026](https://archive.org/details/colombia-e14-forensic-acervo-2026)  
 **Repositorio Oficial de Código:** [https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep](https://github.com/anzaca0330-pixel/AndreTaker---AnZaCa-Rep)
 
@@ -21,7 +21,7 @@
 | :--- | :--- |
 | **1. La Prueba de la Física Óptica** | El papel real escaneado tiene ruido y tonos grises ($\sigma > 3.5$). Las máscaras inyectadas tienen **desviación estándar $\sigma = 0$ (blanco sintético perfecto 1-bit)**, imposible en un escáner físico. |
 | **2. La Prueba de la Cicatriz ISO (XREF)** | Al correr el comando forense `qpdf --check` sobre el PDF, el archivo arroja la alerta: `reported 15 objects != highest 13`. **100% de las actas de votación anticipada están corruptas desde el Día 1.** |
-| **3. La Prueba del Clonado Estadístico (2BL)** | En 451 mesas de votación distantes por cientos de kilómetros, se detectaron **exactamente 161 votos fijos clonados**, violando la Ley de Benford del segundo dígito ($p < 0.0001$). |
+| **3. La Prueba del Clonado Estadístico (2BL)** | En 451 mesas de votación distantes por cientos de kilómetros, se detectaron **exactamente 161 votos fijos clonados**, violando la Ley del segundo dígito de Mebane ($p < 0.0001$). |
 
 ---
 

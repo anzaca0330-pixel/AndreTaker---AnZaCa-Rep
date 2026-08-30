@@ -31,7 +31,7 @@ graph TD
 * **Entregable:** Dossier de 2 páginas en lenguaje llano con infografías visuales que muestren la "Cicatriz XREF" y la manipulación de la votación anticipada.
 
 ### 3. 🎓 Frente Académico y Rigor Metrológico (Paper Peer-Reviewed)
-* **Objetivo:** Publicar el análisis estadístico (Benford 2BL, $\chi^2$, $t(17) = 8.2$) en repositorios académicos abiertos (arXiv / SocArXiv / ResearchGate).
+* **Objetivo:** Publicar el análisis estadístico (Ley del segundo dígito de Mebane, $\chi^2$, $t(17) = 8.2$) en repositorios académicos abiertos (arXiv / SocArXiv / ResearchGate).
 * **Impacto:** Si la comunidad científica valida los modelos estadísticos, la defensa del "error de software" queda ridiculizada en el ámbito universitario global.
 
 ### 4. 🌍 Frente Político y Diplomático Regional (Presión Hemisférica)

@@ -32,9 +32,9 @@
 6. 📐 **[DEMOSTRACION_IMPACTO_260K_VOTOS.md](../../DEMOSTRACION_IMPACTO_260K_VOTOS.md)**  
    *Prueba matemática de que los 455,262 votos consulares representan el 175.1% del margen de victoria (260,000 votos).*
 7. 📊 **[INFORME_METODOLOGICO_Y_ESTADISTICO_ELECTORAL.md](INFORME_METODOLOGICO_Y_ESTADISTICO_ELECTORAL.md)**  
-   *Informe científico metodológico de progresión muestral (EE.UU. -> España -> Colombia Nacional) y prueba Benford 2BL (ISO 27037 / NIST SP 800-86).*
+   *Informe científico metodológico de progresión muestral (EE.UU. -> España -> Colombia Nacional) y prueba Ley del segundo dígito de Mebane (ISO 27037 / NIST SP 800-86).*
 7.1 📈 **[ESTUDIO_ESTADISTICO_ANOMALIAS_CONSULADOS.md](../../ESTUDIO_ESTADISTICO_ANOMALIAS_CONSULADOS.md)**  
-   *Prueba inferencial de hipótesis (Z = -56.96, p < 0.0001) y Ley de Benford (2do dígito - Mebane) en la diáspora.*
+   *Prueba inferencial de hipótesis (Z = -56.96, p < 0.0001) y Ley del segundo dígito de Mebane en la diáspora.*
 8. 📄 **[REPORTE_CROSS_AUDITORIA_PRECONTEO_VS_E14.md](../../REPORTE_CROSS_AUDITORIA_PRECONTEO_VS_E14.md)**  
    *Cruce de los 244,034 registros de preconteo contra los códigos QR y flujos de texto del PDF.*
 91.1 📄 **[ACTA_DE_HALLAZGOS_FORENSES_MATRIZ_14_PUNTOS.md](ACTA_DE_HALLAZGOS_FORENSES_MATRIZ_14_PUNTOS.md)**  
@@ -42,13 +42,13 @@
 1.2 🔄 **[EVOLUCION_DE_HIPOTESIS_FORENSES.md](EVOLUCION_DE_HIPOTESIS_FORENSES.md)**  
    *Comparativa metodológica entre las hipótesis primarias (Junio 2026) y las hipótesis consolidadas de auditoría masiva (Agosto 2026).*
 1.3 📊 **[GUIA_AUDITORIA_ESTADISTICA_SPSS.md](GUIA_AUDITORIA_ESTADISTICA_SPSS.md)**  
-   *Guía paso a paso de importación y replicación de pruebas estadísticas (Chi-cuadrado, Prueba t, Benford 2BL) en IBM SPSS Statistics.*
+   *Guía paso a paso de importación y replicación de pruebas estadísticas (Chi-cuadrado, Prueba t, Ley del segundo dígito de Mebane) en IBM SPSS Statistics.*
 10. 📄 **[REPORTE_FORENSE_PRIMERA_VUELTA.md](../../REPORTE_FORENSE_PRIMERA_VUELTA.md)**  
     *Peritaje del paquete rescatado de la 1ª Vuelta en Los Ángeles.*
 10.1 🇺🇸 **[MUESTRAS_ORIGINALES_LOS_ANGELES_1RA_VUELTA](../Capitulo_06_Archivos_Crudos_y_Respaldos/MUESTRAS_ORIGINALES_LOS_ANGELES_1RA_VUELTA/README.md)**  
     *Carpeta fuente del "Punto Cero" de la investigación (acta PDF de 3 páginas, renderizado PNG y mapeo de inyección `#FFFFFF`).*
 10.2 📈 **[ANALISIS_ESTADISTICO_INICIAL_LOS_ANGELES.md](../Capitulo_06_Archivos_Crudos_y_Respaldos/MUESTRAS_ORIGINALES_LOS_ANGELES_1RA_VUELTA/ANALISIS_ESTADISTICO_INICIAL_LOS_ANGELES.md)**  
-    *Estudio cuantitativo del "Punto Cero": Demostración de varianza nula inter-mesa (σ² ≈ 0), formato de 3 páginas y distorsión Benford 2BL.*
+    *Estudio cuantitativo del "Punto Cero": Demostración de varianza nula inter-mesa (σ² ≈ 0), formato de 3 páginas y distorsión Ley del segundo dígito de Mebane.*
 
 ---
 

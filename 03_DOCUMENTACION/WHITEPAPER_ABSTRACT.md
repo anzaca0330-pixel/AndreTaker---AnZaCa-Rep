@@ -18,7 +18,7 @@ Mientras las herramientas OSINT convencionales se limitan a analizar la metadata
 3.  **Flujos FlateDecode Ocultos:** Uso de parsers estructurales (`mutool`, `qpdf`) para desempaquetar y exponer información ofuscada algorítmicamente.
 4.  **Evasión de Metadatos (Scrubbing):** Capacidad de auditar anomalías estructurales incluso cuando actores estatales o corporativos han eliminado intencionalmente los datos EXIF (Producer, ModifyDate).
 
-Además de la extracción binaria, el ecosistema automatiza un cruce matemático renderizando la **Ley de Benford (2do dígito - Mebane) (2nd Digit)** y distribuciones de Gauss para correlacionar los hallazgos binarios con colapsos estadísticos a macroescala. El análisis enfocado en el segundo dígito anula las tácticas convencionales de camuflaje de datos, exponiendo la inyección sintética con precisión quirúrgica.
+Además de la extracción binaria, el ecosistema automatiza un cruce matemático renderizando la **Ley del segundo dígito de Mebane (2nd Digit)** y distribuciones de Gauss para correlacionar los hallazgos binarios con colapsos estadísticos a macroescala. El análisis enfocado en el segundo dígito anula las tácticas convencionales de camuflaje de datos, exponiendo la inyección sintética con precisión quirúrgica.
 
 ### Propiedad Intelectual y Licenciamiento
 El descubrimiento primario de la alteración algorítmica, el aislamiento de las operaciones sintéticas (Blind Masking) y el desarrollo de la metodología estadística aquí documentados son producto exclusivo de la investigación independiente de Andrea Zabala Carcamo.

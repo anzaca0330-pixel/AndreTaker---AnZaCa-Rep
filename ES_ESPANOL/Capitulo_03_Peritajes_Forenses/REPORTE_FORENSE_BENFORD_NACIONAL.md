@@ -8,7 +8,7 @@
 ---
 
 ## 1. INTRODUCCIÓN Y METODOLOGÍA
-El presente documento constituye el reporte técnico pericial sobre el análisis de distribución de dígitos de primer orden (Ley de Benford (2do dígito - Mebane)) aplicado a los resultados del preconteo nacional de la Segunda Vuelta Presidencial (Boletín final 9999). 
+El presente documento constituye el reporte técnico pericial sobre el análisis de distribución de dígitos de primer orden (Ley del segundo dígito de Mebane) aplicado a los resultados del preconteo nacional de la Segunda Vuelta Presidencial (Boletín final 9999). 
 
 La metodología empleada consiste en extraer el primer dígito significativo de los votos obtenidos por el candidato Abelardo de la Espriella en las 121,147 mesas a nivel nacional (excluyendo el Departamento del Amazonas, catalogado previamente como "cebo estadístico" o *Honeypot* de inyección contraria).
 
@@ -21,7 +21,7 @@ La metodología empleada consiste en extraer el primer dígito significativo de 
 
 ## 3. RESULTADOS DEL ANÁLISIS
 
-La Ley de Benford (2do dígito - Mebane) establece que en sistemas no intervenidos, el dígito 1 debe aparecer como primer dígito en aproximadamente el 30.1% de los casos. Los hallazgos para el candidato De la Espriella son matemáticamente anómalos:
+La Ley del segundo dígito de Mebane establece que en sistemas no intervenidos, el dígito 1 debe aparecer como primer dígito en aproximadamente el 30.1% de los casos. Los hallazgos para el candidato De la Espriella son matemáticamente anómalos:
 
 | Dígito | Observado (%) | Esperado (%) | Desviación Absoluta | Estado Pericial |
 | :---: | :---: | :---: | :---: | :--- |

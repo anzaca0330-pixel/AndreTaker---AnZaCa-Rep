@@ -8,7 +8,7 @@
 
 ## 1. COMPORTAMIENTO NACIONAL FRENTE A LA LEY DE BENFORD (2DO DÍGITO - MEBANE)
 
-La curva muestra la distribución de los primeros dígitos de la votación comparada contra el patrón matemático natural (Ley de Benford (2do dígito - Mebane)).
+La curva muestra la distribución de los primeros dígitos de la votación comparada contra el patrón matemático natural (Ley del segundo dígito de Mebane).
 
 ### Desviación en Votos Cepeda
 ```mermaid
@@ -32,7 +32,7 @@ xychart-beta
 
 ## 2. TOP 15 MUNICIPIOS CON MAYOR NIVEL DE ANOMALÍA ESTRUCTURAL ESTADÍSTICO
 
-Se enlistan los municipios que exhiben la menor varianza (comportamiento robótico) o la mayor desviación a la Ley de Benford (2do dígito - Mebane).
+Se enlistan los municipios que exhiben la menor varianza (comportamiento robótico) o la mayor desviación a la Ley del segundo dígito de Mebane.
 
 | Código Dpto-Mpio | Total Mesas | Media Cepeda | Var Cepeda | Media Espriella | Var Espriella | Desviación Benford | Alerta Alteración digital |
 |---|---|---|---|---|---|---|---|

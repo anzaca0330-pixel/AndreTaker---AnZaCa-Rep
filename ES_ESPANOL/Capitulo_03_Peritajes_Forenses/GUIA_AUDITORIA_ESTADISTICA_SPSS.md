@@ -2,7 +2,7 @@
 ## Protocolo de Reproducibilidad Pericial para Actas E-14
 
 **Autoría / Veeduría Ciudadana:** Andrea Zabala Cárcamo (Especialista Independiente)  
-**Objeto:** Guía paso a paso para importar las matrices `.csv` del acervo probatorio en **IBM SPSS Statistics** y replicar las pruebas de Chi-cuadrado ($\chi^2$), Prueba t de Student y Ley de Benford (2do dígito - Mebane) (2BL).
+**Objeto:** Guía paso a paso para importar las matrices `.csv` del acervo probatorio en **IBM SPSS Statistics** y replicar las pruebas de Chi-cuadrado ($\chi^2$), Prueba t de Student y Ley del segundo dígito de Mebane (2BL).
 
 ---
 
@@ -30,12 +30,12 @@ Para cargar cualquier matriz de datos del repositorio en SPSS (ejemplo: `REPORTE
 * **Variable de prueba:** `Votantes_Totales`
 * **Variable de agrupación:** `Bloque_Mesa` (Grupo 1: Mesas 001-013, Grupo 2: Mesas 014-019).
 
-### 2.2 Prueba de Chi-Cuadrado de Bondad de Ajuste ($\chi^2$) — Ley de Benford (2do dígito - Mebane) 2BL
+### 2.2 Prueba de Chi-Cuadrado de Bondad de Ajuste ($\chi^2$) — Ley del segundo dígito de Mebane 2BL
 * **Objetivo:** Demostrar la distorsión del segundo dígito a nivel nacional ($\chi^2 = 1.755,91, p < 0.001$).
 * **Ruta en SPSS:**  
   `Analizar` $\rightarrow$ `Pruebas no paramétricas` $\rightarrow$ `Cuadros de diálogo heredados` $\rightarrow$ `Chi-cuadrado...`
 * **Variable de prueba:** `segundo_digito`
-* **Valores esperados:** Ingresar la distribución teórica de Benford 2BL ($d_2 \in \{0, 1, \dots, 9\}$).
+* **Valores esperados:** Ingresar la distribución teórica de Ley del segundo dígito de Mebane ($d_2 \in \{0, 1, \dots, 9\}$).
 
 ### 2.3 Tablas de Contingencia y Análsis por Día de la Semana en Consulados
 * **Objetivo:** Verificar la concentración de anomalías los Lunes ($58.5\%$) y Martes ($55.2\%$).

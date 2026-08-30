@@ -31,7 +31,7 @@
 6. 📐 **[DEMOSTRACION_IMPACTO_260K_VOTOS.md](file:///media/andrea-zabala-c/D%20A%20T%20A1/segundaVuelta/ENTREGABLES_FORENSES_E14/DEMOSTRACION_IMPACTO_260K_VOTOS.md)**  
    *Prueba matemática de que los 455,262 votos consulares representan el 175.1% del margen de victoria (260,000 votos).*
 7. 📊 **[ESTUDIO_ESTADISTICO_ANOMALIAS_CONSULADOS.md](file:///media/andrea-zabala-c/D%20A%20T%20A1/segundaVuelta/ENTREGABLES_FORENSES_E14/ESTUDIO_ESTADISTICO_ANOMALIAS_CONSULADOS.md)**  
-   *Prueba inferencial de hipótesis (Z = -56.96, p < 0.0001) y Ley de Benford (2do dígito - Mebane).*
+   *Prueba inferencial de hipótesis (Z = -56.96, p < 0.0001) y Ley del segundo dígito de Mebane.*
 8. 📄 **[REPORTE_CROSS_AUDITORIA_PRECONTEO_VS_E14.md](file:///media/andrea-zabala-c/D%20A%20T%20A1/segundaVuelta/ENTREGABLES_FORENSES_E14/REPORTE_CROSS_AUDITORIA_PRECONTEO_VS_E14.md)**  
    *Cruce de los 244,034 registros de preconteo contra los códigos QR y flujos de texto del PDF.*
 9. 📅 **[TABLA_DESGLOSE_POR_DIA_DE_LA_SEMANA.md](file:///media/andrea-zabala-c/D%20A%20T%20A1/segundaVuelta/ENTREGABLES_FORENSES_E14/TABLA_DESGLOSE_POR_DIA_DE_LA_SEMANA.md)**  

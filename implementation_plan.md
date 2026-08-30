@@ -10,7 +10,7 @@ El documento se titulará `DICTAMEN_PERICIAL_FORENSE_FINAL.md` y contendrá las 
 - Definición del alcance de la investigación (Auditoría a los repositorios de Delegados y Claveros).
 
 ### 2. Metodología Aplicada
-- Descripción de las herramientas utilizadas (`qpdf`, `pdfinfo`, `pdfimages`, algoritmos en Python para Ley de Benford (2do dígito - Mebane)).
+- Descripción de las herramientas utilizadas (`qpdf`, `pdfinfo`, `pdfimages`, algoritmos en Python para Ley del segundo dígito de Mebane).
 
 ### 3. Hallazgo I: Alteración digital Estructural (Inyección de Capas)
 - Explicación técnica de la anomalía XREF (15 objetos reportados vs 13 reales).
@@ -22,7 +22,7 @@ El documento se titulará `DICTAMEN_PERICIAL_FORENSE_FINAL.md` y contendrá las 
 - Evidencia de Evasión Forense: Eliminación deliberada de metadatos de tiempo (`CreationDate`, `ModDate`).
 
 ### 5. Hallazgo III: Correlación Estadística Matemática
-- Resultados de la prueba 2BL (Ley de Benford (2do dígito - Mebane) del Segundo Dígito).
+- Resultados de la prueba 2BL (Ley del segundo dígito de Mebane del Segundo Dígito).
 - Cómo el anomalía estructural documental se traduce en una anomalía estadística imposible de generar orgánicamente.
 
 ### 6. Conclusión Pericial

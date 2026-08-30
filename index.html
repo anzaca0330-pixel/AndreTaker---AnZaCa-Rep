@@ -18,6 +18,7 @@
       </a>
       <ul class="nav-links">
         <li><button class="nav-btn active" data-tab="tab-overview">Resumen & Scale</button></li>
+        <li><button class="nav-btn" data-tab="tab-retro-map">Mapa Retro</button></li>
         <li><button class="nav-btn" data-tab="tab-narrative">Historia & Anomalía</button></li>
         <li><button class="nav-btn" data-tab="tab-technical">Peritaje Técnico</button></li>
         <li><button class="nav-btn" data-tab="tab-legal">Legal & CIDH</button></li>
@@ -210,6 +211,75 @@
             </tr>
           </tbody>
         </table>
+      </div>
+    </section>
+
+    <!-- Tab 4.5: Retro Map -->
+    <section id="tab-retro-map" class="tab-content">
+      <h2 class="section-title">Mapa de Hallazgos: Senda de la Verdad (Modo Retro)</h2>
+      
+      <div class="retro-container">
+        <div class="retro-header">
+          <div class="retro-title-box">
+            <span class="retro-pixel-text">WORLD 1-1</span>
+            <span class="retro-pixel-text">SCORE: 0677000</span>
+          </div>
+          <div class="retro-inst">Haz clic en los mundos/nodos para mover a AndreTaker y desenterrar la evidencia.</div>
+        </div>
+        
+        <div class="retro-map-canvas-container">
+          <div class="retro-grid-bg"></div>
+          
+          <svg class="retro-paths" width="1200" height="500">
+            <path d="M 120,380 L 280,240 L 440,320 L 600,160 L 760,260 L 920,180 L 1080,300" class="path-line" />
+          </svg>
+          
+          <div class="retro-node active" style="left: 120px; top: 380px;" data-node="1" data-title="Los Ángeles: Anomalía Inicial" data-desc="Descubrimiento de la desviación estadística de preconteo en la 1ª Vuelta. p-value < 0.0001 (Benford).">
+            <span class="node-badge">1</span>
+            <span class="node-label">Los Ángeles</span>
+          </div>
+          
+          <div class="retro-node" style="left: 280px; top: 240px;" data-node="2" data-title="Asedio: Rootkit BIOS" data-desc="Inyección de Rootkit persistente a nivel de BIOS el 8 de junio de 2026. Salvaguarda de datos mediante esteganografía del sistema de archivos.">
+            <span class="node-badge">2</span>
+            <span class="node-label">Rootkit BIOS</span>
+          </div>
+          
+          <div class="retro-node" style="left: 440px; top: 320px;" data-node="3" data-title="Ataque Físico y 911" data-desc="Emboscada vehicular el 13 de junio de 2026 a las 11:01 PM. Llamada al 911 realizada por hijo de 10 años. Conector OBD-II (FIXD) auditado en taller Mitsubishi.">
+            <span class="node-badge">3</span>
+            <span class="node-label">Emboscada</span>
+          </div>
+          
+          <div class="retro-node" style="left: 600px; top: 160px;" data-node="4" data-title="Testigos Digitales" data-desc="Preservación del acervo de 121,960 actas de Delegados selladas con SHA-256 el 21 de junio de 2026 por 75,000 Testigos Digitales.">
+            <span class="node-badge">4</span>
+            <span class="node-label">Testigos</span>
+          </div>
+          
+          <div class="retro-node" style="left: 760px; top: 260px;" data-node="5" data-title="Exilio a Canadá" data-desc="Johannes cruza la frontera canadiense en Montreal-Trudeau (YUL) el 7 de agosto de 2026 bajo la excepción del STCA, resguardando la evidencia.">
+            <span class="node-badge">5</span>
+            <span class="node-label">Canadá YUL</span>
+          </div>
+          
+          <div class="retro-node" style="left: 920px; top: 180px;" data-node="6" data-title="Cicatriz XREF" data-desc="Detección pericial de la firma del proceso automatizado: delta constante de +2 objetos fantasma (15 declarados vs 13 reales) en el 100% de actas alteradas.">
+            <span class="node-badge">6</span>
+            <span class="node-label">Cicatriz XREF</span>
+          </div>
+
+          <div class="retro-node" style="left: 1080px; top: 300px;" data-node="7" data-title="Prueba Benford 2BL" data-desc="Demostración matemática final de varianza cero sintética y planchado estadístico. Benford 2BL p-value < 0.0001 en 451 mesas con 161 votos fijos clonados.">
+            <span class="node-badge">7</span>
+            <span class="node-label">Benford 2BL</span>
+          </div>
+          
+          <div id="retro-avatar" class="retro-avatar" style="left: 120px; top: 380px;">
+            <div class="avatar-sprite">👤</div>
+          </div>
+        </div>
+        
+        <div class="retro-dialog-box">
+          <div class="dialog-border">
+            <h3 id="dialog-title" class="pixel-font">Los Ángeles: Anomalía Inicial</h3>
+            <p id="dialog-content">Descubrimiento de la desviación estadística de preconteo en la 1ª Vuelta. p-value &lt; 0.0001 (Benford).</p>
+          </div>
+        </div>
       </div>
     </section>
 

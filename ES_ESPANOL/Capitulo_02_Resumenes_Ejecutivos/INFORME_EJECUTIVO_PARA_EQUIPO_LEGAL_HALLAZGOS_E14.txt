@@ -3,18 +3,18 @@
 **PARA:** Equipo Jurídico Defensor / Apoderado Judicial  
 **DE:** Andrea Zabala Cárcamo (Veeduría Ciudadana Principal - C.C. 43.925.102)  
 **FECHA:** 30 de Julio de 2026  
-**ASUNTO:** Síntesis Ejecutiva de Hallazgos Sintácticos, Descomposición de Capas e Inyecciones Descubiertas el 9 de Agosto de 2026 en 1ª y 2ª Vuelta, e Informe del Estado Actual del Procesamiento Masivo Nacional en Actas E-14.  
+**ASUNTO:** Síntesis Ejecutiva de Hallazgos Sintácticos, Descomposición de Capas e Inyecciones descubiertas entre el 30 y 31 de Julio de 2026 en 1ª y 2ª Vuelta, e Informe del Estado Actual del Procesamiento Masivo Nacional en Actas E-14.  
 **REFERENCIA INTERNACIONAL:** Medida Cautelar CIDH **`IACHR - 0000113728`**  
 
 ---
 
  📌 1. OBJETIVO DEL DOCUMENTO
 
-Este informe tiene como fin proveer a la representación legal el sustento técnico-pericial consolidado sobre las alteraciones descubiertas el 9 de Agosto de 2026 en la estructura interna de los archivos PDF de los formularios E-14 (tanto en **Primera Vuelta** como en **Segunda Vuelta**), para su incorporación en las acciones de impugnación electoral, demandas de nulidad o trámites ante organismos internacionales.
+Este informe tiene como fin proveer a la representación legal el sustento técnico-pericial consolidado sobre las alteraciones descubiertas entre el 30 y 31 de Julio de 2026 en la estructura interna de los archivos PDF de los formularios E-14 (tanto en **Primera Vuelta** como en **Segunda Vuelta**), para su incorporación en las acciones de impugnación electoral, demandas de nulidad o trámites ante organismos internacionales.
 
 ---
 
- 🔬 2. SÍNTESIS DE LOS DESCUBRIMIENTOS PERICIALES REALIZADOS EL 9 DE AGOSTO DE 2026
+ 🔬 2. SÍNTESIS DE LOS DESCUBRIMIENTOS PERICIALES REALIZADOS EL 30 DE JULIO DE 2026
 
  2.1. Descomposición de Capas Ocultas (`pdfimages` / `/XObject 12 0 R`)
 - Al descomprimir el flujo de comandos `/Contents` y extraer la secuencia gráfica interna de las actas E-14, se comprobó que el archivo PDF **no es una fotografía escaneada plana**, sino un **documento compuesto por capas superpuestas por separado**:

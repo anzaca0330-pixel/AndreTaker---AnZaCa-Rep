@@ -42,7 +42,7 @@ This demo is a window into a larger investigation covering:
 - >677 GB of preserved evidence across 3 physical vaults
 - >147,000 electoral documents rescued before server deletion
 - 439,623 raw E-14 PDFs in the forensic vault
-- 75,000 Digital Witnesses (Frente Digital 2026)
+- 75,000 Digital Witnesses (Testigos Digitales)
 - Built under 20 days of active cyber siege
 </DEMO_CONTEXT>
 

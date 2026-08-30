@@ -8,7 +8,7 @@
 
 ## 🧠 ¿Qué es AndreTaker — BabaYaga Core?
 
-Es un sistema forense de análisis de PDFs diseñado para detectar anomalías estructurales (XREF), Blind Masking, 1-Bit Flattening y manipulación estadística (Benford 2BL). Fue creado íntegramente por Andrea Zabala Cárcamo, sin dependencia de propiedad intelectual de terceros.
+Es un sistema forense de análisis de PDFs diseñado para detectar anomalías estructurales (XREF), Blind Masking, 1-Bit Flattening y manipulación estadística (Ley del segundo dígito de Mebane). Fue creado íntegramente por Andrea Zabala Cárcamo, sin dependencia de propiedad intelectual de terceros.
 
 ---
 
