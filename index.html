@@ -25,7 +25,7 @@
         <li><button class="nav-btn" data-tab="tab-simulator">Simulador Forense</button></li>
         <li><button class="nav-btn" data-tab="tab-legal">Legal & CIDH</button></li>
         <li><button class="nav-btn" data-tab="tab-donate" style="border-color: var(--accent-amber); color: var(--accent-amber); font-weight: 700;">💖 Apoyar</button></li>
-        <li><a href="chris_dashboard.html" class="nav-btn" style="border-color: var(--accent-purple); color: var(--accent-purple); text-decoration: none;">🛡️ Panel de Chris</a></li>
+        <li><button class="nav-btn" data-tab="tab-chris" style="border-color: var(--accent-purple); color: var(--accent-purple); font-weight: 700;">🛡️ Panel de Chris</button></li>
       </ul>
     </div>
   </header>
@@ -426,6 +426,68 @@
             <span style="color: var(--text-muted); font-size: 0.9rem;">Meta: Credenciales Profesionales GIAC / CHFI / Security+</span>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Tab 5.8: Chris Command Dashboard -->
+    <section id="tab-chris" class="tab-content">
+      <h2 class="section-title">🛡️ Comando de Seguridad — Chris Baez</h2>
+      <p style="color: var(--text-muted); font-size: 1.05rem; margin-bottom: 24px;">
+        Mando de Autodefensa Familiar & Gestión de Seguridad de Telecomunicaciones (T-Mobile).
+      </p>
+
+      <div class="grid-2">
+        <!-- Checklist T-Mobile -->
+        <div class="content-card">
+          <h3 style="color: var(--accent-cyan);">📋 Pasos de Bloqueo T-Mobile</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 6px;">
+            Haz clic en las casillas conforme vayas completando cada solicitud con el soporte de T-Mobile:
+          </p>
+
+          <div style="display: flex; flex-direction: column; gap: 10px; margin-top: 14px;">
+            <label style="display: flex; align-items: center; gap: 10px; padding: 10px; background: rgba(30, 41, 59, 0.6); border: 1px solid var(--border-card); border-radius: 6px; cursor: pointer;">
+              <input type="checkbox"> <span><strong>1. Activar Port-Out Block:</strong> Prohibir portabilidad sin PIN presencial.</span>
+            </label>
+            <label style="display: flex; align-items: center; gap: 10px; padding: 10px; background: rgba(30, 41, 59, 0.6); border: 1px solid var(--border-card); border-radius: 6px; cursor: pointer;">
+              <input type="checkbox"> <span><strong>2. Solicitar Registros CDR:</strong> Reporte de llamadas de líneas (434).</span>
+            </label>
+            <label style="display: flex; align-items: center; gap: 10px; padding: 10px; background: rgba(30, 41, 59, 0.6); border: 1px solid var(--border-card); border-radius: 6px; cursor: pointer;">
+              <input type="checkbox"> <span><strong>3. Requerir IMEIs Destino:</strong> Equipos que recibieron desviaciones.</span>
+            </label>
+            <label style="display: flex; align-items: center; gap: 10px; padding: 10px; background: rgba(30, 41, 59, 0.6); border: 1px solid var(--border-card); border-radius: 6px; cursor: pointer;">
+              <input type="checkbox"> <span><strong>4. Cambiar Clave Maestra:</strong> Actualizar contraseña de T-Mobile.</span>
+            </label>
+            <label style="display: flex; align-items: center; gap: 10px; padding: 10px; background: rgba(30, 41, 59, 0.6); border: 1px solid var(--border-card); border-radius: 6px; cursor: pointer;">
+              <input type="checkbox"> <span><strong>5. Desactivar Roaming Raro:</strong> Bloquear consumo en celdas dudosas.</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Virginia Cloned Lines Overview -->
+        <div class="content-card" style="border-color: var(--accent-red);">
+          <h3 style="color: var(--accent-red);">⚠️ Mapeo de Líneas Clónicas (Virginia 434)</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 6px; margin-bottom: 14px;">
+            Líneas virtuales asociadas fraudulentamente a la cuenta durante el asedio:
+          </p>
+
+          <div style="background: rgba(15, 23, 42, 0.9); border-left: 4px solid var(--accent-red); padding: 12px; border-radius: 6px; margin-bottom: 10px;">
+            <strong style="color: var(--accent-red);">(434) 466-8360</strong> — <em>Hub Central Identificado</em>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px;">Llamadas internacionales no autorizadas y triangulación de celdas.</p>
+          </div>
+
+          <div style="background: rgba(15, 23, 42, 0.9); border-left: 4px solid var(--accent-amber); padding: 12px; border-radius: 6px;">
+            <strong style="color: var(--accent-amber);">(434) 466-XXXX (4 Líneas Adicionales)</strong>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px;">Dadas de alta en masa durante junio de 2026.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Encouragement Banner -->
+      <div class="content-card" style="margin-top: 24px; text-align: center; background: linear-gradient(135deg, rgba(15, 23, 42, 0.9), rgba(168, 85, 247, 0.2)); border-color: var(--accent-purple);">
+        <h3 style="color: var(--accent-purple); font-size: 1.3rem;">❤️ Reconocimiento y Resguardo</h3>
+        <p style="color: var(--text-main); font-size: 1rem; max-width: 800px; margin: 10px auto 0;">
+          "Gracias Chris por tu esfuerzo incansable, por cada llamada realizada y por cuidar a la familia. La evidencia está protegida, los datos son inmutables y no están solos."
+        </p>
       </div>
     </section>
 
