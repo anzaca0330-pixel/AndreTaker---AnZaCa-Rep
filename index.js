@@ -82,22 +82,28 @@ document.addEventListener('DOMContentLoaded', () => {
       alert("Tu navegador no soporta síntesis de voz.");
       return;
     }
-    window.speechSynthesis.cancel();
     
-    const lang = targetLang || document.documentElement.lang || 'es-ES';
+    window.speechSynthesis.cancel();
+    if (window.speechSynthesis.paused) {
+      window.speechSynthesis.resume();
+    }
+    
+    const lang = targetLang || 'es-ES';
     const profile = VOICE_PROFILES[agentKey] || VOICE_PROFILES.andretaker;
     
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.pitch = profile.pitch;
     utterance.rate = profile.rate;
     utterance.lang = lang;
+    utterance.volume = 1.0;
     
     const voices = window.speechSynthesis.getVoices();
-    const langPrefix = lang.split('-')[0].toLowerCase();
-    const matchedVoice = voices.find(v => v.lang.toLowerCase().startsWith(langPrefix));
-    
-    if (matchedVoice) {
-      utterance.voice = matchedVoice;
+    if (voices && voices.length > 0) {
+      const langPrefix = lang.split('-')[0].toLowerCase();
+      const matchedVoice = voices.find(v => v.lang.toLowerCase().startsWith(langPrefix));
+      if (matchedVoice) {
+        utterance.voice = matchedVoice;
+      }
     }
     
     window.speechSynthesis.speak(utterance);
