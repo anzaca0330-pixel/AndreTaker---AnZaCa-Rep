@@ -77,8 +77,20 @@ document.addEventListener('DOMContentLoaded', () => {
     andretaker: { name: 'AndreTaker', pitch: 0.95, rate: 1.0, lang: 'es-ES' }
   };
 
-  // Multilingual voice profile mapping (Spanish, English, French)
+  // Multilingual voice profile mapping & Real Voice Audio for AndreTaker
   window.speakAgent = function(agentKey, text, targetLang) {
+    // Si es AndreTaker, reproducir el archivo de voz real grabado por Andrea (AnZaCa)
+    if (agentKey === 'andretaker') {
+      if (!window.andreTakerAudio) {
+        window.andreTakerAudio = new Audio('00_MUESTRAS_EVIDENCIA/VOCES/VOZ_OFICIAL_ANDRETAKER_ANZACA.mp3');
+      }
+      window.andreTakerAudio.currentTime = 0;
+      window.andreTakerAudio.play().catch(err => {
+        console.log("Error al reproducir audio grabado de AndreTaker:", err);
+      });
+      return;
+    }
+
     if (!('speechSynthesis' in window)) {
       alert("Tu navegador no soporta síntesis de voz.");
       return;
