@@ -73,6 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const VOICE_PROFILES = {
     babayaga: { name: 'Baba Yaga', pitch: 0.6, rate: 0.9, lang: 'es-ES' },
     tycho: { name: 'Tycho', pitch: 1.2, rate: 1.05, lang: 'es-ES' },
+    kepler: { name: 'Kepler', pitch: 1.05, rate: 0.98, lang: 'es-ES' },
     andretaker: { name: 'AndreTaker', pitch: 0.95, rate: 1.0, lang: 'es-ES' }
   };
 
