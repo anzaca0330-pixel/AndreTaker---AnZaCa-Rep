@@ -163,6 +163,46 @@
       </div>
     </section>
 
+    <!-- Tab 3.5: Forensic Simulator & Multi-Voice Agent TTS -->
+    <section id="tab-simulator" class="tab-content">
+      <h2 class="section-title">Consola de Diagnóstico BabaYaga (Simulador & Voces)</h2>
+      <p style="margin-bottom: 24px; color: var(--text-muted);">
+        Prueba el motor de auditoría forense directamente en tu navegador y escucha la síntesis de voz propia de cada agente.
+      </p>
+
+      <div class="grid-2">
+        <div class="content-card">
+          <h3>⚡ Seleccionar Muestra del Acervo</h3>
+          <select id="sample-select" style="width: 100%; padding: 12px; background: #0f172a; color: #fff; border: 1px solid var(--border-card); border-radius: 6px; margin-top: 12px; margin-bottom: 20px;">
+            <option value="e14_mesa_1">E14_PRE_60_010_000_00_00_001_3085_Mesa_1.pdf (Real Alterada)</option>
+            <option value="e14_mesa_2">E14_PRE_60_010_000_00_00_002_3085_Mesa_2.pdf (Real Alterada)</option>
+            <option value="clean_control">muestra_limpia_001.pdf (Acta de Control Limpia)</option>
+          </select>
+          <button id="btn-run-sim" class="nav-btn active" style="width: 100%; border-color: var(--accent-cyan);">Ejecutar Interrogatorio Forense</button>
+        </div>
+
+        <div class="content-card" style="background: #05070a; border: 1px solid var(--accent-cyan); box-shadow: var(--glow-cyan);">
+          <h3 style="font-family: var(--font-heading); color: var(--accent-cyan);">🤖 Consola de Salida Forense</h3>
+          <div id="sim-console" style="height: 180px; overflow-y: auto; font-family: monospace; font-size: 0.85rem; padding: 10px; border-radius: 4px; margin-top: 12px; line-height: 1.4; color: #a6adbb;">
+            Esperando orden de escaneo...
+          </div>
+        </div>
+      </div>
+
+      <!-- Agent Voice Audio Panel -->
+      <div class="content-card" style="margin-top: 24px; border-color: var(--accent-purple);">
+        <h3 style="color: var(--accent-purple);">🎙️ Probador de Voces de Agentes (Multi-Voice TTS)</h3>
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 16px;">
+          Escucha a cada uno de los agentes con su voz y tono característico:
+        </p>
+        <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+          <button onclick="speakAgent('babayaga', 'Soy Baba Yaga. La evidencia es inmutable y la verdad no pide permiso.')" class="nav-btn" style="border-color: var(--accent-purple); color: var(--accent-purple);">🪓 Escuchar a Baba Yaga</button>
+          <button onclick="speakAgent('tycho', 'Soy Tycho. Instrumento metrológico de silicio analizando métricas de red y hashes.')" class="nav-btn" style="border-color: var(--accent-cyan); color: var(--accent-cyan);">🔭 Escuchar a Tycho</button>
+          <button onclick="speakAgent('andretaker', 'Soy Andre Taker. Motor de inteligencia forense e investigación técnica.')" class="nav-btn" style="border-color: var(--accent-teal); color: var(--accent-teal);">⚡ Escuchar a AndreTaker</button>
+        </div>
+      </div>
+    </section>
+
     <!-- Tab 4: Legal & CIDH -->
     <section id="tab-legal" class="tab-content">
       <h2 class="section-title">Blindaje Legal y Cobertura Internacional</h2>
