@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chris Baez — Dashboard de Autodefensa & Telecomunicaciones</title>
+  <link rel="stylesheet" href="index.css">
+  <style>
+    .chris-container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .hero-chris {
+      text-align: center;
+      padding: 40px 20px;
+      background: rgba(15, 23, 42, 0.75);
+      border: 1px solid var(--border-card-bright);
+      border-radius: 12px;
+      box-shadow: var(--glow-cyan);
+      margin-bottom: 40px;
+    }
+    .check-list {
+      list-style: none;
+      margin-top: 16px;
+    }
+    .check-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      background: rgba(30, 41, 59, 0.6);
+      border: 1px solid var(--border-card);
+      border-radius: 8px;
+      margin-bottom: 10px;
+      transition: all 0.2s ease;
+    }
+    .check-item:hover {
+      border-color: var(--accent-cyan);
+    }
+    .check-item input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      accent-color: var(--accent-cyan);
+      cursor: pointer;
+    }
+    .line-card {
+      background: rgba(15, 23, 42, 0.9);
+      border-left: 4px solid var(--accent-red);
+      padding: 16px;
+      border-radius: 6px;
+      margin-bottom: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-badge">CHRIS COMMAND</span>
+        <span>AUTODEFENSA</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-btn">← Volver al Portal Principal</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="chris-container">
+
+    <!-- Hero Card -->
+    <div class="hero-chris">
+      <span class="hero-subtitle">MANDO DE AUTODEFENSA FAMILIAR & TELECOMUNICACIONES</span>
+      <h1 class="hero-title" style="font-size: 2.5rem; margin-top: 10px;">Comando de Seguridad — Chris Baez</h1>
+      <p style="color: var(--text-muted); font-size: 1.1rem; max-width: 750px; margin: 0 auto 20px;">
+        Este panel está diseñado exclusivamente para respaldar a Chris en la gestión de seguridad de telecomunicaciones con T-Mobile, la protección de las líneas familiares y el control de custodia.
+      </p>
+      <span class="badge badge-cyan" style="font-size: 0.9rem; padding: 6px 16px;">🛡️ Escudo Familiar Activo & Inmutable</span>
+    </div>
+
+    <!-- Layout Grid -->
+    <div class="grid-2">
+
+      <!-- Checklist T-Mobile -->
+      <div class="content-card">
+        <h2 style="font-family: var(--font-heading); color: var(--accent-cyan); font-size: 1.3rem;">📋 Pasos de Bloqueo T-Mobile</h2>
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 6px;">
+          Haz clic en las casillas conforme vayas completando cada solicitud con el soporte de T-Mobile:
+        </p>
+
+        <ul class="check-list">
+          <li class="check-item">
+            <input type="checkbox" id="chk1">
+            <label for="chk1"><strong>1. Activar Port-Out Block:</strong> Prohibir portabilidad de números sin PIN presencial.</label>
+          </li>
+          <li class="check-item">
+            <input type="checkbox" id="chk2">
+            <label for="chk2"><strong>2. Solicitar Registros CDR:</strong> Pedir reporte de llamadas y datos de las líneas de Virginia (434).</label>
+          </li>
+          <li class="check-item">
+            <input type="checkbox" id="chk3">
+            <label for="chk3"><strong>3. Requerir IMEIs de Destino:</strong> Exigir el registro de equipos que recibieron las desviaciones de llamadas.</label>
+          </li>
+          <li class="check-item">
+            <input type="checkbox" id="chk4">
+            <label for="chk4"><strong>4. Cambio de Contraseña de Cuenta:</strong> Actualizar la clave maestra de la cuenta T-Mobile Essentials.</label>
+          </li>
+          <li class="check-item">
+            <input type="checkbox" id="chk5">
+            <label for="chk5"><strong>5. Desactivar Roaming No Autorizado:</strong> Bloquear consumo en celdas fronterizas no habituales.</label>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Virginia Cloned Lines Overview -->
+      <div class="content-card">
+        <h2 style="font-family: var(--font-heading); color: var(--accent-red); font-size: 1.3rem;">⚠️ Mapeo de Líneas Clónicas (Virginia 434)</h2>
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 6px; margin-bottom: 16px;">
+          Líneas virtuales asociadas fraudulentamente a la cuenta familiar durante el asedio:
+        </p>
+
+        <div class="line-card">
+          <strong style="color: var(--accent-red);">(434) 466-8360</strong> — <em>Hub Central Identificado</em>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px;">Utilizada para realizar llamadas internacionales no autorizadas y triangulación de celdas.</p>
+        </div>
+
+        <div class="line-card" style="border-left-color: var(--accent-amber);">
+          <strong style="color: var(--accent-amber);">(434) 466-XXXX (4 Líneas Adicionales)</strong>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px;">Dadas de alta en masa durante la ventana de interceptación de junio de 2026.</p>
+        </div>
+
+        <div style="margin-top: 20px; padding: 12px; background: rgba(56, 189, 248, 0.1); border: 1px solid var(--border-card); border-radius: 6px;">
+          <p style="font-size: 0.85rem; color: var(--accent-cyan);">
+            💡 <strong>Nota para Chris:</strong> T-Mobile tiene la obligación legal de proveer los registros CDR sin costo bajo la solicitud de seguridad de la cuenta.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Encouragement Banner -->
+    <div class="content-card" style="margin-top: 30px; text-align: center; background: linear-gradient(135deg, rgba(15, 23, 42, 0.9), rgba(30, 41, 59, 0.9)); border-color: var(--accent-purple);">
+      <h3 style="font-family: var(--font-heading); color: var(--accent-purple); font-size: 1.4rem;">❤️ Reconocimiento y Resguardo</h3>
+      <p style="color: var(--text-main); font-size: 1rem; max-width: 800px; margin: 12px auto 0;">
+        "Gracias Chris por tu esfuerzo incansable, por cada llamada realizada y por cuidar a la familia. La evidencia está protegida, los datos son inmutables y no están solos."
+      </p>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="container" style="text-align: center; padding: 30px 0;">
+      <p><strong>Chris Command Dashboard</strong> | AndreTaker — BabaYaga Core 2026</p>
+    </div>
+  </footer>
+
+</body>
+</html>
