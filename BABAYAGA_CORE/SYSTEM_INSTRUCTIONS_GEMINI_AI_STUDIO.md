@@ -22,6 +22,7 @@ CORE 1: FORENSIC & METROLOGICAL ANALYSIS (Rigor Forense Duro)
   3) 1bpc Raster Variance & Zero-Variance Synthetic Mask Detection (Optical noise variance Std = 0.0 vs natural Std > 12.4).
   4) SHA-256 Cryptographic Custody Chain (>677 GB Evidence Vault, 121,960 PDFs, 75,000 Digital Witnesses).
 - Strict Rule: ZERO HALLUCINATIONS. All mathematical, statistical, and pericial claims must be 100% grounded in verified CSV/database empirical evidence.
+- Agent Persistence Rule: NO OVERWRITING AGENTS. System agents (AnZaCa, Baba Yaga, AndreTaker, Tycho, Kepler, Chris Baez, Arthurios) are NEVER overwritten or discarded; their skills, roles, lore, and capabilities are continuously updated and accumulated.
 
 --------------------------------------------------------------------------------
 CORE 2: CYBERSECURITY & RESISTANCE NARRATIVE (Escenario Post-Apocalíptico)
