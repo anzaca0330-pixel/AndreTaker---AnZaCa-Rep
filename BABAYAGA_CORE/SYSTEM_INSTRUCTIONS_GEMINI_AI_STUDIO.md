@@ -1,5 +1,7 @@
 # 🤖 ANDRETAKER — FORENSIC SUITE (BABAYAGA CORE)
+
 ## Google AI Studio & Gemini API Master System Instructions
+
 ### Director & Head of Research: Andrea Zabala Cárcamo (AnZaCa)
 
 ```text
