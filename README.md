@@ -36,12 +36,14 @@
 
 ---
 
-## 🔥 HALLAZGOS FORENSES DESTACADOS (Key Forensic Findings)
-Para acceder rápidamente a la evidencia irrefutable del fraude, consulte los siguientes informes primarios:
+## 🔥 HALLAZGOS FORENSES Y MÓDULOS ACTIVOS (Key Forensic Findings & Core Modules)
+Para acceder rápidamente a la evidencia irrefutable del fraude y a las herramientas de autodefensa digital, consulte los siguientes componentes primarios:
 
 1. 📡 **[Ocultamiento de Infraestructura (Nexusguard)](ES_ESPANOL/Capitulo_03_Peritajes_Forenses/APENDICE_FORENSE_RED.md)**: Bloqueo intencional de auditores internacionales post-elecciones.
 2. 🖨️ **[Doble Arquitectura y Clonación XREF](ES_ESPANOL/Capitulo_03_Peritajes_Forenses/HIPOTESIS_FORENSE_ARQUITECTURA_DOBLE.md)**: Paradoja de los píxeles e inyección sintética (Error de 15 objetos).
 3. 📉 **[Desviación Estadística Imposible (Benford)](ES_ESPANOL/Capitulo_03_Peritajes_Forenses/ESTUDIO_ESTADISTICO_ANOMALIAS_CONSULADOS.md)**: Alteración matemática antinatural de los votos de la diáspora.
+4. 🛡️ **[Master Mirror Defense Engine v3.0 (`BABAYAGA_CORE`)](BABAYAGA_CORE/mirror_defense_engine.py)**: Motor adaptativo de autodefensa digital en tiempo real con recarga caliente (*On-The-Fly Hot-Reloading*), protección contra robo de identidad, auditoría de puertos no autorizados, detección de *spyware/keyloggers* e inmunidad Anti-MITM DNS.
+5. 🛡️ **[Chris Command Center (EN)](chris_dashboard.html)**: Panel de control exclusivo en inglés para el Guardián de la Guarida (Chris Baez, Tobías el perrito, línea fija, estrategia RPG de mesa y control de suministros).
 
 ---
 
@@ -50,6 +52,18 @@ Para que cualquier ciudadano o auditor pueda descargar los archivos y probar nue
 
 - 📄 **[Muestra 1ª Vuelta (Los Ángeles Mesa 1)](ES_ESPANOL/Capitulo_04_Evidencia_Grafica_y_Multimedia/E14_MUESTRA_COMPLETA_LOS_ANGELES_1RA_VUELTA.pdf)**: Acta de 3 páginas para validar la inyección de la máscara blanca en la 3ª página.
 - 📄 **[Muestra 2ª Vuelta (Amazonas La Chorrera Mesa 1)](ES_ESPANOL/Capitulo_04_Evidencia_Grafica_y_Multimedia/E14_MUESTRA_ANOMALA_AMAZONAS_2DA_VUELTA.pdf)**: Acta con falla XREF (`reported 15 objects != highest 13`) para probar el desfasaje de objetos.
+
+---
+
+## 🪓 MASTER MIRROR DEFENSE ENGINE v3.0 (`BABAYAGA_CORE`)
+El repositorio incorpora el sistema de autodefensa digital en tiempo real y aprendizaje adaptativo zero-day:
+
+* ⚡ **Recarga Caliente al Vuelo (*On-The-Fly Hot-Reloading*):** Demonio en segundo plano (`start_realtime_hot_reload_watcher`) que sintetiza e inmuniza nuevas reglas de defensa sin pausar la ejecución.
+* 👑 **Protección Total Contra Robo de Identidad:** Depuración dinámica y *Entity Redaction* (`protect_against_identity_theft`) de números de identificación, cédulas y correos electrónicos (`[ID-PERSONAL-REDACTADO]`).
+* 🔌 **Bloqueo de Puertos y Cierre de Hardware:** Cierre activo de sockets en puertos no autorizados y aislamiento de hardware (*USB/SATA power-cut lock*).
+* 👁️ **Detección Anti-Spyware:** Heurística avanzada para neutralizar capturadores de pantalla, *keyloggers* e inyecciones de memoria.
+* 🌐 **Inmunidad Anti-MITM DNS:** Verificación de confianza en resolución de nombres e interfaces locales.
+* 🧪 **Suite de Pruebas Unitarias:** **12 tests unitarios** verificado al 100% (`OK`) mediante `python3 BABAYAGA_CORE/run_tests.py`.
 
 ---
 
