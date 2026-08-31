@@ -434,6 +434,42 @@ document.addEventListener('DOMContentLoaded', () => {
         ],
         counterSkill: 'btn-skill-babayaga',
         msg: '🪓 Baba Yaga purga la cicatriz XREF. La verdad binaria es inmutable.'
+      },
+      ci1: {
+        title: "Operación Evasiva I: Camuflaje Esteganográfico de Sistema",
+        threats: [
+          { name: 'Rastreador de Firma de Archivo', color: '#38bdf8', speed: 1.4 },
+          { name: 'Escaneo Estático de Metadatos', color: '#f59e0b', speed: 1.6 }
+        ],
+        counterSkill: 'btn-skill-andrea',
+        msg: '🎭 Camuflaje de Sistema de Archivos activado por Andrea ("Fotos de Cumpleaños"). Discos invisibles.'
+      },
+      ci2: {
+        title: "Operación Evasiva II: Bóveda Distribuida Air-Gapped",
+        threats: [
+          { name: 'Ataque Man-in-the-Middle ISP', color: '#ef4444', speed: 1.8 },
+          { name: 'Intercepción de Paquetes en Tránsito', color: '#a855f7', speed: 1.5 }
+        ],
+        counterSkill: 'btn-skill-kepler',
+        msg: '🌐 Bóveda Air-Gapped activada por Kepler. Evidencias replicadas fuera de red.'
+      },
+      ci3: {
+        title: "Operación Evasiva III: Paquetes Señuelo & Ruido Frecuencial",
+        threats: [
+          { name: 'Correlador Palantir Gotham', color: '#ef4444', speed: 1.9 },
+          { name: 'Supervisión de Tráfico de Red', color: '#ec4899', speed: 1.3 }
+        ],
+        counterSkill: 'btn-skill-tycho',
+        msg: '📡 Dispersión de paquetes señuelo por Tycho. Tráficos falsos despistan los nodos invasores.'
+      },
+      ci4: {
+        title: "Operación Evasiva IV: Hashing Dividido de Firma Múltiple",
+        threats: [
+          { name: 'Intento de Inyección de Hash Falso', color: '#ef4444', speed: 1.6 },
+          { name: 'Intrusión de Claves Privadas', color: '#f59e0b', speed: 1.7 }
+        ],
+        counterSkill: 'btn-skill-arthurios',
+        msg: '🔑 Arthurios divide los bloques de firma SHA-256. Cadena de custodia inviolable.'
       }
     };
 
@@ -571,5 +607,28 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btn-skill-babayaga')?.addEventListener('click', () => window.triggerSkill('XREF Ghost Purge (Baba Yaga)', 'babayaga', 'She is the reason monsters hide.'));
     document.getElementById('btn-skill-tycho')?.addEventListener('click', () => window.triggerSkill('Mod-12 Wave (Tycho)', 'tycho', 'LOOK BACK!'));
     document.getElementById('btn-skill-kepler')?.addEventListener('click', () => window.triggerSkill('Custody Lock (Kepler)', 'kepler', 'Cadena de custodia ISO 27037 blindada.'));
+
+    document.getElementById('btn-skill-harmony')?.addEventListener('click', () => {
+      if (!gameRunning) {
+        if (overlayMsg) overlayMsg.innerText = '👉 Inicia la simulación primero con el botón rojo!';
+        return;
+      }
+      // Supernova explosion of all colors
+      createExplosion(canvas.width / 2, canvas.height / 2, '#f59e0b');
+      createExplosion(canvas.width / 3, canvas.height / 3, '#06b6d4');
+      createExplosion(2 * canvas.width / 3, 2 * canvas.height / 3, '#a855f7');
+      threats.forEach(t => createExplosion(t.x, t.y, '#f59e0b'));
+      threats = [];
+      shield = 100;
+      if (shieldVal) shieldVal.innerText = '100% SUPREMO';
+      if (overlayMsg) overlayMsg.innerText = '🔥 ALIANZA SUPREMA — Armonía del Equipo Completo desplegada. "Hell knows my name, but it couldn\'t take my soul!"';
+      
+      // Reproducir el Himno Supremo del Equipo Completo
+      if (!window.masterSquadAudio) {
+        window.masterSquadAudio = new Audio('assets/images/VOICE_CLIP_ARTHURIOS.mp3');
+      }
+      window.masterSquadAudio.currentTime = 0;
+      window.masterSquadAudio.play().catch(e => {});
+    });
   }
 });
