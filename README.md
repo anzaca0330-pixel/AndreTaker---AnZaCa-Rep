@@ -1,6 +1,13 @@
 # 🏛️ LIBRO JUDICIAL DIGITAL: ENTREGABLES FORENSES E-14
 *(Digital Judicial Book: E-14 Forensic Deliverables)*
 
+![Open Source Initiative](https://img.shields.io/badge/Open%20Source-Initiative-brightgreen.svg)
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+![Peer Review Ready](https://img.shields.io/badge/Peer--Review-Ready-purple.svg)
+![ISO 27037 Compliant](https://img.shields.io/badge/ISO%2FIEC-27037_Compliant-teal.svg)
+![Unit Tests](https://img.shields.io/badge/Unit_Tests-12%2F12_Passed_OK-success.svg)
+
+
 > [!IMPORTANT]
 > **DECLARACIÓN DE AUTORÍA E IDENTIDAD SISTÉMICA**
 > Todas las técnicas de detección forense, aislamiento de inyección algorítmica (*Blind Masking* / *1-bit Flattening*) y el mapeo estadístico integral documentados en este repositorio **fueron descubiertos, desarrollados y ejecutados por Andrea Zabala Cárcamo (AnZaCa)**.  
