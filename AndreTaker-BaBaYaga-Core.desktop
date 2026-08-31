@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=AndreTaker — BaBaYaga Core
+Comment=Motor de Ciberseguridad, Peritaje Legal & Juego Tactico EdTech
+Exec=google-chrome --app=file:///home/andrea-zabala-c/AndreTaker---AnZaCa-Rep/index.html --user-data-dir=/home/andrea-zabala-c/.babayaga_pwa_profile
+Icon=/home/andrea-zabala-c/AndreTaker---AnZaCa-Rep/assets/images/andretaker_unbroken_cover.png
+Terminal=false
+Categories=Security;Development;
