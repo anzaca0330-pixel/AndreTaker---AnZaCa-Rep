@@ -868,4 +868,126 @@ document.addEventListener('DOMContentLoaded', () => {
     
     alert('✅ PROTOCOLO DE REACTIVACIÓN ADMIN COMPLETADO:\n\nSesión de Superusuario AnZaCa activada en el navegador local y en la nube. Token SHA-256 inmutable guardado.');
   };
+
+  // =========================================================
+  // 🎮 GUARDIANES DIGITALES — JUEGO TÁCTICO DE CIBERDEFENSA
+  // =========================================================
+  const GAME_THREATS = [
+    {
+      id: 'phishing',
+      icon: '🎣',
+      title: 'Ataque de Phishing (Correo Falso)',
+      desc: 'Un atacante envía un mensaje falso pidiendo tus contraseñas diciendo ser tu escuela o banco. ¿Qué escudo usamos?',
+      correctShield: 'phishing',
+      lesson: '💡 LECCIÓN APRENDIDA: ¡Excelente! Arthurios nos enseña que nunca debemos hacer clic en enlaces raros ni entregar contraseñas. Siempre verifica el remitente.',
+      wrongLesson: '⚠️ ATENCIÓN: El Phishing busca engañar a las personas. El mejor escudo es el de Arthurios: ¡verificar el enlace antes de hacer clic!'
+    },
+    {
+      id: 'xref',
+      icon: '👾',
+      title: 'Inyección de Falsificación de Archivos (XREF Corruptor)',
+      desc: 'Un intromisor altera la estructura interna de un archivo PDF para cambiar los datos del preconteo. ¿Cómo detectamos el cambio?',
+      correctShield: 'xref',
+      lesson: '💡 LECCIÓN APRENDIDA: ¡Extraordinario! Tycho utiliza las firmas criptográficas SHA-256. Si un solo byte cambia, el Hash SHA-256 cambia por completo.',
+      wrongLesson: '⚠️ ATENCIÓN: Cuando alguien altera un archivo, el escudo correcto es la Firma SHA-256 de Tycho para verificar su huella inalterada.'
+    },
+    {
+      id: 'ports',
+      icon: '🚪',
+      title: 'Escaneo de Puertos no Autorizado (Intrusión en Red)',
+      desc: 'Un escáner externo busca puertos abiertos en la red local para colar programas espía. ¿Cómo protegemos la casa?',
+      correctShield: 'ports',
+      lesson: '💡 LECCIÓN APRENDIDA: ¡Gran jugada táctica! Chris y Tobías el perrito vigilan el puerto de la casa con un Firewall que bloquea conexiones desconocidas.',
+      wrongLesson: '⚠️ ATENCIÓN: Para proteger las conexiones de red, el Firewall de Chris y Tobías bloquea cualquier puerto no autorizado.'
+    },
+    {
+      id: 'spyware',
+      icon: '🕷️',
+      title: 'Keylogger / Spyware en Segundo Plano',
+      desc: 'Un programa malicioso intenta ocultarse en la memoria para registrar lo que escribes en el teclado. ¿Cómo lo desarmamos?',
+      correctShield: 'spyware',
+      lesson: '💡 LECCIÓN APRENDIDA: ¡Impecable! Baba Yaga descompila los flujos de memoria en segundo plano y purga cualquier proceso espía de inmediato.',
+      wrongLesson: '⚠️ ATENCIÓN: Los programas espía se esconden en segundo plano. El descompilador de Baba Yaga es el único capaz de purgarlos.'
+    }
+  ];
+
+  let currentThreatIndex = 0;
+  let gameScore = 0;
+  let gameHealth = 100;
+  let gameStreak = 1;
+
+  window.playCyberDefenseTurn = function(selectedShield) {
+    const currentThreat = GAME_THREATS[currentThreatIndex];
+    const feedbackEl = document.getElementById('game-feedback');
+    const scoreEl = document.getElementById('game-score');
+    const healthEl = document.getElementById('game-health');
+    const streakEl = document.getElementById('game-streak');
+
+    if (!feedbackEl) return;
+
+    if (selectedShield === currentThreat.correctShield) {
+      gameScore += 100 * gameStreak;
+      gameStreak++;
+      feedbackEl.style.display = 'block';
+      feedbackEl.style.background = 'rgba(34, 197, 94, 0.2)';
+      feedbackEl.style.border = '1px solid #22c55e';
+      feedbackEl.style.color = '#4ade80';
+      feedbackEl.innerHTML = `<strong>🎉 ¡DEFENSA EXITOSA! (+${100 * (gameStreak-1)} PTS)</strong><br>${currentThreat.lesson}`;
+    } else {
+      gameHealth = Math.max(0, gameHealth - 15);
+      gameStreak = 1;
+      feedbackEl.style.display = 'block';
+      feedbackEl.style.background = 'rgba(239, 68, 68, 0.2)';
+      feedbackEl.style.border = '1px solid #ef4444';
+      feedbackEl.style.color = '#f87171';
+      feedbackEl.innerHTML = `<strong>💥 LA AMENAZA SUPERÓ EL ESCUDO (-15% SALUD)</strong><br>${currentThreat.wrongLesson}`;
+    }
+
+    if (scoreEl) scoreEl.innerText = `${gameScore} PTS`;
+    if (healthEl) {
+      healthEl.innerText = `${gameHealth}%`;
+      healthEl.style.color = gameHealth > 50 ? 'var(--accent-cyan)' : '#f87171';
+    }
+    if (streakEl) streakEl.innerText = `⚡ x${gameStreak}`;
+
+    // Siguiente amenaza
+    currentThreatIndex = (currentThreatIndex + 1) % GAME_THREATS.length;
+    setTimeout(() => {
+      const nextThreat = GAME_THREATS[currentThreatIndex];
+      const iconEl = document.getElementById('threat-icon');
+      const titleEl = document.getElementById('threat-title');
+      const descEl = document.getElementById('threat-desc');
+
+      if (iconEl) iconEl.innerText = nextThreat.icon;
+      if (titleEl) titleEl.innerText = nextThreat.title;
+      if (descEl) descEl.innerText = nextThreat.desc;
+    }, 2500);
+  };
+
+  // 🤖 CONSULTORÍA DIDÁCTICA IA DE CIBERSEGURIDAD
+  window.askAICyberQuestion = function() {
+    const inputEl = document.getElementById('ai-cyber-input');
+    const responseEl = document.getElementById('ai-cyber-response');
+
+    if (!inputEl || !responseEl) return;
+    const q = inputEl.value.trim().toLowerCase();
+    if (!q) return;
+
+    responseEl.style.display = 'block';
+    responseEl.innerHTML = '⚡ <em>Arthurios y Tycho están procesando tu pregunta con la IA...</em>';
+
+    setTimeout(() => {
+      let answer = '';
+      if (q.includes('contraseña') || q.includes('password')) {
+        answer = '<strong>🗡️ Arthurios responde:</strong> ¡Una contraseña segura es como un candado mágico! Debe tener letras mayúsculas, números y símbolos (ej: <code>A3j3dr3z#2026</code>), y nunca debes usar la misma contraseña en dos lugares.';
+      } else if (q.includes('virus') || q.includes('malware') || q.includes('phishing')) {
+        answer = '<strong>🛡️ Chris & Tobías responden:</strong> Un Virus o Phishing es como un intruso que intenta meterse a tu casa con una llave falsa. Para evitarlo: nunca abras archivos adjuntos de desconocidos y mantén tu navegador actualizado.';
+      } else if (q.includes('hash') || q.includes('sha') || q.includes('tycho')) {
+        answer = '<strong>🔭 Tycho responde:</strong> Un Hash SHA-256 es una huella digital matemática única. Si cambias incluso un punto en un libro de 500 páginas, la huella digital cambia por completo, alertándonos del fraude.';
+      } else {
+        answer = `<strong>⚡ El Squad responde:</strong> ¡Excelente pregunta sobre "${inputEl.value}"! En ciberseguridad, la mejor regla de oro es: <em>Verificar siempre antes de confiar, cuidar tus datos personales y trabajar en equipo.</em>`;
+      }
+      responseEl.innerHTML = answer;
+    }, 800);
+  };
 });
