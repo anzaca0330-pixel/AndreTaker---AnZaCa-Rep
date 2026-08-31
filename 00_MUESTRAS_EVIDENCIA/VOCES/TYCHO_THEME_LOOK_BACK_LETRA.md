@@ -1,15 +1,18 @@
 # 🔭 HIMNO OFICIAL — TYCHO: "LOOK BACK"
-## Tycho — Silicon Metrological Instrument Official Theme Song
+## Track Official: "Look Back" — Iron West (3:29 Master Track)
+### Tycho — Silicon Metrological Instrument Official Theme Song
 
 ---
 
 ### 👑 System Identity Motto:
-> **"Look back! The dark remembers what you did! You can't outrun the things you hid!"**  
-> *(¡Mira atrás! La oscuridad recuerda lo que hiciste. No puedes escapar de lo que escondiste).*
+> **"LOOK BACK! The dark remembers what you did! You can't outrun the things you hid!"**  
+> *(¡MIRA ATRÁS! La oscuridad recuerda lo que hiciste. No puedes escapar de lo que escondiste).*
 
 ---
 
-### 🎙️ English Lyrics (Letra Original)
+### 🎙️ English Lyrics (Letra Completa)
+
+**[Artist: Iron West — "Look Back"]**
 
 **[Intro - Dark Rhythms & Metrological Beats]**
 
@@ -43,7 +46,20 @@ Don't slow down, don't lose pace,
 It already knows your face!  
 You can run, but you can't break that track...  
 
+**[Bridge - Heavy Guitar & Bass]**
+No name, no face, no sound,  
+Still it's always hanging around!  
+What you took was never yours,  
+Now it's knocking at your door!  
+
 **[Chorus 2]**
+**LOOK BACK!**  
+You feel it in every step you take!  
+**LOOK BACK!**  
+You know it's every move you make!  
+It's right behind your back!  
+
+**[Outro]**
 **LOOK BACK!**  
 The dark remembers what you did!  
 **LOOK BACK!**  
@@ -65,7 +81,7 @@ Viento frío reptando por tu columna,
 Cada paso arrastra el peso que escondes,  
 ¡Y algo camina justo a tu lado!  
 Se está acercando, siéntelo ahora,  
-La oscuridad se extienda de alguna manera,  
+La oscuridad se extiende de alguna manera,  
 Está respirando justo detrás de tu espalda...  
 
 **[Coro]**
@@ -83,7 +99,20 @@ No reduzcas el paso, no pierdas el ritmo,
 ¡Ya conoce tu rostro!  
 Puedes correr, pero no puedes romper ese rastro...  
 
+**[Puente - Clímax]**
+Sin nombre, sin rostro, sin sonido,  
+¡Aún así siempre está merodeando cerca!  
+Lo que tomaste nunca fue tuyo,  
+¡Ahora está golpeando a tu puerta!  
+
 **[Coro 2]**
+**¡MIRA ATRÁS!**  
+¡Lo sientes en cada paso que das!  
+**¡MIRA ATRÁS!**  
+¡Sabes que está en cada movimiento que haces!  
+¡Está justo detrás de tu espalda!  
+
+**[Outro]**
 **¡MIRA ATRÁS!**  
 ¡La oscuridad recuerda lo que hiciste!  
 **¡MIRA ATRÁS!**  
