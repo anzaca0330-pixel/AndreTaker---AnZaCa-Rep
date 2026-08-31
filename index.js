@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
     tycho: { name: 'Tycho', pitch: 1.25, rate: 1.05, slogan: "Look back! The dark remembers what you did.", lang: 'en-US' },
     kepler: { name: 'Kepler', pitch: 1.05, rate: 0.98, slogan: "Structuring the truth. Estrategia y cadena de custodia.", lang: 'es-CO' },
     andretaker: { name: 'AndreTaker', pitch: 0.95, rate: 1.0, slogan: "It's my turn! I'm unbroken!", lang: 'en-US' },
-    arturius: { name: 'Arturius el Integrador', pitch: 1.35, rate: 1.05, slogan: "¡Soy Arturius el Integrador! Protegiendo a la familia y la verdad. Ninguna voz será silenciada.", lang: 'es-CO' }
+    arthurios: { name: 'Arthurios', pitch: 1.35, rate: 1.05, slogan: "I am Arthurios! Protecting the family and the truth. No voice shall be silenced!", lang: 'en-US' }
   };
 
   window.playAgentCatchphrase = function(agentKey) {
