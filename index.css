@@ -192,12 +192,12 @@ header {
 
 /* Content Sections */
 .tab-content {
-  display: none;
+  display: none !important;
   animation: fadeIn 0.4s ease;
 }
 
 .tab-content.active {
-  display: block;
+  display: block !important;
 }
 
 @keyframes fadeIn {
