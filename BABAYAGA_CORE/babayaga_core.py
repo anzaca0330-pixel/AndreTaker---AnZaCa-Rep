@@ -286,6 +286,10 @@ def main():
     export_parser.add_argument('--caso', default='Caso General E14', help='Nombre del caso')
     export_parser.add_argument('--tipo', choices=['md', 'csv'], default='md', help='Formato de exportación')
     
+    # Subcomando: auto-sync-drive
+    drive_parser = subparsers.add_parser('auto-sync-drive', help='Escanea e indexa automáticamente un disco extraíble conectado manteniendo la cronología')
+    drive_parser.add_argument('--ruta', required=True, help='Ruta del disco montado (ej: /media/andrea-zabala-c/DISCO_BACKUP)')
+
     # Subcomando: ai-prompt
     subparsers.add_parser('ai-prompt', help='Muestra el System Prompt y la configuración del modelo de IA local (Ollama / AndreTaker)')
     
@@ -299,6 +303,10 @@ def main():
         comando_status(args.caso)
     elif args.command == 'export':
         comando_export(args.caso, args.tipo)
+    elif args.command == 'auto-sync-drive':
+        print(f"📡 ESCANEANDO E INDEXANDO DISCO EXTRAÍBLE EN: {args.ruta}")
+        print("🔒 Sellando hashes SHA-256 y concatenando al Registro Inmutable de Cronología...")
+        comando_scan(args.ruta, 'Respaldo Disco Extraíble', sync=False, lock=True)
     elif args.command == 'ai-prompt':
         from babayaga.core.intelligence import system_prompt
         print(system_prompt.get_system_prompt())
