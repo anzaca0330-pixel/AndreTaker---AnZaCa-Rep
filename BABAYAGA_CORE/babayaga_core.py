@@ -2,7 +2,7 @@
 # =========================================================
 # babayaga_core.py — AndreTaker / BabaYaga Core Engine v2.0
 # =========================================================
-# ECOSISTEMA MODULAR CON CONTROL DE CUSTODIA SQLITE Y PARSERS FALLBACKS
+# "She is the reason monsters hide." — Implacable Forensic Engine
 # =========================================================
 
 import os
