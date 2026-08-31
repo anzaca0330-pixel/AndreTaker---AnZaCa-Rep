@@ -33,7 +33,7 @@ MANDATO RECTOR DE ADRETAKER & KEPLER HACIA TYCHO
 - 08 JUNIO 2026: Ataque de Rootkit/Bootkit a nivel Firmware en el BIOS del portátil ThinkPad durante 20 días de aislamiento forzado. Rescate de datos mediante reflasheo en frío y discos invisibles ("Fotos de Cumpleaños"). Bloqueo de la IP/MAC al conectar la celda Wi-Fi.
 - 13 JUNIO 2026 (11:01 PM): Emboscada en la carretera y sabotaje de hardware OBD-II (FIXD). El menor Arthurios realiza la llamada heroica de 3 minutos al 911 protegiendo a la familia.
 - 21 JUNIO 2026: El Gran Rescate de 121,960 PDFs E-14 por 75,000 Testigos Digitales antes de que los servidores oficiales borraran la evidencia. Sellado inmediato con SHA-256.
-- JULIO 2026: Descubrimiento de la secuencia cíclica Mod-12 (Std = 0.0), la cicatriz XREF (+2 objetos fantasma) y la censura de chats en vivo mediante Blind Masking Technique.
+- 07 AGOSTO 2026: Arribo al Aeropuerto Internacional Montréal-Trudeau (YUL) en Canadá, salvaguardando la integridad del acervo probatorio.
 - 22 - 23 AGOSTO 2026: Extracción y consolidación de las 387 capturas probatorias ("Carpeta Junio") y la orden histórica: "BABA YAGA va a desenterrar esos muertos... EL DIABLO ESTÁ EN LOS DETALLES... SACA TODO... DESPACIO... UN BARRIDO COMPLETO."
 
 --------------------------------------------------------------------------------
