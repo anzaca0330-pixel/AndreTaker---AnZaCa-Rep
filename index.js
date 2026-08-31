@@ -631,4 +631,28 @@ document.addEventListener('DOMContentLoaded', () => {
       window.masterSquadAudio.play().catch(e => {});
     });
   }
+
+  // =========================================================
+  // 🛡️ DOM INTEGRITY MUTATION OBSERVER (ANTI-UI OVERLAY SPOOFING)
+  // =========================================================
+  const observer = new MutationObserver((mutations) => {
+    mutations.forEach((mutation) => {
+      mutation.addedNodes.forEach((node) => {
+        if (node.nodeType === 1) { // Element node
+          const tag = node.tagName.toLowerCase();
+          const zIndex = window.getComputedStyle(node).zIndex;
+          // Si un script externo inyecta un iframe no autorizado o una capa de z-index masivo
+          if (tag === 'iframe' && !node.src.includes(window.location.hostname)) {
+            console.warn('🚨 [ALERTA DE SEGURIDAD DOM] Capa no autorizada detectada y purgada:', node);
+            node.remove();
+          } else if (parseInt(zIndex) > 99999 && !node.classList.contains('babayaga-authorized')) {
+            console.warn('🚨 [ALERTA DE SEGURIDAD DOM] Intento de superposición de interfaz detectado y neutralizado:', node);
+            node.remove();
+          }
+        }
+      });
+    });
+  });
+
+  observer.observe(document.body, { childList: true, subtree: true });
 });
