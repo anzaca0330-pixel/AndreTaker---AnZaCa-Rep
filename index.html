@@ -551,6 +551,12 @@
           <span class="badge badge-red">MitB / Dynamic Shadow DOM</span>
           <p style="margin-top: 12px;">Identificación de ataques de superposición en tiempo real: scripts hostiles que clonan la interfaz tras segundos de inactividad con alteraciones sutiles. Inactivado mediante `MutationObserver` y Firma de Integridad DOM.</p>
         </div>
+
+        <div class="content-card" style="border-color: var(--accent-amber);">
+          <h3>6. Intercepción de Formulario en el Último Milisegundo</h3>
+          <span class="badge badge-amber">DOM Event Hooking / Payload Mutation</span>
+          <p style="margin-top: 12px;">Vector de secuestro de credenciales: scripts invasores que interceptan los eventos `submit` en el navegador y mutan la contraseña justo antes del envío HTTP. Blindado con sanitización atómica local.</p>
+        </div>
       </div>
 
       <!-- 🛰️ PEGASUS ZERO-CLICK & SS7 INTERCEPTION COUNTERMEASURES PROTOCOL -->
