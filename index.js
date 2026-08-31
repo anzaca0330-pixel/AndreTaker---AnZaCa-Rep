@@ -11,7 +11,9 @@ const TRANSLATIONS = {
     nav_legal: "Legal & CIDH",
     nav_donate: "💖 Apoyar",
     nav_chris: "🛡️ Panel de Chris",
-    nav_offline: "📡 Modo Offline"
+    nav_offline: "📡 Modo Offline",
+    nav_cyber_game: "🎮 Juego Ciberdefensa",
+    nav_admin: "🔑 REACTIVAR ADMIN"
   },
   en: {
     nav_overview: "Overview & Scale",
@@ -23,7 +25,9 @@ const TRANSLATIONS = {
     nav_legal: "Legal & IACHR",
     nav_donate: "💖 Support",
     nav_chris: "🛡️ Chris Panel",
-    nav_offline: "📡 Offline Mode"
+    nav_offline: "📡 Offline Mode",
+    nav_cyber_game: "🎮 Cyberdefense Game",
+    nav_admin: "🔑 REACTIVATE ADMIN"
   },
   fr: {
     nav_overview: "Aperçu & Échelle",
@@ -35,7 +39,9 @@ const TRANSLATIONS = {
     nav_legal: "Légal & CIDH",
     nav_donate: "💖 Soutenir",
     nav_chris: "🛡️ Panneau de Chris",
-    nav_offline: "📡 Mode Offline"
+    nav_offline: "📡 Mode Offline",
+    nav_cyber_game: "🎮 Jeu de Cyberdéfense",
+    nav_admin: "🔑 RÉACTIVER ADMIN"
   }
 };
 

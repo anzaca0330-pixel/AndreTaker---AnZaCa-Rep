@@ -4,12 +4,12 @@ A continuación se presentan las opciones de imagen disponibles para cada person
 
 ---
 
-## 1. Andrea (AnZaCa) — Directora & Perita Forense
+## 1. Andrea (AnZaCa) — Directora & Perita Forense ⭐ [SELECCIÓN OFICIAL]
 
-| Opción A (Clásica Ilustrada) | Opción B (Piel Clara & Cabello Rizado) |
+| Opción A (Clásica Ilustrada — Piel Clara & Selva Digital) ⭐ | Opción B (Rizado Oscuro) |
 | :---: | :---: |
 | ![Andrea Opción A](file:///home/andrea-zabala-c/.gemini/antigravity-ide/brain/54e5ac84-c084-4f46-8ebe-15f1295d8efc/anzaca_digging_e14_evidence_1788183548017.png) | ![Andrea Opción B](file:///home/andrea-zabala-c/.gemini/antigravity-ide/brain/54e5ac84-c084-4f46-8ebe-15f1295d8efc/anzaca_digging_e14_evidence_1788197048254.png) |
-| **Opción A:** Estilo cómic detallado en la selva cibernética. | **Opción B:** Piel clara, cabello rizado oscuro y metrología digital. |
+| **⭐ SELECCIONADA COMO OFICIAL:** Estilo cómic detallado, piel clara, desenterrando la evidencia E-14. | Opción B: Variante alternativa. |
 
 ---
 
