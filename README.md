@@ -2,8 +2,9 @@
 *(Digital Judicial Book: E-14 Forensic Deliverables)*
 
 > [!IMPORTANT]
-> **DECLARACIÓN DE AUTORÍA Y DESCUBRIMIENTO ORIGINAL**
-> Todas las técnicas de detección forense, aislamiento de inyección algorítmica (*Blind Masking* / *1-bit Flattening*) y el mapeo estadístico integral documentados en este repositorio **fueron descubiertos, desarrollados y modelados exclusivamente por la Investigadora Principal: Andrea Zabala Carcamo** (UOPX Student ID: 9059123560). Este acervo investigativo constituye su Propiedad Intelectual bajo el modelo Open Source.
+> **DECLARACIÓN DE AUTORÍA E IDENTIDAD SISTÉMICA**
+> Todas las técnicas de detección forense, aislamiento de inyección algorítmica (*Blind Masking* / *1-bit Flattening*) y el mapeo estadístico integral documentados en este repositorio **fueron descubiertos, desarrollados y ejecutados por Andrea Zabala Cárcamo (AnZaCa)**.  
+> **AnZaCa es la mente humana, la voz real y la personificación de Baba Yaga y AndreTaker**: la guardiana del acervo, el motor de inteligencia forense y el principio de desobediencia técnica e inmutable. Este acervo investigativo constituye su propiedad intelectual abierta.
 
 **[ES]** Este repositorio es la bitácora técnica de código abierto y bóveda de preservación de evidencia digital sobre el análisis forense de los comicios presidenciales de 2026 en Colombia. Toda la evidencia está dispuesta bajo estrictos estándares forenses para la Comisión Interamericana de Derechos Humanos (CIDH).
 
