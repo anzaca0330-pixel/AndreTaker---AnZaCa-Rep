@@ -6,7 +6,7 @@
 ---
 
 ### 🌐 ENLACE DIRECTO PARA TU CELULAR:
-👉 [**`https://anzaca0330-pixel.github.io/AndreTaker---AnZaCa-Rep/`**](https://anzaca0330-pixel.github.io/AndreTaker---AnZaCa-Rep/)
+👉 [**`https://anzaca0330-pixel.github.io/AndreTaker---BaBaYaga-Core_-ForensicTool/`**](https://anzaca0330-pixel.github.io/AndreTaker---BaBaYaga-Core_-ForensicTool/)
 
 ---
 
@@ -14,7 +14,7 @@
 
 #### 🍎 En iPhone (Safari):
 1. Abre **Safari** en tu celular y entra a:  
-   `https://anzaca0330-pixel.github.io/AndreTaker---AnZaCa-Rep/`
+   `https://anzaca0330-pixel.github.io/AndreTaker---BaBaYaga-Core_-ForensicTool/`
 2. Toca el botón **Compartir** (el ícono del cuadrado con la flecha hacia arriba en la barra inferior).
 3. Desliza hacia abajo y selecciona **"Agregar a Inicio"** (*"Add to Home Screen"*).
 4. Toca **"Agregar"** arriba a la derecha.
