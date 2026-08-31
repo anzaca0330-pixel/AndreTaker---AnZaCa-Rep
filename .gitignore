@@ -8,6 +8,9 @@ __pycache__/
 # Logs y bases de datos locales
 *.log
 *.sqlite3
+.env
+*.env
+
 
 # Archivos pesados que deben ir a LFS o Storage Externo (Mega/Drive)
 *.iso
