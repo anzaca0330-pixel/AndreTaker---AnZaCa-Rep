@@ -13,6 +13,10 @@
 > Para las herramientas de autodefensa cibernética, mitigación Anti-Palantir y el juego táctico *Guardianes Digitales*, visita el repositorio dedicado:  
 > 👉 **[AndreTaker-BabaYaga-Core-CyberDefense](https://github.com/anzaca0330-pixel/AndreTaker-BabaYaga-Core-CyberDefense)**
 
+> [!NOTE]
+> **🔌 GUÍA DE INTEGRACIÓN RÁPIDA PARA INVESTIGADORES & DESARROLLADORES DE IA**
+> ¿Quieres integrar BaBaYaga Core a tu propio agente de IA o código Python en 1 línea? Consulta la [Guía de Integración](03_DOCUMENTACION/INTEGRATION_GUIDE_FOR_RESEARCHERS.md).
+
 > [!IMPORTANT]
 > **DECLARACIÓN DE AUTORÍA E IDENTIDAD SISTÉMICA**
 > Todas las técnicas de detección forense, aislamiento de inyección algorítmica (*Blind Masking* / *1-bit Flattening*) y el mapeo estadístico integral documentados en este repositorio **fueron descubiertos, desarrollados y ejecutados por Andrea Zabala Cárcamo (AnZaCa)**.  
