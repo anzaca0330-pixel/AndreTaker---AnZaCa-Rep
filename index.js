@@ -380,6 +380,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const overlayMsg = document.getElementById('game-overlay-msg');
   const shieldVal = document.getElementById('game-shield-val');
   const btnStartGame = document.getElementById('btn-start-game');
+  const scenarioSelect = document.getElementById('game-scenario-select');
 
   if (canvas) {
     const ctx = canvas.getContext('2d');
@@ -388,16 +389,58 @@ document.addEventListener('DOMContentLoaded', () => {
     let threats = [];
     let particles = [];
 
-    const THREAT_TYPES = [
-      { name: 'Palantir Foundry Node', color: '#ef4444', speed: 1.2 },
-      { name: 'Pegasus SS7 Interceptor', color: '#f59e0b', speed: 1.8 },
-      { name: 'Kernel BIOS Rootkit', color: '#a855f7', speed: 1.5 },
-      { name: 'Synthetic Raster Mask', color: '#ec4899', speed: 1.0 }
-    ];
+    const SCENARIOS = {
+      sc1: {
+        title: "Escenario 1: Los Ángeles (Votos Clónicos & Benford 2BL)",
+        threats: [
+          { name: 'Inyección de Votos Clónicos (Mesa 001-013)', color: '#ef4444', speed: 1.3 },
+          { name: 'Algoritmo =REDONDEAR(total*0.70)', color: '#f59e0b', speed: 1.6 }
+        ],
+        counterSkill: 'btn-skill-tycho',
+        msg: 'Disonancia Z = -56.96 detectada por Tycho. Votos clónicos neutralizados.'
+      },
+      sc2: {
+        title: "Escenario 2: Asedio Cibernético (Rootkit ThinkPad BIOS)",
+        threats: [
+          { name: 'Firmware EEPROM Rootkit Vector', color: '#a855f7', speed: 1.7 },
+          { name: 'Aislamiento Forzado 20 Días', color: '#ec4899', speed: 1.2 }
+        ],
+        counterSkill: 'btn-skill-andretaker',
+        msg: 'Reflasheo de hardware en frío. AndreTaker activa Unbroken Flush.'
+      },
+      sc3: {
+        title: "Escenario 3: Emboscada Físico-Digital (Sabotaje & Llamada 911)",
+        threats: [
+          { name: 'Intrusión OBD-II (FIXD)', color: '#ef4444', speed: 2.0 },
+          { name: 'Recorte de Audio Sheriff (59s Δ)', color: '#f59e0b', speed: 1.8 }
+        ],
+        counterSkill: 'btn-skill-arthurios',
+        msg: '🛡️ ¡Arthurios despliega Barrier 911! "Mess with me and moma won\'t play nice!"'
+      },
+      sc4: {
+        title: "Escenario 4: El Gran Rescate (121,960 PDFs & SHA-256)",
+        threats: [
+          { name: 'Intento de Sobrescritura en Servidores', color: '#ef4444', speed: 1.4 },
+          { name: 'Borrado Masivo de Archivos Delegados', color: '#ec4899', speed: 1.5 }
+        ],
+        counterSkill: 'btn-skill-andrea',
+        msg: '75,000 Testigos Digitales activados. Escudo SHA-256 por Andrea sellado.'
+      },
+      sc5: {
+        title: "Escenario 5: La Melodía de las Máquinas (Mod-12 & Cicatriz XREF)",
+        threats: [
+          { name: 'Secuencia Cíclica Mod-12 (Std=0.0)', color: '#a855f7', speed: 1.5 },
+          { name: 'Objetos Fantasma XREF (+2 Delta)', color: '#ef4444', speed: 1.4 }
+        ],
+        counterSkill: 'btn-skill-babayaga',
+        msg: '🪓 Baba Yaga purga la cicatriz XREF. La verdad binaria es inmutable.'
+      }
+    };
 
     function spawnThreat() {
       if (!gameRunning) return;
-      const type = THREAT_TYPES[Math.floor(Math.random() * THREAT_TYPES.length)];
+      const currentSc = scenarioSelect ? (SCENARIOS[scenarioSelect.value] || SCENARIOS.sc1) : SCENARIOS.sc1;
+      const type = currentSc.threats[Math.floor(Math.random() * currentSc.threats.length)];
       threats.push({
         x: canvas.width + 20,
         y: Math.random() * (canvas.height - 60) + 30,
