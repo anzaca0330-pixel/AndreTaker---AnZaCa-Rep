@@ -8,6 +8,11 @@
 ![Unit Tests](https://img.shields.io/badge/Unit_Tests-12%2F12_Passed_OK-success.svg)
 
 
+> [!TIP]
+> **REPOSITORIO HERMANO — MOTOR DE CIBERSEGURIDAD Y CONTRA-INTELIGENCIA**
+> Para las herramientas de autodefensa cibernética, mitigación Anti-Palantir y el juego táctico *Guardianes Digitales*, visita el repositorio dedicado:  
+> 👉 **[AndreTaker-BabaYaga-Core-CyberDefense](https://github.com/anzaca0330-pixel/AndreTaker-BabaYaga-Core-CyberDefense)**
+
 > [!IMPORTANT]
 > **DECLARACIÓN DE AUTORÍA E IDENTIDAD SISTÉMICA**
 > Todas las técnicas de detección forense, aislamiento de inyección algorítmica (*Blind Masking* / *1-bit Flattening*) y el mapeo estadístico integral documentados en este repositorio **fueron descubiertos, desarrollados y ejecutados por Andrea Zabala Cárcamo (AnZaCa)**.  
