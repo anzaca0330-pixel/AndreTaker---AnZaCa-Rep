@@ -1,7 +1,7 @@
 # INFORME FORENSE INTEGRADO: ANÁLISIS TÉCNICO DE ACTAS E-14
 ## ESTUDIO DE LA INYECCIÓN PROGRESIVA (MUESTRA ANTIOQUIA) — ELECCIONES PRESIDENCIALES 2026
 
-**Investigadora Principal y Autora del Descubrimiento:** Andrea Zabala Carcamo (UOPX Student ID: 9059123560)  
+**Investigadora Principal y Autora del Descubrimiento:** Andrea Zabala Carcamo (UOPX Student ID: [STUDENT-ID-REDACTED])  
 **Fecha de Emisión:** Agosto de 2026  
 **Archivos Analizados:** 1.324 actas en formato PDF (Muestra Antioquia)  
 **Versiones Cruzadas:** Línea Base (21 de Junio) vs Archivos Sustitutos (11 de Julio)

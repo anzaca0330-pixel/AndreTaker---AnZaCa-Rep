@@ -14,7 +14,7 @@ def package_personal_case_folder():
     cheat_sheet_md = """# HOJA DE LECTURA RÁPIDA: LLAMADA A EXPRESSVPN / ASSURANT ($3,000,000 USD)
 
 **Beneficiaria Principal:** Andrea Zabala Carcamo (C.C. 43.925.102)  
-**Teléfono Gratuito de Atención:** 📞 **`+1-833-568-6249`**  
+**Teléfono Gratuito de Atención:** 📞 **`[PHONE-REDACTED]`**  
 **ID de Restauración de Identidad:** 🔑 **`[REST-ID-REDACTED]`**  
 **Proveedor del Seguro:** Assurant (a través de ExpressVPN+ Identity Defender)  
 

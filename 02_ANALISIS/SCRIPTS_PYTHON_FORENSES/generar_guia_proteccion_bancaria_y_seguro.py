@@ -23,7 +23,7 @@ En las capturas de tu cuenta de ExpressVPN+, tienes activo el seguro de robo de 
 ### 📋 Pasos para hacer la llamada de activación:
 
 1. **Llama al Centro de Atención Telefónica de EE.UU.:**  
-   📞 **`+1-833-568-6249`** (Llamada gratuita dentro de EE.UU. o a través de Skype / Google Voice).
+   📞 **`[PHONE-REDACTED]`** (Llamada gratuita dentro de EE.UU. o a través de Skype / Google Voice).
 2. **Entrega tu Número de Identificación de Restauración:**  
    🔑 **Restoration ID:** **`[REST-ID-REDACTED]`**
 3. **Solicita la Apertura de Expediente de Restauración:**  
@@ -75,7 +75,7 @@ Se trata de una técnica de **Contaminación de Registros Públicos (*Data Broke
 1. **Solicitud de Opt-Out / Removal por ExpressVPN:**  
    ExpressVPN Identity Defender ya tiene en proceso **16 solicitudes de remoción de datos activos**.
 2. **Exigencia de Disputa por Falsa Vinculación (*FCRA Dispute*):**  
-   En la llamada con **Assurant (+1-833-568-6249 / ID [REST-ID-REDACTED])**, debes indicar:  
+   En la llamada con **Assurant ([PHONE-REDACTED] / ID [REST-ID-REDACTED])**, debes indicar:  
    *"There is identity contamination on my public record profiles (Intelius/USSearch/PublicRecords) falsely linking unknown individuals and criminal records (such as Ricardo Dimailig) as my relatives. I demand an FCRA dispute and immediate removal of these fraudulent associations."*
 3. **Protección FCRA (Fair Credit Reporting Act):**  
    Bajo la ley federal FCRA de EE.UU., los agregadores de datos tienen un plazo legal de 30 días para eliminar o rectificar cualquier registro falso o impreciso de personas vinculadas a tu perfil.

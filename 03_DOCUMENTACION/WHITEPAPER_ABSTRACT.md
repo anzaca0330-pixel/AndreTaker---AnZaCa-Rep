@@ -1,6 +1,6 @@
 # Híbrido Detector Multicapas: Desensamblaje de Deepfakes Documentales a Escala Institucional
 
-**Investigadora Principal y Descubridora:** Andrea Zabala Carcamo (C.C. 43.925.102 | UOPX ID: 9059123560)  
+**Investigadora Principal y Descubridora:** Andrea Zabala Carcamo (C.C. 43.925.102 | UOPX ID: [STUDENT-ID-REDACTED])  
 **Afiliación:** Universidad de Phoenix (UOPX) - Prior Learning Assessment (PLA)  
 **Dominio:** Auditoría Forense, Ciberdefensa, Análisis Estadístico  
 **Fecha:** Agosto 2026  
