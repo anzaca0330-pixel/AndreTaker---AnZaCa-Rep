@@ -275,6 +275,26 @@
           </div>
 
         </div>
+
+        <!-- Dynamic Container for Custom User-Added Agents -->
+        <div id="custom-agents-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 16px;"></div>
+
+        <!-- Custom Agent Builder Form -->
+        <div style="margin-top: 24px; padding: 16px; background: rgba(2, 6, 23, 0.95); border: 2px dashed var(--accent-cyan); border-radius: 10px;">
+          <h4 style="color: var(--accent-cyan); font-size: 1.1rem; margin-bottom: 8px;">➕ Integrar Tu Propio Agente / Personalizar Investigador</h4>
+          <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 14px;">
+            Crea tu propio agente forense y unete formalmente al Roster de la Resistencia:
+          </p>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 14px;">
+            <input type="text" id="custom-investigator-name" placeholder="Tu Nombre / Alias (ej. Investigador Juan)" style="padding: 10px; background: #0f172a; color: #fff; border: 1px solid var(--border-card); border-radius: 6px; font-size: 0.85rem;">
+            <input type="text" id="custom-agent-name" placeholder="Nombre de tu Agente (ej. Agente Fénix)" style="padding: 10px; background: #0f172a; color: #fff; border: 1px solid var(--border-card); border-radius: 6px; font-size: 0.85rem;">
+            <input type="text" id="custom-agent-role" placeholder="Rol / Especialidad (ej. Auditor de Hashes)" style="padding: 10px; background: #0f172a; color: #fff; border: 1px solid var(--border-card); border-radius: 6px; font-size: 0.85rem;">
+            <input type="text" id="custom-agent-slogan" placeholder="Lema / Consigna (ej. La verdad no se borra)" style="padding: 10px; background: #0f172a; color: #fff; border: 1px solid var(--border-card); border-radius: 6px; font-size: 0.85rem;">
+          </div>
+
+          <button id="btn-create-custom-agent" class="nav-btn active" style="width: 100%; border-color: var(--accent-cyan); padding: 10px; font-weight: 800;">✨ Integrar Agente al Roster de la Resistencia</button>
+        </div>
       </div>
 
       <!-- The Team Table -->

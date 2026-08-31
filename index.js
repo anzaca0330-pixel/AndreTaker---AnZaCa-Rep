@@ -283,4 +283,88 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 1500);
     });
   };
+
+  // =========================================================
+  // CUSTOM AGENT BUILDER (INTEGRACIÓN DE AGENTE PERSONALIZADO)
+  // =========================================================
+  const btnCreateAgent = document.getElementById('btn-create-custom-agent');
+  const customContainer = document.getElementById('custom-agents-container');
+
+  function renderCustomAgentCard(agentObj) {
+    if (!customContainer) return;
+    const card = document.createElement('div');
+    card.style.background = 'rgba(2, 6, 23, 0.9)';
+    card.style.border = '2px solid var(--accent-cyan)';
+    card.style.borderRadius = '10px';
+    card.style.overflow = 'hidden';
+    card.style.display = 'flex';
+    card.style.flexDirection = 'column';
+    card.style.boxShadow = '0 0 15px rgba(6, 182, 212, 0.3)';
+    card.style.padding = '12px';
+
+    const safeKey = 'custom_' + agentObj.id;
+    VOICE_PROFILES[safeKey] = {
+      name: agentObj.agentName,
+      pitch: 1.0,
+      rate: 1.0,
+      slogan: agentObj.slogan,
+      lang: 'es-CO'
+    };
+
+    card.innerHTML = `
+      <div style="margin-bottom: 8px;">
+        <span class="badge badge-cyan">🔬 Investigador: ${agentObj.investigatorName}</span>
+      </div>
+      <h4 style="color: var(--accent-cyan); font-size: 1.05rem; margin-top: 4px;">${agentObj.agentName}</h4>
+      <p style="color: var(--text-muted); font-size: 0.8rem; margin-top: 4px;"><strong>Rol:</strong> ${agentObj.role}</p>
+      <p style="color: var(--text-main); font-size: 0.8rem; margin-top: 6px; font-style: italic;">"${agentObj.slogan}"</p>
+      <button onclick="speakAgent('${safeKey}', '${agentObj.slogan}', 'es-CO')" class="nav-btn" style="margin-top: 10px; border-color: var(--accent-cyan); color: var(--accent-cyan); padding: 6px; font-size: 0.8rem; width: 100%;">🔊 Escuchar ${agentObj.agentName}</button>
+    `;
+    customContainer.appendChild(card);
+  }
+
+  // Cargar agentes guardados
+  let savedAgents = [];
+  try {
+    savedAgents = JSON.parse(localStorage.getItem('babayaga_custom_agents')) || [];
+    savedAgents.forEach(renderCustomAgentCard);
+  } catch (e) {
+    console.log("No hay agentes personalizados previos.");
+  }
+
+  if (btnCreateAgent) {
+    btnCreateAgent.addEventListener('click', () => {
+      const invName = document.getElementById('custom-investigator-name').value.trim();
+      const agName = document.getElementById('custom-agent-name').value.trim();
+      const agRole = document.getElementById('custom-agent-role').value.trim();
+      const agSlogan = document.getElementById('custom-agent-slogan').value.trim();
+
+      if (!invName || !agName) {
+        alert("Por favor ingresa al menos tu nombre de investigador y el nombre de tu agente.");
+        return;
+      }
+
+      const newAgent = {
+        id: Date.now(),
+        investigatorName: invName,
+        agentName: agName,
+        role: agRole || 'Auditor Forense Independiente',
+        slogan: agSlogan || 'Verdad inmutable y cadena de custodia.'
+      };
+
+      savedAgents.push(newAgent);
+      try {
+        localStorage.setItem('babayaga_custom_agents', JSON.stringify(savedAgents));
+      } catch (e) {}
+
+      renderCustomAgentCard(newAgent);
+      speakAgent('custom_' + newAgent.id, newAgent.slogan, 'es-CO');
+
+      // Limpiar campos
+      document.getElementById('custom-investigator-name').value = '';
+      document.getElementById('custom-agent-name').value = '';
+      document.getElementById('custom-agent-role').value = '';
+      document.getElementById('custom-agent-slogan').value = '';
+    });
+  }
 });
