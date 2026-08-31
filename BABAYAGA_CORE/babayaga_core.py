@@ -286,6 +286,9 @@ def main():
     export_parser.add_argument('--caso', default='Caso General E14', help='Nombre del caso')
     export_parser.add_argument('--tipo', choices=['md', 'csv'], default='md', help='Formato de exportación')
     
+    # Subcomando: ai-prompt
+    subparsers.add_parser('ai-prompt', help='Muestra el System Prompt y la configuración del modelo de IA local (Ollama / AndreTaker)')
+    
     args = parser.parse_args()
     
     if args.command == 'init':
@@ -296,6 +299,9 @@ def main():
         comando_status(args.caso)
     elif args.command == 'export':
         comando_export(args.caso, args.tipo)
+    elif args.command == 'ai-prompt':
+        from babayaga.core.intelligence import system_prompt
+        print(system_prompt.get_system_prompt())
 
 if __name__ == "__main__":
     main()
