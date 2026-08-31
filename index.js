@@ -133,17 +133,37 @@ document.addEventListener('DOMContentLoaded', () => {
   // =========================================================
   // MULTI-AGENT VOICE SYNTHESIS (SÍNTESIS DE VOZ POR AGENTE)
   // =========================================================
+  // MULTI-AGENT VOICE PROFILES & SIGNATURE CATCHPHRASES
+  // =========================================================
   const VOICE_PROFILES = {
-    babayaga: { name: 'Baba Yaga', pitch: 0.6, rate: 0.9, lang: 'es-ES' },
-    tycho: { name: 'Tycho', pitch: 1.2, rate: 1.05, lang: 'es-ES' },
-    kepler: { name: 'Kepler', pitch: 1.05, rate: 0.98, lang: 'es-ES' },
-    andretaker: { name: 'AndreTaker', pitch: 0.95, rate: 1.0, lang: 'es-ES' }
+    babayaga: { name: 'Baba Yaga', pitch: 0.65, rate: 0.88, slogan: "She is the reason monsters hide. La evidencia es inmutable.", lang: 'es-ES' },
+    tycho: { name: 'Tycho', pitch: 1.25, rate: 1.05, slogan: "Look back! The dark remembers what you did.", lang: 'en-US' },
+    kepler: { name: 'Kepler', pitch: 1.05, rate: 0.98, slogan: "Structuring the truth. Estrategia y cadena de custodia.", lang: 'es-ES' },
+    andretaker: { name: 'AndreTaker', pitch: 0.95, rate: 1.0, slogan: "It's my turn! I'm unbroken!", lang: 'en-US' }
+  };
+
+  window.playAgentCatchphrase = function(agentKey) {
+    if (agentKey === 'andretaker' || agentKey === 'andrea') {
+      if (!window.andreTakerAudio) {
+        window.andreTakerAudio = new Audio('00_MUESTRAS_EVIDENCIA/VOCES/VOZ_OFICIAL_ANDRETAKER_ANZACA.mp3');
+      }
+      window.andreTakerAudio.currentTime = 0;
+      window.andreTakerAudio.play().catch(err => {
+        console.log("Audio grabado de AndreTaker:", err);
+      });
+      return;
+    }
+
+    const profile = VOICE_PROFILES[agentKey] || VOICE_PROFILES.andretaker;
+    window.speakAgent(agentKey, profile.slogan, profile.lang);
   };
 
   // Multilingual voice profile mapping & Real Voice Audio for AndreTaker
   window.speakAgent = function(agentKey, text, targetLang) {
-    // Si es AndreTaker, reproducir el archivo de voz real grabado por Andrea (AnZaCa)
-    if (agentKey === 'andretaker') {
+    // Si no se pasa texto, reproducir la consigna distintiva del agente
+    const textToSpeak = text || (VOICE_PROFILES[agentKey] ? VOICE_PROFILES[agentKey].slogan : "It's my turn!");
+
+    if (agentKey === 'andretaker' && (!text || text.trim() === '')) {
       if (!window.andreTakerAudio) {
         window.andreTakerAudio = new Audio('00_MUESTRAS_EVIDENCIA/VOCES/VOZ_OFICIAL_ANDRETAKER_ANZACA.mp3');
       }
@@ -164,10 +184,10 @@ document.addEventListener('DOMContentLoaded', () => {
       window.speechSynthesis.resume();
     }
     
-    const lang = targetLang || 'es-ES';
+    const lang = targetLang || (VOICE_PROFILES[agentKey] ? VOICE_PROFILES[agentKey].lang : 'es-ES');
     const profile = VOICE_PROFILES[agentKey] || VOICE_PROFILES.andretaker;
     
-    const utterance = new SpeechSynthesisUtterance(text);
+    const utterance = new SpeechSynthesisUtterance(textToSpeak);
     utterance.pitch = profile.pitch;
     utterance.rate = profile.rate;
     utterance.lang = lang;
