@@ -8,7 +8,7 @@
 
 ### 📋 APPLICANT DETAILS:
 * **Primary Claimant:** Andrea Zabala Cárcamo (DOB: [DD/MM/YYYY])
-* **Family Members:** Christopher Baez, Arthur (Minor)
+* **Dependent Minor (in Canada):** Arthur (Minor Son)
 * **UCI Number (if assigned):** [UCI-XXXXXXXX]
 * **Application / File Number:** [Application Number]
 * **Port of Entry:** Montréal-Trudeau International Airport (YUL POE) / Lacolle POE
@@ -20,9 +20,11 @@
 
 **Dear CBSA / IRCC Inland Asylum Processing Unit,**
 
-I am writing to formally provide an immediate **Notice of Change of Address** for myself and my family in accordance with refugee claimant reporting requirements, and to respectfully inquire about the issuance status of our **Acknowledgement of Claim (AOC)** document.
+I am writing to formally provide an immediate **Notice of Change of Address** for myself and my minor son (Arthur) in accordance with refugee claimant reporting requirements, and to respectfully inquire about the issuance status of our **Acknowledgement of Claim (AOC)** document.
 
 #### 📍 1. NEW UPDATED ADDRESS DETAILS:
+* **Primary Claimant:** Andrea Zabala Cárcamo
+* **Dependent Minor:** Arthur
 * **New Residential Address:** [Full New Street Address, Apartment #]
 * **City / Province / Postal Code:** [City, QC, Postal Code]
 * **Primary Contact Phone:** [Phone Number]
