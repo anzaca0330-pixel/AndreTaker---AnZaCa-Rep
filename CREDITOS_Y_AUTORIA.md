@@ -6,6 +6,7 @@ Este repositorio y la evidencia presentada son el resultado de la sinergia de di
 Toda la investigación pericial profunda, la decodificación de algoritmos criptográficos, el rastreo geográfico, la prueba estadística (Ley de Benford), la detección de la correlación y desajuste del nombre de archivo hexadecimal de 64 caracteres (SHA-256), el hallazgo fundacional de la anomalía `FlateDecode`, el aislamiento de capas (*Blind Masking*) y la inyección por *QR Spoofing* son propiedad intelectual y autoría exclusiva y total de:
 
 **AndreTaker AnZaCa (Primera Línea Digital)**  
+*La perita forense e investigadora principal. AndreTaker representa la identidad femenina de contra-inteligencia (el estado avanzado de Andrea / AnZaCa al invocar el poder analítico de Baba Yaga).*  
 *Con la asistencia del algoritmo de rastreo: Baba Yaga*
 
 ### Cronología de Hallazgos y Prioridad Intelectual:

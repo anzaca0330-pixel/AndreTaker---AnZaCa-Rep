@@ -28,6 +28,12 @@ Al hacer ingeniería inversa a los archivos PDF mediante herramientas de metrolo
 Mediante simulaciones de Monte Carlo y pruebas rigurosas de la Ley del segundo dígito de Mebane (2BL), demostramos que la distribución de los dígitos en las mesas alteradas **carece de entropía humana natural**.
 Los scripts en Python encontraron "melodías" (secuencias de números repetitivas) y bloques enteros de mesas donde la desviación estándar era 0 (un planchado estadístico), evidenciando que los votos fueron calculados por una fórmula matemática `=REDONDEAR(total * 0.70)` y posteriormente inyectados en la capa superior del PDF.
 
+### D. Intercepción de Telefonía, Ataques a Hardware y Sello Criptográfico en México (Julio - Agosto 2026)
+1. **Red Clónica de Telefonía (eSIM Hijacking / T-Mobile 102510185):** Identificación de 5 líneas paralelas virtuales con prefijo de Virginia (`434`) e intercepción saliente a Colombia (`+57`).
+2. **Sabotaje de Firmware BIOS y Rescate SATA:** Bloqueo de puertos USB neutralizado mediante la inyección manual de entropía en buffer de teclado por Andrea y Arturo utilizando el CD de instalación Xubuntu en bus SATA.
+3. **Sello Criptográfico Inmutable en México (15 de Julio de 2026):** Verificación del paquete `backup_20260715_1421.zip` que prueba la fecha de refugio diplomático en Ciudad de México e inmunización del acervo probatorio.
+4. **Protección de Defensores de Derechos Humanos (Anti-Palantir Protocol):** Implementación de mutación de hash SHA-256 (*padding* binario) y purga de Exif/*Noise Coordinates* para anular el perfilamiento masivo algorítmico contra activistas.
+
 ---
 
 ## 3. Conclusión y Solicitud

@@ -85,6 +85,17 @@ Para evadir la auditoría estructural, la Registraduría inyectó actas aparente
 
 To evade structural auditing, the Registry injected seemingly "clean" tally sheets without XREF scars. However, our Optical Variance and Thermal Noise Analysis proved that these images have backgrounds with a standard deviation mathematically equal to zero (`0.0000`) and Absolute White luminosity (`#FFFFFF`). This is physically impossible for an optical scanner capturing paper, proving that the documents were not scanned, but synthetically rendered and flattened from digital canvases.
 
+#### E. Evidencia Adicional de Ciberespionaje, Intercepción de Telefonía y Ataques a Hardware (Agosto 2026) / Additional Evidence of Cyber-Espionage, Telephony Hijacking, and Hardware Attacks (August 2026)
+1. **Suplantación de Firmas y QR (QR Spoofing Detector):** Demostrada la inyección de capas vectoriales (`/Do`, `/Paint`) y máscaras binarias de 1-bit (`/ImageMask true`) en las actas para alterar el escaneo de códigos QR y sustituir conteos originales.
+2. **Secuestro de Red Móvil y Red Clónica de Virginia (eSIM Hijacking / T-Mobile Account 102510185):** Identificada la activación no autorizada de 5 eSIMs virtuales con prefijo Virginia (`434`) y Hub central (`8360`) utilizadas para interceptar llamadas y realizar desvíos a números en Colombia (`+57`).
+3. **Firmware Sabotage, Rescate SATA & Sello Inmutable en México (15 de Julio de 2026):** Documentado el intento de corte de energía a puertos USB en early-boot, neutralizado mediante el uso del CD de instalación Xubuntu en bus SATA e inyección de entropía en buffer de teclado por Andrea Zabala y Arturo García. El paquete de respaldo `backup_20260715_1421.zip` certifica criptográficamente el trabajo de recuperación realizado el 15 de julio de 2026 durante el refugio diplomático en Ciudad de México.
+4. **Protección de Defensores de Derechos Humanos (Protocolo Anti-Palantir):** Despliegue del algoritmo de ceguera de grafos y mutación de hash SHA-256 para prevenir el perfilamiento masivo de activistas por parte de sistemas de inteligencia corporativa/estatal.
+
+1. **QR and Signature Spoofing (QR Spoofing Detector):** Demonstrated injection of vector layers (`/Do`, `/Paint`) and 1-bit binary masks (`/ImageMask true`) in tally sheets to alter QR code scans and overwrite original counts.
+2. **Mobile Network Hijacking & Virginia Clone Network (eSIM Hijacking / T-Mobile Account 102510185):** Identified unauthorized activation of 5 virtual eSIMs with Virginia prefix (`434`) and central Hub (`8360`) used to intercept calls and execute unauthorized redirects to Colombia (`+57`).
+3. **Firmware Sabotage, SATA Rescue & Immutable Seal in Mexico (July 15, 2026):** Documented early-boot USB power-cut attempt, neutralized using a Xubuntu Live CD on a SATA bus and keyboard buffer entropy injection by Andrea Zabala and Arturo Garcia. The backup archive `backup_20260715_1421.zip` cryptographically certifies the recovery work conducted on July 15, 2026 during diplomatic refuge in Mexico City.
+4. **Human Rights Defenders Protection (Anti-Palantir Protocol):** Deployment of graph-blinding and SHA-256 hash mutation algorithms to prevent mass profiling of activists by corporate/state intelligence engines.
+
 ---
 
 ### IV. ADMISIBILIDAD: EXCEPCIÓN AL AGOTAMIENTO DE RECURSOS INTERNOS / ADMISSIBILITY: EXCEPTION TO EXHAUSTION OF DOMESTIC REMEDIES
