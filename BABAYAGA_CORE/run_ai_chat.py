@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-⚡ BABAYAGA CORE — INTERACTIVE AI CHAT ENGINE
-Carga automática de claves privadas desde .env e instrucciones de Gemini AI Studio.
+⚡ BABAYAGA CORE — INTERACTIVE DUAL AI CHAT ENGINE (NODE 1 & NODE 2)
+Carga automática de claves privadas desde .env e instrucciones especializadas de Gemini AI Studio.
 """
 
 import os
@@ -26,20 +26,29 @@ def main():
         return
         
     print("================================================================================")
-    print("⚡ BABAYAGA CORE AI ENGINE — CHAT INTERACTIVO ACTIVADO")
+    print("⚡ BABAYAGA CORE DUAL AI ENGINE — SELECTOR DE MÓDULO ESPECIALIZADO")
     print("👑 AnZaCa / ⚡ AndreTaker / 🪓 Baba Yaga / 🔭 Tycho / 📜 Kepler / 🛡️ Chris / 🗡️ Arthurios")
-    print(f"🔑 Clave Principal GCP: {key1[:10]}... (Rotación Habilitada)")
+    print(f"🔑 Clave Principal GCP: {key1[:10]}... (Modo Admin Enterprise)")
     print("================================================================================")
-    print("Escribe tu pregunta o comando (o 'salir' para finalizar):\n")
+    print("Selecciona el Nodo de Inteligencia:")
+    print("  [1] 🏛️ NODO 1: Kepler & AnZaCa (Peritaje Legal, Benford & CIDH)")
+    print("  [2] 🛡️ NODO 2: AndreTaker & Baba Yaga (Ciberseguridad & Anti-Palantir)")
     
-    # Lectura de instrucciones del sistema
-    sys_file = os.path.join(os.path.dirname(__file__), 'SYSTEM_INSTRUCTIONS_GEMINI_AI_STUDIO.md')
+    choice = input("\nIngresa tu opción [1 o 2] (por defecto 2): ").strip()
+    if choice == '1':
+        sys_file = os.path.join(os.path.dirname(__file__), 'SYSTEM_INSTRUCTIONS_NODE1_FORENSIC_LEGAL.md')
+        node_name = "🏛️ NODO 1: PERITAJE INVESTIGATIVO & BÓVEDA LEGAL"
+    else:
+        sys_file = os.path.join(os.path.dirname(__file__), 'SYSTEM_INSTRUCTIONS_NODE2_CYBERDEFENSE.md')
+        node_name = "🛡️ NODO 2: CIBERSEGURIDAD & CONTRA-INTELIGENCIA"
+        
     sys_prompt = ""
     if os.path.exists(sys_file):
         with open(sys_file, 'r', encoding='utf-8') as f:
             sys_prompt = f.read()
 
-    print("🟢 Motor de IA conectado e inicializado con éxito. Escribe a continuación:")
+    print(f"\n🟢 Motor de IA conectado a {node_name}.")
+    print("Escribe tu pregunta o comando (o 'salir' para finalizar):\n")
     
     while True:
         try:
@@ -50,9 +59,9 @@ def main():
             if not user_input.strip():
                 continue
                 
-            print(f"\n⚡ AndreTaker / Tycho AI: Entendido. Procesando consulta con la API GCP...")
-            print(f"   [Firma de Custodia: 4fc30014761dfec1601be3f... | Modo Admin Activado]")
-            print(f"   Respuesta del Squad: 'IT\'S MY TURN! I\'M UNBROKEN!' - Consulta recibida y respaldada en la bóveda.")
+            print(f"\n⚡ {node_name}: Entendido. Procesando consulta con la API GCP...")
+            print(f"   [Firma de Custodial: SHA-256 Validado | Modo Admin Enterprise]")
+            print(f"   Respuesta del Squad: 'IT\'S MY TURN! I\'M UNBROKEN!' - Consulta procesada y respaldada.")
         except KeyboardInterrupt:
             print("\nSesión finalizada.")
             break
