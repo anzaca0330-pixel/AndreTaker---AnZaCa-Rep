@@ -1,5 +1,41 @@
-// Global Language Switcher (ES / EN / FR)
+// Global Language Switcher & Translations (ES / EN / FR)
 window.currentLang = 'es';
+const TRANSLATIONS = {
+  es: {
+    nav_overview: "Resumen & Scale",
+    nav_manifesto: "Manifiesto",
+    nav_retro_map: "Mapa Retro",
+    nav_narrative: "Historia & Anomalía",
+    nav_technical: "Peritaje Técnico",
+    nav_simulator: "Simulador Forense",
+    nav_legal: "Legal & CIDH",
+    nav_donate: "💖 Apoyar",
+    nav_chris: "🛡️ Panel de Chris"
+  },
+  en: {
+    nav_overview: "Overview & Scale",
+    nav_manifesto: "Manifesto",
+    nav_retro_map: "Retro Map",
+    nav_narrative: "History & Anomaly",
+    nav_technical: "Technical Audit",
+    nav_simulator: "Forensic Simulator",
+    nav_legal: "Legal & IACHR",
+    nav_donate: "💖 Support",
+    nav_chris: "🛡️ Chris Panel"
+  },
+  fr: {
+    nav_overview: "Aperçu & Échelle",
+    nav_manifesto: "Manifeste",
+    nav_retro_map: "Carte Rétro",
+    nav_narrative: "Histoire & Anomalie",
+    nav_technical: "Expertise Technique",
+    nav_simulator: "Simulateur Forensique",
+    nav_legal: "Légal & CIDH",
+    nav_donate: "💖 Soutenir",
+    nav_chris: "🛡️ Panneau de Chris"
+  }
+};
+
 window.setGlobalLanguage = function(lang) {
   window.currentLang = lang;
   document.querySelectorAll('.lang-btn').forEach(btn => {
@@ -12,7 +48,17 @@ window.setGlobalLanguage = function(lang) {
     activeBtn.style.color = '#000';
   }
   document.documentElement.lang = lang;
-  console.log("Idioma activo:", lang);
+
+  // Translate all data-i18n elements instantly
+  const dict = TRANSLATIONS[lang] || TRANSLATIONS.es;
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (dict[key]) {
+      el.textContent = dict[key];
+    }
+  });
+
+  console.log("Idioma cambiado con éxito a:", lang);
 };
 
 // AndreTaker — BabaYaga Core Portal JavaScript
