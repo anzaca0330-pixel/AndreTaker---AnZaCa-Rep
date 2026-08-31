@@ -1,0 +1,17 @@
+{
+  "name": "AndreTaker — BabaYaga Core Digital Forensic Suite",
+  "short_name": "AndreTaker Core",
+  "description": "Herramienta de peritaje forense, respuesta a incidentes DFIR y simulador de ciberdefensa impulsada por IA.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#06b6d4",
+  "icons": [
+    {
+      "src": "assets/images/anzaca_digging_e14_evidence.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}

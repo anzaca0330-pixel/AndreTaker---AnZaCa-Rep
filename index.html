@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AndreTaker — BabaYaga Core | Acervo Forense Electoral >677 GB</title>
-  <meta name="description" content="Portal oficial del peritaje forense e investigación metrológica independiente sobre las Elecciones Presidenciales de Colombia 2026. Auditoría sobre >677 GB de evidencia.">
+  <meta name="theme-color" content="#06b6d4">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="assets/images/anzaca_digging_e14_evidence.jpg">
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -947,5 +949,14 @@
   </footer>
 
   <script src="index.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then(reg => console.log('✅ Service Worker BabaYaga registrado con éxito'))
+          .catch(err => console.log('⚠️ Error registrando Service Worker:', err));
+      });
+    }
+  </script>
 </body>
 </html>
