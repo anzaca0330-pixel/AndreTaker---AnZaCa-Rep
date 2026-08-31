@@ -1,5 +1,6 @@
 # 🔥 HIMNO OFICIAL — BABA YAGA THEME (COMPLETE EDITION)
-## AndreTaker — BabaYaga Core Official Soundtrack (3:49 Master Track)
+## Track Official: "Baba Yaga" — Tressa Kwes (3:49 Master Track)
+### AndreTaker — BabaYaga Core Official Soundtrack
 
 ---
 
@@ -10,6 +11,8 @@
 ---
 
 ### 🎙️ English Lyrics (Letra Completa)
+
+**[Artist: Tressa Kwes — "Baba Yaga"]**
 
 **[Intro - Heavy Synth & Metal Riffs]**
 
