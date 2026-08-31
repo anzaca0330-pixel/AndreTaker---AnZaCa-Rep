@@ -391,34 +391,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const SCENARIOS = {
       sc1: {
-        title: "Escenario 1: Los Ángeles (Votos Clónicos & Benford 2BL)",
+        title: "Operación Alfa: Votos Clónicos & Benford 2BL",
         threats: [
-          { name: 'Inyección de Votos Clónicos (Mesa 001-013)', color: '#ef4444', speed: 1.3 },
-          { name: 'Algoritmo =REDONDEAR(total*0.70)', color: '#f59e0b', speed: 1.6 }
+          { name: 'Inyección de Votos Clónicos', color: '#ef4444', speed: 1.3 },
+          { name: 'Algoritmo Sintético =REDONDEAR', color: '#f59e0b', speed: 1.6 }
         ],
         counterSkill: 'btn-skill-tycho',
         msg: 'Disonancia Z = -56.96 detectada por Tycho. Votos clónicos neutralizados.'
       },
       sc2: {
-        title: "Escenario 2: Asedio Cibernético (Rootkit ThinkPad BIOS)",
+        title: "Operación Beta: Mitigación Rootkit EEPROM / BIOS",
         threats: [
           { name: 'Firmware EEPROM Rootkit Vector', color: '#a855f7', speed: 1.7 },
-          { name: 'Aislamiento Forzado 20 Días', color: '#ec4899', speed: 1.2 }
+          { name: 'Vector de Aislamiento Cibernético', color: '#ec4899', speed: 1.2 }
         ],
         counterSkill: 'btn-skill-andretaker',
         msg: 'Reflasheo de hardware en frío. AndreTaker activa Unbroken Flush.'
       },
       sc3: {
-        title: "Escenario 3: Emboscada Físico-Digital (Sabotaje & Llamada 911)",
+        title: "Operación Gamma: Escudo de Perímetro Táctico 911 (Arthurios)",
         threats: [
-          { name: 'Intrusión OBD-II (FIXD)', color: '#ef4444', speed: 2.0 },
-          { name: 'Recorte de Audio Sheriff (59s Δ)', color: '#f59e0b', speed: 1.8 }
+          { name: 'Intrusión de Hardware OBD-II', color: '#ef4444', speed: 2.0 },
+          { name: 'Discrepancia de Registro de Telemetría (Δ)', color: '#f59e0b', speed: 1.8 }
         ],
         counterSkill: 'btn-skill-arthurios',
         msg: '🛡️ ¡Arthurios despliega Barrier 911! "Mess with me and moma won\'t play nice!"'
       },
       sc4: {
-        title: "Escenario 4: El Gran Rescate (121,960 PDFs & SHA-256)",
+        title: "Operación Delta: Preservación Masiva 121,960 PDFs & SHA-256",
         threats: [
           { name: 'Intento de Sobrescritura en Servidores', color: '#ef4444', speed: 1.4 },
           { name: 'Borrado Masivo de Archivos Delegados', color: '#ec4899', speed: 1.5 }
@@ -427,7 +427,7 @@ document.addEventListener('DOMContentLoaded', () => {
         msg: '75,000 Testigos Digitales activados. Escudo SHA-256 por Andrea sellado.'
       },
       sc5: {
-        title: "Escenario 5: La Melodía de las Máquinas (Mod-12 & Cicatriz XREF)",
+        title: "Operación Épsilon: Purga Mod-12 & Cicatriz XREF (+2)",
         threats: [
           { name: 'Secuencia Cíclica Mod-12 (Std=0.0)', color: '#a855f7', speed: 1.5 },
           { name: 'Objetos Fantasma XREF (+2 Delta)', color: '#ef4444', speed: 1.4 }
