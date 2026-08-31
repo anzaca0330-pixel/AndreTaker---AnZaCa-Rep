@@ -13,12 +13,12 @@ A continuación se presentan las opciones de imagen disponibles para cada person
 
 ---
 
-## 2. AndreTaker — Identidad de Sistema Matriz ⭐ [VERSIÓN COMBINADA ANICÓNICA]
+## 2. AndreTaker — Identidad de Sistema Matriz ⭐ [CAPUCHA NEGRA, BÁCULO & OJO DE BABA YAGA]
 
-| Opción Combinada Oficial (AnZaCa + Baba Yaga) ⭐ | Opción B (Encapuchada) |
+| Opción Definitiva Oficial (AnZaCa + Báculo + Capucha + Ojo Baba Yaga) ⭐ | Opción B (Previa) |
 | :---: | :---: |
-| ![AndreTaker Combinada](file:///home/andrea-zabala-c/.gemini/antigravity-ide/brain/54e5ac84-c084-4f46-8ebe-15f1295d8efc/andretaker_combined_anzaca_baba_yaga_1788217316150.png) | ![AndreTaker Opción B](file:///home/andrea-zabala-c/.gemini/antigravity-ide/brain/54e5ac84-c084-4f46-8ebe-15f1295d8efc/temor_desatado_andretaker_baba_yaga_1788197013056.png) |
-| **⭐ SELECCIÓN COMBINADA:** Guerrera táctica con piel clara, abundante cabello rizado oscuro, armadura de runas cian/púrpura y el hacha digital (🪓), sintetizando la inteligencia de AnZaCa con la fuerza ancestral de Baba Yaga. | Opción B: Variante gráfica previa. |
+| ![AndreTaker Capucha Báculo Ojo Baba Yaga](file:///home/andrea-zabala-c/.gemini/antigravity-ide/brain/54e5ac84-c084-4f46-8ebe-15f1295d8efc/andretaker_eye_baba_yaga_staff_black_hood_1788217443509.png) | ![AndreTaker Opción B](file:///home/andrea-zabala-c/.gemini/antigravity-ide/brain/54e5ac84-c084-4f46-8ebe-15f1295d8efc/andretaker_combined_eye_of_baba_yaga_1788217379873.png) |
+| **⭐ SELECCIÓN DEFINITIVA DE ANDRETAKER:** Capucha táctica negra sobre abundante cabello rizado oscuro, piel clara (AnZaCa), armadura de runas, **Báculo Místico de Ciberdefensa** (en lugar de hacha) y el **Ojo Cibernético Luminoso de Baba Yaga**. | Opción B: Variante gráfica previa. |
 
 ---
 
