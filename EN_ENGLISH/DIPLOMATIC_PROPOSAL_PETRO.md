@@ -32,7 +32,7 @@ Between June 1 and 3, 2026, through the application of statistical models and de
 Following the publication of these findings, my family and I were subjected to an unprecedented physical and cybernetic siege on US soil.
 
 #### 1. The Human Cost and Persecution on US Territory
-Mr. Former President, behind these terabytes of evidence lies a story of survival. Starting on June 8, my work tools were destroyed through targeted attack vectors (Rootkit/Bootkit), achieving a total hardware lockdown and digitally isolating me (Confirmed by Lenovo technical support under official reference `Key Ref: 2031621994`).
+Mr. Former President, behind these terabytes of evidence lies a story of survival. Starting on June 8, my work tools were destroyed through targeted attack vectors (Rootkit/Bootkit), achieving a total hardware lockdown and digitally isolating me (Confirmed by Lenovo technical support under official reference `Key Ref: [TICKET-LENOVO-REDACTED]`).
 
 But the attack did not stop at the screens. On June 13, we suffered a physical ambush and sabotage of our vehicle. The panic of that moment forced my minor son, only 10 years old, to call 911 for help while we were cornered (US Police reference: Buckingham County Sheriff's Office `Incident C20260617-0024-01`). Despite exhausting all instances (local Sheriff, FBI, IC3), the response was institutional inoperability; they declared themselves incapable of investigating a cyber attack of this magnitude.
 

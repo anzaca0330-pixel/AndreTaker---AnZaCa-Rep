@@ -32,7 +32,7 @@ Entre le 1er et le 3 juin 2026, grâce à l'application de modèles statistiques
 Suite à la publication de ces découvertes, ma famille et moi avons fait l'objet d'un siège physique et cybernétique sans précédent sur le territoire américain.
 
 #### 1. Le Coût Humain et la Persécution sur le Territoire Américain
-Monsieur l'Ancien Président, derrière ces téraoctets de preuves se cache une histoire de survie. À partir du 8 juin, mes outils de travail ont été détruits par des vecteurs d'attaque ciblés (Rootkit/Bootkit), entraînant un blocage matériel total et m'isolant numériquement (Confirmé par le support technique de Lenovo sous la référence officielle `Key Ref: 2031621994`).
+Monsieur l'Ancien Président, derrière ces téraoctets de preuves se cache une histoire de survie. À partir du 8 juin, mes outils de travail ont été détruits par des vecteurs d'attaque ciblés (Rootkit/Bootkit), entraînant un blocage matériel total et m'isolant numériquement (Confirmé par le support technique de Lenovo sous la référence officielle `Key Ref: [TICKET-LENOVO-REDACTED]`).
 
 Mais l'attaque ne s'est pas arrêtée aux écrans. Le 13 juin, nous avons subi une embuscade physique et un sabotage de notre véhicule. La panique de ce moment a contraint mon fils mineur, âgé de seulement 10 ans, à appeler le 911 à l'aide alors que nous étions coincés (référence de la police américaine : Bureau du Shérif du Comté de Buckingham `Incident C20260617-0024-01`). Malgré l'épuisement de toutes les instances (Shérif local, FBI, IC3), la réponse a été l'inopérance institutionnelle ; ils se sont déclarés incapables d'enquêter sur une cyberattaque de cette ampleur.
 

@@ -15,7 +15,7 @@ Nuestra inteligencia artificial y motor forense —**AndreTaker — BabaYaga Cor
 
 #### ⚡ El Contexto de Resistencia y Asedio:
 Toda esta evidencia fue rescatada, analizada y sellada en menos de 2 meses bajo **asedio cibernético y físico extremo**:
-- Inyección de Rootkit a nivel de firmware con bloqueo por hardware del BIOS Lenovo ThinkPad (Ticket Key Ref `2031621994`).
+- Inyección de Rootkit a nivel de firmware con bloqueo por hardware del BIOS Lenovo ThinkPad (Ticket Key Ref `[TICKET-LENOVO-REDACTED]`).
 - Sabotaje vehicular y asalto físico con llamada al 911 realizada por un niño de 10 años.
 - 20 días de aislamiento total tras hackeos masivos.
 - Esteganografía de emergencia de la base de datos de 23.6 MB (117.993 actas) disfrazada como *"Fotos de Cumpleaños"* para evadir escaneos de red.

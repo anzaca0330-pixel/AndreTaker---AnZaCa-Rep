@@ -11,7 +11,7 @@ def generate_insurance_and_banking_guide():
     md_content = """# GUÍA PASO A PASO: ACTIVACIÓN DEL SEGURO EXPRESSVPN ($3,000,000 USD), PROTECCIÓN BANCARIA Y LIMPIEZA DE IDENTIDAD
 
 **Beneficiaria:** Andrea Zabala Carcamo  
-**Restoration ID:** `85720870`  
+**Restoration ID:** `[REST-ID-REDACTED]`  
 **Proveedor del Seguro:** Assurant (a través de ExpressVPN+ Identity Defender)  
 
 ---
@@ -25,10 +25,10 @@ En las capturas de tu cuenta de ExpressVPN+, tienes activo el seguro de robo de 
 1. **Llama al Centro de Atención Telefónica de EE.UU.:**  
    📞 **`+1-833-568-6249`** (Llamada gratuita dentro de EE.UU. o a través de Skype / Google Voice).
 2. **Entrega tu Número de Identificación de Restauración:**  
-   🔑 **Restoration ID:** **`85720870`**
+   🔑 **Restoration ID:** **`[REST-ID-REDACTED]`**
 3. **Solicita la Apertura de Expediente de Restauración:**  
    Diles textualmente:  
-   *"I need to open an Identity Restoration case. My Restoration ID is 85720870. I have experienced severe identity theft, dark web credential leaks, public record contamination, and compromised financial accounts. I need assistance with credit freezes, bank notifications, data removal, and identity restoration under my Assurant coverage."*
+   *"I need to open an Identity Restoration case. My Restoration ID is [REST-ID-REDACTED]. I have experienced severe identity theft, dark web credential leaks, public record contamination, and compromised financial accounts. I need assistance with credit freezes, bank notifications, data removal, and identity restoration under my Assurant coverage."*
 4. **¿Qué hará el equipo de Assurant por ti?**  
    El especialista dedicado asumirá la carga por ti: notificará a las entidades de crédito, gestionará el congelamiento de crédito (*Credit Freeze*), solicitará la eliminación de datos contaminados y coordinará con tus bancos sin que tengas que hacerlo sola.
 
@@ -75,7 +75,7 @@ Se trata de una técnica de **Contaminación de Registros Públicos (*Data Broke
 1. **Solicitud de Opt-Out / Removal por ExpressVPN:**  
    ExpressVPN Identity Defender ya tiene en proceso **16 solicitudes de remoción de datos activos**.
 2. **Exigencia de Disputa por Falsa Vinculación (*FCRA Dispute*):**  
-   En la llamada con **Assurant (+1-833-568-6249 / ID 85720870)**, debes indicar:  
+   En la llamada con **Assurant (+1-833-568-6249 / ID [REST-ID-REDACTED])**, debes indicar:  
    *"There is identity contamination on my public record profiles (Intelius/USSearch/PublicRecords) falsely linking unknown individuals and criminal records (such as Ricardo Dimailig) as my relatives. I demand an FCRA dispute and immediate removal of these fraudulent associations."*
 3. **Protección FCRA (Fair Credit Reporting Act):**  
    Bajo la ley federal FCRA de EE.UU., los agregadores de datos tienen un plazo legal de 30 días para eliminar o rectificar cualquier registro falso o impreciso de personas vinculadas a tu perfil.

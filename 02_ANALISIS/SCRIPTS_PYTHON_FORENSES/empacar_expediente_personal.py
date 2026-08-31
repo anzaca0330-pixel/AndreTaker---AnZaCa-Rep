@@ -15,14 +15,14 @@ def package_personal_case_folder():
 
 **Beneficiaria Principal:** Andrea Zabala Carcamo (C.C. 43.925.102)  
 **Teléfono Gratuito de Atención:** 📞 **`+1-833-568-6249`**  
-**ID de Restauración de Identidad:** 🔑 **`85720870`**  
+**ID de Restauración de Identidad:** 🔑 **`[REST-ID-REDACTED]`**  
 **Proveedor del Seguro:** Assurant (a través de ExpressVPN+ Identity Defender)  
 
 ---
 
 ## 🗣️ GUIÓN PARA LEER AL OPERADOR AL INICIAR LA LLAMADA:
 
-> *"Hello, my name is Andrea Zabala Carcamo. I am calling to open an Identity Restoration case under my ExpressVPN+ Identity Defender insurance. My Restoration ID is **85720870**.*
+> *"Hello, my name is Andrea Zabala Carcamo. I am calling to open an Identity Restoration case under my ExpressVPN+ Identity Defender insurance. My Restoration ID is **[REST-ID-REDACTED]**.*
 > 
 > *I have experienced severe identity theft, dark web credential leaks, compromised bank accounts, and fraudulent public record contamination linking convicted individuals like Ricardo Dimailig to my name. I need a dedicated restoration specialist to assist me with credit freezes, FCRA data broker disputes, and bank notifications under my $3,000,000 USD Assurant coverage."*
 

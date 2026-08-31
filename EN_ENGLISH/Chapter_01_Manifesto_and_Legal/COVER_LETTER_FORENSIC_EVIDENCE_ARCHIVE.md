@@ -54,7 +54,7 @@ The archive is organized into the following sections:
 
 **Additionally includes:**
 
-- **Personal case file:** Timeline of attacks, IACHR filing (`IACHR-0000113728`), Sheriff of Buckingham (`C20260617-0024-01`), and Lenovo ticket (`2031621994`).
+- **Personal case file:** Timeline of attacks, IACHR filing (`IACHR-0000113728`), Sheriff of Buckingham (`C20260617-0024-01`), and Lenovo ticket (`[TICKET-LENOVO-REDACTED]`).
 - **Disk hash manifest:** 253 SHA-256 signatures certifying the integrity of the physical disk.
 - **Public Internet Archive vault:** The complete archive is available at [https://archive.org/details/colombia-e14-forensic-acervo-2026](https://archive.org/details/colombia-e14-forensic-acervo-2026).
 

@@ -14,7 +14,7 @@ def generate_attacks_timeline_report():
 **Origen del Resguardo:** Red de Solidaridad de Testigos Digitales y Protección Diplomática en México.  
 **Estatus CIDH:** Solicitud Formal de Medidas Cautelares ante la CIDH **`IACHR - 0000113728`** a nombre del núcleo familiar (Christopher Baez, Arturo Garcia Zabala y Andrea Zabala Carcamo).  
 **Evidencia Clave Preservada:** Ticket/Key de Soporte Técnico Lenovo (Bloqueo BIOS por Rootkit) + Respaldos Completos Google Takeout + Archivo .vma del Sheriff.  
-**Monitoreo Ciberseguridad / Dark Web:** ExpressVPN Identity Defender **`Restoration ID: 85720870`** (Póliza $3.000.000 USD).  
+**Monitoreo Ciberseguridad / Dark Web:** ExpressVPN Identity Defender **`Restoration ID: [REST-ID-REDACTED]`** (Póliza $3.000.000 USD).  
 **Radicado Policial EE.UU.:** Buckingham County Sheriff's Office **`Incident C20260617-0024-01`**.  
 
 ---
@@ -35,7 +35,7 @@ timeline
     Última Semana Junio 2026: Segunda Visita a T-Mobile, Samsung S23, Aislamiento Físico, IC3 y Sheriff
                    : Encuentro con especialista técnico en T-Mobile. Adquisición de Samsung S23. Dispositivos aislados en papel aluminio (Jaula Faraday). Primer reporte oficial en IC3 y visita al Sheriff.
     26 Junio - Julio: Alertas en Dark Web (ICFES, Telegram Combolists, Credential Compilations)
-                   : Detección por ExpressVPN Identity Defender (ID 85720870) de filtrado de credenciales.
+                   : Detección por ExpressVPN Identity Defender (ID [REST-ID-REDACTED]) de filtrado de credenciales.
     29 Junio 2026  : Solicitud de Medidas Cautelares ante la CIDH (IACHR-0000113728)
                    : Radicación por violación a los Artículos 4, 5, 13 y 25.
     Julio 2026     : Preservación Forense Google Takeout + Testigos Digitales en México
@@ -77,7 +77,7 @@ timeline
 ---
 
 ### 2.4. Monitoreo Activo de Dark Web y Protección de Identidad (ExpressVPN Identity Defender)
-- **Restoration ID:** `85720870` (Póliza de Restauración por $3,000,000 USD suscrita con Assurant).
+- **Restoration ID:** `[REST-ID-REDACTED]` (Póliza de Restauración por $3,000,000 USD suscrita con Assurant).
 - **Alertas Registradas de Filtración:** `icfes.gov.co` (Julio 2026), `Credential Compilations 785M / 239M / 47M / 12M`, `Combolists Posted to Telegram`.
 - **Acciones de Remoción Solicitadas:** Procesos en curso para la eliminación de información personal en 16 portales de rastreo (`BackgroundCheckGateway`, `USSearch`, `PublicRecords`, `Intelius`, `EasyBackgroundChecks`, `OnlineSearches`).
 
@@ -92,7 +92,7 @@ timeline
 | **Google Telemetry** | **Descargas Google Takeout** | **Julio 2026** | **Respaldos completos de logs de inicio de sesión e IPs** |
 | **FBI (Richmond / IC3)** | **Tip Presencial / IC3 Online** | **Junio 2026** | **Primer reporte IC3; Enviado de vuelta por FBI a Policía Local** |
 | **Sheriff (Buckingham, VA)** | **`Incident C20260617-0024-01`** | **17-18 y fines de Junio** | Reporte por piratería, Jaula Faraday y dispositivos en papel aluminio (Audio .vma 2.01 min) |
-| **ExpressVPN Defender** | **`Restoration ID: 85720870`** | **Julio 2026** | Monitoreo Dark Web (`icfes.gov.co`, Telegram) y Póliza $3M USD |
+| **ExpressVPN Defender** | **`Restoration ID: [REST-ID-REDACTED]`** | **Julio 2026** | Monitoreo Dark Web (`icfes.gov.co`, Telegram) y Póliza $3M USD |
 | **Universidad de Phoenix** | **Portal Académico `login.phoenix.edu`** | **Julio 2026** | Testimonios y narración formalizada de hechos |
 | **Presidencia de Colombia** | **Protección Diplomática** | **Julio 2026** | Protección Diplomática en México por Veintena de Testigos Digitales |
 """

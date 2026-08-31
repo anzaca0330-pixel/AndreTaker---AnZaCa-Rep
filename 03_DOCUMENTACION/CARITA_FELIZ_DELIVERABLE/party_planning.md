@@ -4,8 +4,8 @@
 **Active Secure Contact Channels:** `anzaca0330@gmail.com` | `andrea.zabalacarcamo@email.phoenix.edu` (All other prior accounts unaccessible due to cyberattacks)  
 **Origin of Protection:** Digital Witness Solidarity Network & Diplomatic Protection in Mexico.  
 **IACHR Status:** Formal Request for Precautionary Measures before the Inter-American Commission on Human Rights **`IACHR - 0000113728`** on behalf of the family unit (Christopher Baez, Arturo Garcia Zabala, and Andrea Zabala Carcamo).  
-**Preserved Key Evidence:** Lenovo Technical Support Ticket/Key (**`Key Ref: 2031621994`** - Rootkit BIOS Lockout) + Complete Google Takeout Backups (~136 GB) + Sheriff Office `.vma` Emergency Audio File.  
-**Cybersecurity / Dark Web Monitoring:** ExpressVPN Identity Defender **`Restoration ID: 85720870`** ($3,000,000 USD Restoration Policy).  
+**Preserved Key Evidence:** Lenovo Technical Support Ticket/Key (**`Key Ref: [TICKET-LENOVO-REDACTED]`** - Rootkit BIOS Lockout) + Complete Google Takeout Backups (~136 GB) + Sheriff Office `.vma` Emergency Audio File.  
+**Cybersecurity / Dark Web Monitoring:** ExpressVPN Identity Defender **`Restoration ID: [REST-ID-REDACTED]`** ($3,000,000 USD Restoration Policy).  
 **U.S. Police Case / Incident Number:** Buckingham County Sheriff's Office **`Incident C20260617-0024-01`**.  
 
 ---
@@ -16,21 +16,21 @@
 timeline
     title CERTIFIED CHRONOLOGICAL SEQUENCE & INSTITUTIONAL CONTEXT
     June 8, 2026   : Massive Post-Prosecutor Reporting Cyberattack
-                   : Rootkit infection, Lenovo ThinkPad BIOS lockout (Ticket Key Ref: 2031621994), FIXD vector intrusion.
+                   : Rootkit infection, Lenovo ThinkPad BIOS lockout (Ticket Key Ref: [TICKET-LENOVO-REDACTED]), FIXD vector intrusion.
     June 10, 2026  : T-Mobile, Rootkit Persistence & Rescue Account Compromise
                    : Acquisition of new device; factory wipes proven ineffective; rescue account compromised.
     June 13, 2026  : Physical Ambush, Vehicle Sabotage (11:01 PM) & 911 Call by 10-Year-Old Minor Son
                    : Physical ambush by an unknown Afro-descendant female who feigned concern ("asking if they were okay"). Upon stopping, aggressor exited vehicle shouting false accusations ("attempting to run over her kids"—2 youths, 1 on motorcycle without helmet, refuted as Andrea has ridden motorcycles since age 12). Physical assault on Andrea (traveling with her 10-year-old son) and staged video attempt to frame her as impaired. Her 10-year-old son dialed 911 from her California cell line (listened live on open call by her husband from the home in Dillwyn, VA, also using a California line; T-Mobile CDR 3:00 min / Sheriff audio trimmed to 2.01 min).
     June 20, 2026  : Vehicle Technical Inspection at Specialized Mitsubishi Service Center
                    : Vehicle taken to specialized Mitsubishi dealership/mechanic shop for electrical system diagnostics and OBD-II (FIXD) vector scanning following the June 13 sabotage.
-    Post-June 20   : Official Call to LENOVO Technical Support (Key Ref: 2031621994)
-                   : Call to Lenovo support post-mechanic inspection; official Key Ref 2031621994 issued for ThinkPad hardware/BIOS Rootkit lockout and total device inoperability.
+    Post-June 20   : Official Call to LENOVO Technical Support (Key Ref: [TICKET-LENOVO-REDACTED])
+                   : Call to Lenovo support post-mechanic inspection; official Key Ref [TICKET-LENOVO-REDACTED] issued for ThinkPad hardware/BIOS Rootkit lockout and total device inoperability.
     June 15-22     : Filings with FBI (Richmond Field Office) and Local Sheriff
                    : In-person appearance of Andrea Zabala Carcamo at FBI Richmond Headquarters.
     Late June 2026 : Second T-Mobile Visit, Samsung S23, Physical Faraday Isolation, IC3 & Sheriff Visit
                    : Technical consultation at T-Mobile. Purchase of Samsung S23. Compromised devices isolated in aluminum foil (Faraday Cage). First official IC3 submission and Sheriff visit.
     June 26 - July : Dark Web Breach Alerts (ICFES, Telegram Combolists, Credential Compilations)
-                   : Detection by ExpressVPN Identity Defender (ID 85720870) of leaked credentials.
+                   : Detection by ExpressVPN Identity Defender (ID [REST-ID-REDACTED]) of leaked credentials.
     June 29, 2026  : Request for Precautionary Measures before the IACHR (IACHR-0000113728)
                    : Filing based on violations of Articles 4, 5, 13, and 25 of the American Convention.
     July 2026      : Google Takeout Forensic Preservation + Digital Witnesses in Mexico
@@ -57,8 +57,8 @@ timeline
 
 ### 2.2. Key Technical Evidence Preserved in Chain of Custody (136 GB Forensic Repository)
 
-1. **LENOVO Customer Service Ticket / Key (`Key Ref: 2031621994`):**  
-   *Official technical support record issued by Lenovo post-June 20 under reference **2031621994** reporting the total hardware/BIOS lockout and inoperability of her ThinkPad laptop caused by a persistent Rootkit/Bootkit attack.*
+1. **LENOVO Customer Service Ticket / Key (`Key Ref: [TICKET-LENOVO-REDACTED]`):**  
+   *Official technical support record issued by Lenovo post-June 20 under reference **[TICKET-LENOVO-REDACTED]** reporting the total hardware/BIOS lockout and inoperability of her ThinkPad laptop caused by a persistent Rootkit/Bootkit attack.*
 2. **GOOGLE TAKEOUT Backups & Compromised Rescue Account:**  
    *Complete, immutable compressed Google Takeout backup archives containing login IP histories, intercepted sessions, device telemetry, and location logs.* Additionally, access to the compromised drive account (`https://drive.google.com/drive/folders/1KSE__jPvCS7gkPAuB3ic64vAFDqqonLx`) is preserved in "View Only" status as live forensic proof of rescue account hijacking.
 3. **Sheriff Department .VMA Audio Recording (Initial Denial, Minor Son's Call & Duration Discrepancy):**  
@@ -84,7 +84,7 @@ timeline
 ---
 
 ### 2.4. Active Dark Web Monitoring & Identity Protection (ExpressVPN Identity Defender)
-- **Restoration ID:** `85720870` ($3,000,000 USD Identity Theft Insurance Policy with Assurant).
+- **Restoration ID:** `[REST-ID-REDACTED]` ($3,000,000 USD Identity Theft Insurance Policy with Assurant).
 - **Recorded Data Leak Alerts:** `icfes.gov.co` (July 2026), `Credential Compilations 785M / 239M / 47M / 12M`, `Combolists Posted to Telegram`.
 - **Active Data Removal Requests:** Ongoing removal requests across 16 data broker sites (`BackgroundCheckGateway`, `USSearch`, `PublicRecords`, `Intelius`, `EasyBackgroundChecks`, `OnlineSearches`).
 
@@ -97,9 +97,9 @@ timeline
 | **IACHR (OAS)** | **`PRECAUTIONARY MEASURE - IACHR - 0000113728`** | **06/29/2026** | Application filed for Christopher Baez, Arturo Garcia Zabala, and Andrea Zabala |
 | **University of Phoenix** | **`Student ID: 9059123560`** | **03/2025 - Present** | **BSIOP Program (GPA 3.61) / June Forced Withdrawal (`Grade: W` PSY/315)** |
 | **Mitsubishi Vehicle Service** | **Specialized Dealer Diagnostics** | **06/20/2026** | **Electrical diagnostics & OBD-II (FIXD) vector inspection** |
-| **Lenovo Support** | **`Key Ref: 2031621994`** | **Post-06/20/2026** | **Official BIOS Rootkit Lockout Certificate ( ThinkPad )** |
+| **Lenovo Support** | **`Key Ref: [TICKET-LENOVO-REDACTED]`** | **Post-06/20/2026** | **Official BIOS Rootkit Lockout Certificate ( ThinkPad )** |
 | **Google Telemetry** | **Google Takeout Archives** | **July 2026** | **Full forensic archives of login logs and IP addresses** |
 | **FBI (Richmond / IC3)** | **In-Person Tip / IC3 Online** | **June 2026** | **Initial IC3 report; Remanded back by FBI to Local Police** |
 | **Sheriff (Buckingham, VA)** | **`Incident C20260617-0024-01`** | **06/17-18 & Late June** | Cyberattack report, Faraday isolation (2.01 min `.vma` audio trimmed) |
-| **ExpressVPN Defender** | **`Restoration ID: 85720870`** | **July 2026** | Dark Web Breach Monitoring (`icfes.gov.co`, Telegram) & $3M USD Policy |
+| **ExpressVPN Defender** | **`Restoration ID: [REST-ID-REDACTED]`** | **July 2026** | Dark Web Breach Monitoring (`icfes.gov.co`, Telegram) & $3M USD Policy |
 | **Presidency of Colombia** | **Diplomatic Protection** | **July 2026** | Diplomatic Protection in Mexico supported by Digital Witnesses Network |

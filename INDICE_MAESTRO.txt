@@ -3,7 +3,7 @@
 **Especialista / Perito Principal:** Andrea Zabala Carcamo (C.C. 43.925.102)  
 **Solicitud CIDH / OEA:** **`PRECAUTIONARY MEASURE - IACHR - 0000113728`**  
 **Radicado Policial EE.UU.:** Buckingham County Sheriff's Office **`Incident C20260617-0024-01`**  
-**Restoration ID Ciberseguridad:** ExpressVPN Identity Defender **`85720870`**  
+**Restoration ID Ciberseguridad:** ExpressVPN Identity Defender **`[REST-ID-REDACTED]`**  
 **Estándar de Cadena de Custodia Criptográfica:** **ISO/IEC 27037** (114,386 Firmas SHA-256 congeladas en `firmas_criptograficas_sha256.txt`).  
 
 ---

@@ -31,7 +31,7 @@ Entre el 1 y el 3 de junio de 2026, mediante la aplicación de modelos estadíst
 Tras la publicación de estos hallazgos, mi núcleo familiar y yo fuimos objeto de un asedio físico y cibernético sin precedentes en territorio estadounidense.
 
 #### 1. El Costo Humano y la Persecución en Territorio Estadounidense
-Señor Expresidente, detrás de estos terabytes de evidencia hay una historia de supervivencia. A partir del 8 de junio, mis herramientas de trabajo fueron destruidas mediante vectores de ataque dirigidos (Rootkit/Bootkit), logrando un bloqueo total de hardware y aislándome digitalmente (Confirmado por soporte técnico de Lenovo bajo el radicado oficial `Key Ref: 2031621994`).
+Señor Expresidente, detrás de estos terabytes de evidencia hay una historia de supervivencia. A partir del 8 de junio, mis herramientas de trabajo fueron destruidas mediante vectores de ataque dirigidos (Rootkit/Bootkit), logrando un bloqueo total de hardware y aislándome digitalmente (Confirmado por soporte técnico de Lenovo bajo el radicado oficial `Key Ref: [TICKET-LENOVO-REDACTED]`).
 
 Pero el ataque no se detuvo en las pantallas. El 13 de junio, sufrimos una emboscada física y un sabotaje a nuestro vehículo. El pánico de ese momento obligó a mi hijo menor, de tan solo 10 años, a llamar al 911 pidiendo auxilio mientras estábamos acorralados (radicado policial de EE.UU.: Buckingham County Sheriff's Office `Incident C20260617-0024-01`). A pesar de acudir a todas las instancias (Sheriff local, FBI, IC3), la respuesta fue la inoperancia institucional; se declararon sin capacidad para investigar un ataque cibernético de esta magnitud. 
 

@@ -54,7 +54,7 @@ El acervo está organizado en los siguientes bloques:
 
 **Además, se incluye:**
 
-- **Expediente personal:** Cronología de ataques, radicados de la CIDH (`IACHR-0000113728`), del Sheriff de Buckingham (`C20260617-0024-01`), y del ticket de Lenovo (`2031621994`).
+- **Expediente personal:** Cronología de ataques, radicados de la CIDH (`IACHR-0000113728`), del Sheriff de Buckingham (`C20260617-0024-01`), y del ticket de Lenovo (`[TICKET-LENOVO-REDACTED]`).
 - **Manifiesto de hashes del disco:** 253 firmas SHA-256 que certifican la integridad del disco físico.
 - **Bóveda pública en Internet Archive:** El acervo completo está disponible en [https://archive.org/details/colombia-e14-forensic-acervo-2026](https://archive.org/details/colombia-e14-forensic-acervo-2026).
 
