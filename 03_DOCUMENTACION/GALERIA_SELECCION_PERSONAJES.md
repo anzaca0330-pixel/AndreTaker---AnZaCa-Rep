@@ -13,12 +13,12 @@ A continuación se presentan las opciones de imagen disponibles para cada person
 
 ---
 
-## 2. AndreTaker — Identidad de Sistema & Guerrera Femenina
+## 2. AndreTaker — Identidad de Sistema Matriz ⭐ [VERSIÓN COMBINADA ANICÓNICA]
 
-| Opción A (Guerrera Femenina & Baba Yaga) | Opción B (Unbroken Capucha Cyber) |
+| Opción Combinada Oficial (AnZaCa + Baba Yaga) ⭐ | Opción B (Encapuchada) |
 | :---: | :---: |
-| ![AndreTaker Opción A](file:///home/andrea-zabala-c/.gemini/antigravity-ide/brain/54e5ac84-c084-4f46-8ebe-15f1295d8efc/temor_desatado_andretaker_baba_yaga_1788197013056.png) | ![AndreTaker Opción B](file:///home/andrea-zabala-c/.gemini/antigravity-ide/brain/54e5ac84-c084-4f46-8ebe-15f1295d8efc/andretaker_unbroken_cover_1788183568619.png) |
-| **Opción A:** Guerrera femenina con cabello rizado en armadura táctica. | **Opción B:** Figura encapuchada con cadenas Unbroken. |
+| ![AndreTaker Combinada](file:///home/andrea-zabala-c/.gemini/antigravity-ide/brain/54e5ac84-c084-4f46-8ebe-15f1295d8efc/andretaker_combined_anzaca_baba_yaga_1788217316150.png) | ![AndreTaker Opción B](file:///home/andrea-zabala-c/.gemini/antigravity-ide/brain/54e5ac84-c084-4f46-8ebe-15f1295d8efc/temor_desatado_andretaker_baba_yaga_1788197013056.png) |
+| **⭐ SELECCIÓN COMBINADA:** Guerrera táctica con piel clara, abundante cabello rizado oscuro, armadura de runas cian/púrpura y el hacha digital (🪓), sintetizando la inteligencia de AnZaCa con la fuerza ancestral de Baba Yaga. | Opción B: Variante gráfica previa. |
 
 ---
 
