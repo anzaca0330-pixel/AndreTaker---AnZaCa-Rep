@@ -17,8 +17,8 @@ def launch_native_app():
     print("================================================================================")
     print(f"🚀 Iniciando ventana independiente en: {target_url}")
     
-    # Intentar ejecutar con Chrome/Chromium en modo App standalone (--app=...)
-    browsers = ['google-chrome', 'chromium-browser', 'chromium', 'brave-browser']
+    # Intentar ejecutar con Brave / Chrome / Chromium en modo App standalone (--app=...)
+    browsers = ['/snap/bin/brave', 'brave-browser', 'google-chrome-stable', 'google-chrome', 'chromium-browser', 'chromium', 'firefox']
     launched = False
     
     for b in browsers:

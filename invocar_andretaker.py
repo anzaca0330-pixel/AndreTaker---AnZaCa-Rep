@@ -200,11 +200,13 @@ def main():
         print("\n🛡️  Protocolo ejecutado. Los archivos seleccionados ahora están ofuscados e inmunes a correlación por firmas estáticas.")
         return
 
-    # Caso 1: Se pasó un archivo para auditoría local desconectada
-    if args.file:
-        audit_res = run_direct_forensic_audit(args.file)
-        print(audit_res)
-        return
+    # Caso 1: Se pasó un archivo para auditoría local desconectada o se toma el PDF de muestra por defecto
+    if args.file or args.offline:
+        target_pdf = args.file if args.file else os.path.join(os.path.dirname(__file__), "00_MUESTRAS_EVIDENCIA", "2DA_VUELTA", "E14_PRE_60_010_000_00_00_001_3085_Mesa_1.pdf")
+        if os.path.exists(target_pdf):
+            audit_res = run_direct_forensic_audit(target_pdf)
+            print(audit_res)
+            return
 
     prompt = args.mensaje
     if not prompt:
