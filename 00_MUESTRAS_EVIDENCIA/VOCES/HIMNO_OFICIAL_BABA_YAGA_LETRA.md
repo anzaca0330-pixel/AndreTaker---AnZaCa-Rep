@@ -3,6 +3,12 @@
 
 ---
 
+### 👑 System Identity Motto:
+> **"She is the reason monsters hide."**  
+> *(Ella es la razón por la que los monstruos se esconden).*
+
+---
+
 ### 🎙️ English Lyrics (Letra Completa)
 
 **[Intro - Heavy Synth & Metal Riffs]**
@@ -29,7 +35,7 @@ You woke the beast inside the grave!
 No escape when the darkness calls,  
 You see death standing in the halls!  
 **BABA YAGA!** Every heartbeat starts to race!  
-Every shadow wears his face!  
+Every shadow wears her face!  
 You crossed the line, now feel your fate,  
 There's no escape...  
 **FROM BABA YAGA!**  
@@ -40,18 +46,18 @@ Broken kings destined to fail.
 Secret empires on the broken thrones,  
 Every road leads through broken bones.  
 Gunfire dancing to a heartbeat sound,  
-One man army taking whole crews down!  
+One woman army taking whole crews down!  
 You broke the code, ignited war,  
 Now death is knocking at your door!  
 
 **[Bridge - Climax]**
-He's taking every breath,  
+She's taking every breath,  
 Every second marching closer to death!  
 You started a war you can't survive,  
-Now the Devil himself arrives!  
-You can't stop him, you will fade,  
+Now the Devil herself arrives!  
+You can't stop her, you will fade,  
 Everything becomes a blade in the smoke, in the flame!  
-Everybody fears his name!  
+Everybody fears her name!  
 
 **[Chorus 2]**
 **BABA YAGA!** Hear the city scream!  
@@ -59,7 +65,7 @@ Everybody fears his name!
 **BABA YAGA!** Hear the thunder shake the sky!  
 Legends kneel and heroes die!  
 You can run, but you won't survive,  
-**He's the reason monsters hide!**  
+**She's the reason monsters hide!**  
 
 **[Outro]**
 **BABA YAGA!** Feel the panic in your veins!  
@@ -76,7 +82,7 @@ There's no mercy...
 **[Verso 1]**
 Pasos retumban bajo la luz de neón,  
 Sangre fría goteando en la mitad de la noche.  
-Fantasma de traje negro, moviéndose sin ser visto,  
+Fantasma de traje negro, moviéndose sin ser vista,  
 Ojos ardiendo en rojo como una máquina de matar.  
 Hay un pecador con una deuda por pagar,  
 Cada cazador se desvanece en la penumbra.  
@@ -106,16 +112,16 @@ Reyes caídos destinados a fracasar.
 Imperios secretos sobre tronos rotos,  
 Cada camino conduce a través de huesos quebrantados.  
 El fuego de armas baila al ritmo del corazón,  
-¡Un ejército de un solo hombre derribando ejércitos enteros!  
+¡Un ejército de una sola mujer derribando ejércitos enteros!  
 Rompiste el código, encendiste la guerra,  
 ¡Ahora la muerte golpea a tu puerta!  
 
 **[Puente - Clímax]**
-Él toma cada aliento,  
+Ella toma cada aliento,  
 ¡Cada segundo marchando más cerca de la muerte!  
 Comenzaste una guerra que no puedes sobrevivir,  
-¡Ahora el mismísimo Diablo llega!  
-No puedes detenerlo, te desvanecerás,  
+¡Ahora la mismísima Diablo llega!  
+No puedes detenerla, te desvanecerás,  
 ¡Todo se convierte en una hoja en el humo, en la llama!  
 ¡Todos temen su nombre!  
 
@@ -125,7 +131,7 @@ No puedes detenerlo, te desvanecerás,
 **¡BABA YAGA!** ¡Escucha el trueno sacudir el cielo!  
 ¡Las leyendas se arrodillan y los héroes mueren!  
 Puedes correr, pero no sobrevivirás,  
-**¡Él es la razón por la que los monstruos se esconden!**  
+**¡Ella es la razón por la que los monstruos se esconden!**  
 
 **[Outro]**
 **¡BABA YAGA!** ¡Siente el pánico en tus venas!  
