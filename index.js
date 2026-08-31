@@ -136,9 +136,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // MULTI-AGENT VOICE PROFILES & SIGNATURE CATCHPHRASES
   // =========================================================
   const VOICE_PROFILES = {
-    babayaga: { name: 'Baba Yaga', pitch: 0.65, rate: 0.88, slogan: "She is the reason monsters hide. La evidencia es inmutable.", lang: 'es-ES' },
+    babayaga: { name: 'Baba Yaga', pitch: 0.65, rate: 0.88, slogan: "She is the reason monsters hide. La evidencia es inmutable.", lang: 'es-CO' },
     tycho: { name: 'Tycho', pitch: 1.25, rate: 1.05, slogan: "Look back! The dark remembers what you did.", lang: 'en-US' },
-    kepler: { name: 'Kepler', pitch: 1.05, rate: 0.98, slogan: "Structuring the truth. Estrategia y cadena de custodia.", lang: 'es-ES' },
+    kepler: { name: 'Kepler', pitch: 1.05, rate: 0.98, slogan: "Structuring the truth. Estrategia y cadena de custodia.", lang: 'es-CO' },
     andretaker: { name: 'AndreTaker', pitch: 0.95, rate: 1.0, slogan: "It's my turn! I'm unbroken!", lang: 'en-US' }
   };
 
@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', () => {
       window.speechSynthesis.resume();
     }
     
-    const lang = targetLang || (VOICE_PROFILES[agentKey] ? VOICE_PROFILES[agentKey].lang : 'es-ES');
+    const lang = targetLang || (VOICE_PROFILES[agentKey] ? VOICE_PROFILES[agentKey].lang : 'es-CO');
     const profile = VOICE_PROFILES[agentKey] || VOICE_PROFILES.andretaker;
     
     const utterance = new SpeechSynthesisUtterance(textToSpeak);
@@ -196,7 +196,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const voices = window.speechSynthesis.getVoices();
     if (voices && voices.length > 0) {
       const langPrefix = lang.split('-')[0].toLowerCase();
-      const matchedVoice = voices.find(v => v.lang.toLowerCase().startsWith(langPrefix));
+      // Priorizar voces colombianas (es-CO) o neutras y excluir España (es-ES) y México (es-MX)
+      const matchedVoice = voices.find(v => v.lang.toLowerCase() === 'es-co') ||
+                           voices.find(v => v.lang.toLowerCase().startsWith('es') && !v.lang.toLowerCase().includes('es-es') && !v.lang.toLowerCase().includes('es-mx')) ||
+                           voices.find(v => v.lang.toLowerCase().startsWith(langPrefix));
       if (matchedVoice) {
         utterance.voice = matchedVoice;
       }
