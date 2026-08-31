@@ -143,37 +143,41 @@ document.addEventListener('DOMContentLoaded', () => {
     arthurios: { name: 'Arthurios', pitch: 1.35, rate: 1.05, slogan: "Mess with me and moma won't play nice!", lang: 'en-US' }
   };
 
-  window.playAgentCatchphrase = function(agentKey) {
-    if (agentKey === 'andretaker' || agentKey === 'andrea') {
-      if (!window.andreTakerAudio) {
-        window.andreTakerAudio = new Audio('00_MUESTRAS_EVIDENCIA/VOCES/VOZ_OFICIAL_ANDRETAKER_ANZACA.mp3');
-      }
-      window.andreTakerAudio.currentTime = 0;
-      window.andreTakerAudio.play().catch(err => {
-        console.log("Audio grabado de AndreTaker:", err);
-      });
-      return;
-    }
-
-    const profile = VOICE_PROFILES[agentKey] || VOICE_PROFILES.andretaker;
-    window.speakAgent(agentKey, profile.slogan, profile.lang);
+  const AUDIO_CLIPS = {
+    andrea: 'assets/images/VOZ_OFICIAL_ANDRETAKER_ANZACA.mp3',
+    andretaker: 'assets/images/VOICE_CLIP_ANDRETAKER.mp3',
+    babayaga: 'assets/images/VOICE_CLIP_BABAYAGA.mp3',
+    tycho: 'assets/images/VOICE_CLIP_TYCHO.mp3',
+    arthurios: 'assets/images/VOICE_CLIP_ARTHURIOS.mp3',
+    kepler: 'assets/images/VOICE_CLIP_BABAYAGA.mp3'
   };
 
-  // Multilingual voice profile mapping & Real Voice Audio for AndreTaker
-  window.speakAgent = function(agentKey, text, targetLang) {
-    // Si no se pasa texto, reproducir la consigna distintiva del agente
-    const textToSpeak = text || (VOICE_PROFILES[agentKey] ? VOICE_PROFILES[agentKey].slogan : "It's my turn!");
+  window.playAgentCatchphrase = function(agentKey) {
+    window.speakAgent(agentKey);
+  };
 
-    if (agentKey === 'andretaker' && (!text || text.trim() === '')) {
-      if (!window.andreTakerAudio) {
-        window.andreTakerAudio = new Audio('00_MUESTRAS_EVIDENCIA/VOCES/VOZ_OFICIAL_ANDRETAKER_ANZACA.mp3');
+  // Multilingual voice profile mapping & Real Voice Audio for All Agents
+  window.speakAgent = function(agentKey, text, targetLang) {
+    // Si se hace clic en el botón del personaje (sin texto largo), reproducir la voz real del Soundtrack
+    if ((!text || text.trim() === '') && AUDIO_CLIPS[agentKey]) {
+      if (!window.agentAudioPlayers) window.agentAudioPlayers = {};
+      
+      // Detener cualquier audio previo
+      Object.values(window.agentAudioPlayers).forEach(a => { if (a) a.pause(); });
+
+      const audioSrc = AUDIO_CLIPS[agentKey];
+      if (!window.agentAudioPlayers[agentKey]) {
+        window.agentAudioPlayers[agentKey] = new Audio(audioSrc);
       }
-      window.andreTakerAudio.currentTime = 0;
-      window.andreTakerAudio.play().catch(err => {
-        console.log("Error al reproducir audio grabado de AndreTaker:", err);
+      const player = window.agentAudioPlayers[agentKey];
+      player.currentTime = 0;
+      player.play().catch(err => {
+        console.log("Error reproduciendo voz real de soundtrack:", err);
       });
       return;
     }
+
+    const textToSpeak = text || (VOICE_PROFILES[agentKey] ? VOICE_PROFILES[agentKey].slogan : "It's my turn!");
 
     if (!('speechSynthesis' in window)) {
       alert("Tu navegador no soporta síntesis de voz.");
