@@ -655,4 +655,32 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   observer.observe(document.body, { childList: true, subtree: true });
+
+  // =========================================================
+  // 📲 PWA INSTALLATION PROMPT HANDLER (#pwa-install-btn)
+  // =========================================================
+  let deferredPrompt;
+  const installBtn = document.getElementById('pwa-install-btn');
+
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    if (installBtn) installBtn.style.display = 'inline-block';
+  });
+
+  if (installBtn) {
+    installBtn.addEventListener('click', async () => {
+      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+      if (deferredPrompt) {
+        deferredPrompt.prompt();
+        const { outcome } = await deferredPrompt.userChoice;
+        console.log(`PWA Install outcome: ${outcome}`);
+        deferredPrompt = null;
+      } else if (isIOS) {
+        alert('📲 INSTALACIÓN EN iPHONE / iPAD:\n\n1. Toca el botón Compartir (cuadrado con flecha arriba) en Safari.\n2. Selecciona "Agregar a inicio" (Add to Home Screen).\n3. Toca "Agregar" arriba a la derecha.');
+      } else {
+        alert('📲 INSTALACIÓN EN TU DISPOSITIVO:\n\nAbre este portal en Chrome o Safari y selecciona "Instalar Aplicación" o "Agregar a Pantalla de Inicio".');
+      }
+    });
+  }
 });
