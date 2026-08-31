@@ -1,11 +1,11 @@
-# 🔥 HIMNO OFICIAL — BABA YAGA THEME
-## AndreTaker — BabaYaga Core Official Soundtrack
+# 🔥 HIMNO OFICIAL — BABA YAGA THEME (COMPLETE EDITION)
+## AndreTaker — BabaYaga Core Official Soundtrack (3:49 Master Track)
 
 ---
 
-### 🎙️ English Lyrics (Letra Original)
+### 🎙️ English Lyrics (Letra Completa)
 
-**[Intro - Heavy Synth & Drums]**
+**[Intro - Heavy Synth & Metal Riffs]**
 
 **[Verse 1]**
 Footsteps echo through the neon light,  
@@ -44,18 +44,30 @@ One man army taking whole crews down!
 You broke the code, ignited war,  
 Now death is knocking at your door!  
 
-**[Pre-Chorus]**
-Feel the pressure under your skin,  
-You know the nightmare's closing in!  
-No second chance, no turning back,  
-He's already on your track...  
+**[Bridge - Climax]**
+He's taking every breath,  
+Every second marching closer to death!  
+You started a war you can't survive,  
+Now the Devil himself arrives!  
+You can't stop him, you will fade,  
+Everything becomes a blade in the smoke, in the flame!  
+Everybody fears his name!  
 
-**[Chorus]**
+**[Chorus 2]**
 **BABA YAGA!** Hear the city scream!  
 **BABA YAGA!** Shadow walking under the lights!  
-No escape when the darkness calls,  
-You see death standing in the halls!  
-**BABA YAGA!**  
+**BABA YAGA!** Hear the thunder shake the sky!  
+Legends kneel and heroes die!  
+You can run, but you won't survive,  
+**He's the reason monsters hide!**  
+
+**[Outro]**
+**BABA YAGA!** Feel the panic in your veins!  
+Every scar becomes a chain!  
+You took the dark, now face the flame,  
+There's no mercy...  
+**FOR BABA YAGA!**  
+*You should have never awakened the legend!*
 
 ---
 
@@ -98,12 +110,27 @@ El fuego de armas baila al ritmo del corazón,
 Rompiste el código, encendiste la guerra,  
 ¡Ahora la muerte golpea a tu puerta!  
 
-**[Pre-Coro]**
-Siente la presión bajo tu piel,  
-¡Sabes que la pesadilla se acerca!  
-Sin segunda oportunidad, sin vuelta atrás,  
-Él ya está tras tus huellas...  
+**[Puente - Clímax]**
+Él toma cada aliento,  
+¡Cada segundo marchando más cerca de la muerte!  
+Comenzaste una guerra que no puedes sobrevivir,  
+¡Ahora el mismísimo Diablo llega!  
+No puedes detenerlo, te desvanecerás,  
+¡Todo se convierte en una hoja en el humo, en la llama!  
+¡Todos temen su nombre!  
 
-**[Coro]**
+**[Coro 2]**
 **¡BABA YAGA!** ¡Escucha a la ciudad gritar!  
-**¡BABA YAGA!**  
+**¡BABA YAGA!** ¡Sombra caminando bajo las luces!  
+**¡BABA YAGA!** ¡Escucha el trueno sacudir el cielo!  
+¡Las leyendas se arrodillan y los héroes mueren!  
+Puedes correr, pero no sobrevivirás,  
+**¡Él es la razón por la que los monstruos se esconden!**  
+
+**[Outro]**
+**¡BABA YAGA!** ¡Siente el pánico en tus venas!  
+¡Cada cicatriz se convierte en una cadena!  
+Tomaste la oscuridad, ahora enfrenta la llama,  
+No hay misericordia...  
+**¡PARA BABA YAGA!**  
+*¡Nunca debieron haber despertado a la leyenda!*
