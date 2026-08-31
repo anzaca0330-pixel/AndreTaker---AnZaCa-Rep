@@ -1,0 +1,14 @@
+[
+  {
+    "rule_id": "MIRROR-RULE-D6BBDEB7A10D",
+    "timestamp": "2026-08-31T23:56:21Z",
+    "signature_hash": "d6bbdeb7a10d22350e3136736a34c68955c6d9985487df161cd9627082b6fcf3",
+    "target": "raw_stream_bytes",
+    "anomalies": [
+      "DETECCION_VECTOR_PEGASUS_ZERO_CLICK",
+      "DETECCION_SOFTWARE_ESPIA_KEYLOGGER"
+    ],
+    "automated_countermeasure": "ESPEJO_MUTACION_SHA256_DEPURACION_EXIF_Y_BLINDAJE_CUARENTENA",
+    "status": "INMUNIZADO"
+  }
+]
