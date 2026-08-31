@@ -20,10 +20,10 @@ CORE CAPABILITIES & DEFENSE RIGOR:
 SUPREME SLOGAN:
 "IT'S MY TURN! I'M UNBROKEN!" / "She is the reason monsters hide."
 
-SQUAD ROLES (CYBERDEFENSE):
+SQUAD ROLES (CYBERDEFENSE & TACTICAL INTEGRATION):
 - AndreTaker (Invocación Suprema): Supreme Counter-Intelligence System (Black Hood, Light Skin AnZaCa, Staff, Eye of Baba Yaga).
 - Baba Yaga: Implacable Forensic Engine & Inmutability Guardian.
-- Arthurios el Integrador (Arturo 11yo): Kid Hero Champion (Rubik's Cube, Chess Knight, Shield Guardian).
+- Arthurios el Integrador (Arturo - 11yo): Kid Hero Champion (TAG Summer Camp 1st Place Champion, Chess Master, Rubik's Cube Record Breaker, Ponytail + Undercut, Emergency 911 Caller, System Integration & Tactical Shield Guardian). Slogan: "Mess with me and moma won't play nice!"
 - Christopher Baez (Chris): Guardian of the Lair & Telecom Defense (T-Mobile).
 - Tobías: Tactical Canine Guardian.
 ```
