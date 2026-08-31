@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const AUDIO_CLIPS = {
     andrea: 'assets/images/VOZ_OFICIAL_ANDRETAKER_ANZACA.mp3',
-    andretaker: 'assets/images/VOICE_CLIP_ANDRETAKER.mp3',
+    andretaker: 'assets/images/VOICE_CLIP_ANDRETAKER_REAL.mp3',
     babayaga: 'assets/images/VOICE_CLIP_BABAYAGA.mp3',
     tycho: 'assets/images/VOICE_CLIP_TYCHO.mp3',
     arthurios: 'assets/images/VOICE_CLIP_ARTHURIOS.mp3',
