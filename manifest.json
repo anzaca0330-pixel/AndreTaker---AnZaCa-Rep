@@ -8,15 +8,15 @@
   "theme_color": "#06b6d4",
   "icons": [
     {
-      "src": "assets/images/anzaca_digging_e14_evidence.jpg",
+      "src": "assets/images/andretaker_unbroken_cover.png",
       "sizes": "192x192",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "assets/images/anzaca_digging_e14_evidence.jpg",
+      "src": "assets/images/faces_of_fear_baba_yaga.png",
       "sizes": "512x512",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ]
