@@ -1,3 +1,20 @@
+// Global Language Switcher (ES / EN / FR)
+window.currentLang = 'es';
+window.setGlobalLanguage = function(lang) {
+  window.currentLang = lang;
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.style.background = 'transparent';
+    btn.style.color = 'var(--text-muted)';
+  });
+  const activeBtn = document.getElementById('lang-btn-' + lang);
+  if (activeBtn) {
+    activeBtn.style.background = 'var(--accent-cyan)';
+    activeBtn.style.color = '#000';
+  }
+  document.documentElement.lang = lang;
+  console.log("Idioma activo:", lang);
+};
+
 // AndreTaker — BabaYaga Core Portal JavaScript
 document.addEventListener('DOMContentLoaded', () => {
   // Navigation Tabs
