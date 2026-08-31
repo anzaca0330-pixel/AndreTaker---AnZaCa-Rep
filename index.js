@@ -372,4 +372,161 @@ document.addEventListener('DOMContentLoaded', () => {
       document.getElementById('custom-agent-slogan').value = '';
     });
   }
+
+  // =========================================================
+  // 🎮 GAME ENGINE: COUNTER-SYSTEM VS. PALANTIR & CYBER DEFENSE
+  // =========================================================
+  const canvas = document.getElementById('game-radar-canvas');
+  const overlayMsg = document.getElementById('game-overlay-msg');
+  const shieldVal = document.getElementById('game-shield-val');
+  const btnStartGame = document.getElementById('btn-start-game');
+
+  if (canvas) {
+    const ctx = canvas.getContext('2d');
+    let gameRunning = false;
+    let shield = 100;
+    let threats = [];
+    let particles = [];
+
+    const THREAT_TYPES = [
+      { name: 'Palantir Foundry Node', color: '#ef4444', speed: 1.2 },
+      { name: 'Pegasus SS7 Interceptor', color: '#f59e0b', speed: 1.8 },
+      { name: 'Kernel BIOS Rootkit', color: '#a855f7', speed: 1.5 },
+      { name: 'Synthetic Raster Mask', color: '#ec4899', speed: 1.0 }
+    ];
+
+    function spawnThreat() {
+      if (!gameRunning) return;
+      const type = THREAT_TYPES[Math.floor(Math.random() * THREAT_TYPES.length)];
+      threats.push({
+        x: canvas.width + 20,
+        y: Math.random() * (canvas.height - 60) + 30,
+        type: type,
+        radius: 14,
+        hp: 1
+      });
+    }
+
+    function createExplosion(x, y, color) {
+      for (let i = 0; i < 12; i++) {
+        particles.push({
+          x: x,
+          y: y,
+          vx: (Math.random() - 0.5) * 6,
+          vy: (Math.random() - 0.5) * 6,
+          life: 25,
+          color: color
+        });
+      }
+    }
+
+    function gameLoop() {
+      ctx.fillStyle = '#020617';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      // Radar rings animation
+      const time = Date.now() * 0.002;
+      ctx.strokeStyle = 'rgba(6, 182, 212, 0.15)';
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.arc(canvas.width / 2, canvas.height / 2, (time * 40) % (canvas.width / 2), 0, Math.PI * 2);
+      ctx.stroke();
+
+      // Draw Central Vault Shield Node
+      ctx.fillStyle = shield > 50 ? 'rgba(6, 182, 212, 0.3)' : 'rgba(239, 68, 68, 0.3)';
+      ctx.strokeStyle = shield > 50 ? '#06b6d4' : '#ef4444';
+      ctx.lineWidth = 3;
+      ctx.beginPath();
+      ctx.arc(60, canvas.height / 2, 35, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.stroke();
+
+      ctx.fillStyle = '#ffffff';
+      ctx.font = 'bold 12px monospace';
+      ctx.fillText('VAULT', 42, canvas.height / 2 + 4);
+
+      // Update & Draw Threats
+      for (let i = threats.length - 1; i >= 0; i--) {
+        const t = threats[i];
+        t.x -= t.type.speed;
+
+        ctx.fillStyle = t.type.color;
+        ctx.shadowColor = t.type.color;
+        ctx.shadowBlur = 10;
+        ctx.beginPath();
+        ctx.arc(t.x, t.y, t.radius, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.shadowBlur = 0;
+
+        ctx.fillStyle = '#ffffff';
+        ctx.font = '9px monospace';
+        ctx.fillText(t.type.name.split(' ')[0], t.x - 18, t.y - 18);
+
+        // Check Vault Collision
+        if (t.x <= 95) {
+          shield = Math.max(0, shield - 15);
+          if (shieldVal) shieldVal.innerText = shield + '% ' + (shield > 0 ? 'SECTORS' : 'CRÍTICO');
+          createExplosion(t.x, t.y, '#ef4444');
+          threats.splice(i, 1);
+
+          if (shield <= 0) {
+            gameRunning = false;
+            if (overlayMsg) overlayMsg.innerText = '🚨 ALERTA: Brecha simulada. Reiniciando contragolpe...';
+          }
+        }
+      }
+
+      // Update Particles
+      for (let i = particles.length - 1; i >= 0; i--) {
+        const p = particles[i];
+        p.x += p.vx;
+        p.y += p.vy;
+        p.life--;
+        ctx.fillStyle = p.color;
+        ctx.fillRect(p.x, p.y, 3, 3);
+        if (p.life <= 0) particles.splice(i, 1);
+      }
+
+      if (gameRunning) {
+        requestAnimationFrame(gameLoop);
+      }
+    }
+
+    if (btnStartGame) {
+      btnStartGame.addEventListener('click', () => {
+        shield = 100;
+        threats = [];
+        particles = [];
+        gameRunning = true;
+        if (shieldVal) shieldVal.innerText = '100% INTAC TO';
+        if (overlayMsg) overlayMsg.innerText = '⚔️ SIMULACIÓN ACTIVA — Palantir Nodes atacando el acervo...';
+        
+        speakAgent('andretaker');
+        setInterval(spawnThreat, 2200);
+        gameLoop();
+      });
+    }
+
+    // Squad Skill Trigger Handlers
+    window.triggerSkill = function(skillName, agentKey, msgText) {
+      if (!gameRunning) {
+        if (overlayMsg) overlayMsg.innerText = '👉 Inicia la simulación primero con el botón rojo!';
+        return;
+      }
+      createExplosion(canvas.width / 2, canvas.height / 2, '#06b6d4');
+      threats.forEach(t => createExplosion(t.x, t.y, t.type.color));
+      threats = [];
+      shield = Math.min(100, shield + 20);
+      if (shieldVal) shieldVal.innerText = shield + '% SECTORS';
+      if (overlayMsg) overlayMsg.innerText = `✨ ${skillName}: ${msgText}`;
+      speakAgent(agentKey);
+    };
+
+    document.getElementById('btn-skill-andrea')?.addEventListener('click', () => window.triggerSkill('Escudo SHA-256 (Andrea)', 'andrea', '¡Preservación probatoria activada!'));
+    document.getElementById('btn-skill-arthurios')?.addEventListener('click', () => window.triggerSkill('Barrier 911 (Arthurios)', 'arthurios', 'Mess with me and moma won\'t play nice!'));
+    document.getElementById('btn-skill-andretaker')?.addEventListener('click', () => window.triggerSkill('Unbroken Flush (AndreTaker)', 'andretaker', 'IT\'S MY TURN!'));
+    document.getElementById('btn-skill-babayaga')?.addEventListener('click', () => window.triggerSkill('XREF Ghost Purge (Baba Yaga)', 'babayaga', 'She is the reason monsters hide.'));
+    document.getElementById('btn-skill-tycho')?.addEventListener('click', () => window.triggerSkill('Mod-12 Wave (Tycho)', 'tycho', 'LOOK BACK!'));
+    document.getElementById('btn-skill-kepler')?.addEventListener('click', () => window.triggerSkill('Custody Lock (Kepler)', 'kepler', 'Cadena de custodia ISO 27037 blindada.'));
+  }
 });

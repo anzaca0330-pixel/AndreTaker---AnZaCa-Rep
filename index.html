@@ -572,6 +572,46 @@
         </div>
       </div>
 
+      <!-- 🎮 JUEGO INTERACTIVO: COUNTER-SYSTEM VS. PALANTIR & OPERACIONES CIBERNÉTICAS -->
+      <div class="content-card" style="margin-top: 28px; border-color: var(--accent-red); background: linear-gradient(135deg, rgba(15, 23, 42, 0.98), rgba(239, 68, 68, 0.18)); border-width: 2px; box-shadow: 0 0 30px rgba(239, 68, 68, 0.3);">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 12px;">
+          <div>
+            <h3 style="color: var(--accent-red); font-size: 1.4rem;">🎮 DEFENSA CIBERNÉTICA INTERACTIVA — COUNTER-SYSTEM VS. PALANTIR</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 4px;">
+              Simulador táctico en tiempo real: Defiende las actas E-14 y el acervo de >677 GB repeliendo ciberataques de Palantir, Pegasus y Rootkits a nivel Kernel.
+            </p>
+          </div>
+          <div style="text-align: right; background: rgba(0,0,0,0.6); padding: 8px 14px; border-radius: 8px; border: 1px solid var(--accent-cyan);">
+            <div style="color: var(--accent-cyan); font-size: 0.75rem; text-transform: uppercase;">Estado del Escudo</div>
+            <div id="game-shield-val" style="color: var(--accent-amber); font-weight: 800; font-size: 1.2rem;">100% INTAC TO</div>
+          </div>
+        </div>
+
+        <!-- Radar Canvas -->
+        <div style="position: relative; background: #020617; border: 2px solid var(--accent-cyan); border-radius: 10px; overflow: hidden; margin-bottom: 16px;">
+          <canvas id="game-radar-canvas" width="800" height="260" style="width: 100%; height: 260px; display: block; background: radial-gradient(circle at center, #0f172a 0%, #020617 100%);"></canvas>
+          <div id="game-overlay-msg" style="position: absolute; top: 12px; left: 12px; font-family: monospace; font-size: 0.85rem; color: var(--accent-cyan); background: rgba(2, 6, 23, 0.85); padding: 6px 12px; border-radius: 4px; border: 1px solid var(--accent-cyan);">
+            📡 Radar de Amenazas: Esperando inicio de combate...
+          </div>
+        </div>
+
+        <!-- Squad Tactical Ability Controls -->
+        <h4 style="color: var(--text-main); font-size: 1rem; margin-bottom: 10px;">⚡ Desplegar Habilidades Tácticas del Roster:</h4>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin-bottom: 16px;">
+          <button id="btn-skill-andrea" class="nav-btn" style="border-color: var(--accent-amber); color: var(--accent-amber);">👑 Andrea: Escudo SHA-256</button>
+          <button id="btn-skill-arthurios" class="nav-btn" style="border-color: #38bdf8; color: #38bdf8;">🗡️ Arthurios: Barrier 911</button>
+          <button id="btn-skill-andretaker" class="nav-btn" style="border-color: var(--accent-cyan); color: var(--accent-cyan);">⚡ AndreTaker: Unbroken Flush</button>
+          <button id="btn-skill-babayaga" class="nav-btn" style="border-color: var(--accent-purple); color: var(--accent-purple);">🪓 Baba Yaga: XREF Ghost Purge</button>
+          <button id="btn-skill-tycho" class="nav-btn" style="border-color: var(--accent-teal); color: var(--accent-teal);">🔭 Tycho: Mod-12 Wave</button>
+          <button id="btn-skill-kepler" class="nav-btn" style="border-color: var(--accent-amber); color: var(--accent-amber);">📜 Kepler: Custody Lock</button>
+        </div>
+
+        <!-- Start / Reset Game Controls -->
+        <div style="display: flex; gap: 12px;">
+          <button id="btn-start-game" class="nav-btn active" style="border-color: var(--accent-red); background: var(--accent-red); color: #fff; width: 100%; font-weight: 800; padding: 12px;">🚀 Iniciar Simulación de Ataque Palantir</button>
+        </div>
+      </div>
+
       <!-- Agent Voice Audio Panel -->
       <div class="content-card" style="margin-top: 24px; border-color: var(--accent-purple);">
         <h3 style="color: var(--accent-purple);">🎙️ Probador Multilingüe de Voces (Español, English, Français)</h3>
