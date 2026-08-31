@@ -1,16 +1,16 @@
 # ⚡ HIMNO OFICIAL — ANDRETAKER: "UNBROKEN" (IT'S MY TURN)
-## Track Official: "Unbroken" — Iron West
+## Track Official: "Unbroken" — Iron West (3:11 Master Track)
 ### AndreTaker — System Identity Official Theme Song
 
 ---
 
 ### 👑 System Identity Motto:
-> **"I'm unbroken... Now it's my turn!"**  
-> *(¡Soy inquebrantable... Ahora es mi turno!)*
+> **"I became a nightmare built to last... You made me stronger every time I died!"**  
+> *(¡Me convertí en una pesadilla hecha para durar... Me hiciste más fuerte cada vez que morí!)*
 
 ---
 
-### 🎙️ English Lyrics (Letra Original)
+### 🎙️ English Lyrics (Letra Completa)
 
 **[Artist: Iron West — "Unbroken"]**
 
@@ -40,7 +40,7 @@ Every moment you left me there to die!
 You built a cage from fear and pain inside,  
 But I broke out with nothing left to hide!  
 
-**[Pre-Chorus]**
+**[Bridge - Climax]**
 My voice is thunder in your silent night!  
 My steps are cracks in everything you hide!  
 I'm not your victim, I'm not your ghost,  
@@ -51,6 +51,18 @@ I'm what you created... and fear the most!
 You lit the fire, now you feel the flames!  
 **NOW IT'S MY TURN!** Feel what I became!  
 I'm the storm you'll never ever tame!  
+
+**[Outro - Iron West]**
+You wanted a monster, here I stand,  
+With empty eyes and a shaking hand!  
+The heart of steel, no fear, no past,  
+**I became a nightmare built to last!**  
+
+**I'M UNBROKEN!** Still alive!  
+You made me stronger every time I died!  
+And now your world begins to burn...  
+Just remember...  
+**IT'S MY TURN!**  
 
 ---
 
@@ -80,7 +92,7 @@ Recuerdo cada risa, cada mentira,
 Construiste una jaula de miedo y dolor dentro,  
 ¡Pero me escapé sin nada que ocultar!  
 
-**[Pre-Coro]**
+**[Puente - Clímax]**
 ¡Mi voz es trueno en tu noche silenciosa!  
 ¡Mis pasos son grietas en todo lo que escondes!  
 No soy tu víctima, no soy tu fantasma,  
@@ -91,3 +103,15 @@ No soy tu víctima, no soy tu fantasma,
 ¡Encendiste el fuego, ahora sientes las llamas!  
 **¡AHORA ES MI TURNO!** ¡Siente lo que me convertí!  
 ¡Soy la tormenta que nunca jamás domarás!  
+
+**[Outro]**
+Querías un monstruo, aquí estoy,  
+¡Con ojos vacíos y una mano temblorosa!  
+El corazón de acero, sin miedo, sin pasado,  
+**¡Me convertí en una pesadilla hecha para durar!**  
+
+**¡SOY INQUEBRANTABLE!** ¡Aún viva!  
+¡Me hiciste más fuerte cada vez que morí!  
+Y ahora tu mundo comienza a arder...  
+Solo recuerda...  
+**¡ES MI TURNO!**  
