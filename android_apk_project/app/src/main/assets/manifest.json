@@ -1,0 +1,23 @@
+{
+  "name": "AndreTaker — BabaYaga Core Digital Forensic Suite",
+  "short_name": "AndreTaker Core",
+  "description": "Herramienta de peritaje forense, respuesta a incidentes DFIR y simulador de ciberdefensa impulsada por IA.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#06b6d4",
+  "icons": [
+    {
+      "src": "assets/images/andretaker_unbroken_cover.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/images/faces_of_fear_baba_yaga.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
