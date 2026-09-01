@@ -215,6 +215,42 @@ document.addEventListener('DOMContentLoaded', () => {
     updateProfileViews(profileSelect.value);
   }
 
+  // Anti-Shadowban Text Obfuscator Button Event Listener
+  const btnSanitizar = document.getElementById('btn-sanitizar-texto');
+  if (btnSanitizar) {
+    btnSanitizar.addEventListener('click', () => {
+      const inputEl = document.getElementById('antifilter-input');
+      const statusEl = document.getElementById('antifilter-status-txt');
+      if (!inputEl) return;
+
+      let val = inputEl.value;
+      const zw = "\u200B"; // Zero-width space
+      const terms = ["github.com", "duckdns.org", "andretaker", "babayaga", "anzaca", "forensic", "cidh", "benford", "e14", "e-14"];
+
+      terms.forEach(term => {
+        const regex = new RegExp(term, 'gi');
+        val = val.replace(regex, (match) => {
+          return match[0] + zw + match.slice(1, Math.ceil(match.length / 2)) + zw + match.slice(Math.ceil(match.length / 2));
+        });
+      });
+
+      inputEl.value = val;
+      
+      // Copy to Clipboard
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(val).then(() => {
+          if (statusEl) statusEl.innerText = "✅ ¡TEXTO BLINDADO Y COPIADO AL PORTAPAPELES! Puedes pegarlo directamente en tu red social sin riesgo de shadowban.";
+        }).catch(() => {
+          if (statusEl) statusEl.innerText = "✅ ¡TEXTO BLINDADO! Copia el texto del recuadro para pegarlo en tu red social.";
+        });
+      } else {
+        inputEl.select();
+        document.execCommand('copy');
+        if (statusEl) statusEl.innerText = "✅ ¡TEXTO BLINDADO Y COPIADO! Listo para pegar.";
+      }
+    });
+  }
+
   // Animated counters
   const counters = document.querySelectorAll('.counter');
   counters.forEach(counter => {

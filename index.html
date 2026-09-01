@@ -1056,14 +1056,18 @@
             <p id="inmunizar-status-txt" style="margin-top: 8px; font-size: 0.78rem; color: var(--accent-amber);"></p>
           </div>
 
-          <!-- Action 2: Metadata & GPS Spoofing -->
-          <div style="background: rgba(2, 6, 23, 0.9); padding: 14px; border-radius: 8px; border: 1px solid var(--accent-teal);">
-            <h4 style="color: var(--accent-teal); font-size: 1rem;">2. Ruido de Identidad & Coordenadas GPS</h4>
-            <p style="color: var(--text-muted); font-size: 0.82rem; margin-top: 6px;">
-              Sustituye coordenadas reales y modelos de cámara por identidades de ruido (*Noise Coordinates*) para cegar el seguimiento de geolocalización.
+          <!-- Action 3: Anti-Shadowban Text Obfuscator -->
+          <div style="background: rgba(2, 6, 23, 0.9); padding: 14px; border-radius: 8px; border: 1px solid var(--accent-purple); grid-column: 1 / -1;">
+            <h4 style="color: var(--accent-purple); font-size: 1rem;">3. 🥷 Blindaje Anti-Shadowban para Redes Sociales (1-Clic)</h4>
+            <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 6px;">
+              Escribe o pega aquí el texto de tu publicación para X, LinkedIn o Instagram. Al hacer clic en el botón, se inyectarán caracteres invisibles de ancho cero (<code>\u200B</code>) que engañan a los bots de censura sin alterar la lectura humana:
             </p>
-            <button id="btn-spoof-metadata" class="nav-btn active" style="width: 100%; border-color: var(--accent-teal); margin-top: 12px; background: rgba(20, 184, 166, 0.15);">Inyectar Ruido de Geolocalización</button>
-            <p id="spoof-status-txt" style="margin-top: 8px; font-size: 0.78rem; color: var(--accent-teal);"></p>
+            <textarea id="antifilter-input" rows="4" style="width: 100%; margin-top: 10px; padding: 10px; background: #020617; border: 1px solid var(--accent-purple); color: var(--text-main); border-radius: 6px; font-family: monospace; font-size: 0.88rem;" placeholder="Escribe o pega tu post aquí...">🚨 ¡ES OFICIAL! Liberamos la Suite de Ciberseguridad & Peritaje Forense BaBaYaga Core v3.0.
+🌐 Portal Web: https://andretaker.duckdns.org
+💻 GitHub: https://github.com/anzaca0330-pixel/AndreTaker---BaBaYaga-Core_-ForensicTool
+#OpenSource #CyberSecurity #DataScience #DigitalForensics #AnZaCa #AndreTaker</textarea>
+            <button id="btn-sanitizar-texto" class="nav-btn active" style="width: 100%; border-color: var(--accent-purple); margin-top: 10px; background: rgba(168, 85, 247, 0.25); font-weight: bold; font-size: 0.95rem;">🥷 Blindar Texto & Copiar al Portapapeles</button>
+            <p id="antifilter-status-txt" style="margin-top: 8px; font-size: 0.85rem; color: #4ade80; font-weight: bold;"></p>
           </div>
         </div>
       </div>
