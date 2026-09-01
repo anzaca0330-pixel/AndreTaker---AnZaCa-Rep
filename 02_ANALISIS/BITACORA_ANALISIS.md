@@ -119,6 +119,14 @@
   - **Diagnóstico del Módulo:** `Estado: clean` | **Arranque íntegro y seguro**. Cero amenazas activas en el firmware.
 - **Herramienta Android Odin:** Se identificó `odin.zip` (1.1 MB), conteniendo la herramienta binaria ejecutable `odin4` para flashear/restaurar dispositivos Android.
 
+---
+
+### 📌 TAREAS FIJADAS PARA PRÓXIMAS SESIONES (PINNED TASKS)
+1. **Remoción de Password Manager / Supervisor Password de BIOS:**
+   - **Objetivo:** Ejecutar el procedimiento de bypass de clave física de hardware (SVP) mediante lectura del chip EEPROM/EC con el programador físico SPI CH341A + SOIC8.
+   - **Estado:** Fijado por Johannes para ejecución posterior. La protección NVRAM EFI ya está 100% activa.
+
+
 
 
 
