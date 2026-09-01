@@ -87,5 +87,27 @@
     ],
     "automated_countermeasure": "ESPEJO_MUTACION_SHA256_DEPURACION_EXIF_Y_BLINDAJE_CUARENTENA",
     "status": "INMUNIZADO"
+  },
+  {
+    "rule_id": "MIRROR-RULE-3DC6903F0103",
+    "timestamp": "2026-09-01T10:09:21Z",
+    "signature_hash": "3dc6903f010375f0b406dceca9bc52436cb67a25f072fc044869f8e1712a27f7",
+    "target": "raw_stream_bytes",
+    "anomalies": [
+      "DETECCION_VECTOR_PEGASUS_ZERO_CLICK"
+    ],
+    "automated_countermeasure": "ESPEJO_MUTACION_SHA256_DEPURACION_EXIF_Y_BLINDAJE_CUARENTENA",
+    "status": "INMUNIZADO"
+  },
+  {
+    "rule_id": "MIRROR-RULE-3DC6903F0103",
+    "timestamp": "2026-09-01T10:09:54Z",
+    "signature_hash": "3dc6903f010375f0b406dceca9bc52436cb67a25f072fc044869f8e1712a27f7",
+    "target": "raw_stream_bytes",
+    "anomalies": [
+      "DETECCION_VECTOR_PEGASUS_ZERO_CLICK"
+    ],
+    "automated_countermeasure": "ESPEJO_MUTACION_SHA256_DEPURACION_EXIF_Y_BLINDAJE_CUARENTENA",
+    "status": "INMUNIZADO"
   }
 ]
