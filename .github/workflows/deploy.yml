@@ -24,25 +24,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Prepare web files only
-        run: |
-          mkdir -p _site
-          cp index.html _site/
-          cp index.css _site/
-          cp index.js _site/
-          cp siguiendo_la_anomalia.html _site/ 2>/dev/null || true
-          cp CARTA_Y_MANIFIESTO_CONSOLIDADOS.html _site/ 2>/dev/null || true
-          touch _site/.nojekyll
-          echo "Archivos en _site:"
-          ls -lh _site/
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '_site'
+          path: '.'
 
       - name: Deploy to GitHub Pages
         id: deployment
