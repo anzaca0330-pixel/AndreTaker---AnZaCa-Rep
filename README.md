@@ -71,15 +71,16 @@ Para que cualquier ciudadano o auditor pueda descargar los archivos y probar nue
 
 ---
 
-## 🪓 MASTER MIRROR DEFENSE ENGINE v3.0 (`BABAYAGA_CORE`)
-El repositorio incorpora el sistema de autodefensa digital en tiempo real y aprendizaje adaptativo zero-day:
-
 * ⚡ **Recarga Caliente al Vuelo (*On-The-Fly Hot-Reloading*):** Demonio en segundo plano (`start_realtime_hot_reload_watcher`) que sintetiza e inmuniza nuevas reglas de defensa sin pausar la ejecución.
+* ☁️ **Bóveda Virtual Nube sin Disco (`VirtualCloudVault`):** Servicio de ingesta e inmunización cifrada instantánea (AES-256 Zero-Knowledge) en la nube para usuarios sin unidades físicas a la mano (`BABAYAGA_CORE/babayaga/api/cloud.py`).
+* 🔄 **Reversión Automática de Bloqueo de BIOS (`BootAttackWatchdog`):** Escaneo y recuperación automática de firmware BIOS oficial mediante la localización de binarios limpios de fábrica (`BABAYAGA_CORE/babayaga/core/intelligence/boot_watchdog.py`).
 * 👑 **Protección Total Contra Robo de Identidad:** Depuración dinámica y *Entity Redaction* (`protect_against_identity_theft`) de números de identificación, cédulas y correos electrónicos (`[ID-PERSONAL-REDACTADO]`).
 * 🔌 **Bloqueo de Puertos y Cierre de Hardware:** Cierre activo de sockets en puertos no autorizados y aislamiento de hardware (*USB/SATA power-cut lock*).
 * 👁️ **Detección Anti-Spyware:** Heurística avanzada para neutralizar capturadores de pantalla, *keyloggers* e inyecciones de memoria.
 * 🌐 **Inmunidad Anti-MITM DNS:** Verificación de confianza en resolución de nombres e interfaces locales.
 * 🧪 **Suite de Pruebas Unitarias:** **12 tests unitarios** verificado al 100% (`OK`) mediante `python3 BABAYAGA_CORE/run_tests.py`.
+
+
 
 ---
 
