@@ -67,14 +67,14 @@ def invocar_tycho(mensaje: str):
     print("🔭  TYCHO — Instrumento de Silicio | EN LÍNEA")
     print("="*60 + "\n")
 
-    response = client.models.generate_content(
+    chat = client.chats.create(
         model=MODEL,
         config=types.GenerateContentConfig(
             system_instruction=TYCHO_SYSTEM,
             temperature=0.5,
         ),
-        contents=mensaje,
     )
+    response = chat.send_message(mensaje)
 
     print(response.text)
     print("\n" + "="*60)
