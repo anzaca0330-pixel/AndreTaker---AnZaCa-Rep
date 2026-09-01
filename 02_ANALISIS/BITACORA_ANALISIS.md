@@ -102,5 +102,7 @@
   - **Fecha de Empaquetado Original Lenovo:** **18 de Noviembre de 2022** (14:45:36 UTC).
   - **Fecha de Descarga e Ingesta:** **20 de Junio de 2026** (almacenados durante la fase de mitigación post-ataque).
 - **Diagnóstico del Firmware:** La presencia de estos binarios oficiales de fábrica confirma que la BIOS de la ThinkPad es **100% rescatable y reflasheable** a su estado original de fábrica (vía `fwupd` en Linux o programador físico de hardware CH341A SPI).
+- **Purga de Inyección de Arranque EFI (Ejecutado):** Se ejecutó con éxito `sudo efibootmgr -b 0021 -B`, **eliminando y purgando la entrada remota `Boot0021 (LENOVO CLOUD)`** de la memoria NVRAM del chip.
 - **Herramienta Android Odin:** Se identificó `odin.zip` (1.1 MB), conteniendo la herramienta binaria ejecutable `odin4` para flashear/restaurar dispositivos Android.
+
 
