@@ -33,3 +33,4 @@
 * **[REDES_SOCIALES_KIT_DE_PUBLICACION.md](REDES_SOCIALES_KIT_DE_PUBLICACION.md)** — Kit Oficial de Publicación para X, LinkedIn, Instagram, Threads y TikTok.
 * **[MANUAL_EVASION_DE_FILTROS_ALGORITMICOS.md](MANUAL_EVASION_DE_FILTROS_ALGORITMICOS.md)** — Manual de Evasión de Filtros Algorítmicos & Técnicas Anti-Shadowban.
 * **[PROTOCOL_ACCOUNT_OWNERSHIP_HARDENING.md](PROTOCOL_ACCOUNT_OWNERSHIP_HARDENING.md)** — Protocolo de Blindaje, Exclusividad de Cuentas y Cierre de Sesiones Remotas.
+* **[ENTERPRISE_ORGANIZATION_CENTRALIZATION_PLAN.md](ENTERPRISE_ORGANIZATION_CENTRALIZATION_PLAN.md)** — Plan Maestro de Centralización en Cuenta Enterprise, IAM & Gobernanza Unificada.
