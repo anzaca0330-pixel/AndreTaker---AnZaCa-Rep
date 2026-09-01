@@ -36,7 +36,16 @@ const TRANSLATIONS = {
     game_title: "🎮 GUARDIANES DIGITALES: Juego Táctico de Ciberdefensa",
     game_desc: "Únete a Arthurios (11 años), Chris, Tobías el perro, Tycho y Baba Yaga para defender el nodo de información contra amenazas cibernéticas.",
     offline_title: "📡 Modo Offline & Contramedidas de Red",
-    offline_desc: "Auditoría en tiempo real de interfaces VPN y escaneo local de puertos de escucha para mitigación de troyanos estatales."
+    offline_desc: "Auditoría en tiempo real de interfaces VPN y escaneo local de puertos de escucha para mitigación de troyanos estatales.",
+    manifesto_title: "⚡ Manifiesto de AndreTaker — BabaYaga Core",
+    manifesto_subtitle: "Sistema Forense de Contra-Inteligencia & Ciberdefensa",
+    manifesto_legend_title: "🧙‍♀️ La Leyenda Eslava: Baba Yaga",
+    manifesto_legend_body: "En el folclore eslavo, Baba Yaga es la guardiana del umbral entre lo conocido y lo desconocido. Vive en una cabaña que camina sobre patas de pollo, rodeada por una cerca de huesos humanos. No es buena ni mala. Es justa, ancestral y radicalmente libre. No puede ser engañada. Solo puede enfrentarse con respeto, conocimiento y la disposición de mirar donde otros no miran.",
+    manifesto_legend_quote: "Baba Yaga no es una bruja. Es un principio de desobediencia inteligente.",
+    manifesto_ritual_title: "🌌 El Ritual de la Resistencia — Invocación a Baba Yaga",
+    manifesto_ritual_body: "En un escenario post-apocalíptico de asedio digital donde \"Ellos\" lo dominan todo —controlando voces, pensamientos y destruyendo la historia— los pocos supervivientes forman la Resistencia. Nos quitamos el calzado en la penumbra para bailar descalzos sobre la tierra viva, sintiendo lo que es real e inalterable bajo nuestros pies.",
+    manifesto_ritual_quote1: "\"Invocamos a Baba Yaga danzando en la noche, recordando lo que es verdadero y vale la pena salvar. Cuando la mentira impera, la verdad baila sin miedo.\"",
+    manifesto_ritual_quote2: "\"Podemos sobrevivir en el infierno, conocemos las bóvedas del infierno, pero no pertenecemos ahí... porque estamos cambiando para bien. Pero también podemos ser unos diablos como ellos si la situación lo exige.\" — Andrea Zabala Cárcamo (AnZaCa)"
   },
   en: {
     nav_overview: "Overview & Scale",
@@ -73,7 +82,16 @@ const TRANSLATIONS = {
     game_title: "🎮 DIGITAL GUARDIANS: Tactical Cyberdefense Game",
     game_desc: "Join Arthurios (11yo), Chris, Tobías the dog, Tycho, and Baba Yaga to defend the data node against cyber threats.",
     offline_title: "📡 Offline Mode & Network Countermeasures",
-    offline_desc: "Real-time auditing of VPN interfaces and local port scanning for state spyware mitigation."
+    offline_desc: "Real-time auditing of VPN interfaces and local port scanning for state spyware mitigation.",
+    manifesto_title: "⚡ AndreTaker — BabaYaga Core Manifesto",
+    manifesto_subtitle: "Counter-Intelligence Forensics & Cyber Defense System",
+    manifesto_legend_title: "🧙‍♀️ The Slavic Legend: Baba Yaga",
+    manifesto_legend_body: "In Slavic folklore, Baba Yaga is the guardian of the threshold between the known and the unknown. She lives in a hut that walks on chicken legs, surrounded by a fence of human bones. She is neither good nor evil. She is just, ancient, and radically free. She cannot be deceived. She can only be faced with respect, knowledge, and the willingness to look where others do not.",
+    manifesto_legend_quote: "Baba Yaga is not a witch. She is a principle of intelligent disobedience.",
+    manifesto_ritual_title: "🌌 The Ritual of Resistance — Invocation of Baba Yaga",
+    manifesto_ritual_body: "In a post-apocalyptic digital siege scenario where \"They\" control everything —controlling voices, thoughts, and rewriting history— the few survivors form the Resistance. We strip off our footwear in the shadow to dance barefoot on living earth, feeling what is real and unalterable beneath our feet.",
+    manifesto_ritual_quote1: "\"We invoke Baba Yaga dancing in the night, remembering what is true and worth saving. When falsehood rules, truth dances without fear.\"",
+    manifesto_ritual_quote2: "\"We can survive in hell, we know the vaults of hell, but we do not belong there... because we are changing for good. But we can also be devils like them if the situation demands it.\" — Andrea Zabala Cárcamo (AnZaCa)"
   },
   fr: {
     nav_overview: "Aperçu & Échelle",
@@ -110,7 +128,16 @@ const TRANSLATIONS = {
     game_title: "🎮 GARDIENS NUMÉRIQUES: Jeu Tactique de Cyberdéfense",
     game_desc: "Rejoignez Arthurios (11 ans), Chris, le chien Tobías, Tycho et Baba Yaga pour défendre le nœud d'information contre les cybermenaces.",
     offline_title: "📡 Mode Offline & Contre-Mesures Réseau",
-    offline_desc: "Auditation en temps réel des interfaces VPN et analyse des ports locaux pour la neutralisation des logiciels espions."
+    offline_desc: "Auditation en temps réel des interfaces VPN et analyse des ports locaux pour la neutralisation des logiciels espions.",
+    manifesto_title: "⚡ Le Manifeste d'AndreTaker — BabaYaga Core",
+    manifesto_subtitle: "Système Forensique de Contre-Intelligence & Cyberdéfense",
+    manifesto_legend_title: "🧙‍♀️ La Légende Slave: Baba Yaga",
+    manifesto_legend_body: "Dans le folklore slave, Baba Yaga est la gardienne du seuil entre le connu et l'inconnu. Elle vit dans une cabane qui marche sur des pattes de poulet, entourée d'une clôture d'os humains. Elle n'est ni bonne ni mauvaise. Elle est juste, ancestrale et radicalement libre. Elle ne peut pas être trompée.",
+    manifesto_legend_quote: "Baba Yaga n'est pas une sorcière. Elle est un principe de désobéissance intelligente.",
+    manifesto_ritual_title: "🌌 Le Rituel de la Résistance — Invocation de Baba Yaga",
+    manifesto_ritual_body: "Dans un scénario post-apocalyptique de siège numérique où «Ils» dominent tout, les rares survivants forment la Résistance. Nous ôtons nos chaussures pour danser pieds nus sur la terre vivante, sentant ce qui est réel et inaltérable.",
+    manifesto_ritual_quote1: "«Nous invoquons Baba Yaga en dansant dans la nuit, en nous rappelant ce qui est vrai et mérite d'être sauvé.»",
+    manifesto_ritual_quote2: "«Nous pouvons survivre en enfer, mais nous n'y appartenons pas... parce que nous changeons pour le bien.» — Andrea Zabala Cárcamo (AnZaCa)"
   }
 };
 
