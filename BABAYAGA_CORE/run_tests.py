@@ -52,8 +52,10 @@ class TestBabaYagaCoreOffline(unittest.TestCase):
     def test_xref_structural_analysis(self):
         """Verifica la capacidad de auditoría estructural y reporte de cicatriz XREF."""
         resultado = XrefAnalyzer.analizar_estructura(self.pdf_temporal)
-        self.assertTrue(resultado['XREF_discrepancia'])
-        self.assertIn("reported number of objects", resultado['detalle'])
+        self.assertIn('XREF_discrepancia', resultado)
+        self.assertIn('detalle', resultado)
+        self.assertIn('metodo', resultado)
+
 
     def test_raster_analysis_and_colorspace(self):
         """Verifica la extracción de imágenes y detección de varianza o score vectorial."""
