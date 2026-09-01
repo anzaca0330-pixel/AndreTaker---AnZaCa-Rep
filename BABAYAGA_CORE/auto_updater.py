@@ -66,7 +66,7 @@ def step_3_sync_repositories():
     log("✅ Sincronización local inter-repositorios completada.")
 
 def step_4_git_commit_and_push():
-    log("4/4. Realizando Auto-Commit y Auto-Push a GitHub en ambos repositorios...")
+    log("4/5. Realizando Auto-Commit y Auto-Push a GitHub en ambos repositorios...")
     now_str = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     msg = f"Auto-Actualización Automatizada del Acervo e Investigación — {now_str}"
     
@@ -81,6 +81,13 @@ def step_4_git_commit_and_push():
     run_command("git push origin main", cwd=REPO_2)
     log("✅ Auto-Push completado en ambos repositorios GitHub.")
 
+def step_5_archive_org_preservation():
+    log("5/5. Enviando solicitudes de preservación inalterable a Internet Archive (Archive.org)...")
+    archive_script = os.path.join(REPO_1, "BABAYAGA_CORE", "archive_org_saver.py")
+    if os.path.exists(archive_script):
+        run_command(f"python3 {archive_script}", cwd=REPO_1)
+        log("✅ Solicitudes de instantánea en Archive.org (Wayback Machine) procesadas.")
+
 def main():
     log("=================================================================")
     log("INICIANDO MOTOR DE AUTO-ACTUALIZACIÓN INTEGRAL DE INVESTIGACIÓN")
@@ -89,6 +96,7 @@ def main():
     step_2_build_zenodo_bundle()
     step_3_sync_repositories()
     step_4_git_commit_and_push()
+    step_5_archive_org_preservation()
     log("=================================================================")
     log("🎉 ¡PROCESO DE AUTO-ACTUALIZACIÓN AUTOMATIZADO CON ÉXITO TOTAL!")
     log("=================================================================")
