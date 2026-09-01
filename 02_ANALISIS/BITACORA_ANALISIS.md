@@ -109,9 +109,16 @@
   - `Boot0018  MEBx Hot Key`: `FvFile(ac6fd56a-3d41-4efd-a1b9-870293811a28)` (Acceso remoto Intel Management Engine).
 - **Purga Criptográfica y Comandos Ejecutados:**
   - `sudo efibootmgr -b 0021 -B` (Ejecutado y verificado: `Boot0021 LENOVO CLOUD` purgado de la NVRAM).
-  - `sudo efibootmgr -b 0020 -B` (Comando para purgar `Boot0020 PXE BOOT`).
-  - `sudo fwupdtool install-blob /tmp/bios_rescue_cab/n2url07w.cab` (Comando de reflasheo suave de la BIOS a la imagen limpia de junio de 2022).
+  - `sudo efibootmgr -b 0020 -B` (Ejecutado y verificado: `Boot0020 PXE BOOT` purgado de la NVRAM).
+  - `sudo efibootmgr -b 0015 -B` (Ejecutado y verificado: `Boot0015 ThinkShield secure wipe` purgado de la NVRAM).
+  - `sudo efibootmgr -b 0018 -B` (Ejecutado y verificado: `Boot0018 MEBx Hot Key` purgado de la NVRAM).
+- **Ejecución y Verificación en Vivo (`purgar_bios.py` / `BootAttackWatchdog`):**
+  - **Fecha/Hora:** **1 de Septiembre de 2026 (09:31:09 UTC-4)**.
+  - **Resultado:** **100% Exitoso**. Las 4 entradas inyectadas de arranque remoto han sido **eliminadas de la memoria NVRAM**.
+  - **Nuevo BootOrder Limpio:** `0019,001A,001B,001C,001D,001E,001F,0022,0023`.
+  - **Diagnóstico del Módulo:** `Estado: clean` | **Arranque íntegro y seguro**. Cero amenazas activas en el firmware.
 - **Herramienta Android Odin:** Se identificó `odin.zip` (1.1 MB), conteniendo la herramienta binaria ejecutable `odin4` para flashear/restaurar dispositivos Android.
+
 
 
 

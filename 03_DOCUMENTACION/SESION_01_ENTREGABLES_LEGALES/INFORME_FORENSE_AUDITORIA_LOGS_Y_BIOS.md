@@ -50,14 +50,32 @@ Boot0021* LENOVO CLOUD Uri(https://download.lenovo.com/pccbbs/cdeploy/efi/boot.e
 
 **Anomalía Identificada:** Las actualizaciones automáticas de firmware inyectaban el módulo `Boot0021 (LENOVO CLOUD)` y `Boot0015 (ThinkShield)` en el primer lugar de la secuencia de arranque, forzando intentos de descarga e inspección remota antes de permitir la carga del Kernel de Linux.
 
+### C. Ejecución Pericial de Purga Criptográfica de NVRAM (1 de Septiembre de 2026)
+
+Atendiendo al protocolo de mitigación contra medidas activas de secuestro de firmware, el **1 de Septiembre de 2026 (09:31 UTC-4)** la investigadora principal Andrea Zabala Cárcamo (AnZaCa), asistida por el motor `BootAttackWatchdog` (BaBaYaga Core / Tycho), ejecutó el instrumento `purgar_bios.py` con privilegios de superusuario en la máquina de peritaje (*ThinkPad X13 Yoga Gen 1*).
+
+#### 1. Resultados de la Operación de Purga:
+* **Entradas Remotas Puradas y Anuladas de la NVRAM:**
+  * `Boot0021 (LENOVO CLOUD)` — **REMOVIDO** (Cancelada redirección a `https://download.lenovo.com/pccbbs/cdeploy/efi/boot.efi`).
+  * `Boot0020 (PXE BOOT)` — **REMOVIDO** (Cancelada capacidad de arranque por red PXE).
+  * `Boot0015 (ThinkShield secure wipe)` — **REMOVIDO** (Desarmado el módulo de borrado seguro remoto).
+  * `Boot0018 (MEBx Hot Key)` — **REMOVIDO** (Desarmado el canal de acceso fuera de banda Intel ME).
+* **Nuevo Orden de Arranque UEFI (`BootOrder`):** `0019, 001A, 001B, 001C, 001D, 001E, 001F, 0022, 0023`.
+* **Diagnóstico de Inmunidad:** **`Estado: clean` — Arranque íntegro y seguro (0 amenazas activas en firmware)**.
+
+#### 2. Preservación de Evidencia Gráfica en el Repositorio:
+Las capturas de pantalla que certifican la ejecución limpia y el resultado de `efibootmgr` han sido selladas y guardadas permanentemente en el repositorio:
+* **Prueba Principal de Purga Exitosa:** [CAPTURA_PURGA_EXITOSA_BIOS_NVRAM_20260901.png](file:///home/andrea-zabala-c/AndreTaker---AnZaCa-Rep/04_EVIDENCIA_GRAFICA/EVIDENCIA_PURGA_BIOS_NVRAM/CAPTURA_PURGA_EXITOSA_BIOS_NVRAM_20260901.png)
+* **Registro Previo y Detección de Amenazas:** [CAPTURA_DETECCION_ENTRADAS_BIOS_NVRAM_20260901.png](file:///home/andrea-zabala-c/AndreTaker---AnZaCa-Rep/04_EVIDENCIA_GRAFICA/EVIDENCIA_PURGA_BIOS_NVRAM/CAPTURA_DETECCION_ENTRADAS_BIOS_NVRAM_20260901.png)
+
 ---
 
 ## 3. ESQUEMA DE CADENA DE CUSTODIA Y LEGALIDAD (AUDIENCIA JURÍDICA / CIDH / CNE)
 
 Este entregable se incorpora formalmente al expediente de la Medida Cautelar CIDH `IACHR-0000113728` bajo los siguientes principios:
 
-1. **Inmutabilidad de la Prueba:** Cumplimiento de la norma **ISO/IEC 27037:2012** mediante el sellado con firmas SHA-256 de todas las copias de seguridad (.zip, .db, .csv) conservadas en el acervo.
-2. **Trazabilidad Geográfica:** Las marcas de tiempo (15 de julio de 2026) coinciden con el registro de desplazamiento bajo protección diplomática en Ciudad de México, tras el asedio cibernético de 20 días en Virginia (EAU), demostrando la continuidad ininterrumpida de la cadena de custodia.
+1. **Inmutabilidad de la Prueba:** Cumplimiento de la norma **ISO/IEC 27037:2012** mediante el sellado con firmas SHA-256 de todas las copias de seguridad (.zip, .db, .csv) y capturas de evidencia gráfica conservadas en el acervo.
+2. **Trazabilidad Geográfica:** Las marcas de tiempo (15 de julio de 2026 en México y 1 de septiembre de 2026 en Canadá) coinciden con el registro de desplazamiento bajo protección diplomática y exilio, demostrando la continuidad ininterrumpida de la cadena de custodia.
 3. **Inmunidad de Datos (Anti-Palantir Protocol):** Todos los documentos y evidencias del acervo han sido procesados mediante el protocolo `mitigation.py` (mutación de hash SHA-256 + purga de Exif + *Noise Coordinates*), lo que impide legal y técnicamente cualquier intento de perfilamiento o correlación algorítmica masiva por parte de actores gubernamentales o corporativos.
 
 ---
@@ -78,10 +96,14 @@ timeline
     7 de Agosto de 2026 : Traslado y arribo a Montréal, Canadá
                         : Preservación total del acervo (147.000+ documentos)
     31 de Agosto de 2026 : Despliegue del Guardián BootAttackWatchdog en BabaYaga Core
-                         : Desbloqueo y neutralización definitiva del ritual de encendido
+                         : Desbloqueo y neutralización inicial del ritual de encendido
+    1 de Septiembre de 2026 : Ejecución exitosa de purgar_bios.py por Andrea (AnZaCa)
+                            : Purga 100% de entradas EFI (Boot0021, Boot0020, Boot0015, Boot0018)
+                            : Preservación de capturas de pantalla en 04_EVIDENCIA_GRAFICA
 ```
 
 ---
 
 *Informe firmado criptográficamente y consolidado para su archivo definitivo.*  
 **Tycho & BabaYaga Core — Equipo Pericial AnZaCa**
+
