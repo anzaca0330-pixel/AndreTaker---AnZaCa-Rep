@@ -30,3 +30,5 @@
 * **[INTEGRATION_GUIDE_FOR_RESEARCHERS.md](INTEGRATION_GUIDE_FOR_RESEARCHERS.md)** — Quick 1-line Integration Guide for Researchers & AI Developers / Guía de Integración Rápida.
 * **[PRESS_RELEASE_VISIBILITY_KIT.md](SESION_01_ENTREGABLES_LEGALES/PRESS_RELEASE_VISIBILITY_KIT.md)** — Open Source Press Kit & Media Templates / Kit de Visibilidad Global y Difusión.
 * **[ALERTA_INTERNACIONAL_ANOMALIAS_BILINGUAL.md](SESION_01_ENTREGABLES_LEGALES/ALERTA_INTERNACIONAL_ANOMALIAS_BILINGUAL.md)** — International Alert on Election Anomalies / Alerta Internacional.
+* **[REDES_SOCIALES_KIT_DE_PUBLICACION.md](REDES_SOCIALES_KIT_DE_PUBLICACION.md)** — Kit Oficial de Publicación para X, LinkedIn, Instagram, Threads y TikTok.
+* **[MANUAL_EVASION_DE_FILTROS_ALGORITMICOS.md](MANUAL_EVASION_DE_FILTROS_ALGORITMICOS.md)** — Manual de Evasión de Filtros Algorítmicos & Técnicas Anti-Shadowban.
