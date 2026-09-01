@@ -102,7 +102,16 @@
   - **Fecha de Empaquetado Original Lenovo:** **18 de Noviembre de 2022** (14:45:36 UTC).
   - **Fecha de Descarga e Ingesta:** **20 de Junio de 2026** (almacenados durante la fase de mitigación post-ataque).
 - **Diagnóstico del Firmware:** La presencia de estos binarios oficiales de fábrica confirma que la BIOS de la ThinkPad es **100% rescatable y reflasheable** a su estado original de fábrica (vía `fwupd` en Linux o programador físico de hardware CH341A SPI).
-- **Purga de Inyección de Arranque EFI (Ejecutado):** Se ejecutó con éxito `sudo efibootmgr -b 0021 -B`, **eliminando y purgando la entrada remota `Boot0021 (LENOVO CLOUD)`** de la memoria NVRAM del chip.
+- **Hallazgo y Captura de Entradas EFI en la NVRAM (Pistas Inyectadas):**
+  - `Boot0021* LENOVO CLOUD`: `Uri(https://download.lenovo.com/pccbbs/cdeploy/efi/boot.efi)` (Redirección de arranque remoto por red).
+  - `Boot0015  ThinkShield secure wipe`: `FvFile(3593a0d5-bd52-43a0-808e-cbff5ece2477)` (Módulo inyectado de borrado seguro).
+  - `Boot0020* PXE BOOT`: `VenMsg(...)` (Arranque de red habilitado).
+  - `Boot0018  MEBx Hot Key`: `FvFile(ac6fd56a-3d41-4efd-a1b9-870293811a28)` (Acceso remoto Intel Management Engine).
+- **Purga Criptográfica y Comandos Ejecutados:**
+  - `sudo efibootmgr -b 0021 -B` (Ejecutado y verificado: `Boot0021 LENOVO CLOUD` purgado de la NVRAM).
+  - `sudo efibootmgr -b 0020 -B` (Comando para purgar `Boot0020 PXE BOOT`).
+  - `sudo fwupdtool install-blob /tmp/bios_rescue_cab/n2url07w.cab` (Comando de reflasheo suave de la BIOS a la imagen limpia de junio de 2022).
 - **Herramienta Android Odin:** Se identificó `odin.zip` (1.1 MB), conteniendo la herramienta binaria ejecutable `odin4` para flashear/restaurar dispositivos Android.
+
 
 
