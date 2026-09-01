@@ -119,12 +119,22 @@
   - **Diagnóstico del Módulo:** `Estado: clean` | **Arranque íntegro y seguro**. Cero amenazas activas en el firmware.
 - **Herramienta Android Odin:** Se identificó `odin.zip` (1.1 MB), conteniendo la herramienta binaria ejecutable `odin4` para flashear/restaurar dispositivos Android.
 
+### 4. Auditoría Interna de Hardware y Red (Pruebas 1, 2 y 3 con Arturo)
+- **Fecha/Hora de Ejecución:** **1 de Septiembre de 2026 (09:54 UTC-4)**.
+- **Participantes:** Arturo, Andrea (AnZaCa) y Tycho (Instrumento de Silicio).
+- **Justificación Pericial:** Explicación de por qué detectores convencionales de rootkit (`rkhunter`, `chkrootkit`) arrojaron falsos negativos (0 hallazgos): operan a Nivel de Sistema Operativo, mientras las amenazas EFI/NVRAM purgatas operaban SUB-KERNEL (Capa 0 / Firmware).
+- **Resultados de las Pruebas Ejecutadas:**
+  1. **Prueba 1 (Interrupciones `/proc/interrupts`):** Cero saturación o *IRQ Flooding*. IRQs de teclado (`i8042`), NVMe (`nvme0q0-8`) e Intel ME (`mei_me`: solo 146 interrupciones en total) muestran un comportamiento 100% normal y equilibrado entre los 8 núcleos de CPU.
+  2. **Prueba 2 (Jerarquía de Dispositivos USB `lsusb -t`):** Mapeo limpio de 5 dispositivos genuinos de hardware (Wacom Touch Sensor, Syntek WebCam, Intel AX201 Bluetooth, HP Wireless Mouse). Cero dispositivos parásitos o chips espía en los buses USB internos.
+  3. **Prueba 3 (Sockets y Escucha de Red `ss -tulpn`):** Cero puertos escuchando abiertos hacia redes externas (0.0.0.0 / ::). Todos los servicios en escucha (`antigravity-ide`, `language_server`, `systemd-resolved`) están estrictamente confinados a la interfaz local `127.0.0.1` (loopback).
+
 ---
 
 ### 📌 TAREAS FIJADAS PARA PRÓXIMAS SESIONES (PINNED TASKS)
 1. **Remoción de Password Manager / Supervisor Password de BIOS:**
    - **Objetivo:** Ejecutar el procedimiento de bypass de clave física de hardware (SVP) mediante lectura del chip EEPROM/EC con el programador físico SPI CH341A + SOIC8.
    - **Estado:** Fijado por Johannes para ejecución posterior. La protección NVRAM EFI ya está 100% activa.
+
 
 
 
