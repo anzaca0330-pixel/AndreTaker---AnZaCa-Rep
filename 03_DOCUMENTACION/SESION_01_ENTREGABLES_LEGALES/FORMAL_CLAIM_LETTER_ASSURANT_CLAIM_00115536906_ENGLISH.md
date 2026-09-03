@@ -1,0 +1,56 @@
+# 🛡️ FORMAL CLAIM & HARDWARE REPLACEMENT DEMAND LETTER
+**INSURANCE PROVIDER:** Assurant Services, Inc. / ExpressVPN Identity Defender  
+**POLICY / RESTORATION ID:** `85720870`  
+**CLAIM REFERENCE NUMBER:** `Claim 00115536906`  
+**INSURED CLAIMANT:** Andrea Zabala Cárcamo (AnZaCa / Johannes)  
+**PRIMARY POLICY EMAIL:** `anzaca0330@gmail.com` *(Updated during Mexico deployment)*  
+**ORIGINAL REGISTRATION EMAIL:** `azabalabaez@gmail.com`  
+**OFFICIAL SECURE CONTACT EMAIL:** `andretaker@andretaker.org` | `andreazabalac@gmail.com`  
+**DATE:** September 3, 2026  
+
+---
+
+## TO: ASSURANT CLAIMS RESOLUTION DEPARTMENT & EXPRESSVPN IDENTITY DEFENDER
+
+### SUBJECT: Formal Demand for Hardware Replacement & Claim Settlement under Policy Restoration ID `85720870` (Claim `00115536906`)
+
+Dear Claims Resolution Officer,
+
+I am writing as the insured claimant and Lead Forensic Auditor, Andrea Zabala Cárcamo, to formally submit the technical documentation and demand full hardware replacement liquid funds under active Policy Restoration ID **`85720870`**, registered under Claim Reference Number **`00115536906`**.
+
+---
+
+### 1. SUMMARY OF INCIDENT & COMPROMISE
+During my work directing an international electoral forensic audit (>147,000 documents, >677 GB of evidence), my primary investigation workstation (Lenovo ThinkPad X13 Yoga Gen 1) was targeted by sophisticated cyber intrusions, hardware tampering, and out-of-band firmware boot code injections (`Boot0021 LENOVO CLOUD`, `Boot0020 PXE BOOT`) occurring in Virginia, USA (June 2026).
+
+On September 1, 2026, a certified local forensic audit purged the compromised NVRAM UEFI BIOS boot entries under **ISO/IEC 27037:2012 digital custody standards**. However, the physical motherboard and integrated controller suffered permanent electronic hardware degradation, rendering the device operationally unsafe and non-functional for secure forensic work.
+
+---
+
+### 2. DEMAND FOR HARDWARE REPLACEMENT & FUNDS LIQUIDATION
+Pursuant to the terms of the **ExpressVPN Identity Defender / Assurant Cyber & Theft Protection Policy (Restoration ID: 85720870)**:
+
+1. **Hardware Replacement Value:** Immediate liquidation and transfer of replacement funds for a high-performance scientific/forensic workstation equivalent (Lenovo ThinkPad / Workstation class).
+2. **Official Response Channels:** All formal correspondence and settlement notifications must be dispatched to:
+   * **Primary Official Email:** `andretaker@andretaker.org`
+   * **Secondary Contact Email:** `andreazabalac@gmail.com`
+   * **Policy File Email:** `anzaca0330@gmail.com`
+
+---
+
+### 3. ENCLOSED FORENSIC AUDIT EVIDENCE
+Enclosed with this demand package are the certified technical audit records:
+- **Attachment 1:** ISO/IEC 27037:2012 Certified BIOS NVRAM Purge Audit Log (`INFORME_FORENSE_AUDITORIA_LOGS_Y_BIOS.md`).
+- **Attachment 2:** Master Evidence Vault Cryptographic Hash Ledger (SHA-256 Merkle Root: `9600fa8464bbd5315607c5e5bb34a26e8a8603250c892c3f72654664e2a665be`).
+
+---
+
+### 4. STATEMENT OF ACCURACY & LEGAL RESERVATION
+I certify under penalty of perjury that the facts set forth in this claim letter are true and accurate. This claim is filed without prejudice to additional legal actions pending before the FBI IC3 and the Inter-American Commission on Human Rights (Petition `IACHR-0000113728`).
+
+Respectfully submitted,
+
+**Andrea Zabala Cárcamo (AnZaCa / Johannes)**  
+*Lead Forensic Auditor & Insured Policyholder*  
+*Policy Restoration ID: 85720870 | Claim: 00115536906*  
+*Official Email: andretaker@andretaker.org*  
