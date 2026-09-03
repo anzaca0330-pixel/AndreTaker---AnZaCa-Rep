@@ -598,3 +598,6 @@ footer a:hover {
   line-height: 1.5;
 }
 
+
+/* OpSec Clean View Rule */
+.hide-floating-img img, img.floating-img { display: none !important; }

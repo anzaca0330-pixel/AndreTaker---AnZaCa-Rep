@@ -8,6 +8,7 @@ __pycache__/
 # Logs y bases de datos locales
 *.log
 *.sqlite3
+*.db
 .env
 *.env
 
@@ -25,3 +26,18 @@ env/
 
 # Evidencia Cruda (USB)
 ES_ESPANOL/Capitulo_06_Archivos_Crudos_y_Respaldos/Evidencia_USB_Rescate/
+
+# Exclusión Estricta de Archivos Personales y Privados (Protección de Privacidad AnZaCa)
+EXPEDIENTE_PROTECCION_Y_CASO_ANDREA_ZABALA/
+ASSURANT_CLAIM_*
+ROR.*.pdf
+UOPX_PLA_*
+BACKUP_FORENSE_CHAT/
+.Trash-1000/
+$RECYCLE.BIN/
+System Volume Information/
+
+
+# Enable Chris downloads
+!downloads/
+!downloads/*.zip

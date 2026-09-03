@@ -8,6 +8,48 @@
 ![Unit Tests](https://img.shields.io/badge/Unit_Tests-12%2F12_Passed_OK-success.svg)
 
 
+---
+
+## ⚙️ MATRIZ DE MADUREZ TECNOLÓGICA (PRODUCCIÓN REAL VS. SIMULADORES EDUCATIVOS)
+
+| Módulo / Componente | Clasificación | Estado Operativo | Descripción Técnica Forense |
+| :--- | :--- | :--- | :--- |
+| **Descompilador PDF ISO 32000-1 (`raster.py` / `xref.py`)** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Inspección binaria de parches XREF, sangrado de QR, máscaras 1bpc y cicatrices de software. |
+| **Inferencia de IA Air-Gapped (`Ollama: AndreTaker`)** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Inferencia local offline en silicio para análisis forense sin enviar datos a la nube. |
+| **Bóveda Criptográfica SHA-256 (>677 GB / 122.025 Actas)** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Cadena de custodia inmutable con sellado SHA-256 verificado en tablas `.csv`. |
+| **API Backend FastAPI (`BABAYAGA_CORE`)** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Endpoints locales `/api/ai/analyze`, `/api/forensics/raster` y servidor de custodia. |
+| **App Nativa Android (`AndreTaker_BaBaYaga_Core_REAL.apk`)** | 🟢 **PRODUCCIÓN REAL** | 100% Compilada (37.9 MB) | Ejecución offline de pruebas y consulta de firmas en dispositivos móviles. |
+| **Cápsula Ligera `BABAYAGA_LIGHT` (5 Actas)** | 🟡 **DEMO CONTROLADA** | 100% Funcional | Entorno liviano en ZIP/Git para pruebas rápidas de terceros sin descargar 677 GB. |
+| **Simulador de Ciberdefensa en Web** | 🔵 **DEMO EDUCATIVA** | 100% Interactivo | Simulador en HTML/JS para concienciación ciudadana y divulgación didáctica. |
+
+
+Para garantizar la máxima transparencia forense y claridad absoluta para peritajes de autoridades internacionales (FBI IC3, CIDH, CNE) y revisiones par (*Peer Review*), especificamos la clasificación operativa de cada componente del ecosistema:
+
+| Módulo / Componente | Clasificación | Estado Operativo | Descripción Técnica Forense |
+| :--- | :--- | :--- | :--- |
+| **Descompilador PDF ISO 32000-1 (`raster.py` / `xref.py`)** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Inspección binaria de parches XREF, sangrado de QR, máscaras 1bpc y cicatrices de software. |
+| **Inferencia de IA Air-Gapped (`Ollama: AndreTaker`)** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Inferencia local offline en silicio para análisis forense sin enviar datos a la nube. |
+| **Bóveda Criptográfica SHA-256 (>677 GB / 122.025 Actas)** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Cadena de custodia inmutable con sellado SHA-256 verificado en tablas `.csv`. |
+| **API Backend FastAPI (`BABAYAGA_CORE`)** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Endpoints locales `/api/ai/analyze`, `/api/forensics/raster` y servidor de custodia. |
+| **App Nativa Android (`AndreTaker_BaBaYaga_Core_REAL.apk`)** | 🟢 **PRODUCCIÓN REAL** | 100% Compilada (37.9 MB) | Ejecución offline de pruebas y consulta de firmas en dispositivos móviles. |
+| **Cápsula Ligera `BABAYAGA_LIGHT` (5 Actas)** | 🟡 **DEMO CONTROLADA** | 100% Funcional | Entorno liviano en ZIP/Git para pruebas rápidas de terceros sin descargar 677 GB. |
+| **Simulador de Ciberdefensa en Web** | 🔵 **DEMO EDUCATIVA** | 100% Interactivo | Simulador en HTML/JS para concienciación ciudadana y divulgación didáctica. |
+
+
+Para garantizar la máxima transparencia forense y claridad absoluta para peritajes de autoridades internacionales (FBI IC3, CIDH, CNE) y revisiones par (*Peer Review*), especificamos la clasificación operativa de cada componente del ecosistema:
+
+| Módulo / Componente | Clasificación | Estado Operativo | Descripción Técnica Forense |
+| :--- | :--- | :--- | :--- |
+| **Descompilador PDF ISO 32000-1 ( / )** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Inspección binaria de parches XREF, sangrado de QR, máscaras 1bpc y cicatrices de software. |
+| **Inferencia de IA Air-Gapped ()** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Inferencia local offline en silicio para análisis forense sin enviar datos a la nube. |
+| **Bóveda Criptográfica SHA-256 (>677 GB / 122.025 Actas)** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Cadena de custodia inmutable con sellado SHA-256 verificado en tablas . |
+| **API Backend FastAPI ()** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Endpoints locales ,  y servidor de custodia. |
+| **App Nativa Android ()** | 🟢 **PRODUCCIÓN REAL** | 100% Compilada (37.9 MB) | Ejecución offline de pruebas y consulta de firmas en dispositivos móviles. |
+| **Cápsula Ligera  (5 Actas)** | 🟡 **DEMO CONTROLADA** | 100% Funcional | Entorno liviano en ZIP/Git para pruebas rápidas de terceros sin descargar 677 GB. |
+| **Simulador de Ciberdefensa en Web** | 🔵 **DEMO EDUCATIVA** | 100% Interactivo | Simulador en HTML/JS para concienciación ciudadana y divulgación didáctica. |
+
+---
+
 > [!TIP]
 > **REPOSITORIO HERMANO — MOTOR DE CIBERSEGURIDAD Y CONTRA-INTELIGENCIA**
 > Para las herramientas de autodefensa cibernética, mitigación Anti-Palantir y el juego táctico *Guardianes Digitales*, visita el repositorio dedicado:  

@@ -16,6 +16,7 @@ Este informe documenta los hallazgos técnicos derivados de la auditoría perici
 * **Hallazgo del Archivo de Respaldo Inmutable (`backup_20260715_1421.zip`):** Se localizó en el sistema el paquete de seguridad generado automáticamente el **15 de julio de 2026 a las 14:21 / 17:23 UTC** mediante la herramienta de rescate `Boot-Repair`. Esta fecha certifica matemáticamente la estancia y el trabajo de recuperación del equipo realizado durante la permanencia en Ciudad de México (refugio en la residencia de la Embajada de Colombia).
 * **Identificación del Sistema Original Limpio (Pre-Bloqueo de BIOS):** Se confirmó la existencia e integridad del sistema operativo previo a los ataques en la partición `/dev/nvme0n1p4`, conservando los **Kernels Inmunes `7.0.0-14-generic` (13 de Abril de 2026)** y **`7.0.0-27-generic` (18 de Junio de 2026)**.
 * **Neutralización del "Ritual de Encendido":** Se reestructuró la tabla de arranque EFI para ignorar los módulos de secuestro remoto (`Lenovo Cloud Boot` y `ThinkShield secure wipe`) inyectados por actualizaciones de firmware, permitiendo que la computadora encienda directamente y sin demoras.
+* **Preservación en Cuarentena Forense (2 de Septiembre de 2026):** El paquete de respaldo fue aislado formalmente en la bóveda de evidencia (`01_EVIDENCIA/SESION_04_CUARENTENA_FIRMWARE_Y_ARRANQUE/`) y replicado en la unidad física externa `BACKUP`, blindado con hash SHA-256 y atributos de solo lectura para salvaguardar la cadena de custodia (ISO 27037).
 
 ---
 
@@ -100,6 +101,9 @@ timeline
     1 de Septiembre de 2026 : Ejecución exitosa de purgar_bios.py por Andrea (AnZaCa)
                             : Purga 100% de entradas EFI (Boot0021, Boot0020, Boot0015, Boot0018)
                             : Preservación de capturas de pantalla en 04_EVIDENCIA_GRAFICA
+    2 de Septiembre de 2026 : Aislamiento en Cuarentena Forense e Inmutabilidad (ISO 27037)
+                            : Depósito dual en 01_EVIDENCIA/SESION_04_CUARENTENA_FIRMWARE_Y_ARRANQUE y BACKUP
+                            : Sellado criptográfico SHA-256 (ba3d8cd9...5b4dd1f) y atributos de solo lectura
 ```
 
 ---
