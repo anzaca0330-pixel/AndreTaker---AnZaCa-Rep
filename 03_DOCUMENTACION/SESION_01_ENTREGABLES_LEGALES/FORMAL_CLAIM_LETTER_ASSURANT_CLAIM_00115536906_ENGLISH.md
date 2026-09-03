@@ -1,5 +1,9 @@
 # 🛡️ FORMAL CLAIM & HARDWARE REPLACEMENT DEMAND LETTER
-**INSURANCE PROVIDER:** Assurant Services, Inc. / ExpressVPN Identity Defender  
+**INSURANCE PROVIDER:** Assurant Services, Inc. / FSO Claims Operations  
+**ASSIGNED ADJUSTER:** Yisell (FSO Claims Operations)  
+**DIRECT ADJUSTER EMAIL:** `myclaiminfo@assurant.com`  
+**DIRECT ADJUSTER PHONE:** 1-800-358-0600 Ext. 4038684 | Fax: 866-728-7098  
+**ASSURANT FILE / REFERENCE NO:** `88533054`  
 **POLICY / RESTORATION ID:** `85720870`  
 **CLAIM REFERENCE NUMBER:** `Claim 00115536906`  
 **INSURED CLAIMANT:** Andrea Zabala Cárcamo (AnZaCa / Johannes)  
@@ -10,13 +14,12 @@
 
 ---
 
-## TO: ASSURANT CLAIMS RESOLUTION DEPARTMENT & EXPRESSVPN IDENTITY DEFENDER
+## TO: YISELL — ADJUSTER, FSO CLAIMS OPERATIONS (`myclaiminfo@assurant.com`)
+### RE: Formal Demand for Hardware Replacement & Settlement under File `88533054` / Restoration ID `85720870` (Claim `00115536906`)
 
-### SUBJECT: Formal Demand for Hardware Replacement & Claim Settlement under Policy Restoration ID `85720870` (Claim `00115536906`)
+Dear Adjuster Yisell,
 
-Dear Claims Resolution Officer,
-
-I am writing as the insured claimant and Lead Forensic Auditor, Andrea Zabala Cárcamo, to formally submit the technical documentation and demand full hardware replacement liquid funds under active Policy Restoration ID **`85720870`**, registered under Claim Reference Number **`00115536906`**.
+I am writing as the insured claimant and Lead Forensic Auditor, Andrea Zabala Cárcamo, to formally submit the technical documentation and demand full hardware replacement liquid funds under active Policy Restoration ID **`85720870`**, File Reference **`88533054`**, and Claim Reference Number **`00115536906`**.
 
 ---
 
@@ -28,7 +31,7 @@ On September 1, 2026, a certified local forensic audit purged the compromised NV
 ---
 
 ### 2. DEMAND FOR HARDWARE REPLACEMENT & FUNDS LIQUIDATION
-Pursuant to the terms of the **ExpressVPN Identity Defender / Assurant Cyber & Theft Protection Policy (Restoration ID: 85720870)**:
+Pursuant to the terms of the **ExpressVPN Identity Defender / Assurant Cyber & Theft Protection Policy (Restoration ID: 85720870 / File: 88533054)**:
 
 1. **Hardware Replacement Value:** Immediate liquidation and transfer of replacement funds for a high-performance scientific/forensic workstation equivalent (Lenovo ThinkPad / Workstation class).
 2. **Official Response Channels:** All formal correspondence and settlement notifications must be dispatched to:
@@ -40,7 +43,7 @@ Pursuant to the terms of the **ExpressVPN Identity Defender / Assurant Cyber & T
 
 ### 3. ENCLOSED FORENSIC AUDIT EVIDENCE
 Enclosed with this demand package are the certified technical audit records:
-- **Attachment 1:** ISO/IEC 27037:2012 Certified BIOS NVRAM Purge Audit Log (`INFORME_FORENSE_AUDITORIA_LOGS_Y_BIOS.md`).
+- **Attachment 1:** ISO/IEC 27037:2012 Certified BIOS NVRAM Purge Audit Log (`FORENSIC_AUDIT_REPORT_LOGS_AND_BIOS_ENGLISH.md`).
 - **Attachment 2:** Master Evidence Vault Cryptographic Hash Ledger (SHA-256 Merkle Root: `9600fa8464bbd5315607c5e5bb34a26e8a8603250c892c3f72654664e2a665be`).
 
 ---
@@ -52,5 +55,5 @@ Respectfully submitted,
 
 **Andrea Zabala Cárcamo (AnZaCa / Johannes)**  
 *Lead Forensic Auditor & Insured Policyholder*  
-*Policy Restoration ID: 85720870 | Claim: 00115536906*  
+*Assurant File: 88533054 | Policy Restoration ID: 85720870 | Claim: 00115536906*  
 *Official Email: andretaker@andretaker.org*  
