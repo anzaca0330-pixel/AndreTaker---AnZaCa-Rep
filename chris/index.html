@@ -19,6 +19,34 @@
     .btn-download { display: inline-flex; align-items: center; gap: 8px; background: linear-gradient(135deg, #2563eb, #1d4ed8); color: #ffffff; text-decoration: none; padding: 10px 18px; border-radius: 8px; font-weight: 800; font-size: 0.88rem; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4); transition: 0.2s; border: none; margin-top: 12px; }
     .btn-download:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(37, 99, 235, 0.6); }
     .btn-urgent-dl { background: linear-gradient(135deg, #dc2626, #b91c1c); box-shadow: 0 4px 12px rgba(220, 38, 38, 0.4); }
+
+    /* Mission Impossible Self-Destruct Footer */
+    .self-destruct-card {
+      background: linear-gradient(135deg, rgba(239, 68, 68, 0.15), rgba(15, 23, 42, 0.95));
+      border: 2px dashed #ef4444;
+      border-radius: 12px;
+      padding: 18px 24px;
+      margin-top: 36px;
+      text-align: center;
+      box-shadow: 0 0 30px rgba(239, 68, 68, 0.3);
+      animation: pulseGlow 2s infinite alternate;
+    }
+    @keyframes pulseGlow {
+      from { box-shadow: 0 0 15px rgba(239, 68, 68, 0.2); }
+      to { box-shadow: 0 0 35px rgba(239, 68, 68, 0.5); }
+    }
+    .timer-display {
+      font-family: monospace;
+      color: #f87171;
+      font-size: 1.4rem;
+      font-weight: 900;
+      letter-spacing: 2px;
+      background: rgba(2, 6, 23, 0.9);
+      padding: 4px 12px;
+      border-radius: 6px;
+      border: 1px solid #ef4444;
+      margin-left: 8px;
+    }
   </style>
 </head>
 <body>
@@ -38,7 +66,7 @@
     <!-- Priority 1: Assurant Claim Package -->
     <div class="card-urgent">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-        <h2 style="color: #f87171; font-size: 1.4rem; margin: 0;">🚨 PRIORITY 1: ASSURANT HARDWARE CLAIM ()</h2>
+        <h2 style="color: #f87171; font-size: 1.4rem; margin: 0;">🚨 PRIORITY 1: ASSURANT HARDWARE CLAIM (`Claim 00115536906`)</h2>
         <span class="status-pending">ACTION REQUIRED</span>
       </div>
       <p style="color: #e2e8f0; line-height: 1.6; font-size: 0.95rem;">
@@ -94,7 +122,7 @@
         <!-- CIDH / IACHR Package -->
         <div style="background: rgba(2, 6, 23, 0.8); padding: 18px; border-radius: 8px; border-left: 4px solid #a855f7; display: flex; flex-direction: column; justify-content: space-between;">
           <div>
-            <h3 style="color: #c084fc; font-size: 1.1rem; margin: 0;">2. IACHR Petition Package ()</h3>
+            <h3 style="color: #c084fc; font-size: 1.1rem; margin: 0;">2. IACHR Petition Package (`IACHR-0000113728`)</h3>
             <p style="font-size: 0.88rem; color: #94a3b8; margin-top: 8px; line-height: 1.5;">
               Precautionary measures request for lead investigator Andrea Zabala (AnZaCa / Johannes) and 3-drive consolidated audit.
             </p>
@@ -116,10 +144,47 @@
       </p>
     </div>
 
+    <!-- 💣 MISSION IMPOSSIBLE SELF-DESTRUCT FOOTER BANNER -->
+    <div class="self-destruct-card">
+      <div style="color: #ef4444; font-weight: 900; font-size: 1.05rem; text-transform: uppercase; letter-spacing: 1.5px;">
+        💣 MISSION IMPOSSIBLE OPSEC PROTOCOL 💣
+      </div>
+      <div style="color: #cbd5e1; font-size: 0.92rem; margin-top: 6px;">
+        ⚠️ <strong>CLASSIFIED FIELD DIRECTIVE:</strong> This message and tactical briefing will self-destruct in
+        <span class="timer-display" id="mission-timer">04:59:59</span>
+      </div>
+      <div style="color: #64748b; font-size: 0.78rem; margin-top: 8px; font-style: italic;">
+        Good luck, Agent Chris. As always, should you or any member of your IM Force be caught or killed, the Secretary will disavow any knowledge of your actions.
+      </div>
+    </div>
+
     <footer style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.8rem;">
       AndreTaker — BabaYaga Core | Executive Field Command System | 2026
     </footer>
   </div>
+
+  <script>
+    // Live Mission Impossible Countdown Timer
+    let totalSeconds = 5 * 3600 - 1;
+    function updateTimer() {
+      let hrs = Math.floor(totalSeconds / 3600);
+      let mins = Math.floor((totalSeconds % 3600) / 60);
+      let secs = totalSeconds % 60;
+      
+      let hStr = String(hrs).padStart(2, '0');
+      let mStr = String(mins).padStart(2, '0');
+      let sStr = String(secs).padStart(2, '0');
+      
+      document.getElementById('mission-timer').textContent = `${hStr}:${mStr}:${sStr}`;
+      if (totalSeconds > 0) {
+        totalSeconds--;
+      } else {
+        document.getElementById('mission-timer').textContent = "00:00:00 [DESTRUCTED]";
+      }
+    }
+    setInterval(updateTimer, 1000);
+    updateTimer();
+  </script>
 
 </body>
 </html>
