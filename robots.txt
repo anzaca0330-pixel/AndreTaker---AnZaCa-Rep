@@ -1,7 +1,6 @@
 User-agent: *
 Disallow: /chris/
-Disallow: /chris_command.html
-Disallow: /chris_dashboard.html
 Disallow: /downloads/
 Disallow: /03_DOCUMENTACION/
 Disallow: /01_EVIDENCIA/
+Disallow: /BABAYAGA_CORE/
