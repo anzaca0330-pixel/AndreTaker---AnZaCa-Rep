@@ -28,10 +28,10 @@
         <li><button class="nav-btn" data-tab="tab-offline" data-i18n="nav_offline" style="border-color: var(--accent-teal); color: var(--accent-teal); font-weight: 700;">📡 Modo Offline</button></li>
         <li><button class="nav-btn" data-tab="tab-legal" data-i18n="nav_legal">Legal & CIDH</button></li>
         
-        <li><button class="nav-btn" data-tab="tab-cyber-game" style="border-color: #a855f7; color: #a855f7; font-weight: 800; background: rgba(168, 85, 247, 0.15); box-shadow: 0 0 12px rgba(168, 85, 247, 0.35);">🎮 Juego Ciberdefensa</button></li>
-        <li><button onclick="toggleAdminRecoveryModal()" class="nav-btn" style="border-color: var(--accent-amber); color: var(--accent-amber); font-weight: 800; background: rgba(245, 158, 11, 0.15); box-shadow: 0 0 10px rgba(245, 158, 11, 0.3);">🔑 REACTIVAR ADMIN</button></li>
+        <li><button class="nav-btn" data-tab="tab-cyber-game" data-i18n="nav_cyber_game" style="border-color: #a855f7; color: #a855f7; font-weight: 800; background: rgba(168, 85, 247, 0.15); box-shadow: 0 0 12px rgba(168, 85, 247, 0.35);">🎮 Juego Ciberdefensa</button></li>
+        <li><button onclick="toggleAdminRecoveryModal()" class="nav-btn" data-i18n="nav_admin" style="border-color: var(--accent-amber); color: var(--accent-amber); font-weight: 800; background: rgba(245, 158, 11, 0.15); box-shadow: 0 0 10px rgba(245, 158, 11, 0.3);">🔑 REACTIVAR ADMIN</button></li>
         <li><button class="nav-btn" data-tab="tab-donate" data-i18n="nav_donate" style="border-color: var(--accent-amber); color: var(--accent-amber); font-weight: 700;">💖 Apoyar</button></li>
-        <li><button id="pwa-install-btn" class="nav-btn" style="border-color: #22c55e; color: #22c55e; font-weight: 800; background: rgba(34, 197, 94, 0.15); box-shadow: 0 0 10px rgba(34, 197, 94, 0.4); animation: pulse 2s infinite;">📲 INSTALAR APP</button></li>
+        <li><button id="pwa-install-btn" class="nav-btn" data-i18n="nav_install_app" style="border-color: #22c55e; color: #22c55e; font-weight: 800; background: rgba(34, 197, 94, 0.15); box-shadow: 0 0 10px rgba(34, 197, 94, 0.4); animation: pulse 2s infinite;">📲 INSTALAR APP</button></li>
         <li style="display: flex; align-items: center; margin-left: 8px;">
           <select id="user-profile-select" style="background: rgba(15, 23, 42, 0.95); color: var(--accent-cyan); border: 1px solid var(--accent-cyan); padding: 5px 10px; border-radius: 20px; font-family: var(--font-heading); font-size: 0.75rem; font-weight: 800; cursor: pointer; outline: none; box-shadow: 0 0 8px rgba(56, 189, 248, 0.25);">
             <option value="easy">🌱 MODO FÁCIL (Ciudadano)</option>
@@ -157,48 +157,48 @@
         <div class="metrics-grid">
           <div class="metric-card">
             <div class="metric-val">>677 GB</div>
-            <div class="metric-lbl">Acervo Probatorio Auditado</div>
+            <div class="metric-lbl" data-i18n="metric_vault">Acervo Probatorio Auditado</div>
           </div>
           <div class="metric-card">
             <div class="metric-val"><span class="counter" data-target="147000">0</span>+</div>
-            <div class="metric-lbl">Documentos Electorales Preservados</div>
+            <div class="metric-lbl" data-i18n="metric_docs">Documentos Electorales Preservados</div>
           </div>
           <div class="metric-card">
             <div class="metric-val"><span class="counter" data-target="121960">0</span></div>
-            <div class="metric-lbl">PDFs de Delegados (SHA-256)</div>
+            <div class="metric-lbl" data-i18n="metric_pdfs">PDFs de Delegados (SHA-256)</div>
           </div>
           <div class="metric-card">
             <div class="metric-val"><span class="counter" data-target="75000">0</span></div>
-            <div class="metric-lbl">Testigos Digitales de Resguardo</div>
+            <div class="metric-lbl" data-i18n="metric_witnesses">Testigos Digitales de Resguardo</div>
           </div>
         </div>
       </div>
 
-      <h2 class="section-title" style="margin-top: 30px;">Escala y Volumetría del Acervo Probatorio (>677 GB)</h2>
+      <h2 class="section-title" style="margin-top: 30px;" data-i18n="section_scale_title">Escala y Volumetría del Acervo Probatorio (>677 GB)</h2>
       
       <div class="grid-2">
         <div class="content-card">
-          <h3>💽 Bóveda Física D A T A1</h3>
+          <h3 data-i18n="card_data1_title">💽 Bóveda Física D A T A1</h3>
           <span class="badge badge-cyan">406.00 GB</span>
-          <p style="margin-top: 12px;">Contiene 121.960 actas PDF crudas de Delegados (descargadas el 21 de Junio de 2026), la Base Nacional de Preconteo (122.024 registros) y las secuencias de versiones V_1junio a V_4junio.</p>
+          <p style="margin-top: 12px;" data-i18n="card_data1_desc">Contiene 121.960 actas PDF crudas de Delegados (descargadas el 21 de Junio de 2026), la Base Nacional de Preconteo (122.024 registros) y las secuencias de versiones V_1junio a V_4junio.</p>
         </div>
 
         <div class="content-card">
-          <h3>💽 Bóveda Personal ANZACA</h3>
+          <h3 data-i18n="card_anzaca_title">💽 Bóveda Personal ANZACA</h3>
           <span class="badge badge-cyan">79.71 GB</span>
-          <p style="margin-top: 12px;">7.475 archivos preservados, 75.12 GB de Takeouts (Google, Gemini, Opera), expedientes de denuncias, audios 911 y radicado CIDH [CONFIDENCIAL — VER CHRIS COMMAND].</p>
+          <p style="margin-top: 12px;" data-i18n="card_anzaca_desc">7.475 archivos preservados, 75.12 GB de Takeouts (Google, Gemini, Opera), expedientes de denuncias, audios 911 y radicado CIDH [CONFIDENCIAL — VER CHRIS COMMAND].</p>
         </div>
 
         <div class="content-card">
-          <h3>🖥️ Sistema Local / NVMe</h3>
+          <h3 data-i18n="card_nvme_title">🖥️ Sistema Local / NVMe</h3>
           <span class="badge badge-cyan">185.00 GB</span>
-          <p style="margin-top: 12px;">Repositorio activo repo_github_comparacion, motor BabaYaga Core v2.1 y entorno virtual Python de auditoría forense.</p>
+          <p style="margin-top: 12px;" data-i18n="card_nvme_desc">Repositorio activo repo_github_comparacion, motor BabaYaga Core v2.1 y entorno virtual Python de auditoría forense.</p>
         </div>
 
         <div class="content-card">
-          <h3>💽 Bóveda BACKUP</h3>
+          <h3 data-i18n="card_backup_title">💽 Bóveda BACKUP</h3>
           <span class="badge badge-cyan">6.90 GB</span>
-          <p style="margin-top: 12px;">Paquete comprimido primario Junio-1-001 (1.62 GB), capturas de alertas ExpressVPN Identity Defender (ID [REST-ID-REDACTED]) y resguardo de seguridad.</p>
+          <p style="margin-top: 12px;" data-i18n="card_backup_desc">Paquete comprimido primario Junio-1-001 (1.62 GB), capturas de alertas ExpressVPN Identity Defender (ID [REST-ID-REDACTED]) y resguardo de seguridad.</p>
         </div>
       </div>
 
