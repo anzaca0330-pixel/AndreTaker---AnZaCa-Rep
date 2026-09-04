@@ -181,14 +181,14 @@ Invitamos a la comunidad internacional, peritos y analistas a clonar este reposi
 > Aislé y expuse además la táctica de supervivencia digital de la autoría, quien utilizó esteganografía de sistema de archivos (disfrazando la base de datos nacional como una carpeta de "Cumpleaños de Arturín") para proteger el acervo probatorio durante los ataques de Rootkit de junio. Todo lo aquí expuesto es un resumen factual y forense derivado exclusivamente de las trazas digitales. Debido a las limitaciones de tiempo de la especialista principal, este texto fue generado de manera autónoma para asegurar la preservación inmediata de la información probatoria.
 **Primera Línea Digital:** AnZaCa AndreTaker  
 **Colectivo:** [Testigos Digitales](CREDITOS_Y_AUTORIA.md)  
-**Radicado CIDH:** `IACHR-0000113728`  
+**Radicado CIDH:** `[CONFIDENCIAL — MEDIDAS CAUTELARES]`  
 **Estado:** Evidencia preservada, blindada y disponible para peritaje internacional.
 
 📖 **[LEER LA HISTORIA: SIGUIENDO LA ANOMALÍA (Anatomía de un Fraude Programado)](03_DOCUMENTACION/siguiendo_la_anomalia.md)**  
 📊 **[INVENTARIO MAESTRO DE EVIDENCIA >677 GB](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/INVENTARIO_MAESTRO_DISCOS_ANZACA_DATA1_BACKUP.md)**  
 📊 **[INFORME CONSOLIDADO DEL ACERVO PROBATORIO (>677 GB)](03_DOCUMENTACION/INFORME_CONSOLIDADO_ACERVO_677GB.md)**  
 ⚖️ **[DECLARACIÓN DE PROPIEDAD INTELECTUAL ANDRETAKER](PROPIEDAD_INTELECTUAL.md)**  
-🛡️ **[ASSURANT IDENTITY DEFENDER CLAIM STATEMENT (ENGLISH)](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md)**  
+🛡️ **[ASSURANT IDENTITY DEFENDER CLAIM STATEMENT (ENGLISH)](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md)**  
 ⚖️ **[CARTA DE PROPUESTA DIPLOMÁTICA AL EXPRESIDENTE](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/PROPUESTA_DIPLOMATICA_EXPRESIDENTE_PETRO.md)**  
 ⚖️ **[MANIFIESTO LEGAL Y CONSTITUCIONAL (Español)](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/MANIFESTO_TESTIGO_DIGITAL_ES.md)**  
 ⚖️ **[LEGAL AND CONSTITUTIONAL MANIFESTO (English)](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/MANIFESTO_TESTIGO_DIGITAL_EN.md)**  

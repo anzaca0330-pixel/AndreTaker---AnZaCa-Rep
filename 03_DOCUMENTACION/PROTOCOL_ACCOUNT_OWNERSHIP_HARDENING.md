@@ -7,7 +7,7 @@ Este protocolo extiende la auditoría y blindaje absoluto a la totalidad de las 
 
 ### 🔑 1. LISTA COMPLETA DE CUENTAS BAJO PROTOCOLO DE BLINDAJE:
 
-#### 1️⃣ `andreazabalac@gmail.com` (Andrea Zabala Cárcamo — Investigadora Principal)
+#### 1️⃣ `andretaker@andretaker.org` (Andrea Zabala Cárcamo — Investigadora Principal)
 * **Auditoría de Dispositivos Conectados:** [https://myaccount.google.com/device-activity](https://myaccount.google.com/device-activity)
 * **Expulsión y Cierre de Sesiones:** Presionar **"Cerrar sesión en todos los dispositivos no reconocidos"**.
 * **Revocación de Permisos a Aplicaciones:** [https://myaccount.google.com/permissions](https://myaccount.google.com/permissions)
@@ -21,7 +21,7 @@ Este protocolo extiende la auditoría y blindaje absoluto a la totalidad de las 
 * **Auditoría de Dispositivos Conectados:** [https://myaccount.google.com/device-activity](https://myaccount.google.com/device-activity)
 * **Cierre de Sesiones Remotas:** Revocar cualquier sesión activa en navegadores móviles antiguos o computadores secundarios.
 
-#### 4️⃣ `azabalabaez@gmail.com` (A. Zabala Báez — Archivo Familiar & Bóveda Legal)
+#### 4️⃣ `andretaker@andretaker.org` (A. Zabala Báez — Archivo Familiar & Bóveda Legal)
 * **Auditoría de Dispositivos Conectados:** [https://myaccount.google.com/device-activity](https://myaccount.google.com/device-activity)
 * **Revisión de Correos de Recuperación y Teléfonos:** Asegurar que solo el número de teléfono protegido por T-Mobile esté registrado.
 

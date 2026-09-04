@@ -902,7 +902,7 @@
 - **Ruta en Repositorio:** `/home/andrea-zabala-c/Desktop/EXPEDIENTE_PERSONAL_Y_DENUNCIAS_ANDREA_ZABALA/GUIA_ACTIVACION_SEGURO_Y_PROTECCION_BANCARIA.md`
 - **Extensión y Tamaño:** `71 líneas` | `5,225 bytes`
 - **Síntesis del Hallazgo:**
-  > **Beneficiaria:** Andrea Zabala Carcamo **Restoration ID:** `85720870` **Proveedor del Seguro:** Assurant (a través de ExpressVPN+ Identity Defender)...
+  > **Beneficiaria:** Andrea Zabala Carcamo **Restoration ID:** `[CONFIDENCIAL — POLICY ID]` **Proveedor del Seguro:** Assurant (a través de ExpressVPN+ Identity Defender)...
 
 ---
 
@@ -922,7 +922,7 @@
 - **Ruta en Repositorio:** `/home/andrea-zabala-c/Desktop/EXPEDIENTE_PERSONAL_Y_DENUNCIAS_ANDREA_ZABALA/00_LEER_ANTES_DE_LLAMAR_EXPRESSVPN.md`
 - **Extensión y Tamaño:** `24 líneas` | `1,722 bytes`
 - **Síntesis del Hallazgo:**
-  > **Beneficiaria Principal:** Andrea Zabala Carcamo (C.C. 43.925.102) **Teléfono Gratuito de Atención:** 📞 **`+1-833-568-6249`** **ID de Restauración de Identidad:** 🔑 **`85720870`**...
+  > **Beneficiaria Principal:** Andrea Zabala Carcamo (C.C. 43.925.102) **Teléfono Gratuito de Atención:** 📞 **`+1-833-568-6249`** **ID de Restauración de Identidad:** 🔑 **`[CONFIDENCIAL — POLICY ID]`**...
 
 ---
 
@@ -982,7 +982,7 @@
 - **Ruta en Repositorio:** `/home/andrea-zabala-c/Desktop/DOCUMENTOS_Y_REPORTES/IDENTITY_INSURANCE_CLAIM_REPORT.md`
 - **Extensión y Tamaño:** `39 líneas` | `3,858 bytes`
 - **Síntesis del Hallazgo:**
-  > **To:** Claims Department / Assurant - ExpressVPN Identity Defender **Policy / Restoration ID:** 85720870 **Insured:** Andrea Zabala Carcamo...
+  > **To:** Claims Department / Assurant - ExpressVPN Identity Defender **Policy / Restoration ID:** [CONFIDENCIAL — POLICY ID] **Insured:** Andrea Zabala Carcamo...
 
 ---
 
@@ -1022,7 +1022,7 @@
 - **Ruta en Repositorio:** `/home/andrea-zabala-c/Desktop/DOCUMENTOS_Y_REPORTES/REPORTE_RECLAMACION_SEGURO_IDENTIDAD.md`
 - **Extensión y Tamaño:** `43 líneas` | `6,484 bytes`
 - **Síntesis del Hallazgo:**
-  > **Para:** Departamento de Reclamaciones / Assurant - ExpressVPN Identity Defender **Póliza / Restoration ID:** 85720870 **Asegurada:** Andrea Zabala Carcamo...
+  > **Para:** Departamento de Reclamaciones / Assurant - ExpressVPN Identity Defender **Póliza / Restoration ID:** [CONFIDENCIAL — POLICY ID] **Asegurada:** Andrea Zabala Carcamo...
 
 ---
 
@@ -2637,7 +2637,7 @@
 ---
 
 ### 264. [RESUMEN_EJECUTIVO_CIDH.md](/home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/RESUMEN_EJECUTIVO_CIDH.md)
-- **Título del Informe:** CIDH – SOLICITUD DE MEDIDAS CAUTELARES – RADICADO IACHR-0000113728
+- **Título del Informe:** CIDH – SOLICITUD DE MEDIDAS CAUTELARES – RADICADO [CONFIDENCIAL — MEDIDAS CAUTELARES]
 - **Marca de Tiempo / Fecha:** `2026-08-18 13:39`
 - **Ruta en Repositorio:** `/home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/RESUMEN_EJECUTIVO_CIDH.md`
 - **Extensión y Tamaño:** `99 líneas` | `5,606 bytes`
@@ -3032,7 +3032,7 @@
 - **Ruta en Repositorio:** `/home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/BIBLIOGRAFIA_FORENSE_CIDH.md`
 - **Extensión y Tamaño:** `124 líneas` | `15,382 bytes`
 - **Síntesis del Hallazgo:**
-  > **Caso Radicado CIDH / IACHR Case Number:** `IACHR-0000113728` **Referencia de Proyecto / Project Reference:** Acervo Probatorio Forense E-14 (Colombia 2026) / E-14 Forensic Evidence Vault *(Scroll down for English Version / Desplácese hacia abajo pa...
+  > **Caso Radicado CIDH / IACHR Case Number:** `[CONFIDENCIAL — MEDIDAS CAUTELARES]` **Referencia de Proyecto / Project Reference:** Acervo Probatorio Forense E-14 (Colombia 2026) / E-14 Forensic Evidence Vault *(Scroll down for English Version / Desplácese hacia abajo pa...
 
 ---
 
@@ -3357,7 +3357,7 @@
 ---
 
 ### 336. [EXECUTIVE_SUMMARY_IACHR.md](/home/andrea-zabala-c/Desktop/ENTREGABLES_FORENSES_E14/EN_ENGLISH/Chapter_02_Executive_Summaries/EXECUTIVE_SUMMARY_IACHR.md)
-- **Título del Informe:** IACHR – REQUEST FOR PRECAUTIONARY MEASURES – CASE NO. IACHR-0000113728
+- **Título del Informe:** IACHR – REQUEST FOR PRECAUTIONARY MEASURES – CASE NO. [CONFIDENCIAL — MEDIDAS CAUTELARES]
 - **Marca de Tiempo / Fecha:** `2026-08-22 09:20`
 - **Ruta en Repositorio:** `/home/andrea-zabala-c/Desktop/ENTREGABLES_FORENSES_E14/EN_ENGLISH/Chapter_02_Executive_Summaries/EXECUTIVE_SUMMARY_IACHR.md`
 - **Extensión y Tamaño:** `91 líneas` | `4,524 bytes`
@@ -4627,7 +4627,7 @@
 ---
 
 ### 463. [RESUMEN_EJECUTIVO_CIDH.md](/home/andrea-zabala-c/Desktop/ENTREGABLES_FORENSES_E14/ES_ESPANOL/Capitulo_02_Resumenes_Ejecutivos/RESUMEN_EJECUTIVO_CIDH.md)
-- **Título del Informe:** CIDH – SOLICITUD DE MEDIDAS CAUTELARES – RADICADO IACHR-0000113728
+- **Título del Informe:** CIDH – SOLICITUD DE MEDIDAS CAUTELARES – RADICADO [CONFIDENCIAL — MEDIDAS CAUTELARES]
 - **Marca de Tiempo / Fecha:** `2026-08-22 09:21`
 - **Ruta en Repositorio:** `/home/andrea-zabala-c/Desktop/ENTREGABLES_FORENSES_E14/ES_ESPANOL/Capitulo_02_Resumenes_Ejecutivos/RESUMEN_EJECUTIVO_CIDH.md`
 - **Extensión y Tamaño:** `99 líneas` | `5,606 bytes`
@@ -6447,7 +6447,7 @@
 ---
 
 ### 645. [RESUMEN_EJECUTIVO_CIDH.md](/home/andrea-zabala-c/Desktop/ENTREGABLES_FORENSES_E14/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/RESUMEN_EJECUTIVO_CIDH.md)
-- **Título del Informe:** CIDH – SOLICITUD DE MEDIDAS CAUTELARES – RADICADO IACHR-0000113728
+- **Título del Informe:** CIDH – SOLICITUD DE MEDIDAS CAUTELARES – RADICADO [CONFIDENCIAL — MEDIDAS CAUTELARES]
 - **Marca de Tiempo / Fecha:** `2026-08-22 09:27`
 - **Ruta en Repositorio:** `/home/andrea-zabala-c/Desktop/ENTREGABLES_FORENSES_E14/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/RESUMEN_EJECUTIVO_CIDH.md`
 - **Extensión y Tamaño:** `99 líneas` | `5,606 bytes`
@@ -6592,7 +6592,7 @@
 - **Ruta en Repositorio:** `/home/andrea-zabala-c/Desktop/ENTREGABLES_FORENSES_E14/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/BIBLIOGRAFIA_FORENSE_CIDH.md`
 - **Extensión y Tamaño:** `124 líneas` | `15,382 bytes`
 - **Síntesis del Hallazgo:**
-  > **Caso Radicado CIDH / IACHR Case Number:** `IACHR-0000113728` **Referencia de Proyecto / Project Reference:** Acervo Probatorio Forense E-14 (Colombia 2026) / E-14 Forensic Evidence Vault *(Scroll down for English Version / Desplácese hacia abajo pa...
+  > **Caso Radicado CIDH / IACHR Case Number:** `[CONFIDENCIAL — MEDIDAS CAUTELARES]` **Referencia de Proyecto / Project Reference:** Acervo Probatorio Forense E-14 (Colombia 2026) / E-14 Forensic Evidence Vault *(Scroll down for English Version / Desplácese hacia abajo pa...
 
 ---
 
@@ -7437,7 +7437,7 @@
 ---
 
 ### 744. [EXECUTIVE_SUMMARY_IACHR.md](/home/andrea-zabala-c/Desktop/repo_github_comparacion/EN_ENGLISH/Chapter_02_Executive_Summaries/EXECUTIVE_SUMMARY_IACHR.md)
-- **Título del Informe:** IACHR – REQUEST FOR PRECAUTIONARY MEASURES – CASE NO. IACHR-0000113728
+- **Título del Informe:** IACHR – REQUEST FOR PRECAUTIONARY MEASURES – CASE NO. [CONFIDENCIAL — MEDIDAS CAUTELARES]
 - **Marca de Tiempo / Fecha:** `2026-08-27 12:49`
 - **Ruta en Repositorio:** `/home/andrea-zabala-c/Desktop/repo_github_comparacion/EN_ENGLISH/Chapter_02_Executive_Summaries/EXECUTIVE_SUMMARY_IACHR.md`
 - **Extensión y Tamaño:** `91 líneas` | `4,524 bytes`
@@ -8557,7 +8557,7 @@
 ---
 
 ### 856. [RESUMEN_EJECUTIVO_CIDH.md](/home/andrea-zabala-c/Desktop/repo_github_comparacion/ES_ESPANOL/Capitulo_02_Resumenes_Ejecutivos/RESUMEN_EJECUTIVO_CIDH.md)
-- **Título del Informe:** CIDH – SOLICITUD DE MEDIDAS CAUTELARES – RADICADO IACHR-0000113728
+- **Título del Informe:** CIDH – SOLICITUD DE MEDIDAS CAUTELARES – RADICADO [CONFIDENCIAL — MEDIDAS CAUTELARES]
 - **Marca de Tiempo / Fecha:** `2026-08-27 12:49`
 - **Ruta en Repositorio:** `/home/andrea-zabala-c/Desktop/repo_github_comparacion/ES_ESPANOL/Capitulo_02_Resumenes_Ejecutivos/RESUMEN_EJECUTIVO_CIDH.md`
 - **Extensión y Tamaño:** `99 líneas` | `5,606 bytes`
@@ -9117,7 +9117,7 @@
 ---
 
 ### 912. [EXECUTIVE_SUMMARY_IACHR.md](EN_ENGLISH/Chapter_02_Executive_Summaries/EXECUTIVE_SUMMARY_IACHR.md)
-- **Título del Informe:** IACHR – REQUEST FOR PRECAUTIONARY MEASURES – CASE NO. IACHR-0000113728
+- **Título del Informe:** IACHR – REQUEST FOR PRECAUTIONARY MEASURES – CASE NO. [CONFIDENCIAL — MEDIDAS CAUTELARES]
 - **Marca de Tiempo / Fecha:** `2026-08-27 20:31`
 - **Ruta en Repositorio:** `EN_ENGLISH/Chapter_02_Executive_Summaries/EXECUTIVE_SUMMARY_IACHR.md`
 - **Extensión y Tamaño:** `91 líneas` | `4,524 bytes`
@@ -12707,7 +12707,7 @@
 ---
 
 ### 1271. [RESUMEN_EJECUTIVO_CIDH.md](ES_ESPANOL/Capitulo_02_Resumenes_Ejecutivos/RESUMEN_EJECUTIVO_CIDH.md)
-- **Título del Informe:** CIDH – SOLICITUD DE MEDIDAS CAUTELARES – RADICADO IACHR-0000113728
+- **Título del Informe:** CIDH – SOLICITUD DE MEDIDAS CAUTELARES – RADICADO [CONFIDENCIAL — MEDIDAS CAUTELARES]
 - **Marca de Tiempo / Fecha:** `2026-08-30 11:40`
 - **Ruta en Repositorio:** `ES_ESPANOL/Capitulo_02_Resumenes_Ejecutivos/RESUMEN_EJECUTIVO_CIDH.md`
 - **Extensión y Tamaño:** `99 líneas` | `5,606 bytes`
@@ -12927,7 +12927,7 @@
 ---
 
 ### 1293. [RESUMEN_EJECUTIVO_CIDH.md](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/RESUMEN_EJECUTIVO_CIDH.md)
-- **Título del Informe:** CIDH – SOLICITUD DE MEDIDAS CAUTELARES – RADICADO IACHR-0000113728
+- **Título del Informe:** CIDH – SOLICITUD DE MEDIDAS CAUTELARES – RADICADO [CONFIDENCIAL — MEDIDAS CAUTELARES]
 - **Marca de Tiempo / Fecha:** `2026-08-30 11:40`
 - **Ruta en Repositorio:** `03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/RESUMEN_EJECUTIVO_CIDH.md`
 - **Extensión y Tamaño:** `99 líneas` | `5,606 bytes`
@@ -13022,7 +13022,7 @@
 - **Ruta en Repositorio:** `03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/BIBLIOGRAFIA_FORENSE_CIDH.md`
 - **Extensión y Tamaño:** `124 líneas` | `15,378 bytes`
 - **Síntesis del Hallazgo:**
-  > **Caso Radicado CIDH / IACHR Case Number:** `IACHR-0000113728` **Referencia de Proyecto / Project Reference:** Acervo Probatorio Forense E-14 (Colombia 2026) / E-14 Forensic Evidence Vault *(Scroll down for English Version / Desplácese hacia abajo pa...
+  > **Caso Radicado CIDH / IACHR Case Number:** `[CONFIDENCIAL — MEDIDAS CAUTELARES]` **Referencia de Proyecto / Project Reference:** Acervo Probatorio Forense E-14 (Colombia 2026) / E-14 Forensic Evidence Vault *(Scroll down for English Version / Desplácese hacia abajo pa...
 
 ---
 

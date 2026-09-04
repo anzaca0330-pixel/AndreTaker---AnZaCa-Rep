@@ -13,7 +13,7 @@
 1. 📄 **[PRESENTACION_EJECUTIVA_PERITAJE_GRUPO.md(../../PRESENTACION_EJECUTIVA_PERITAJE_GRUPO.md)**  
    *Paquete de 4 diapositivas ejecutivas para exposición de hallazgos.*
 2. 📄 **[LINEA_DE_TIEMPO_INCIDENTES_Y_ATAQUES.md(../../LINEA_DE_TIEMPO_INCIDENTES_Y_ATAQUES.md)**  
-   *Cronología oficial con radicado CIDH `IACHR-0000113728`, Sheriff `C20260617-0024-01`, 911, T-Mobile, Lenovo BIOS Key y Google Takeout.*
+   *Cronología oficial con radicado CIDH `[CONFIDENCIAL — MEDIDAS CAUTELARES]`, Sheriff `C20260617-0024-01`, 911, T-Mobile, Lenovo BIOS Key y Google Takeout.*
 3. 📄 **[linea_de_tiempo_investigacion_forense.md(../../linea_de_tiempo_investigacion_forense.md)**  
    *Evolución técnica de la investigación de la 1ª a la 7ª fase.*
 4. 📄 **[FLUJO_INVESTIGACION_Y_EVOLUCION_FORENSE.md(../../FLUJO_INVESTIGACION_Y_EVOLUCION_FORENSE.md)**  

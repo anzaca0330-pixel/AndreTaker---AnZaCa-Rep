@@ -3869,12 +3869,12 @@ Pero tiene algo que **sí es importante**.
 
 | Cuenta | Estado | Lo que significa |
 |--------|--------|------------------|
-| `azabalabaez@gmail.com` | Con sesión iniciada | Tu cuenta principal está activa |
-| `andreazabalac@gmail.com` | **"Sign in again"** | Esta cuenta **perdió la sesión** o fue cerrada |
+| `andretaker@andretaker.org` | Con sesión iniciada | Tu cuenta principal está activa |
+| `andretaker@andretaker.org` | **"Sign in again"** | Esta cuenta **perdió la sesión** o fue cerrada |
 
 ---
 
-## Por qué `andreazabalac@gmail.com` dice "Sign in again"
+## Por qué `andretaker@andretaker.org` dice "Sign in again"
 
 Eso puede pasar por varias razones:
 
@@ -3892,9 +3892,9 @@ Eso puede pasar por varias razones:
 ## Qué hacer aquí (y qué NO hacer)
 
 ### ❌ NO hagas esto ahora
-- No toques **"Sign in again"** en `andreazabalac@gmail.com`
+- No toques **"Sign in again"** en `andretaker@andretaker.org`
 - No agregues nuevas cuentas
-- No cierres sesión en `azabalabaez@gmail.com` (es tu cuenta principal activa)
+- No cierres sesión en `andretaker@andretaker.org` (es tu cuenta principal activa)
 
 ### ✅ Sí puedes hacer esto
 - Sal de esta pantalla (toca la flecha atrás o cierra la ventana)
@@ -3913,7 +3913,7 @@ Desde esa pantalla roja de "Critical issues found":
 
 ---
 
-## Sobre la cuenta `andreazabalac@gmail.com`
+## Sobre la cuenta `andretaker@andretaker.org`
 
 **Por ahora, no la toques.**  
 Si el atacante también tiene acceso a esa cuenta, iniciar sesión ahora podría darle más información o activar más alertas.
@@ -4070,19 +4070,19 @@ En cualquier caso, **no inicies sesión de nuevo en esta cuenta desde este dispo
 
 ---
 
-## Lo que debes hacer con esa cuenta (`andreazabalac@gmail.com`)
+## Lo que debes hacer con esa cuenta (`andretaker@andretaker.org`)
 
 **Por ahora, déjala así: "Session expired". No toques "Sign in".**
 
 ¿Por qué?
 - Si el atacante también tuvo acceso a esa cuenta, iniciar sesión ahora podría darle pistas o activar alertas
-- Primero asegura bien tu cuenta principal (`azabalabaez@gmail.com`)
+- Primero asegura bien tu cuenta principal (`andretaker@andretaker.org`)
 
 ---
 
 ## Acciones inmediatas para tu cuenta principal
 
-### Desde la pantalla de "Manage your Google Account" de `azabalabaez@gmail.com`:
+### Desde la pantalla de "Manage your Google Account" de `andretaker@andretaker.org`:
 
 1. **Ve a "Seguridad"**
 2. **Revisa "Tus dispositivos"** → Cierra sesión en todos los que no reconozcas
@@ -4099,7 +4099,7 @@ En cualquier caso, **no inicies sesión de nuevo en esta cuenta desde este dispo
 
 ---
 
-## Sobre la segunda cuenta (`andreazabalac@gmail.com`)
+## Sobre la segunda cuenta (`andretaker@andretaker.org`)
 
 **No la toques por ahora.**  
 Pero para tu tranquilidad, más adelante (después de asegurar la principal):
@@ -4114,8 +4114,8 @@ Pero para tu tranquilidad, más adelante (después de asegurar la principal):
 
 | Cuenta | Estado | Acción |
 |--------|--------|--------|
-| `azabalabaez@gmail.com` | Activa (principal) | Asegurar completamente (cerrar sesiones, revocar apps, revisar recuperación) |
-| `andreazabalac@gmail.com` | Session expired (inactiva) | **NO tocar** hasta limpiar la principal |
+| `andretaker@andretaker.org` | Activa (principal) | Asegurar completamente (cerrar sesiones, revocar apps, revisar recuperación) |
+| `andretaker@andretaker.org` | Session expired (inactiva) | **NO tocar** hasta limpiar la principal |
 
 ---
 
@@ -4191,7 +4191,7 @@ Eso saca al atacante si aún tiene una sesión activa.
 
 ---
 
-## Sobre la segunda cuenta (`andreazabalac@gmail.com`)
+## Sobre la segunda cuenta (`andretaker@andretaker.org`)
 
 Sigue sin tocarla.  
 Cuando la cuenta principal esté 100% limpia (24 horas sin actividad sospechosa), entonces podrás recuperar la segunda.

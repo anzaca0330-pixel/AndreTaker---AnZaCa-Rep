@@ -1,4 +1,4 @@
-# CIDH – SOLICITUD DE MEDIDAS CAUTELARES – RADICADO IACHR-0000113728
+# CIDH – SOLICITUD DE MEDIDAS CAUTELARES – RADICADO [CONFIDENCIAL — MEDIDAS CAUTELARES]
 ## Resumen Ejecutivo del Acervo Probatorio Forense E-14
 
 **Especialista:** Andrea Zabala Cárcamo (Especialista Ciudadana e Independiente)  
@@ -74,7 +74,7 @@ Tras la denuncia pública de estos hallazgos, fui objeto de:
 
 En virtud de lo anterior, solicito respetuosamente a la CIDH:
 
-1. **Otorgamiento y consolidación de Medidas Cautelares** (Radicado **`IACHR-0000113728`**) para proteger mi vida, integridad personal y libertad.
+1. **Otorgamiento y consolidación de Medidas Cautelares** (Radicado **`[CONFIDENCIAL — MEDIDAS CAUTELARES]`**) para proteger mi vida, integridad personal y libertad.
 2. **Orden de Auditoría Forense Internacional Independiente** sobre la totalidad de los formularios E-14 del censo electoral colombiano.
 3. **Requerimiento Oficial a la Registraduría Nacional** para la entrega de la cadena de custodia digital completa, logs de servidor y correspondencia de capas.
 
@@ -96,4 +96,4 @@ ________________________________
 **Andrea Zabala Cárcamo**  
 C.C. 43.925.102  
 Especialista Ciudadana e Independiente  
-Radicado CIDH: `IACHR-0000113728`
+Radicado CIDH: `[CONFIDENCIAL — MEDIDAS CAUTELARES]`

@@ -1,6 +1,6 @@
 # INFORME PERICIAL FORENSE: AUDITORÍA DE REGISTROS DE ARRANQUE, MATRIZ DE BIOS Y CRONOLOGÍA DE RETROCEDIDO (JULIO 2026)
 
-**Referencia de Caso:** Medida Cautelar CIDH `IACHR-0000113728`  
+**Referencia de Caso:** Medida Cautelar CIDH `[CONFIDENCIAL — MEDIDAS CAUTELARES]`  
 **Investigadora Principal:** Andrea Zabala Cárcamo (AnZaCa)  
 **Equipo Pericial:** Tycho & BabaYaga Core  
 **Fecha de Emisión:** 31 de Agosto de 2026  
@@ -73,7 +73,7 @@ Las capturas de pantalla que certifican la ejecución limpia y el resultado de `
 
 ## 3. ESQUEMA DE CADENA DE CUSTODIA Y LEGALIDAD (AUDIENCIA JURÍDICA / CIDH / CNE)
 
-Este entregable se incorpora formalmente al expediente de la Medida Cautelar CIDH `IACHR-0000113728` bajo los siguientes principios:
+Este entregable se incorpora formalmente al expediente de la Medida Cautelar CIDH `[CONFIDENCIAL — MEDIDAS CAUTELARES]` bajo los siguientes principios:
 
 1. **Inmutabilidad de la Prueba:** Cumplimiento de la norma **ISO/IEC 27037:2012** mediante el sellado con firmas SHA-256 de todas las copias de seguridad (.zip, .db, .csv) y capturas de evidencia gráfica conservadas en el acervo.
 2. **Trazabilidad Geográfica:** Las marcas de tiempo (15 de julio de 2026 en México y 1 de septiembre de 2026 en Canadá) coinciden con el registro de desplazamiento bajo protección diplomática y exilio, demostrando la continuidad ininterrumpida de la cadena de custodia.
@@ -90,7 +90,7 @@ timeline
                        : Bloqueo de energía en puertos USB
     13 de Junio de 2026 : Inyección de Entropía por Teclado (Arturo y Andrea)
                         : Bypass de Hardware vía CD Xubuntu (Bus SATA)
-    6 de Julio de 2026 : Cobertura de Medida Cautelar CIDH (Radicado IACHR-0000113728)
+    6 de Julio de 2026 : Cobertura de Medida Cautelar CIDH (Radicado [CONFIDENCIAL — MEDIDAS CAUTELARES])
                        : Desplazamiento a Ciudad de México
     15 de Julio de 2026 : Ejecución de Boot-Repair en México (14:21 / 17:23 UTC)
                         : Generación inmutable de backup_20260715_1421.zip

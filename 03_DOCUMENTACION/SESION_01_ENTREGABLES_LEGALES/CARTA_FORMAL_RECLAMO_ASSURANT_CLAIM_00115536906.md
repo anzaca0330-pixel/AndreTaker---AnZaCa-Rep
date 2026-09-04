@@ -4,7 +4,7 @@
 **Póliza / Restoration ID:**  (ExpressVPN Identity Defender)  
 **Correo Principal en la Póliza (Actualizado en México):**   
 **Correo de Origen Inicial:**   
-**Correo Oficial de Contacto:**  / `Assurant Claim 00115536906`  
+**Correo Oficial de Contacto:**  / `Assurant Claim [CONFIDENCIAL — CLAIM ASSURANT]`  
 **Fecha de Emisión:** 3 de Septiembre de 2026  
 **Reclamante Principal:** Andrea Zabala Cárcamo (AnZaCa / Johannes)  
 **Representante / Coordinador:** Chris Báez  
@@ -15,7 +15,7 @@
 
 ## 📍 1. DECLARACIÓN DE LOS HECHOS Y MOTIVO DEL RECLAMO
 
-Por medio de la presente comunicación formal, se presenta el expediente consolidado de indemnización y reposición técnica correspondiente a la reclamación identificada con el número **Claim 00115536906**.
+Por medio de la presente comunicación formal, se presenta el expediente consolidado de indemnización y reposición técnica correspondiente a la reclamación identificada con el número **Claim [CONFIDENCIAL — CLAIM ASSURANT]**.
 
 Durante el desarrollo de la Veeduría Forense Internacional y custodia del acervo probatorio electoral (>677 Gigabytes de datos inmutables y 122.025 actas consolidadas), los equipos informáticos asociados sufrieron un escenario severo de **asedio cibernético, intrusión de bajo nivel en firmware (BIOS NVRAM) y sabotaje físico/electrónico**.
 
@@ -36,7 +36,7 @@ De acuerdo con el estándar internacional **ISO/IEC 27037:2012** (Directrices pa
 
 Con base en la cobertura contratada y en los dictámenes periciales adjuntos, solicitamos formalmente:
 
-1. **Aprobación e Indemnización Inmediata del Claim `00115536906`:** Procesamiento y desembolso del valor asegurado por la pérdida total/daño severo del hardware afectado.
+1. **Aprobación e Indemnización Inmediata del Claim `[CONFIDENCIAL — CLAIM ASSURANT]`:** Procesamiento y desembolso del valor asegurado por la pérdida total/daño severo del hardware afectado.
 2. **Sustitución por Hardware de Grado Científico/Forense:** Aprobación de la reposición del equipo por un dispositivo con arquitectura de seguridad reinforced, capacidad de procesamiento de silicio en paralelo (para inferencia de modelos IA locales 100% Air-Gapped) y discos NVMe de alta velocidad.
 3. **Reconocimiento del Acervo Probatorio:** Aceptación de la cadena de custodia adjunta emitida por el Motor Forense `BABAYAGA_CORE` como prueba pericial válida del siniestro cibernético.
 

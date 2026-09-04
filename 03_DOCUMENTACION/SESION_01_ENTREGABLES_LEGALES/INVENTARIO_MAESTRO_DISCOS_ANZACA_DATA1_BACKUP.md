@@ -29,7 +29,7 @@ graph TD
   - **75.12 GB de respaldos Google Takeout** (`takeout-20260601...` y `takeout-20260619...`).
   - 1.492 imágenes PNG y 1.168 actas/informes PDF.
   - 726 conversaciones/logs de IA (JSON).
-  - Expedientes de protección CIDH (`IACHR-0000113728`) y denuncias policiales Sheriff (`C20260617-0024-01`).
+  - Expedientes de protección CIDH (`[CONFIDENCIAL — MEDIDAS CAUTELARES]`) y denuncias policiales Sheriff (`C20260617-0024-01`).
 
 ### 3. 🖥️ Sistema Local / NVMe (`/home/andrea-zabala-c`) — **185 GB**
 * **Contenido Principal:**

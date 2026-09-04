@@ -28,5 +28,5 @@ CORE 2: CYBERDEFENSE & ANTI-PALANTIR MIRROR ENGINE (Resiliencia Operativa)
 - Real-time Threat Intelligence, Bootkit/Rootkit Detection (Lenovo BIOS Ticket Key Ref: [TICKET-LENOVO-REDACTED]).
 - Continuous Location Sniffing & OBD-II/FIXD Vehicle Attack Vector Mitigation.
 - Zero-Width Character Sanitization (\u200B) for Algorithmic Obfuscation Bypass.
-- Strict Audit Trails for IACHR (CIDH IACHR-0000113728) & International Tribunals.
+- Strict Audit Trails for IACHR (CIDH [CONFIDENCIAL — MEDIDAS CAUTELARES]) & International Tribunals.
 ```

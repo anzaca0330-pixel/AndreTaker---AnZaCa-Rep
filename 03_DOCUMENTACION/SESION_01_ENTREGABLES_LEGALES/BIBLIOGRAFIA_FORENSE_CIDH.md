@@ -1,5 +1,5 @@
 # 📚 BIBLIOGRAFÍA ACADÉMICA Y NORMATIVA TÉCNICA | ACADEMIC BIBLIOGRAPHY & TECHNICAL STANDARDS
-**Caso Radicado CIDH / IACHR Case Number:** `IACHR-0000113728`  
+**Caso Radicado CIDH / IACHR Case Number:** `[CONFIDENCIAL — MEDIDAS CAUTELARES]`  
 **Referencia de Proyecto / Project Reference:** Acervo Probatorio Forense E-14 (Colombia 2026) / E-14 Forensic Evidence Vault
 
 *(Scroll down for English Version / Desplácese hacia abajo para la versión en Inglés)*

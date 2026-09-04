@@ -31,7 +31,7 @@
 ---
 
 ### 📜 ÓRBITA II: Matriz Jurídica y Sistémica (CIDH / Tribunales Internacionales)
-* **Objetivo:** Vinculación relacional causa-efecto probatoria para la Medida Cautelar CIDH (`IACHR-0000113728`).
+* **Objetivo:** Vinculación relacional causa-efecto probatoria para la Medida Cautelar CIDH (`[CONFIDENCIAL — MEDIDAS CAUTELARES]`).
 * **Componentes:**
   1. **Taxonomía de Atributos:** Clasificación de las 3.382 órdenes por Origen, Tipología, Cadena de Custodia ISO 27037 y Vulneración Normativa.
   2. **Nexo Causal 1:1:** *Orden N° [X] ➔ Log/Registro [Y] ➔ Entregable Judicial [Z]*.

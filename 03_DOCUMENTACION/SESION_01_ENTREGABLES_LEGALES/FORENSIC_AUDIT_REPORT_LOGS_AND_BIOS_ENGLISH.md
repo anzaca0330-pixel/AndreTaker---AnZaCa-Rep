@@ -1,6 +1,6 @@
 # 🛡️ FORENSIC AUDIT REPORT: BOOT LOGS, BIOS NVRAM MATRIX & CHRONOLOGY (SEPTEMBER 2026)
 
-**CASE REFERENCE:** Precautionary Measure Petition `IACHR-0000113728`  
+**CASE REFERENCE:** Precautionary Measure Petition `[CONFIDENCIAL — MEDIDAS CAUTELARES]`  
 **INSURED CLAIMANT & LEAD AUDITOR:** Andrea Zabala Cárcamo (AnZaCa / Johannes)  
 **TECHNICAL AUDIT TEAM:** Tycho & BabaYaga Core  
 **DATE OF ISSUANCE:** September 1, 2026  
@@ -59,4 +59,4 @@ This report and its attached cryptographic logs are sealed under Merkle Tree Roo
 Certified by:  
 **Andrea Zabala Cárcamo (AnZaCa / Johannes)**  
 *Lead Forensic Auditor & Insured Claimant*  
-*Assurant Claim Reference: 00115536906 | Policy Restoration ID: 85720870*
+*Assurant Claim Reference: [CONFIDENCIAL — CLAIM ASSURANT] | Policy Restoration ID: [CONFIDENCIAL — POLICY ID]*

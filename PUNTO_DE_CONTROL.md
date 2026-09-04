@@ -52,10 +52,10 @@
 ---
 
 ## 🎯 3. PRÓXIMAS TAREAS PENDIENTES (MAÑANA — PRIORIDAD MÁXIMA)
-- [ ] 🚨 **TAREA 1 (PRIORIDAD ABSOLUTA): ESTRATEGIA DE INGRESOS Y PRESIÓN DE RECLAMO (`Assurant Claim 00115536906`)**
-  - Estructurar la carta formal de presión e indemnización por hardware robado/dañado (`Claim 00115536906`) adjuntando el dictamen pericial forense para Chris Báez.
+- [ ] 🚨 **TAREA 1 (PRIORIDAD ABSOLUTA): ESTRATEGIA DE INGRESOS Y PRESIÓN DE RECLAMO (`Assurant Claim [CONFIDENCIAL — CLAIM ASSURANT]`)**
+  - Estructurar la carta formal de presión e indemnización por hardware robado/dañado (`Claim [CONFIDENCIAL — CLAIM ASSURANT]`) adjuntando el dictamen pericial forense para Chris Báez.
   - Aplicar a fondos/becas de emergencia internacional para defensores bajo asedio cibernético (*Open Technology Fund - OTF Rapid Response Fund* / *Front Line Defenders*).
   - Configurar canales de financiamiento directo para la Veeduría (GitHub Sponsors / Patreon) y esquema comercial B2B para la tecnología `BABAYAGA_CORE`.
-- [ ] **TAREA 2:** Monitorear cumplimiento del hito del 4 de septiembre (entregables legales para FBI IC3 / CIDH `IACHR-0000113728`).
+- [ ] **TAREA 2:** Monitorear cumplimiento del hito del 4 de septiembre (entregables legales para FBI IC3 / CIDH `[CONFIDENCIAL — MEDIDAS CAUTELARES]`).
 - [ ] **TAREA 3:** Configurar CNAME y DNS para `andretaker.org` una vez aprobada la solicitud por el registrador.
 - [ ] **TAREA 4:** Ejecutar respaldos de custodia si se conectan nuevas unidades extraíbles.

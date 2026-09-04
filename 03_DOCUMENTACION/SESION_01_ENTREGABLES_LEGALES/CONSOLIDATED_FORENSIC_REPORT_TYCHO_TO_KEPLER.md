@@ -23,7 +23,7 @@ A continuación, te presento la síntesis ejecutiva de todo el trabajo técnico,
 
 ### 2. 🌐 PUBLICACIÓN DE LA BÓVEDA INMUTABLE EN INTERNET ARCHIVE
 * **Bucket en Vivo Creado:** `colombia-e14-forensic-acervo-2026`.
-* **Carga de Archivos Maestros:** Subida de `ENTREGABLES_FORENSES_E14_COMPLETO.zip` (94.45 MB), `CARTA_DE_PRESENTACION_ACERVO_PROBATORIO.md`, `COVER_LETTER_FORENSIC_EVIDENCE_ARCHIVE.md`, `RESUMEN_EJECUTIVO_CIDH.md` (Radicado `IACHR-0000113728`), `EXECUTIVE_SUMMARY_IACHR.md` e `INDICE_MAESTRO_ACERVO_PROBATORIO.md` (con el Bloque E de Discos y Bóvedas).
+* **Carga de Archivos Maestros:** Subida de `ENTREGABLES_FORENSES_E14_COMPLETO.zip` (94.45 MB), `CARTA_DE_PRESENTACION_ACERVO_PROBATORIO.md`, `COVER_LETTER_FORENSIC_EVIDENCE_ARCHIVE.md`, `RESUMEN_EJECUTIVO_CIDH.md` (Radicado `[CONFIDENCIAL — MEDIDAS CAUTELARES]`), `EXECUTIVE_SUMMARY_IACHR.md` e `INDICE_MAESTRO_ACERVO_PROBATORIO.md` (con el Bloque E de Discos y Bóvedas).
 
 ---
 

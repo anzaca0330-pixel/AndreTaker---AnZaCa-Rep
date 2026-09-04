@@ -1,25 +1,25 @@
 # 🛡️ FORMAL CLAIM & HARDWARE REPLACEMENT DEMAND LETTER
 **INSURANCE PROVIDER:** Assurant Services, Inc. / FSO Claims Operations  
 **ASSIGNED ADJUSTER:** Yisell (FSO Claims Operations)  
-**DIRECT ADJUSTER EMAIL:** `myclaiminfo@assurant.com`  
+**DIRECT ADJUSTER EMAIL:** `[CANAL PRIVADO DE RECLAMOS]`  
 **DIRECT ADJUSTER PHONE:** 1-800-358-0600 Ext. 4038684 | Fax: 866-728-7098  
-**ASSURANT FILE / REFERENCE NO:** `88533054`  
-**POLICY / RESTORATION ID:** `85720870`  
-**CLAIM REFERENCE NUMBER:** `Claim 00115536906`  
+**ASSURANT FILE / REFERENCE NO:** `[CONFIDENCIAL — FILE ID]`  
+**POLICY / RESTORATION ID:** `[CONFIDENCIAL — POLICY ID]`  
+**CLAIM REFERENCE NUMBER:** `Claim [CONFIDENCIAL — CLAIM ASSURANT]`  
 **INSURED CLAIMANT:** Andrea Zabala Cárcamo (AnZaCa / Johannes)  
 **PRIMARY POLICY EMAIL:** `anzaca0330@gmail.com` *(Updated during Mexico deployment)*  
-**ORIGINAL REGISTRATION EMAIL:** `azabalabaez@gmail.com`  
-**OFFICIAL SECURE CONTACT EMAIL:** `andretaker@andretaker.org` | `andreazabalac@gmail.com`  
+**ORIGINAL REGISTRATION EMAIL:** `andretaker@andretaker.org`  
+**OFFICIAL SECURE CONTACT EMAIL:** `andretaker@andretaker.org` | `andretaker@andretaker.org`  
 **DATE:** September 3, 2026  
 
 ---
 
-## TO: YISELL — ADJUSTER, FSO CLAIMS OPERATIONS (`myclaiminfo@assurant.com`)
-### RE: Formal Demand for Hardware Replacement & Settlement under File `88533054` / Restoration ID `85720870` (Claim `00115536906`)
+## TO: YISELL — ADJUSTER, FSO CLAIMS OPERATIONS (`[CANAL PRIVADO DE RECLAMOS]`)
+### RE: Formal Demand for Hardware Replacement & Settlement under File `[CONFIDENCIAL — FILE ID]` / Restoration ID `[CONFIDENCIAL — POLICY ID]` (Claim `[CONFIDENCIAL — CLAIM ASSURANT]`)
 
 Dear Adjuster Yisell,
 
-I am writing as the insured claimant and Lead Forensic Auditor, Andrea Zabala Cárcamo, to formally submit the technical documentation and demand full hardware replacement liquid funds under active Policy Restoration ID **`85720870`**, File Reference **`88533054`**, and Claim Reference Number **`00115536906`**.
+I am writing as the insured claimant and Lead Forensic Auditor, Andrea Zabala Cárcamo, to formally submit the technical documentation and demand full hardware replacement liquid funds under active Policy Restoration ID **`[CONFIDENCIAL — POLICY ID]`**, File Reference **`[CONFIDENCIAL — FILE ID]`**, and Claim Reference Number **`[CONFIDENCIAL — CLAIM ASSURANT]`**.
 
 ---
 
@@ -31,12 +31,12 @@ On September 1, 2026, a certified local forensic audit purged the compromised NV
 ---
 
 ### 2. DEMAND FOR HARDWARE REPLACEMENT & FUNDS LIQUIDATION
-Pursuant to the terms of the **ExpressVPN Identity Defender / Assurant Cyber & Theft Protection Policy (Restoration ID: 85720870 / File: 88533054)**:
+Pursuant to the terms of the **ExpressVPN Identity Defender / Assurant Cyber & Theft Protection Policy (Restoration ID: [CONFIDENCIAL — POLICY ID] / File: [CONFIDENCIAL — FILE ID])**:
 
 1. **Hardware Replacement Value:** Immediate liquidation and transfer of replacement funds for a high-performance scientific/forensic workstation equivalent (Lenovo ThinkPad / Workstation class).
 2. **Official Response Channels:** All formal correspondence and settlement notifications must be dispatched to:
    * **Primary Official Email:** `andretaker@andretaker.org`
-   * **Secondary Contact Email:** `andreazabalac@gmail.com`
+   * **Secondary Contact Email:** `andretaker@andretaker.org`
    * **Policy File Email:** `anzaca0330@gmail.com`
 
 ---
@@ -49,11 +49,11 @@ Enclosed with this demand package are the certified technical audit records:
 ---
 
 ### 4. STATEMENT OF ACCURACY & LEGAL RESERVATION
-I certify under penalty of perjury that the facts set forth in this claim letter are true and accurate. This claim is filed without prejudice to additional legal actions pending before the FBI IC3 and the Inter-American Commission on Human Rights (Petition `IACHR-0000113728`).
+I certify under penalty of perjury that the facts set forth in this claim letter are true and accurate. This claim is filed without prejudice to additional legal actions pending before the FBI IC3 and the Inter-American Commission on Human Rights (Petition `[CONFIDENCIAL — MEDIDAS CAUTELARES]`).
 
 Respectfully submitted,
 
 **Andrea Zabala Cárcamo (AnZaCa / Johannes)**  
 *Lead Forensic Auditor & Insured Policyholder*  
-*Assurant File: 88533054 | Policy Restoration ID: 85720870 | Claim: 00115536906*  
+*Assurant File: [CONFIDENCIAL — FILE ID] | Policy Restoration ID: [CONFIDENCIAL — POLICY ID] | Claim: [CONFIDENCIAL — CLAIM ASSURANT]*  
 *Official Email: andretaker@andretaker.org*  

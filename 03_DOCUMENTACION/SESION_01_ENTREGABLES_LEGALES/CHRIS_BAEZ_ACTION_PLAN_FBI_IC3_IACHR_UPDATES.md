@@ -2,19 +2,19 @@
 
 **Lead Investigator:** Johannes (Andrea Zabala Cárcamo / AnZaCa / AndreTaker) — `andretaker@andretaker.org` | `andretakerbabayaga@gmail.com` | `andretaker@proton.me`  
 **Tactical Legal Coordinator:** Chris Báez (Chris — ORSNAsco)  
-**Registered CIDH / IACHR Petition Number:** **`IACHR-0000113728`** (ORSNAsco Account)  
-**Registered Property / Device Incident Reference:** **`00115536906`** (Assurant Claim `00115536906`)  
+**Registered CIDH / IACHR Petition Number:** **`[CONFIDENCIAL — MEDIDAS CAUTELARES]`** (ORSNAsco Account)  
+**Registered Property / Device Incident Reference:** **`[CONFIDENCIAL — CLAIM ASSURANT]`** (Assurant Claim `[CONFIDENCIAL — CLAIM ASSURANT]`)  
 **Deadline:** **Friday, September 4, 2026**  
-**Goal:** Submit official cybercrime updates to FBI IC3 & supplementary filing to CIDH (`IACHR-0000113728`).  
+**Goal:** Submit official cybercrime updates to FBI IC3 & supplementary filing to CIDH (`[CONFIDENCIAL — MEDIDAS CAUTELARES]`).  
 
 ---
 
 ## 📌 REGISTERED CLAIM & PETITION REFERENCE NUMBERS
 
-- **IACHR / CIDH Petition Code:** **`IACHR-0000113728`**  
+- **IACHR / CIDH Petition Code:** **`[CONFIDENCIAL — MEDIDAS CAUTELARES]`**  
   *(Filing: Precautionary Measure Petition for Andrea Zabala Cárcamo / AnZaCa — Registered under Chris Báez / ORSNAsco Account)*
-- **Assurant Hardware / Incident Claim Number:** **`00115536906`**  
-  *(Filing: Hardware Theft / Device Compromise Claim `00115536906`)*
+- **Assurant Hardware / Incident Claim Number:** **`[CONFIDENCIAL — CLAIM ASSURANT]`**  
+  *(Filing: Hardware Theft / Device Compromise Claim `[CONFIDENCIAL — CLAIM ASSURANT]`)*
 
 ---
 
@@ -49,9 +49,9 @@
 ### 🗓️ WEDNESDAY, SEPT 2 — STEP 2: FBI IC3 SUBMISSION
 - [ ] **Step 2.1:** Go to the official FBI portal link: 👉 [https://www.ic3.gov/Home/FileComplaint](https://www.ic3.gov/Home/FileComplaint) and click **"File a Complaint"**.
 - [ ] **Step 2.2:** Enter Victim Information: **Andrea Zabala Cárcamo (AnZaCa)**.
-- [ ] **Step 2.3:** Copy & paste this exact description into the complaint box (citing Claim Number `00115536906` & Petition `IACHR-0000113728`):
+- [ ] **Step 2.3:** Copy & paste this exact description into the complaint box (citing Claim Number `[CONFIDENCIAL — CLAIM ASSURANT]` & Petition `[CONFIDENCIAL — MEDIDAS CAUTELARES]`):
   ```text
-  During transit in Virginia (June 2026), victim's laptop suffered out-of-band network polling and unauthorized UEFI BIOS boot injections (Boot0021 LENOVO CLOUD, Boot0020 PXE BOOT). On Sept 1, 2026, local forensic audit confirmed and purged all 4 rogue EFI boot entries. Related Hardware/Incident Claim Reference: 00115536906. Human Rights Petition Reference: IACHR-0000113728. Legal basis: 18 U.S.C. § 1030 (CFAA) & 18 U.S.C. § 2511.
+  During transit in Virginia (June 2026), victim's laptop suffered out-of-band network polling and unauthorized UEFI BIOS boot injections (Boot0021 LENOVO CLOUD, Boot0020 PXE BOOT). On Sept 1, 2026, local forensic audit confirmed and purged all 4 rogue EFI boot entries. Related Hardware/Incident Claim Reference: [CONFIDENCIAL — CLAIM ASSURANT]. Human Rights Petition Reference: [CONFIDENCIAL — MEDIDAS CAUTELARES]. Legal basis: 18 U.S.C. § 1030 (CFAA) & 18 U.S.C. § 2511.
   ```
 - [ ] **Step 2.4:** Attach the 3 technical proof files:
   - `INFORME_FORENSE_AUDITORIA_LOGS_Y_BIOS.md`
@@ -63,13 +63,13 @@
 
 ### 🗓️ THURSDAY, SEPT 3 — STEP 3: CIDH (IACHR) PRECAUTIONARY UPDATE VIA ORSNASCO ACCOUNT
 - [ ] **Step 3.1:** Open the official IACHR e-Filing portal link: 👉 [https://www.oas.org/en/iachr/portal/](https://www.oas.org/en/iachr/portal/) (or email `cidhmedidas@oas.org`) and log in using your registered **ORSNAsco** company account credentials.
-- [ ] **Step 3.2:** Select Petition **`IACHR-0000113728`** (Andrea Zabala Cárcamo) and set Subject Line:
+- [ ] **Step 3.2:** Select Petition **`[CONFIDENCIAL — MEDIDAS CAUTELARES]`** (Andrea Zabala Cárcamo) and set Subject Line:
   ```text
-  URGENT SUPPLEMENTARY FILING - PETITION IACHR-0000113728 (ORSNAsco Transmittal)
+  URGENT SUPPLEMENTARY FILING - PETITION [CONFIDENCIAL — MEDIDAS CAUTELARES] (ORSNAsco Transmittal)
   ```
 - [ ] **Step 3.3:** Copy & paste this exact short message:
   ```text
-  Dear Executive Secretariat: Transmitting via registered ORSNAsco account for Petition IACHR-0000113728 the updated 3-Drive Consolidated Audit of the Evidence Vault (>677 GB / 777,869 files) sealed under ISO/IEC 27037:2012 and Merkle Root SHA-256 (9600fa8464bbd5315607c5e5bb34a26e8a8603250c892c3f72654664e2a665be). Attached are the Bilingual Precautionary Filing and the 1:1 Causality Matrix.
+  Dear Executive Secretariat: Transmitting via registered ORSNAsco account for Petition [CONFIDENCIAL — MEDIDAS CAUTELARES] the updated 3-Drive Consolidated Audit of the Evidence Vault (>677 GB / 777,869 files) sealed under ISO/IEC 27037:2012 and Merkle Root SHA-256 (9600fa8464bbd5315607c5e5bb34a26e8a8603250c892c3f72654664e2a665be). Attached are the Bilingual Precautionary Filing and the 1:1 Causality Matrix.
   ```
 - [ ] **Step 3.4:** Upload / Attach the legal files:
   - `DEMANDA_MEDIDAS_CAUTELARES_CIDH_BILINGUAL.md`
@@ -81,8 +81,8 @@
 
 ### 🗓️ FRIDAY, SEPT 4 — STEP 4: TEAM CONFIRMATION
 - [ ] **Step 4.1:** Send a short message to Johannes and Arturo:
-  - ✅ **FBI IC3 Complaint Filed** (Include IC3 Confirmation # & Claim Ref 00115536906).
-  - ✅ **CIDH Update Sent via ORSNAsco Account** (Include Portal Receipt for IACHR-0000113728).
+  - ✅ **FBI IC3 Complaint Filed** (Include IC3 Confirmation # & Claim Ref [CONFIDENCIAL — CLAIM ASSURANT]).
+  - ✅ **CIDH Update Sent via ORSNAsco Account** (Include Portal Receipt for [CONFIDENCIAL — MEDIDAS CAUTELARES]).
   - ✅ **Privacy Filter Verified** (0 personal files shared).
 
 ---

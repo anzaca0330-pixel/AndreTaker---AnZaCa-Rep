@@ -65,7 +65,7 @@ graph TD
   * [`REPORTE_MASIVO_DEEPFAKES.md`](file:///home/andrea-zabala-c/AndreTaker---AnZaCa-Rep/02_ANALISIS/REPORTE_MASIVO_DEEPFAKES.md) — Diagnóstico de 57,981 PDFs con descalce XREF (`15 declared != 13 highest`).
   * [`RESULTADOS_MUESTRAS_LUZ_DEEPFAKE.md`](file:///home/andrea-zabala-c/AndreTaker---AnZaCa-Rep/02_ANALISIS/RESULTADOS_MUESTREO_LUZ_DEEPFAKE.md) — Varianza nula en máscaras sintéticas 1bpc ($\sigma=0.0$).
 * **⚖️ Legal/Jurídico:**
-  * [`ACTA_DE_HALLAZGOS_FORENSES_MATRIZ_14_PUNTOS.md`](file:///home/andrea-zabala-c/AndreTaker---AnZaCa-Rep/02_ANALISIS/ACTA_DE_HALLAZGOS_FORENSES_MATRIZ_14_PUNTOS.md) — Expediente completo bajo radicado CIDH `IACHR-0000113728`.
+  * [`ACTA_DE_HALLAZGOS_FORENSES_MATRIZ_14_PUNTOS.md`](file:///home/andrea-zabala-c/AndreTaker---AnZaCa-Rep/02_ANALISIS/ACTA_DE_HALLAZGOS_FORENSES_MATRIZ_14_PUNTOS.md) — Expediente completo bajo radicado CIDH `[CONFIDENCIAL — MEDIDAS CAUTELARES]`.
   * [`DICTAMEN_PERICIAL_FORENSE_FINAL.md`](file:///home/andrea-zabala-c/AndreTaker---AnZaCa-Rep/02_ANALISIS/DICTAMEN_PERICIAL_FORENSE_FINAL.md) — Dictamen jurídico-técnico consolidado.
 * **🗣️ Ciudadano Común:**
   * [`siguiendo_la_anomalia.md`](file:///home/andrea-zabala-c/AndreTaker---AnZaCa-Rep/03_DOCUMENTACION/siguiendo_la_anomalia.md) — Relato cronológico desde la salida de México hasta el arribo al Aeropuerto YUL en Canadá.

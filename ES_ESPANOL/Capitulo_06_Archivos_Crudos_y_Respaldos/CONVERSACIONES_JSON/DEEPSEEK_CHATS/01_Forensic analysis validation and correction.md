@@ -27530,7 +27530,7 @@ La Registraduría contrata empresas privadas para escaneo, ensamblaje y carga de
 ANDREA ZABALA CARCAMO
 Cédula: 43.925.102
 Dirección: 13625 Mar Vista St, Whittier, CA
-Correo: andreazabalac@gmail.com
+Correo: andretaker@andretaker.org
 Teléfono: +1 562 525 6663
 ---
 

@@ -1,4 +1,4 @@
-# IACHR – REQUEST FOR PRECAUTIONARY MEASURES – CASE NO. IACHR-0000113728
+# IACHR – REQUEST FOR PRECAUTIONARY MEASURES – CASE NO. [CONFIDENCIAL — MEDIDAS CAUTELARES]
 ## Executive Summary of the E-14 Forensic Evidence Archive
 
 **Investigator:** Andrea Zabala Cárcamo (Independent Citizen Investigator)  
@@ -66,7 +66,7 @@ Following the public disclosure of these findings, I was targeted by:
 
 In light of the above, I respectfully request the IACHR to:
 
-1. **Grant and consolidate Precautionary Measures** (Case No. **`IACHR-0000113728`**) to protect my life, personal integrity, and freedom.
+1. **Grant and consolidate Precautionary Measures** (Case No. **`[CONFIDENCIAL — MEDIDAS CAUTELARES]`**) to protect my life, personal integrity, and freedom.
 2. **Order an Independent International Forensic Audit** on all E-14 tally sheets across the Colombian electoral census.
 3. **Issue an Official Request to the National Civil Registry** for the submission of the complete digital chain of custody, server logs, and layer correspondence tables.
 
@@ -88,4 +88,4 @@ ________________________________
 **Andrea Zabala Cárcamo**  
 ID: 43.925.102  
 Independent Citizen Investigator  
-IACHR Case No.: `IACHR-0000113728`
+IACHR Case No.: `[CONFIDENCIAL — MEDIDAS CAUTELARES]`

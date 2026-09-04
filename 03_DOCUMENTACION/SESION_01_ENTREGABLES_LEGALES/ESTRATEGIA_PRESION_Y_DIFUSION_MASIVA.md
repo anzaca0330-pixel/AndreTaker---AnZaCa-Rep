@@ -23,7 +23,7 @@ graph TD
 ```
 
 ### 1. ⚖️ Frente Legal e Internacional (Blindaje de Reserva)
-* **Objetivo:** Mantener copias inmutables en múltiples jurisdicciones soberanas (Canadá, EE.UU., México, CIDH `IACHR-0000113728`).
+* **Objetivo:** Mantener copias inmutables en múltiples jurisdicciones soberanas (Canadá, EE.UU., México, CIDH `[CONFIDENCIAL — MEDIDAS CAUTELARES]`).
 * **Acción:** No esperar respuestas pasivas del sistema local. Usar los números de caso (`Sheriff C20260617-0024-01`, `Lenovo Key Ref [TICKET-LENOVO-REDACTED]`) como certificados fácticos de hostigamiento.
 
 ### 2. 📰 Frente Mediático y Periodismo de Investigación (Filtración Controlada)

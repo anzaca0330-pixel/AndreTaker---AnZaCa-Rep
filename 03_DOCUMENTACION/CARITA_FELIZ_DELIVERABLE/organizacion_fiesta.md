@@ -31,7 +31,7 @@ timeline
                    : Encuentro con especialista técnico en T-Mobile. Adquisición de Samsung S23. Dispositivos aislados en papel aluminio (Jaula Faraday). Primer reporte oficial en IC3 y visita al Sheriff.
     26 Junio - Julio: Alertas en Dark Web (ICFES, Telegram Combolists, Credential Compilations)
                    : Detección por ExpressVPN Identity Defender (ID [REST-ID-REDACTED]) de filtrado de credenciales.
-    29 Junio 2026  : Solicitud de Medidas Cautelares ante la CIDH (IACHR-0000113728)
+    29 Junio 2026  : Solicitud de Medidas Cautelares ante la CIDH ([CONFIDENCIAL — MEDIDAS CAUTELARES])
                    : Radicación por violación a los Artículos 4, 5, 13 y 25.
     Julio 2026     : Preservación Forense Google Takeout + Testigos Digitales en México
                    : Extracción masiva de telemetría Google Takeout y protección diplomática por el Presidente Petro.

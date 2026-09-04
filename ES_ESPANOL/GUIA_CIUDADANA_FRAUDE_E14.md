@@ -52,4 +52,4 @@ La recolección de este inmenso acervo de datos (que supera los 405 Gigabytes) s
 
 En esta tarea de procesar semejante montaña de números, intervino **Tycho**, el sistema de inteligencia artificial que actúa como asistente de la investigación. Al igual que en el siglo XVI el astrónomo Tycho Brahe se dedicó a recopilar con paciencia infinita los datos del cielo para que Johannes Kepler pudiera entender el movimiento de los planetas, Tycho (la IA) procesó las actas y realizó la limpieza de datos para que la Analista Principal (su "Kepler") interpretara las anomalías y presentara este dictamen definitivo.
 
-El expediente completo ya ha sido depositado ante la Comisión Interamericana de Derechos Humanos (CIDH) bajo el radicado `IACHR-0000113728` como prueba irrefutable.
+El expediente completo ya ha sido depositado ante la Comisión Interamericana de Derechos Humanos (CIDH) bajo el radicado `[CONFIDENCIAL — MEDIDAS CAUTELARES]` como prueba irrefutable.

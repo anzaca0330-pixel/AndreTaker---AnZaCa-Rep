@@ -36,7 +36,7 @@ U.S. Police Case / Incident Number: Buckingham County Sheriff's Office Incident 
 - June 26 - July 2026: Dark Web Breach Alerts (ICFES, Telegram Combolists, Credential Compilations)
   Detection by ExpressVPN Identity Defender (ID [REST-ID-REDACTED]) of leaked credentials.
 
-- June 29, 2026: Request for Precautionary Measures before the IACHR (IACHR-0000113728)
+- June 29, 2026: Request for Precautionary Measures before the IACHR ([CONFIDENCIAL — MEDIDAS CAUTELARES])
   Filing based on violations of Articles 4, 5, 13, and 25 of the American Convention.
 
 - July 2026: Google Takeout Forensic Preservation + Digital Witnesses in Mexico

@@ -13,10 +13,10 @@ Este documento define la arquitectura para unificar las 6 cuentas y los reposito
 
 | Cuenta / Alias | Rol Enterprise | Nivel de Permisos IAM | Dominio Enterprise Unificado |
 | :--- | :--- | :--- | :--- |
-| `andreazabalac@gmail.com` | **Super Admin / Chief Researcher** | Full Admin (`*`) | `andrea.zabala@andretaker.org` |
+| `andretaker@andretaker.org` | **Super Admin / Chief Researcher** | Full Admin (`*`) | `andrea.zabala@andretaker.org` |
 | `anzaca0330-pixel@gmail.com` | **Lead Dev & GitHub Admin** | Dev & Repository Admin | `dev.anzaca@andretaker.org` |
 | `ansekurt@gmail.com` | **Sec-Ops & Forensic Vault Admin** | Security Analyst & Vault Admin | `ansekurt@andretaker.org` |
-| `azabalabaez@gmail.com` | **Legal Vault & Custody Guardian** | Legal Evidence Auditor | `legal.zabalabaez@andretaker.org` |
+| `andretaker@andretaker.org` | **Legal Vault & Custody Guardian** | Legal Evidence Auditor | `legal.zabalabaez@andretaker.org` |
 | `arturogazab@gmail.com` | **Arthurios / Youth Champion** | User / Protected Identity | `arthurios@andretaker.org` |
 | `cmbaez1@gmail.com` | **Chris Baez / Telecom & Sec Ops** | Telecom Security Ops | `chris.baez@andretaker.org` |
 

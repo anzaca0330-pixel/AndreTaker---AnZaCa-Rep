@@ -9,7 +9,7 @@ Presidency of the Republic
 
 **From:**
 Andrea Zabala Carcamo (ID 43.925.102) and Arturo Garcia Zabala (Minor Son)
-Lead Analyst and Beneficiaries of Pending Precautionary Measures (IACHR - IACHR-0000113728)
+Lead Analyst and Beneficiaries of Pending Precautionary Measures (IACHR - [CONFIDENCIAL — MEDIDAS CAUTELARES])
 Refugee Claimants before Immigration, Refugees and Citizenship Canada (IRCC - Principal UCI: 1158-0327-50 | Minor UCI: 1158-0331-82 | CBSA File: L010534096)
 
 **Subject:** Urgent Request for the Reception of Electoral Forensic Evidentiary Record (136 GB) and Activation of Diplomatic Protection Mechanisms.
@@ -47,7 +47,7 @@ Simultaneously, the international citizen initiative "Digital Witnesses" (Testig
 Given the level of imminent risk to my integrity and that of my family, and the critical nature of this evidence for democratic stability, I request of you, in your capacity as former president and political leader:
 
 1. **Opening of Secure Channels:** Enable a confidential and secure diplomatic channel for the physical delivery or encrypted transfer of the hard drive containing the entirety of the evidence (SHA-256 Hashes, network telemetry, interception logs, and polling record audits).
-2. **Consular Protection:** Immediately activate diplomatic protection for my family unit (Christopher Baez, Arturo Garcia Zabala, and Andrea Zabala Carcamo), in coherence with the Precautionary Measures file submitted to the Inter-American Commission on Human Rights (IACHR - IACHR-0000113728).
+2. **Consular Protection:** Immediately activate diplomatic protection for my family unit (Christopher Baez, Arturo Garcia Zabala, and Andrea Zabala Carcamo), in coherence with the Precautionary Measures file submitted to the Inter-American Commission on Human Rights (IACHR - [CONFIDENCIAL — MEDIDAS CAUTELARES]).
 3. **Independent Commission:** Order the creation of an independent technical commission, with trusted state computer forensics experts, to validate the algorithms and findings documented herein.
 4. **Open Source Forensic Tool (Brazil/Lula Alert):** The forensic detection algorithm we have created for this investigation is free and open-source. At this very moment, we are adapting its architecture to forewarn President Luiz Inácio Lula da Silva in Brazil, in order to protect their upcoming elections from a homologous attack. As you have rightly warned: we must preserve what is most important, which is life, our forests, our waters, and our animals. We are under a systematic attack and the code is ready for regional defense.
 5. **Professional Reconversion and Certification under Refugee Status:**

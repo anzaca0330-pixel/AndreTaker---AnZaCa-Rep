@@ -31,7 +31,7 @@ timeline
                    : Technical consultation at T-Mobile. Purchase of Samsung S23. Compromised devices isolated in aluminum foil (Faraday Cage). First official IC3 submission and Sheriff visit.
     June 26 - July : Dark Web Breach Alerts (ICFES, Telegram Combolists, Credential Compilations)
                    : Detection by ExpressVPN Identity Defender (ID [REST-ID-REDACTED]) of leaked credentials.
-    June 29, 2026  : Request for Precautionary Measures before the IACHR (IACHR-0000113728)
+    June 29, 2026  : Request for Precautionary Measures before the IACHR ([CONFIDENCIAL — MEDIDAS CAUTELARES])
                    : Filing based on violations of Articles 4, 5, 13, and 25 of the American Convention.
     July 2026      : Google Takeout Forensic Preservation + Digital Witnesses in Mexico
                    : Massive extraction of Google Takeout telemetry logs and diplomatic protection by President Petro.

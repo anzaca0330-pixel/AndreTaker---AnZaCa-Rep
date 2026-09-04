@@ -54,7 +54,7 @@ The archive is organized into the following sections:
 
 **Additionally includes:**
 
-- **Personal case file:** Timeline of attacks, IACHR filing (`IACHR-0000113728`), Sheriff of Buckingham (`C20260617-0024-01`), and Lenovo ticket (`[TICKET-LENOVO-REDACTED]`).
+- **Personal case file:** Timeline of attacks, IACHR filing (`[CONFIDENCIAL — MEDIDAS CAUTELARES]`), Sheriff of Buckingham (`C20260617-0024-01`), and Lenovo ticket (`[TICKET-LENOVO-REDACTED]`).
 - **Disk hash manifest:** 253 SHA-256 signatures certifying the integrity of the physical disk.
 - **Public Internet Archive vault:** The complete archive is available at [https://archive.org/details/colombia-e14-forensic-acervo-2026](https://archive.org/details/colombia-e14-forensic-acervo-2026).
 
@@ -74,7 +74,7 @@ All evidence has been preserved under the **ISO/IEC 27037** standard (digital ch
 
 In light of the above, I respectfully request:
 
-1. That this archive be received as documentary evidence in the context of the precautionary measures request before the IACHR (Case No. **`IACHR-0000113728`**).
+1. That this archive be received as documentary evidence in the context of the precautionary measures request before the IACHR (Case No. **`[CONFIDENCIAL — MEDIDAS CAUTELARES]`**).
 2. That an independent forensic audit be ordered for all E-14 tally sheets across all electoral districts, applying the same methodology documented herein.
 3. That the National Civil Registry and the National Electoral Council be required to present the complete chain of custody of the digital files, including publication logs, official hashes, and a correspondence table between layers (`e14`, `ahora`, `transmisión`).
 
@@ -85,7 +85,7 @@ In light of the above, I respectfully request:
 **Investigator:** Andrea Zabala Cárcamo  
 **Email:** anzaca0330@gmail.com | andrea.zabalacarcamo@email.phoenix.edu  
 **ID:** 43.925.102  
-**IACHR Case No.:** `IACHR-0000113728`  
+**IACHR Case No.:** `[CONFIDENCIAL — MEDIDAS CAUTELARES]`  
 **Sheriff Case No.:** `C20260617-0024-01`
 
 ---

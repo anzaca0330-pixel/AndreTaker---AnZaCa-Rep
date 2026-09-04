@@ -54,7 +54,7 @@ El acervo está organizado en los siguientes bloques:
 
 **Además, se incluye:**
 
-- **Expediente personal:** Cronología de ataques, radicados de la CIDH (`IACHR-0000113728`), del Sheriff de Buckingham (`C20260617-0024-01`), y del ticket de Lenovo (`[TICKET-LENOVO-REDACTED]`).
+- **Expediente personal:** Cronología de ataques, radicados de la CIDH (`[CONFIDENCIAL — MEDIDAS CAUTELARES]`), del Sheriff de Buckingham (`C20260617-0024-01`), y del ticket de Lenovo (`[TICKET-LENOVO-REDACTED]`).
 - **Manifiesto de hashes del disco:** 253 firmas SHA-256 que certifican la integridad del disco físico.
 - **Bóveda pública en Internet Archive:** El acervo completo está disponible en [https://archive.org/details/colombia-e14-forensic-acervo-2026](https://archive.org/details/colombia-e14-forensic-acervo-2026).
 
@@ -74,7 +74,7 @@ Toda la evidencia ha sido preservada bajo el estándar **ISO/IEC 27037** (cadena
 
 En virtud de lo anterior, solicito:
 
-1. Que este acervo sea recibido como prueba documental y pericial en el marco de la solicitud de medidas cautelares ante la CIDH (Radicado **`IACHR-0000113728`**).
+1. Que este acervo sea recibido como prueba documental y pericial en el marco de la solicitud de medidas cautelares ante la CIDH (Radicado **`[CONFIDENCIAL — MEDIDAS CAUTELARES]`**).
 2. Que se ordene una auditoría forense independiente de las actas E-14 de todas las circunscripciones electorales, aplicando la misma metodología aquí documentada.
 3. Que se requiera a la Registraduría Nacional del Estado Civil y al Consejo Nacional Electoral la presentación de la cadena de custodia completa de los archivos digitales, incluyendo logs de publicación, hashes oficiales y tabla de correspondencia entre capas (`e14`, `ahora`, `transmisión`).
 
@@ -85,7 +85,7 @@ En virtud de lo anterior, solicito:
 **Especialista:** Andrea Zabala Cárcamo  
 **Correos electrónicos:** anzaca0330@gmail.com | andrea.zabalacarcamo@email.phoenix.edu  
 **Cédula:** 43.925.102  
-**Radicado CIDH:** `IACHR-0000113728`  
+**Radicado CIDH:** `[CONFIDENCIAL — MEDIDAS CAUTELARES]`  
 **Radicado Sheriff:** `C20260617-0024-01`
 
 ---

@@ -1,6 +1,6 @@
 # 📜 ÓRBITA II: MATRIZ JURÍDICA, ENTREGABLES CIDH Y CADENA DE CUSTODIA
 **Fecha del Ritual:** 2026-09-01 10:20:02 UTC-4  
-**Referencia Judicial:** Medida Cautelar CIDH `IACHR-0000113728`  
+**Referencia Judicial:** Medida Cautelar CIDH `[CONFIDENCIAL — MEDIDAS CAUTELARES]`  
 **Coordinación Legal:** Johannes (AnZaCa), Chris Báez & Kepler  
 **Estándar de Cadena de Custodia:** ISO/IEC 27037:2012  
 
@@ -81,6 +81,6 @@ Se han verificado **49 piezas procesales** en la Órbita 2:
 1. Bogotá, Colombia: Scraping masivo + hash SHA-256 inmediato (147.000+ docs) pre-borrado oficial.
 2. Virginia, EAU: Asedio cibernético de 20 días + mitigación Anti-Palantir (mutación de hash + Exif purge).
 3. Cd. de México, México: Exilio forzado + preservación inmutable en Embajada (backup_20260715_1421.zip).
-4. Montréal, Canadá: Consolidación total del Acervo (>677 GB) + Presentación CIDH (IACHR-0000113728).
+4. Montréal, Canadá: Consolidación total del Acervo (>677 GB) + Presentación CIDH ([CONFIDENCIAL — MEDIDAS CAUTELARES]).
 ```
 

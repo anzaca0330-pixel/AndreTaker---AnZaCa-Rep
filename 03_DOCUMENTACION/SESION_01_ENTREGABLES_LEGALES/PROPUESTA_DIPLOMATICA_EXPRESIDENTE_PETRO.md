@@ -9,7 +9,7 @@ Presidencia de la República
 
 **De:**
 Andrea Zabala Carcamo (C.C. 43.925.102) y Arturo Garcia Zabala (Hijo Menor)
-Analista Principal y Beneficiarios de Medidas Cautelares en Trámite (CIDH - IACHR-0000113728)
+Analista Principal y Beneficiarios de Medidas Cautelares en Trámite (CIDH - [CONFIDENCIAL — MEDIDAS CAUTELARES])
 Solicitantes de Refugio ante Inmigración, Refugiados y Ciudadanía de Canadá (IRCC - UCI Titular: 1158-0327-50 | UCI Menor: 1158-0331-82 | Expediente CBSA: L010534096)
 
 **Asunto:** Solicitud Urgente de Recepción de Acervo Probatorio Forense Electoral (136 GB) y Activación de Mecanismos de Protección Diplomática.
@@ -46,7 +46,7 @@ Simultáneamente, la iniciativa ciudadana internacional "Testigos Digitales" (co
 Debido al nivel de riesgo inminente para mi integridad y la de mi familia, y a la naturaleza crítica de esta evidencia para la estabilidad democrática, le solicito, en su calidad de exmandatario y líder político:
 
 1. **Apertura de Canales Seguros:** Habilitar un canal diplomático confidencial y seguro para la entrega física o transferencia encriptada del disco duro que contiene la totalidad de la evidencia (Hashes SHA-256, telemetría de red, logs de interceptación y auditoría de actas).
-2. **Protección Consular:** Activar de manera inmediata la protección diplomática para mi núcleo familiar (Christopher Baez, Arturo Garcia Zabala y Andrea Zabala Carcamo), en coherencia con el expediente de Medidas Cautelares radicado ante la Comisión Interamericana de Derechos Humanos (CIDH - IACHR-0000113728).
+2. **Protección Consular:** Activar de manera inmediata la protección diplomática para mi núcleo familiar (Christopher Baez, Arturo Garcia Zabala y Andrea Zabala Carcamo), en coherencia con el expediente de Medidas Cautelares radicado ante la Comisión Interamericana de Derechos Humanos (CIDH - [CONFIDENCIAL — MEDIDAS CAUTELARES]).
 3. **Comisión Independiente:** Ordenar la creación de una comisión técnica independiente, con peritos informáticos de confianza del Estado, para validar los algoritmos y hallazgos aquí documentados.
 4. **Herramienta Forense de Código Abierto (Alerta Brasil/Lula):** El algoritmo de detección forense que hemos creado para esta investigación es de uso libre y código abierto. En este mismo momento, estamos adaptando su arquitectura para prevenir al Presidente Luiz Inácio Lula da Silva en Brasil, con el fin de proteger sus próximas elecciones de un ataque homólogo. Como usted ha advertido con total razón: debemos conservar lo más importante, que es la vida, nuestros bosques, nuestras aguas y nuestros animales. Estamos bajo un ataque sistemático y el código está listo para la defensa regional.
 5. **Reconversión y Certificación Profesional bajo el Estatuto de Refugiado:**

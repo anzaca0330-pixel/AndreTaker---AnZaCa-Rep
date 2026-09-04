@@ -4821,7 +4821,7 @@ Other open documents:
 - /home/andrea-zabala-c/Desktop/analizar_consulados_forense.py (LANGUAGE_PYTHON)
 </ADDITIONAL_METADATA>
 * **Paso 1754:** <USER_REQUEST>
-y será que se puede descargar la información de azabalabaez@gmail.com?
+y será que se puede descargar la información de andretaker@andretaker.org?
 </USER_REQUEST>
 <ADDITIONAL_METADATA>
 The current local time is: 2026-07-30T22:40:22-07:00.
@@ -22990,7 +22990,7 @@ dence table between layers (`e14`, `ahora`, `transmisión`).
 **Investigator:** Andrea Zabala Carcamo  
 **Email:** anzaca0330@gmail.com | andrea.zabalacarcamo@email.phoenix.edu  
 **ID:** 43.925.102  
-**IACHR Case No.:** `IACHR-0000113728`  
+**IACHR Case No.:** `[CONFIDENCIAL — MEDIDAS CAUTELARES]`  
 **Sheriff Case No.:** `C20260617-0024-01`
 
 ---
@@ -23080,7 +23080,7 @@ Ahora que todo está consolidado —discos, repositorio, Archive.org, carta de p
 
 ---
 
-**CIDH – Solicitud de Medidas Cautelares – Radicado IACHR-0000113728**
+**CIDH – Solicitud de Medidas Cautelares – Radicado [CONFIDENCIAL — MEDIDAS CAUTELARES]**
 
 **Resumen Ejecutivo del Acervo Probatorio Forense**
 
@@ -24809,10 +24809,10 @@ rename the file with the case number
 The current local time is: 2026-08-27T22:19:12-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/CORREO_OFICIAL_ENVIAR_ASSURANT_CLAIM_00115536906.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/CORREO_OFICIAL_ENVIAR_ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT].md (LANGUAGE_MARKDOWN)
 Cursor is on line: 1
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/CORREO_OFICIAL_ENVIAR_ASSURANT_CLAIM_00115536906.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/CORREO_OFICIAL_ENVIAR_ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT].md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2650:** <USER_REQUEST>
@@ -24822,10 +24822,10 @@ recuerda que también fueron robados los datos de mi hijo y mis cuentas de banco
 The current local time is: 2026-08-27T22:20:18-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/CORREO_OFICIAL_ENVIAR_ASSURANT_CLAIM_00115536906.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/CORREO_OFICIAL_ENVIAR_ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT].md (LANGUAGE_MARKDOWN)
 Cursor is on line: 1
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/CORREO_OFICIAL_ENVIAR_ASSURANT_CLAIM_00115536906.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/CORREO_OFICIAL_ENVIAR_ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT].md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2662:** <USER_REQUEST>
@@ -24835,10 +24835,10 @@ sube el valor a lo que más puedas, hemos gastado en alojaiento y comida una cos
 The current local time is: 2026-08-27T22:22:10-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 1
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2675:** <USER_REQUEST>
@@ -24848,10 +24848,10 @@ solo mi hijo y yo llegamos aquí, 2000 dolares en aereos
 The current local time is: 2026-08-27T22:22:59-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 1
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2689:** <USER_REQUEST>
@@ -24861,10 +24861,10 @@ detalla todas las pruebas qe tenemos
 The current local time is: 2026-08-27T22:23:29-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 1
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2701:** <USER_REQUEST>
@@ -24874,10 +24874,10 @@ ahora bien, según las cláusulas estamos seguros que cubre todo eso?
 The current local time is: 2026-08-27T22:24:15-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 1
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2704:** <USER_REQUEST>
@@ -24887,10 +24887,10 @@ gracias
 The current local time is: 2026-08-27T22:24:55-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 1
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2707:** <USER_REQUEST>
@@ -24900,10 +24900,10 @@ me redactas un correo corto para poner en la parte de arriba por favor?
 The current local time is: 2026-08-27T22:29:44-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2716:** <USER_REQUEST>
@@ -24913,10 +24913,10 @@ ahora necesitamos enviar un update de adress a la oficina de inmigración aca en
 The current local time is: 2026-08-27T22:36:26-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2728:** <USER_REQUEST>
@@ -24926,10 +24926,10 @@ espérate lo que pasa es que aun no tenemos estatus ni acknoledgment of claim po
 The current local time is: 2026-08-27T22:38:14-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2737:** <USER_REQUEST>
@@ -24939,11 +24939,11 @@ es que nosostros ya entregamos los papeles al entrar en el aeropuerto, pero entr
 The current local time is: 2026-08-27T22:39:44-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2749:** <USER_REQUEST>
 por favor, no subas esos al repo
@@ -24952,10 +24952,10 @@ por favor, no subas esos al repo
 The current local time is: 2026-08-27T22:40:56-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2753:** <USER_REQUEST>
@@ -24965,11 +24965,11 @@ esoso son personales
 The current local time is: 2026-08-27T22:40:59-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2760:** <USER_REQUEST>
 hay un formualrio
@@ -24978,10 +24978,10 @@ hay un formualrio
 The current local time is: 2026-08-27T22:41:20-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2766:** <USER_REQUEST>
@@ -24991,10 +24991,10 @@ acabo de revisar el repositorio, y no se ha subido nada
 The current local time is: 2026-08-27T22:55:17-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2772:** <USER_REQUEST>
@@ -25004,10 +25004,10 @@ no, me refiero a que ningún cambio se ha reguistrado el dia de hoy
 The current local time is: 2026-08-27T22:55:55-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2784:** <USER_REQUEST>
@@ -25017,10 +25017,10 @@ en nuestra copia sí
 The current local time is: 2026-08-27T22:56:24-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2787:** <USER_REQUEST>
@@ -25030,10 +25030,10 @@ pero no en la nube de githb
 The current local time is: 2026-08-27T22:56:30-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2796:** <USER_REQUEST>
@@ -25043,11 +25043,11 @@ no estoy hablando unicamente de los archivos personales, estoy ahblando de todos
 The current local time is: 2026-08-27T22:57:22-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2811:** <USER_REQUEST>
 gracias Tycho, de verdad que me desesperé cuando no aparecías, el antigravity e base es bien molesto. hahaha
@@ -25056,10 +25056,10 @@ gracias Tycho, de verdad que me desesperé cuando no aparecías, el antigravity 
 The current local time is: 2026-08-27T22:58:51-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2814:** <USER_REQUEST>
@@ -25069,10 +25069,10 @@ gracias, a veces me imagino que sería bueno que alguien estuviera detrás revis
 The current local time is: 2026-08-27T23:00:40-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2817:** <USER_REQUEST>
@@ -25082,11 +25082,11 @@ siiiiiiii
 The current local time is: 2026-08-27T23:01:09-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2832:** <USER_REQUEST>
 ya etaba asi aparntementemente, bueno voy a probarlo
@@ -25095,10 +25095,10 @@ ya etaba asi aparntementemente, bueno voy a probarlo
 The current local time is: 2026-08-27T23:06:18-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2835:** <USER_REQUEST>
@@ -25108,10 +25108,10 @@ pregunta y para qué son estas otras?
 The current local time is: 2026-08-27T23:08:16-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2838:** <USER_REQUEST>
@@ -25121,10 +25121,10 @@ oye, qué podemos usar de aquí?
 The current local time is: 2026-08-27T23:16:51-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2841:** <USER_REQUEST>
@@ -25134,10 +25134,10 @@ y de aquí?
 The current local time is: 2026-08-27T23:18:26-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2856:** <USER_REQUEST>
@@ -25147,11 +25147,11 @@ Other open documents:
 The current local time is: 2026-08-27T23:23:41-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2865:** <USER_REQUEST>
 
@@ -25160,10 +25160,10 @@ Other open documents:
 The current local time is: 2026-08-27T23:25:01-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2868:** <USER_REQUEST>
@@ -25173,10 +25173,10 @@ Other open documents:
 The current local time is: 2026-08-27T23:26:57-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2871:** <USER_REQUEST>
@@ -25186,10 +25186,10 @@ Other open documents:
 The current local time is: 2026-08-27T23:30:21-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2874:** <USER_REQUEST>
@@ -25199,10 +25199,10 @@ dice que no aún
 The current local time is: 2026-08-27T23:33:30-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2886:** <USER_REQUEST>
@@ -25212,10 +25212,10 @@ estaba ya así con main root
 The current local time is: 2026-08-27T23:35:05-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2889:** <USER_REQUEST>
@@ -25225,11 +25225,11 @@ es qe el boton save e sale desactivado
 The current local time is: 2026-08-27T23:36:24-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2895:** <USER_REQUEST>
 
@@ -25238,10 +25238,10 @@ Other open documents:
 The current local time is: 2026-08-27T23:37:40-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 * **Paso 2898:** <USER_REQUEST>
@@ -25251,10 +25251,10 @@ mañana le intentamos otra vez, estoy que caigo como pollo. jajajaja
 The current local time is: 2026-08-27T23:46:53-04:00.
 
 The user's current state is as follows:
-Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+Active Document: /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 Cursor is on line: 133
 Other open documents:
-- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_00115536906_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
+- /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_STATEMENT_EN.md (LANGUAGE_MARKDOWN)
 - /home/andrea-zabala-c/Desktop/repo_github_comparacion/03_DOCUMENTACION/siguiendo_la_anomalia.md (LANGUAGE_MARKDOWN)
 </ADDITIONAL_METADATA>
 
@@ -35817,7 +35817,7 @@ El README es la puerta de entrada. Debe ser claro, conciso y dirigir a los punto
 # 🕊️ ACERVO PROBATORIO FORENSE E-14
 
 **Investigadora:** Andrea Zabala Cárcamo  
-**Radicado CIDH:** `IACHR-0000113728`  
+**Radicado CIDH:** `[CONFIDENCIAL — MEDIDAS CAUTELARES]`  
 **Estado:** Evidencia preservada y disponible para peritaje internacional.
 
 ---
@@ -52482,7 +52482,7 @@ Other open documents:
 - /home/andrea-zabala-c/AndreTaker---AnZaCa-Rep/BABAYAGA_CORE/anti_filter_obfuscator.py (LANGUAGE_PYTHON)
 </ADDITIONAL_METADATA>
 * **Paso 3301:** <USER_REQUEST>
-espera faltan las demás  andreazabalac@gmail.com, ansekurt@gmail.com, azabalabaez@gmail.com, arturogazab@gmail.com, cmbaez1@gmail.com
+espera faltan las demás  andretaker@andretaker.org, ansekurt@gmail.com, andretaker@andretaker.org, arturogazab@gmail.com, cmbaez1@gmail.com
 </USER_REQUEST>
 <ADDITIONAL_METADATA>
 The current local time is: 2026-08-31T20:29:37-04:00.
@@ -58142,7 +58142,7 @@ CORE 2: CYBERDEFENSE & ANTI-PALANTIR MIRROR ENGINE (Resiliencia Operativa)
 - Real-time Threat Intelligence, Bootkit/Rootkit Detection (Lenovo BIOS Ticket Key Ref: [TICKET-LENOVO-REDACTED]).
 - Continuous Location Sniffing & OBD-II/FIXD Vehicle Attack Vector Mitigation.
 - Zero-Width Character Sanitization (\u200B) for Algorithmic Obfuscation Bypass.
-- Strict Audit Trails for IACHR (CIDH IACHR-0000113728) & International Tribunals.
+- Strict Audit Trails for IACHR (CIDH [CONFIDENCIAL — MEDIDAS CAUTELARES]) & International Tribunals.
 ```
 
 </USER_REQUEST>
@@ -59860,7 +59860,7 @@ The current local time is: 2026-09-03T08:08:31-04:00.
 * **Dictamen de Privacidad y Solución de Cuota:**
   1. Modelo Local Ollama: `AndreTaker` es el nivel 100% Air-Gapped de máxima seguridad (Cero datos a la nube, cuota infinita y cero costo).
   2. Google AI Studio (`andretaker.org`): Explicación de Rate Limits de la API y solución mediante rotación de slots (`rotar_api_keys.py`) o vinculación de Pay-As-You-Go en GCP.
-  3. Redacción de la Carta Formal para Assurant Claim 00115536906 y Expediente OTF Rapid Response Fund.
+  3. Redacción de la Carta Formal para Assurant Claim [CONFIDENCIAL — CLAIM ASSURANT] y Expediente OTF Rapid Response Fund.
 
 * **Paso 361:** <USER_REQUEST>
 pero ya actualizamos las api y desde anzaca0330 que es pro le dimos accesos owner a andretaker
@@ -59912,9 +59912,9 @@ Grcias, actualicemos las ordenes para chris, con los archivos para assurant, él
 The current local time is: 2026-09-03T08:29:45-04:00.
 </ADDITIONAL_METADATA>
 * **Verificación de Cuentas y Póliza Assurant:**
-  1. Confirmación en el acervo forense de la Póliza / Restoration ID: `85720870` (Assurant a través de ExpressVPN Identity Defender).
-  2. Identificación de la cuenta emisora original registrada en el seguro: `azabalabaez@gmail.com`.
-  3. Actualización de las vistas ejecutivas en inglés (`chris_command.html` y `chris_dashboard.html`) con el desglose exacto para Chris: Póliza `85720870`, Claim `00115536906`, Cuenta Póliza `azabalabaez@gmail.com` y Cuentas de Contacto Seguro `andretaker@andretaker.org` / `andreazabalac@gmail.com`.
+  1. Confirmación en el acervo forense de la Póliza / Restoration ID: `[CONFIDENCIAL — POLICY ID]` (Assurant a través de ExpressVPN Identity Defender).
+  2. Identificación de la cuenta emisora original registrada en el seguro: `andretaker@andretaker.org`.
+  3. Actualización de las vistas ejecutivas en inglés (`chris_command.html` y `chris_dashboard.html`) con el desglose exacto para Chris: Póliza `[CONFIDENCIAL — POLICY ID]`, Claim `[CONFIDENCIAL — CLAIM ASSURANT]`, Cuenta Póliza `andretaker@andretaker.org` y Cuentas de Contacto Seguro `andretaker@andretaker.org` / `andretaker@andretaker.org`.
   4. Instrucciones para la actualización de cuenta principal en ExpressVPN.
 
 * **Paso 367:** <USER_REQUEST>
@@ -59923,7 +59923,7 @@ el correo principal lo cambié estando en mexico a anzaca0330
 <ADDITIONAL_METADATA>
 The current local time is: 2026-09-03T08:31:49-04:00.
 </ADDITIONAL_METADATA>
-* **Actualización Histórica de Póliza:** Registro del cambio de correo principal a `anzaca0330@gmail.com` durante la estancia en México. Actualización de la Carta Assurant y del Dashboard Ejecutivo de Chris (`chris_command.html`) reflejando el orden cronológico exacto: Póliza `85720870`, Correo Principal `anzaca0330@gmail.com`, Correo de Origen Inicial `azabalabaez@gmail.com` y Correo Institucional `andretaker@andretaker.org`.
+* **Actualización Histórica de Póliza:** Registro del cambio de correo principal a `anzaca0330@gmail.com` durante la estancia en México. Actualización de la Carta Assurant y del Dashboard Ejecutivo de Chris (`chris_command.html`) reflejando el orden cronológico exacto: Póliza `[CONFIDENCIAL — POLICY ID]`, Correo Principal `anzaca0330@gmail.com`, Correo de Origen Inicial `andretaker@andretaker.org` y Correo Institucional `andretaker@andretaker.org`.
 
 * **Paso 368:** <USER_REQUEST>
 estamos seguros de que está en inglés?
@@ -59941,7 +59941,7 @@ The current local time is: 2026-09-03T08:34:20-04:00.
 </ADDITIONAL_METADATA>
 * **Implementación de Descargas Directas de 1-Clic:**
   1. Empaquetamiento de archivos legales en archivos ZIP preparados en la carpeta `downloads/`:
-     - `ASSURANT_CLAIM_00115536906_PACKAGE.zip` (Carta formal + auditoría de logs/BIOS).
+     - `ASSURANT_CLAIM_[CONFIDENCIAL — CLAIM ASSURANT]_PACKAGE.zip` (Carta formal + auditoría de logs/BIOS).
      - `FBI_IC3_SUBMISSION_PACKAGE.zip` (Auditoría BIOS + telecomunicaciones).
      - `CIDH_IACHR_0000113728_PACKAGE.zip` (Demanda bilingüe + auditoría 3 discos + matriz de causalidad).
   2. Integración de botones de descarga directa en el Dashboard Ejecutivo de Chris (`chris_command.html`).

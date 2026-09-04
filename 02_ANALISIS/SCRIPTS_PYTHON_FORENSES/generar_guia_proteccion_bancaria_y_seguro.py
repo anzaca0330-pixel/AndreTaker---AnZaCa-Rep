@@ -59,7 +59,7 @@ Por Ley Federal en EE.UU., tienes el derecho a **congelar tu crédito de forma 1
 2. **Solicitar Bloqueo de Cheques y Transferencias Wire/ACH:**  
    Pide la desactivación temporal de transferencias electrónicas no verificadas por teléfono.
 3. **Anexar los Informes Oficiales:**  
-   Entrega a tu banco copia del reporte del **Sheriff (`Incident C20260617-0024-01`)** y el número de caso de la **CIDH (`IACHR-0000113728`)** para justificar el blindaje bancario.
+   Entrega a tu banco copia del reporte del **Sheriff (`Incident C20260617-0024-01`)** y el número de caso de la **CIDH (`[CONFIDENCIAL — MEDIDAS CAUTELARES]`)** para justificar el blindaje bancario.
 
 ---
 

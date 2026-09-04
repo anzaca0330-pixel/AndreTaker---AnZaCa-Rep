@@ -6,7 +6,7 @@
 - `github.com/anzaca0330-pixel/AndreTaker---BaBaYaga-Core_-ForensicTool`
 - `github.com/anzaca0330-pixel/AndreTaker-BabaYaga-Core-CyberDefense`
 **Zenodo DOI:** `10.5281/zenodo.21922375`  
-**IACHR Radicada:** `IACHR-0000113728`  
+**IACHR Radicada:** `[CONFIDENCIAL — MEDIDAS CAUTELARES]`  
 
 ---
 

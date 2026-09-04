@@ -9,7 +9,7 @@ Présidence de la République
 
 **De la part de :**
 Andrea Zabala Carcamo (C.C. 43.925.102) et Arturo Garcia Zabala (Fils Mineur)
-Analyste Principale et Bénéficiaires de Mesures Conservatoires en Cours (CIDH - IACHR-0000113728)
+Analyste Principale et Bénéficiaires de Mesures Conservatoires en Cours (CIDH - [CONFIDENCIAL — MEDIDAS CAUTELARES])
 Demandeurs d'Asile auprès d'Immigration, Réfugiés et Citoyenneté Canada (IRCC - IUC Principal : 1158-0327-50 | IUC Mineur : 1158-0331-82 | Dossier ASFC : L010534096)
 
 **Objet :** Demande Urgente de Réception du Dossier Probatoire Médico-Légal Électoral (136 Go) et Activation des Mécanismes de Protection Diplomatique.
@@ -47,7 +47,7 @@ Simultanément, l'initiative citoyenne internationale "Témoins Numériques" (Te
 Étant donné le niveau de risque imminent pour mon intégrité et celle de ma famille, et la nature critique de ces preuves pour la stabilité démocratique, je vous demande, en votre qualité d'ancien mandataire et de leader politique :
 
 1. **Ouverture de Canaux Sécurisés :** Activer un canal diplomatique confidentiel et sécurisé pour la remise physique ou le transfert crypté du disque dur contenant l'intégralité des preuves (Hachages SHA-256, télémétrie réseau, journaux d'interception et audits des procès-verbaux).
-2. **Protection Consulaire :** Activer immédiatement la protection diplomatique pour ma cellule familiale (Christopher Baez, Arturo Garcia Zabala et Andrea Zabala Carcamo), en cohérence avec le dossier de Mesures Conservatoires déposé auprès de la Commission Interaméricaine des Droits de l'Homme (CIDH - IACHR-0000113728).
+2. **Protection Consulaire :** Activer immédiatement la protection diplomatique pour ma cellule familiale (Christopher Baez, Arturo Garcia Zabala et Andrea Zabala Carcamo), en cohérence avec le dossier de Mesures Conservatoires déposé auprès de la Commission Interaméricaine des Droits de l'Homme (CIDH - [CONFIDENCIAL — MEDIDAS CAUTELARES]).
 3. **Commission Indépendante :** Ordonner la création d'une commission technique indépendante, composée d'experts informatiques légaux de confiance de l'État, pour valider les algorithmes et les découvertes documentés ici.
 4. **Outil Médico-Légal Open Source (Alerte Brésil/Lula) :** L'algorithme de détection médico-légale que nous avons créé pour cette enquête est gratuit et open source. En ce moment même, nous adaptons son architecture pour prévenir le Président Luiz Inácio Lula da Silva au Brésil, afin de protéger leurs prochaines élections contre une attaque homologue. Comme vous l'avez averti à juste titre : nous devons préserver ce qui est le plus important, à savoir la vie, nos forêts, nos eaux et nos animaux. Nous sommes sous une attaque systématique et le code est prêt pour la défense régionale.
 5. **Reconversion et Certification Professionnelle sous le Statut de Réfugié :**

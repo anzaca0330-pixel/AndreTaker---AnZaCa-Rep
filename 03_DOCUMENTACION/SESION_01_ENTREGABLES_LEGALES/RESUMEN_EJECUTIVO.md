@@ -4,7 +4,7 @@
 **Autoría Forense Total:** AndreTaker AnZaCa (Primera Línea Digital)  
 **Investigación Complementaria:** Leonilda Viera (FITE)  
 **Organizaciones:** Testigos Digitales (TestigosDigitales)
-**Radicado Referencia:** `IACHR-0000113728`  
+**Radicado Referencia:** `[CONFIDENCIAL — MEDIDAS CAUTELARES]`  
 
 ---
 

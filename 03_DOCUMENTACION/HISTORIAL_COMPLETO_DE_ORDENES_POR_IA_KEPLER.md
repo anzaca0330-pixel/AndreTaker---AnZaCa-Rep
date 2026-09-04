@@ -235,7 +235,7 @@
 | `1720` | la chromebook |
 | `1724` | la cuenta de mi hijo arturo |
 | `1730` | no, la noche del 13 de junio cuando fué el ataque y cuando descubrí los tags. la llamada al 911 fué a las 11:01 según los registros de TMobile |
-| `1754` | y será que se puede descargar la información de azabalabaez@gmail.com? |
+| `1754` | y será que se puede descargar la información de andretaker@andretaker.org? |
 | `1757` | no est[an esos registros all[i? |
 | `1766` | puedespasarlo a ver si hay m[as registros de takeout en todo el disco? |
 | `1781` | es que me da miedo acceder, la verdad |

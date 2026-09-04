@@ -18,7 +18,7 @@
 1. 📄 **[PRESENTACION_EJECUTIVA_PERITAJE_GRUPO.md](../../PRESENTACION_EJECUTIVA_PERITAJE_GRUPO.md)**  
    *Paquete de 4 diapositivas ejecutivas para exposición de hallazgos.*
 2. 📄 **[LINEA_DE_TIEMPO_INCIDENTES_Y_ATAQUES.md](../../LINEA_DE_TIEMPO_INCIDENTES_Y_ATAQUES.md)**  
-   *Cronología oficial con radicado CIDH `IACHR-0000113728`, Sheriff `C20260617-0024-01`, 911, T-Mobile, Lenovo BIOS Key y Google Takeout.*
+   *Cronología oficial con radicado CIDH `[CONFIDENCIAL — MEDIDAS CAUTELARES]`, Sheriff `C20260617-0024-01`, 911, T-Mobile, Lenovo BIOS Key y Google Takeout.*
 3. 📄 **[linea_de_tiempo_investigacion_forense.md](../../linea_de_tiempo_investigacion_forense.md)**  
    *Evolución técnica de la investigación de la 1ª a la 7ª fase.*
 4. 📄 **[FLUJO_INVESTIGACION_Y_EVOLUCION_FORENSE.md](../../FLUJO_INVESTIGACION_Y_EVOLUCION_FORENSE.md)**  
@@ -54,7 +54,7 @@
 
 ### 📂 BLOQUE C: MATRICES COMPLETAS POR PAÍS Y REPOSITORIO DE CÓDIGO
 11. 🏛️ **[RESUMEN_EJECUTIVO_CIDH.md](../Capitulo_02_Resumenes_Ejecutivos/RESUMEN_EJECUTIVO_CIDH.md)**  
-   *Resumen ejecutivo oficial bilingüe de 3 páginas para los Comisionados de la CIDH (Radicado `IACHR-0000113728`).*
+   *Resumen ejecutivo oficial bilingüe de 3 páginas para los Comisionados de la CIDH (Radicado `[CONFIDENCIAL — MEDIDAS CAUTELARES]`).*
 2. 📄 **[resumen_ejecutivo_global.md](../Capitulo_02_Resumenes_Ejecutivos/resumen_ejecutivo_global.md)**  
    *Síntesis global de los hallazgos técnicos y periciales.*
 11. 🌍 **[REPORTES_POR_PAIS (24 Países)](../../Capitulo_03_Peritajes_Forenses/REPORTES_POR_PAIS)**  
