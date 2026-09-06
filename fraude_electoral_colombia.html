@@ -377,6 +377,41 @@
 
   <main class="container">
 
+    <!-- Guía Didáctica Internacional: ¿Qué son las Actas E-14? -->
+    <div class="card" style="border-left: 4px solid var(--accent-cyan); background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(30, 41, 59, 0.8)); margin-bottom: 2rem;">
+      <h2 style="font-size: 1.25rem; color: #ffffff; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+        <span>📖</span> <span data-i18n="e14_guide_title">¿Qué es un Acta E-14? — Guía Rápida para Observadores Internacionales</span>
+      </h2>
+      <p style="font-size: 0.95rem; color: #e2e8f0; margin-bottom: 1rem;" data-i18n="e14_guide_intro">
+        En el sistema electoral colombiano, el <strong>Formulario E-14</strong> (o <em>Acta de Escrutinio de los Jurados de Votación</em>) es el documento físico primordial que certifica los votos contados a mano por 6 jurados ciudadanos en cada una de las mesas de votación del país al cierre de las urnas.
+      </p>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin-top: 1rem;">
+        <div style="background: rgba(11, 19, 41, 0.8); border: 1px solid rgba(255, 255, 255, 0.08); padding: 1rem; border-radius: 8px;">
+          <h4 style="color: var(--accent-cyan); font-size: 0.9rem; margin-bottom: 0.5rem;" data-i18n="e14_copy1_title">1. Copia de Transmisión (Preconteo)</h4>
+          <p style="font-size: 0.83rem; color: var(--text-muted);" data-i18n="e14_copy1_desc">
+            Se digitaliza o transmite de inmediato el día de la elección para alimentar el boletín informativo preliminar y no vinculante que ve la ciudadanía en televisión.
+          </p>
+        </div>
+        <div style="background: rgba(11, 19, 41, 0.8); border: 1px solid rgba(255, 255, 255, 0.08); padding: 1rem; border-radius: 8px;">
+          <h4 style="color: var(--accent-amber); font-size: 0.9rem; margin-bottom: 0.5rem;" data-i18n="e14_copy2_title">2. Copia de Delegados (Publicación Web)</h4>
+          <p style="font-size: 0.83rem; color: var(--text-muted);" data-i18n="e14_copy2_desc">
+            Es la versión escaneada y publicada en el portal web oficial de la Registraduría para consulta pública y auditoría ciudadana.
+          </p>
+        </div>
+        <div style="background: rgba(11, 19, 41, 0.8); border: 1px solid rgba(255, 255, 255, 0.08); padding: 1rem; border-radius: 8px;">
+          <h4 style="color: var(--accent-green); font-size: 0.9rem; margin-bottom: 0.5rem;" data-i18n="e14_copy3_title">3. Copia de Claveros (Escrutinio Legal)</h4>
+          <p style="font-size: 0.83rem; color: var(--text-muted);" data-i18n="e14_copy3_desc">
+            Se introduce en sobres de seguridad sellados y se entrega en custodia a los jueces y comisiones escrutadoras oficiales para el escrutinio legal vinculante.
+          </p>
+        </div>
+      </div>
+
+      <div style="margin-top: 1.25rem; padding: 0.85rem 1rem; background: rgba(239, 68, 68, 0.1); border: 1px solid rgba(239, 68, 68, 0.3); border-radius: 8px; font-size: 0.85rem; color: #fca5a5;">
+        <strong data-i18n="e14_rule_title">🚨 La Regla Forense Inviolable:</strong> <span data-i18n="e14_rule_desc">Un escáner óptico que digitaliza una hoja de papel físico jamás puede generar capas vectoriales internas, máscaras DeviceGray monocromáticas de 1-bit ni tablas XREF con 15 objetos declarados y 13 reales. La presencia de estos elementos prueba que los PDFs fueron construidos por un algoritmo digital y no por un escaneo óptico genuino.</span>
+      </div>
+    </div>
+
     <!-- Aclaración Doctrinal y Legal -->
     <section>
       <div class="alert-box">
@@ -663,6 +698,16 @@ Demostración técnica del #BlindM&#x200B;asking (inyección de capas 1bpc #FFFF
         author_label: "Investigadora Principal & Descubridora Científica:",
         patent_label: "Patente Metodológica & Secreto Comercial:",
         jurisdiction_label: "Jurisdicción Principal:",
+        e14_guide_title: "¿Qué es un Acta E-14? — Guía Rápida para Observadores Internacionales",
+        e14_guide_intro: "En el sistema electoral colombiano, el <strong>Formulario E-14</strong> (o <em>Acta de Escrutinio de los Jurados de Votación</em>) es el documento físico primordial que certifica los votos contados a mano por 6 jurados ciudadanos en cada una de las mesas de votación del país al cierre de las urnas.",
+        e14_copy1_title: "1. Copia de Transmisión (Preconteo)",
+        e14_copy1_desc: "Se digitaliza o transmite de inmediato el día de la elección para alimentar el boletín informativo preliminar y no vinculante que ve la ciudadanía en televisión.",
+        e14_copy2_title: "2. Copia de Delegados (Publicación Web)",
+        e14_copy2_desc: "Es la versión escaneada y publicada en el portal web oficial de la Registraduría para consulta pública y auditoría ciudadana.",
+        e14_copy3_title: "3. Copia de Claveros (Escrutinio Legal)",
+        e14_copy3_desc: "Se introduce en sobres de seguridad sellados y se entrega en custodia a los jueces y comisiones escrutadoras oficiales para el escrutinio legal vinculante.",
+        e14_rule_title: "🚨 La Regla Forense Inviolable:",
+        e14_rule_desc: "Un escáner óptico que digitaliza una hoja de papel físico jamás puede generar capas vectoriales internas, máscaras DeviceGray monocromáticas de 1-bit ni tablas XREF con 15 objetos declarados y 13 reales. La presencia de estos elementos prueba que los PDFs fueron construidos por un algoritmo digital y no por un escaneo óptico genuino.",
         alert_title: "🚨 Corrección Pericial y Rigor Técnico: Qué es y Qué NO es el Fraude",
         alert_text: "Queda categóricamente aclarado ante la opinión pública, medios de comunicación y autoridades judiciales que la denuncia <strong>JAMÁS</strong> se refirió a un simple error visual de 'páginas blancas en la web de la Registraduría'. El descubrimiento científico realizado por <strong>Andrea Zabala Cárcamo</strong> entre el 1 y el 8 de junio de 2026 demostró una <strong>intervención binaria activa y progresiva sobre los streams internos de los archivos PDF oficiales</strong>:",
         card1_title: "🔬 1. Técnica #BLINDMASKING",
@@ -748,6 +793,16 @@ Demostración técnica del #BlindM&#x200B;asking (inyección de capas 1bpc #FFFF
         author_label: "Lead Forensic Investigator & Scientific Discoverer:",
         patent_label: "Methodological Patent & Trade Secret:",
         jurisdiction_label: "Primary Legal Jurisdiction:",
+        e14_guide_title: "What is an E-14 Form? — Quick International Guide",
+        e14_guide_intro: "In the Colombian electoral system, the <strong>Formulario E-14</strong> (or <em>Tally Sheet of Citizen Jurors</em>) is the primary physical legal certificate of votes counted by hand by 6 citizen jurors at each of the country's polling tables right when polls close.",
+        e14_copy1_title: "1. Transmission Copy (Preliminary Count)",
+        e14_copy1_desc: "Scanned or phone-transmitted immediately on election night to supply the fast, non-binding informational bulletin broadcasted on television.",
+        e14_copy2_title: "2. Delegados Copy (Public Web Portal)",
+        e14_copy2_desc: "The digital copy uploaded to the official National Registry portal for public inspection and citizen audits.",
+        e14_copy3_title: "3. Claveros Copy (Binding Judicial Scrutiny)",
+        e14_copy3_desc: "Sealed in tamper-evident security envelopes and delivered to judges and municipal counting commissions for certified legal scrutiny.",
+        e14_rule_title: "🚨 The Inviolable Forensic Rule:",
+        e14_rule_desc: "An optical scanner digitalizing a physical sheet of paper can NEVER generate internal PDF vector layers, 1-bit monochromatic DeviceGray masks, or XREF tables with 15 declared vs 13 real objects. These digital artifacts prove the PDFs were assembled by a software algorithm rather than an authentic optical scan.",
         alert_title: "🚨 Forensic Precision: What the Evidence Shows vs. Misconceptions",
         alert_text: "It is categorically clarified to the public, media, and judicial authorities that the complaint <strong>NEVER</strong> referred to a mere visual glitch of 'blank pages on the website'. The scientific discovery made by <strong>Andrea Zabala Cárcamo</strong> demonstrated an <strong>active binary tampering within internal streams of official PDF files</strong>:",
         card1_title: "🔬 1. #BLINDMASKING Technique",
@@ -850,6 +905,16 @@ Demostración técnica del #BlindM&#x200B;asking (inyección de capas 1bpc #FFFF
         author_label: "Chercheuse Principale & Auteure Scientifique :",
         patent_label: "Brevet Méthodologique & Secret Commercial :",
         jurisdiction_label: "Juridiction Principale :",
+        e14_guide_title: "Qu'est-ce qu'un Formulaire E-14 ? — Guide International",
+        e14_guide_intro: "Dans le système électoral colombien, le <strong>Formulaire E-14</strong> (ou <em>Procès-verbal de Dépouillement des Jurés</em>) est le document physique juridique primordial qui certifie les votes comptés à la main par 6 jurés citoyens dans chacun des bureaux de vote du pays.",
+        e14_copy1_title: "1. Copie de Transmission (Pré-comptage)",
+        e14_copy1_desc: "Scannée ou transmise par téléphone immédiatement le soir du scrutin pour alimenter le bulletin d'information préliminaire non contraignant diffusé à la télévision.",
+        e14_copy2_title: "2. Copie Delegados (Publication Web)",
+        e14_copy2_desc: "La version numérique mise en ligne sur le portail officiel de la Registraduría pour inspection publique et audit citoyen.",
+        e14_copy3_title: "3. Copie Claveros (Scrutin Judiciaire Contraignant)",
+        e14_copy3_desc: "Scellée dans des enveloppes de sécurité et remise aux juges et commissions de dépouillement officielles pour le décompte juridique contraignant.",
+        e14_rule_title: "🚨 La Règle Forensique Inviolable :",
+        e14_rule_desc: "Un scanner optique qui numérise une feuille de papier physique ne peut JAMAIS générer de couches vectorielles internes, de masques DeviceGray monochromes 1-bit, ni de tables XREF avec 15 objets déclarés pour seulement 13 réels. Ces traces numériques prouvent que les PDF ont été assemblés par un algorithme logiciel et non par un scanner optique authentique.",
         alert_title: "🚨 Rigueur Technique et Précision Légale : Ce que démontrent les preuves",
         alert_text: "Il est formellement précisé aux médias et tribunaux que la plainte ne portait <strong>JAMAIS</strong> sur une simple erreur de 'pages blanches'. La découverte scientifique réalisée par <strong>Andrea Zabala Cárcamo</strong> a démontré une <strong>altération binaire active au sein des flux internes des fichiers PDF officiels</strong> :",
         card1_title: "🔬 1. Technique #BLINDMASKING",
