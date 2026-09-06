@@ -327,7 +327,17 @@
 
   <!-- Top Navigation Bar -->
   <div class="top-nav">
-    <a href="index.html" data-i18n="nav_back_suite">← Volver a la Suite Forense Principal (BaBaYaga Core)</a>
+    <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
+      <a href="fraude_electoral_colombia.html" style="background: linear-gradient(135deg, #2563eb, #1d4ed8); color: #ffffff; padding: 5px 12px; border-radius: 6px; font-weight: 700; text-decoration: none;">
+        <span>🏛️</span> <span data-i18n="nav_part1">Parte 1 — Denuncias y 1ra Vuelta</span>
+      </a>
+      <a href="fraude_electoral_colombia_parte2.html" style="background: rgba(30, 41, 59, 0.8); color: #94a3b8; padding: 5px 12px; border-radius: 6px; font-weight: 700; text-decoration: none; border: 1px solid rgba(255,255,255,0.1);">
+        <span>📊</span> <span data-i18n="nav_part2">Parte 2 — 2da Vuelta & 122k Mesas</span>
+      </a>
+      <a href="index.html" style="background: rgba(30, 41, 59, 0.8); color: #94a3b8; padding: 5px 12px; border-radius: 6px; font-weight: 700; text-decoration: none; border: 1px solid rgba(255,255,255,0.1);">
+        <span>🛡️</span> <span data-i18n="nav_back_suite">Suite BaBaYaga Core</span>
+      </a>
+    </div>
     <div style="display: flex; align-items: center; gap: 12px;">
       <span style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-amber);" data-i18n="top_jurisdiction">🇨🇴 EXPEDIENTE OFICIAL COLOMBIA 2026</span>
       <div class="lang-switcher">
@@ -640,7 +650,9 @@ Demostración técnica del #BlindM&#x200B;asking (inyección de capas 1bpc #FFFF
   <script>
     const translations = {
       es: {
-        nav_back_suite: "← Volver a la Suite Forense Principal (BaBaYaga Core)",
+        nav_part1: "Parte 1 — Denuncias y 1ra Vuelta",
+        nav_part2: "Parte 2 — 2da Vuelta & 122k Mesas",
+        nav_back_suite: "Suite BaBaYaga Core",
         top_jurisdiction: "🇨🇴 EXPEDIENTE OFICIAL COLOMBIA 2026",
         badge_part1: "PARTE 1: FASE INICIAL & RADICACIÓN DE HALLAZGOS",
         badge_vault: ">677 GB Preservados SHA-256",
@@ -788,18 +800,33 @@ Demostración técnica del #BlindM&#x200B;asking (inyección de capas 1bpc #FFFF
         status_transferred_uriel: "TRANSFERRED — Certified to Fiscalía and National Registry",
         row5_ent: "RTVC Public Media System",
         status_transferred_rtvc: "Transferred on June 17, 2026",
-        row6_ent: "Inter-American Commission (IACHR / OAS)",
-        status_cidh: "Precautionary Measures for Cyber Harassment & Persecution",
-        row7_ent: "Sheriff's Office Buckingham County",
-        status_sheriff: "Formal report of physical harassment and cyber attacks",
-        shadowban_title: "🛡️ Anti-Shadowban & Algorithmic Censorship Immune Broadcast",
-        shadowban_desc: "When sharing this case file on social platforms (X/Twitter, Facebook, Instagram, Signal, or WhatsApp), use this pre-sanitized text with Zero-Width character injection (\\u200B) to bypass static keyword scraping while preserving perfect human readability:",
-        btn_copy_post: "📋 Copy Immune Post to Clipboard",
-        copy_success: "✅ Copied with Zero-Width protection!",
-        biblio_title: "📚 Forensic Bibliography & International Standards",
-        biblio_subtitle: "Technical standards, chain of custody protocols, and scientific literature supporting the forensic methodology and validity of the evidence:",
-        bib1_title: "📖 1. ISO/IEC 27037:2012",
-        bib1_desc: "Guidelines for identification, collection, acquisition, and preservation of digital evidence. The governing international standard under which the >677 GB vault was sealed with immutable cryptographic hashes.",
+        th_type: "Type / Classification",
+        th_action: "Action",
+        btn_view: "View / Download",
+        btn_preview: "Preview Document",
+        btn_full_archive: "Open Complete Historical Archive on Archive.org (RFC 3227)",
+        card1_title: "1. The XREF Vectorial Scar",
+        card1_desc: "100% of analyzed E-14 actas declare 15 internal objects in their cross-reference table, but contain only 13. Algorithmic creation footprint.",
+        card2_title: "2. Blind Masking (1bpc)",
+        card2_desc: "Monochromatic 1-bit DeviceGray masks layered over original forms to overwrite voter tallies. Optically impossible on paper scanners.",
+        card3_title: "3. Preconteo vs Escrutinio Delta",
+        card3_desc: "Anomalous inversion of margins in rural tables and post-transmission modifications directly on Registraduría servers.",
+        card4_title: "4. Benford's Law Invalidation",
+        card4_desc: "Second-digit distribution test (2BL) yields p < 0.0001, proving centralized deterministic formula injection without human entropy.",
+        time1_date: "June 01, 2026",
+        time1_desc: "Discovery of anomalous /FlateDecode streams and XREF object corruption in 2026 E-14 actas.",
+        time2_date: "June 05, 2026",
+        time2_desc: "Filing of preliminary criminal complaint before Attorney General's Office (FGN) and National Electoral Council (CNE).",
+        time3_date: "June 09, 2026",
+        time3_desc: "Official transfer of case file to Specialized Cybercrime Prosecutors (Rad. 202605510107022).",
+        time4_date: "June 10, 2026",
+        time4_desc: "Filing of comprehensive 19-page complaint expansion with 8 forensic annexes before CNE and Ministry of Interior (URIEL).",
+        time5_date: "June 29, 2026",
+        time5_desc: "Emergency submission of precautionary measures petition before Inter-American Commission on Human Rights (IACHR).",
+        bib_title: "Forensic Bibliography, Methodological Framework & Chain of Custody",
+        bib_intro: "This expert investigation adheres to international computer forensics and mathematical evidence preservation protocols:",
+        bib1_title: "📖 1. ISO/IEC 27037:2012 & RFC 3227",
+        bib1_desc: "Guidelines for identification, collection, acquisition, and preservation of digital evidence. Implemented via strict Read-Only bit-by-bit cloning and SHA-256 cryptographic hashes.",
         bib2_title: "📖 2. ISO 32000-1:2008 (PDF Spec)",
         bib2_desc: "Document management — Portable document format. Technical specification defining internal /FlateDecode compressed streams, cross-reference tables (XREF), and 1bpc monochromatic mask rendering.",
         bib3_title: "📖 3. NIST SP 800-86 & RFC 3161",
@@ -810,7 +837,9 @@ Demostración técnica del #BlindM&#x200B;asking (inyección de capas 1bpc #FFFF
         footer_legal: "Preserved under ISO 27037 digital forensics standards and SHA-256 cryptographic seals. Unauthorized appropriation of scientific authorship prohibited."
       },
       fr: {
-        nav_back_suite: "← Retour à la Suite Forensique Principale (BaBaYaga Core)",
+        nav_part1: "Partie 1 — Plaintes & 1er Tour",
+        nav_part2: "Partie 2 — 2nd Tour & 122k Bureaux",
+        nav_back_suite: "Suite BaBaYaga Core",
         top_jurisdiction: "🇨🇴 DOSSIER OFFICIEL COLOMBIE 2026",
         badge_part1: "PARTIE 1 : PHASE INITIALE & DÉPÔT DES PREUVES",
         badge_vault: ">677 Go Préservés sous SHA-256",

@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parte 2 — Segunda Vuelta Electoral: Dictamen Pericial y Metrología de 122.017 Mesas | Andrea Zabala Cárcamo</title>
+  <meta name="description" content="Auditoría forense integral y análisis estadístico de la Segunda Vuelta Presidencial de Colombia (21 de junio de 2026). 122.017 mesas analizadas, Blind Masking, Doble QR, XREF alterado y Ley de Benford por Andrea Zabala Cárcamo.">
+  <meta name="author" content="Andrea Zabala Cárcamo (AnZaCa / AndreTaker)">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-base: #030712;
+      --bg-card: #0b1329;
+      --bg-card-alt: #111e38;
+      --border-card: rgba(56, 189, 248, 0.25);
+      --border-gold: rgba(245, 158, 11, 0.45);
+      --border-purple: rgba(168, 85, 247, 0.45);
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --accent-cyan: #38bdf8;
+      --accent-blue: #2563eb;
+      --accent-purple: #a855f7;
+      --accent-amber: #f59e0b;
+      --accent-red: #ef4444;
+      --accent-green: #10b981;
+      --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+      --font-title: 'Cinzel', serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg-base);
+      color: var(--text-main);
+      font-family: var(--font-main);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Top Bar Navigation */
+    .top-nav {
+      background: #020617;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 0.75rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .top-nav a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .top-nav a:hover { text-decoration: underline; }
+
+    .nav-tabs {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+    }
+    .nav-tab-btn {
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-decoration: none !important;
+      transition: all 0.2s;
+    }
+    .nav-tab-btn.active {
+      background: linear-gradient(135deg, #7c3aed, #2563eb);
+      color: #ffffff !important;
+      box-shadow: 0 0 10px rgba(124, 58, 237, 0.5);
+    }
+    .nav-tab-btn.inactive {
+      background: rgba(30, 41, 59, 0.8);
+      color: #94a3b8 !important;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .nav-tab-btn.inactive:hover {
+      background: rgba(51, 65, 85, 0.9);
+      color: #ffffff !important;
+    }
+
+    .lang-switcher {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: rgba(15, 23, 42, 0.9);
+      padding: 4px 8px;
+      border-radius: 20px;
+      border: 1px solid var(--accent-purple);
+    }
+    .lang-btn {
+      background: transparent;
+      color: var(--text-muted);
+      border: none;
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-weight: 800;
+      cursor: pointer;
+      font-size: 0.75rem;
+      transition: all 0.2s;
+    }
+    .lang-btn.active {
+      background: var(--accent-purple);
+      color: #ffffff;
+    }
+
+    header {
+      background: radial-gradient(circle at 50% 20%, #2e1065 0%, #030712 75%);
+      border-bottom: 1px solid var(--border-purple);
+      padding: 3.5rem 1.5rem 2.5rem;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1150px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    .flag-bar {
+      display: inline-flex;
+      height: 6px;
+      width: 140px;
+      border-radius: 3px;
+      overflow: hidden;
+      margin-bottom: 1rem;
+      box-shadow: 0 0 12px rgba(168, 85, 247, 0.6);
+    }
+    .flag-yellow { background: #facc15; flex: 2; }
+    .flag-blue { background: #1d4ed8; flex: 1; }
+    .flag-red { background: #dc2626; flex: 1; }
+
+    .badge-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+    .badge {
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.35rem 0.85rem;
+      border-radius: 9999px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .badge-purple { background: rgba(168, 85, 247, 0.2); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.4); }
+    .badge-cyan { background: rgba(56, 189, 248, 0.15); color: var(--accent-cyan); border: 1px solid var(--border-card); }
+    .badge-gold { background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); border: 1px solid var(--border-gold); }
+    .badge-red { background: rgba(239, 68, 68, 0.15); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.3); }
+
+    h1 {
+      font-family: var(--font-title);
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      margin-bottom: 1rem;
+      line-height: 1.25;
+      background: linear-gradient(135deg, #ffffff 30%, #c084fc 70%, #38bdf8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      max-width: 860px;
+      margin: 0 auto 1.5rem;
+      font-weight: 400;
+    }
+
+    .author-card {
+      display: inline-flex;
+      align-items: center;
+      gap: 1rem;
+      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 0.75rem 1.25rem;
+      border-radius: 12px;
+      font-size: 0.9rem;
+    }
+    .author-card strong { color: #ffffff; }
+
+    /* Main Grid & Sections */
+    main {
+      padding: 3rem 0;
+    }
+
+    .section-title {
+      font-size: 1.4rem;
+      font-weight: 800;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      border-left: 4px solid var(--accent-purple);
+      padding-left: 0.75rem;
+      color: #ffffff;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-card);
+      border-radius: 12px;
+      padding: 1.75rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+    }
+    .card-purple-glow {
+      border-color: rgba(168, 85, 247, 0.4);
+      box-shadow: 0 0 25px rgba(168, 85, 247, 0.15);
+    }
+
+    /* Stats Grid */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .stat-box {
+      background: var(--bg-card-alt);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 1.25rem;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .stat-num {
+      font-family: var(--font-mono);
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--accent-cyan);
+      margin-bottom: 0.25rem;
+    }
+    .stat-num-purple { color: #c084fc; }
+    .stat-num-gold { color: var(--accent-amber); }
+    .stat-label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+    }
+
+    /* Comparison Table */
+    .data-table-wrapper {
+      overflow-x: auto;
+      margin: 1.25rem 0;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+    th {
+      background: #0f172a;
+      padding: 0.85rem 1rem;
+      font-weight: 700;
+      color: #93c5fd;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    td {
+      padding: 0.85rem 1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      color: #e2e8f0;
+    }
+    tr:nth-child(even) td {
+      background: rgba(15, 23, 42, 0.4);
+    }
+    .table-mono { font-family: var(--font-mono); }
+    .text-right { text-align: right; }
+    .text-center { text-align: center; }
+
+    /* Findings Grid */
+    .findings-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+    .finding-card {
+      background: var(--bg-card-alt);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 8px;
+      padding: 1.25rem;
+      position: relative;
+    }
+    .finding-num {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      font-weight: 800;
+      background: rgba(168, 85, 247, 0.2);
+      color: #c084fc;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+    .finding-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 0.5rem;
+      padding-right: 2.5rem;
+    }
+    .finding-body {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+    .finding-tech {
+      margin-top: 0.75rem;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--accent-cyan);
+      background: rgba(0, 0, 0, 0.3);
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+
+    /* Downloads List */
+    .download-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .download-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--bg-card-alt);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 1rem 1.25rem;
+      border-radius: 8px;
+      transition: all 0.2s;
+    }
+    .download-item:hover {
+      border-color: var(--accent-purple);
+      transform: translateX(4px);
+    }
+    .download-info h4 {
+      font-size: 0.95rem;
+      color: #ffffff;
+      margin-bottom: 0.25rem;
+    }
+    .download-info p {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+    .btn-download {
+      background: linear-gradient(135deg, #7c3aed, #2563eb);
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      white-space: nowrap;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: opacity 0.2s;
+    }
+    .btn-download:hover { opacity: 0.9; }
+
+    /* Code Box */
+    .code-box {
+      background: #020617;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 6px;
+      padding: 1rem;
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      color: #93c5fd;
+      overflow-x: auto;
+      margin: 1rem 0;
+    }
+
+    /* Footer */
+    footer {
+      background: #020617;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    footer a { color: var(--accent-cyan); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <!-- Top Bar Navigation -->
+  <nav class="top-nav">
+    <div class="nav-tabs">
+      <a href="fraude_electoral_colombia.html" class="nav-tab-btn inactive">
+        <span>🏛️</span> <span data-i18n="nav_part1">Parte 1 — Denuncias y Primera Vuelta</span>
+      </a>
+      <a href="fraude_electoral_colombia_parte2.html" class="nav-tab-btn active">
+        <span>📊</span> <span data-i18n="nav_part2">Parte 2 — Segunda Vuelta & Metrología</span>
+      </a>
+      <a href="index.html" class="nav-tab-btn inactive">
+        <span>🛡️</span> <span data-i18n="nav_suite">Suite Ciberdefensa</span>
+      </a>
+    </div>
+    
+    <div class="lang-switcher">
+      <button class="lang-btn active" onclick="switchLanguage('es')" id="btn-es">ES</button>
+      <button class="lang-btn" onclick="switchLanguage('en')" id="btn-en">EN</button>
+      <button class="lang-btn" onclick="switchLanguage('fr')" id="btn-fr">FR</button>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <div class="flag-bar">
+        <div class="flag-yellow"></div>
+        <div class="flag-blue"></div>
+        <div class="flag-red"></div>
+      </div>
+
+      <div class="badge-bar">
+        <span class="badge badge-purple" data-i18n="badge_vault">Acervo Probatorio Oficial — Parte 2</span>
+        <span class="badge badge-cyan" data-i18n="badge_scope">122.017 Mesas Analizadas</span>
+        <span class="badge badge-gold">ISO/IEC 27037 &amp; RFC 3227</span>
+        <span class="badge badge-red">Radicado CIDH: IACHR-0000113728</span>
+      </div>
+
+      <h1 data-i18n="header_title">Segunda Vuelta Presidencial 2026: Metrología y Dictamen Pericial</h1>
+      <p class="subtitle" data-i18n="header_subtitle">
+        Auditoría informática forense sobre 122.017 mesas electorales, decompilación estructural de actas E-14 (Claveros vs Delegados), Deepfakes Documentales (1-Bit Raster) y planchado matemático bajo la Ley de Benford (2BL).
+      </p>
+
+      <div class="author-card">
+        <div>
+          <strong data-i18n="author_label">Investigadora Forense Principal:</strong> Andrea Zabala Cárcamo (AnZaCa / AndreTaker)<br>
+          <span style="color: var(--text-muted); font-size: 0.8rem;" data-i18n="author_jurisdiction">Frente Digital 2026 &amp; Testigos Digitales | Jurisdicción: Virginia, EE.UU. (Washington D.C. Metro)</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Overview & National Totals -->
+    <div class="card card-purple-glow">
+      <h2 class="section-title">
+        <span>🪐</span> <span data-i18n="sec1_title">1. Resumen Ejecutivo y Totales Escrutados</span>
+      </h2>
+      <p style="margin-bottom: 1.25rem; font-size: 0.95rem; color: #cbd5e1;" data-i18n="sec1_desc">
+        Recalculación metrológica directa e independiente sobre los archivos crudos (122.017 mesas individuales) al 99.95% de cobertura de escrutinio. Los datos evidencian una concentración anómala del margen de victoria en el exterior y un comportamiento estadístico incompatible con la entropía natural del voto.
+      </p>
+
+      <div class="stats-grid">
+        <div class="stat-box">
+          <div class="stat-num stat-num-purple">122.017</div>
+          <div class="stat-label" data-i18n="stat_mesas">Mesas Individuales Auditadas</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num stat-num-gold">+248.201</div>
+          <div class="stat-label" data-i18n="stat_margin_total">Margen Total (Espriella − Cepeda)</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">+174.884</div>
+          <div class="stat-label" data-i18n="stat_margin_ext">Margen Exterior (70.5% del total)</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num stat-num-purple">100%</div>
+          <div class="stat-label" data-i18n="stat_xref">Cicatriz XREF en Actas Alteradas</div>
+        </div>
+      </div>
+
+      <div class="data-table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th data-i18n="th_scope">Ámbito Electoral</th>
+              <th class="text-right" data-i18n="th_cepeda">Iván Cepeda Castro</th>
+              <th class="text-right" data-i18n="th_espriella">Abelardo de la Espriella</th>
+              <th class="text-right" data-i18n="th_margin">Margen Neto</th>
+              <th class="text-center" data-i18n="th_pct_margin">% del Margen Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong data-i18n="row_domestic">Doméstico Nacional (Sin Consulados)</strong></td>
+              <td class="table-mono text-right">12,495,274</td>
+              <td class="table-mono text-right">12,568,591</td>
+              <td class="table-mono text-right" style="color: #38bdf8;">+73,317</td>
+              <td class="table-mono text-center">29.5%</td>
+            </tr>
+            <tr>
+              <td><strong data-i18n="row_exterior">Exterior (Todos los Consulados)</strong></td>
+              <td class="table-mono text-right">209,842</td>
+              <td class="table-mono text-right">384,726</td>
+              <td class="table-mono text-right" style="color: #c084fc; font-weight: 700;">+174,884</td>
+              <td class="table-mono text-center" style="color: #c084fc; font-weight: 700;">70.5%</td>
+            </tr>
+            <tr style="background: rgba(168, 85, 247, 0.1);">
+              <td><strong data-i18n="row_total">Total Nacional Consolidado</strong></td>
+              <td class="table-mono text-right"><strong>12,705,116</strong></td>
+              <td class="table-mono text-right"><strong>12,953,317</strong></td>
+              <td class="table-mono text-right" style="color: #facc15; font-weight: 800;">+248,201</td>
+              <td class="table-mono text-center"><strong>100.0%</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- The 10 Forensic Findings -->
+    <div class="card">
+      <h2 class="section-title">
+        <span>🔬</span> <span data-i18n="sec2_title">2. Los 10 Pilares del Dictamen Pericial</span>
+      </h2>
+      <p style="margin-bottom: 1.5rem; font-size: 0.95rem; color: #cbd5e1;" data-i18n="sec2_desc">
+        La falsificación no es una hipótesis ni una conjetura: es una huella digital matemática y de ingeniería de software confirmada en 10 capas independientes y convergentes.
+      </p>
+
+      <div class="findings-grid">
+        
+        <div class="finding-card">
+          <span class="finding-num">Pilar 01</span>
+          <h3 class="finding-title" data-i18n="f1_title">Cicatriz Vectorial y Daño XREF</h3>
+          <p class="finding-body" data-i18n="f1_body">
+            El 100% de los formularios E-14 alterados declaran tener 15 objetos internos en su tabla de referencias cruzadas (XREF), pero contienen únicamente 13 reales. Esta asimetría es la firma irrefutable de un software de inyección algorítmica y no de un escáner físico.
+          </p>
+          <div class="finding-tech">qpdf --check | peepdf | Error: 15 vs 13 objects</div>
+        </div>
+
+        <div class="finding-card">
+          <span class="finding-num">Pilar 02</span>
+          <h3 class="finding-title" data-i18n="f2_title">Técnica de Blind Masking (Plantilla B)</h3>
+          <p class="finding-body" data-i18n="f2_body">
+            Uso de máscaras de imagen tipo <code>DeviceGray</code> (blanco puro digital de media 65535) en capas vectoriales superiores para tapar los votos originales y sobreescribir números en formato monocromático de 1-bit (1bpc), imposible en escaneos ópticos reales.
+          </p>
+          <div class="finding-tech">pdfimages -list | 1bpc monocromo / DeviceGray</div>
+        </div>
+
+        <div class="finding-card">
+          <span class="finding-num">Pilar 03</span>
+          <h3 class="finding-title" data-i18n="f3_title">La Paradoja de Clonación (Claveros vs Delegados)</h3>
+          <p class="finding-body" data-i18n="f3_body">
+            Las actas de Delegados (Web, 72 PPI B/N) y Claveros (USB oficial para jueces, 300 PPI RGB) comparten la misma anomalía estructural XREF y los mismos IDs de objetos (ID 6 e ID 11), probando que fueron exportadas desde un mismo archivo fuente digital.
+          </p>
+          <div class="finding-tech">ImageMagick / pdfinfo / Acacias Muestra Control</div>
+        </div>
+
+        <div class="finding-card">
+          <span class="finding-num">Pilar 04</span>
+          <h3 class="finding-title" data-i18n="f4_title">Doble Código QR en Copia de Transmisión</h3>
+          <p class="finding-body" data-i18n="f4_body">
+            En las actas de Transmisión se detectaron dos códigos QR superpuestos en la misma región espacial, violando el estándar oficial de un solo QR por acta y evidenciando inserción posterior de capas vectoriales.
+          </p>
+          <div class="finding-tech">zbarimg | 2 QR superpuestos en flujo /Contents</div>
+        </div>
+
+        <div class="finding-card">
+          <span class="finding-num">Pilar 05</span>
+          <h3 class="finding-title" data-i18n="f5_title">Planchado Matemático (Ley de Benford 2BL)</h3>
+          <p class="finding-body" data-i18n="f5_body">
+            El test del segundo dígito de Benford (2BL) sobre los votos arrojó una sobrefrecuencia antinatural en el dígito 2 (F=31.8, σ=2.5 vs esperado 8-12, p &lt; 0.0001), demostrando inyección algorítmica de fórmulas deterministas.
+          </p>
+          <div class="finding-tech">Python 2BL Test | p &lt; 0.0001 | F=31.8</div>
+        </div>
+
+        <div class="finding-card">
+          <span class="finding-num">Pilar 06</span>
+          <h3 class="finding-title" data-i18n="f6_title">Supresión de Metadatos y Modificación Post-Publicación</h3>
+          <p class="finding-body" data-i18n="f6_body">
+            Eliminación sistemática de marcas de tiempo en el 100% de la muestra para impedir trazabilidad cronológica, combinada con alteración de hashes SHA-256 en 30/30 actas tras su publicación inicial en servidores.
+          </p>
+          <div class="finding-tech">exiftool -all | sha256sum alterado post-publicación</div>
+        </div>
+
+        <div class="finding-card">
+          <span class="finding-num">Pilar 07</span>
+          <h3 class="finding-title" data-i18n="f7_title">Honeypot Estadístico y Cebo de Desvío</h3>
+          <p class="finding-body" data-i18n="f7_body">
+            En departamentos periféricos como Amazonas (100% de actas con inyección XREF), la asignación algorítmica favoreció artificialmente a Cepeda para actuar como señuelo estadístico y agotar recursos de veeduría en zonas no determinantes.
+          </p>
+          <div class="finding-tech">Análisis Departamental Cruzado / Cebo OpSec</div>
+        </div>
+
+        <div class="finding-card">
+          <span class="finding-num">Pilar 08</span>
+          <h3 class="finding-title" data-i18n="f8_title">Discrepancia Temporal (Sesgo Días Hábiles)</h3>
+          <p class="finding-body" data-i18n="f8_body">
+            La prueba Z nacional (Z = 8.47, p &lt; 10⁻¹²) reveló una inyección de anomalías concentrada con sesgo en días hábiles de procesamiento centralizado, incompatible con la aleatoriedad electoral.
+          </p>
+          <div class="finding-tech">Prueba Z (Z = 8.47, p &lt; 0.000000000001)</div>
+        </div>
+
+        <div class="finding-card">
+          <span class="finding-num">Pilar 09</span>
+          <h3 class="finding-title" data-i18n="f9_title">Homología Criptográfica Intercontinental</h3>
+          <p class="finding-body" data-i18n="f9_body">
+            El patrón de inyección de máscaras, daño XREF y planchado 1-bit es exactamente idéntico en consulados de Estados Unidos, España y mesas nacionales en Colombia, confirmando una ejecución centralizada y automatizada.
+          </p>
+          <div class="finding-tech">Muestreo Transcontinental EE.UU. + España + CO</div>
+        </div>
+
+        <div class="finding-card">
+          <span class="finding-num">Pilar 10</span>
+          <h3 class="finding-title" data-i18n="f10_title">Planchado 1-Bit (Deepfake Documental)</h3>
+          <p class="finding-body" data-i18n="f10_body">
+            La evolución técnica pasó de parches PDF simples (Fase 1) y Blind Masking semitransparente (Fase 2) al "Planchado Forzado 1-Bit" (Fase 3), intentando fusionar capas pero dejando intacta la cicatriz de la tabla de objetos.
+          </p>
+          <div class="finding-tech">Evolución Blind Masking v1 -&gt; v3 (Planchado)</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Direct Download Center -->
+    <div class="card card-purple-glow">
+      <h2 class="section-title">
+        <span>💾</span> <span data-i18n="sec3_title">3. Centro de Descargas: Dictámenes y Entregables de Segunda Vuelta</span>
+      </h2>
+      <p style="margin-bottom: 1.5rem; font-size: 0.95rem; color: #cbd5e1;" data-i18n="sec3_desc">
+        Documentación forense completa, informes técnicos, guías judiciales y registros de cadena de custodia listos para descarga pública directa.
+      </p>
+
+      <div class="download-list">
+
+        <div class="download-item">
+          <div class="download-info">
+            <h4 data-i18n="dl1_title">📄 Análisis Estadístico Forense Completo (122.017 Mesas)</h4>
+            <p data-i18n="dl1_desc">Documento pericial maestro de 92 KB con verificación de censo, quiebre poblacional y Benford 2BL.</p>
+          </div>
+          <a href="downloads/segunda_vuelta/analisis_forense_segunda_vuelta_2026.md" class="btn-download" download>
+            <span>📥</span> <span data-i18n="btn_dl">Descargar (.md)</span>
+          </a>
+        </div>
+
+        <div class="download-item">
+          <div class="download-info">
+            <h4 data-i18n="dl2_title">⚖️ Informe Técnico de Hallazgos (10 Pilares Forenses)</h4>
+            <p data-i18n="dl2_desc">Dictamen pericial estructurado con demostración de clonación (Acacías), cebo y bibliografía.</p>
+          </div>
+          <a href="downloads/segunda_vuelta/INFORME_TECNICO_DE_HALLAZGOS.md" class="btn-download" download>
+            <span>📥</span> <span data-i18n="btn_dl">Descargar (.md)</span>
+          </a>
+        </div>
+
+        <div class="download-item">
+          <div class="download-info">
+            <h4 data-i18n="dl3_title">📑 Resumen Ejecutivo para la CIDH y Observadores Internacionales</h4>
+            <p data-i18n="dl3_desc">Síntesis pericial, radicado IACHR-0000113728 y solicitud de medidas cautelares.</p>
+          </div>
+          <a href="downloads/segunda_vuelta/RESUMEN_EJECUTIVO.md" class="btn-download" download>
+            <span>📥</span> <span data-i18n="btn_dl">Descargar (.md)</span>
+          </a>
+        </div>
+
+        <div class="download-item">
+          <div class="download-info">
+            <h4 data-i18n="dl4_title">🔍 Reporte de Hallazgo: Doble Código QR en Transmisión</h4>
+            <p data-i18n="dl4_desc">Evidencia técnica de dos códigos QR superpuestos en actas E-14 de transmisión.</p>
+          </div>
+          <a href="downloads/segunda_vuelta/HALLAZGO_DOS_QR_TRANSMISION.md" class="btn-download" download>
+            <span>📥</span> <span data-i18n="btn_dl">Descargar (.md)</span>
+          </a>
+        </div>
+
+        <div class="download-item">
+          <div class="download-info">
+            <h4 data-i18n="dl5_title">🧬 Evolución Técnica: Blind Masking y Planchado 1-Bit</h4>
+            <p data-i18n="dl5_desc">Línea de tiempo de las 3 fases de manipulación de capas PDF (Parches -&gt; Máscaras -&gt; Planchado).</p>
+          </div>
+          <a href="downloads/segunda_vuelta/EVOLUCION_TECNICA_BLIND_MASKING.md" class="btn-download" download>
+            <span>📥</span> <span data-i18n="btn_dl">Descargar (.md)</span>
+          </a>
+        </div>
+
+        <div class="download-item">
+          <div class="download-info">
+            <h4 data-i18n="dl6_title">📊 Reporte Forense: Ley de Benford Nacional (2BL)</h4>
+            <p data-i18n="dl6_desc">Modelado matemático y prueba de Mebane sobre distribución de dígitos en preconteo y escrutinio.</p>
+          </div>
+          <a href="downloads/segunda_vuelta/REPORTE_FORENSE_BENFORD_NACIONAL.md" class="btn-download" download>
+            <span>📥</span> <span data-i18n="btn_dl">Descargar (.md)</span>
+          </a>
+        </div>
+
+        <div class="download-item">
+          <div class="download-info">
+            <h4 data-i18n="dl7_title">🏛️ Guía Didáctica para Jueces Electorales y Magistrados</h4>
+            <p data-i18n="dl7_desc">Explicación pericial sin jerga técnica de conceptos clave (XREF, Blind Masking, Entropía).</p>
+          </div>
+          <a href="downloads/segunda_vuelta/GUIA_PARA_JUECES.md" class="btn-download" download>
+            <span>📥</span> <span data-i18n="btn_dl">Descargar (.md)</span>
+          </a>
+        </div>
+
+        <div class="download-item" style="border-color: var(--border-gold); background: rgba(245, 158, 11, 0.05);">
+          <div class="download-info">
+            <h4 style="color: #facc15;" data-i18n="dl8_title">🌐 Bóveda Inmutable de 15 GB en Archive.org (Preservación RFC 3227)</h4>
+            <p data-i18n="dl8_desc">Acervo probatorio completo: 121,000+ actas E-14 crudas, hashes SHA-256 y scripts de auditoría.</p>
+          </div>
+          <a href="https://archive.org/details/colombia-e14-forensic-acervo-2026" class="btn-download" target="_blank" rel="noopener noreferrer" style="background: linear-gradient(135deg, #d97706, #b45309);">
+            <span>🌐</span> <span data-i18n="btn_archive">Abrir Bóveda</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Forensic Standards & Bibliography -->
+    <div class="card">
+      <h2 class="section-title">
+        <span>📚</span> <span data-i18n="sec4_title">4. Marco Teórico, Estándares y Bibliografía Forense</span>
+      </h2>
+      <p style="margin-bottom: 1rem; font-size: 0.95rem; color: #cbd5e1;" data-i18n="sec4_desc">
+        Este peritaje opera bajo el principio de estricta verificación científica, reproducibilidad y estándares internacionales:
+      </p>
+
+      <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.9rem; color: #cbd5e1;">
+        <li style="padding-left: 1.5rem; position: relative;">
+          <span style="position: absolute; left: 0; color: var(--accent-purple);">🔹</span>
+          <strong>ISO/IEC 27037:2012 &amp; RFC 3227:</strong> Directrices para la preservación, recolección y adquisición de evidencia digital. Principio inmutable de Solo Lectura (Read-Only) en copias clonadas bit a bit.
+        </li>
+        <li style="padding-left: 1.5rem; position: relative;">
+          <span style="position: absolute; left: 0; color: var(--accent-purple);">🔹</span>
+          <strong>ISO 32000-1:2008 (Portable Document Format):</strong> Estándar internacional para la arquitectura estructural de documentos PDF, definición de tablas XREF y flujos <code>/Contents</code>.
+        </li>
+        <li style="padding-left: 1.5rem; position: relative;">
+          <span style="position: absolute; left: 0; color: var(--accent-purple);">🔹</span>
+          <strong>NIST FIPS 180-4:</strong> Secure Hash Standard (SHA-256) para certificación de integridad criptográfica sin colisiones.
+        </li>
+        <li style="padding-left: 1.5rem; position: relative;">
+          <span style="position: absolute; left: 0; color: var(--accent-purple);">🔹</span>
+          <strong>Nigrini, M. J. (2012) &amp; Mebane, W. R. (2006):</strong> <em>Benford's Law: Applications for Forensic Accounting, Auditing, and Fraud Detection</em> y modelos de segundo dígito (2BL) para detección de fraude en sistemas electorales.
+        </li>
+        <li style="padding-left: 1.5rem; position: relative;">
+          <span style="position: absolute; left: 0; color: var(--accent-purple);">🔹</span>
+          <strong>Garfinkel, S. (2014):</strong> <em>Forensic Analysis of PDF Files</em> y metodologías de ingeniería inversa para detección de capas vectoriales ocultas.
+        </li>
+      </ul>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p style="margin-bottom: 0.5rem;">
+        <strong>Investigación Forense Digital Independiente — Andrea Zabala Cárcamo (AnZaCa / AndreTaker)</strong>
+      </p>
+      <p style="font-size: 0.8rem; color: #64748b;">
+        Preservado bajo estándares ISO/IEC 27037 y RFC 3227. Bóvedas criptográficas selladas bajo SHA-256.<br>
+        Contacto legal y pericial: <a href="mailto:forensics@andretaker.org">forensics@andretaker.org</a> | Enlace CIDH: Radicado <code>IACHR-0000113728</code>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Translation Engine -->
+  <script>
+    const translations = {
+      es: {
+        nav_part1: "Parte 1 — Denuncias y Primera Vuelta",
+        nav_part2: "Parte 2 — Segunda Vuelta & Metrología",
+        nav_suite: "Suite Ciberdefensa",
+        badge_vault: "Acervo Probatorio Oficial — Parte 2",
+        badge_scope: "122.017 Mesas Analizadas",
+        header_title: "Segunda Vuelta Presidencial 2026: Metrología y Dictamen Pericial",
+        header_subtitle: "Auditoría informática forense sobre 122.017 mesas electorales, decompilación estructural de actas E-14 (Claveros vs Delegados), Deepfakes Documentales (1-Bit Raster) y planchado matemático bajo la Ley de Benford (2BL).",
+        author_label: "Investigadora Forense Principal:",
+        author_jurisdiction: "Frente Digital 2026 & Testigos Digitales | Jurisdicción: Virginia, EE.UU. (Washington D.C. Metro)",
+        sec1_title: "1. Resumen Ejecutivo y Totales Escrutados",
+        sec1_desc: "Recalculación metrológica directa e independiente sobre los archivos crudos (122.017 mesas individuales) al 99.95% de cobertura de escrutinio. Los datos evidencian una concentración anómala del margen de victoria en el exterior y un comportamiento estadístico incompatible con la entropía natural del voto.",
+        stat_mesas: "Mesas Individuales Auditadas",
+        stat_margin_total: "Margen Total (Espriella − Cepeda)",
+        stat_margin_ext: "Margen Exterior (70.5% del total)",
+        stat_xref: "Cicatriz XREF en Actas Alteradas",
+        th_scope: "Ámbito Electoral",
+        th_cepeda: "Iván Cepeda Castro",
+        th_espriella: "Abelardo de la Espriella",
+        th_margin: "Margen Neto",
+        th_pct_margin: "% del Margen Total",
+        row_domestic: "Doméstico Nacional (Sin Consulados)",
+        row_exterior: "Exterior (Todos los Consulados)",
+        row_total: "Total Nacional Consolidado",
+        sec2_title: "2. Los 10 Pilares del Dictamen Pericial",
+        sec2_desc: "La falsificación no es una hipótesis ni una conjetura: es una huella digital matemática y de ingeniería de software confirmada en 10 capas independientes y convergentes.",
+        f1_title: "Cicatriz Vectorial y Daño XREF",
+        f1_body: "El 100% de los formularios E-14 alterados declaran tener 15 objetos internos en su tabla de referencias cruzadas (XREF), pero contienen únicamente 13 reales. Esta asimetría es la firma irrefutable de un software de inyección algorítmica y no de un escáner físico.",
+        f2_title: "Técnica de Blind Masking (Plantilla B)",
+        f2_body: "Uso de máscaras de imagen tipo DeviceGray (blanco puro digital de media 65535) en capas vectoriales superiores para tapar los votos originales y sobreescribir números en formato monocromático de 1-bit (1bpc), imposible en escaneos ópticos reales.",
+        f3_title: "La Paradoja de Clonación (Claveros vs Delegados)",
+        f3_body: "Las actas de Delegados (Web, 72 PPI B/N) y Claveros (USB oficial para jueces, 300 PPI RGB) comparten la misma anomalía estructural XREF y los mismos IDs de objetos (ID 6 e ID 11), probando que fueron exportadas desde un mismo archivo fuente digital.",
+        f4_title: "Doble Código QR en Copia de Transmisión",
+        f4_body: "En las actas de Transmisión se detectaron dos códigos QR superpuestos en la misma región espacial, violando el estándar oficial de un solo QR por acta y evidenciando inserción posterior de capas vectoriales.",
+        f5_title: "Planchado Matemático (Ley de Benford 2BL)",
+        f5_body: "El test del segundo dígito de Benford (2BL) sobre los votos arrojó una sobrefrecuencia antinatural en el dígito 2 (F=31.8, σ=2.5 vs esperado 8-12, p < 0.0001), demostrando inyección algorítmica de fórmulas deterministas.",
+        f6_title: "Supresión de Metadatos y Modificación Post-Publicación",
+        f6_body: "Eliminación sistemática de marcas de tiempo en el 100% de la muestra para impedir trazabilidad cronológica, combinada con alteración de hashes SHA-256 en 30/30 actas tras su publicación inicial en servidores.",
+        f7_title: "Honeypot Estadístico y Cebo de Desvío",
+        f7_body: "En departamentos periféricos como Amazonas (100% de actas con inyección XREF), la asignación algorítmica favoreció artificialmente a Cepeda para actuar como señuelo estadístico y agotar recursos de veeduría en zonas no determinantes.",
+        f8_title: "Discrepancia Temporal (Sesgo Días Hábiles)",
+        f8_body: "La prueba Z nacional (Z = 8.47, p < 10⁻¹²) reveló una inyección de anomalías concentrada con sesgo en días hábiles de procesamiento centralizado, incompatible con la aleatoriedad electoral.",
+        f9_title: "Homología Criptográfica Intercontinental",
+        f9_body: "El patrón de inyección de máscaras, daño XREF y planchado 1-bit es exactamente idéntico en consulados de Estados Unidos, España y mesas nacionales en Colombia, confirmando una ejecución centralizada y automatizada.",
+        f10_title: "Planchado 1-Bit (Deepfake Documental)",
+        f10_body: "La evolución técnica pasó de parches PDF simples (Fase 1) y Blind Masking semitransparente (Fase 2) al 'Planchado Forzado 1-Bit' (Fase 3), intentando fusionar capas pero dejando intacta la cicatriz de la tabla de objetos.",
+        sec3_title: "3. Centro de Descargas: Dictámenes y Entregables de Segunda Vuelta",
+        sec3_desc: "Documentación forense completa, informes técnicos, guías judiciales y registros de cadena de custodia listos para descarga pública directa.",
+        dl1_title: "📄 Análisis Estadístico Forense Completo (122.017 Mesas)",
+        dl1_desc: "Documento pericial maestro de 92 KB con verificación de censo, quiebre poblacional y Benford 2BL.",
+        dl2_title: "⚖️ Informe Técnico de Hallazgos (10 Pilares Forenses)",
+        dl2_desc: "Dictamen pericial estructurado con demostración de clonación (Acacías), cebo y bibliografía.",
+        dl3_title: "📑 Resumen Ejecutivo para la CIDH y Observadores Internacionales",
+        dl3_desc: "Síntesis pericial, radicado IACHR-0000113728 y solicitud de medidas cautelares.",
+        dl4_title: "🔍 Reporte de Hallazgo: Doble Código QR en Transmisión",
+        dl4_desc: "Evidencia técnica de dos códigos QR superpuestos en actas E-14 de transmisión.",
+        dl5_title: "🧬 Evolución Técnica: Blind Masking y Planchado 1-Bit",
+        dl5_desc: "Línea de tiempo de las 3 fases de manipulación de capas PDF (Parches -> Máscaras -> Planchado).",
+        dl6_title: "📊 Reporte Forense: Ley de Benford Nacional (2BL)",
+        dl6_desc: "Modelado matemático y prueba de Mebane sobre distribución de dígitos en preconteo y escrutinio.",
+        dl7_title: "🏛️ Guía Didáctica para Jueces Electorales y Magistrados",
+        dl7_desc: "Explicación pericial sin jerga técnica de conceptos clave (XREF, Blind Masking, Entropía).",
+        dl8_title: "🌐 Bóveda Inmutable de 15 GB en Archive.org (Preservación RFC 3227)",
+        dl8_desc: "Acervo probatorio completo: 121,000+ actas E-14 crudas, hashes SHA-256 y scripts de auditoría.",
+        btn_dl: "Descargar (.md)",
+        btn_archive: "Abrir Bóveda",
+        sec4_title: "4. Marco Teórico, Estándares y Bibliografía Forense",
+        sec4_desc: "Este peritaje opera bajo el principio de estricta verificación científica, reproducibilidad y estándares internacionales:"
+      },
+      en: {
+        nav_part1: "Part 1 — Criminal Complaints & Round 1",
+        nav_part2: "Part 2 — Round 2 & Metrology",
+        nav_suite: "CyberDefense Suite",
+        badge_vault: "Official Evidence Vault — Part 2",
+        badge_scope: "122,017 Polling Stations Analyzed",
+        header_title: "2026 Presidential Runoff: Forensic Metrology & Expert Report",
+        header_subtitle: "Comprehensive digital forensic audit on 122,017 polling tables, structural decompilation of E-14 records (Claveros vs Delegados), 1-Bit Raster Deepfakes, and mathematical smoothing under Benford's Law (2BL).",
+        author_label: "Lead Forensic Investigator:",
+        author_jurisdiction: "Frente Digital 2026 & Digital Witnesses | Jurisdiction: Virginia, USA (Washington D.C. Metro)",
+        sec1_title: "1. Executive Summary & National Tally",
+        sec1_desc: "Direct and independent metrological recalculation across raw datasets (122,017 individual tables) at 99.95% scrutiny coverage. Telemetry demonstrates an anomalous victory margin concentration abroad and statistical behavior incompatible with natural human voting entropy.",
+        stat_mesas: "Audited Polling Tables",
+        stat_margin_total: "Total Margin (Espriella − Cepeda)",
+        stat_margin_ext: "Overseas Margin (70.5% of total)",
+        stat_xref: "XREF Scar in Altered Records",
+        th_scope: "Electoral Scope",
+        th_cepeda: "Iván Cepeda Castro",
+        th_espriella: "Abelardo de la Espriella",
+        th_margin: "Net Margin",
+        th_pct_margin: "% of Total Margin",
+        row_domestic: "Domestic National (Excl. Consulates)",
+        row_exterior: "Overseas (All Consulates)",
+        row_total: "Consolidated National Total",
+        sec2_title: "2. The 10 Pillars of the Forensic Report",
+        sec2_desc: "Falsification is neither a hypothesis nor a conjecture: it is a mathematical and software engineering fingerprint verified across 10 independent, converging layers.",
+        f1_title: "Vector Scar & XREF Table Damage",
+        f1_body: "100% of altered E-14 forms declare 15 internal objects in their cross-reference table (XREF) but contain only 13 real objects. This asymmetry is the irrefutable signature of programmatic algorithm injection, not an optical scanner.",
+        f2_title: "Blind Masking Technique (Template B)",
+        f2_body: "Use of DeviceGray image masks (digital pure white, mean 65535) on upper vector layers to obscure original tally votes and overwrite numbers in 1-bit monochrome (1bpc), physically impossible on paper optical scans.",
+        f3_title: "The Cloning Paradox (Claveros vs Delegados)",
+        f3_body: "Delegados records (Web, 72 PPI B/W) and Claveros records (Official Judge USB, 300 PPI RGB) share the exact same XREF structural anomaly and object IDs (ID 6 and ID 11), proving common digital export origins.",
+        f4_title: "Dual QR Code in Transmission Copy",
+        f4_body: "Two overlapping QR codes were detected in the exact same spatial zone on Transmission E-14 records, violating official one-QR standards and proving post-processing vector layer insertion.",
+        f5_title: "Mathematical Smoothing (Benford's Law 2BL)",
+        f5_body: "Benford's Second Digit Law (2BL) test revealed unnatural spike frequencies on digit 2 (F=31.8, σ=2.5 vs expected 8-12, p < 0.0001), demonstrating deterministic formulaic injection.",
+        f6_title: "Metadata Deletion & Post-Publishing Alteration",
+        f6_body: "Systematic scrubbing of timestamp metadata across 100% of sample records to prevent chronological traceability, coupled with SHA-256 hash mutation in 30/30 records after initial server publishing.",
+        f7_title: "Statistical Honeypot & Diversion Bait",
+        f7_body: "In peripheral departments such as Amazonas (100% XREF damaged records), algorithmic allocation artificially boosted Cepeda to serve as a statistical decoy, exhausting auditor bandwidth in non-decisive zones.",
+        f8_title: "Temporal Discrepancy (Weekday Processing Bias)",
+        f8_body: "National Z-test (Z = 8.47, p < 10⁻¹²) revealed anomaly injection heavily concentrated during centralized administrative weekdays, incompatible with uniform electoral randomness.",
+        f9_title: "Transcontinental Cryptographic Homology",
+        f9_body: "Mask injection, XREF corruption, and 1-bit flattening patterns are identical across consulates in the US, Spain, and domestic tables in Colombia, confirming centralized, automated execution.",
+        f10_title: "1-Bit Raster Deepfake Document Flattening",
+        f10_body: "Technical evolution progressed from primitive PDF patches (Phase 1) and semitransparent Blind Masking (Phase 2) to forced 1-Bit Flattening (Phase 3), attempting to merge visual layers while leaving object scars intact.",
+        sec3_title: "3. Direct Downloads: Second Round Reports & Deliverables",
+        sec3_desc: "Full forensic documentation, technical briefs, judicial guides, and chain-of-custody ledgers ready for immediate public download.",
+        dl1_title: "📄 Full Statistical Forensic Report (122,017 Tables)",
+        dl1_desc: "92 KB master expert brief detailing census verification, demographic curve breaks, and Benford 2BL analysis.",
+        dl2_title: "⚖️ Technical Findings Report (10 Forensic Pillars)",
+        dl2_desc: "Structured expert assessment proving digital cloning (Acacías sample), decoy honeypots, and full bibliography.",
+        dl3_title: "📑 Executive Summary for IACHR & International Observers",
+        dl3_desc: "Executive brief, IACHR-0000113728 filing reference, and urgent precautionary measures petition.",
+        dl4_title: "🔍 Technical Report: Dual QR Codes in Transmission",
+        dl4_desc: "Forensic evidence of two overlapping QR codes on Transmission E-14 records.",
+        dl5_title: "🧬 Technical Evolution: Blind Masking & 1-Bit Rastering",
+        dl5_desc: "Timeline of 3 manipulation phases (Patches -> Blind Masking -> 1-Bit Flattening).",
+        dl6_title: "📊 National Benford's Law Report (2BL)",
+        dl6_desc: "Mathematical modeling and Mebane second-digit test across preliminary and certified escrutinio counts.",
+        dl7_title: "🏛️ Educational Guide for Electoral Judges & Magistrates",
+        dl7_desc: "Clear, non-technical explanation of core concepts (XREF table, Blind Masking, Entropy).",
+        dl8_title: "🌐 15 GB Immutable Vault on Archive.org (RFC 3227)",
+        dl8_desc: "Complete evidence vault: 121,000+ raw E-14 forms, SHA-256 ledgers, and forensic audit scripts.",
+        btn_dl: "Download (.md)",
+        btn_archive: "Open Vault",
+        sec4_title: "4. Theoretical Framework, Standards & Forensic Bibliography",
+        sec4_desc: "This forensic investigation operates under strict scientific reproducibility and international evidentiary standards:"
+      },
+      fr: {
+        nav_part1: "Partie 1 — Plaintes & Premier Tour",
+        nav_part2: "Partie 2 — Second Tour & Métrologie",
+        nav_suite: "Suite CyberDéfense",
+        badge_vault: "Coffre-Fort des Preuves — Partie 2",
+        badge_scope: "122 017 Bureaux de Vote Analysés",
+        header_title: "Second Tour Présidentiel 2026: Métrologie et Rapport d'Expertise",
+        header_subtitle: "Audit informatique légal sur 122 017 bureaux de vote, décompilation structurelle des procès-verbaux E-14 (Claveros vs Delegados), Deepfakes Documentaires (1-Bit Raster) et lissage mathématique selon la Loi de Benford (2BL).",
+        author_label: "Enquêtrice Légale Principale:",
+        author_jurisdiction: "Frente Digital 2026 & Témoins Numériques | Juridiction: Virginie, USA (Washington D.C. Metro)",
+        sec1_title: "1. Résumé Exécutif & Totaux Nationaux",
+        sec1_desc: "Recalcul métrologique direct et indépendant sur les données brutes (122 017 bureaux individuels) à 99,95% de couverture. Les données démontrent une concentration anormale de la marge de victoire à l'étranger et un comportement incompatible avec l'entropie électorale naturelle.",
+        stat_mesas: "Bureaux de Vote Audités",
+        stat_margin_total: "Marge Totale (Espriella − Cepeda)",
+        stat_margin_ext: "Marge Extérieur (70,5% du total)",
+        stat_xref: "Cicatrice XREF dans les Actes Altérés",
+        th_scope: "Périmètre Électoral",
+        th_cepeda: "Iván Cepeda Castro",
+        th_espriella: "Abelardo de la Espriella",
+        th_margin: "Marge Nette",
+        th_pct_margin: "% de la Marge Totale",
+        row_domestic: "National Domestique (Sans Consulats)",
+        row_exterior: "Extérieur (Tous les Consulats)",
+        row_total: "Total National Consolidé",
+        sec2_title: "2. Les 10 Piliers du Rapport d'Expertise",
+        sec2_desc: "La falsification n'est ni une hypothèse ni une conjecture: c'est une empreinte numérique mathématique et logicielle vérifiée sur 10 couches indépendantes et convergentes.",
+        f1_title: "Cicatrice Vectorielle et Dommage XREF",
+        f1_body: "100% des formulaires E-14 altérés déclarent 15 objets internes dans leur table de références croisées (XREF) mais n'en contiennent que 13 réels. Cette asymétrie est la signature irréfutable d'une injection algorithmique.",
+        f2_title: "Technique de Blind Masking (Modèle B)",
+        f2_body: "Utilisation de masques d'image DeviceGray (blanc pur numérique de moyenne 65535) en couches vectorielles supérieures pour recouvrir les votes originaux et injecter des chiffres en monochrome 1-bit (1bpc).",
+        f3_title: "Le Paradoxe du Clonage (Claveros vs Delegados)",
+        f3_body: "Les procès-verbaux Delegados (Web, 72 PPI N/B) et Claveros (USB officielle pour juges, 300 PPI RVB) partagent la même anomalie structurelle XREF et les mêmes identifiants d'objets (ID 6 et ID 11).",
+        f4_title: "Double Code QR sur la Copie de Transmission",
+        f4_body: "Deux codes QR superposés ont été détectés dans la même zone spatiale sur les actes de transmission, violant la norme officielle et prouvant l'insertion ultérieure de couches vectorielles.",
+        f5_title: "Lissage Mathématique (Loi de Benford 2BL)",
+        f5_body: "Le test du second chiffre de Benford (2BL) a révélé une surfréquence anormale sur le chiffre 2 (F=31.8, σ=2.5 vs 8-12 attendu, p < 0.0001), prouvant une injection déterministe.",
+        f6_title: "Suppression des Métadonnées & Altération Post-Publication",
+        f6_body: "Suppression systématique des horodatages sur 100% de l'échantillon et altération des empreintes SHA-256 sur 30/30 actes après leur publication initiale.",
+        f7_title: "Honeypot Statistique & Leurre de Déviation",
+        f7_body: "Dans les départements périphériques comme l'Amazonas (100% d'actes altérés XREF), l'attribution algorithmique a artificiellement favorisé Cepeda pour servir de leurre statistique.",
+        f8_title: "Discrépance Temporelle (Biais des Jours Ouvrables)",
+        f8_body: "Le test Z national (Z = 8.47, p < 10⁻¹²) a démontré une injection d'anomalies fortement concentrée durant les jours ouvrables de traitement centralisé.",
+        f9_title: "Homologie Cryptographique Intercontinentale",
+        f9_body: "Les motifs d'injection de masques, corruption XREF et lissage 1-bit sont rigoureusement identiques aux États-Unis, en Espagne et en Colombie, confirmant une exécution centralisée.",
+        f10_title: "Lissage 1-Bit (Deepfake Documentaire)",
+        f10_body: "L'évolution technique est passée des correctifs PDF simples (Phase 1) et du Blind Masking (Phase 2) au 'Lissage Forcé 1-Bit' (Phase 3), laissant intacte la cicatrice de la table d'objets.",
+        sec3_title: "3. Centre de Téléchargement: Rapports du Second Tour",
+        sec3_desc: "Documentation légale complète, rapports techniques, guides pour magistrats et registres de chaîne de traçabilité disponibles en téléchargement direct.",
+        dl1_title: "📄 Rapport Statistique Complet (122 017 Bureaux)",
+        dl1_desc: "Document d'expertise de 92 Ko détaillant le recensement, les ruptures de courbes démographiques et Benford 2BL.",
+        dl2_title: "⚖️ Rapport Technique des Constatations (10 Piliers)",
+        dl2_desc: "Rapport d'expertise structuré prouvant le clonage numérique (Acacías), les leurres et la bibliographie.",
+        dl3_title: "📑 Résumé Exécutif pour la CIDH et Observateurs Internationaux",
+        dl3_desc: "Synthèse légale, numéro de dossier IACHR-0000113728 et demande de mesures conservatoires.",
+        dl4_title: "🔍 Rapport: Double Code QR en Transmission",
+        dl4_desc: "Preuve technique de deux codes QR superposés sur les actes E-14 de transmission.",
+        dl5_title: "🧬 Évolution Technique: Blind Masking & Lissage 1-Bit",
+        dl5_desc: "Chronologie des 3 phases de manipulation (Patchs -> Blind Masking -> Lissage 1-Bit).",
+        dl6_title: "📊 Rapport Légal: Loi de Benford Nationale (2BL)",
+        dl6_desc: "Modélisation mathématique et test de Mebane sur la distribution des chiffres électoraux.",
+        dl7_title: "🏛️ Guide Didactique pour Juges et Magistrats",
+        dl7_desc: "Explication pédagogique sans jargon des concepts clés (XREF, Blind Masking, Entropie).",
+        dl8_title: "🌐 Coffre-Fort Immuable de 15 Go sur Archive.org (RFC 3227)",
+        dl8_desc: "Ensemble complet des preuves: 121 000+ actes E-14 bruts, empreintes SHA-256 et scripts d'audit.",
+        btn_dl: "Télécharger (.md)",
+        btn_archive: "Ouvrir le Coffre",
+        sec4_title: "4. Cadre Théorique, Normes et Bibliographie Légale",
+        sec4_desc: "Cette expertise opère selon le principe de stricte vérification scientifique et des normes internationales:"
+      }
+    };
+
+    function switchLanguage(lang) {
+      if (!translations[lang]) return;
+      
+      document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+      const activeBtn = document.getElementById(`btn-${lang}`);
+      if (activeBtn) activeBtn.classList.add('active');
+
+      document.querySelectorAll('[data-i18n]').forEach(elem => {
+        const key = elem.getAttribute('data-i18n');
+        if (translations[lang][key]) {
+          elem.innerHTML = translations[lang][key];
+        }
+      });
+
+      document.documentElement.lang = lang;
+      localStorage.setItem('andretaker_lang_pref', lang);
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const savedLang = localStorage.getItem('andretaker_lang_pref') || 'es';
+      if (savedLang !== 'es') {
+        switchLanguage(savedLang);
+      }
+    });
+  </script>
+</body>
+</html>
