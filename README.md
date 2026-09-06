@@ -10,42 +10,67 @@
 
 ---
 
+## ⚖️ RESUMEN EJECUTIVO JUDICIAL (EXECUTIVE SUMMARY FOR AUDITORS)
+
+> **PROPÓSITO PERICIAL:**  
+> Este acervo documenta el peritaje técnico, análisis metrológico e ingeniería inversa sobre los comicios presidenciales de 2026 en Colombia. La evidencia demuestra que **la alteración de votos no ocurrió de forma artesanal mesa por mesa en papel, sino de manera algorítmica y progresiva en los servidores oficiales de transmisión**, mediante la inyección vectorial de códigos QR sintéticos y superposición de capas blancas (*1-bit mask flattening*) que taparon la votación original en las actas E-14 (Violación a la norma ISO 32000-1 / Desfasaje XREF $+2$ objetos).
+
+### ⏳ CONTEXTO HISTÓRICO Y ESCALA DE LA INVESTIGACIÓN (THE PRESERVATION FEAT)
+- **Volumen Preservado:** Más de **677 GB** de evidencia en bruto distribuidos en **777.869 archivos** y **147.000+ documentos oficiales** (incluyendo **121.960 actas PDF E-14 selladas con hash criptográfico SHA-256** inmediato).
+- **Restricción Temporal Crítica:** Toda la recolección, estructuración y sellado forense fue completada en **menos de 2 meses**.
+- **Los 75.000 Testigos Digitales:** La preservación fue posible gracias al despliegue coordinado de más de **75.000 Testigos Digitales** y scraping masivo automatizado antes de que los servidores oficiales borraran o sobrescribieran los registros digitales.
+- **Bajo Asedio Cibernético Extremo:** Este trabajo fue ejecutado por **Andrea Zabala Cárcamo (AnZaCa / AndreTaker)** durante **20 días de aislamiento total e interferencia de red** tras un ciberataque de suplantación, sabotaje físico a puertos USB y bloqueo de BIOS, forzando el desarrollo del motor de autoprotección **Anti-Palantir (`-ap`)**.
+
+---
+
+## 🏛️ GUÍA DE NAVEGACIÓN SEGÚN SU PERFIL DE AUDITORÍA (THE THREE PILLARS)
+
+Para evitar confusiones entre el rigor matemático pericial, las herramientas de ciberdefensa y las dinámicas divulgativas, este repositorio se divide en tres salas autónomas:
+
+```
+                  ┌─────────────────────────────────────────┐
+                  │   REPOSITORIO MAESTRO ANDRETAKER CORE   │
+                  └────────────────────┬────────────────────┘
+                                       │
+         ┌─────────────────────────────┼─────────────────────────────┐
+         ▼                             ▼                             ▼
+┌──────────────────┐          ┌──────────────────┐          ┌──────────────────┐
+│ 🔬 SALA PERICIAL │          │ 🛡️ CIBERDEFENSA  │          │ 👥 SALA CÍVICA   │
+│   Y JUDICIAL     │          │  Y ANTIPALANTIR  │          │  Y CIUDADANA     │
+├──────────────────┤          ├──────────────────┤          ├──────────────────┤
+│ • Peritajes CIDH │          │ • Motor Inmune   │          │ • Mapas didácticos│
+│ • Descompilador  │          │ • Mitigación -ap │          │ • Calculadora 2BL│
+│ • ISO 32000-1    │          │ • Respaldo BIOS  │          │ • Guías sin jerga│
+│ • Hashes SHA-256 │          │ • Air-Gapped LLM │          │ • Dinámica cívica│
+└──────────────────┘          └──────────────────┘          └──────────────────┘
+```
+
+1. **🔬 Rama Técnica / Pericial (Jueces, Magistrados y Peritos de la CIDH / FBI IC3):**
+   Acceso directo al análisis duro, descompilación binaria `/FlateDecode`, deltas de tablas XREF, análisis del segundo dígito de la Ley de Benford (2BL) y auditoría de telecomunicaciones.  
+   👉 **[Ver Capítulo 03: Peritajes Forenses](ES_ESPANOL/Capitulo_03_Peritajes_Forenses/INDICE_MAESTRO_ACERVO_PROBATORIO.md)** | **[Scripts de Auditoría](ES_ESPANOL/Capitulo_05_Scripts_de_Auditoria/README.md)**
+
+2. **🛡️ Rama de Ciberdefensa y Contrainteligencia (Equipos de Seguridad y DFIR):**
+   Arquitectura del motor `BABAYAGA_CORE`, aislamiento de hardware, mitigación de minería de datos y vigilancia estatal (*Anti-Palantir Protocol*), e inferencia de silicio local (*Ollama: AndreTaker*).  
+   👉 **[Ver Motor Baba Yaga Core](BABAYAGA_CORE/mirror_defense_engine.py)** | **[Protocolo Anti-Palantir](BABAYAGA_CORE/babayaga/core/intelligence/mitigation.py)**
+
+3. **👥 Rama Ciudadana y Divulgativa (Prensa, Veedores y Sociedad Civil):**
+   Explicaciones desmitificadas, mapas interactivos, visualizadores didácticos y el reconocimiento a los 75.000 Testigos Digitales para democratizar la auditoría.  
+   👉 **[Dossier Divulgativo Prensa](03_DOCUMENTACION/SESION_01_ENTREGABLES_LEGALES/DOSSIER_DIVULGATIVO_PRENSA_Y_CIUDADANIA.md)** | **[Calculadora Benford Web](https://www.andretaker.org/)**
+
+---
+
 ## ⚙️ MATRIZ DE MADUREZ TECNOLÓGICA (PRODUCCIÓN REAL VS. SIMULADORES EDUCATIVOS)
 
+Para garantizar absoluta transparencia pericial ante revisiones por pares (*Peer Review*), se clasifica formalmente cada componente:
+
 | Módulo / Componente | Clasificación | Estado Operativo | Descripción Técnica Forense |
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :---: | :--- |
 | **Descompilador PDF ISO 32000-1 (`raster.py` / `xref.py`)** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Inspección binaria de parches XREF, sangrado de QR, máscaras 1bpc y cicatrices de software. |
 | **Inferencia de IA Air-Gapped (`Ollama: AndreTaker`)** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Inferencia local offline en silicio para análisis forense sin enviar datos a la nube. |
-| **Bóveda Criptográfica SHA-256 (>677 GB / 122.025 Actas)** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Cadena de custodia inmutable con sellado SHA-256 verificado en tablas `.csv`. |
+| **Bóveda Criptográfica SHA-256 (>677 GB / 121.960 Actas)** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Cadena de custodia inmutable con sellado SHA-256 verificado en tablas `.csv`. |
 | **API Backend FastAPI (`BABAYAGA_CORE`)** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Endpoints locales `/api/ai/analyze`, `/api/forensics/raster` y servidor de custodia. |
 | **App Nativa Android (`AndreTaker_BaBaYaga_Core_REAL.apk`)** | 🟢 **PRODUCCIÓN REAL** | 100% Compilada (37.9 MB) | Ejecución offline de pruebas y consulta de firmas en dispositivos móviles. |
 | **Cápsula Ligera `BABAYAGA_LIGHT` (5 Actas)** | 🟡 **DEMO CONTROLADA** | 100% Funcional | Entorno liviano en ZIP/Git para pruebas rápidas de terceros sin descargar 677 GB. |
-| **Simulador de Ciberdefensa en Web** | 🔵 **DEMO EDUCATIVA** | 100% Interactivo | Simulador en HTML/JS para concienciación ciudadana y divulgación didáctica. |
-
-
-Para garantizar la máxima transparencia forense y claridad absoluta para peritajes de autoridades internacionales (FBI IC3, CIDH, CNE) y revisiones par (*Peer Review*), especificamos la clasificación operativa de cada componente del ecosistema:
-
-| Módulo / Componente | Clasificación | Estado Operativo | Descripción Técnica Forense |
-| :--- | :--- | :--- | :--- |
-| **Descompilador PDF ISO 32000-1 (`raster.py` / `xref.py`)** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Inspección binaria de parches XREF, sangrado de QR, máscaras 1bpc y cicatrices de software. |
-| **Inferencia de IA Air-Gapped (`Ollama: AndreTaker`)** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Inferencia local offline en silicio para análisis forense sin enviar datos a la nube. |
-| **Bóveda Criptográfica SHA-256 (>677 GB / 122.025 Actas)** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Cadena de custodia inmutable con sellado SHA-256 verificado en tablas `.csv`. |
-| **API Backend FastAPI (`BABAYAGA_CORE`)** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Endpoints locales `/api/ai/analyze`, `/api/forensics/raster` y servidor de custodia. |
-| **App Nativa Android (`AndreTaker_BaBaYaga_Core_REAL.apk`)** | 🟢 **PRODUCCIÓN REAL** | 100% Compilada (37.9 MB) | Ejecución offline de pruebas y consulta de firmas en dispositivos móviles. |
-| **Cápsula Ligera `BABAYAGA_LIGHT` (5 Actas)** | 🟡 **DEMO CONTROLADA** | 100% Funcional | Entorno liviano en ZIP/Git para pruebas rápidas de terceros sin descargar 677 GB. |
-| **Simulador de Ciberdefensa en Web** | 🔵 **DEMO EDUCATIVA** | 100% Interactivo | Simulador en HTML/JS para concienciación ciudadana y divulgación didáctica. |
-
-
-Para garantizar la máxima transparencia forense y claridad absoluta para peritajes de autoridades internacionales (FBI IC3, CIDH, CNE) y revisiones par (*Peer Review*), especificamos la clasificación operativa de cada componente del ecosistema:
-
-| Módulo / Componente | Clasificación | Estado Operativo | Descripción Técnica Forense |
-| :--- | :--- | :--- | :--- |
-| **Descompilador PDF ISO 32000-1 ( / )** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Inspección binaria de parches XREF, sangrado de QR, máscaras 1bpc y cicatrices de software. |
-| **Inferencia de IA Air-Gapped ()** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Inferencia local offline en silicio para análisis forense sin enviar datos a la nube. |
-| **Bóveda Criptográfica SHA-256 (>677 GB / 122.025 Actas)** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Cadena de custodia inmutable con sellado SHA-256 verificado en tablas . |
-| **API Backend FastAPI ()** | 🟢 **PRODUCCIÓN REAL** | 100% Funcional | Endpoints locales ,  y servidor de custodia. |
-| **App Nativa Android ()** | 🟢 **PRODUCCIÓN REAL** | 100% Compilada (37.9 MB) | Ejecución offline de pruebas y consulta de firmas en dispositivos móviles. |
-| **Cápsula Ligera  (5 Actas)** | 🟡 **DEMO CONTROLADA** | 100% Funcional | Entorno liviano en ZIP/Git para pruebas rápidas de terceros sin descargar 677 GB. |
 | **Simulador de Ciberdefensa en Web** | 🔵 **DEMO EDUCATIVA** | 100% Interactivo | Simulador en HTML/JS para concienciación ciudadana y divulgación didáctica. |
 
 ---
