@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-🛡️ GENERADOR DE POSTS Y TEXTO INMUNIZADO (ANTI-SHADOWBAN)
+🛡️ GENERADOR DE POSTS Y TEXTO INMUNIZADO (ANTI-SHADOWBAN) — PARTE 1
 Aplica inyección de caracteres de ancho cero (\u200B) a todas las palabras clave sensibles
-del expediente de fraude electoral en Colombia 2026.
+del expediente de fraude electoral en Colombia 2026 (Parte 1).
 """
 
 import re
@@ -14,7 +14,7 @@ def inmunizar_texto(texto: str) -> str:
         "fraude", "electoral", "colombia", "registraduria", "fiscalia", 
         "cne", "blindmasking", "blind masking", "e14", "e-14", "corrupcion",
         "andretaker", "anzaca", "babayaga", "github.com", "denuncia", "actas",
-        "alteracion", "nulidad"
+        "alteracion", "nulidad", "parte 1"
     ]
     
     texto_blindado = texto
@@ -32,15 +32,15 @@ def inmunizar_texto(texto: str) -> str:
     return texto_blindado
 
 def main():
-    post_principal = """🇨🇴 ACERVO PROBATORIO OFICIAL: FRAUDE ELECTORAL COLOMBIA 2026
+    post_principal = """🇨🇴 ACERVO PROBATORIO OFICIAL: FRAUDE ELECTORAL COLOMBIA 2026 — [PARTE 1]
 
-Descubrimiento científico de la investigadora Andrea Zabala Cárcamo (AnZaCa):
-Demostración técnica del #BlindMasking (inyección de capas 1bpc #FFFFFF en streams /FlateDecode de actas E-14), QR sintéticos con divergencia textual y alteración progresiva de versiones V1 a V4.
+Parte 1: Descubrimiento científico de la investigadora Andrea Zabala Cárcamo (AnZaCa):
+Demostración técnica del #BlindMasking (inyección de capas 1bpc #FFFFFF en streams /FlateDecode de actas E-14), QR sintéticos con divergencia textual y primeras denuncias radicadas (1 al 10 de Junio de 2026).
 
 📦 Descarga directa de Denuncias Penales, Radicados Activos (Fiscalía, CNE, URIEL) y Dictamen Pericial:
 👉 https://www.andretaker.org/fraude_electoral_colombia.html
 
-#DataScience #DigitalForensics #OpenSource #Colombia #Democracia #AnZaCa #AndreTaker"""
+#DataScience #DigitalForensics #OpenSource #Colombia #Democracia #AnZaCa #AndreTaker #Parte1"""
 
     post_inmune = inmunizar_texto(post_principal)
     
