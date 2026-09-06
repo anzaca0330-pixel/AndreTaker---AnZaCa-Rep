@@ -528,6 +528,44 @@
       </div>
     </section>
 
+    <!-- Caja de Difusión Inmune Anti-Shadowban -->
+    <section>
+      <h2 class="section-title">🛡️ Difusión Inmunizada contra Shadowban y Censura Algorítmica</h2>
+      <p style="color: var(--text-muted); margin-bottom: 1.25rem;">
+        Si compartes este expediente en redes sociales (X/Twitter, Facebook, Instagram, Signal o WhatsApp), utiliza este texto previamente sanitizado con <strong>inyección de caracteres de ancho cero (Zero-Width <code>\u200B</code>)</strong> para burlar los filtros de bloqueo estático de palabras clave manteniendo legibilidad humana perfecta:
+      </p>
+
+      <div style="background: #0b1329; border: 1px solid var(--border-gold); border-radius: 8px; padding: 1.5rem; position: relative;">
+        <pre id="immune-post-text" style="font-family: var(--font-mono); font-size: 0.85rem; color: #e5e7eb; white-space: pre-wrap; word-break: break-word; line-height: 1.5; margin-bottom: 1.25rem;">🇨🇴 ACERVO PROBATORIO OFICIAL: FRA&#x200B;UDE ELEC&#x200B;TORAL COLO&#x200B;MBIA 2026
+
+Descubrimiento científico de la investigadora Andrea Zabala Cárcamo (AnZ&#x200B;aCa):
+Demostración técnica del #BlindM&#x200B;asking (inyección de capas 1bpc #FFFFFF en streams /FlateDecode de ac&#x200B;tas E-&#x200B;14), QR sintéticos con divergencia textual y alteración progresiva de versiones V1 a V4.
+
+📦 Descarga directa de Denu&#x200B;ncias Penales, Radicados Activos (Fiscalía, C&#x200B;NE, URIEL) y Dictamen Pericial:
+👉 https://forensics.andre&#x200B;taker.org/fra&#x200B;ude_elec&#x200B;toral_colo&#x200B;mbia.html
+
+#DataScience #DigitalForensics #OpenSource #Colo&#x200B;mbia #Democracia #AnZ&#x200B;aCa #Andre&#x200B;Taker</pre>
+
+        <button onclick="copiarPostInmune()" id="btn-copiar-post" style="background: linear-gradient(135deg, #f59e0b, #d97706); color: #000; border: none; padding: 10px 20px; border-radius: 6px; font-weight: 800; font-size: 0.88rem; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 0 12px rgba(245, 158, 11, 0.4);">
+          📋 Copiar Post Inmunizado al Portapapeles
+        </button>
+        <span id="copy-status" style="margin-left: 12px; font-family: var(--font-mono); font-size: 0.82rem; color: #34d399; display: none;">✅ ¡Copiado con protección Zero-Width!</span>
+      </div>
+
+      <script>
+        function copiarPostInmune() {
+          const texto = document.getElementById('immune-post-text').innerText;
+          navigator.clipboard.writeText(texto).then(() => {
+            const status = document.getElementById('copy-status');
+            status.style.display = 'inline';
+            setTimeout(() => { status.style.display = 'none'; }, 3000);
+          }).catch(err => {
+            alert('Error al copiar: ' + err);
+          });
+        }
+      </script>
+    </section>
+
   </main>
 
   <footer>
