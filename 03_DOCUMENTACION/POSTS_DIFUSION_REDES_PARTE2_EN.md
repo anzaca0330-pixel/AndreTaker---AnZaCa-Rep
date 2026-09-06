@@ -3,8 +3,7 @@
 **Author & Lead Forensic Investigator:** Andrea Zabala Cárcamo (AnZaCa / AndreTaker)  
 **Case:** Colombian 2026 Presidential Runoff Electoral Fraud (June 21, 2026)  
 **Official Portal:** `https://forensics.andretaker.org/fraude_electoral_colombia_parte2.html`  
-**CyberDefense Mirror:** `https://andretaker.org/fraude_electoral_colombia_parte2.html`  
-**Anti-Shadowban Protection:** Immune broadcast text with Zero-Width spaces (`\u200B`) to bypass static scrapers and keyword suppression.
+**CyberDefense Mirror:** `https://andretaker.org/fraude_electoral_colombia_parte2.html`
 
 ---
 

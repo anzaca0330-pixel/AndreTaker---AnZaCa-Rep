@@ -3,8 +3,7 @@
 **Autora y Perito Forense:** Andrea Zabala Cárcamo (AnZaCa / AndreTaker)  
 **Caso:** Fraude Electoral Colombia 2026 — Segunda Vuelta Presidencial (21 de Junio de 2026)  
 **Portal Oficial:** `https://forensics.andretaker.org/fraude_electoral_colombia_parte2.html`  
-**Espejo Ciberdefensa:** `https://andretaker.org/fraude_electoral_colombia_parte2.html`  
-**Protección Anti-Shadowban:** Texto inmune con caracteres de ancho cero (`\u200B`) inyectados para neutralizar scrapers de palabras clave y censura algorítmica.
+**Espejo Ciberdefensa:** `https://andretaker.org/fraude_electoral_colombia_parte2.html`
 
 ---
 
@@ -24,7 +23,7 @@ forensics.andretaker.org/fraude_electoral_colombia_parte2.html
 
 ---
 
-## 🧵 2. HILO COMPLETO PARA X / TWITTER (5 Tweets con Cero-Width Anti-Shadowban)
+## 🧵 2. HILO COMPLETO PARA X / TWITTER (5 Tweets)
 
 ### 🔹 Tweet 1 (Apertura):
 ```text
