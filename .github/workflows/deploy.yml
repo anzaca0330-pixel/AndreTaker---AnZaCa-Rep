@@ -27,12 +27,14 @@ jobs:
       - name: Prepare static web site artifact
         run: |
           mkdir -p _site
-          cp index.html _site/
-          cp index.css _site/
-          cp index.js _site/
+          cp *.html _site/ 2>/dev/null || true
+          cp index.css _site/ 2>/dev/null || true
+          cp index.js _site/ 2>/dev/null || true
           cp manifest.json _site/ 2>/dev/null || true
           cp sw.js _site/ 2>/dev/null || true
+          cp CNAME _site/ 2>/dev/null || true
           cp -r assets _site/ 2>/dev/null || true
+          cp -r downloads _site/ 2>/dev/null || true
           cp -r 02_ANALISIS _site/ 2>/dev/null || true
           cp -r 03_DOCUMENTACION _site/ 2>/dev/null || true
           touch _site/.nojekyll
