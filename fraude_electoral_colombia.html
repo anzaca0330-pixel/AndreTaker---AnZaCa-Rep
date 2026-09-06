@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Denuncias y Acervo Forense: Fraude Electoral Colombia 2026 | Andrea Zabala Cárcamo</title>
+  <title>Parte 1 — Denuncias y Acervo Forense: Fraude Electoral Colombia 2026 | Andrea Zabala Cárcamo</title>
   <meta name="description" content="Portal oficial y centro de descarga pública del acervo probatorio, denuncias penales y dictamen pericial sobre el fraude electoral en Colombia 2026. Descubrimiento del Blind Masking (#BLINDMASKING) por Andrea Zabala Cárcamo (AnZaCa).">
   <meta name="author" content="Andrea Zabala Cárcamo (AnZaCa / AndreTaker)">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,6 +45,8 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
     }
     .top-nav a {
       color: var(--accent-cyan);
@@ -56,6 +58,31 @@
       gap: 0.5rem;
     }
     .top-nav a:hover { text-decoration: underline; }
+
+    .lang-switcher {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: rgba(15, 23, 42, 0.9);
+      padding: 4px 8px;
+      border-radius: 20px;
+      border: 1px solid var(--accent-cyan);
+    }
+    .lang-btn {
+      background: transparent;
+      color: var(--text-muted);
+      border: none;
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-weight: 800;
+      cursor: pointer;
+      font-size: 0.75rem;
+      transition: all 0.2s;
+    }
+    .lang-btn.active {
+      background: var(--accent-cyan);
+      color: #030712;
+    }
 
     header {
       background: radial-gradient(circle at 50% 20%, #1e1b4b 0%, #030712 70%);
@@ -197,10 +224,6 @@
       color: #d1d5db;
       font-size: 0.92rem;
     }
-    .card ul {
-      margin-left: 1.25rem;
-      margin-top: 0.5rem;
-    }
 
     /* DOWNLOAD MATRIX */
     .download-grid {
@@ -304,8 +327,15 @@
 
   <!-- Top Navigation Bar -->
   <div class="top-nav">
-    <a href="index.html">← Volver a la Suite Forense Principal (BaBaYaga Core)</a>
-    <span style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-amber);">🇨🇴 EXPEDIENTE OFICIAL COLOMBIA 2026</span>
+    <a href="index.html" data-i18n="nav_back_suite">← Volver a la Suite Forense Principal (BaBaYaga Core)</a>
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <span style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-amber);" data-i18n="top_jurisdiction">🇨🇴 EXPEDIENTE OFICIAL COLOMBIA 2026</span>
+      <div class="lang-switcher">
+        <button onclick="setLang('es')" class="lang-btn active" id="btn-es">🇪🇸 ES</button>
+        <button onclick="setLang('en')" class="lang-btn" id="btn-en">🇺🇸 EN</button>
+        <button onclick="setLang('fr')" class="lang-btn" id="btn-fr">🇫🇷 FR</button>
+      </div>
+    </div>
   </div>
 
   <!-- Header -->
@@ -318,19 +348,19 @@
       </div>
       
       <div class="badge-bar">
-        <span class="badge badge-gold">PARTE 1: FASE INICIAL & RADICACIÓN DE HALLAZGOS</span>
-        <span class="badge badge-cyan">>677 GB Preservados SHA-256</span>
-        <span class="badge badge-red">Denuncias Penales Activas</span>
-        <span class="badge badge-green">ISO 27037 Custodia Inmutable</span>
+        <span class="badge badge-gold" data-i18n="badge_part1">PARTE 1: FASE INICIAL & RADICACIÓN DE HALLAZGOS</span>
+        <span class="badge badge-cyan" data-i18n="badge_vault">>677 GB Preservados SHA-256</span>
+        <span class="badge badge-red" data-i18n="badge_active">Denuncias Penales Activas</span>
+        <span class="badge badge-green" data-i18n="badge_iso">ISO 27037 Custodia Inmutable</span>
       </div>
 
-      <h1>PORTAL OFICIAL DE DENUNCIA & EVIDENCIA<br>FRAUDE ELECTORAL COLOMBIA 2026 — [PARTE 1]</h1>
-      <p class="subtitle">Parte 1: Descubrimiento Científico del Blind Masking, Primeras Denuncias Penales (Semana del 1 al 10 de Junio de 2026) y Radicados Oficiales FGN / CNE / URIEL</p>
+      <h1 data-i18n="main_title">PORTAL OFICIAL DE DENUNCIA & EVIDENCIA<br>FRAUDE ELECTORAL COLOMBIA 2026 — [PARTE 1]</h1>
+      <p class="subtitle" data-i18n="main_subtitle">Parte 1: Descubrimiento Científico del Blind Masking, Primeras Denuncias Penales (Semana del 1 al 10 de Junio de 2026) y Radicados Oficiales FGN / CNE / URIEL</p>
 
       <div class="author-seal">
-        <div><strong>Investigadora Principal & Descubridora Científica:</strong> Andrea Zabala Cárcamo (AnZaCa / AndreTaker)</div>
-        <div><strong>Patente Metodológica & Secreto Comercial:</strong> DTSA (18 U.S.C. § 1836) / UTSA / Convenio de Berna / Decisión Andina 351</div>
-        <div><strong>Jurisdicción Principal:</strong> República de Colombia (Fiscalía General, CNE, Consejo de Estado) | Internacional: CIDH (OEA)</div>
+        <div><strong data-i18n="author_label">Investigadora Principal & Descubridora Científica:</strong> Andrea Zabala Cárcamo (AnZaCa / AndreTaker)</div>
+        <div><strong data-i18n="patent_label">Patente Metodológica & Secreto Comercial:</strong> DTSA (18 U.S.C. § 1836) / UTSA / Convenio de Berna / Decisión Andina 351</div>
+        <div><strong data-i18n="jurisdiction_label">Jurisdicción Principal:</strong> República de Colombia (Fiscalía General, CNE, Consejo de Estado) | Internacional: CIDH (OEA)</div>
       </div>
     </div>
   </header>
@@ -340,36 +370,36 @@
     <!-- Aclaración Doctrinal y Legal -->
     <section>
       <div class="alert-box">
-        <h2>🚨 Corrección Pericial y Rigor Técnico: Qué es y Qué NO es el Fraude</h2>
-        <p>
+        <h2 data-i18n="alert_title">🚨 Corrección Pericial y Rigor Técnico: Qué es y Qué NO es el Fraude</h2>
+        <p data-i18n="alert_text">
           Queda categóricamente aclarado ante la opinión pública, medios de comunicación y autoridades judiciales que la denuncia <strong>JAMÁS</strong> se refirió a un simple error visual de "páginas blancas en la web de la Registraduría". El descubrimiento científico realizado por <strong>Andrea Zabala Cárcamo</strong> entre el 1 y el 8 de junio de 2026 demostró una <strong>intervención binaria activa y progresiva sobre los streams internos de los archivos PDF oficiales</strong>:
         </p>
       </div>
 
       <div class="grid-2">
         <div class="card">
-          <h3>🔬 1. Técnica #BLINDMASKING</h3>
-          <p>Inyección maliciosa de capas monocromáticas <code>1bpc</code> con valor hexadecimal puro <code>#FFFFFF</code> (desviación estándar $\sigma = 0$, luminancia 65535) enmascarando los votos manuscritos reales en la descompresión binaria <code>/FlateDecode</code>.</p>
+          <h3 data-i18n="card1_title">🔬 1. Técnica #BLINDMASKING</h3>
+          <p data-i18n="card1_desc">Inyección maliciosa de capas monocromáticas <code>1bpc</code> con valor hexadecimal puro <code>#FFFFFF</code> (desviación estándar $\sigma = 0$, luminancia 65535) enmascarando los votos manuscritos reales en la descompresión binaria <code>/FlateDecode</code>.</p>
         </div>
         <div class="card">
-          <h3>📱 2. Códigos QR Sintéticos con Divergencia</h3>
-          <p>Inyección de matrices QR generadas digitalmente con vectores vectoriales puros que no corresponden al escaneo físico y cuya cadena interna contradice la sumatoria real del formulario E-14.</p>
+          <h3 data-i18n="card2_title">📱 2. Códigos QR Sintéticos con Divergencia</h3>
+          <p data-i18n="card2_desc">Inyección de matrices QR generadas digitalmente con vectores vectoriales puros que no corresponden al escaneo físico y cuya cadena interna contradice la sumatoria real del formulario E-14.</p>
         </div>
         <div class="card">
-          <h3>📑 3. Deltas XREF Fantasma (+2)</h3>
-          <p>Incremento forzado de la tabla de referencias cruzadas (+2 objetos fantasma) delatando la edición externa post-cierre de mesas antes de la publicación web.</p>
+          <h3 data-i18n="card3_title">📑 3. Deltas XREF Fantasma (+2)</h3>
+          <p data-i18n="card3_desc">Incremento forzado de la tabla de referencias cruzadas (+2 objetos fantasma) delatando la edición externa post-cierre de mesas antes de la publicación web.</p>
         </div>
         <div class="card">
-          <h3>⏱️ 4. Mutación Progresiva en Servidor</h3>
-          <p>Existencia demostrada de hasta 4 versiones sucesivas (V1 a V4) de una misma mesa electoral en los servidores oficiales con diferentes hashes SHA-256 a lo largo de las horas.</p>
+          <h3 data-i18n="card4_title">⏱️ 4. Mutación Progresiva en Servidor</h3>
+          <p data-i18n="card4_desc">Existencia demostrada de hasta 4 versiones sucesivas (V1 a V4) de una misma mesa electoral en los servidores oficiales con diferentes hashes SHA-256 a lo largo de las horas.</p>
         </div>
       </div>
     </section>
 
     <!-- Centro de Descarga Pública -->
     <section id="descargas">
-      <h2 class="section-title">📦 Centro de Descarga Pública de Evidencia y Radicados</h2>
-      <p style="color: var(--text-muted); margin-bottom: 1.5rem;">
+      <h2 class="section-title" data-i18n="downloads_title">📦 Centro de Descarga Pública de Evidencia y Radicados</h2>
+      <p style="color: var(--text-muted); margin-bottom: 1.5rem;" data-i18n="downloads_subtitle">
         Descarga directa de los documentos originales, denuncias radicadas, anexos forenses y comprobantes institucionales.
       </p>
 
@@ -378,150 +408,150 @@
         <div class="download-card">
           <div>
             <div class="download-header">
-              <div class="download-title">Denuncia Penal Principal</div>
+              <div class="download-title" data-i18n="doc_denuncia_title">Denuncia Penal Principal</div>
               <span class="badge badge-red">FGN</span>
             </div>
             <div class="download-meta">DENUNCIA_FINAL.pdf (270 KB)</div>
-            <div class="download-desc">Denuncia penal por Falsedad Ideológica, Falsedad Material, Fraude Electoral y Alteración de Resultados.</div>
+            <div class="download-desc" data-i18n="doc_denuncia_desc">Denuncia penal por Falsedad Ideológica, Falsedad Material, Fraude Electoral y Alteración de Resultados.</div>
           </div>
-          <a href="downloads/denuncias_colombia/DENUNCIA_FINAL.pdf" download class="btn-download btn-gold">📥 Descargar Denuncia (PDF)</a>
+          <a href="downloads/denuncias_colombia/DENUNCIA_FINAL.pdf" download class="btn-download btn-gold" data-i18n="btn_dl_denuncia">📥 Descargar Denuncia (PDF)</a>
         </div>
 
         <!-- ANEXO 1 TECNICO -->
         <div class="download-card">
           <div>
             <div class="download-header">
-              <div class="download-title">Anexo 1: Técnico Forense</div>
-              <span class="badge badge-cyan">Peritaje</span>
+              <div class="download-title" data-i18n="doc_anexo1_title">Anexo 1: Técnico Forense</div>
+              <span class="badge badge-cyan" data-i18n="badge_forensic">Peritaje</span>
             </div>
             <div class="download-meta">Anexo_1_Tecnico_Forense.pdf (49 KB)</div>
-            <div class="download-desc">Comandos periciales, metodología de extracción de streams y prueba de Blind Masking.</div>
+            <div class="download-desc" data-i18n="doc_anexo1_desc">Comandos periciales, metodología de extracción de streams y prueba de Blind Masking.</div>
           </div>
-          <a href="downloads/denuncias_colombia/Anexo_1_Tecnico_Forense.pdf" download class="btn-download">📥 Descargar Anexo 1 (PDF)</a>
+          <a href="downloads/denuncias_colombia/Anexo_1_Tecnico_Forense.pdf" download class="btn-download" data-i18n="btn_dl_anexo1">📥 Descargar Anexo 1 (PDF)</a>
         </div>
 
         <!-- ANEXO 8 CNE -->
         <div class="download-card">
           <div>
             <div class="download-header">
-              <div class="download-title">Denuncia Estadística CNE</div>
+              <div class="download-title" data-i18n="doc_anexo8_title">Denuncia Estadística CNE</div>
               <span class="badge badge-gold">CNE</span>
             </div>
             <div class="download-meta">Anexo_8_Denuncia_Estadistica_CNE.pdf (32 KB)</div>
-            <div class="download-desc">Denuncia radicada ante el CNE (Rad. CNE-E-DG-2026-021378) sobre distorsión matemática.</div>
+            <div class="download-desc" data-i18n="doc_anexo8_desc">Denuncia radicada ante el CNE (Rad. CNE-E-DG-2026-021378) sobre distorsión matemática.</div>
           </div>
-          <a href="downloads/denuncias_colombia/Anexo_8_Denuncia_Estadistica_CNE.pdf" download class="btn-download">📥 Descargar Anexo CNE (PDF)</a>
+          <a href="downloads/denuncias_colombia/Anexo_8_Denuncia_Estadistica_CNE.pdf" download class="btn-download" data-i18n="btn_dl_anexo8">📥 Descargar Anexo CNE (PDF)</a>
         </div>
 
         <!-- AMPLIACION DE LA DENUNCIA -->
         <div class="download-card" style="border-color: rgba(245, 158, 11, 0.4);">
           <div>
             <div class="download-header">
-              <div class="download-title">Ampliación de la Denuncia</div>
-              <span class="badge badge-gold">19 Páginas</span>
+              <div class="download-title" data-i18n="doc_ampliacion_title">Ampliación de la Denuncia</div>
+              <span class="badge badge-gold" data-i18n="badge_19pages">19 Páginas</span>
             </div>
             <div class="download-meta">Ampliacion_Denuncia.pdf (11 MB)</div>
-            <div class="download-desc">Ampliación formal y técnica radicada el 21 de junio de 2026 con el desglose gráfico y probatorio de mesas.</div>
+            <div class="download-desc" data-i18n="doc_ampliacion_desc">Ampliación formal y técnica radicada el 21 de junio de 2026 con el desglose gráfico y probatorio de mesas.</div>
           </div>
-          <a href="downloads/denuncias_colombia/Ampliacion_Denuncia.pdf" download class="btn-download btn-gold">📥 Descargar Ampliación (PDF)</a>
+          <a href="downloads/denuncias_colombia/Ampliacion_Denuncia.pdf" download class="btn-download btn-gold" data-i18n="btn_dl_ampliacion">📥 Descargar Ampliación (PDF)</a>
         </div>
 
         <!-- DICTAMEN EJECUTIVO NULIDAD -->
         <div class="download-card">
           <div>
             <div class="download-header">
-              <div class="download-title">Dictamen Pericial Ejecutivo</div>
-              <span class="badge badge-green">Completo</span>
+              <div class="download-title" data-i18n="doc_dictamen_title">Dictamen Pericial Ejecutivo</div>
+              <span class="badge badge-green" data-i18n="badge_complete">Completo</span>
             </div>
             <div class="download-meta">DICTAMEN_PERICIAL_EJECUTIVO_NULIDAD_ELECTORAL.md</div>
-            <div class="download-desc">Documento maestro consolidado para tribunales, veedurías y organismos internacionales.</div>
+            <div class="download-desc" data-i18n="doc_dictamen_desc">Documento maestro consolidado para tribunales, veedurías y organismos internacionales.</div>
           </div>
-          <a href="downloads/denuncias_colombia/DICTAMEN_PERICIAL_EJECUTIVO_NULIDAD_ELECTORAL.md" download class="btn-download">📥 Descargar Dictamen (MD)</a>
+          <a href="downloads/denuncias_colombia/DICTAMEN_PERICIAL_EJECUTIVO_NULIDAD_ELECTORAL.md" download class="btn-download" data-i18n="btn_dl_dictamen">📥 Descargar Dictamen (MD)</a>
         </div>
 
         <!-- TRAMITE OFICIAL CNE -->
         <div class="download-card">
           <div>
             <div class="download-header">
-              <div class="download-title">Oficio de Trámite CNE</div>
-              <span class="badge badge-gold">Magistratura</span>
+              <div class="download-title" data-i18n="doc_tramite_title">Oficio de Trámite CNE</div>
+              <span class="badge badge-gold" data-i18n="badge_magistrate">Magistratura</span>
             </div>
             <div class="download-meta">TRÁMITE DE OFICIO.pdf (229 KB)</div>
-            <div class="download-desc">Oficio CNE-FMG-348-2026 remitido por el despacho de la Magistrada Fabiola Márquez Grisales.</div>
+            <div class="download-desc" data-i18n="doc_tramite_desc">Oficio CNE-FMG-348-2026 remitido por el despacho de la Magistrada Fabiola Márquez Grisales.</div>
           </div>
-          <a href="downloads/denuncias_colombia/TRÁMITE DE OFICIO.pdf" download class="btn-download">📥 Descargar Trámite CNE (PDF)</a>
+          <a href="downloads/denuncias_colombia/TRÁMITE DE OFICIO.pdf" download class="btn-download" data-i18n="btn_dl_tramite">📥 Descargar Trámite CNE (PDF)</a>
         </div>
 
         <!-- TRASLADO URIEL -->
         <div class="download-card">
           <div>
             <div class="download-header">
-              <div class="download-title">Certificación Traslado URIEL</div>
+              <div class="download-title" data-i18n="doc_uriel_title">Certificación Traslado URIEL</div>
               <span class="badge badge-cyan">MinInterior</span>
             </div>
             <div class="download-meta">RAD-2026-0007233-URI (95 KB)</div>
-            <div class="download-desc">Certificación oficial de remisión del caso a la Fiscalía General y a la Registraduría.</div>
+            <div class="download-desc" data-i18n="doc_uriel_desc">Certificación oficial de remisión del caso a la Fiscalía General y a la Registraduría.</div>
           </div>
-          <a href="downloads/denuncias_colombia/Gmail%20-%20Fwd_%20RAD-2026-0007233-URI%20(2).pdf" download class="btn-download">📥 Descargar Traslado (PDF)</a>
+          <a href="downloads/denuncias_colombia/Gmail%20-%20Fwd_%20RAD-2026-0007233-URI%20(2).pdf" download class="btn-download" data-i18n="btn_dl_uriel">📥 Descargar Traslado (PDF)</a>
         </div>
       </div>
     </section>
 
     <!-- Matriz de Radicados y Estado Jurídico -->
     <section>
-      <h2 class="section-title">⚖️ Matriz Oficial de Radicados y Trazabilidad Institucional</h2>
+      <h2 class="section-title" data-i18n="matrix_title">⚖️ Matriz Oficial de Radicados y Trazabilidad Institucional</h2>
       <div class="table-container">
         <table>
           <thead>
             <tr>
-              <th>Entidad / Organismo</th>
-              <th>Número de Radicado</th>
-              <th>Fecha de Radicación</th>
-              <th>Funcionario / Estado Legal</th>
+              <th data-i18n="th_entity">Entidad / Organismo</th>
+              <th data-i18n="th_radicado">Número de Radicado</th>
+              <th data-i18n="th_date">Fecha de Radicación</th>
+              <th data-i18n="th_status">Funcionario / Estado Legal</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><strong>Fiscalía General (Ampliación Formal)</strong></td>
+              <td><strong data-i18n="row1_ent">Fiscalía General (Ampliación Formal)</strong></td>
               <td><code>2026306002309711</code> (Control: <code>358660</code>)</td>
               <td>21/Jun/2026 (19 págs)</td>
-              <td><span style="color: #34d399; font-weight: 700;">ACTIVO</span> — Incorporado al expediente principal FGN</td>
+              <td><span style="color: #34d399; font-weight: 700;" data-i18n="status_active_inc">ACTIVO — Incorporado al expediente principal FGN</span></td>
             </tr>
             <tr>
-              <td><strong>Fiscalía General de la Nación</strong></td>
+              <td><strong data-i18n="row2_ent">Fiscalía General de la Nación</strong></td>
               <td><code>2026306002309711</code> (Control: <code>358660</code>)</td>
               <td>19/Jun/2026 (10:21 AM)</td>
-              <td><span style="color: #34d399; font-weight: 700;">ACTIVO</span> — Asignado a Karen Yineth Rodriguez Millan</td>
+              <td><span style="color: #34d399; font-weight: 700;" data-i18n="status_active_karen">ACTIVO — Asignado a Karen Yineth Rodriguez Millan</span></td>
             </tr>
             <tr>
-              <td><strong>Consejo Nacional Electoral (CNE)</strong></td>
+              <td><strong data-i18n="row3_ent">Consejo Nacional Electoral (CNE)</strong></td>
               <td><code>CNE-E-DG-2026-021378</code> / <code>022140</code></td>
               <td>05/Jun/2026 (15:15 hrs)</td>
-              <td><span style="color: #34d399; font-weight: 700;">ACTIVO</span> — Oficio CNE-FMG-348-2026 (Magistrada Fabiola Márquez)</td>
+              <td><span style="color: #34d399; font-weight: 700;" data-i18n="status_active_cne">ACTIVO — Oficio CNE-FMG-348-2026 (Magistrada Fabiola Márquez)</span></td>
             </tr>
             <tr>
-              <td><strong>URIEL (Ministerio del Interior)</strong></td>
+              <td><strong data-i18n="row4_ent">URIEL (Ministerio del Interior)</strong></td>
               <td><code>RAD-2026-0007233-URI</code></td>
               <td>09/Jun/2026 (08:51 hrs)</td>
-              <td><span style="color: #38bdf8; font-weight: 700;">TRASLADADO</span> — Certificado a Fiscalía y Registraduría Nacional</td>
+              <td><span style="color: #38bdf8; font-weight: 700;" data-i18n="status_transferred_uriel">TRASLADADO — Certificado a Fiscalía y Registraduría Nacional</span></td>
             </tr>
             <tr>
-              <td><strong>RTVC Sistema de Medios Públicos</strong></td>
+              <td><strong data-i18n="row5_ent">RTVC Sistema de Medios Públicos</strong></td>
               <td><code>202605510107022</code></td>
               <td>09/Jun/2026</td>
-              <td>Trasladado el 17/Jun/2026</td>
+              <td data-i18n="status_transferred_rtvc">Trasladado el 17/Jun/2026</td>
             </tr>
             <tr>
-              <td><strong>Comisión Interamericana (CIDH / OEA)</strong></td>
+              <td><strong data-i18n="row6_ent">Comisión Interamericana (CIDH / OEA)</strong></td>
               <td><code>IACHR - 0000113728</code></td>
               <td>29/Jun/2026</td>
-              <td>Medidas Cautelares por Persecución y Asedio Informático</td>
+              <td data-i18n="status_cidh">Medidas Cautelares por Persecución y Asedio Informático</td>
             </tr>
             <tr>
-              <td><strong>Sheriff Office Buckingham County</strong></td>
+              <td><strong data-i18n="row7_ent">Sheriff Office Buckingham County</strong></td>
               <td><code>Incident C20260617-0024-01</code></td>
               <td>17/Jun/2026</td>
-              <td>Denuncia formal de asedio físico y hostigamiento cibernético</td>
+              <td data-i18n="status_sheriff">Denuncia formal de asedio físico y hostigamiento cibernético</td>
             </tr>
           </tbody>
         </table>
@@ -530,26 +560,26 @@
 
     <!-- Caja de Difusión Inmune Anti-Shadowban -->
     <section>
-      <h2 class="section-title">🛡️ Difusión Inmunizada contra Shadowban y Censura Algorítmica</h2>
-      <p style="color: var(--text-muted); margin-bottom: 1.25rem;">
+      <h2 class="section-title" data-i18n="shadowban_title">🛡️ Difusión Inmunizada contra Shadowban y Censura Algorítmica</h2>
+      <p style="color: var(--text-muted); margin-bottom: 1.25rem;" data-i18n="shadowban_desc">
         Si compartes este expediente en redes sociales (X/Twitter, Facebook, Instagram, Signal o WhatsApp), utiliza este texto previamente sanitizado con <strong>inyección de caracteres de ancho cero (Zero-Width <code>\u200B</code>)</strong> para burlar los filtros de bloqueo estático de palabras clave manteniendo legibilidad humana perfecta:
       </p>
 
       <div style="background: #0b1329; border: 1px solid var(--border-gold); border-radius: 8px; padding: 1.5rem; position: relative;">
-        <pre id="immune-post-text" style="font-family: var(--font-mono); font-size: 0.85rem; color: #e5e7eb; white-space: pre-wrap; word-break: break-word; line-height: 1.5; margin-bottom: 1.25rem;">🇨🇴 ACERVO PROBATORIO OFICIAL: FRA&#x200B;UDE ELEC&#x200B;TORAL COLO&#x200B;MBIA 2026
+        <pre id="immune-post-text" style="font-family: var(--font-mono); font-size: 0.85rem; color: #e5e7eb; white-space: pre-wrap; word-break: break-word; line-height: 1.5; margin-bottom: 1.25rem;">🇨🇴 ACERVO PROBATORIO OFICIAL: FRA&#x200B;UDE ELEC&#x200B;TORAL COLO&#x200B;MBIA 2026 — [PAR&#x200B;TE 1]
 
-Descubrimiento científico de la investigadora Andrea Zabala Cárcamo (AnZ&#x200B;aCa):
-Demostración técnica del #BlindM&#x200B;asking (inyección de capas 1bpc #FFFFFF en streams /FlateDecode de ac&#x200B;tas E-&#x200B;14), QR sintéticos con divergencia textual y alteración progresiva de versiones V1 a V4.
+Par&#x200B;te 1: Descubrimiento científico de la investigadora Andrea Zabala Cárcamo (AnZ&#x200B;aCa):
+Demostración técnica del #BlindM&#x200B;asking (inyección de capas 1bpc #FFFFFF en streams /FlateDecode de ac&#x200B;tas E-&#x200B;14), QR sintéticos con divergencia textual y primeras denu&#x200B;ncias radicadas (1 al 10 de Junio de 2026).
 
 📦 Descarga directa de Denu&#x200B;ncias Penales, Radicados Activos (Fiscalía, C&#x200B;NE, URIEL) y Dictamen Pericial:
 👉 https://www.andre&#x200B;taker.org/fra&#x200B;ude_elec&#x200B;toral_colo&#x200B;mbia.html
 
-#DataScience #DigitalForensics #OpenSource #Colo&#x200B;mbia #Democracia #AnZ&#x200B;aCa #Andre&#x200B;Taker</pre>
+#DataScience #DigitalForensics #OpenSource #Colo&#x200B;mbia #Democracia #AnZ&#x200B;aCa #Andre&#x200B;Taker #Par&#x200B;te1</pre>
 
         <button onclick="copiarPostInmune()" id="btn-copiar-post" style="background: linear-gradient(135deg, #f59e0b, #d97706); color: #000; border: none; padding: 10px 20px; border-radius: 6px; font-weight: 800; font-size: 0.88rem; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 0 12px rgba(245, 158, 11, 0.4);">
-          📋 Copiar Post Inmunizado al Portapapeles
+          <span data-i18n="btn_copy_post">📋 Copiar Post Inmunizado al Portapapeles</span>
         </button>
-        <span id="copy-status" style="margin-left: 12px; font-family: var(--font-mono); font-size: 0.82rem; color: #34d399; display: none;">✅ ¡Copiado con protección Zero-Width!</span>
+        <span id="copy-status" style="margin-left: 12px; font-family: var(--font-mono); font-size: 0.82rem; color: #34d399; display: none;" data-i18n="copy_success">✅ ¡Copiado con protección Zero-Width!</span>
       </div>
 
       <script>
@@ -566,18 +596,330 @@ Demostración técnica del #BlindM&#x200B;asking (inyección de capas 1bpc #FFFF
       </script>
     </section>
 
+    <!-- Bibliografía Forense & Estándares Internacionales -->
+    <section>
+      <h2 class="section-title" data-i18n="biblio_title">📚 Bibliografía Forense & Estándares Internacionales</h2>
+      <p style="color: var(--text-muted); margin-bottom: 1.5rem;" data-i18n="biblio_subtitle">
+        Normas técnicas, protocolos de cadena de custodia y literatura científica que sustentan la metodología y validez pericial del acervo probatorio:
+      </p>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3 data-i18n="bib1_title">📖 1. ISO/IEC 27037:2012</h3>
+          <p data-i18n="bib1_desc"><em>Directrices para la identificación, recolección, adquisición y preservación de evidencia digital.</em> Estándar internacional rector bajo el cual se sellaron los >677 GB del acervo probatorio con hashes criptográficos inmutables.</p>
+        </div>
+        <div class="card">
+          <h3 data-i18n="bib2_title">📖 2. ISO 32000-1:2008 (PDF Spec)</h3>
+          <p data-i18n="bib2_desc"><em>Document management — Portable document format.</em> Especificación técnica que define la arquitectura interna de flujos comprimidos <code>/FlateDecode</code>, tablas de referencias cruzadas (XREF) y renderizado de máscaras monocromáticas 1bpc.</p>
+        </div>
+        <div class="card">
+          <h3 data-i18n="bib3_title">📖 3. NIST SP 800-86 & RFC 3161</h3>
+          <p data-i18n="bib3_desc"><em>Guía para integrar técnicas forenses & Protocolo de Sellado de Tiempo Criptográfico (TSP).</em> Marco para la verificación de marcas de tiempo de descargas masivas y detección de anomalías en transmisiones de red.</p>
+        </div>
+        <div class="card">
+          <h3 data-i18n="bib4_title">📖 4. Ley de Benford (2BL) & CPP Colombia</h3>
+          <p data-i18n="bib4_desc"><em>Nigrini, M. J. (2012) — Applications for Forensic Accounting & Fraud Detection</em> y <em>Código de Procedimiento Penal Colombiano (Ley 906 de 2004, Arts. 254-266)</em> sobre autenticidad de la evidencia física y digital.</p>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <footer>
     <div class="container">
-      <p style="font-weight: 700; color: #ffffff; margin-bottom: 0.5rem;">
+      <p style="font-weight: 700; color: #ffffff; margin-bottom: 0.5rem;" data-i18n="footer_brand">
         ACERVO FORENSE ELECTORAL COLOMBIA 2026 — ANDREA ZABALA CÁRCAMO (AnZaCa)
       </p>
-      <p>
+      <p data-i18n="footer_legal">
         Preservado bajo estándares forenses internacionales ISO 27037 y sellos criptográficos SHA-256. Prohibida la apropiación indebida de autoría científica.
       </p>
     </div>
   </footer>
+
+  <!-- Sistema Dinámico de Traducción i18n (ES / EN / FR) -->
+  <script>
+    const translations = {
+      es: {
+        nav_back_suite: "← Volver a la Suite Forense Principal (BaBaYaga Core)",
+        top_jurisdiction: "🇨🇴 EXPEDIENTE OFICIAL COLOMBIA 2026",
+        badge_part1: "PARTE 1: FASE INICIAL & RADICACIÓN DE HALLAZGOS",
+        badge_vault: ">677 GB Preservados SHA-256",
+        badge_active: "Denuncias Penales Activas",
+        badge_iso: "ISO 27037 Custodia Inmutable",
+        main_title: "PORTAL OFICIAL DE DENUNCIA & EVIDENCIA<br>FRAUDE ELECTORAL COLOMBIA 2026 — [PARTE 1]",
+        main_subtitle: "Parte 1: Descubrimiento Científico del Blind Masking, Primeras Denuncias Penales (Semana del 1 al 10 de Junio de 2026) y Radicados Oficiales FGN / CNE / URIEL",
+        author_label: "Investigadora Principal & Descubridora Científica:",
+        patent_label: "Patente Metodológica & Secreto Comercial:",
+        jurisdiction_label: "Jurisdicción Principal:",
+        alert_title: "🚨 Corrección Pericial y Rigor Técnico: Qué es y Qué NO es el Fraude",
+        alert_text: "Queda categóricamente aclarado ante la opinión pública, medios de comunicación y autoridades judiciales que la denuncia <strong>JAMÁS</strong> se refirió a un simple error visual de 'páginas blancas en la web de la Registraduría'. El descubrimiento científico realizado por <strong>Andrea Zabala Cárcamo</strong> entre el 1 y el 8 de junio de 2026 demostró una <strong>intervención binaria activa y progresiva sobre los streams internos de los archivos PDF oficiales</strong>:",
+        card1_title: "🔬 1. Técnica #BLINDMASKING",
+        card1_desc: "Inyección maliciosa de capas monocromáticas 1bpc con valor hexadecimal puro #FFFFFF (desviación estándar σ = 0, luminancia 65535) enmascarando los votos manuscritos reales en la descompresión binaria /FlateDecode.",
+        card2_title: "📱 2. Códigos QR Sintéticos con Divergencia",
+        card2_desc: "Inyección de matrices QR generadas digitalmente con vectores vectoriales puros que no corresponden al escaneo físico y cuya cadena interna contradice la sumatoria real del formulario E-14.",
+        card3_title: "📑 3. Deltas XREF Fantasma (+2)",
+        card3_desc: "Incremento forzado de la tabla de referencias cruzadas (+2 objetos fantasma) delatando la edición externa post-cierre de mesas antes de la publicación web.",
+        card4_title: "⏱️ 4. Mutación Progresiva en Servidor",
+        card4_desc: "Existencia demostrada de hasta 4 versiones sucesivas (V1 a V4) de una misma mesa electoral en los servidores oficiales con diferentes hashes SHA-256 a lo largo de las horas.",
+        downloads_title: "📦 Centro de Descarga Pública de Evidencia y Radicados",
+        downloads_subtitle: "Descarga directa de los documentos originales, denuncias radicadas, anexos forenses y comprobantes institucionales.",
+        doc_denuncia_title: "Denuncia Penal Principal",
+        doc_denuncia_desc: "Denuncia penal por Falsedad Ideológica, Falsedad Material, Fraude Electoral y Alteración de Resultados.",
+        btn_dl_denuncia: "📥 Descargar Denuncia (PDF)",
+        doc_anexo1_title: "Anexo 1: Técnico Forense",
+        badge_forensic: "Peritaje",
+        doc_anexo1_desc: "Comandos periciales, metodología de extracción de streams y prueba de Blind Masking.",
+        btn_dl_anexo1: "📥 Descargar Anexo 1 (PDF)",
+        doc_anexo8_title: "Denuncia Estadística CNE",
+        doc_anexo8_desc: "Denuncia radicada ante el CNE (Rad. CNE-E-DG-2026-021378) sobre distorsión matemática.",
+        btn_dl_anexo8: "📥 Descargar Anexo CNE (PDF)",
+        doc_ampliacion_title: "Ampliación de la Denuncia",
+        badge_19pages: "19 Páginas",
+        doc_ampliacion_desc: "Ampliación formal y técnica radicada el 21 de junio de 2026 con el desglose gráfico y probatorio de mesas.",
+        btn_dl_ampliacion: "📥 Descargar Ampliación (PDF)",
+        doc_dictamen_title: "Dictamen Pericial Ejecutivo",
+        badge_complete: "Completo",
+        doc_dictamen_desc: "Documento maestro consolidado para tribunales, veedurías y organismos internacionales.",
+        btn_dl_dictamen: "📥 Descargar Dictamen (MD)",
+        doc_tramite_title: "Oficio de Trámite CNE",
+        badge_magistrate: "Magistratura",
+        doc_tramite_desc: "Oficio CNE-FMG-348-2026 remitido por el despacho de la Magistrada Fabiola Márquez Grisales.",
+        btn_dl_tramite: "📥 Descargar Trámite CNE (PDF)",
+        doc_uriel_title: "Certificación Traslado URIEL",
+        doc_uriel_desc: "Certificación oficial de remisión del caso a la Fiscalía General y a la Registraduría.",
+        btn_dl_uriel: "📥 Descargar Traslado (PDF)",
+        matrix_title: "⚖️ Matriz Oficial de Radicados y Trazabilidad Institucional",
+        th_entity: "Entidad / Organismo",
+        th_radicado: "Número de Radicado",
+        th_date: "Fecha de Radicación",
+        th_status: "Funcionario / Estado Legal",
+        row1_ent: "Fiscalía General (Ampliación Formal)",
+        status_active_inc: "ACTIVO — Incorporado al expediente principal FGN",
+        row2_ent: "Fiscalía General de la Nación",
+        status_active_karen: "ACTIVO — Asignado a Karen Yineth Rodriguez Millan",
+        row3_ent: "Consejo Nacional Electoral (CNE)",
+        status_active_cne: "ACTIVO — Oficio CNE-FMG-348-2026 (Magistrada Fabiola Márquez)",
+        row4_ent: "URIEL (Ministerio del Interior)",
+        status_transferred_uriel: "TRASLADADO — Certificado a Fiscalía y Registraduría Nacional",
+        row5_ent: "RTVC Sistema de Medios Públicos",
+        status_transferred_rtvc: "Trasladado el 17/Jun/2026",
+        row6_ent: "Comisión Interamericana (CIDH / OEA)",
+        status_cidh: "Medidas Cautelares por Persecución y Asedio Informático",
+        row7_ent: "Sheriff Office Buckingham County",
+        status_sheriff: "Denuncia formal de asedio físico y hostigamiento cibernético",
+        shadowban_title: "🛡️ Difusión Inmunizada contra Shadowban y Censura Algorítmica",
+        shadowban_desc: "Si compartes este expediente en redes sociales (X/Twitter, Facebook, Instagram, Signal o WhatsApp), utiliza este texto previamente sanitizado con inyección de caracteres de ancho cero (Zero-Width \\u200B) para burlar los filtros de bloqueo estático de palabras clave manteniendo legibilidad humana perfecta:",
+        btn_copy_post: "📋 Copiar Post Inmunizado al Portapapeles",
+        copy_success: "✅ ¡Copiado con protección Zero-Width!",
+        biblio_title: "📚 Bibliografía Forense & Estándares Internacionales",
+        biblio_subtitle: "Normas técnicas, protocolos de cadena de custodia y literatura científica que sustentan la metodología y validez pericial del acervo probatorio:",
+        bib1_title: "📖 1. ISO/IEC 27037:2012",
+        bib1_desc: "Directrices para la identificación, recolección, adquisición y preservación de evidencia digital. Estándar internacional rector bajo el cual se sellaron los >677 GB del acervo probatorio con hashes criptográficos inmutables.",
+        bib2_title: "📖 2. ISO 32000-1:2008 (PDF Spec)",
+        bib2_desc: "Document management — Portable document format. Especificación técnica que define la arquitectura interna de flujos comprimidos /FlateDecode, tablas de referencias cruzadas (XREF) y renderizado de máscaras monocromáticas 1bpc.",
+        bib3_title: "📖 3. NIST SP 800-86 & RFC 3161",
+        bib3_desc: "Guía para integrar técnicas forenses & Protocolo de Sellado de Tiempo Criptográfico (TSP). Marco para la verificación de marcas de tiempo de descargas masivas y detección de anomalías en transmisiones de red.",
+        bib4_title: "📖 4. Ley de Benford (2BL) & CPP Colombia",
+        bib4_desc: "Nigrini, M. J. (2012) — Applications for Forensic Accounting & Fraud Detection y Código de Procedimiento Penal Colombiano (Ley 906 de 2004, Arts. 254-266) sobre autenticidad de la evidencia física y digital.",
+        footer_brand: "ACERVO FORENSE ELECTORAL COLOMBIA 2026 — ANDREA ZABALA CÁRCAMO (AnZaCa)",
+        footer_legal: "Preservado bajo estándares forenses internacionales ISO 27037 y sellos criptográficos SHA-256. Prohibida la apropiación indebida de autoría científica."
+      },
+      en: {
+        nav_back_suite: "← Back to Core Forensic Suite (BaBaYaga Core)",
+        top_jurisdiction: "🇨🇴 OFFICIAL COLOMBIA 2026 CASE FILE",
+        badge_part1: "PART 1: INITIAL PHASE & DISCOVERY FILINGS",
+        badge_vault: ">677 GB Preserved under SHA-256",
+        badge_active: "Active Criminal Complaints",
+        badge_iso: "ISO 27037 Immutable Custody",
+        main_title: "OFFICIAL EVIDENCE & COMPLAINT PORTAL<br>COLOMBIAN ELECTORAL FRAUD 2026 — [PART 1]",
+        main_subtitle: "Part 1: Scientific Discovery of Blind Masking, Initial Criminal Complaints (Week of June 1-10, 2026), and Official Filings before FGN / CNE / URIEL",
+        author_label: "Lead Forensic Investigator & Scientific Discoverer:",
+        patent_label: "Methodological Patent & Trade Secret:",
+        jurisdiction_label: "Primary Legal Jurisdiction:",
+        alert_title: "🚨 Forensic Precision: What the Evidence Shows vs. Misconceptions",
+        alert_text: "It is categorically clarified to the public, media, and judicial authorities that the complaint <strong>NEVER</strong> referred to a mere visual glitch of 'blank pages on the website'. The scientific discovery made by <strong>Andrea Zabala Cárcamo</strong> demonstrated an <strong>active binary tampering within internal streams of official PDF files</strong>:",
+        card1_title: "🔬 1. #BLINDMASKING Technique",
+        card1_desc: "Malicious injection of 1bpc monochromatic layers with pure hex value #FFFFFF (standard deviation σ = 0, luminance 65535) masking real handwritten ballots inside decompressed /FlateDecode streams.",
+        card2_title: "📱 2. Injected Synthetic QR Codes",
+        card2_desc: "Digital injection of vector-perfect QR code matrices that do not match physical paper scanning and whose decoded strings contradict the physical tally table.",
+        card3_title: "📑 3. Ghost XREF Deltas (+2)",
+        card3_desc: "Forced increment of cross-reference tables (+2 ghost objects) proving post-polling station closure external editing before web publishing.",
+        card4_title: "⏱️ 4. Server-Side Progressive Mutation",
+        card4_desc: "Empirically documented existence of up to 4 successive versions (V1 to V4) for the same polling station on official servers with distinct SHA-256 hashes across timestamps.",
+        downloads_title: "📦 Public Evidence & Certified Filings Download Center",
+        downloads_subtitle: "Direct download of original evidence files, criminal complaints, forensic annexes, and certified receipts.",
+        doc_denuncia_title: "Primary Criminal Complaint",
+        doc_denuncia_desc: "Criminal complaint for Ideological Falsehood, Material Forgery, Electoral Fraud, and Result Alteration.",
+        btn_dl_denuncia: "📥 Download Complaint (PDF)",
+        doc_anexo1_title: "Annex 1: Forensic Technical Brief",
+        badge_forensic: "Forensics",
+        doc_anexo1_desc: "Forensic commands, stream extraction methodology, and mathematical proof of Blind Masking.",
+        btn_dl_anexo1: "📥 Download Annex 1 (PDF)",
+        doc_anexo8_title: "CNE Statistical Complaint",
+        doc_anexo8_desc: "Formal complaint filed before the CNE (Filing CNE-E-DG-2026-021378) on mathematical distortion.",
+        btn_dl_anexo8: "📥 Download CNE Annex (PDF)",
+        doc_ampliacion_title: "Complaint Expansion (Ampliación)",
+        badge_19pages: "19 Pages",
+        doc_ampliacion_desc: "Formal technical expansion filed June 21, 2026, containing graphical and tally station breakdown.",
+        btn_dl_ampliacion: "📥 Download Expansion (PDF)",
+        doc_dictamen_title: "Executive Judicial Dictamen",
+        badge_complete: "Complete",
+        doc_dictamen_desc: "Master consolidated report for courts, civic oversight bodies, and international tribunals.",
+        btn_dl_dictamen: "📥 Download Dictamen (MD)",
+        doc_tramite_title: "CNE Official Referral Order",
+        badge_magistrate: "Magistrate",
+        doc_tramite_desc: "Official order CNE-FMG-348-2026 issued by Magistrate Fabiola Márquez Grisales' chamber.",
+        btn_dl_tramite: "📥 Download CNE Order (PDF)",
+        doc_uriel_title: "URIEL Transfer Certification",
+        doc_uriel_desc: "Official certification of case referral to the Attorney General's Office (Fiscalía) and Registry.",
+        btn_dl_uriel: "📥 Download Transfer (PDF)",
+        matrix_title: "⚖️ Official Institutional Filings & Case Traceability Matrix",
+        th_entity: "Institution / Entity",
+        th_radicado: "Filing / Docket Number",
+        th_date: "Filing Date",
+        th_status: "Assigned Official / Legal Status",
+        row1_ent: "Attorney General's Office (Formal Expansion)",
+        status_active_inc: "ACTIVE — Incorporated into primary FGN master docket",
+        row2_ent: "Attorney General's Office (Fiscalía)",
+        status_active_karen: "ACTIVE — Assigned to Investigator Karen Yineth Rodriguez Millan",
+        row3_ent: "National Electoral Council (CNE)",
+        status_active_cne: "ACTIVE — Order CNE-FMG-348-2026 (Magistrate Fabiola Márquez)",
+        row4_ent: "URIEL (Ministry of the Interior)",
+        status_transferred_uriel: "TRANSFERRED — Certified to Fiscalía and National Registry",
+        row5_ent: "RTVC Public Media System",
+        status_transferred_rtvc: "Transferred on June 17, 2026",
+        row6_ent: "Inter-American Commission (IACHR / OAS)",
+        status_cidh: "Precautionary Measures for Cyber Harassment & Persecution",
+        row7_ent: "Sheriff's Office Buckingham County",
+        status_sheriff: "Formal report of physical harassment and cyber attacks",
+        shadowban_title: "🛡️ Anti-Shadowban & Algorithmic Censorship Immune Broadcast",
+        shadowban_desc: "When sharing this case file on social platforms (X/Twitter, Facebook, Instagram, Signal, or WhatsApp), use this pre-sanitized text with Zero-Width character injection (\\u200B) to bypass static keyword scraping while preserving perfect human readability:",
+        btn_copy_post: "📋 Copy Immune Post to Clipboard",
+        copy_success: "✅ Copied with Zero-Width protection!",
+        biblio_title: "📚 Forensic Bibliography & International Standards",
+        biblio_subtitle: "Technical standards, chain of custody protocols, and scientific literature supporting the forensic methodology and validity of the evidence:",
+        bib1_title: "📖 1. ISO/IEC 27037:2012",
+        bib1_desc: "Guidelines for identification, collection, acquisition, and preservation of digital evidence. The governing international standard under which the >677 GB vault was sealed with immutable cryptographic hashes.",
+        bib2_title: "📖 2. ISO 32000-1:2008 (PDF Spec)",
+        bib2_desc: "Document management — Portable document format. Technical specification defining internal /FlateDecode compressed streams, cross-reference tables (XREF), and 1bpc monochromatic mask rendering.",
+        bib3_title: "📖 3. NIST SP 800-86 & RFC 3161",
+        bib3_desc: "Guide to Integrating Forensic Techniques into Incident Response & Time-Stamp Protocol (TSP). Framework for mass download timestamp verification and network transmission anomaly detection.",
+        bib4_title: "📖 4. Benford's Law (2BL) & Colombian Criminal Procedure",
+        bib4_desc: "Nigrini, M. J. (2012) — Applications for Forensic Accounting & Fraud Detection, and the Colombian Criminal Procedure Code (Law 906 of 2004, Arts. 254-266) regarding physical and digital evidence authenticity.",
+        footer_brand: "COLOMBIA 2026 ELECTORAL FORENSIC VAULT — ANDREA ZABALA CÁRCAMO (AnZaCa)",
+        footer_legal: "Preserved under ISO 27037 digital forensics standards and SHA-256 cryptographic seals. Unauthorized appropriation of scientific authorship prohibited."
+      },
+      fr: {
+        nav_back_suite: "← Retour à la Suite Forensique Principale (BaBaYaga Core)",
+        top_jurisdiction: "🇨🇴 DOSSIER OFFICIEL COLOMBIE 2026",
+        badge_part1: "PARTIE 1 : PHASE INITIALE & DÉPÔT DES PREUVES",
+        badge_vault: ">677 Go Préservés sous SHA-256",
+        badge_active: "Plaintes Pénales Actives",
+        badge_iso: "ISO 27037 Chaîne de Garde Immuable",
+        main_title: "PORTAIL OFFICIEL DE PLAINTE & PREUVES<br>FRAUDE ÉLECTORALE COLOMBIE 2026 — [PARTIE 1]",
+        main_subtitle: "Partie 1 : Découverte Scientifique du Blind Masking, Premières Plaintes Pénales (Semaine du 1 au 10 Juin 2026) et Enregistrements FGN / CNE / URIEL",
+        author_label: "Chercheuse Principale & Auteure Scientifique :",
+        patent_label: "Brevet Méthodologique & Secret Commercial :",
+        jurisdiction_label: "Juridiction Principale :",
+        alert_title: "🚨 Rigueur Technique et Précision Légale : Ce que démontrent les preuves",
+        alert_text: "Il est formellement précisé aux médias et tribunaux que la plainte ne portait <strong>JAMAIS</strong> sur une simple erreur de 'pages blanches'. La découverte scientifique réalisée par <strong>Andrea Zabala Cárcamo</strong> a démontré une <strong>altération binaire active au sein des flux internes des fichiers PDF officiels</strong> :",
+        card1_title: "🔬 1. Technique #BLINDMASKING",
+        card1_desc: "Injection malveillante de calques 1bpc monochromes #FFFFFF (écart-type σ = 0, luminance 65535) masquant les votes manuscrits réels dans les flux /FlateDecode.",
+        card2_title: "📱 2. Codes QR Synthétiques Divergents",
+        card2_desc: "Injection de matrices QR vectorielles ne correspondant pas au scan papier réel et contredisant les totaux du procès-verbal E-14.",
+        card3_title: "📑 3. Deltas XREF Fantômes (+2)",
+        card3_desc: "Augmentation forcée de la table de référence (+2 objets) révélant une édition externe après clôture du scrutin.",
+        card4_title: "⏱️ 4. Mutation Progressive sur Serveur",
+        card4_desc: "Existence prouvée de jusqu'à 4 versions successives (V1 à V4) pour un même bureau de vote avec des empreintes SHA-256 distinctes au fil des heures.",
+        downloads_title: "📦 Centre de Téléchargement Public des Preuves et Plaintes",
+        downloads_subtitle: "Téléchargement direct des documents originaux, plaintes pénales, annexes techniques et récépissés officiels.",
+        doc_denuncia_title: "Plainte Pénale Principale",
+        doc_denuncia_desc: "Plainte pénale pour Faux Matériel, Fraude Électorale et Altération de Résultats.",
+        btn_dl_denuncia: "📥 Télécharger la Plainte (PDF)",
+        doc_anexo1_title: "Annexe 1 : Rapport Technique Forensique",
+        badge_forensic: "Forensique",
+        doc_anexo1_desc: "Commandes periciales, méthodologie d'extraction de flux et preuve mathématique de Blind Masking.",
+        btn_dl_anexo1: "📥 Télécharger l'Annexe 1 (PDF)",
+        doc_anexo8_title: "Plainte Statistique CNE",
+        doc_anexo8_desc: "Plainte enregistrée auprès du CNE (Dépôt CNE-E-DG-2026-021378) sur la distorsion mathématique.",
+        btn_dl_anexo8: "📥 Télécharger l'Annexe CNE (PDF)",
+        doc_ampliacion_title: "Extension de la Plainte",
+        badge_19pages: "19 Pages",
+        doc_ampliacion_desc: "Extension technique formelle déposée le 21 juin 2026 détaillant les anomalies par bureau de vote.",
+        btn_dl_ampliacion: "📥 Télécharger l'Extension (PDF)",
+        doc_dictamen_title: "Rapport d'Expertise Judiciaire",
+        badge_complete: "Complet",
+        doc_dictamen_desc: "Document consolidé pour tribunaux, observatoires et instances internationales.",
+        btn_dl_dictamen: "📥 Télécharger le Rapport (MD)",
+        doc_tramite_title: "Ordonnance Officielle CNE",
+        badge_magistrate: "Magistrature",
+        doc_tramite_desc: "Ordonnance CNE-FMG-348-2026 émise par le cabinet de la Magistrate Fabiola Márquez Grisales.",
+        btn_dl_tramite: "📥 Télécharger l'Ordonnance CNE (PDF)",
+        doc_uriel_title: "Attestation de Transfert URIEL",
+        doc_uriel_desc: "Certificat officiel de transmission du dossier au Parquet Général (Fiscalía) et au Registre.",
+        btn_dl_uriel: "📥 Télécharger le Transfert (PDF)",
+        matrix_title: "⚖️ Tableau Officiel des Dépôts et Traçabilité Institutionnelle",
+        th_entity: "Institution / Organisme",
+        th_radicado: "Numéro de Dépôt",
+        th_date: "Date d'Enregistrement",
+        th_status: "Fonctionnaire / Statut Juridique",
+        row1_ent: "Parquet Général (Extension Formelle)",
+        status_active_inc: "ACTIF — Intégré au dossier principal du Parquet (FGN)",
+        row2_ent: "Parquet Général de la Nation (Fiscalía)",
+        status_active_karen: "ACTIF — Attribué à l'enquêtrice Karen Yineth Rodriguez Millan",
+        row3_ent: "Conseil National Électoral (CNE)",
+        status_active_cne: "ACTIF — Ordonnance CNE-FMG-348-2026 (Magistrate Fabiola Márquez)",
+        row4_ent: "URIEL (Ministère de l'Intérieur)",
+        status_transferred_uriel: "TRANSFÉRÉ — Attesté au Parquet et au Registre National",
+        row5_ent: "RTVC Système de Médias Publics",
+        status_transferred_rtvc: "Transféré le 17 juin 2026",
+        row6_ent: "Commission Interaméricaine (CIDH / OEA)",
+        status_cidh: "Mesures Conservatoires pour Cyber-harcèlement et Persécution",
+        row7_ent: "Bureau du Shérif Buckingham County",
+        status_sheriff: "Plainte formelle pour harcèlement physique et attaques réseau",
+        shadowban_title: "🛡️ Diffusion Immunisée contre le Shadowban et la Censure Algorithmique",
+        shadowban_desc: "Pour partager ce dossier sur les réseaux sociaux (X/Twitter, Facebook, Instagram, Signal ou WhatsApp), utilisez ce texte sécurisé avec insertion de caractères invisibles (Zero-Width \\u200B) :",
+        btn_copy_post: "📋 Copier le Message Sécurisé",
+        copy_success: "✅ Copié avec protection Zero-Width !",
+        biblio_title: "📚 Bibliographie Forensique & Normes Internationales",
+        biblio_subtitle: "Normes techniques, protocoles de chaîne de garde et littérature scientifique appuyant la méthodologie et la validité de la preuve :",
+        bib1_title: "📖 1. ISO/IEC 27037:2012",
+        bib1_desc: "Lignes directrices pour l'identification, la collecte, l'acquisition et la préservation des preuves numériques. Norme internationale sous laquelle les >677 Go de preuves ont été scellés sous SHA-256.",
+        bib2_title: "📖 2. ISO 32000-1:2008 (Spécification PDF)",
+        bib2_desc: "Gestion de documents — Format de document portable. Spécification technique définissant l'architecture des flux compressés /FlateDecode, tables de références croisées (XREF) et masques 1bpc.",
+        bib3_title: "📖 3. NIST SP 800-86 & RFC 3161",
+        bib3_desc: "Guide d'intégration des techniques forensiques & Protocole d'horodatage cryptographique (TSP). Cadre de vérification des horodatages et détection des anomalies de transmission.",
+        bib4_title: "📖 4. Loi de Benford (2BL) & Procédure Pénale",
+        bib4_desc: "Nigrini, M. J. (2012) — Applications for Forensic Accounting & Fraud Detection et Code de procédure pénale colombien (Loi 906 de 2004, art. 254-266) sur l'authenticité de la preuve.",
+        footer_brand: "FONDS FORENSIQUE ÉLECTORAL COLOMBIE 2026 — ANDREA ZABALA CÁRCAMO (AnZaCa)",
+        footer_legal: "Préservé selon les normes internationales ISO 27037 et scellé sous SHA-256. Toute appropriation illicite est interdite."
+      }
+    };
+
+    function setLang(lang) {
+      if (!translations[lang]) return;
+      localStorage.setItem('preferred_lang_colombia', lang);
+      document.documentElement.lang = lang;
+
+      document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+      const activeBtn = document.getElementById(`btn-${lang}`);
+      if (activeBtn) activeBtn.classList.add('active');
+
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[lang][key]) {
+          el.innerHTML = translations[lang][key];
+        }
+      });
+    }
+
+    // Auto-detect or restore preferred language
+    document.addEventListener('DOMContentLoaded', () => {
+      const savedLang = localStorage.getItem('preferred_lang_colombia') || 
+                        (navigator.language.startsWith('fr') ? 'fr' : (navigator.language.startsWith('en') ? 'en' : 'es'));
+      setLang(savedLang);
+    });
+  </script>
 
 </body>
 </html>
